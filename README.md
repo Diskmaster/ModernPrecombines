@@ -1,3 +1,4 @@
 Storage repository for the Precombines Command Line manual.
 
-https://diskmaster.github.io/ModernPrecombines/MANUAL
+[Manual](https://diskmaster.github.io/ModernPrecombines/MANUAL)
+[PRP Bugracker](https://diskmaster.github.io/ModernPrecombines/PRP-BUGTRACK)
