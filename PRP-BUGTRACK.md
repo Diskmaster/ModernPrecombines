@@ -22,3 +22,11 @@ Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 - \[U23460\] MedfordMemorial01: 7DC87 and 20B852 had placement corrected.
 - \[U?????, PRP\] Vault75: 07038FB1 was resulting in a void hole on previs generation. Z adjustment needs verified.
 - \[U23634\] GwinnettBrewery02: AD910 and AD911 moved to correctly stick to a wall.
+- \[PRP\] UniversityPoint01: 87A62 the chair got moved to not be floating awkwardly.
+- \[U?????\] CambridgeCollegeAdminBuilding: 21548A was moved by UF4OP
+- \[U23302, PRP\] CorvegaAssemblyPlant01: D3DC1 got moved to prevent z-fighting, 208218, 208219 and 208DF3 were shifted to prevent awkward clobbering as a result.
+- \[U23635\] IrishPrideShipyard01: 1362BD, 1362BE, 1362BF, 1362C6 positioning fixed to be on walls as intended. Spongebob, me boy.
+- \[PRP\] GeneralAtomicsFactory01: 99AD3, 99AED, A5421, 2134AB, 2134BC, 213511, 213512, 213513, 213514, 213515, 213516, 213518, 213519, 21351A Various barrel and crate moves to stop object clobbering.
+- \[U23636\] MedTekResearch01: 7AC6D Shifted the position of a floor tile.
+- \[U24441\] USAFSatellite01: 24894F Moved a desk out of the way.
+... 6F5DE is next to look at
