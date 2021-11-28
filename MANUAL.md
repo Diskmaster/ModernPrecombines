@@ -1,4 +1,4 @@
-A small preface before I begin, I've never been that good at documenting in a clear and concise manner, so bear with me as I make some explanation here. This living manual is not going to be very pretty at this stage as my current goal is to explain the methods used as best I can to those that don't know that much on how to use the Creation Kit, like me. Also, if you are coming here from a certain pirate themed discord's guide channel, treat this manual as the commandline extension to the precombine guide written out inside and anything in here would superceed it over what Shadow wrote.
+A small preface before I begin, I've never been that good at documenting in a clear and concise manner, so bear with me as I make some explanation here. This living manual is not going to be very pretty at this stage as my current goal is to explain the methods used as best I can to those that don't know that much on how to use the Creation Kit, like me.
 
 To start, what are precombines exactly? Well, depending on who you ask, trouble, a pain in the butt, a collection of smashed together meshes in the game, and quite possibly a menace to the modding community in some respects.
 
