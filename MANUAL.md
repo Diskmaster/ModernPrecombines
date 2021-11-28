@@ -30,7 +30,7 @@ Alright, at this point, if you haven't closed it and forced a save to the plugin
 You have two options at this point. One: Use the Copy Version Control info script on your plugin and copy from the source .esm files if you haven't made any new records. This is required for the purposes of the Creation Kit to correctly grab all the records for the purposes of our work. All records must have a valid date and cannot be showing None. Turn off the "only show conflicts" right click filter if you can't find them. The alternative is to simply load the plugin in the creation kit, and save after it finishes loading.
 
 Now, to actually generate precombines through the command line. (By the way, I personally use Con Emu for this, but any command line or Powershell will work for this purpose.) The typical command line is:
-[note: code tags] CreationKit.patched.exe or CreationKit.exe (CKFixes only currently recognizes the second name, keep this in mind if you patched the EXE) -GeneratedPrecombined:pluginname.esp clean all
+[note: code tags] CreationKit.patched.exe or CreationKit.exe (CKFixes only currently recognizes the second name, keep this in mind if you have patched the EXE) -GeneratedPrecombined:pluginname.esp clean all
 Now that above command line can be changed a bit as follows: clean or filtered (Clean mode generates like the base game and DLC while drastically reducing the filesize compared to the filtered mode which is equivalent to the Creation Kit's Graphical User Interface.), and ints or exts or all [note: Verify this, going off memory] (Tells the command line which group to build, useful if you have less ram to work with. There's also something about sets, but I don't have the information on that at the moment. [note: Research]) A note here. If you aren't using CK Fixes, you cannot have spaces in your plugin name.
 
 If successful, you'll see the CreationKit start to load the plugin and go through a long process. CK Fixes users should look at the attached log window for what it's actually doing, those not using it can just review the log generated. Depending on the plugin size, this will take a while. A typical Previs Repair Pack build at this stage takes two hours, and that's the entire game with my somewhat powerful machine. Don't touch the CK window or anything related to it. It will close on it's own when it's finished, presuming it doesn't spit out an error code of some sort. If you get such a thing, check the consistency of your plugin. Common problems are missing meshes or internal plugin information related as such.
@@ -50,3 +50,25 @@ At this point, unless you have a certain number of meshes below I think 8192 in 
 Once your archive is successful, clean out the loose files from the appropriate directories in Data/ This will usually be just Data/Meshes/Precombined/ if you have nothing else included.
 
 The following steps only apply if you generated with clean mode. Filtered mode generations can skip ahead a bit to the Previs phase.
+
+First of all, that .psg file that got generated needs to be compressed. This is thankfully real easy to do. CreationKit.exe -CompressPSG:pluginname.esp is what you use to do this. The Creation Kit will show up with it's window and do stuff and disappear when finished. If it does nothing, check what you typed out. You'll see a smaller sized .csg next to the .psg file. Distribute that with your mod. Delete the .psg if you like at this point.
+
+You also need to generate a cell index file. CreationKit.exe -BuildCDX:pluginname.esp will do this and take longer than the previous step. If you are watching the log file or window and start to see things about dummy data, your precombine meshes did not generate properly and you will have to start over. When it's done generating, make sure you also pack this with your mod.
+
+Now, before you start the previs generation run, two things to note. This is the part that takes the longest, and is about six hours for the entire game on my system. If you want to save some memory usage, temporarily move ALL texture .ba2 archives to that textmp folder you were asked to create earlier in the manual. The CK is dumb and tries to load all archives during the generation and for previs, textures aren't a requirement but it loads them anyway.
+
+Once you have done this, made your prayers to whatever deity you prefer, the command line is CreationKit.exe -GeneratePreVisData:pluginname.esp clean all You may notice that the options that were discussed on the Precombine phase are valid here as well, and recent discussion recommends using clean mode regardless of what you used to build precombines on. I personally haven't seen much a difference between the two modes, but I suspect that filtered previs is equivalent to the first CK GUI mode and shouldn't be used. [note: Verify this]
+
+Go make some coffee or something, as previously noted, this is going to take a while. The CK will close when it finishes like before. If successful, you'll see a new subdirectory in Data/ called Vis/
+
+Take a moment to move the texture .ba2s back to the Data/ folder before you continue so that future runs aren't broken due to this. I've done it.
+
+Now, the CK also generated a file called PreVis.esp. This file is the previs equivalent to the CombinedObjects.esp file above and the same information applies to it. Use 05_MergePreVis.pas from Searge's scripts or do the CK resave dance and merge with the same masterlist fixed script as before.
+
+Also, repack your archive to include the newly generated Vis/ file contents, which all end with .uvd. They are Umbra tomes and are the important information the game uses to figure out where to occlude and render correctly for optimum frames per second. Delete the Vis/ subdirectory after once you've confirmed they are in Main.ba2.
+
+At this point, you are done with the generation part. It's technically ready for release provided you include the plugin, Main.ba2, Texture.ba2 if relevant, and supporting files. (The .csg and .cdx) Also, your plugin name is hashed in the meshes, so do NOT rename your plugin, or else you'll have to rebuild again.
+
+Start testing the mod and check to see if it's all looking okay, as the Creation Kit has known issues in places with generation and there's only so much we can do about it. Run Quick Auto Clean and Identical to Previous Overrides if needed on the plugin and release if it passes testing checks.
+
+[note: need to fill in common pitfalls and known technical issues like the 3 master limit on unpatched CK]
