@@ -1,5 +1,5 @@
-Storage repository for the Precombines Command Line manual.
+Storage repository for the Precombines Command Line manual. For issues relating to the documentation, ask around in the xEdit discord or other discords I frequent under the Starhammer/Starhamster name. Pull requests preferred if it's something you can fix yourself.
 
-[Manual](https://diskmaster.github.io/ModernPrecombines/MANUAL)
+[Command Line Manual](https://diskmaster.github.io/ModernPrecombines/MANUAL)
 
-[PRP Bugracker](https://diskmaster.github.io/ModernPrecombines/PRP-BUGTRACK)
+[Previs Repair Pack Bugtracker](https://diskmaster.github.io/ModernPrecombines/PRP-BUGTRACK)
