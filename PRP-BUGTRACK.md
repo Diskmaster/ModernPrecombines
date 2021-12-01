@@ -3,6 +3,7 @@ Current PPF Version: 0.54.17
 Current known issues:
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), partially obscured, a work in progress as I need to figure out a better static choice that doesn't look awful
+- \[PRP\] \[3, -3]\ Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
