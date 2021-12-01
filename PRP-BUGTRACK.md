@@ -5,6 +5,7 @@ Current known issues:
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), partially obscured, a work in progress as I need to figure out a better static choice that doesn't look awful
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
+- ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 - \[U31732, PRP\] \[4, 1\] Commonwealth - Clear No LOD water flag to fix LOD generation in the area. PRP absorbs this fix as this flag is in the cell header.
