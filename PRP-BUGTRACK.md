@@ -9,6 +9,7 @@ Current known issues:
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 - \[U31732, PRP\] \[4, 1\] Commonwealth - Clear No LOD water flag to fix LOD generation in the area. PRP absorbs this fix as this flag is in the cell header.
+Notes past this point are presented in order as listed in FO4Edit as of 0.54.17+
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
 - \[U23865\] DLC03VimPopFactory01: 03017695 \(BldWlpSmWall01\) and 0301FB6F \(MetalShelf01_Broken01\) got moved and the room extended to clear up the door clobbering the shelf.
 - \[U?????, PRP\] LaytonTowers01: 15D9B8 from UF4OP, 15D934, 15D9E1, 15D9E2 had slight adjustments, the reason why escapes me. Needs verifying.
@@ -33,4 +34,30 @@ Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 - \[PRP\] GeneralAtomicsFactory01: 99AD3, 99AED, A5421, 2134AB, 2134BC, 213511, 213512, 213513, 213514, 213515, 213516, 213518, 213519, 21351A Various barrel and crate moves to stop object clobbering.
 - \[U23636\] MedTekResearch01: 7AC6D Shifted the position of a floor tile.
 - \[U24441\] USAFSatellite01: 24894F Moved a desk out of the way.
-... 6F5DE is next to look at
+- \[PRP\] NHMFreightDepot01: AA1A1, ADBBA, ADBBD, ADBBF, ADBC1, ADBD0, 20997C, 20997D, 20997E, 20997F, 209880, 20998F, 209990, 209991, 209993 Various placement fixes and moves to fix previs holes. Also move 209AF6 and 209AF9 to prevent object clipping.
+- \[PRP\] FallonsDepartmentStore01: 9E4D0, 9E4D2, 1C931F, 1C9320, 1C9321, 1C9322, 08011943-08011947 Various repairs for previs holes, submitted by krrptd
+- \[PRP\] PoseidonReservoir01: 946AA, 946AC Move a pair of Sandbags.
+- \[PRP\] MassPikeTunnel01: F4318 Placement shift for previs.
+- \[PRP\] VaultTecOffice01: 247F25 Remove desk clutter that could not have a good placement.
+- \[PRP\] DBTechHighSchool01: 246770, 246772 Move a pair of files.
+- \[PRP\] TiconderogaStation01: 3A2F6 Remove the Kitchen door blocking goodies.
+- \[PRP\] TiconderogaStation01: 1A90A9 Fix wall placement.
+CW - Commonwealth, FH - Far Harbor, NW - Nuka World.
+- \[PRP\] 7, 5 CW 23A73A, 23A73C Put a pair of dead fish back in the water.
+- \[U31732, PRP\] 4, 1 CW Remove No LOD Water from cell.
+- \[PRP\] 0,1 CW 1A32E3 (Historically in BostonFPSFix and reported by another user) Disable Test Occlusion Box in this cell.
+- \[U23817\] 4, 14 CW 1E6A90 Moved a rubble pile.
+- \[U24712\] 2, 9 CW 1138E2 Moved a fire extinguisher holder more closely to the wall
+- \[U23727\] 9, 3 CW BB179 Shifted a trash decal.
+- \[PRP\] 15, 14 CW 22441B Moved a large door.
+- \[PRP\] 14, 14 CW 22441A Also moved a large door. Both moves closed a hole into the void.
+- \[U29277\] 12, 13 CW 28851 Correct a texture swap assignment.
+- \[U31657\] 8, 13; 13, 25; 13, 24; 12, 24; 11, 24; 21, 22 in CW Restored missing VISI/RVIS/PCMB records from Fallout4.esm that got clobbered during generation during DLCCoast.esm's previs run in 2016.
+- \[U29278\] 22, 20 CW 1A4CF7 Disable a HoleFillBlack.
+- \[U23690\] 23, 19 CW 4CFC3 Bookcase was shifted, contents in 4CFC7, 4CFCB, 4CFCC, 4CFCD, 1AE139 got moved to roughly match.
+- \[U24789\] 7, -10 CW 177FD8 Move a girder so it's not floating in the air.
+- \[PRP\] 4, -1 1432A7 CW Move a road chunk to stop strange clipping.
+- \[U29279\] 1, -6 CW 6E20A Moved a trash decal
+- \[PRP\] 0, -8 CW LaytonTowers door replacements. (0804A6C9/CA/CB/CC)
+- \[U31657\] 9, -9; 8, -10 CW Same as the DLCCoast bug above but for DLCRobot instead.
+- \[
