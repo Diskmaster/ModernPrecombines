@@ -8,8 +8,6 @@ Current known issues:
 - ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
-- \[U31732, PRP\] \[4, 1\] Commonwealth - Clear No LOD water flag to fix LOD generation in the area. PRP absorbs this fix as this flag is in the cell header.
-Notes past this point are presented in order as listed in FO4Edit as of 0.54.17+
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
 - \[U23865\] DLC03VimPopFactory01: 03017695 \(BldWlpSmWall01\) and 0301FB6F \(MetalShelf01_Broken01\) got moved and the room extended to clear up the door clobbering the shelf.
 - \[U?????, PRP\] LaytonTowers01: 15D9B8 from UF4OP, 15D934, 15D9E1, 15D9E2 had slight adjustments, the reason why escapes me. Needs verifying.
