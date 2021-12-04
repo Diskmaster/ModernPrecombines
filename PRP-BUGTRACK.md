@@ -60,4 +60,41 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World.
 - \[U29279\] 1, -6 CW 6E20A Moved a trash decal
 - \[PRP\] 0, -8 CW LaytonTowers door replacements. (0804A6C9/CA/CB/CC)
 - \[U31657\] 9, -9; 8, -10 CW Same as the DLCCoast bug above but for DLCRobot instead.
-- \[
+- \[PRP\] 11, -11 CW 6633C Disable a floating pipe segment.
+- \[U31657\] 10, -15; 9, -15 CW Same as the DLCCoast bug above but for DLCNukaWorld instead.
+- \[PRP\] 12, -2 CW 1AEF19, 1AEF1A Add EnableParent to a pair of PlaneMarkers to fix the infamous Airport Fence visibility bug.
+- \[PRP\] 12, -2 CW 1B85B2 Add EnableParent to a Barricade segment intended for when the BoS aren't there, else it sticks out of an existing wall.
+- \[U23507\] 19, -5 CW 1E0F02 Put another dead fish into the water.
+- \[U?????\] -17, 5 CW 80812 UF4OP shifted an elevator top.
+- \[U?????\] -20, 3 CW 14B997, 14B99C A pair of lightbulbs were disabled by UF4OP.
+- \[SE\] -22, 8 CW 23C9C8/C9/CA/CB/CC/CD/CE/CF/D0/D1/D2/D3/D4/D5 A series of disables for CollisionMarkers imported from Scrap Everything, Thanks VlitS!
+- \[U24206\] -19, 22 CW 22226, 22227 Disable a pair of tile rubbles that weren't reachable.
+- \[U24206\] -20, 22 CW 22228 See line above.
+- \[U24452\] -20, 22 CW 6D6F9 Moved a grass cluster.
+- \[SE\] -20, 22 CW 1ED5BD More CollisionMarker disables from SE.
+- \[SE\] -19, 16 CW 6B9F5, 239BA9 More disables for the SE pile.
+- \[U24717\] -16, 14 CW 880E4, 9103E More object moves.
+- \[PRP\] -3, 4 CW 1BB41D, 1BB41E, 1BB41F, 1BB420, 1C13D5 A bunch of CITOccluderTest records that needed disabled.
+- \[U19886\] -4, 4 CW 1660B7, 1660B8 Moved a pair of Grocery Store shelving to prevent blocking the player on falling at certain angles.
+- \[PRP\] -2. 3 CW 15A4C6, 15A4C8, 15A4C9, 15A4CD Object moves to fix previs issues.
+- \[U24631\] -2, 1 CW 1BCF9C, 1BCF9D Deleted a pair of decorative objects.
+- \[U21508\] -5, 1 CW 3013D Flipped around a bookcase.
+- \[U31657\] -2, 15; -1, 14; -2, 14; -3, 14; -2, 13 CW Yet more DLCCoast precombine header clobbering that was repaired.
+- \[U?????\] -6, 11 CW 1BED90 A lamp got changed here. Ask UF4OP.
+- \[PRP\] -8, 9 CW F9EFB I believe this was that building piece that was positioned wierdly.
+- \[U24786\] -3, 16 CW 19FD5C Insert amusing bug description about a metal rod here.
+- \[U23652\] -22, -11 CW 1C0F05 Moved a trash pile.
+- \[PRP\] -19, -1 CW D1551, D1552 Shift slightly a pair of staircases.
+- \[U31518\] -9, -13 CW 8EE09 Getting really tired of these toilet bugs.
+- \[PRP\] -2, -11 CW 129105 Moved a grass blob.
+- \[PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previs issue.
+- \[U31658, PRP\] -2. -15 CW 08000001 Add new SWCurb8x1Str01 to cap off a hole.
+- \[U31657\] -5, -1 CW Getting motonous, isn't it? Another DLCNukaWorld cell clobber.
+- \[U?????\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, don't remember the bug ID source. To be updated.
+- \[U22977\] -2, -4 CW 23B2C2 Move a trash decal here.
+- \[U28424\] -5, -6 CW 90AD4 Fix rotation and placement for light fixture so it's not embedded in the wall.
+- \[U28185\] 1, 7 FH 305DA94 Move the Leaf Pile nearby so it's not floating in the air.
+- \[U24032\] -6, 1 FH Move a Bramble in this cursed place.
+- \[PRP\] 2, -3 NW Move a Cash Register so it looks like you can actually open the stupid thing.
+- \[PRP\] 0, -4 NW Move a trash bin so it's not awkwardly embedded into a trash pile.
+- \[PRP\] -8, -5 NW Make the big door here not embed into the ground.
