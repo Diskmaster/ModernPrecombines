@@ -6,6 +6,7 @@ Current known issues:
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
 - ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
+- \[PRP\] AtomatoysFactoryExt pipes on roof previs issue.
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
