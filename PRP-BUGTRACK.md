@@ -1,8 +1,8 @@
-Current PPF Version: 0.54.19
+Current PPF Version: 0.54.20
 
 Current known issues:
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
-- \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), partially obscured, a work in progress as I need to figure out a better static choice that doesn't look awful
+- \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
 - ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
