@@ -9,6 +9,7 @@ Current known issues:
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+- \[PRP\] 7, 12 CW: 1B4789 Hard to see NFoothillsShrubLarge01 badly placed and repositioned.
 - \[PRP\] AtomatoysFactoryExt03: 49E3D, 49E4C, 49E4D, 49ED9 Fixed position of pipes to stop occlusion confusion when looking between them. Thanks to Zaw (Horizon) for bringing it to my attention.
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
 - \[U23865\] DLC03VimPopFactory01: 03017695 \(BldWlpSmWall01\) and 0301FB6F \(MetalShelf01_Broken01\) got moved and the room extended to clear up the door clobbering the shelf.
