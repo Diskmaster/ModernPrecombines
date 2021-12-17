@@ -1,7 +1,7 @@
 Current PPF Version: 0.54.23
 
 Deduplication tracker:
-- Fallout4.esm \[ 0 of 3300 \]
+- Fallout4.esm \[ 3 of 3300 \]
 - DLC01Robot \[ 0 of 358 \]
 - DLC02Workshop01 \[ 0 of 3 \]
 - DLC03Coast \[ 0 of 459 \]
@@ -18,7 +18,9 @@ Current known issues:
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
+CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro)
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+- \[PRP\] -24, 22 SHW: 122723 and 17FDDF Deduplicated.
 - \[PRP\] -3, -4 CW: Moved 1B6201 and associated objects on shelving to not clobber nearby flooring. Also UDR'd 1B61E5 (duplicate)
 - \[PRP\] -3, -4 CW: Raised 1132F7, 1132F6, 1B6224 and 1B6239 to counteract a visible hole in the furniture. Nearby 1B61EC and 1B6203 were also shifted to make the higher position more easily attainable by walking.
 - \[PRP\] 7, 12 CW: 1B4789 Hard to see NFoothillsShrubLarge01 badly placed and repositioned.
@@ -55,7 +57,6 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 - \[PRP\] DBTechHighSchool01: 246770, 246772 Move a pair of files.
 - \[PRP\] TiconderogaStation01: 3A2F6 Remove the Kitchen door blocking goodies.
 - \[PRP\] TiconderogaStation01: 1A90A9 Fix wall placement.
-CW - Commonwealth, FH - Far Harbor, NW - Nuka World.
 - \[PRP\] 7, 5 CW 23A73A, 23A73C Put a pair of dead fish back in the water.
 - \[U31732, PRP\] 4, 1 CW Remove No LOD Water from cell.
 - \[PRP\] 0,1 CW 1A32E3 (Historically in BostonFPSFix and reported by another user) Disable Test Occlusion Box in this cell.

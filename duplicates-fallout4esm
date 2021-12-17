@@ -1,14 +1,6 @@
 [00:00] Start: Applying script "Remove_duplicate_references"
-Found duplicates:
-	Removing: [REFR:00127723] (places RockCliff01 [STAT:0001F0FC] in GRUP Cell Temporary Children of [CELL:000A8044] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -24,22) in Precombined\000A8044_0971F8CA_OC.nif)
-	Remaining: [REFR:00126326] (places RockCliff01 [STAT:0001F0FC] in GRUP Cell Temporary Children of [CELL:000A8044] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -24,22) in Precombined\000A8044_0971F8CA_OC.nif)
 [Fallout4-Dedup.esp] Adding master "Fallout4.esm"
-Found duplicates:
-	Removing: [REFR:0017FDDF] (places MulchMoundStr01 [STAT:0017FDD4] in GRUP Cell Temporary Children of PrewarPlayerHouse01 [CELL:000A801E] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -20,22) in Precombined\000A801E_1959CED1_OC.nif)
-	Remaining: [REFR:0006A4D4] (places MulchMoundStr01 [STAT:0017FDD4] in GRUP Cell Temporary Children of PrewarPlayerHouse01 [CELL:000A801E] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -20,22) in Precombined\000A801E_1959CED1_OC.nif)
-Found duplicates:
-	Removing: MQ101SetStage270Trigger [REFR:000E7BF5] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of PrewarPlayerHouse01 [CELL:000A801E] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -20,22))
-	Remaining: MQ101SetStage30Trigger [REFR:000AA765] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of PrewarPlayerHouse01 [CELL:000A801E] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -20,22))
+	MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
 Found duplicates:
 	Removing: [REFR:002066DD] (places HitExtAWallCapTopTrim1501 [STAT:001259E3] in GRUP Cell Temporary Children of [CELL:00054BF1] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-4) in Precombined\00054BF1_01B8656E_OC.nif)
 	Remaining: [REFR:002066DE] (places HitExtAWallCapTopTrim1501 [STAT:001259E3] in GRUP Cell Temporary Children of [CELL:00054BF1] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-4) in Precombined\00054BF1_01B8656E_OC.nif)
