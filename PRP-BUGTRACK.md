@@ -1,5 +1,14 @@
 Current PPF Version: 0.54.23
 
+Deduplication tracker:
+- Fallout4.esm \[ 0 of 3301 \]
+- DLC01Robot \[ 0 of 358 \]
+- DLC02Workshop01 \[ 0 of 3 \]
+- DLC03Coast \[ 0 of 459 \]
+- DLC04Workshop02 \[ N/A \]
+- DLC05Workshop03 \[ 0 of 15 \]
+- DLC06NukaWorld \[ 0 of 977 \]
+
 Current known issues:
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
