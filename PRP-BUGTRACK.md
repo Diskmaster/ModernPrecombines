@@ -1,4 +1,4 @@
-Current PPF Version: 0.54.20
+Current PPF Version: 0.54.23
 
 Current known issues:
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
@@ -10,7 +10,8 @@ Current known issues:
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
-
+- \[PRP\] -3, -4 CW: Moved 1B6201 and associated objects on shelving to not clobber nearby flooring. Also UDR'd 1B61E5 (duplicate)
+- \[PRP\] -3, -4 CW: Raised 1132F7, 1132F6, 1B6224 and 1B6239 to counteract a visible hole in the furniture. Nearby 1B61EC and 1B6203 were also shifted to make the higher position more easily attainable by walking.
 - \[PRP\] 7, 12 CW: 1B4789 Hard to see NFoothillsShrubLarge01 badly placed and repositioned.
 - \[PRP\] AtomatoysFactoryExt03: 49E3D, 49E4C, 49E4D, 49ED9 Fixed position of pipes to stop occlusion confusion when looking between them. Thanks to Zaw (Horizon) for bringing it to my attention.
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
