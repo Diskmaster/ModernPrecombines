@@ -1,33 +1,7 @@
 [00:00] Start: Applying script "Remove_duplicate_references"
 [Fallout4-Dedup.esp] Adding master "Fallout4.esm"
-	MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
-Found duplicates:
-	Removing: [REFR:002066DD] (places HitExtAWallCapTopTrim1501 [STAT:001259E3] in GRUP Cell Temporary Children of [CELL:00054BF1] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-4) in Precombined\00054BF1_01B8656E_OC.nif)
-	Remaining: [REFR:002066DE] (places HitExtAWallCapTopTrim1501 [STAT:001259E3] in GRUP Cell Temporary Children of [CELL:00054BF1] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-4) in Precombined\00054BF1_01B8656E_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206877] (places NCA1x1Half [STAT:0016D5ED] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_21E80958_OC.nif)
-	Remaining: [REFR:0020687F] (places NCA1x1Half [STAT:0016D5ED] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_21E80958_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206872] (places NCA1x1Half [STAT:0016D5ED] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_32B39DA3_OC.nif)
-	Remaining: [REFR:0020687B] (places NCA1x1Half [STAT:0016D5ED] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206871] (places NCA2x1StoreFront03 [STAT:0016F4CE] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_32B39DA3_OC.nif)
-	Remaining: [REFR:00206879] (places NCA2x1StoreFront03 [STAT:0016F4CE] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206833] (places DecoMainA1x1Cor02 [STAT:00031855] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_3831AAC9_OC.nif)
-	Remaining: [REFR:0020684C] (places DecoMainA1x1Cor02 [STAT:00031855] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_3831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206832] (places DecoMainA1x1Cor02 [STAT:00031855] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_3831AAC9_OC.nif)
-	Remaining: [REFR:0020684B] (places DecoMainA1x1Cor02 [STAT:00031855] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_3831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:0020674C] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_10348D13_OC.nif)
-	Remaining: [REFR:0020674E] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_10348D13_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206736] (places HitExtAFloor4501 [STAT:000B0106] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_254D2874_OC.nif)
-	Remaining: [REFR:002067B6] (places HitExtAFloor4501 [STAT:000B0106] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_254D2874_OC.nif)
-Found duplicates:
-	Removing: [REFR:002066F5] (places HitExtAWallCapTrimInTallDmg01 [STAT:000F8CE9] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_276A4EA4_OC.nif)
-	Remaining: [REFR:0020674B] (places HitExtAWallCapTrimInTallDmg01 [STAT:000F8CE9] in GRUP Cell Temporary Children of GoodneighborInteriorGate [CELL:00054BF0] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-3) in Precombined\00054BF0_276A4EA4_OC.nif)
+MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
+
 Found duplicates:
 	Removing: [REFR:00206BCD] (places HitExtAWall01 [STAT:00094DF8] in GRUP Cell Temporary Children of [CELL:00054BEF] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-2) in Precombined\00054BEF_00000000_OC.nif)
 	Remaining: [REFR:00206BEB] (places HitExtAWall01 [STAT:00094DF8] in GRUP Cell Temporary Children of [CELL:00054BEF] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-2) in Precombined\00054BEF_00000000_OC.nif)

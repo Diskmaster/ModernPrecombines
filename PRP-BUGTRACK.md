@@ -1,7 +1,7 @@
 Current PPF Version: 0.54.23
 
 Deduplication tracker:
-- Fallout4.esm \[ 3 of 3300 \]
+- Fallout4.esm \[ 13 of 3300 \]
 - DLC01Robot \[ 0 of 358 \]
 - DLC02Workshop01 \[ 0 of 3 \]
 - DLC03Coast \[ 0 of 459 \]
@@ -18,8 +18,11 @@ Current known issues:
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
-CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro)
+CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+- \[PRP\] 4, -2 GN: 206BCD, 206AA3 
+- \[PRP\] 4, -3 GN: 206877, 206872, 206871, 206832, 206833, 20674C, 206736, 2066F5 deduplicated.
+- \[PRP\] 4, -4 GN: 2066DD deduplicated.
 - \[PRP\] -24, 22 SHW: 122723 and 17FDDF Deduplicated.
 - \[PRP\] -3, -4 CW: Moved 1B6201 and associated objects on shelving to not clobber nearby flooring. Also UDR'd 1B61E5 (duplicate)
 - \[PRP\] -3, -4 CW: Raised 1132F7, 1132F6, 1B6224 and 1B6239 to counteract a visible hole in the furniture. Nearby 1B61EC and 1B6203 were also shifted to make the higher position more easily attainable by walking.
