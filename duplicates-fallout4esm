@@ -2,12 +2,6 @@
 Found duplicates:
 	Removing: [REFR:00127723] (places RockCliff01 [STAT:0001F0FC] in GRUP Cell Temporary Children of [CELL:000A8044] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -24,22) in Precombined\000A8044_0971F8CA_OC.nif)
 	Remaining: [REFR:00126326] (places RockCliff01 [STAT:0001F0FC] in GRUP Cell Temporary Children of [CELL:000A8044] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -24,22) in Precombined\000A8044_0971F8CA_OC.nif)
-[00:15] Exception in unit RemoveDuplicateReferences line 70: New plugin creation refused by user
-[00:15] Error during Applying script "Remove_duplicate_references": New plugin creation refused by user
-[00:00] Start: Applying script "Remove_duplicate_references"
-Found duplicates:
-	Removing: [REFR:00127723] (places RockCliff01 [STAT:0001F0FC] in GRUP Cell Temporary Children of [CELL:000A8044] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -24,22) in Precombined\000A8044_0971F8CA_OC.nif)
-	Remaining: [REFR:00126326] (places RockCliff01 [STAT:0001F0FC] in GRUP Cell Temporary Children of [CELL:000A8044] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -24,22) in Precombined\000A8044_0971F8CA_OC.nif)
 [Fallout4-Dedup.esp] Adding master "Fallout4.esm"
 Found duplicates:
 	Removing: [REFR:0017FDDF] (places MulchMoundStr01 [STAT:0017FDD4] in GRUP Cell Temporary Children of PrewarPlayerHouse01 [CELL:000A801E] (in SanctuaryHillsWorld "Sanctuary Hills" [WRLD:000A7FF4] at -20,22) in Precombined\000A801E_1959CED1_OC.nif)

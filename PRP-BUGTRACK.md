@@ -1,7 +1,7 @@
 Current PPF Version: 0.54.23
 
 Deduplication tracker:
-- Fallout4.esm \[ 0 of 3301 \]
+- Fallout4.esm \[ 0 of 3300 \]
 - DLC01Robot \[ 0 of 358 \]
 - DLC02Workshop01 \[ 0 of 3 \]
 - DLC03Coast \[ 0 of 459 \]
