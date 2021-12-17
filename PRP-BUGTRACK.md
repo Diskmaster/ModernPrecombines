@@ -6,9 +6,11 @@ Current known issues:
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
 - ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
+- \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+
 - \[PRP\] 7, 12 CW: 1B4789 Hard to see NFoothillsShrubLarge01 badly placed and repositioned.
 - \[PRP\] AtomatoysFactoryExt03: 49E3D, 49E4C, 49E4D, 49ED9 Fixed position of pipes to stop occlusion confusion when looking between them. Thanks to Zaw (Horizon) for bringing it to my attention.
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
