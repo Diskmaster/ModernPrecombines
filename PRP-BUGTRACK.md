@@ -1,13 +1,13 @@
 Current PPF Version: 0.54.23
 
-Deduplication tracker:
-- Fallout4.esm \[ 13 of 3300 \]
-- DLC01Robot \[ 0 of 358 \]
-- DLC02Workshop01 \[ 0 of 3 \]
-- DLC03Coast \[ 0 of 459 \]
+Deduplication tracker remaining:
+- Fallout4.esm \[ 3275 of 3300 \]
+- DLC01Robot \[ 358 of 358 \]
+- DLC02Workshop01 \[ 3 of 3 \]
+- DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
-- DLC05Workshop03 \[ 0 of 15 \]
-- DLC06NukaWorld \[ 0 of 977 \]
+- DLC05Workshop03 \[ 15 of 15 \]
+- DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
@@ -20,7 +20,11 @@ Current known issues:
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
-- \[PRP\] 4, -2 GN: 206BCD, 206AA3 
+- \[PRP\] 
+- \[PRP\] 5, -2 GN: 231FF2, 6736D deduplicated.
+- \[PRP\] 5, -3 GN: 1140EF, 110FC2, 110FEA, 237C64, 237C65, 248789, 248794, 24879C deduplicated.
+- \[PRP\] 5, -4 GN: 2066BE deduplicated.
+- \[PRP\] 4, -2 GN: 206BCD, 206AA3 deduplicated.
 - \[PRP\] 4, -3 GN: 206877, 206872, 206871, 206832, 206833, 20674C, 206736, 2066F5 deduplicated.
 - \[PRP\] 4, -4 GN: 2066DD deduplicated.
 - \[PRP\] -24, 22 SHW: 122723 and 17FDDF Deduplicated.

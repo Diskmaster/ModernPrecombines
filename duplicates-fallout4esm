@@ -3,45 +3,6 @@
 MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
 
 Found duplicates:
-	Removing: [REFR:00206BCD] (places HitExtAWall01 [STAT:00094DF8] in GRUP Cell Temporary Children of [CELL:00054BEF] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-2) in Precombined\00054BEF_00000000_OC.nif)
-	Remaining: [REFR:00206BEB] (places HitExtAWall01 [STAT:00094DF8] in GRUP Cell Temporary Children of [CELL:00054BEF] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-2) in Precombined\00054BEF_00000000_OC.nif)
-Found duplicates:
-	Removing: [REFR:00206AA3] (places HitExtATransitionCWall01 [STAT:000870EE] in GRUP Cell Temporary Children of [CELL:00054BEF] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-2) in Precombined\00054BEF_00000000_OC.nif)
-	Remaining: [REFR:00206BE1] (places HitExtATransitionCWall01 [STAT:000870EE] in GRUP Cell Temporary Children of [CELL:00054BEF] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 4,-2) in Precombined\00054BEF_00000000_OC.nif)
-Found duplicates:
-	Removing: [REFR:002066BE] (places HitExtLobbyACapBottomLong02 [STAT:000F012E] in GRUP Cell Temporary Children of GoodneighborAlleys [CELL:00054BEA] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-4) in Precombined\00054BEA_32B39DA3_OC.nif)
-	Remaining: [REFR:002066D4] (places HitExtLobbyACapBottomLong02 [STAT:000F012E] in GRUP Cell Temporary Children of GoodneighborAlleys [CELL:00054BEA] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-4) in Precombined\00054BEA_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:001140EF] (places ShackWallOuter01A "Shack Wall and Roof" [STAT:00028BAB] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_935B94FB_OC.nif)
-	Remaining: [REFR:0006A533] (places ShackWallOuter01A "Shack Wall and Roof" [STAT:00028BAB] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_935B94FB_OC.nif)
-Found duplicates:
-	Removing: [REFR:00110FC2] (places ShackMetalWallFlatEnd03A [STAT:000FDF85] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_A776F5AC_OC.nif)
-	Remaining: [REFR:00110FC1] (places ShackMetalWallFlatEnd03A [STAT:000FDF85] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_A776F5AC_OC.nif)
-Found duplicates:
-	Removing: [REFR:00110FEA] (places HWSingleChunkLarge01 [STAT:00060E3F] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_3A0A7711_OC.nif)
-	Remaining: [REFR:00104687] (places HWSingleChunkLarge01 [STAT:00060E3F] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_3A0A7711_OC.nif)
-Found duplicates:
-	Removing: [REFR:00237C64] (places LightBeamThin01 [MSTT:0002B764] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3))
-	Remaining: [REFR:00237C63] (places LightBeamThin01 [MSTT:0002B764] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3))
-Found duplicates:
-	Removing: [REFR:00237C65] (places LightBeamThin01 [MSTT:0002B764] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3))
-	Remaining: [REFR:00237C5E] (places LightBeamThin01 [MSTT:0002B764] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3))
-Found duplicates:
-	Removing: [REFR:00248789] (places SignDrugs01 [STAT:00023C09] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_7831AAC9_OC.nif)
-	Remaining: [REFR:00110FB4] (places SignDrugs01 [STAT:00023C09] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_7831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00248794] (places RWPieceSWaStr01 [STAT:0010D89C] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_3831AAC9_OC.nif)
-	Remaining: [REFR:00110FD1] (places RWPieceSWaStr01 [STAT:0010D89C] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3) in Precombined\00054BE9_3831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:0024879C] (places GlowFillCloudyDim [MSTT:0002B773] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3))
-	Remaining: [REFR:00115C83] (places GlowFillCloudyDim [MSTT:0002B773] in GRUP Cell Temporary Children of GoodneighborOrigin [CELL:00054BE9] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-3))
-Found duplicates:
-	Removing: [REFR:00231FF2] (places HitExtAWallLongDmgPanels02 [STAT:00196998] in GRUP Cell Temporary Children of [CELL:00054BE8] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-2) in Precombined\00054BE8_B4F946ED_OC.nif)
-	Remaining: [REFR:00232008] (places HitExtAWallLongDmgPanels02 [STAT:00196998] in GRUP Cell Temporary Children of [CELL:00054BE8] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-2) in Precombined\00054BE8_B4F946ED_OC.nif)
-Found duplicates:
-	Removing: [REFR:0006736D] (places FXSteamVent01 [MSTT:0010CBE0] in GRUP Cell Temporary Children of [CELL:00054BE8] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-2))
-	Remaining: [REFR:000673F5] (places FXSteamVent01 [MSTT:0010CBE0] in GRUP Cell Temporary Children of [CELL:00054BE8] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 5,-2))
-Found duplicates:
 	Removing: [REFR:00206EF1] (places NCA1x1Wall01 [STAT:0016E1E3] in GRUP Cell Temporary Children of [CELL:00054BE3] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 6,-4) in Precombined\00054BE3_32B39DA3_OC.nif)
 	Remaining: [REFR:00206F4C] (places NCA1x1Wall01 [STAT:0016E1E3] in GRUP Cell Temporary Children of [CELL:00054BE3] (in Goodneighbor "Goodneighbor" [WRLD:00054BD5] at 6,-4) in Precombined\00054BE3_32B39DA3_OC.nif)
 Found duplicates:
