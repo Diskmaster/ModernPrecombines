@@ -1,0 +1,20 @@
+[00:00] Start: Applying script "Remove duplicate references"
+Found duplicates:
+	Removing: [REFR:05003C5A] (places VltWorkShopCaveDirtPile01 [STAT:05000835] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31] in Precombined\DLCworkshop03.esm\00000F31_321F8633_OC.nif)
+	Remaining: [REFR:050016B7] (places VltWorkShopCaveDirtPile01 [STAT:05000835] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31] in Precombined\DLCworkshop03.esm\00000F31_321F8633_OC.nif)
+Both dups are special, skipping:
+	KlaxonStartOn [REFR:050012F9] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	KlaxonStartOff [REFR:050012F4] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Both dups are special, skipping:
+	KlaxonStartOn02 [REFR:050012FA] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	KlaxonStartOff02 [REFR:050012F5] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Both dups are special, skipping:
+	KlaxonStartOn03 [REFR:050012FB] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	KlaxonStartOff03 [REFR:050012F6] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Both dups are special, skipping:
+	KlaxonStartOn04 [REFR:050012FC] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	KlaxonStartOff04 [REFR:050012F7] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Both dups are special, skipping:
+	KlaxonStartOn05 [REFR:050012FD] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	KlaxonStartOff05 [REFR:050012F8] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+[00:04] Done: Applying script "Remove duplicate references", Processed Records: 12064, Elapsed Time: 00:04
