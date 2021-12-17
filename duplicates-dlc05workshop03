@@ -1,0 +1,52 @@
+[00:00] Start: Applying script "Remove_duplicate_references"
+Found duplicates:
+[DLCworkshop03_En.DLSTRINGS] Using encoding (from language): 1252  (ANSI - Latin I)
+[DLCworkshop03_En.ILSTRINGS] Using encoding (from language): 1252  (ANSI - Latin I)
+[DLCworkshop03_En.STRINGS] Using encoding (from language): 1252  (ANSI - Latin I)
+	Removing: [REFR:05003C5A] (places VltWorkShopCaveDirtPile01 [STAT:05000835] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31] in Precombined\DLCworkshop03.esm\00000F31_321F8633_OC.nif)
+	Remaining: [REFR:050016B7] (places VltWorkShopCaveDirtPile01 [STAT:05000835] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31] in Precombined\DLCworkshop03.esm\00000F31_321F8633_OC.nif)
+[DLCworkshop03-Dedup.esp] Adding master "Fallout4.esm"
+[DLCworkshop03-Dedup.esp] Adding master "DLCworkshop03.esm"
+Found duplicates:
+	Removing: KlaxonStartOn [REFR:050012F9] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: KlaxonStartOff [REFR:050012F4] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: KlaxonStartOn02 [REFR:050012FA] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: KlaxonStartOff02 [REFR:050012F5] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: KlaxonStartOn03 [REFR:050012FB] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: KlaxonStartOff03 [REFR:050012F6] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: KlaxonStartOn04 [REFR:050012FC] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: KlaxonStartOff04 [REFR:050012F7] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: KlaxonStartOn05 [REFR:050012FD] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: KlaxonStartOff05 [REFR:050012F8] (places KlaxonLight01 [MSTT:000969BA] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:05001E78] (places DLC06CaveLightNS [LIGH:05001E10] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:05001E77] (places DLC06CaveLightNS [LIGH:05001E10] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:050022AB] (places DefaultLightGreenFungus01NS [LIGH:00164393] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:050022AA] (places DefaultLightGreenFungus01NS [LIGH:00164393] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:050022AD] (places DefaultLightGreenFungus01NS [LIGH:00164393] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:050022AC] (places DefaultLightGreenFungus01NS [LIGH:00164393] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:050022AF] (places DefaultLightGreenFungus01NS [LIGH:00164393] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:050022AE] (places DefaultLightGreenFungus01NS [LIGH:00164393] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:050022FD] (places DLC06UraniumLightPulse [LIGH:05004D4F] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:050022FC] (places DLC06UraniumLightPulse [LIGH:05004D4F] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:050022FF] (places DLC06UraniumLightPulse [LIGH:05004D4F] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:050022FE] (places DLC06UraniumLightPulse [LIGH:05004D4F] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:0500237C] (places defaultLightFire01NS [LIGH:000C581B] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:05001035] (places defaultLightFire01NS [LIGH:000C581B] in GRUP Cell Temporary Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:05004EFB] (places LightBox [STAT:000001F7] in GRUP Cell Persistent Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:05004EFA] (places LightBox [STAT:000001F7] in GRUP Cell Persistent Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+Found duplicates:
+	Removing: [REFR:05004EFE] (places LightBox [STAT:000001F7] in GRUP Cell Persistent Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+	Remaining: [REFR:05004EF9] (places LightBox [STAT:000001F7] in GRUP Cell Persistent Children of DLC06VaultWorkshop "Vault 88" [CELL:05000F31])
+[00:11] Done: Applying script "Remove_duplicate_references", Processed Records: 12064, Elapsed Time: 00:11

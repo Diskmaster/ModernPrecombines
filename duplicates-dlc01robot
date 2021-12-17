@@ -1,0 +1,1078 @@
+[00:00] Start: Applying script "Remove_duplicate_references"
+Found duplicates:
+	Removing: [REFR:010018F2] (places SecurityGateFencingExSm01 [STAT:0001B42F] in GRUP Cell Temporary Children of FortHagenSatelliteArrayExt [CELL:0000E43A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -25,-1) in Precombined\0000E43A_81B8656E_OC.nif)
+	Remaining: [REFR:010018F9] (places SecurityGateFencingExSm01 [STAT:0001B42F] in GRUP Cell Temporary Children of FortHagenSatelliteArrayExt [CELL:0000E43A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -25,-1) in Precombined\0000E43A_81B8656E_OC.nif)
+[DLCRobot-Dedup.esp] Adding master "Fallout4.esm"
+[DLCRobot-Dedup.esp] Adding master "DLCRobot.esm"
+Found duplicates:
+	Removing: [REFR:0100A620] (places DLC01_RobcoWallSign_AssemblyLine1 [STAT:0100A60F] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
+	Remaining: [REFR:0100A61F] (places DLC01_RobcoWallSign_AssemblyLine1 [STAT:0100A60F] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
+Found duplicates:
+	Removing: [REFR:0100FE7A] (places DLC01_RobcoWallBase [STAT:0100A601] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
+	Remaining: [REFR:0100A652] (places DLC01_RobcoWallBase [STAT:0100A601] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
+Found duplicates:
+	Removing: [REFR:01001D99] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
+	Remaining: [REFR:01001D34] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001D9B] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
+	Remaining: [REFR:01001D2D] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001D9C] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
+	Remaining: [REFR:01001D36] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001D9D] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
+	Remaining: [REFR:01001D27] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001D9E] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
+	Remaining: [REFR:01001D2B] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
+Found duplicates:
+	Removing: [REFR:01007430] (places IndBldShellOutWall01 [STAT:0002475D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_06EAAB49_OC.nif)
+	Remaining: [REFR:01004697] (places IndBldShellOutWall01 [STAT:0002475D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_06EAAB49_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100743F] (places IndBldShellInMid01 [STAT:00024740] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_201DD13D_OC.nif)
+	Remaining: [REFR:01001672] (places IndBldShellInMid01 [STAT:00024740] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_201DD13D_OC.nif)
+Found duplicates:
+	Removing: [REFR:01008275] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+	Remaining: [REFR:0100811B] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+Found duplicates:
+	Removing: [REFR:01008816] (places ShelfSmall_Metal01_1Long [SCOL:0019D813] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_24B11323_OC.nif)
+	Remaining: [REFR:01008815] (places ShelfSmall_Metal01_1Long [SCOL:0019D813] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_24B11323_OC.nif)
+Found duplicates:
+	Removing: [REFR:01008F2A] (places ShelfSmall_Metal01_2Long [SCOL:0019D80B] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2AE782E3_OC.nif)
+	Remaining: [REFR:01008F04] (places ShelfSmall_Metal01_2Long [SCOL:0019D80B] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2AE782E3_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100A038] (places TrashEdge03_Nochunks [STAT:001ADB1D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_0065F0C1_OC.nif)
+	Remaining: [REFR:0100A037] (places TrashEdge03_Nochunks [STAT:001ADB1D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_0065F0C1_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100A376] (places IndBldShellInWallDoorHuge01 [STAT:00018C3A] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_32CC13AF_OC.nif)
+	Remaining: [REFR:0100454F] (places IndBldShellInWallDoorHuge01 [STAT:00018C3A] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_32CC13AF_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100D1C8] (places WaxCandlePuddle01 [STAT:00035A0D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_3CE78DD2_OC.nif)
+	Remaining: [REFR:0100D1C6] (places WaxCandlePuddle01 [STAT:00035A0D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_3CE78DD2_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100EC9D] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+	Remaining: [REFR:0100EC9B] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+Found duplicates:
+	Removing: [REFR:0100EC9E] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+	Remaining: [REFR:0100EC9C] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+Found duplicates:
+	Removing: [REFR:0100ED55] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+	Remaining: [REFR:0100ECA9] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+Found duplicates:
+	Removing: [REFR:0100ED56] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+	Remaining: [REFR:0100ECA8] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+Found duplicates:
+	Removing: [REFR:01010BBF] (places workbenchWeaponsB "Weapons Workbench" [FURN:0017E787] in GRUP Cell Persistent Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+	Remaining: [REFR:0100886C] (places workbenchWeaponsB "Weapons Workbench" [FURN:0017E787] in GRUP Cell Persistent Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
+Found duplicates:
+	Removing: [REFR:010009AC] (places HitFloorEdge03CorOut01 [STAT:000D412F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_08D6C8FB_OC.nif)
+	Remaining: [REFR:0100094A] (places HitFloorEdge03CorOut01 [STAT:000D412F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_08D6C8FB_OC.nif)
+Found duplicates:
+	Removing: [REFR:01000D46] (places IndFrame512x256EmptyShapeEdge01 [STAT:000247EE] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3F2F8C62_OC.nif)
+	Remaining: [REFR:01000D38] (places IndFrame512x256EmptyShapeEdge01 [STAT:000247EE] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3F2F8C62_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001F3B] (places IndMetalDoorPlugD01 [STAT:000CBAB7] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_05555062_OC.nif)
+	Remaining: [REFR:01001F39] (places IndMetalDoorPlugD01 [STAT:000CBAB7] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_05555062_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001578] (places HitFloorSolidTop01a [STAT:000F254D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_17BC92E6_OC.nif)
+	Remaining: [REFR:01001577] (places HitFloorSolidTop01a [STAT:000F254D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_17BC92E6_OC.nif)
+Found duplicates:
+	Removing: [REFR:01003722] (places HitFloorSolidFullHalf01 [STAT:000782C6] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2F6D3FC1_OC.nif)
+	Remaining: [REFR:010036F1] (places HitFloorSolidFullHalf01 [STAT:000782C6] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2F6D3FC1_OC.nif)
+Found duplicates:
+	Removing: [REFR:01003D79] (places HitFloorEdgeStraightHalf01 [STAT:000782BE] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3CBA7F35_OC.nif)
+	Remaining: [REFR:01003D78] (places HitFloorEdgeStraightHalf01 [STAT:000782BE] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3CBA7F35_OC.nif)
+Found duplicates:
+	Removing: [REFR:010049EF] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_012B2644_OC.nif)
+	Remaining: [REFR:010049E2] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_012B2644_OC.nif)
+Found duplicates:
+	Removing: [REFR:01004D73] (places IndMetalDoorPlugB01 [STAT:00018C63] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3311F505_OC.nif)
+	Remaining: [REFR:01004D4F] (places IndMetalDoorPlugB01 [STAT:00018C63] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3311F505_OC.nif)
+Found duplicates:
+	Removing: [REFR:01004D7E] (places IndMetalDoorPlugB01 [STAT:00018C63] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2E5F4F73_OC.nif)
+	Remaining: [REFR:01004D40] (places IndMetalDoorPlugB01 [STAT:00018C63] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2E5F4F73_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002893] (places ExtRubble_HiTec_Med_Corner02 [STAT:00053574] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0417C302_OC.nif)
+	Remaining: [REFR:01002892] (places ExtRubble_HiTec_Med_Corner02 [STAT:00053574] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0417C302_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002895] (places ExtRubble_HiTec_Med_Corner02_Debries01 [STAT:000787B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0417C302_OC.nif)
+	Remaining: [REFR:01002894] (places ExtRubble_HiTec_Med_Corner02_Debries01 [STAT:000787B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0417C302_OC.nif)
+Found duplicates:
+	Removing: [REFR:01007E95] (places BldDecoSmWall01 [STAT:000D4513] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0D49E414_OC.nif)
+	Remaining: [REFR:01007A72] (places BldDecoSmWall01 [STAT:000D4513] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0D49E414_OC.nif)
+Found duplicates:
+	Removing: [REFR:01007FC1] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01007FC0] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01007FD2] (places NpcCouchSet01Weathered1x1Cor01Static [STAT:001A7243] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F0D4C0B_OC.nif)
+	Remaining: [REFR:01007FD0] (places NpcCouchSet01Weathered1x1Cor01Static [STAT:001A7243] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F0D4C0B_OC.nif)
+Found duplicates:
+	Removing: [REFR:01008D0D] (places HitLgRmBotCorInCover01 [STAT:00075AD8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1C22122C_OC.nif)
+	Remaining: [REFR:01008D0C] (places HitLgRmBotCorInCover01 [STAT:00075AD8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1C22122C_OC.nif)
+Found duplicates:
+	Removing: [REFR:01008D0F] (places HitLgRmBotCorInCover01 [STAT:00075AD8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13133CCB_OC.nif)
+	Remaining: [REFR:01008D0E] (places HitLgRmBotCorInCover01 [STAT:00075AD8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13133CCB_OC.nif)
+Found duplicates:
+	Removing: [REFR:010093C8] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1F49347B_OC.nif)
+	Remaining: [REFR:01001F6D] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1F49347B_OC.nif)
+Found duplicates:
+	Removing: [REFR:010093C9] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1F49347B_OC.nif)
+	Remaining: [REFR:01001F62] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1F49347B_OC.nif)
+Found duplicates:
+	Removing: [REFR:010093CA] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2447D3DC_OC.nif)
+	Remaining: [REFR:01001E78] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2447D3DC_OC.nif)
+Found duplicates:
+	Removing: [REFR:010093CB] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1F49347B_OC.nif)
+	Remaining: [REFR:01001F60] (places IndBldShellInCutWall03 [STAT:0002473C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1F49347B_OC.nif)
+Found duplicates:
+	Removing: [REFR:01009612] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:010095E3] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100962C] (places PlayerHouse_CurtainRod01 [STAT:000FE29A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1CE8CB56_OC.nif)
+	Remaining: [REFR:01006F7E] (places PlayerHouse_CurtainRod01 [STAT:000FE29A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1CE8CB56_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100962D] (places PlayerHouse_CurtainRod01 [STAT:000FE29A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_27E62CF1_OC.nif)
+	Remaining: [REFR:01006F7F] (places PlayerHouse_CurtainRod01 [STAT:000FE29A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_27E62CF1_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100980E] (places MacRod05 [STAT:00135F33] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_23256918_OC.nif)
+	Remaining: [REFR:0100980B] (places MacRod05 [STAT:00135F33] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_23256918_OC.nif)
+Found duplicates:
+	Removing: [REFR:01009B2B] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01009B2A] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100A8DC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0A425900_OC.nif)
+	Remaining: [REFR:0100A8DB] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0A425900_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100AA00] (places MarshScumL01 [STAT:00112054] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100A9FF] (places MarshScumL01 [STAT:00112054] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100B7DC] (places IndFrameSocket01 [STAT:00048250] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3A1718AF_OC.nif)
+	Remaining: [REFR:0100B7DA] (places IndFrameSocket01 [STAT:00048250] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3A1718AF_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100BB59] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BB58] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100BD38] (places VltFloor02Util [STAT:000D3E56] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_09C2F408_OC.nif)
+	Remaining: [REFR:0100BD34] (places VltFloor02Util [STAT:000D3E56] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_09C2F408_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100BD39] (places VltFloor02Util [STAT:000D3E56] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_229E0BAA_OC.nif)
+	Remaining: [REFR:0100BD35] (places VltFloor02Util [STAT:000D3E56] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_229E0BAA_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100C510] (places HitDebrisPileTiles01 [STAT:0008933E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F31BF48_OC.nif)
+	Remaining: [REFR:0100B660] (places HitDebrisPileTiles01 [STAT:0008933E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F31BF48_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DA7C] (places Shelf_Big_End [STAT:000DB203] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_987FD3EB_OC.nif)
+	Remaining: [REFR:0100DA6C] (places Shelf_Big_End [STAT:000DB203] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_987FD3EB_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DA7D] (places Shelf_Big_Metal_HalfLength [STAT:000FD38F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_187FD3EB_OC.nif)
+	Remaining: [REFR:0100DA6D] (places Shelf_Big_Metal_HalfLength [STAT:000FD38F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_187FD3EB_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DBE1] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BED2] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DBE8] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BECF] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DBEA] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BECE] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DBEB] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BED4] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DF4D] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF47] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF4E] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF48] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF4F] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DF49] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DF51] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF4B] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF52] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF4C] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF54] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF4C] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF55] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF4B] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF56] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DF49] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DF57] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF50] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF58] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF53] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF5A] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF47] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DF5B] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+	Remaining: [REFR:0100DF48] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_309C9BF6_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFA4] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DF9F] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFA5] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DFA3] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFA6] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DFA2] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFA7] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DFA0] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFA8] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DFA1] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DFA9] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DF9C] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFAA] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DF9D] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFAB] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DFA3] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFAC] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DFA2] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFAE] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DFA1] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100DFAF] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DF9C] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100DFB0] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+	Remaining: [REFR:0100DF9D] (places MacBaseRound05 [STAT:00135F72] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3E5E6881_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E113] (places DLC01_Lair_Machine12 [SCOL:010073F9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10430F74_OC.nif)
+	Remaining: [REFR:01009599] (places DLC01_Lair_Machine12 [SCOL:010073F9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10430F74_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E152] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100E13B] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E167] (places MacDetailGreeble31 [STAT:0013600A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA31] (places MacDetailGreeble31 [STAT:0013600A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E168] (places MacMechWireGreeb03 [STAT:01001EB8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA32] (places MacMechWireGreeb03 [STAT:01001EB8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E169] (places MacMechWireGreeb03 [STAT:01001EB8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA33] (places MacMechWireGreeb03 [STAT:01001EB8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E16A] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA34] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E16B] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA35] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E16C] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA36] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E16D] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA37] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E16E] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA38] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E16F] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BA39] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E170] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA3A] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E171] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA3B] (places MacCapHSml07 [STAT:00135F9A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E172] (places MacMechWireBrace01 [STAT:01001EBC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA3C] (places MacMechWireBrace01 [STAT:01001EBC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E173] (places MacMechWireBrace01 [STAT:01001EBC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA3D] (places MacMechWireBrace01 [STAT:01001EBC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E174] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA3E] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E175] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA3F] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E176] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA40] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E177] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA41] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E178] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA42] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E179] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BA43] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E17A] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA44] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E17B] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA45] (places MacCapFMed06 [STAT:00135F95] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E17C] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA46] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E17D] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA47] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E17E] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA48] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E17F] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA49] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E180] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA4A] (places MacDetailGreeble14 [STAT:00135FF9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E181] (places MacBasePanelALrg01 [STAT:00135F68] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA4B] (places MacBasePanelALrg01 [STAT:00135F68] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E182] (places MacBasePanelALrg01 [STAT:00135F68] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BA4C] (places MacBasePanelALrg01 [STAT:00135F68] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E183] (places MacBasePanelALrg01 [STAT:00135F68] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA4D] (places MacBasePanelALrg01 [STAT:00135F68] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E184] (places MacDetailGreeble33 [STAT:0013600C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BA4E] (places MacDetailGreeble33 [STAT:0013600C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E185] (places MacDetailGreeble33 [STAT:0013600C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA4F] (places MacDetailGreeble33 [STAT:0013600C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E186] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BA50] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E187] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BA51] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E188] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BA52] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E189] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA53] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E18A] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA54] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E18B] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA55] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E18C] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA56] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E18D] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA57] (places MacRod06 [STAT:00135F34] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E18E] (places MacMechDetailGreeb03 [STAT:01001ED8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA58] (places MacMechDetailGreeb03 [STAT:01001ED8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E18F] (places MacMechDetailGreeb03 [STAT:01001ED8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA59] (places MacMechDetailGreeb03 [STAT:01001ED8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E190] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BA5A] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E191] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BA5B] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E192] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA5C] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E193] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA5D] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E194] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BA5E] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E195] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BA5F] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E196] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA60] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E197] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA61] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E198] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA62] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E199] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA63] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E19A] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA64] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E19B] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA65] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E19C] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA66] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E19D] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA67] (places MacCapJSml09 [STAT:00135FA0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E19E] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA68] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E19F] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA69] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A0] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA6A] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A1] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA6B] (places MacDetailGreeble26 [STAT:00136005] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A2] (places MacBlockBLrg01 [STAT:00135F77] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA6C] (places MacBlockBLrg01 [STAT:00135F77] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A3] (places MacMechWireBrace02 [STAT:01001EBD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA6D] (places MacMechWireBrace02 [STAT:01001EBD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A4] (places MacMechWireBrace02 [STAT:01001EBD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA6E] (places MacMechWireBrace02 [STAT:01001EBD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A5] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA6F] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A6] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA70] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A7] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA71] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A8] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BA72] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1A9] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA73] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1AA] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA74] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1AB] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA75] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1AC] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA76] (places MacRod03 [STAT:00135F31] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1AD] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BA77] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1AE] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA78] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1AF] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA79] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B0] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA7A] (places MacCapCSml03 [STAT:00135F8E] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B1] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA7B] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B2] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA7C] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B3] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA7D] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B4] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA7E] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B5] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA7F] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B6] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BA80] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B7] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA81] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B8] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA82] (places Tire03HollowStatic "Tire" [STAT:000DD3C9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1B9] (places Greebles01 [STAT:000617AA] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA83] (places Greebles01 [STAT:000617AA] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1BA] (places MacBaseRound02 [STAT:00135F6F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA84] (places MacBaseRound02 [STAT:00135F6F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1BB] (places MacBaseRound02 [STAT:00135F6F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA85] (places MacBaseRound02 [STAT:00135F6F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1BC] (places MacBlockELrg01 [STAT:00135F80] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA86] (places MacBlockELrg01 [STAT:00135F80] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1BD] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA87] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1BE] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA88] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1BF] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA89] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C0] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA8A] (places MacDetailGreeble13 [STAT:00135FF8] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C1] (places MacClampALrg01 [STAT:00135FB9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BA8B] (places MacClampALrg01 [STAT:00135FB9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C2] (places MacClampALrg01 [STAT:00135FB9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA8C] (places MacClampALrg01 [STAT:00135FB9] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C3] (places MacTankB01 [STAT:00135F3C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA8D] (places MacTankB01 [STAT:00135F3C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C4] (places MacBlockESml01 [STAT:00135F82] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA8E] (places MacBlockESml01 [STAT:00135F82] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C5] (places BOSLPLeftArmPart05 [STAT:0019CE36] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA8F] (places BOSLPLeftArmPart05 [STAT:0019CE36] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C6] (places BOSLPLeftArmPart05 [STAT:0019CE36] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA90] (places BOSLPLeftArmPart05 [STAT:0019CE36] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C7] (places MacMechDetailGreeb02 [STAT:01001ED7] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA91] (places MacMechDetailGreeb02 [STAT:01001ED7] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C8] (places MacDetailGreeble36 [STAT:0013600F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BA92] (places MacDetailGreeble36 [STAT:0013600F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1C9] (places MacDetailGreeble36 [STAT:0013600F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA93] (places MacDetailGreeble36 [STAT:0013600F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1CA] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA94] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1CB] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA95] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1CC] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BA96] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1CD] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA97] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1CE] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA98] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1CF] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BA99] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D0] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA9A] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D1] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA9B] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D2] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA9C] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D3] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BA9D] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D4] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BA9E] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D5] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BA9F] (places MacDetailGreeble16 [STAT:00135FFB] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D6] (places MacConPanelHandle02 [STAT:00135FE4] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAA0] (places MacConPanelHandle02 [STAT:00135FE4] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D7] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BAA1] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D8] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAA2] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1D9] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BAA3] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1DA] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAA4] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1DB] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAA5] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1DC] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BAA6] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1DD] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAA7] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1DE] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BAA8] (places MacDetailGreeble34 [STAT:0013600D] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1DF] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAA9] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E0] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAAA] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E1] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAAB] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E2] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAAC] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E3] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAAD] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E4] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAAE] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E5] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAAF] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E6] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAB0] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E7] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAB1] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E8] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAB2] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1E9] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAB3] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1EA] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAB4] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1EB] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAB5] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1EC] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAB6] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1ED] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAB7] (places MacBaseBlockASml01 [STAT:00135F53] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1EE] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BAB8] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1EF] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BAB9] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F0] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BABA] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F1] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BABB] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F2] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BABC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F3] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BABD] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F4] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BABE] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F5] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BABF] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F6] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAC0] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F7] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAC1] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F8] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAC2] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1F9] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAC3] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1FA] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BAC4] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1FB] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BAC5] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1FC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BAC6] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1FD] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAC7] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1FE] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAC8] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E1FF] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAC9] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E200] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BACA] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E201] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BACB] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E202] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BACC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E203] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BACD] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E204] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BACE] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E205] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BACF] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E206] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BAD0] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E207] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD1] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E208] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD2] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E209] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD3] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E20A] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD4] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E20B] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD5] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E20C] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD6] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E20D] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD7] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E20E] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAD8] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E20F] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAD9] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E210] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BADA] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E211] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BADB] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E212] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BADC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E213] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BADD] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E214] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BADE] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E215] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BADF] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E216] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE0] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E217] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE1] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E218] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE2] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E219] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE3] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E21A] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE4] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E21B] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE5] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E21C] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE6] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E21D] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAE7] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E21E] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAE8] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E21F] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAE9] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E220] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAEA] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E221] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAEB] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E222] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAEC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E223] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BAED] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E224] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAEE] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E225] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+	Remaining: [REFR:0100BAEF] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2A40379D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E226] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF0] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E227] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF1] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E228] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF2] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E229] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF3] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E22A] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF4] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E22B] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF5] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E22C] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF6] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E22D] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+	Remaining: [REFR:0100BAF7] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_10177746_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E22E] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAF8] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E22F] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAF9] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E230] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAFA] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E231] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAFB] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E232] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAFC] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E233] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAFD] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E234] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAFE] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E235] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BAFF] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E236] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB00] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E237] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB01] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E238] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB02] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E239] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB03] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E23A] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB04] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E23B] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB05] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E23C] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB06] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E23D] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB07] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E23E] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB08] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E23F] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+	Remaining: [REFR:0100BB09] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_29963506_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E240] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BB0A] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E241] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+	Remaining: [REFR:0100BB0B] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0FF96C8D_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E242] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+	Remaining: [REFR:0100BB0C] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_36782ECD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E243] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BB0D] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E244] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BB0E] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E245] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+	Remaining: [REFR:0100BB0F] (places MacCapBSml02 [STAT:00135F8B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0C2F6E16_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E246] (places MacDetailGreeble01 [STAT:00135FEC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BB10] (places MacDetailGreeble01 [STAT:00135FEC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E247] (places MacDetailGreeble01 [STAT:00135FEC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+	Remaining: [REFR:0100BB11] (places MacDetailGreeble01 [STAT:00135FEC] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_13C175DD_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100E648] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB0] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E649] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB1] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E64A] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB2] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E65A] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB0] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E65B] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB1] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E65C] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB2] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E663] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BDB9] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E66D] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BCB1] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100E675] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100BDB9] (places CageBulb01 [STAT:00004E3B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100EA00] (places DebrisPileRoad01Trash [STAT:0001D1A6] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2557FE01_OC.nif)
+	Remaining: [REFR:0100E82E] (places DebrisPileRoad01Trash [STAT:0001D1A6] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_2557FE01_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100F4EF] (places BlackPlane [STAT:001F1A76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1BAC507E_OC.nif)
+	Remaining: [REFR:0100F4EE] (places BlackPlane [STAT:001F1A76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1BAC507E_OC.nif)
+Found duplicates:
+	Removing: [REFR:01010812] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01009325] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01010B64] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_072750BA_OC.nif)
+	Remaining: [REFR:0100EF68] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_072750BA_OC.nif)
+Found duplicates:
+	Removing: [REFR:01010B65] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3C29B71D_OC.nif)
+	Remaining: [REFR:0100EF69] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3C29B71D_OC.nif)
+Found duplicates:
+	Removing: [REFR:01010B66] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3C29B71D_OC.nif)
+	Remaining: [REFR:0100EF6A] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_3C29B71D_OC.nif)
+Found duplicates:
+	Removing: [REFR:01010B67] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_07E6DE65_OC.nif)
+	Remaining: [REFR:0100EF6B] (places IndTrack1WayLongest01 [STAT:000E6F2C] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_07E6DE65_OC.nif)
+Found duplicates:
+	Removing: [REFR:0101102A] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01011029] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0101102B] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01011029] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0101102F] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0101102E] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01011032] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01010AF1] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01011038] (places EmergencyLightBeam01 [MSTT:0002B76A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DD47] (places EmergencyLightBeam01 [MSTT:0002B76A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0101103B] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0101102C] (places SubLight03WallFree [STAT:000DC8B5] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0101130B] (places BldConcSmWallUnderhang01 [STAT:00067A9B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_09B070DF_OC.nif)
+	Remaining: [REFR:0101129A] (places BldConcSmWallUnderhang01 [STAT:00067A9B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_09B070DF_OC.nif)
+Found duplicates:
+	Removing: [REFR:0101130C] (places BldConcSmWallUnderhang01 [STAT:00067A9B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_19393100_OC.nif)
+	Remaining: [REFR:01011295] (places BldConcSmWallUnderhang01 [STAT:00067A9B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_19393100_OC.nif)
+Found duplicates:
+	Removing: [REFR:01000999] (places IndBldShellInCutWall02 [STAT:0002473B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0A5BBABD_OC.nif)
+	Remaining: [REFR:01000BBB] (places IndBldShellInCutWall02 [STAT:0002473B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0A5BBABD_OC.nif)
+Found duplicates:
+	Removing: [REFR:01001273] (places DLC01TrackSystem_TrackDoor01AFrame [STAT:0100126A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100126E] (places DLC01TrackSystem_TrackDoor01AFrame [STAT:0100126A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01001275] (places DLC01TrackSystem_TrackDoor01AFrame [STAT:0100126A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100126D] (places DLC01TrackSystem_TrackDoor01AFrame [STAT:0100126A] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:010013B7] (places DefaultLightWhite01NSGoboBounce01 [LIGH:001FA25F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100E28F] (places DefaultLightWhite01NSGoboBounce01 [LIGH:001FA25F] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01001C72] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01010A77] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01001CCC] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:01010A77] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01002488] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1C82C473_OC.nif)
+	Remaining: [REFR:01002473] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1C82C473_OC.nif)
+Found duplicates:
+	Removing: [REFR:010024AD] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1C82C473_OC.nif)
+	Remaining: [REFR:01002474] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1C82C473_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002512] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1D69C53E_OC.nif)
+	Remaining: [REFR:01002479] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1D69C53E_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002517] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1D69C53E_OC.nif)
+	Remaining: [REFR:01002483] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_1D69C53E_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002528] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F558487_OC.nif)
+	Remaining: [REFR:01002468] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F558487_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100252F] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F558487_OC.nif)
+	Remaining: [REFR:0100246A] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0F558487_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002534] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0EBE85CA_OC.nif)
+	Remaining: [REFR:0100251A] (places HitLgRmMid02CorOut01 [STAT:0007B27B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0EBE85CA_OC.nif)
+Found duplicates:
+	Removing: [REFR:0100253D] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0EBE85CA_OC.nif)
+	Remaining: [REFR:01002521] (places HitLgRmTopCorOut01 [STAT:00061F76] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0EBE85CA_OC.nif)
+Found duplicates:
+	Removing: [REFR:010027CD] (places BeamSmokyB01 [MSTT:0015D283] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:010027CB] (places BeamSmokyB01 [MSTT:0015D283] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01002A1D] (places IndBldShellInCutWall02 [STAT:0002473B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_31555D1A_OC.nif)
+	Remaining: [REFR:01000BBA] (places IndBldShellInCutWall02 [STAT:0002473B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_31555D1A_OC.nif)
+Found duplicates:
+	Removing: [REFR:01002A56] (places IndBldShellInCutWall02 [STAT:0002473B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0A5BBABD_OC.nif)
+	Remaining: [REFR:0101133B] (places IndBldShellInCutWall02 [STAT:0002473B] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3] in Precombined\DLCRobot.esm\000008A3_0A5BBABD_OC.nif)
+Found duplicates:
+	Removing: DLC01Lair_MBattle_MechanistWatchFront [REFR:010024F0] (places DLC01MechanistReveal [FURN:01008785] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: DLC01Lair_MBattle_MechanistFrontCenterIdleMarkerRef [REFR:0100097D] (places DLC01MechanistReveal [FURN:01008785] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100879D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100879A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: DLC01LairWorkshop_SpawnMarker [REFR:0100B222] (places XMarkerHeading [STAT:00000034] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: DLC01LairMapMarkerHeadingRef02 [REFR:01004191] (places XMarkerHeading [STAT:00000034] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100B80D] (places XMarker [STAT:0000003B] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100B80A] (places XMarker [STAT:0000003B] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: DLC01Lair_MBattle_MechanistInteractor_LeftFront01b [REFR:0100E6E4] (places NPCInstituteConsoleLowHeight [FURN:001E5E8B] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: DLC01Lair_MBattle_MechanistInteractor_Bypass [REFR:0100E693] (places NPCInstituteConsoleLowHeight [FURN:001E5E8B] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:0100BECD] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DBE9] (places MacDetailGreeble23 [STAT:00136002] in GRUP Cell Temporary Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+Found duplicates:
+	Removing: [REFR:01011039] (places DLC01Scrappable_ConstructionLight_FloorOn "Construction Light" [STAT:0100E2FA] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+	Remaining: [REFR:0100DD48] (places DLC01Scrappable_ConstructionLight_FloorOn "Construction Light" [STAT:0100E2FA] in GRUP Cell Persistent Children of DLC01Lair01 "The Mechanist's Lair" [CELL:010008A3])
+[00:37] Done: Applying script "Remove_duplicate_references", Processed Records: 49070, Elapsed Time: 00:37
