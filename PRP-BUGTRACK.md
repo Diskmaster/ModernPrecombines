@@ -1,7 +1,7 @@
 Current PPF Version: 0.54.23
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3275 of 3300 \]
+- Fallout4.esm \[ 3269 of 3300 \]
 - DLC01Robot \[ 358 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -19,6 +19,7 @@ Current known issues:
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
+
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 - \[PRP\] 
 - \[PRP\] 6, -2 GN: 207278 deduplicated.
