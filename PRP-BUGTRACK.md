@@ -18,9 +18,12 @@ Current known issues:
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
-CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor
+CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 - \[PRP\] 
+- \[PRP\] 6, -2 GN: 207278 deduplicated.
+- \[PRP\] 6, -3 GN: 2071D2, 207173, 206FEF, 206FEE, 206FEB, 206FEA, 206FE9, 206FE8, 68B44 deduplicated.
+- \[PRP\] 6, -4 GN: 206EF1, 206E6C deduplicated.
 - \[PRP\] 5, -2 GN: 231FF2, 6736D deduplicated.
 - \[PRP\] 5, -3 GN: 1140EF, 110FC2, 110FEA, 237C64, 237C65, 248789, 248794, 24879C deduplicated.
 - \[PRP\] 5, -4 GN: 2066BE deduplicated.
