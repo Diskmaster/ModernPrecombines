@@ -3,60 +3,6 @@
 MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
 
 Found duplicates:
-	Removing: [REFR:00086C59] (places BldgBrick5Story1x1backResA [STAT:00002D06] in GRUP Cell Temporary Children of [CELL:00000FE5] (in DiamondCity "Diamond City" [WRLD:00000F94] at 3,0) in Precombined\00000FE5_3C7FCAF2_OC.nif)
-	Remaining: [REFR:00086C5A] (places BldgBrick5Story1x1backResA [STAT:00002D06] in GRUP Cell Temporary Children of [CELL:00000FE5] (in DiamondCity "Diamond City" [WRLD:00000F94] at 3,0) in Precombined\00000FE5_3C7FCAF2_OC.nif)
-Found duplicates:
-	Removing: [REFR:0010DD6A] (places RWPieceWallAStr01 [STAT:0010D864] in GRUP Cell Temporary Children of FensParkviewApartmentsExt [CELL:0000E50E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -6,-8) in Precombined\0000E50E_3E2F3B7D_OC.nif)
-	Remaining: [REFR:0010DD68] (places RWPieceWallAStr01 [STAT:0010D864] in GRUP Cell Temporary Children of FensParkviewApartmentsExt [CELL:0000E50E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -6,-8) in Precombined\0000E50E_3E2F3B7D_OC.nif)
-Found duplicates:
-	Removing: [REFR:0010DD6B] (places RWPieceTopCapStr01 [STAT:0010D862] in GRUP Cell Temporary Children of FensParkviewApartmentsExt [CELL:0000E50E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -6,-8) in Precombined\0000E50E_3E2F3B7D_OC.nif)
-	Remaining: [REFR:0010DD67] (places RWPieceTopCapStr01 [STAT:0010D862] in GRUP Cell Temporary Children of FensParkviewApartmentsExt [CELL:0000E50E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -6,-8) in Precombined\0000E50E_3E2F3B7D_OC.nif)
-Found duplicates:
-	Removing: [REFR:0003E19D] (places MetalBarrelStatic02 "Barrel" [STAT:00018CD9] in GRUP Cell Temporary Children of DiamondCityExt03 [CELL:0000E50B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-8) in Precombined\0000E50B_7831AAC9_OC.nif)
-	Remaining: [REFR:0003FA26] (places MetalBarrelStatic02 "Barrel" [STAT:00018CD9] in GRUP Cell Temporary Children of DiamondCityExt03 [CELL:0000E50B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-8) in Precombined\0000E50B_7831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:0003E038] (places TrashClump03 [STAT:0008B671] in GRUP Cell Temporary Children of DiamondCityExt03 [CELL:0000E50B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-8) in Precombined\0000E50B_1959CED1_OC.nif)
-	Remaining: [REFR:0003E039] (places TrashClump03 [STAT:0008B671] in GRUP Cell Temporary Children of DiamondCityExt03 [CELL:0000E50B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-8) in Precombined\0000E50B_1959CED1_OC.nif)
-Found duplicates:
-	Removing: [REFR:001CAFCE] (places TrashPileWall01 [STAT:0008B5F6] in GRUP Cell Temporary Children of DiamondCityExt03 [CELL:0000E50B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-8) in Precombined\0000E50B_2776F5AC_OC.nif)
-	Remaining: [REFR:001CAFCA] (places TrashPileWall01 [STAT:0008B5F6] in GRUP Cell Temporary Children of DiamondCityExt03 [CELL:0000E50B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-8) in Precombined\0000E50B_2776F5AC_OC.nif)
-Found duplicates:
-	Removing: [REFR:00247A06] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_72B39DA3_OC.nif)
-	Remaining: [REFR:00247A07] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_72B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:00247A05] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_72B39DA3_OC.nif)
-	Remaining: [REFR:00247A07] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_72B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:000654ED] (places HitExtStructureColumnDmgA02 [STAT:0006054F] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_00000000_OC.nif)
-	Remaining: [REFR:0006558D] (places HitExtStructureColumnDmgA02 [STAT:0006054F] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_00000000_OC.nif)
-Found duplicates:
-	Removing: [REFR:000653C7] (places HitExtAWindowBTallDmgPanels01 [STAT:00032769] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_00000000_OC.nif)
-	Remaining: [REFR:00178082] (places HitExtAWindowBTallDmgPanels01 [STAT:00032769] in GRUP Cell Temporary Children of [CELL:0000E509] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-8) in Precombined\0000E509_00000000_OC.nif)
-Found duplicates:
-	Removing: [REFR:0023286E] (places Cattails01 [STAT:00133851] in GRUP Cell Temporary Children of ChestnutHillockReservoirExt04 [CELL:0000E4EE] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -7,-7) in Precombined\0000E4EE_01B8656E_OC.nif)
-	Remaining: [REFR:0020AD6A] (places Cattails01 [STAT:00133851] in GRUP Cell Temporary Children of ChestnutHillockReservoirExt04 [CELL:0000E4EE] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -7,-7) in Precombined\0000E4EE_01B8656E_OC.nif)
-Found duplicates:
-	Removing: [REFR:001ACA05] (places TrashEdge01 [STAT:0008A5D7] in GRUP Cell Temporary Children of FensStreetSewerExt [CELL:0000E4EC] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -5,-7) in Precombined\0000E4EC_5959CED1_OC.nif)
-	Remaining: [REFR:001ACA06] (places TrashEdge01 [STAT:0008A5D7] in GRUP Cell Temporary Children of FensStreetSewerExt [CELL:0000E4EC] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -5,-7) in Precombined\0000E4EC_5959CED1_OC.nif)
-Found duplicates:
-	Removing: [REFR:00115653] (places RWPieceSWaStr01 [STAT:0010D89C] in GRUP Cell Temporary Children of FensStreetSewerExt [CELL:0000E4EC] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -5,-7) in Precombined\0000E4EC_3831AAC9_OC.nif)
-	Remaining: [REFR:00115654] (places RWPieceSWaStr01 [STAT:0010D89C] in GRUP Cell Temporary Children of FensStreetSewerExt [CELL:0000E4EC] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -5,-7) in Precombined\0000E4EC_3831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00190777] (places BldgShellParapet01 [STAT:0008467D] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_1D47FA6C_OC.nif)
-	Remaining: [REFR:00190778] (places BldgShellParapet01 [STAT:0008467D] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_1D47FA6C_OC.nif)
-Found duplicates:
-	Removing: [REFR:001906DB] (places SWflat2x4_01 [STAT:00123BBC] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_1959CED1_OC.nif)
-	Remaining: [REFR:001906DD] (places SWflat2x4_01 [STAT:00123BBC] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_1959CED1_OC.nif)
-Found duplicates:
-	Removing: [REFR:001463AE] (places DecoAddStairs01 [STAT:001428F7] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_32B39DA3_OC.nif)
-	Remaining: [REFR:001463AB] (places DecoAddStairs01 [STAT:001428F7] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:002479FD] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_6776F5AC_OC.nif)
-	Remaining: [REFR:002479FC] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_6776F5AC_OC.nif)
-Found duplicates:
-	Removing: [REFR:002479FE] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_6776F5AC_OC.nif)
-	Remaining: [REFR:002479FC] (places StaticCollectionPivotDummy [STAT:00035812] in GRUP Cell Temporary Children of [CELL:0000E4E8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,-7) in Precombined\0000E4E8_6776F5AC_OC.nif)
-Found duplicates:
 	Removing: [REFR:0014322D] (places TrafficCone "Traffic Cone" [MSTT:00024843] in GRUP Cell Temporary Children of ChestnutHillockReservoirExt02 [CELL:0000E4CE] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -8,-6))
 	Remaining: [REFR:0020950F] (places TrafficCone "Traffic Cone" [MSTT:00024843] in GRUP Cell Temporary Children of ChestnutHillockReservoirExt02 [CELL:0000E4CE] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -8,-6))
 Found duplicates:
