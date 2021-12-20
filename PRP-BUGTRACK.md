@@ -21,7 +21,7 @@ Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
-
+- \[PRP\] -5, -5 CW: 1914F and 11308B were lowered to cover up a hole in the foundation from bad building placement.
 - \[PRP\] -1, -7 CW: 1463AE, 1906DB, 190777, 2479FD, 2479FE dedup.
 - \[PRP\] -5, -7 CW: 115653, 1ACA05 dedup.
 - \[PRP\] -7, -7 CW: 23286E dedup.
