@@ -1,4 +1,4 @@
-Current PPF Version: 0.54.24
+Current PPF Version: 0.54.26
 
 Deduplication tracker remaining:
 - Fallout4.esm \[ 3269 of 3300 \]
@@ -22,7 +22,9 @@ Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
-
+- \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
+- \[PRP\] 16, 12 CW: 1B5509 grounded to fix bad placement that revealed a hole to the water nearby. Shoddy construction.
+- \[U31795, PRP\] 12, 20 CW: 91591 ~~needed raised above the sidewalk, shifted to work around navmesh in the area, positioning might need tuning.~~ Marked UDR for now, pending better positioning work else occlusion issues with nearby bush.
 - \[PRP\] -5, -5 CW: 1914F and 11308B were lowered to cover up a hole in the foundation from bad building placement.
 - \[PRP\] -1, -7 CW: 1463AE, 1906DB, 190777, 2479FD, 2479FE dedup.
 - \[PRP\] -5, -7 CW: 115653, 1ACA05 dedup.
