@@ -17,6 +17,7 @@ Current known issues:
 - ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
+- \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
