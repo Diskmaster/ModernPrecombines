@@ -14,18 +14,23 @@ Current known issues:
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
-- ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
+- \[PRP\] Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
 - \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
-- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. (Reverted in test build)
+- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area.
 - \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
+- \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
+- \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
+
+List of areas to blacklist from the next build due to problems that have yet to be fixed:
+All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
-- \[PRP\] DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.
+- \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
 - \[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx
 0.54.26 was released at this point.
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
