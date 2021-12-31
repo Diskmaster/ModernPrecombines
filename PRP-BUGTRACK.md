@@ -10,6 +10,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
@@ -22,6 +23,8 @@ Current known issues:
 - \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
 - \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
 - \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
+- \[PRP\] Marvesly reported some display issue near F4380 (in cell DBC0)
+
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
