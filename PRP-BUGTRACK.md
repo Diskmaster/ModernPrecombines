@@ -24,6 +24,7 @@ Current known issues:
 - \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
 - \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
 - \[PRP\] Marvesly reported some display issue near F4380 (in cell DBC0)
+- \[PRP\] Another Marvesly report. Closest is D123B (cell DFC7), apparently two buildings on top of each other?
 
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
