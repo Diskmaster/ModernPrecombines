@@ -16,8 +16,8 @@ Before I begin the guide, let's talk about what needs to be patched:
 - Any mod that touches precombined references will most likely need to be patched. To find these records you can use xedit's precombine filter. [Pic1](/Patch-Tutorial-Pics/Xedit_filter_for_checking_precombine.png)
 - Any mod that has it's own precombine files, found in Meshes/Precombined, or it's own Visibility files, found in the Vis folder, might need a patch with PRP. If the files are conflicting then it is possible the mod needs a patch or to at least to have it's precombined files regenerated with the Apply Material Swap.pas script if the mod in question didn't do that.
 
-## Stage One - the precombining step
-Once you have figured out which mods would need PRP patches, let us get down to business. You should open xedit with the mod in question and PRP (I do not believe load order would be relevant here). Deep copy as override with overwriting the Cell and Worldspace records of the plugin in question. This will copy everything the plugin touches
+## Preparation of the esp patch
+Once you have figured out which mods would need PRP patches, let us get down to business. You should open xedit with just one of the mods in question and PRP (I do not believe load order would be relevant here). Deep copy as override the Cell and Worldspace records of the plugin in question to a new esp file, name it to something that makes sense. Apply the "Apply Material Swap" script to the newly generated plugin and wait for it to finish. Once it is done, 
 
 [^1]: Guide was built using this version, but you can probably use the latest version.
 [^2]: Guide will be using this because I use an enb
