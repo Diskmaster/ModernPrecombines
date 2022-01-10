@@ -1,4 +1,4 @@
-# Creating Previsibine Patches by feeddanoob (ikillyou233 on nexus)
+# Creating PRP patches by feeddanoob (ikillyou233 on nexus)
 Hello all welcome to my little tutorial on creating patches for PRP. It is suggested to read [command line manual](/Manual.md) as a reference so I do suggest you read that first.
 
 ## Prerequisites
@@ -13,8 +13,8 @@ Hello all welcome to my little tutorial on creating patches for PRP. It is sugge
 
 ## Finding out which mods would need patching
 Before I begin the guide, let's talk about what needs to be patched: 
-- Any mod that touches precombined references will most likely need to be patched. To find these records you can use xedit's precombine filter. [Pic1] 
-- Any mod that has it's own precombine files, found in Meshes/Precombined, or it's own Visibility files, found in the Vis folder, might need a patch with PRP. If the files are conflicting then it is possible the mod needs a patch or to at least to have it's precombined files regenerated with the Apply Material Swap.pas script if the mod in question didn't do that while generating.
+- Any mod that touches precombined references will most likely need to be patched. To find these records you can use xedit's precombine filter. [Pic1](/Patch-Tutorial-Pics/Xedit_filter_for_checking_precombine.png)
+- Any mod that has it's own precombine files, found in Meshes/Precombined, or it's own Visibility files, found in the Vis folder, might need a patch with PRP. If the files are conflicting then it is possible the mod needs a patch or to at least to have it's precombined files regenerated with the Apply Material Swap.pas script if the mod in question didn't do that.
 
 ## Stage One - the precombining step
 
