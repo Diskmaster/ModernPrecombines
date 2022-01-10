@@ -1,5 +1,5 @@
 # Creating PRP patches by feeddanoob (ikillyou233 on nexus)
-Hello all welcome to my little tutorial on creating patches for PRP. It is suggested to read [command line manual](/Manual.md) as a reference so I do suggest you read that first.
+Hello all welcome to my little tutorial on creating patches for PRP. It is suggested to read [command line manual](/Manual.md) as a reference first.
 
 ## Prerequisites
 - [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165) version 1.6.3[^1]
