@@ -2,7 +2,7 @@ Current PPF Version: 0.54.26
 
 Deduplication tracker remaining:
 - Fallout4.esm \[ 3269 of 3300 \]
-- DLC01Robot \[ 358 of 358 \]
+- DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
@@ -10,18 +10,34 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
 - \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
-- ??? Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
+- \[PRP\] Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
+- \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
+- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area.
+- \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
+- \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
+- \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
+- \[???\] DF85 - Performance issues?
+
+
+List of areas to blacklist from the next build due to problems that have yet to be fixed:
+All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
 
 Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+- \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
+- \[PRP\] WestRoxburyStationExt (-3, -15): Move the Motorcycle01 (1D3AE3) reference here to look more believable than stuck in the ground.
+- \[PRP\] CambridgePDExt02 (-8, 2): UDR'd 190B54, looked like it was overlapping 193670 presumably a development oversight at some point, maybe the original model didn't have windows on that side?
+- \[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12?
+- \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
 - \[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx
 0.54.26 was released at this point.
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
@@ -54,7 +70,6 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 - \[U?????, PRP\] LaytonTowers01: 15D9B8 from UF4OP, 15D934, 15D9E1, 15D9E2 had slight adjustments, the reason why escapes me. Needs verifying.
 - \[PRP\] DLC01Lair01: A pair of DefaultLightCoolFLSpotNS entries had their XRFG cleared.
 - \[U25794, PRP\] DLC03Vault118: 0303B4DA and 030490BC got Z-flipped by 180 degrees to correct their likely intended way to use a camera, all other records were more invalid XFRG clearing.
-- \[PRP?\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates.
 - \[U21471\] FensStreetSewer01: Shifted position of B3BDB to remove the obvious hole that was showing up in certain angles.
 - \[PRP\] DLC04NukaWorldPowerPlant01: 0602CF9B Moved countertop to not z-fight the neighboring countertop.
 - \[U30536\] BostonPublicLibrary02: 174346 Corrected the position of a bookcase.

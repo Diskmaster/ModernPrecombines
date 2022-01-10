@@ -11,57 +11,6 @@ Found duplicates:
 	Removing: [REFR:0100FE7A] (places DLC01_RobcoWallBase [STAT:0100A601] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
 	Remaining: [REFR:0100A652] (places DLC01_RobcoWallBase [STAT:0100A601] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
 Found duplicates:
-	Removing: [REFR:01001D99] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
-	Remaining: [REFR:01001D34] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
-Found duplicates:
-	Removing: [REFR:01001D9B] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
-	Remaining: [REFR:01001D2D] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
-Found duplicates:
-	Removing: [REFR:01001D9C] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
-	Remaining: [REFR:01001D36] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2C48F016_OC.nif)
-Found duplicates:
-	Removing: [REFR:01001D9D] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
-	Remaining: [REFR:01001D27] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
-Found duplicates:
-	Removing: [REFR:01001D9E] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
-	Remaining: [REFR:01001D2B] (places IndBldShellInMidCeilOnly01 [STAT:00024742] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2BE4F520_OC.nif)
-Found duplicates:
-	Removing: [REFR:01007430] (places IndBldShellOutWall01 [STAT:0002475D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_06EAAB49_OC.nif)
-	Remaining: [REFR:01004697] (places IndBldShellOutWall01 [STAT:0002475D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_06EAAB49_OC.nif)
-Found duplicates:
-	Removing: [REFR:0100743F] (places IndBldShellInMid01 [STAT:00024740] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_201DD13D_OC.nif)
-	Remaining: [REFR:01001672] (places IndBldShellInMid01 [STAT:00024740] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_201DD13D_OC.nif)
-Found duplicates:
-	Removing: [REFR:01008275] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-	Remaining: [REFR:0100811B] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-Found duplicates:
-	Removing: [REFR:01008816] (places ShelfSmall_Metal01_1Long [SCOL:0019D813] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_24B11323_OC.nif)
-	Remaining: [REFR:01008815] (places ShelfSmall_Metal01_1Long [SCOL:0019D813] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_24B11323_OC.nif)
-Found duplicates:
-	Removing: [REFR:01008F2A] (places ShelfSmall_Metal01_2Long [SCOL:0019D80B] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2AE782E3_OC.nif)
-	Remaining: [REFR:01008F04] (places ShelfSmall_Metal01_2Long [SCOL:0019D80B] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_2AE782E3_OC.nif)
-Found duplicates:
-	Removing: [REFR:0100A038] (places TrashEdge03_Nochunks [STAT:001ADB1D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_0065F0C1_OC.nif)
-	Remaining: [REFR:0100A037] (places TrashEdge03_Nochunks [STAT:001ADB1D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_0065F0C1_OC.nif)
-Found duplicates:
-	Removing: [REFR:0100A376] (places IndBldShellInWallDoorHuge01 [STAT:00018C3A] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_32CC13AF_OC.nif)
-	Remaining: [REFR:0100454F] (places IndBldShellInWallDoorHuge01 [STAT:00018C3A] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_32CC13AF_OC.nif)
-Found duplicates:
-	Removing: [REFR:0100D1C8] (places WaxCandlePuddle01 [STAT:00035A0D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_3CE78DD2_OC.nif)
-	Remaining: [REFR:0100D1C6] (places WaxCandlePuddle01 [STAT:00035A0D] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF] in Precombined\DLCRobot.esm\000044DF_3CE78DD2_OC.nif)
-Found duplicates:
-	Removing: [REFR:0100EC9D] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-	Remaining: [REFR:0100EC9B] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-Found duplicates:
-	Removing: [REFR:0100EC9E] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-	Remaining: [REFR:0100EC9C] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-Found duplicates:
-	Removing: [REFR:0100ED55] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-	Remaining: [REFR:0100ECA9] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-Found duplicates:
-	Removing: [REFR:0100ED56] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-	Remaining: [REFR:0100ECA8] (places ChainHanging02static [STAT:001BBE06] in GRUP Cell Temporary Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
-Found duplicates:
 	Removing: [REFR:01010BBF] (places workbenchWeaponsB "Weapons Workbench" [FURN:0017E787] in GRUP Cell Persistent Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
 	Remaining: [REFR:0100886C] (places workbenchWeaponsB "Weapons Workbench" [FURN:0017E787] in GRUP Cell Persistent Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
 Found duplicates:
