@@ -14,7 +14,7 @@ Hello, welcome to my little tutorial on creating patches for PRP (or at least th
 
 ## Terminology
 - Previsibines - Precombines and Previs steps combined
-- CELL(s) - Normally refers to Interior (Cell) and Exterior (Worldspace) records, in XEdit this would be in the Record Header/Signature
+- CELL(s) - Normally refers to Interior (Cell) and Exterior (Worldspace) records, in xEdit this would be in the Record Header/Signature
 - Cell(s) - Refers to just the Interior portion, in xedit this would have its own category on the left side
 - So, CELL vs Cell: All Caps on cell is refering to both Worldspace and Cell, One Cap is referring to the interior cell (the thing you see in xedit on the left side when checking for plugins
 
