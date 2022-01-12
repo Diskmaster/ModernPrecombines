@@ -1,4 +1,4 @@
-Current PPF Version: 0.54.26
+Current PPF Version: 0.55.1
 
 Deduplication tracker remaining:
 - Fallout4.esm \[ 3269 of 3300 \]
@@ -36,13 +36,17 @@ Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
+
+- \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
+-- 0.55.1
 - \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
 - \[PRP\] WestRoxburyStationExt (-3, -15): Move the Motorcycle01 (1D3AE3) reference here to look more believable than stuck in the ground.
 - \[PRP\] CambridgePDExt02 (-8, 2): UDR'd 190B54, looked like it was overlapping 193670 presumably a development oversight at some point, maybe the original model didn't have windows on that side?
 - \[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12.
 - \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
 - \[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx
-0.54.26 was released at this point.
+-- 0.54.26
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
 - \[PRP\] 16, 12 CW: 1B5509 grounded to fix bad placement that revealed a hole to the water nearby. Shoddy construction.
 - \[U31795, PRP\] 12, 20 CW: 91591 ~~needed raised above the sidewalk, shifted to work around navmesh in the area, positioning might need tuning.~~ Marked UDR for now, pending better positioning work else occlusion issues with nearby bush.
