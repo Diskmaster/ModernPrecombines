@@ -27,6 +27,7 @@ Current known issues:
 - \[PRP\] Financial06: Window void holes. Entire interior is missing external stuff like the sky and shit.
 - \[PRP\] ThicketExcavationExt02: Previs issue?, multiple water volumes.
 - \[PRP\] ???: 80812 as reported by Hap.
+- \[PRP\] MassFusion01: Elevator apparently has broken occlusion? Unconfirmed.
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
