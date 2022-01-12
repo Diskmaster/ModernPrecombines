@@ -8,7 +8,7 @@ Hello, welcome to my little tutorial on creating patches for PRP (or at least th
 - [xedit](https://www.nexusmods.com/fallout4/mods/2737) x64 type will be used due to the possibility of needing the larger memory size 
 - [Pra's FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898)
 - [PRP](https://www.nexusmods.com/fallout4/mods/46403) and/or [PPF.esm](/PPF.esm)[^3]
-- A decent size of ram (could be 16gbs to 32 gbs depending on the mod) and/or swap size
+- A decent size of ram (could be 16gbs to 32gbs depending on the mod) and/or swap size/page file
 - General information on command line interfaces (I will be using Window's command prompt for this guide to create batch files)
 - Patience as this will take a while
 
