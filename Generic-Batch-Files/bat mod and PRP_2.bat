@@ -1,0 +1,1 @@
+f4ck_loader.exe -CompressPSG:[Include the esp name here with the extension, ommit the brackets]
