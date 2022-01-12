@@ -34,7 +34,7 @@ Now you are at the Precombine generation step, for this you can choose to follow
 ### Option 1
 As previously mentioned, this option requires you to copy your esps and ba2s to the Fallout 4 data folder. Once you have done that, you can open the first batch file,  type this in the command prompt: `f4ck_loader.exe -GeneratePrecombined:pluginname.esp clean all`, or type this in powershell `.\f4ck_loader.exe -GeneratePrecombined:pluginname.esp clean all`, the Creation Kit will open and begin generating the precombines and close when it is finished giving you the meshes/precombined folder, a .psg file, and a CombinedObjects.esp file.
 ### Option 2
-For using MO2, I would recommend creating a new profile (you can copy your current one), and name it something like Previsibine Generation (it could be anything). Deselect everything in that new profile, and enable 
+For using MO2, I would recommend creating a new profile (you can copy your current one), and name it something like Previsibine Generation (it could be anything). Deselect everything on the left side in that new profile, and enable your patch's requirements. Next is to go into MO2s [Explore Virtual Folder](/Patch-Tutorial-Pics/ModOrganizer2_Explore.png)
 
 [^1]:Guide was built using this version, but you can probably use the latest version.
 [^2]:Guide will be using this because I use an enb
