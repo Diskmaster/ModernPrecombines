@@ -10,6 +10,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
