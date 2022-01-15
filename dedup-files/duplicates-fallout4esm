@@ -2,79 +2,8 @@
 [Fallout4-Dedup.esp] Adding master "Fallout4.esm"
 MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
 MonkeyTrapTriggers in -3, -15 (WestRoxburyStationExt are not duplicates.
+BlackWireTowerSpline01 in -12, -2 (OberlandStation) are not duplicates.
 
-Found duplicates:
-	Removing: [REFR:00175F97] (places FlagpoleUSAFlag02 [STAT:0017FE50] in GRUP Cell Temporary Children of [CELL:0000E634] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-17) in Precombined\0000E634_32B39DA3_OC.nif)
-	Remaining: [REFR:00175F96] (places FlagpoleUSAFlag02 [STAT:0017FE50] in GRUP Cell Temporary Children of [CELL:0000E634] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -3,-17) in Precombined\0000E634_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:00209673] (places BranchPile02 "Maple Branches" [SCOL:000393E9] in GRUP Cell Temporary Children of Vault81Ext [CELL:0000E4D0] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-6) in Precombined\0000E4D0_32C3EAB5_OC.nif)
-	Remaining: [REFR:00209672] (places BranchPile02 "Maple Branches" [SCOL:000393E9] in GRUP Cell Temporary Children of Vault81Ext [CELL:0000E4D0] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-6) in Precombined\0000E4D0_32C3EAB5_OC.nif)
-Found duplicates:
-	Removing: [REFR:0020968B] (places BlastedForestLeafPile01 [STAT:001BCE55] in GRUP Cell Temporary Children of Vault81Ext [CELL:0000E4D0] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-6) in Precombined\0000E4D0_0A82376A_OC.nif)
-	Remaining: [REFR:00209687] (places BlastedForestLeafPile01 [STAT:001BCE55] in GRUP Cell Temporary Children of Vault81Ext [CELL:0000E4D0] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-6) in Precombined\0000E4D0_0A82376A_OC.nif)
-Found duplicates:
-	Removing: [REFR:000F4884] (places Shack_Single_Plank02 [STAT:00062302] in GRUP Cell Temporary Children of ForestGroveMarshExt05 [CELL:0000E4B5] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -16,-5) in Precombined\0000E4B5_7831AAC9_OC.nif)
-	Remaining: [REFR:000F4883] (places Shack_Single_Plank02 [STAT:00062302] in GRUP Cell Temporary Children of ForestGroveMarshExt05 [CELL:0000E4B5] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -16,-5) in Precombined\0000E4B5_7831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00228CB2] (places RockM01 [STAT:0003AA21] in GRUP Cell Temporary Children of [CELL:0000E4B3] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -14,-5) in Precombined\0000E4B3_2BEA5372_OC.nif)
-	Remaining: [REFR:00228CB3] (places RockM01 [STAT:0003AA21] in GRUP Cell Temporary Children of [CELL:0000E4B3] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -14,-5) in Precombined\0000E4B3_2BEA5372_OC.nif)
-Found duplicates:
-	Removing: [REFR:00204B96] (places RockBlastedForestRocksRubble01 [STAT:0011DFE4] in GRUP Cell Temporary Children of [CELL:0000E4AE] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-5) in Precombined\0000E4AE_32B39DA3_OC.nif)
-	Remaining: [REFR:00204B97] (places RockBlastedForestRocksRubble01 [STAT:0011DFE4] in GRUP Cell Temporary Children of [CELL:0000E4AE] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-5) in Precombined\0000E4AE_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:0005E4B9] (places QryCatwalkRail02v01DoublePostsV01 [STAT:0005F3DB] in GRUP Cell Temporary Children of ForestGroveMarshExt03 [CELL:0000E493] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-4) in Precombined\0000E493_F989CFA7_OC.nif)
-	Remaining: [REFR:0005E4D9] (places QryCatwalkRail02v01DoublePostsV01 [STAT:0005F3DB] in GRUP Cell Temporary Children of ForestGroveMarshExt03 [CELL:0000E493] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-4) in Precombined\0000E493_F989CFA7_OC.nif)
-Found duplicates:
-	Removing: [REFR:0013817B] (places TreeMapleForest7 "Maple Tree" [STAT:0003E0D1] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FD5] (places TreeMapleForest7 "Maple Tree" [STAT:0003E0D1] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:0013817A] (places TreeMapleForest7 "Maple Tree" [STAT:0003E0D1] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FD6] (places TreeMapleForest7 "Maple Tree" [STAT:0003E0D1] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:00138172] (places TreeBlastedForestCluster01 "Trees" [SCOL:0013463A] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FD4] (places TreeBlastedForestCluster01 "Trees" [SCOL:0013463A] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:0013B51B] (places TreeBlastedForestCluster03 "Trees" [SCOL:0013463E] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FDB] (places TreeBlastedForestCluster03 "Trees" [SCOL:0013463E] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:0013B51F] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FDA] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:0013B520] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FD7] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:0013B521] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-	Remaining: [REFR:00186FD8] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-3))
-Found duplicates:
-	Removing: [REFR:002030BD] (places BlastedForestLeafPile01 [STAT:001BCE55] in GRUP Cell Temporary Children of [CELL:0000E46C] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-3) in Precombined\0000E46C_2776F5AC_OC.nif)
-	Remaining: [REFR:002030DB] (places BlastedForestLeafPile01 [STAT:001BCE55] in GRUP Cell Temporary Children of [CELL:0000E46C] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-3) in Precombined\0000E46C_2776F5AC_OC.nif)
-Found duplicates:
-	Removing: [REFR:00186FD9] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46C] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-3))
-	Remaining: [REFR:0013B522] (places DeadShrub06 "Bush" [STAT:00133858] in GRUP Cell Temporary Children of [CELL:0000E46C] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-3))
-Found duplicates:
-	Removing: [REFR:000E6B08] (places ElevatorMeterUtility [ACTI:000A87D5] in GRUP Cell Temporary Children of [CELL:0000E451] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-2))
-	Remaining: [REFR:000E5A5B] (places ElevatorMeterUtility [ACTI:000A87D5] in GRUP Cell Temporary Children of [CELL:0000E451] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-2))
-Found duplicates:
-	Removing: [REFR:0003FC95] (places BlackWireTowerSpline01 [BNDS:0007CDAC] in GRUP Cell Temporary Children of OberlandStation [CELL:0000E44E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -12,-2))
-	Remaining: [REFR:0003FC8D] (places BlackWireTowerSpline01 [BNDS:0007CDAC] in GRUP Cell Temporary Children of OberlandStation [CELL:0000E44E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -12,-2))
-Found duplicates:
-	Removing: [REFR:000E594F] (places SWCurb2x1EndR01 [STAT:000223CB] in GRUP Cell Temporary Children of WestonWaterTreatmentExt02 [CELL:0000E431] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -16,-1) in Precombined\0000E431_3831AAC9_OC.nif)
-	Remaining: [REFR:000E5961] (places SWCurb2x1EndR01 [STAT:000223CB] in GRUP Cell Temporary Children of WestonWaterTreatmentExt02 [CELL:0000E431] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -16,-1) in Precombined\0000E431_3831AAC9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00214BB5] (places FollowerSAEClutterTrigger_SuperMutants [ACTI:0020C656] in GRUP Cell Temporary Children of WestonWaterTreatmentExt [CELL:0000E430] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-1))
-	Remaining: [REFR:00214BB4] (places FollowerSAEClutterTrigger_SuperMutants [ACTI:0020C656] in GRUP Cell Temporary Children of WestonWaterTreatmentExt [CELL:0000E430] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-1))
-Found duplicates:
-	Removing: [REFR:0020323B] (places RockBlastedForestRockPlates03 [STAT:0011DFE5] in GRUP Cell Temporary Children of [CELL:0000E42B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-1) in Precombined\0000E42B_135B94FB_OC.nif)
-	Remaining: [REFR:00138192] (places RockBlastedForestRockPlates03 [STAT:0011DFE5] in GRUP Cell Temporary Children of [CELL:0000E42B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -10,-1) in Precombined\0000E42B_135B94FB_OC.nif)
-Found duplicates:
-	Removing: [REFR:001811C7] (places RockPileL01RiverbedRocks02Wet [STAT:000BC251] in GRUP Cell Temporary Children of EgretToursMarinaExt02 [CELL:0000E619] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-16) in Precombined\0000E619_32B39DA3_OC.nif)
-	Remaining: [REFR:001811C6] (places RockPileL01RiverbedRocks02Wet [STAT:000BC251] in GRUP Cell Temporary Children of EgretToursMarinaExt02 [CELL:0000E619] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -9,-16) in Precombined\0000E619_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:00157CCC] (places TreeElmUndergrowth02Static "Elm Sapling" [STAT:000D9CAB] in GRUP Cell Temporary Children of [CELL:0000E5DB] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -13,-14) in Precombined\0000E5DB_3BB2127F_OC.nif)
-	Remaining: [REFR:00157CCD] (places TreeElmUndergrowth02Static "Elm Sapling" [STAT:000D9CAB] in GRUP Cell Temporary Children of [CELL:0000E5DB] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -13,-14) in Precombined\0000E5DB_3BB2127F_OC.nif)
-Found duplicates:
-	Removing: [REFR:001C4B16] (places FenceWIRailingStr01 [STAT:000AB058] in GRUP Cell Temporary Children of [CELL:0000E576] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -11,-11) in Precombined\0000E576_9959CED1_OC.nif)
-	Remaining: [REFR:001C4B18] (places FenceWIRailingStr01 [STAT:000AB058] in GRUP Cell Temporary Children of [CELL:0000E576] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -11,-11) in Precombined\0000E576_9959CED1_OC.nif)
 Found duplicates:
 	Removing: [REFR:00205530] (places TreeBlastedForestBurntUpright02 "Tree" [STAT:00121550] in GRUP Cell Temporary Children of [CELL:0000E559] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-10) in Precombined\0000E559_32C3EAB5_OC.nif)
 	Remaining: [REFR:00205543] (places TreeBlastedForestBurntUpright02 "Tree" [STAT:00121550] in GRUP Cell Temporary Children of [CELL:0000E559] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -15,-10) in Precombined\0000E559_32C3EAB5_OC.nif)
