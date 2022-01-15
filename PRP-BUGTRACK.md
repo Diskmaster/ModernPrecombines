@@ -1,7 +1,7 @@
-Current PPF Version: 0.55.1
+Current PPF Version: 0.55.2
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3269 of 3300 \]
+- Fallout4.esm \[ 3183 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -39,6 +39,38 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
+
+- \[PRP\] (-3, -18): Dedup 0011FEE3
+- \[PRP\] (-3, -21): Dedup 001D625B
+- \[PRP\] (-5, -21): Dedup 001F411B
+- \[PRP\] (-3, -9): Dedup 00111A49, 001CAFCD
+- \[PRP\] FensEvansWayCuldeSac (-4, -9): Dedup 00111934
+- \[PRP\] POISC08 (-5, -11): Dedup 001C8C95
+- \[PRP\] (-6, -11): Dedup 0015EED7
+- \[PRP\] POISC21 (-3, -12): Why the fuck is there two exactly placed cages on the same exact point, Seymour? You should delete 00206179 at least!
+- \[PRP\] MiltonGeneralExt (-2, -15): Dedup 001D3CDD
+- \[PRP\] (-4, -15): Dedup 001DF96B
+- \[PRP\] (-8, -15): Dedup 001D0BB2
+- \[PRP\] ShawHighSchoolExt (-1, -16): Dedup 001BD184, 001BD186, 001BD18A, 001BD18C, 001BD190, 001BD192, 001BD196, 001BD198
+- \[PRP\] WestRoxburyStationExt02 (-2, -16): Dedup 000E50C1, 000E07A7, 000E07A5, 000E079A, 000E0798, 000B3247
+- \[PRP\] FallonsDepartmentStoreExt (-3, -16): Dedup 00142E14, 000B319B
+- \[PRP\] FallonsDepartmentStoreExt02 (-4, -16): Dedup 001DF959, 001DF929
+- \[PRP\] (-8, -16): Dedup 00021A3D, 000464E0
+- \[PRP\] (-2, -1): Dedup 000D2282
+- \[PRP\] RiverExt01 (-3, -1): Dedup 000A6D6F, 0018560A
+- \[PRP\] USSRiptideExt02 (-6, -2): Dedup 0023BFD3
+- \[PRP\] (-7, -2): Dedup 00186889
+- \[PRP\] (-8, -2): Dedup 0016C30F
+- \[PRP\] (-4, -5): Dedup 001130A3, 001130A4
+- \[PRP\] FensRaiderCampExt02 (-5, -5): Dedup 00108C40
+- \[PRP\] (-7, -5): Dedup 00209762, 00209753, 001B5F66
+- \[PRP\] BostonPublicLibraryExt (-1, -6): Dedup 00176A0B
+- \[PRP\] FensIntersection01 (-2, -6): Dedup 00177F91, 00177F63, 001769A0, 000B20E6
+- \[PRP\] (-3, -6): Dedup 0015D7BC
+- \[PRP\] (-4, -6): Dedup 0016A4DD
+- \[PRP\] (-6, -6): Dedup 001AC8A5, 00119728, 00108E82
+- \[PRP\] ChestnutHillockReservoirExt03 (-7, -6): Dedup a roof tile. 1A7E18
+- \[PRP\] ChestnutHillockReservoirExt02 (-8, -6): Deduplicate a Traffic Cone. 14322D
 - \[PRP\] Vault95: Slightly shift a world block to close a void hole near DFF18 (Vault Door)
 - \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
 - \[U32299\] ScrapPalaceExt04: Move armor workbench away from the crates it appears to be shoved inside of.
