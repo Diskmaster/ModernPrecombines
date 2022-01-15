@@ -39,6 +39,7 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
+- \[PRP\] Vault95: Slightly shift a world block to close a void hole near DFF18 (Vault Door)
 - \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
 - \[U32299\] ScrapPalaceExt04: Move armor workbench away from the crates it appears to be shoved inside of.
 - \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
