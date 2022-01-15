@@ -29,6 +29,7 @@ Current known issues:
 - \[PRP\] ThicketExcavationExt02: Previs issue?, multiple water volumes.
 - \[PRP\] ???: 80812 as reported by Hap.
 - \[PRP\] MassFusion01: Elevator apparently has broken occlusion? Unconfirmed.
+- \[U32298\] Vault95: 13096E door buttons positions are way too far than they need to be. A model issue. Punted to UF4OP.
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
@@ -38,7 +39,9 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
-
+- \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
+- \[U32299\] ScrapPalaceExt04: Move armor workbench away from the crates it appears to be shoved inside of.
+- \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
 - \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
 -- 0.55.1
 - \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
