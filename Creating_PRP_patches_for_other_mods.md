@@ -7,7 +7,7 @@ Hello, welcome to my little tutorial on creating patches for PRP (or at least th
 - [f4ck_loader](https://github.com/Perchik71/Fallout4Test/releases) [^2]
 - [xedit](https://www.nexusmods.com/fallout4/mods/2737) x64 type will be used due to the possibility of needing the larger memory size 
 - [Pra's FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898)
-- [PRP](https://www.nexusmods.com/fallout4/mods/46403) and/or [PPF.esm](/PPF.esm)[^3]
+- [PRP](https://www.nexusmods.com/fallout4/mods/46403) and/or [PPF.esm](./PPF.esm)[^3]
 - A decent size of ram (could be 16gbs to 32gbs depending on the mod) and/or swap size/page file
 - General information on command line interfaces (I will be using Window's command prompt for this guide to create batch files)
 - Patience as this will take a while
@@ -36,17 +36,17 @@ As previously mentioned, this option requires you to copy your esps and ba2s to 
 ### Option 2
 For using MO2, I would recommend creating a new profile (you can copy your current one), and name it something like Previsibine Generation (it could be anything). Deselect everything on the left side in that new profile, and enable your patch's requirements. Next is to go into MO2s [Explore Virtual Folder](/Patch-Tutorial-Pics/ModOrganizer2_Explore.png) and go to Fallout's root folder [using this icon](/Patch-Tutorial-Pics/Explore_Toolbar_Up.png). Then either find the batch files you have created or modified and open them or use the [command prompt button](/Patch-Tutorial-Pics/Explore_Toolbar_Command_Prompt.png) and type `f4ck_loader.exe -GeneratePrecombined:pluginname.esp clean all`. The Creation Kit should open, there may be a delay but check your task manager to see if the CK is running, and the precombine generation should start and finish with the Creation Kit closing, giving you the meshes/precombined folder, a .psg file, and a CombinedObjects.esp file. It is important to not close the Explorer++ process until the creation Kit is finished.
 ### Possible Errors when generating Precombines
-The CK may crash with an exception 0xc0000005 and this can happen using both options above. The only solution so far is to exclude the cells from precombine generation by removing them in the PRP patch. So far I have only experienced this when trying to generate precombines for Fusion City Rising, Hookes of the Commonwealth, and Outcast and Remnants and have listed the Cell records [here](/Bad-Cells). If you are creating a patch, and notice the CK crashing during precombine generation, please submit a pull request or issue with the problematic cell records that way other people can be aware when they are generating precombines.
+The CK may crash with an exception 0xc0000005, sadly this can happen when using either options above. The only solution so far is to exclude the cells from precombine generation by removing them in the PRP patch. So far I have only experienced this when trying to generate precombines for Fusion City Rising, Hookes of the Commonwealth, and Outcast and Remnants and have listed the Cell records [here](./Bad-Cells). If you are creating a patch, and notice the CK crashing during precombine generation, please submit a pull request or issue with the problematic cell records that way other people can be aware when they are generating precombines.
 
 If you get a psg file that is 0kb in size my only guess is you typed something wrong in the terminal.
 ## Precombine Generation - Step 2 Part B 
-
+Once you get the CombinedObjects.esp you should error check that in xedit. If any errors appear (exclude [^9] type errors) then something went wrong and this usually happens in the [Preparation of the esp patch](#preparation-of-the-esp-patch)
 [^1]:Guide was built using this version, but you can probably use the latest version.
 [^2]:Guide will be using this because I use an enb
-[^3]:For now I suggest using PRP 0.53. Once PRP gets updated to 0.55, PPF.esm should be shipped with the PRP.esp file
+[^3]:For now I suggest using PRP 0.53 since it is labeled stable. Once PRP gets updated to 0.55, PPF.esm should be shipped with the PRP.esp file
 [^4]:That is all the DLC + UF4P + PRP + the plugin in question's masters. There is a problem when the CK adds the masters of other plugins to your new plugin and that causes errors when generating the precombine data.
 [^5]:We will be saving the esp in the creation kit (as opposed to using the copy version control script in xedit) and sometimes the CK adjusts the navmesh entries to some unknown parameters, so for simplicity sake we skip everything related to navmeshes.
 [^6]:The Precombined Timestamps (PCMB in xedit) and the Combined References (XCRI in xedit) will not update if the cell has no subrecords.
 [^7]:There is an exception to this however, if there is a mod that creates its own worldspace (let's say Xander's Aid for example [Pic3](/Patch-Tutorial-Pics/Xedit_example_of_not_creating_an_ITM.png)) then there will be records with just navmeshes in them, and in that case you just keep the record (they might still be used for the previs step later on).
 [^8]: If XPRI errors are present, you probably didn't add the plugins above as master to your PRP patch plugin as mentioned earlier. You should remove all of the Cell and Worldspace entries in xedit and start over again with the preparation step, making sure that all the plugins are listed as master files. If the XPRI errors are still present, create an issue to me (feeddanoob) or contact me in the Collective Modding Discord (also feeddanoob) and I will try to see what the problem is.
-[^9]: Please note: Some of the parent mods have XPRI errors in them too, example is Nuka World [Pic4](/Patch-Tutorial-Pics/Example_of_Nuka_World_having_XPRI_errors.png)
+[^9]: Please note: Some of the parent mods have XPRI errors in them too, example is Nuka World [Pic4](/Patch-Tutorial-Pics/Example_of_Nuka_World_having_XPRI_errors.png) so you can ignore those.
