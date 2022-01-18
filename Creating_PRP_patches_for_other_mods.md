@@ -62,13 +62,13 @@ This is the part where you need a lot of ram, pagefile/swap, and patience (can t
 If you are on MO2, I highly suggest to double check that no other mods are active on the left side (there could be loose textures or meshes from mods).
 
 ## Previs Generation - Part B
-The final generation boss has arrived. As with all the other steps, you can run the final, fourth batch file, type this in command prompt (also for MO2) `f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`, or this in powershell `.\f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`. Once the creation kit finishes the generation, closing itself, you should see a VIS folder and a PreVis.esp plugin in either your DATA folder or your overwrite folder in MO2. You can pack the newly created VIS folder into your archive from the [Precombine generation step](#precombine-generation---part-c) using these [settings](/Patch-Tutorial-Pics/Archive_2_precombine_packing.png).
+The final generation boss has arrived. As with all the other steps, you can run the final, fourth batch file, type this in command prompt (also for MO2) `f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`, or this in powershell `.\f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`. Once the creation kit finishes the generation, closing itself, you should see a VIS folder and a PreVis.esp plugin in either your DATA folder or your overwrite folder for MO2. You can pack the newly created VIS folder into your archive from the [Precombine generation step](#precombine-generation---part-c) using these [settings](/Patch-Tutorial-Pics/Archive_2_precombine_packing.png).
 ### Possible Reasons why Previs generation crashed with an error
 There are a few reasons why Previs generation has failed:
 - As mentioned above in the [Information section](#information-about-previs-generation), you probably ran out of memory. The only solution so far is increasing your ram size ($), increasing your pagefile/swap size (I might cover this, but there are plenty of tutorials online on how to do this), or moving the texture ba2s somewhere else.
 - There is a mesh the CK really dislikes. You have to troubleshoot this by reading the creation kit crash logs, guessing which location the CK crashes, and pinpointing the reference that is causing the crash. The issue(s) that I know of where a mesh is causing the CK to crash are located [here](/Bad-Refs).
 - Generated Precombine meshes were not packed into a ba2 archive. Solution - pack the files into an archive and then delete the loose files.
-- Missing meshes. Use the `Assets manager.pas` script to the plugin you are trying to patch or to your plugin.
+- Missing meshes. Use the `Assets manager.pas` script, making sure it is selected to `Check fo missing assests`, to the plugin you are trying to patch or to your plugin then press OK. As for a solution, I do not know of any other than asking for the missing meshes.
 
 ## Previs Generation - Part C
 
