@@ -62,7 +62,7 @@ This is the part where you need a lot of ram, page file/swap, and patience (can 
 If you are on MO2, I highly suggest to double check that no other mods are active on the left side (there could be loose textures or meshes from mods).
 
 ## Previs Generation - Part B
-The final generation boss has arrived. As with all the other steps, you can run the final, fourth batch file, type this in command prompt (also for MO2) `f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`, or this in powershell `.\f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`. Once the creation kit finishes the generation, closing itself, you should see a VIS folder and a PreVis.esp plugin in either your DATA folder or your overwrite folder for MO2. You can pack the newly created VIS folder into your archive from the [Precombine generation step](#precombine-generation---part-c) using these [settings](/Patch-Tutorial-Pics/Archive_2_precombine_packing.png).
+The final generation boss has arrived. As with all the other steps, you can run the final, fourth batch file, type this in command prompt (also for MO2) `f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`, or this in powershell `.\f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`. Once the creation kit finishes the generation, closing itself, you should see a VIS folder and a PreVis.esp plugin in either your DATA folder or your overwrite folder for MO2. You can pack the newly created VIS folder into your archive from the [Precombine generation step](#precombine-generation---part-c) using these [settings](/Patch-Tutorial-Pics/Archive_2_precombine_packing.png) (The same settings used when you initially created the ba2 archive).
 ### Possible Reasons why Previs generation crashed with an error
 There are a few reasons why Previs generation has failed:
 - As mentioned above in the [Information section](#information-about-previs-generation), you probably ran out of memory. The only solution so far is increasing your ram size ($), increasing your page file/swap size (I might cover this, but there are plenty of tutorials online on how to do this), or moving the texture ba2s somewhere else.
@@ -71,7 +71,13 @@ There are a few reasons why Previs generation has failed:
 - Missing meshes. Use the `Assets manager.pas` script, making sure it is selected to `Check for missing assets`, to the plugin you are trying to patch or to your plugin then press OK. As for a solution, I do not know of any other than asking for the missing meshes.
 
 ## Previs Generation - Part C
+It's now time to save the PreVis.esp in the Creation Kit[^11]. Once that is done, open the now saved PreVis.esp file in xedit, select the Cell and Worldspace categories, and `Deep copy as override (with overwriting) into` your PRP patch plugin. You will get a prompt that asks if you want to overwrite a CELL, select Yes to All. Verify that all CELLs are included from the PreVis.esp plugin and that the new timestamps are there. Once you have verified that everything is there, congratulations you have created your first PRP patch!
 
+## Testing Phase
+Now that your have generated everything, it is time to see if your generation worked correctly on the first try. I would select a few CELL locations and just run around the area to check for any preculling issues, if you found any please wait for a future guide on how to fix this (tbd and probably on another md file).
+
+## Creating patches for your patches
+(tbd and probably on another md file)
 
 [^1]:Guide was built using this version, but you can probably use the latest version.
 [^2]:Guide will be using this because I use an enb
@@ -83,3 +89,4 @@ There are a few reasons why Previs generation has failed:
 [^8]: If XPRI errors are present, you probably didn't add the plugins above as master to your PRP patch plugin as mentioned earlier. You should remove all the Cell and Worldspace entries in xedit and start over again with the preparation step, making sure that all the plugins are listed as master files. If the XPRI errors are still present, create an issue to me (feeddanoob) or contact me in the Collective Modding Discord (also feeddanoob) and I will try to see what the problem is.
 [^9]: Please note: Some of the parent mods have XPRI errors in them too, example is Nuka World [Pic4](/Patch-Tutorial-Pics/Example_of_Nuka_World_having_XPRI_errors.png) so you can ignore those.
 [^10]: Note: The Maximum Archive Size could be anything your hardware can handle, I am only using the default value that it pops up with. The main setting to be focused on is the Compression Setting to none. Please note if you do decide to pack into smaller archives that you will have to do additional work for the game to use those smaller archives (I suggest/recommend packing them all in one archive if you can)
+[^11]: For this generation, I only suggest using the CK saving method and not Searges's `05_MergePrevis.pas` script, unlike in the manual. If I am reading the script correctly it only copies the winning overrides from the PreVis.esp. The thing is the PreVis.esp is usually going to have more Worldspace cells than the PRP patch you are trying to create. This can be a problem when you are creating multiple patches and those patches may have .uvd conflicts even though they do not have any worldspace cell conflicts. I believe the script is only usefull for full CELL generation (don't quote me on this).
