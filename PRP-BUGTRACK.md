@@ -1,7 +1,7 @@
-Current PPF Version: 0.54.26
+Current PPF Version: 0.55.2
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3269 of 3300 \]
+- Fallout4.esm \[ 3159 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -10,6 +10,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
@@ -28,21 +29,84 @@ Current known issues:
 - \[PRP\] ThicketExcavationExt02: Previs issue?, multiple water volumes.
 - \[PRP\] ???: 80812 as reported by Hap.
 - \[PRP\] MassFusion01: Elevator apparently has broken occlusion? Unconfirmed.
+- \[U32298\] Vault95: 13096E door buttons positions are way too far than they need to be. A model issue. Punted to UF4OP.
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
 
-Current fixed issues: \(UF4OP bug numbers shown as Uxxxxx\)
+\(UF4OP bug numbers shown as Uxxxxx\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+
+Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
+
+Current fixed issues:
+
+0.55.2
+- \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
+- \[PRP\] (-11, -11): Dedup 001C4B16
+- \[PRP\] (-13, -14): Dedup 00157CCC
+- \[PRP\] (-9, -16): Dedup 001811C7
+- \[PRP\] (-10, -1): Dedup 0020323B
+- \[PRP\] (-15, -1): Dedup 00214BB5
+- \[PRP\] (-16, -1): Dedup 000E594F
+- \[PRP\] (-15, -2): Dedup 000E6B08
+- \[PRP\] (-9, -3): Dedup 002030BD, 00186FD9
+- \[PRP\] (-10, -3): Dedup 0013817B, 0013817A, 00138172, 0013B51B, 0013B51F, 0013B520, 0013B521
+- \[PRP\] (-15, -4): Dedup 0005E4B9
+- \[PRP\] (-9, -5): Dedup 00204B96
+- \[PRP\] HalluciGenExt (1, -4): Remove errant 176D4C placement (DecoMainA1x1Win07 / chunk of a building with window texture)
+- \[PRP\] (-14, -5): Dedup 00228CB2
+- \[PRP\] ForestGroveMarshExt05 (-16, -5): Dedup 000F4884
+- \[PRP\] Vault81Ext (-10, -6): Dedup 00209673, 0020968B
+- \[PRP\] (-3, -17): Dedup 00175F97
+- \[PRP\] (-3, -18): Dedup 0011FEE3
+- \[PRP\] (-3, -21): Dedup 001D625B
+- \[PRP\] (-5, -21): Dedup 001F411B
+- \[PRP\] (-3, -9): Dedup 00111A49, 001CAFCD
+- \[PRP\] FensEvansWayCuldeSac (-4, -9): Dedup 00111934
+- \[PRP\] POISC08 (-5, -11): Dedup 001C8C95
+- \[PRP\] (-6, -11): Dedup 0015EED7
+- \[PRP\] POISC21 (-3, -12): Why the fuck is there two exactly placed cages on the same exact point, Seymour? You should delete 00206179 at least!
+- \[PRP\] MiltonGeneralExt (-2, -15): Dedup 001D3CDD
+- \[PRP\] (-4, -15): Dedup 001DF96B
+- \[PRP\] (-8, -15): Dedup 001D0BB2
+- \[PRP\] ShawHighSchoolExt (-1, -16): Dedup 001BD184, 001BD186, 001BD18A, 001BD18C, 001BD190, 001BD192, 001BD196, 001BD198
+- \[PRP\] WestRoxburyStationExt02 (-2, -16): Dedup 000E50C1, 000E07A7, 000E07A5, 000E079A, 000E0798, 000B3247
+- \[PRP\] FallonsDepartmentStoreExt (-3, -16): Dedup 00142E14, 000B319B
+- \[PRP\] FallonsDepartmentStoreExt02 (-4, -16): Dedup 001DF959, 001DF929
+- \[PRP\] (-8, -16): Dedup 00021A3D, 000464E0
+- \[PRP\] (-2, -1): Dedup 000D2282
+- \[PRP\] RiverExt01 (-3, -1): Dedup 000A6D6F, 0018560A
+- \[PRP\] USSRiptideExt02 (-6, -2): Dedup 0023BFD3
+- \[PRP\] (-7, -2): Dedup 00186889
+- \[PRP\] (-8, -2): Dedup 0016C30F
+- \[PRP\] (-4, -5): Dedup 001130A3, 001130A4
+- \[PRP\] FensRaiderCampExt02 (-5, -5): Dedup 00108C40
+- \[PRP\] (-7, -5): Dedup 00209762, 00209753, 001B5F66
+- \[PRP\] BostonPublicLibraryExt (-1, -6): Dedup 00176A0B
+- \[PRP\] FensIntersection01 (-2, -6): Dedup 00177F91, 00177F63, 001769A0, 000B20E6
+- \[PRP\] (-3, -6): Dedup 0015D7BC
+- \[PRP\] (-4, -6): Dedup 0016A4DD
+- \[PRP\] (-6, -6): Dedup 001AC8A5, 00119728, 00108E82
+- \[PRP\] ChestnutHillockReservoirExt03 (-7, -6): Dedup a roof tile. 1A7E18
+- \[PRP\] ChestnutHillockReservoirExt02 (-8, -6): Deduplicate a Traffic Cone. 14322D
+- \[PRP\] Vault95: Slightly shift a world block to close a void hole near DFF18 (Vault Door)
+- \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
+- \[U32299\] ScrapPalaceExt04: Move armor workbench away from the crates it appears to be shoved inside of.
+- \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
+- \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
+
+0.55.1
 - \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
 - \[PRP\] WestRoxburyStationExt (-3, -15): Move the Motorcycle01 (1D3AE3) reference here to look more believable than stuck in the ground.
 - \[PRP\] CambridgePDExt02 (-8, 2): UDR'd 190B54, looked like it was overlapping 193670 presumably a development oversight at some point, maybe the original model didn't have windows on that side?
 - \[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12.
 - \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
 - \[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx
-0.54.26 was released at this point.
+
+0.54.26 and earlier.
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
 - \[PRP\] 16, 12 CW: 1B5509 grounded to fix bad placement that revealed a hole to the water nearby. Shoddy construction.
 - \[U31795, PRP\] 12, 20 CW: 91591 ~~needed raised above the sidewalk, shifted to work around navmesh in the area, positioning might need tuning.~~ Marked UDR for now, pending better positioning work else occlusion issues with nearby bush.
