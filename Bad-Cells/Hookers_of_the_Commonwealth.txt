@@ -1,0 +1,4 @@
+Cells not included in previsibine generation:
+08FC2BFC - AACFL
+08FC354E - AAFC
+08FC0778 - AAFCSub

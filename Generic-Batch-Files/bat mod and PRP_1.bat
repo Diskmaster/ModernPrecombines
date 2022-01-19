@@ -1,0 +1,1 @@
+f4ck_loader.exe -GeneratePrecombined:[Include the esp name here with the extension, ommit the brackets] clean all

@@ -1,0 +1,6 @@
+Worldspace \ 0000003C <Commonwealth> \ Block -1, 0 \ Sub-Block -3, 2 \ 0000DD80 \ Temporary \ 130009B4 <LAYER_NorthBridgePreWarCustom>
+Worldspace \ 0000003C <Commonwealth> \ Block -1, 0 \ Sub-Block -3, 2 \ 0000DD80 \ Temporary \ 1301476A <LAYER_NorthBridgePreWarCustomRepaired>
+
+A hypothesized solution so far is to add the deleted flag to your patch plugin on these references so that the creation kit does not recognize them 
+when generating previsibines and once the generations are complete, to undelete the references (xedit's QAC). Idk how the visibility will look in 
+game. You could also not use the Enhanced Settlements Addon as it is an addon or wait for Horizon v1.9 when it comes out.

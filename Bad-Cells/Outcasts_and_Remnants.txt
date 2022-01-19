@@ -1,0 +1,15 @@
+Cells Removed:
+08000F9A <AABogBunker>
+08002AFF <AABogDream01>
+08018D88 <AAEnclaveBunker>
+0801C8A9 <AAEnclaveResearch>
+0801DEA9 <AAEnclaveResidential>
+0801B2C9 <AAEnclaveWorkshop>
+08002F63 <AAOARFRB01>
+080BB296 <AASinsituteRoboticsNewSynthCell>
+08174954 <AASinstituteDiagnostics>
+0800B7B6 <AAVaultTecLobbyPost>
+08062E0B <AAVaultTecOperations>
+0800BD1C <AAVaultTecResidentialPost>
+0800CBA8 <AAVaultTecOperationsPost>
+080092A5 <AAVaultTecPrison>
