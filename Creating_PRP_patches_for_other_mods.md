@@ -1,5 +1,5 @@
 # Creating PRP patches by feeddanoob
-Hello, welcome to my little tutorial on creating patches for PRP (or at least the way I did it). It is suggested to read [Manual](/MANUAL.md) as a reference first. This guide heavily relies on the CK fixes, and I will be using the clean method only.
+Hello, welcome to my little tutorial on creating patches for PRP (or at least the way I did it). It is suggested to read the [Manual](/MANUAL.md) as a reference first. This guide heavily relies on the CK fixes, and I will be using the clean method only.
 
 ## Prerequisites
 - The Creation Kit for Fallout 4 installed where the game is located at
