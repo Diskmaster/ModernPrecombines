@@ -30,6 +30,7 @@ Current known issues:
 - \[PRP\] ???: 80812 as reported by Hap.
 - \[PRP\] MassFusion01: Elevator apparently has broken occlusion? Unconfirmed.
 - \[U32298\] Vault95: 13096E door buttons positions are way too far than they need to be. A model issue. Punted to UF4OP.
+- \[PRP\] (1, -7): Previs hole inbetween a pair of buildings closest to 16c07e?
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
@@ -43,6 +44,8 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 
 Current fixed issues:
 
+- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230 (Local copy, waiting on mod permission)
+- \[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.
 0.55.2
 - \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
 - \[PRP\] (-11, -11): Dedup 001C4B16
