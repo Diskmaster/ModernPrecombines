@@ -1,7 +1,7 @@
 Current PPF Version: 0.55.2
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3159 of 3300 \]
+- Fallout4.esm \[ 3137 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -10,6 +10,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
@@ -43,10 +44,32 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
 
 Current fixed issues:
-
-- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230 (Local copy, waiting on mod permission)
+- \[PRP\] (
+- \[PRP\] (-21, -12): Dedup 00232358, 00076056, 0020538E
+- \[PRP\] (-22, -13): Dedup 00232559
+- \[PRP\] (-21, -14): Dedup 00153D19
+- \[PRP\] (-22, -1): Dedup 001A52CD
+- \[PRP\] (-23, -3): Dedup 00094C43, 00094C44
+- \[PRP\] (-22, -4): Dedup 001F9B69
+- \[PRP\] (-17, -5): Dedup 000543D8
+- \[PRP\] (-22, -5): Dedup 000E3F92, 000E3F91
+- \[PRP\] (-18, -6): Dedup 001FF346
+- \[PRP\] (-22, -7): Dedup 001FB54B
+- \[PRP\] (-15, -28): Dedup 000FC4FC
+- \[PRP\] (-16, -29): Dedup 000D202A
+- \[PRP\] (-16, -31): Dedup 0018FA72
+- \[PRP\] (-13, -17): Dedup 001CF08C
+- \[PRP\] (-11, -18): Dedup 0016772F
+- \[PRP\] (-12, -18): Dedup 00056F89
+- \[PRP\] (-12, -19): Dedup 00018E07
+- \[PRP\] (-14, -20): Dedup 001E7769
+- \[PRP\] (-16, -21): Dedup 000F7270
+- \[PRP\] (-10, -22): Dedup 0022FCB6
+- \[PRP\] (-15, -9): Dedup 001FF4C5
+- \[PRP\] (-13, -10): Dedup 00209F53
+- \[PRP\] (-15, -10): Dedup 00205530, 0020552F, 0020552E, 0020552D, 0020552C
+- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230
 - \[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.
-0.55.2
 - \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
 - \[PRP\] (-11, -11): Dedup 001C4B16
 - \[PRP\] (-13, -14): Dedup 00157CCC
