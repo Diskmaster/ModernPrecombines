@@ -2,7 +2,7 @@ Current released PPF Version: 0.55.1
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3137 of 3300 \]
+- Fallout4.esm \[ 3023 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -47,6 +47,20 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 
 Current fixed issues:
 
+- \[PRP\] (-6, 0): Dedup 00185817, 0023CA81
+- \[PRP\] (-7, 15): Dedup 001E5F97
+- \[PRP\] (-8, 15): Dedup 00045F46
+- \[PRP\] (-7, 13): Dedup 000A985E
+- \[PRP\] (-6, 12): Dedup 00072352
+- \[PRP\] (-6, 11): Dedup 001F53C1, 001F5332
+- \[PRP\] (-4, 10): Dedup 00193338, 00193337
+- \[PRP\] (-8, 9): Dedup 000EAA66, 000EAA75, 000EAA7A, 000EAA7B, 000EAA7C, 00101AEC, 00101AED, 00101AEE
+- \[PRP\] (-1, 8): Dedup 000A90D4
+- \[PRP\] (-5, 8): Dedup 001F7EB4
+- \[PRP\] (-6, 8): Dedup 0023A346
+- \[PRP\] (-3, 21): Dedup 001F34D7
+- \[PRP\] (-3, 20): Dedup 001F358D
+- \[PRP\] (-5, 20): Dedup 001FA2B4
 - \[PRP\] (-5, 17): Dedup 000F0A90
 - \[PRP\] (-6, 26): Dedup 0022BDC5
 - \[PRP\] (-4, 25): Dedup 001D28DA
