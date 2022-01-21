@@ -46,7 +46,20 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
 
 Current fixed issues:
-- \[PRP\] (
+
+- \[PRP\] (-5, 17): Dedup 000F0A90
+- \[PRP\] (-6, 26): Dedup 0022BDC5
+- \[PRP\] (-4, 25): Dedup 001D28DA
+- \[PRP\] (-5, 25): Dedup 0022BDEC
+- \[PRP\] (-6, 25): Dedup 0022BDA7
+- \[PRP\] (-8, 25): Dedup 0013A6D3
+- \[PRP\] (-27, -33): Dedup 00192180, 0019217E, 0019217C, 00192179, 19216F, 19217A, 19217B, 19217D, 19217F, 192175, 192176, 192177, 192178, 192173, 192172, 192174, 00192171, 0011C6DD, 00192170
+- Note on above, 192171 was part of a RFGR, but since literally all of the first sixteen subrecords were the same cart, I don't think it's going to matter.
+- \[PRP\] (-25, -28): Dedup 002074BA
+- \[PRP\] (-25, -29): Dedup 00148EA5
+- \[PRP\] (-27, -30): Dedup 00193BB3
+- \[PRP\] (-31, -21): Dedup 0022C848
+- \[PRP\] (-30, -22): Dedup 00190A81
 - \[PRP\] (-25, -9): Dedup 0007632E, 00214633
 - \[PRP\] (-25, -10): Dedup 0014E9A2
 - \[PRP\] (-26, -12): Dedup 0020FC69, 0020FBBC, 0020FBBB, 0020FAC4, 0020FA06, 0020FA05, 00075F78
