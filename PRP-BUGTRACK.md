@@ -1,4 +1,5 @@
-Current PPF Version: 0.55.2
+Current released PPF Version: 0.55.1
+The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
 - Fallout4.esm \[ 3137 of 3300 \]
@@ -10,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PPF\] Cleanse Landscape records from PPF.esm.
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
@@ -45,6 +47,26 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 
 Current fixed issues:
 - \[PRP\] (
+- \[PRP\] (-25, -9): Dedup 0007632E, 00214633
+- \[PRP\] (-25, -10): Dedup 0014E9A2
+- \[PRP\] (-26, -12): Dedup 0020FC69, 0020FBBC, 0020FBBB, 0020FAC4, 0020FA06, 0020FA05, 00075F78
+- \[PRP\] (-26, -13): Dedup 001621C2
+- \[PRP\] (-27, -14): Dedup 001621D6
+- \[PRP\] (-22, -25): Dedup 000FA34A
+- \[PRP\] (-20, -29): Dedup 00210DFA
+- \[PRP\] (-17, -32): Dedup 0018FAE0
+- \[PRP\] (-18, -31): Dedup 0018FB04
+- \[PRP\] (-19, -17): Dedup 0017737C
+- \[PRP\] (-24, -24): Dedup 0018F53F, 0018F475, 0018F436, 0018F435, 0018F3E2, 0018F3A7
+- \[PRP\] (-17, -9): Dedup 001FF285, 001FF258, 001FB750
+- \[PRP\] (-18, -9): Dedup 001FF284, 001FF257, 001FF256, 001FF255, 001FF254, 001FF253, 001FF252, 001FF251, 001FF250, 001FF24F, 001FF24E, 001C5DBC, 001C5DBA
+- \[PRP\] (-21, -9): Dedup 000775B0, 000775B4
+- \[PRP\] (5, -4, GN): Move 119D01 to fix the missing ceiling nearest Bobbi in Goodneighbor, thanks Yarrmateys.
+- \[PRP\] (-22, -9): Dedup 00239F22
+- \[PRP\] (-17, -10): Dedup 00205434, 00205433, 00205432, 00205430
+- \[PRP\] (-20, -10): Dedup 002307B7, 001FFEFF
+- \[PRP\] (-18, -11): Dedup 001D5A07
+- \[PRP\] (-18, -12): Dedup 002053FF
 - \[PRP\] (-21, -12): Dedup 00232358, 00076056, 0020538E
 - \[PRP\] (-22, -13): Dedup 00232559
 - \[PRP\] (-21, -14): Dedup 00153D19
