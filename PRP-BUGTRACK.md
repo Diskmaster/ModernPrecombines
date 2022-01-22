@@ -47,6 +47,35 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 
 Current fixed issues:
 
+- \[PRP\] (-1, 4): Dedup 000D2E28, 000D2E29, 000D2E40, 00163624
+- \[PRP\] (-2, 4): Dedup 000A9537, 00087DE3
+- 87DE3 also filed as U32307
+- \[PRP\] (-3, 4): Dedup 001C13B8, 000B14E6
+- For B14E6, normally, we leave one instance of the duplicated subrecord, but this specific Bramble02 appears to be under pavement and brick and would otherwise be clipping out. I think this is an instance that can be deleted.
+- \[PRP\] (-5, 4): Dedup 00159FB5
+- \[PRP\] (-6, 4): Dedup 001E23E5, 001E1C68
+- \[PRP\] (-2, 3): Dedup 00153E85
+- \[PRP\] (-4, 3): Dedup 0008586A
+- \[PRP\] (-6, 3): Dedup 00173F58, 00168923
+- \[PRP\] (-7, 3): Dedup 0010783C, 001703C5, 001703C6
+- Re: Remaining fence object ( 0016ACF2 ) may have to be lowered later. 
+- \[PRP\] (-8, 3): Dedup 00063387
+- \[PRP\] (-2, 2): Dedup 000B1E79
+- \[PRP\] (-3, 2): Dedup 000BA732
+- \[PRP\] (-4, 2): Dedup 00035CC1
+- \[PRP\] (-5, 2): Dedup 000AC80D, 000B8C9F
+- \[PRP\] (-7, 2): Dedup 001B9F60
+- \[PRP\] (-8, 2): Dedup 001A9513
+- \[PRP\] (-1, 1): Dedup 0022D292
+- \[PRP\] (-2, 1): Dedup 0016FAD1, 0020593E
+- \[PRP\] (-3, 1): Dedup 000A9783
+- \[PRP\] (-5, 1): Dedup 0017408D, 00174025
+- \[PRP\] (-6, 1): Dedup 0017297A, 00097A57
+- \[PRP\] (-7, 1): Dedup 00160036, 00160035, 00154CAE
+- \[PRP\] (-8, 1): Dedup 001600BE
+- \[PRP\] (-1, 0): Dedup 0008AE2B, 0016D7FC
+- \[PRP\] (-2, 0): Dedup 0008AD0D, 001D97CB
+- \[PRP\] (-3, 0): Dedup 000A3187, 000A31A1, 000A31A2
 - \[PRP\] (-6, 0): Dedup 00185817, 0023CA81
 - \[PRP\] (-7, 15): Dedup 001E5F97
 - \[PRP\] (-8, 15): Dedup 00045F46
