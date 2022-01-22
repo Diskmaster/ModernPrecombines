@@ -46,7 +46,8 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
 
 Current fixed issues:
-
+- \[PRP\] (-1, 5): Dedup 000BF249, 000BF24A, 
+- \[PRP\] (-7, 5): Dedup 00239B59
 - \[PRP\] (-1, 4): Dedup 000D2E28, 000D2E29, 000D2E40, 00163624
 - \[PRP\] (-2, 4): Dedup 000A9537, 00087DE3
 - 87DE3 also filed as U32307

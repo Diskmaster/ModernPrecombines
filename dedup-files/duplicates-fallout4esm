@@ -6,9 +6,6 @@ BlackWireTowerSpline01 in -12, -2 (OberlandStation) are not duplicates.
 Skip activators in -7, 2, numbered uniquely.
 
 Found duplicates:
-	Removing: [REFR:00239B59] (places Bld02CornerBrickACom01RRWoodChunk01 [STAT:001AC939] in GRUP Cell Temporary Children of [CELL:0000DF63] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -7,5) in Precombined\0000DF63_3831AAC9_OC.nif)
-	Remaining: [REFR:00239B58] (places Bld02CornerBrickACom01RRWoodChunk01 [STAT:001AC939] in GRUP Cell Temporary Children of [CELL:0000DF63] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -7,5) in Precombined\0000DF63_3831AAC9_OC.nif)
-Found duplicates:
 	Removing: [REFR:000BF249] (places RockPileL01 [STAT:0009C82C] in GRUP Cell Temporary Children of [CELL:0000DF5D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,5) in Precombined\0000DF5D_1959CED1_OC.nif)
 	Remaining: [REFR:000D2E3C] (places RockPileL01 [STAT:0009C82C] in GRUP Cell Temporary Children of [CELL:0000DF5D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -1,5) in Precombined\0000DF5D_1959CED1_OC.nif)
 Found duplicates:
