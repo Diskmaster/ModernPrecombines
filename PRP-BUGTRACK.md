@@ -1,7 +1,8 @@
-Current PPF Version: 0.55.2
+Current released PPF Version: 0.55.1
+The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3159 of 3300 \]
+- Fallout4.esm \[ 3023 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -10,6 +11,8 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PPF\] Cleanse Landscape records from PPF.esm.
+- \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
@@ -30,6 +33,7 @@ Current known issues:
 - \[PRP\] ???: 80812 as reported by Hap.
 - \[PRP\] MassFusion01: Elevator apparently has broken occlusion? Unconfirmed.
 - \[U32298\] Vault95: 13096E door buttons positions are way too far than they need to be. A model issue. Punted to UF4OP.
+- \[PRP\] (1, -7): Previs hole inbetween a pair of buildings closest to 16c07e?
 
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
@@ -43,7 +47,78 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 
 Current fixed issues:
 
-0.55.2
+- \[PRP\] (-6, 0): Dedup 00185817, 0023CA81
+- \[PRP\] (-7, 15): Dedup 001E5F97
+- \[PRP\] (-8, 15): Dedup 00045F46
+- \[PRP\] (-7, 13): Dedup 000A985E
+- \[PRP\] (-6, 12): Dedup 00072352
+- \[PRP\] (-6, 11): Dedup 001F53C1, 001F5332
+- \[PRP\] (-4, 10): Dedup 00193338, 00193337
+- \[PRP\] (-8, 9): Dedup 000EAA66, 000EAA75, 000EAA7A, 000EAA7B, 000EAA7C, 00101AEC, 00101AED, 00101AEE
+- \[PRP\] (-1, 8): Dedup 000A90D4
+- \[PRP\] (-5, 8): Dedup 001F7EB4
+- \[PRP\] (-6, 8): Dedup 0023A346
+- \[PRP\] (-3, 21): Dedup 001F34D7
+- \[PRP\] (-3, 20): Dedup 001F358D
+- \[PRP\] (-5, 20): Dedup 001FA2B4
+- \[PRP\] (-5, 17): Dedup 000F0A90
+- \[PRP\] (-6, 26): Dedup 0022BDC5
+- \[PRP\] (-4, 25): Dedup 001D28DA
+- \[PRP\] (-5, 25): Dedup 0022BDEC
+- \[PRP\] (-6, 25): Dedup 0022BDA7
+- \[PRP\] (-8, 25): Dedup 0013A6D3
+- \[PRP\] (-27, -33): Dedup 00192180, 0019217E, 0019217C, 00192179, 19216F, 19217A, 19217B, 19217D, 19217F, 192175, 192176, 192177, 192178, 192173, 192172, 192174, 00192171, 0011C6DD, 00192170
+- Note on above, 192171 was part of a RFGR, but since literally all of the first sixteen subrecords were the same cart, I don't think it's going to matter.
+- \[PRP\] (-25, -28): Dedup 002074BA
+- \[PRP\] (-25, -29): Dedup 00148EA5
+- \[PRP\] (-27, -30): Dedup 00193BB3
+- \[PRP\] (-31, -21): Dedup 0022C848
+- \[PRP\] (-30, -22): Dedup 00190A81
+- \[PRP\] (-25, -9): Dedup 0007632E, 00214633
+- \[PRP\] (-25, -10): Dedup 0014E9A2
+- \[PRP\] (-26, -12): Dedup 0020FC69, 0020FBBC, 0020FBBB, 0020FAC4, 0020FA06, 0020FA05, 00075F78
+- \[PRP\] (-26, -13): Dedup 001621C2
+- \[PRP\] (-27, -14): Dedup 001621D6
+- \[PRP\] (-22, -25): Dedup 000FA34A
+- \[PRP\] (-20, -29): Dedup 00210DFA
+- \[PRP\] (-17, -32): Dedup 0018FAE0
+- \[PRP\] (-18, -31): Dedup 0018FB04
+- \[PRP\] (-19, -17): Dedup 0017737C
+- \[PRP\] (-24, -24): Dedup 0018F53F, 0018F475, 0018F436, 0018F435, 0018F3E2, 0018F3A7
+- \[PRP\] (-17, -9): Dedup 001FF285, 001FF258, 001FB750
+- \[PRP\] (-18, -9): Dedup 001FF284, 001FF257, 001FF256, 001FF255, 001FF254, 001FF253, 001FF252, 001FF251, 001FF250, 001FF24F, 001FF24E, 001C5DBC, 001C5DBA
+- \[PRP\] (-21, -9): Dedup 000775B0, 000775B4
+- \[PRP\] (5, -4, GN): Move 119D01 to fix the missing ceiling nearest Bobbi in Goodneighbor, thanks Yarrmateys.
+- \[PRP\] (-22, -9): Dedup 00239F22
+- \[PRP\] (-17, -10): Dedup 00205434, 00205433, 00205432, 00205430
+- \[PRP\] (-20, -10): Dedup 002307B7, 001FFEFF
+- \[PRP\] (-18, -11): Dedup 001D5A07
+- \[PRP\] (-18, -12): Dedup 002053FF
+- \[PRP\] (-21, -12): Dedup 00232358, 00076056, 0020538E
+- \[PRP\] (-22, -13): Dedup 00232559
+- \[PRP\] (-21, -14): Dedup 00153D19
+- \[PRP\] (-22, -1): Dedup 001A52CD
+- \[PRP\] (-23, -3): Dedup 00094C43, 00094C44
+- \[PRP\] (-22, -4): Dedup 001F9B69
+- \[PRP\] (-17, -5): Dedup 000543D8
+- \[PRP\] (-22, -5): Dedup 000E3F92, 000E3F91
+- \[PRP\] (-18, -6): Dedup 001FF346
+- \[PRP\] (-22, -7): Dedup 001FB54B
+- \[PRP\] (-15, -28): Dedup 000FC4FC
+- \[PRP\] (-16, -29): Dedup 000D202A
+- \[PRP\] (-16, -31): Dedup 0018FA72
+- \[PRP\] (-13, -17): Dedup 001CF08C
+- \[PRP\] (-11, -18): Dedup 0016772F
+- \[PRP\] (-12, -18): Dedup 00056F89
+- \[PRP\] (-12, -19): Dedup 00018E07
+- \[PRP\] (-14, -20): Dedup 001E7769
+- \[PRP\] (-16, -21): Dedup 000F7270
+- \[PRP\] (-10, -22): Dedup 0022FCB6
+- \[PRP\] (-15, -9): Dedup 001FF4C5
+- \[PRP\] (-13, -10): Dedup 00209F53
+- \[PRP\] (-15, -10): Dedup 00205530, 0020552F, 0020552E, 0020552D, 0020552C
+- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230
+- \[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.
 - \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
 - \[PRP\] (-11, -11): Dedup 001C4B16
 - \[PRP\] (-13, -14): Dedup 00157CCC

@@ -1,0 +1,7 @@
+Cells not included in previsibine generation:
+xxFC2BFC - AACFL
+xxFC354E - AAFC
+xx00901D - AAFCRaider
+xxCA0000 - AAFCSR
+xxFC0778 - AAFCSub
+xx00B1B4 - AAFCSupermutant
