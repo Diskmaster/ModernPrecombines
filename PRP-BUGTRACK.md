@@ -2,7 +2,7 @@ Current released PPF Version: 0.55.1
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3023 of 3300 \]
+- Fallout4.esm \[ 2893 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ 3 of 3 \]
 - DLC03Coast \[ 459 of 459 \]
@@ -46,7 +46,51 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
 
 Current fixed issues:
-- \[PRP\] (-1, 5): Dedup 000BF249, 000BF24A, 
+
+- \[PRP\] (-23, 9): Dedup 0009CFA6, 0009CFA4
+- \[PRP\] (-18, 8): Dedup 0020978C
+- \[PRP\] (-17, 23): Dedup 0005E13B
+- \[PRP\] (-23, 23): Dedup 0019BEB9
+- \[PRP\] (-17, 22): Dedup 0018B309
+- \[PRP\] (-20, 22): Dedup 00056FEF
+- \[PRP\] (-19, 21): Dedup 0007898D
+- \[PRP\] (-20, 21): Dedup 00083E2B
+- \[PRP\] (-19, 19): Dedup 0019B3BB
+- \[PRP\] (-22, 19): Dedup 00060BE7
+- \[PRP\] (-19, 16): Dedup 00066F0F, 000640C4, 0005540C
+- \[PRP\] (-20, 25): Dedup 002255A7
+- \[PRP\] (-23, 25): Dedup 0021DC21, 0021DC22, 0021DC23, 0021DC24, 0021DC25
+- \[PRP\] (-18, 24): Dedup 00090F76
+- \[PRP\] (-14, 6): Dedup 0001DAD1
+- \[U32308\] (-9, 5): Dedup 001978CA
+- \[PRP\] (-12, 4): Dedup 00058C95, 000EC8E9, 000EC8E8
+- \[PRP\] (-14, 4): Dedup 0015B792
+- \[PRP\] (-14, 3): Dedup 0015A3D3
+- \[PRP\] (-9, 14): Dedup 00224E11, 00224E0C, 00224E0B, 00224E0A, 00224DF4
+- \[PRP\] (-10, 14): Dedup 0006403D
+- \[PRP\] (-16, 14): Dedup 00203AEC
+- Another one for UF4OP?
+- \[PRP\] (-9, 11): Dedup 0024050A, 0024050B, 0024050C
+- \[PRP\] (-10, 11): Dedup 00191C0C, 000FD4DC, 000DB810
+- \[PRP\] (-9, 10): Dedup 00240594, Remove 000F3BC3
+- Revert 4E723 on next xedit pass, F3BC3 removal is due to z position that would have conflicted with navmesh.
+- \[PRP\] (-9, 9): Dedup 001019E9
+- \[PRP\] (-10, 9): Dedup 00165580, 00165581, 00165582
+- \[PRP\] (-9, 8): Dedup 000FD17E, 000FD133
+- \[PRP\] (-10, 22): Dedup 0018ED85
+- \[PRP\] (-11, 21): Dedup 0008E428
+- \[PRP\] (-14, 21): Dedup 0018C1EE
+- \[PRP\] (-11, 20): Dedup 0002E05B, 0002E05A, 002322C4
+- \[PRP\] (-15, 19): Dedup 000346FB
+- \[PRP\] (-13, 18): Dedup 000329B4, 00032994
+- \[PRP\] (-16, 18): Dedup 000346B6
+- \[PRP\] (-10, 17): Dedup 0019EA75
+- \[PRP\] (-9, 16): Dedup 0001CEAF
+- \[PRP\] (-10, 26): Dedup 0022BD2F
+- \[PRP\] (-15, 24): Dedup 00063E8E, 00063E8C
+- \[PRP\] (-6, 7): Dedup 001F7DE1
+- \[PRP\] (-8, 7): Dedup 000DBD17
+- \[PRP\] (-1, 5): Dedup 000BF249, 000BF24A, 000BF24B, 000BF24C, 000BF24F, 000BF250, 000BF251, 000BF252, 000BF253, 000BF254, 000BF255, 000BF256, 000BF257, 000BF25A, 000BF25C, 000BF25D, 000BF25E
 - \[PRP\] (-7, 5): Dedup 00239B59
 - \[PRP\] (-1, 4): Dedup 000D2E28, 000D2E29, 000D2E40, 00163624
 - \[PRP\] (-2, 4): Dedup 000A9537, 00087DE3
