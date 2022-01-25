@@ -11,7 +11,6 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
-- \[PPF\] Cleanse Landscape records from PPF.esm.
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
@@ -23,7 +22,7 @@ Current known issues:
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
 - \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
-- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area.
+- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area, this broke due to the xedit floating point shifting bug.
 - \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
 - \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
 - \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
@@ -66,7 +65,8 @@ Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer
 - \[PRP\] (-20, 21): Dedup 00083E2B
 - \[PRP\] (-19, 19): Dedup 0019B3BB
 - \[PRP\] (-22, 19): Dedup 00060BE7
-- \[PRP\] (-19, 16): Dedup 00066F0F, 000640C4, 0005540C
+- \[**U32316**, PRP\] (-19, 16): Dedup **00066F0F**, 000640C4, 0005540C
+Marked the relevant subrecord bold for the bug.
 - \[PRP\] (-20, 25): Dedup 002255A7
 - \[PRP\] (-23, 25): Dedup 0021DC21, 0021DC22, 0021DC23, 0021DC24, 0021DC25
 - \[PRP\] (-18, 24): Dedup 00090F76
@@ -77,19 +77,17 @@ Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer
 - \[PRP\] (-14, 3): Dedup 0015A3D3
 - \[PRP\] (-9, 14): Dedup 00224E11, 00224E0C, 00224E0B, 00224E0A, 00224DF4
 - \[PRP\] (-10, 14): Dedup 0006403D
-- \[PRP\] (-16, 14): Dedup 00203AEC
-Another one for UF4OP?
+- \[U32317\] (-16, 14): Dedup 00203AEC
 - \[PRP\] (-9, 11): Dedup 0024050A, 0024050B, 0024050C
 - \[PRP\] (-10, 11): Dedup 00191C0C, 000FD4DC, 000DB810
-- \[PRP\] (-9, 10): Dedup 00240594, Remove 000F3BC3
-Revert 4E723 on next xedit pass, F3BC3 removal is due to z position that would have conflicted with navmesh.
+- \[U32318\] (-9, 10): Dedup 00240594, Remove 000F3BC3
 - \[PRP\] (-9, 9): Dedup 001019E9
 - \[PRP\] (-10, 9): Dedup 00165580, 00165581, 00165582
 - \[PRP\] (-9, 8): Dedup 000FD17E, 000FD133
 - \[PRP\] (-10, 22): Dedup 0018ED85
 - \[PRP\] (-11, 21): Dedup 0008E428
 - \[PRP\] (-14, 21): Dedup 0018C1EE
-- \[PRP\] (-11, 20): Dedup 0002E05B, 0002E05A, 002322C4
+- \[**U32319**, PRP\] (-11, 20): Dedup 0002E05B, 0002E05A, **002322C4**
 - \[PRP\] (-15, 19): Dedup 000346FB
 - \[PRP\] (-13, 18): Dedup 000329B4, 00032994
 - \[PRP\] (-16, 18): Dedup 000346B6
@@ -252,7 +250,7 @@ Note on above, 192171 was part of a RFGR, but since literally all of the first s
 - \[PRP\] ChestnutHillockReservoirExt02 (-8, -6): Deduplicate a Traffic Cone. 14322D
 - \[PRP\] Vault95: Slightly shift a world block to close a void hole near DFF18 (Vault Door)
 - \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
-- \[U32299\] ScrapPalaceExt04: Move armor workbench away from the crates it appears to be shoved inside of.
+- \[U32299\] ScrapPalaceExt04: 1A0CD5 Move armor workbench away from the crates it appears to be shoved inside of.
 - \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
 - \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
 
@@ -304,7 +302,7 @@ Note on above, 192171 was part of a RFGR, but since literally all of the first s
 - \[U?????\] zVitalePumphouse01: 21A404, 21E06A, 21E06B, 21E06C, 21E06D More UF4OP records.
 - \[U23801\] MedfordMemorial01: 45432 and 45436 countertops got shifted.
 - \[U23460\] MedfordMemorial01: 7DC87 and 20B852 had placement corrected.
-- \[U?????, PRP\] Vault75: 07038FB1 was resulting in a void hole on previsibine generation. Z adjustment needs verified.
+- \[U32315, PRP\] Vault75: 07038FB1 was resulting in a void hole on previsibine generation. Z adjustment needs verified.
 - \[U23634\] GwinnettBrewery02: AD910 and AD911 moved to correctly stick to a wall.
 - \[PRP\] UniversityPoint01: 87A62 the chair got moved to not be floating awkwardly.
 - \[U?????\] CambridgeCollegeAdminBuilding: 21548A was moved by UF4OP
