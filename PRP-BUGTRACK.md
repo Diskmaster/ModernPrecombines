@@ -4,10 +4,10 @@ The version in git is always tagged newer as it's development.
 Deduplication tracker remaining:
 - Fallout4.esm \[ 2893 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
-- DLC02Workshop01 \[ 3 of 3 \]
+- DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
-- DLC05Workshop03 \[ 15 of 15 \]
+- DLC05Workshop03 \[ Completed \]
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
@@ -46,7 +46,8 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
 
 Current fixed issues:
-
+- \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
+Why the fuck is it called DLC06 when it's DLC05?
 - \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
 - \[PRP\] (3, -5): Dedup 001D02B8
 - \[PRP\] (2, -6): Dedup 0023C75F, 0023C760, 0023C761, 0023C762, 0023C763, 0023C764, 0023C765, 0023C766, 0023C767, 0023C768, 0023C769, 0023C76A, 0023C76B, 0023C76C, 0023C76D, 0023C76E, 0023C76F, 0023C770, 0023C771, 0023C772, 0023C773, 0023C774, 0023C775, 0023C776, 0023C777, 0023C778, 0023C779, 0023C77A, 0023C77B, 0023C77C, 0023C77D, 0023C77E, 0023C77F, 0023C780, 0023C781, 0023C782, 0023C783, 0023C784, 0023C785, 0023C786, 0023C787, 0023C788, 0023C789, 0023C78A, 0023C78B, 0023C78C, 0023C78D, 0023C78E, 00148894, 0023C78F, 0023C790, 0023C791, 0023C792, 0023C793, 0023C794, 0023C795, 0023C796
