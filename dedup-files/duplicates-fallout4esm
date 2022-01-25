@@ -978,9 +978,6 @@ Found duplicates:
 	Removing: [REFR:0016F8D4] (places NCA1x1RoofFlat01 [STAT:0018C2F0] in GRUP Cell Temporary Children of HubrisComicsExt [CELL:0000E0BA] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 1,-5) in Precombined\0000E0BA_0D73777F_OC.nif)
 	Remaining: [REFR:001750D0] (places NCA1x1RoofFlat01 [STAT:0018C2F0] in GRUP Cell Temporary Children of HubrisComicsExt [CELL:0000E0BA] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 1,-5) in Precombined\0000E0BA_0D73777F_OC.nif)
 Found duplicates:
-	Removing: [REFR:001D02B8] (places FountainBase01 [STAT:001804D1] in GRUP Cell Temporary Children of BostonCommonExt03 [CELL:0000E0B8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,-5) in Precombined\0000E0B8_34AD0C17_OC.nif)
-	Remaining: [REFR:001804D2] (places FountainBase01 [STAT:001804D1] in GRUP Cell Temporary Children of BostonCommonExt03 [CELL:0000E0B8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,-5) in Precombined\0000E0B8_34AD0C17_OC.nif)
-Found duplicates:
 	Removing: [REFR:001D79A0] (places NCA1x1XCorner02 [STAT:0016E1F2] in GRUP Cell Temporary Children of [CELL:0000E0B7] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 4,-5) in Precombined\0000E0B7_01B8656E_OC.nif)
 	Remaining: [REFR:001D79A4] (places NCA1x1XCorner02 [STAT:0016E1F2] in GRUP Cell Temporary Children of [CELL:0000E0B7] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 4,-5) in Precombined\0000E0B7_01B8656E_OC.nif)
 Found duplicates:
@@ -1103,12 +1100,6 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:001AE975] (places BldgShellWallLedgeCorner02B [STAT:001906D6] in GRUP Cell Temporary Children of HalluciGenExt [CELL:0000E09B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 1,-4) in Precombined\0000E09B_6B9A2464_OC.nif)
 	Remaining: [REFR:001B5178] (places BldgShellWallLedgeCorner02B [STAT:001906D6] in GRUP Cell Temporary Children of HalluciGenExt [CELL:0000E09B] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 1,-4) in Precombined\0000E09B_6B9A2464_OC.nif)
-Found duplicates:
-	Removing: [REFR:00187B4A] (places SWParkStr01 [STAT:00154E6C] in GRUP Cell Temporary Children of BostonCommonExt [CELL:0000E09A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 2,-4) in Precombined\0000E09A_32B39DA3_OC.nif)
-	Remaining: [REFR:002320BF] (places SWParkStr01 [STAT:00154E6C] in GRUP Cell Temporary Children of BostonCommonExt [CELL:0000E09A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 2,-4) in Precombined\0000E09A_32B39DA3_OC.nif)
-Found duplicates:
-	Removing: [REFR:001CA806] (places FenceWIRailingStr01 [STAT:000AB058] in GRUP Cell Temporary Children of BostonCommonExt [CELL:0000E09A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 2,-4) in Precombined\0000E09A_B831AAC9_OC.nif)
-	Remaining: [REFR:0018B413] (places FenceWIRailingStr01 [STAT:000AB058] in GRUP Cell Temporary Children of BostonCommonExt [CELL:0000E09A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 2,-4) in Precombined\0000E09A_B831AAC9_OC.nif)
 Found duplicates:
 	Removing: [REFR:0019AC8C] (places Rubble_Flat_Trash_Sm01 [STAT:0010693B] in GRUP Cell Temporary Children of Vault114Ext [CELL:0000E099] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,-4) in Precombined\0000E099_9959CED1_OC.nif)
 	Remaining: [REFR:0019AC8D] (places Rubble_Flat_Trash_Sm01 [STAT:0010693B] in GRUP Cell Temporary Children of Vault114Ext [CELL:0000E099] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,-4) in Precombined\0000E099_9959CED1_OC.nif)
