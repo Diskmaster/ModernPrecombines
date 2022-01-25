@@ -191,7 +191,7 @@ Current fixed issues:
 - \[PRP\] (-15, -9): Dedup 001FF4C5
 - \[PRP\] (-13, -10): Dedup 00209F53
 - \[PRP\] (-15, -10): Dedup 00205530, 0020552F, 0020552E, 0020552D, 0020552C
-- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230
+- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230 and fixed by MrTroubleMaker on the nexus. Thanks for letting me use this fix!
 - \[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.
 - \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
 - \[PRP\] (-11, -11): Dedup 001C4B16
