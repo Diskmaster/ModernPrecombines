@@ -49,11 +49,11 @@ Current fixed issues:
 
 0.56
 - \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
-Why the fuck is it called DLC06 when it's DLC05?
+- Why the fuck is it called DLC06 when it's DLC05?
 - \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
 - \[PRP\] (3, -5): Dedup 001D02B8
 - \[PRP\] (2, -6): Dedup 0023C75F, 0023C760, 0023C761, 0023C762, 0023C763, 0023C764, 0023C765, 0023C766, 0023C767, 0023C768, 0023C769, 0023C76A, 0023C76B, 0023C76C, 0023C76D, 0023C76E, 0023C76F, 0023C770, 0023C771, 0023C772, 0023C773, 0023C774, 0023C775, 0023C776, 0023C777, 0023C778, 0023C779, 0023C77A, 0023C77B, 0023C77C, 0023C77D, 0023C77E, 0023C77F, 0023C780, 0023C781, 0023C782, 0023C783, 0023C784, 0023C785, 0023C786, 0023C787, 0023C788, 0023C789, 0023C78A, 0023C78B, 0023C78C, 0023C78D, 0023C78E, 00148894, 0023C78F, 0023C790, 0023C791, 0023C792, 0023C793, 0023C794, 0023C795, 0023C796
-Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer tag, which may alter LOD in the area significantly.
+- Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer tag, which may alter LOD in the area significantly.
 135A45 is under terrain, also deduplicated.
 1359EE also covered by other references above it and is unreachable.
 23C797 is a duplicate lootbox that UF4OP can also pick up, filed as \[U32314\]
@@ -69,7 +69,7 @@ Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer
 - \[PRP\] (-19, 19): Dedup 0019B3BB
 - \[PRP\] (-22, 19): Dedup 00060BE7
 - \[**U32316**, PRP\] (-19, 16): Dedup **00066F0F**, 000640C4, 0005540C
-Marked the relevant subrecord bold for the bug.
+- Marked the relevant subrecord bold for the bug.
 - \[PRP\] (-20, 25): Dedup 002255A7
 - \[PRP\] (-23, 25): Dedup 0021DC21, 0021DC22, 0021DC23, 0021DC24, 0021DC25
 - \[PRP\] (-18, 24): Dedup 00090F76
@@ -104,16 +104,16 @@ Marked the relevant subrecord bold for the bug.
 - \[PRP\] (-7, 5): Dedup 00239B59
 - \[PRP\] (-1, 4): Dedup 000D2E28, 000D2E29, 000D2E40, 00163624
 - \[PRP\] (-2, 4): Dedup 000A9537, 00087DE3
-87DE3 also filed as U32307
+- 87DE3 also filed as U32307
 - \[PRP\] (-3, 4): Dedup 001C13B8, 000B14E6
-For B14E6, normally, we leave one instance of the duplicated subrecord, but this specific Bramble02 appears to be under pavement and brick and would otherwise be clipping out. I think this is an instance that can be deleted.
+- For B14E6, normally, we leave one instance of the duplicated subrecord, but this specific Bramble02 appears to be under pavement and brick and would otherwise be clipping out. I think this is an instance that can be deleted.
 - \[PRP\] (-5, 4): Dedup 00159FB5
 - \[PRP\] (-6, 4): Dedup 001E23E5, 001E1C68
 - \[PRP\] (-2, 3): Dedup 00153E85
 - \[PRP\] (-4, 3): Dedup 0008586A
 - \[PRP\] (-6, 3): Dedup 00173F58, 00168923
 - \[PRP\] (-7, 3): Dedup 0010783C, 001703C5, 001703C6
-Re: Remaining fence object ( 0016ACF2 ) may have to be lowered later. 
+- Re: Remaining fence object ( 0016ACF2 ) may have to be lowered later. 
 - \[PRP\] (-8, 3): Dedup 00063387
 - \[PRP\] (-2, 2): Dedup 000B1E79
 - \[PRP\] (-3, 2): Dedup 000BA732
@@ -152,7 +152,7 @@ Re: Remaining fence object ( 0016ACF2 ) may have to be lowered later.
 - \[PRP\] (-6, 25): Dedup 0022BDA7
 - \[PRP\] (-8, 25): Dedup 0013A6D3
 - \[PRP\] (-27, -33): Dedup 00192180, 0019217E, 0019217C, 00192179, 19216F, 19217A, 19217B, 19217D, 19217F, 192175, 192176, 192177, 192178, 192173, 192172, 192174, 00192171, 0011C6DD, 00192170
-Note on above, 192171 was part of a RFGR, but since literally all of the first sixteen subrecords were the same cart, I don't think it's going to matter.
+- Note on above, 192171 was part of a RFGR, but since literally all of the first sixteen subrecords were the same cart, I don't think it's going to matter.
 - \[PRP\] (-25, -28): Dedup 002074BA
 - \[PRP\] (-25, -29): Dedup 00148EA5
 - \[PRP\] (-27, -30): Dedup 00193BB3
