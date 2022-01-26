@@ -48,7 +48,7 @@ Current fixed issues:
 - \[PRP\] ???
 
 0.56
-- \[PRP\] (-26, 10): Dedup 00193D1F
+- \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
 - \[PRP\] (-20, 5): Dedup 000275FF 
 - \[PRP\] (-21, 5): Dedup 0020E3DF
