@@ -48,6 +48,10 @@ Current fixed issues:
 - \[PRP\] ???
 
 0.56
+- \[PRP\] (-23, 15): Dedup 0022D9A0
+- \[PRP\] (-20, 14): Dedup 0019861A
+- \[PRP\] (-18, 13): Dedup 001AE0D5
+- \[PRP\] (-19, 11): Dedup 00094C0F, 00094C13
 - \[PRP\] (-20, 11): Dedup 00097542 | Note: 0009753C possible deletion
 - \[PRP\] (-18, 10): Dedup 00025611
 - \[PRP\] (-23, 10): Dedup 00193F88
