@@ -2,7 +2,7 @@ Current released PPF Version: 0.55.1
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 2893 of 3300 \]
+- Fallout4.esm \[ 2828 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 459 of 459 \]
@@ -48,7 +48,8 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 Current fixed issues:
 - \[PRP\] ???
 
-0.56
+~~0.56~~ 0.57
+- \[PRP\] Import Flicker Fixer model set, to include in generation.
 - \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
 - Why the fuck is it called DLC06 when it's DLC05?
 - \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
