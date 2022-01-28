@@ -11,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] 0.57: SCOL 7D57C and 9495E need rebuilt after implementing Flicker Fixer's mesh updates.
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
@@ -42,7 +43,7 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 
-Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
+Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, and Glass1411 (Flicker Fixer).
 
 Current fixed issues:
 - \[PRP\] ???
