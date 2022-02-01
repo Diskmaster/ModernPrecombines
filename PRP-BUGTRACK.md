@@ -11,7 +11,6 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
-- \[PRP\] 0.57: SCOL 7D57C and 9495E need rebuilt after implementing Flicker Fixer's mesh updates.
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
@@ -43,11 +42,15 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 
-Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, and Glass1411 (Flicker Fixer).
+Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, Glass1411 (Flicker Fixer), 54yeggan.
 
 Current fixed issues:
-- \[PRP\] ???
-
+- \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
+- \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
+0.57.1
+- \[PRP\] Generated MDHT for Nuka World.
+- \[PRP\] Compacted PPF.esm to allow for ESL tagging.
+- \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
 ~~0.56~~ 0.57
 - \[PRP\] Import Flicker Fixer model set, to include in generation.
 - \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
