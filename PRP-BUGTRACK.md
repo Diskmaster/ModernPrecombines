@@ -1,17 +1,18 @@
-Current released PPF Version: 0.55.1
+Current released PPF Version: 0.57.1
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 3023 of 3300 \]
+- Fallout4.esm \[ 2828 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
-- DLC02Workshop01 \[ 3 of 3 \]
+- DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
-- DLC05Workshop03 \[ 15 of 15 \]
+- DLC05Workshop03 \[ Completed \]
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
-- \[PPF\] Cleanse Landscape records from PPF.esm.
+- \[PRP\] Wherever the hell https://youtu.be/hFE3jzjq_WY is at.
+- \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
@@ -23,7 +24,7 @@ Current known issues:
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
 - \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
-- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area.
+- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area, this broke due to the xedit floating point shifting bug.
 - \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
 - \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
 - \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
@@ -43,10 +44,100 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 
-Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything) and Bingle
+Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, Glass1411 (Flicker Fixer), 54yeggan.
 
 Current fixed issues:
-
+- \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
+- \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
+0.57.1
+- \[PRP\] Generated MDHT for Nuka World.
+- \[PRP\] Compacted PPF.esm to allow for ESL tagging.
+- \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
+~~0.56~~ 0.57
+- \[PRP\] Import Flicker Fixer model set, to include in generation.
+- \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
+- Why the fuck is it called DLC06 when it's DLC05?
+- \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
+- \[PRP\] (3, -5): Dedup 001D02B8
+- \[PRP\] (2, -6): Dedup 0023C75F, 0023C760, 0023C761, 0023C762, 0023C763, 0023C764, 0023C765, 0023C766, 0023C767, 0023C768, 0023C769, 0023C76A, 0023C76B, 0023C76C, 0023C76D, 0023C76E, 0023C76F, 0023C770, 0023C771, 0023C772, 0023C773, 0023C774, 0023C775, 0023C776, 0023C777, 0023C778, 0023C779, 0023C77A, 0023C77B, 0023C77C, 0023C77D, 0023C77E, 0023C77F, 0023C780, 0023C781, 0023C782, 0023C783, 0023C784, 0023C785, 0023C786, 0023C787, 0023C788, 0023C789, 0023C78A, 0023C78B, 0023C78C, 0023C78D, 0023C78E, 00148894, 0023C78F, 0023C790, 0023C791, 0023C792, 0023C793, 0023C794, 0023C795, 0023C796
+- Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer tag, which may alter LOD in the area significantly.
+135A45 is under terrain, also deduplicated.
+1359EE also covered by other references above it and is unreachable.
+23C797 is a duplicate lootbox that UF4OP can also pick up, filed as \[U32314\]
+- \[PRP\] (2, -7): Dedup 0017C016, 00164196, 0023C759, 0023C75A, 0023C75B, 0023C75C, 0023C75D
+- \[PRP\] (-23, 9): Dedup 0009CFA6, 0009CFA4
+- \[PRP\] (-18, 8): Dedup 0020978C
+- \[PRP\] (-17, 23): Dedup 0005E13B
+- \[PRP\] (-23, 23): Dedup 0019BEB9
+- \[PRP\] (-17, 22): Dedup 0018B309
+- \[PRP\] (-20, 22): Dedup 00056FEF
+- \[PRP\] (-19, 21): Dedup 0007898D
+- \[PRP\] (-20, 21): Dedup 00083E2B
+- \[PRP\] (-19, 19): Dedup 0019B3BB
+- \[PRP\] (-22, 19): Dedup 00060BE7
+- \[**U32316**, PRP\] (-19, 16): Dedup **00066F0F**, 000640C4, 0005540C
+- Marked the relevant subrecord bold for the bug.
+- \[PRP\] (-20, 25): Dedup 002255A7
+- \[PRP\] (-23, 25): Dedup 0021DC21, 0021DC22, 0021DC23, 0021DC24, 0021DC25
+- \[PRP\] (-18, 24): Dedup 00090F76
+- \[PRP\] (-14, 6): Dedup 0001DAD1
+- \[U32308\] (-9, 5): Dedup 001978CA
+- \[PRP\] (-12, 4): Dedup 00058C95, 000EC8E9, 000EC8E8
+- \[PRP\] (-14, 4): Dedup 0015B792
+- \[PRP\] (-14, 3): Dedup 0015A3D3
+- \[PRP\] (-9, 14): Dedup 00224E11, 00224E0C, 00224E0B, 00224E0A, 00224DF4
+- \[PRP\] (-10, 14): Dedup 0006403D
+- \[U32317\] (-16, 14): Dedup 00203AEC
+- \[PRP\] (-9, 11): Dedup 0024050A, 0024050B, 0024050C
+- \[PRP\] (-10, 11): Dedup 00191C0C, 000FD4DC, 000DB810
+- \[U32318\] (-9, 10): Dedup 00240594, Remove 000F3BC3
+- \[PRP\] (-9, 9): Dedup 001019E9
+- \[PRP\] (-10, 9): Dedup 00165580, 00165581, 00165582
+- \[PRP\] (-9, 8): Dedup 000FD17E, 000FD133
+- \[PRP\] (-10, 22): Dedup 0018ED85
+- \[PRP\] (-11, 21): Dedup 0008E428
+- \[PRP\] (-14, 21): Dedup 0018C1EE
+- \[**U32319**, PRP\] (-11, 20): Dedup 0002E05B, 0002E05A, **002322C4**
+- \[PRP\] (-15, 19): Dedup 000346FB
+- \[PRP\] (-13, 18): Dedup 000329B4, 00032994
+- \[PRP\] (-16, 18): Dedup 000346B6
+- \[PRP\] (-10, 17): Dedup 0019EA75
+- \[PRP\] (-9, 16): Dedup 0001CEAF
+- \[PRP\] (-10, 26): Dedup 0022BD2F
+- \[PRP\] (-15, 24): Dedup 00063E8E, 00063E8C
+- \[PRP\] (-6, 7): Dedup 001F7DE1
+- \[PRP\] (-8, 7): Dedup 000DBD17
+- \[PRP\] (-1, 5): Dedup 000BF249, 000BF24A, 000BF24B, 000BF24C, 000BF24F, 000BF250, 000BF251, 000BF252, 000BF253, 000BF254, 000BF255, 000BF256, 000BF257, 000BF25A, 000BF25C, 000BF25D, 000BF25E
+- \[PRP\] (-7, 5): Dedup 00239B59
+- \[PRP\] (-1, 4): Dedup 000D2E28, 000D2E29, 000D2E40, 00163624
+- \[PRP\] (-2, 4): Dedup 000A9537, 00087DE3
+- 87DE3 also filed as U32307
+- \[PRP\] (-3, 4): Dedup 001C13B8, 000B14E6
+- For B14E6, normally, we leave one instance of the duplicated subrecord, but this specific Bramble02 appears to be under pavement and brick and would otherwise be clipping out. I think this is an instance that can be deleted.
+- \[PRP\] (-5, 4): Dedup 00159FB5
+- \[PRP\] (-6, 4): Dedup 001E23E5, 001E1C68
+- \[PRP\] (-2, 3): Dedup 00153E85
+- \[PRP\] (-4, 3): Dedup 0008586A
+- \[PRP\] (-6, 3): Dedup 00173F58, 00168923
+- \[PRP\] (-7, 3): Dedup 0010783C, 001703C5, 001703C6
+- Re: Remaining fence object ( 0016ACF2 ) may have to be lowered later. 
+- \[PRP\] (-8, 3): Dedup 00063387
+- \[PRP\] (-2, 2): Dedup 000B1E79
+- \[PRP\] (-3, 2): Dedup 000BA732
+- \[PRP\] (-4, 2): Dedup 00035CC1
+- \[PRP\] (-5, 2): Dedup 000AC80D, 000B8C9F
+- \[PRP\] (-7, 2): Dedup 001B9F60
+- \[PRP\] (-8, 2): Dedup 001A9513
+- \[PRP\] (-1, 1): Dedup 0022D292
+- \[PRP\] (-2, 1): Dedup 0016FAD1, 0020593E
+- \[PRP\] (-3, 1): Dedup 000A9783
+- \[PRP\] (-5, 1): Dedup 0017408D, 00174025
+- \[PRP\] (-6, 1): Dedup 0017297A, 00097A57
+- \[PRP\] (-7, 1): Dedup 00160036, 00160035, 00154CAE
+- \[PRP\] (-8, 1): Dedup 001600BE
+- \[PRP\] (-1, 0): Dedup 0008AE2B, 0016D7FC
+- \[PRP\] (-2, 0): Dedup 0008AD0D, 001D97CB
+- \[PRP\] (-3, 0): Dedup 000A3187, 000A31A1, 000A31A2
 - \[PRP\] (-6, 0): Dedup 00185817, 0023CA81
 - \[PRP\] (-7, 15): Dedup 001E5F97
 - \[PRP\] (-8, 15): Dedup 00045F46
@@ -117,7 +208,7 @@ Current fixed issues:
 - \[PRP\] (-15, -9): Dedup 001FF4C5
 - \[PRP\] (-13, -10): Dedup 00209F53
 - \[PRP\] (-15, -10): Dedup 00205530, 0020552F, 0020552E, 0020552D, 0020552C
-- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230
+- \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230 and fixed by MrTroubleMaker on the nexus. Thanks for letting me use this fix!
 - \[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.
 - \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
 - \[PRP\] (-11, -11): Dedup 001C4B16
@@ -169,7 +260,7 @@ Current fixed issues:
 - \[PRP\] ChestnutHillockReservoirExt02 (-8, -6): Deduplicate a Traffic Cone. 14322D
 - \[PRP\] Vault95: Slightly shift a world block to close a void hole near DFF18 (Vault Door)
 - \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
-- \[U32299\] ScrapPalaceExt04: Move armor workbench away from the crates it appears to be shoved inside of.
+- \[U32299\] ScrapPalaceExt04: 1A0CD5 Move armor workbench away from the crates it appears to be shoved inside of.
 - \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
 - \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
 
@@ -221,7 +312,7 @@ Current fixed issues:
 - \[U?????\] zVitalePumphouse01: 21A404, 21E06A, 21E06B, 21E06C, 21E06D More UF4OP records.
 - \[U23801\] MedfordMemorial01: 45432 and 45436 countertops got shifted.
 - \[U23460\] MedfordMemorial01: 7DC87 and 20B852 had placement corrected.
-- \[U?????, PRP\] Vault75: 07038FB1 was resulting in a void hole on previsibine generation. Z adjustment needs verified.
+- \[U32315, PRP\] Vault75: 07038FB1 was resulting in a void hole on previsibine generation. Z adjustment needs verified.
 - \[U23634\] GwinnettBrewery02: AD910 and AD911 moved to correctly stick to a wall.
 - \[PRP\] UniversityPoint01: 87A62 the chair got moved to not be floating awkwardly.
 - \[U?????\] CambridgeCollegeAdminBuilding: 21548A was moved by UF4OP
