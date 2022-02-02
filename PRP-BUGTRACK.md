@@ -1,4 +1,4 @@
-Current released PPF Version: 0.55.1
+Current released PPF Version: 0.57.1
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
@@ -11,6 +11,8 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] Wherever the hell https://youtu.be/hFE3jzjq_WY is at.
+- \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
 - \[PRP\] Future builds should NOT have pregenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
