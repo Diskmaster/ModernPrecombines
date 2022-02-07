@@ -1,4 +1,4 @@
-Current released PPF Version: 0.57.1
+Current released PPF Version: 0.57.2
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
@@ -11,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] Nearest 11A621: \"Captain's hatch\" walls suck and have holes as they are clearly not intended for this.
 - \[PRP\] Wherever the hell https://youtu.be/hFE3jzjq_WY is at.
 - \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
 - \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
@@ -47,6 +48,11 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, Glass1411 (Flicker Fixer), 54yeggan.
 
 Current fixed issues:
+
+- \[PRP\] Fix positioning of 68A78 to stop z-fighting. I doubt anyone's going to notice the extra block from where it currently sits.
+- \[PRP\] Fix 1E7723 clipping through roof. Needs checked for possible UF4OP inclusion, might not be precombined.
+0.57.2
+- \[PRP\] Fixed missing header forward in previous release.
 - \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
 - \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
 0.57.1
