@@ -81,7 +81,7 @@ Now that your have generated everything, it is time to see if your generation wo
 ## Creating patches for your patches
 (tbd and probably on another md file)
 
-[^1]:Guide was built using this version, but you can probably use the latest version.
+[^1]:Guide was built using this version, do not use CK fixes v1.7 when generating previsibines, there will be errors when generating the Cell index.
 [^2]:Guide will be using this because I use an enb
 [^3]:For now, I suggest using PRP 0.57.2 since it is labeled stable. The PPF listed in the Github will always be the latest version but for simplicity sake I suggest using the one shipped in the mod page.
 [^4]:That is all the DLC + UF4P + PRP + the plugin in question's masters. There is a problem when the CK adds the masters of other plugins to your new plugin and that causes errors when generating the precombine data.
