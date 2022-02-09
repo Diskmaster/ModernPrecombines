@@ -2,7 +2,7 @@ Current released PPF Version: 0.57.2
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 2828 of 3300 \]
+- Fallout4.esm \[ 2771 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 459 of 459 \]
@@ -48,6 +48,7 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, Glass1411 (Flicker Fixer), 54yeggan.
 
 Current fixed issues:
+0.58
 - \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
 - \[PRP\] (-20, 5): Dedup 000275FF 
@@ -61,7 +62,7 @@ Current fixed issues:
 - \[PRP\] (-20, 14): Dedup 0019861A
 - \[PRP\] (-18, 13): Dedup 001AE0D5
 - \[PRP\] (-19, 11): Dedup 00094C0F, 00094C13
-- \[PRP\] (-20, 11): Dedup 00097542 | Note: 0009753C possible deletion
+- \[PRP\] (-20, 11): Dedup 00097542, 0009753C
 - \[PRP\] (-18, 10): Dedup 00025611
 - \[PRP\] (-23, 10): Dedup 00193F88
 - \[PRP\] (-22, 9): Dedup 0022DBFE, 0022DBFF, 0022DC00, 0022DC01, 0022DC02, 0022DC03, 0022DC04, 0022DC05, 0022DC06, 0022DC07, 0022DC08, 0022DC09, 0022DC0A, 0022DC0B, 0022DC0C, 0022DC0D, 0022DC0E, 0022DC0F, 0022DC10, 0022DC11, 0022DC12
