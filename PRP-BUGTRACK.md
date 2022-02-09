@@ -61,6 +61,26 @@ Current fixed issues:
 - \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
 ~~0.56~~ 0.57
 - \[PRP\] Import Flicker Fixer model set, to include in generation.
+0.56
+- \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
+- \[PRP\] (-17, 6): Dedup 001F9A4B
+- \[PRP\] (-20, 5): Dedup 000275FF 
+- \[PRP\] (-21, 5): Dedup 0020E3DF
+- \[PRP\] (-17, 4): Dedup 000A771B
+- \[PRP\] (-17, 1): Dedup 001FB33E, 0014E645
+- \[PRP\] (-20, 0): Dedup 00115933
+- \[PRP\] (-22, 0): Dedup 001A74CE
+- \[PRP\] (-21, 15): Dedup 00082180, 0023FCA8
+- \[PRP\] (-23, 15): Dedup 0022D9A0
+- \[PRP\] (-20, 14): Dedup 0019861A
+- \[PRP\] (-18, 13): Dedup 001AE0D5
+- \[PRP\] (-19, 11): Dedup 00094C0F, 00094C13
+- \[PRP\] (-20, 11): Dedup 00097542 | Note: 0009753C possible deletion
+- \[PRP\] (-18, 10): Dedup 00025611
+- \[PRP\] (-23, 10): Dedup 00193F88
+- \[PRP\] (-22, 9): Dedup 0022DBFE, 0022DBFF, 0022DC00, 0022DC01, 0022DC02, 0022DC03, 0022DC04, 0022DC05, 0022DC06, 0022DC07, 0022DC08, 0022DC09, 0022DC0A, 0022DC0B, 0022DC0C, 0022DC0D, 0022DC0E, 0022DC0F, 0022DC10, 0022DC11, 0022DC12
+- \[PRP\] (-21, 9): Dedup 0022DC13, 0022DC14, 0022DC15, 0022DC16, 0022DC17, 0022DC18, 0022DC19, 0022DC1A, 0022DC1B, 0022DC1C, 0022DC1D, 0022DC1E, 0022DC1F
+
 - \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
 - Why the fuck is it called DLC06 when it's DLC05?
 - \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
