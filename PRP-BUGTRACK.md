@@ -48,20 +48,6 @@ Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingl
 Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, Glass1411 (Flicker Fixer), 54yeggan.
 
 Current fixed issues:
-
-- \[PRP\] Fix positioning of 68A78 to stop z-fighting. I doubt anyone's going to notice the extra block from where it currently sits.
-- \[U32328\] Fix 1E7723 clipping through roof.
-- \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
-0.57.2
-- \[PRP\] Fixed missing header forward in previous release.
-- \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
-0.57.1
-- \[PRP\] Generated MDHT for Nuka World.
-- \[PRP\] Compacted PPF.esm to allow for ESL tagging.
-- \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
-~~0.56~~ 0.57
-- \[PRP\] Import Flicker Fixer model set, to include in generation.
-0.56
 - \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
 - \[PRP\] (-20, 5): Dedup 000275FF 
@@ -80,7 +66,19 @@ Current fixed issues:
 - \[PRP\] (-23, 10): Dedup 00193F88
 - \[PRP\] (-22, 9): Dedup 0022DBFE, 0022DBFF, 0022DC00, 0022DC01, 0022DC02, 0022DC03, 0022DC04, 0022DC05, 0022DC06, 0022DC07, 0022DC08, 0022DC09, 0022DC0A, 0022DC0B, 0022DC0C, 0022DC0D, 0022DC0E, 0022DC0F, 0022DC10, 0022DC11, 0022DC12
 - \[PRP\] (-21, 9): Dedup 0022DC13, 0022DC14, 0022DC15, 0022DC16, 0022DC17, 0022DC18, 0022DC19, 0022DC1A, 0022DC1B, 0022DC1C, 0022DC1D, 0022DC1E, 0022DC1F
-
+- \[PRP\] Fix positioning of 68A78 to stop z-fighting. I doubt anyone's going to notice the extra block from where it currently sits.
+- \[U32328\] Fix 1E7723 clipping through roof.
+- \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
+0.57.2
+- \[PRP\] Fixed missing header forward in previous release.
+- \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
+0.57.1
+- \[PRP\] Generated MDHT for Nuka World.
+- \[PRP\] Compacted PPF.esm to allow for ESL tagging.
+- \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
+~~0.56~~ 0.57
+- \[PRP\] Import Flicker Fixer model set, to include in generation.
+0.56
 - \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
 - Why the fuck is it called DLC06 when it's DLC05?
 - \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
