@@ -50,10 +50,10 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 Current fixed issues:
 
 - \[PRP\] Fix positioning of 68A78 to stop z-fighting. I doubt anyone's going to notice the extra block from where it currently sits.
-- \[PRP\] Fix 1E7723 clipping through roof. Needs checked for possible UF4OP inclusion, might not be precombined.
+- \[U32328\] Fix 1E7723 clipping through roof.
+- \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
 0.57.2
 - \[PRP\] Fixed missing header forward in previous release.
-- \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
 - \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
 0.57.1
 - \[PRP\] Generated MDHT for Nuka World.
