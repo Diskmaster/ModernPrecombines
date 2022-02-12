@@ -11,6 +11,8 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] PosterArmy01.nif and PosterArmy02.nif from Flicker Fixer appears to have no geometry. This explains the exclusion from precombines.
+- \[PRP\] -24, -13, CW: 96911, 9696E, DB891, DB892 need to be tagged EnableParent for exclusion from Precombines to better support Maxwell's Worl
 - \[PRP\] Nearest 11A621: \"Captain's hatch\" walls suck and have holes as they are clearly not intended for this.
 - \[PRP\] Wherever the hell https://youtu.be/hFE3jzjq_WY is at.
 - \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
