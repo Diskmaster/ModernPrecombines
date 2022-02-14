@@ -43,7 +43,7 @@ The CK may crash with an exception 0xc0000005, sadly this can happen when using 
 If you get a psg file that is 0kb in size my only guess is you typed something wrong in the terminal.
 
 ## Precombine Generation - Part B
-Once you get the CombinedObjects.esp you should check for errors in the esp in xedit. If any errors appear (exclude [^9] type errors) then something went wrong and this usually happens in the [Preparation of the esp patch](#preparation-of-the-esp-patch) step. The next step is to either use Searge's `03_MergeCombinedObjects.pas` script or to save the plugin in the Creation Kit.
+Once you get the CombinedObjects.esp, you should check for errors in the plugin using xedit. If any errors appear (exclude [^9] type errors) then something went wrong and this usually happens in the [Preparation of the esp patch](#preparation-of-the-esp-patch) step. The next step is to either use Searge's `03_MergeCombinedObjects.pas` script or to save the plugin in the Creation Kit.
 ### Using Searge's Combined Objects Script
 This is the faster of the two options. Put the script in your xedit's `Edit Scripts` folder and run the script on the PRP patch plugin.
 ### Saving the CombinedObjects plugin in the CK
