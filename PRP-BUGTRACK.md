@@ -11,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] (-5, 1, CW): Leftovers from the Law Offices fixes, Architecture\Buildings\Metal\MetalIntWall1x1Str01.nif needs some cleanup, else z-flicker happens at the edges.
 - \[PRP, U32336\] (-2, 19, CW): 127495 is causing visual flickery as a result of improper collision between floors. Can't fix until collision is fixed in model.
 - \[PRP\] PosterArmy01.nif and PosterArmy02.nif from Flicker Fixer appears to have no geometry. This explains the exclusion from precombines.
 - \[PRP\] -24, -13, CW: 96911, 9696E, DB891, DB892 need to be tagged EnableParent for exclusion from Precombines to better support Maxwell's Worl
