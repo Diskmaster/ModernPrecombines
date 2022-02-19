@@ -53,7 +53,9 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 Current fixed issues:
 0.58
 
-- \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover.
+- \[PRP\] (-6, 1): Add a new DecoRoofATrimBCorCap01 to match the one in the below entry. 08000016
+- \[PRP\] (-5, 1): Further refinements from VlitS after last night's work on the building. 30146, 3033E, 08000015
+- \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover. 08000014
 - \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
 - \[PRP\] (-20, 5): Dedup 000275FF 
@@ -405,7 +407,7 @@ Current fixed issues:
 - \[PRP\] -2, -11 CW 129105 Moved a grass blob.
 - \[U31658, PRP\] -2. -15 CW 08000001 Add new SWCurb8x1Str01 to cap off a hole.
 - \[U31657\] -5, -1 CW Getting motonous, isn't it? Another DLCNukaWorld cell clobber.
-- \[U?????\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, don't remember the bug ID source. To be updated.
+- \[U28903\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, don't remember the bug ID source. To be updated.
 - \[U22977\] -2, -4 CW 23B2C2 Move a trash decal here.
 - \[U28424\] -5, -6 CW 90AD4 Fix rotation and placement for light fixture so it's not embedded in the wall.
 - \[U28185\] 1, 7 FH 305DA94 Move the Leaf Pile nearby so it's not floating in the air.
