@@ -48,11 +48,16 @@ CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World
 
 Models marked non-occluder (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 
-Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything), Bingle, Glass1411 (Flicker Fixer), 54yeggan.
+Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
 Current fixed issues:
 0.58
 
+- \[PRP\] Imported new references from Glitch's Fixes that weren't already pulled from existing UF4OP bug reports, as noted below.
+- \[PRP\] (Vault81): 08000053 and 08000054
+- \[PRP\] (Vault81Secret): 0800002F to 08000052
+- \[PRP\] (DmndSecurity01): 0800002B to 0800002E
+- \[PRP\] (CambridgeMassChemical01): 0800001C to 0800002A
 - \[PRP\] (-6, 1): Add a new DecoRoofATrimBCorCap01 to match the one in the below entry. 08000016
 - \[PRP\] (-5, 1): Further refinements from VlitS after last night's work on the building. 30146, 3033E, 08000015
 - \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover. 08000014
