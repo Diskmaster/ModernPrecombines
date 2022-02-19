@@ -11,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP, U32336\] (-2, 19, CW): 127495 is causing visual flickery as a result of improper collision between floors. Can't fix until collision is fixed in model.
 - \[PRP\] PosterArmy01.nif and PosterArmy02.nif from Flicker Fixer appears to have no geometry. This explains the exclusion from precombines.
 - \[PRP\] -24, -13, CW: 96911, 9696E, DB891, DB892 need to be tagged EnableParent for exclusion from Precombines to better support Maxwell's Worl
 - \[PRP\] Nearest 11A621: \"Captain's hatch\" walls suck and have holes as they are clearly not intended for this.
@@ -51,6 +52,8 @@ Models in the Meshes/ folder have been contributed from VlitS (Scrap Everything)
 
 Current fixed issues:
 0.58
+
+- \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover.
 - \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
 - \[PRP\] (-20, 5): Dedup 000275FF 
