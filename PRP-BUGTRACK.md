@@ -53,7 +53,10 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues:
 0.58
-
+- \[PRP\] (21, 19): Fixed up the poles and threw down additional tile nearest 000bd4a6, 08000058
+- \[PRP\] (5, 4): Did some maintence work with the pier and road in the area. What a mess. 08000055, 08000056, 08000057
+- \[PRP\] (Vault75): Shift slightly F0433 and neighbors to fix previs generation. 
+- \[PRP\] (Vault95): A lot of alignment work as pointed out by Glitchfinder, also fix multiple incorrect texswaps.
 - \[PRP\] Imported new references from Glitch's Fixes that weren't already pulled from existing UF4OP bug reports, as noted below.
 - \[PRP\] (Vault81): 08000053 and 08000054
 - \[PRP\] (Vault81Secret): 0800002F to 08000052
