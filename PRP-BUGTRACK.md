@@ -59,8 +59,8 @@ Current fixed issues:
 - \[PRP\] (Vault81Secret): 0800002F to 08000052
 - \[PRP\] (DmndSecurity01): 0800002B to 0800002E
 - \[PRP\] (CambridgeMassChemical01): 0800001C to 0800002A
-- \[PRP\] (-6, 1): Add a new DecoRoofATrimBCorCap01 to match the one in the below entry. 08000016
-- \[PRP\] (-5, 1): Further refinements from VlitS after last night's work on the building. 30146, 3033E, 08000015
+- \[PRP, U32338\] (-6, 1): Add a new DecoRoofATrimBCorCap01 to match the one in the below entry. 08000016
+- \[PRP, U32338\] (-5, 1): Further refinements from VlitS after last night's work on the building. 30146, 3033E, 08000015
 - \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover. 08000014
 - \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
