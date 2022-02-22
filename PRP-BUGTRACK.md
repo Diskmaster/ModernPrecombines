@@ -11,6 +11,8 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] Vault81Secret Check invisbed records.
+- \[PRP\] DmndSecurity01 Remove the new newly copied column records.
 - \[PRP\] Check 0831 0832 0833 0830 0848 083F.
 - \[PRP\] Bandaid (non-occluder) the airplane wreck meshes as I reported with U32336.
 - \[PRP\] (-5, 1, CW): Leftovers from the Law Offices fixes, Architecture\Buildings\Metal\MetalIntWall1x1Str01.nif needs some cleanup, else z-flicker happens at the edges.
