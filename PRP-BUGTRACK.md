@@ -11,6 +11,10 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] 144d49
+- \[PRP\] 92b21
+- \[PRP\] 195233
+- \[PRP\] NukaWorldGalaxy xx0277ff needs checked
 - \[PRP\] Vault81Secret Check invisbed records.
 - \[PRP\] DmndSecurity01 Remove the new newly copied column records.
 - \[PRP\] Check 0831 0832 0833 0830 0848 083F.
@@ -57,6 +61,7 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues:
 0.58
+
 - \[PRP\] (21, 19): Fixed up the poles and threw down additional tile nearest 000bd4a6, 08000058
 - \[PRP\] (5, 4): Did some maintence work with the pier and road in the area. What a mess. 08000055, 08000056, 08000057
 - \[PRP\] (Vault75): Shift slightly F0433 and neighbors to fix previs generation. 
