@@ -11,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 977 of 977 \]
 
 Current known issues:
+- \[PRP\] **World cell records may need reevaluated.**
 - \[PRP\] 144d49
 - \[PRP\] 92b21
 - \[PRP\] 195233
