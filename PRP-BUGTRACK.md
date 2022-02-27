@@ -62,23 +62,20 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues:
 0.58
-
+-- Bugs filed for this sprint: U32341 to U32351
 - \[PRP\] (-1, 7, NW): Dedup 06017D29
--- Another one for U?????
 - \[PRP\] (-1, 6, NW): Dedup 06015913, 06017AA8, 06017AA9
 - \[PRP\] (-1, 4, NW): Dedup 06015677, 06015853, 060159CC, 06017B81, 060241D9
 - \[PRP\] (-1, 3, NW): Dedup 06015862, 06015868, 0601586C, 06015A1F
 - \[PRP\] (-1, 2, NW): Dedup 06032D70
 - \[PRP\] (-1, 1, NW): Dedup 060144E6, 060540EF
 - \[PRP\] (-2, 7, NW): Dedup 0601BE84, 0601BEFA, 0602441F
--- 0602441F is a duplicate Toolchest. U?????
 - \[PRP\] (-2, 6, NW): Dedup 06016D43
 - \[PRP\] (-2, 5, NW): Dedup 060241B2
 - \[PRP\] (-2, 4, NW): Dedup 06047D2A
 - \[PRP\] (-2, 0, NW): Dedup 06033584
 - \[PRP\] (-3, 7, NW): Dedup 06015D87, 06015DB8, 06015E01
 - \[PRP\] (-3, 0, NW): Dedup 0603518A, 0603B8F2
--- 0603B8F2 for U????? maybe?
 - \[PRP\] (-4, 7, NW): Dedup 06017034
 - \[PRP\] (-4, 6, NW): Dedup 06024410
 - \[PRP\] (-4, 3, NW): Dedup 060449DD
@@ -100,7 +97,6 @@ Current fixed issues:
 - \[PRP\] (-9, -9, NW): Dedup 0601F3BC, 0601FD8F
 - \[PRP\] (-9, -10, NW): Dedup 0601FD5F, 0601FD60, 0601FD61
 - \[PRP\] (-9, -12, NW): Dedup 0601F3C6
--- Filed as U????? (verify first)
 - \[PRP\] (-10, -10, NW): Dedup 0601DE31
 - \[PRP\] (-11, -9, NW): Dedup 0601DDB6
 - \[PRP\] (-11, -10, NW): Dedup 0601DDE1
@@ -129,7 +125,6 @@ Current fixed issues:
 - \[PRP\] (-8, -16, NW): Dedup 0604FFC1
 - \[PRP\] (-1, -1, NW): Dedup 06042B99
 - \[PRP\] (-1, -2, NW): Dedup 0604062F, 060429E0, 06042BB1
--- 060429E0 filed as U32341
 - \[PRP\] (-1, -3, NW): Dedup 06041382, 0605077C, 0605077C, 06055C2B
 - \[PRP\] (-1, -4, NW): Dedup 060235E0, 060281F1
 - \[PRP\] (-1, -5, NW): Dedup 0602D2B9
