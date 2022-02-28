@@ -62,6 +62,49 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues:
 0.58
+- \[PRP\] (0, 8, NW): Dedup 
+- \[PRP\] (6, 17, NW): Dedup 0603F15E
+- \[PRP\] (5, 16, NW): Dedup 0603EA31
+- \[PRP\] (4, 18, NW): Dedup 0603F160
+- \[PRP\] (12, 6, NW): Dedup 06039CA3, 06039CAD
+- \[PRP\] (9, 7, NW): Dedup 0602022D, 0602022E
+- \[PRP\] (9, 5, NW): Dedup 06011B83
+- \[PRP\] (8, 3, NW): Dedup 0600F9C3
+- \[PRP\] (9, 12, NW): Dedup 06010574
+- \[PRP\] (11, 16, NW): Dedup 0603E84B
+- \[PRP\] (17, 1, NW): Dedup 0604CAE1
+- \[PRP\] (1, -9, NW): Dedup 0600B633
+- \[PRP\] (0, -9, NW): Dedup 0600B794
+- \[PRP\] (7, -7, NW): Dedup 0603E6B1
+- \[PRP\] (6, -1, NW): Dedup 0605377A
+- \[PRP\] (4, -2, NW): Dedup 060163CA
+- \[PRP\] (3, -1, NW): Dedup 060537F1
+- \[PRP\] (2, -2, NW): Dedup 0602683F, 06028606, 06028607, 06028609, 0602860A, 0602860B, 0602860C, 0602860D, 0602860E
+- \[PRP\] (2, -3, NW): Dedup 06028401, 06028402
+- \[PRP\] (2, -4, NW): Dedup 060267B4, 06028615
+- \[PRP\] (2, -6, NW): Dedup 0601471D
+- \[PRP\] (1, -2, NW): Dedup 06014753, 0602852A, 0602852D, 0602852E, 0602853F, 06028541, 06028542, 06028543, 06028545, 060285FA, 06028605
+- \[PRP\] (1, -3, NW): Dedup 0602845D, 0602845E, 0602845F, 06028460, 06028461, 06028462, 06028463, 060284B9, 060284BA, 060284BB, 060284BC, 060284BD, 060284BE, 060284BF, 060284C3, 060284C4, 060284C5, 060284D9, 060284DA, 060284DB, 060284DE, 060284E3, 060284E5, 060284EF, 060284F0
+- \[PRP\] (1, -4, NW): Dedup 060283F6, 060283F7
+- \[PRP\] (1, -7, NW): Dedup 060161FE
+- \[PRP\] (0, -3, NW): Dedup 060403E4
+- \[PRP\] (0, -4, NW): Dedup 0603FB50, 0603FBAF, 06041A7F, 060428EC, 060428F9, 06053ACE, 06055C23, 060558F4
+- \[PRP\] (0, -5, NW): Dedup 060222C7, 06041D53, 06041D64
+- \[PRP\] (0, -6, NW): Dedup 06023850, 06041B5A, 06041B83
+- \[PRP\] (13, -2, NW): Dedup 0604CADE
+- \[PRP\] (-18, 0, NW): Dedup 060387FE
+- \[PRP\] (-12, 5, NW): Dedup 0603C2C9
+- \[PRP\] (-12, 1, NW): Dedup 0601A042
+- \[PRP\] (-13, 7, NW): Dedup 0603B993
+- \[PRP\] (-13, 6, NW): Dedup 060373BF
+- \[PRP\] (-13, 3, NW): Dedup 0602CBEC
+- \[PRP\] (-13, 1, NW): Dedup 0601B119, 0602EA80
+- \[PRP\] (-14, 3, NW): Dedup 06038664
+- \[PRP\] (-14, 1, NW): Dedup 06008D3E, 0601785A, 0601785C, 0601B0B4, 0602CDB9
+- \[PRP\] (-14, 0, NW): Dedup 06008D1C, 0601B0F3
+- \[PRP\] (-15, 5, NW): Dedup 060373C1, 060373C3
+- \[PRP\] (-16, 3, NW): Dedup 060386E8
+- \[PRP\] (-10, 9, NW): Dedup 0603C42D
 -- Bugs filed for this sprint: U32341 to U32351
 - \[PRP\] (-1, 7, NW): Dedup 06017D29
 - \[PRP\] (-1, 6, NW): Dedup 06015913, 06017AA8, 06017AA9
