@@ -63,7 +63,7 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 Current fixed issues:
 0.58
 
-- \[PRP\] (PrewarVault111): Adapt the Vault 111 Floor Guide Fix (https://www.nexusmods.com/fallout4/mods/28167), except actually fix the problem instead of overlaying another version of the floor guide on top. CA5CF, CA5E9, CA67C, CA5E8, CA736
+- \[PRP\] (PrewarVault111): Adapt the Vault 111 Floor Guide Fix (https://www.nexusmods.com/fallout4/mods/28167), except actually fix the problem instead of overlaying another version of the floor guide on top. CA5CF, CA5E9, CA67C, CA5E8
 - \[U32352\] (GeneralAtomicsFactory01): Tag doors 999E2 and 999E4 Inaccessible to prevent a "into the void" type situation. Also move A5420 to make it easier to interact with (conflict with grass occlusion). 213240, 213242, 213244, 213247, 213241, 2133E0, 21345E, 213457 need adjusted for previs float point bug prevention. Tune 2134D8, 2134DF, 213389, 19C80A, 10844B to stop z-fighting. Also fix 99C19 z pos.
 - \[PRP\] (7, 15, NW): Dedup 0603E9C1
 - \[PRP\] (7, 13, NW): Dedup 060269B5
