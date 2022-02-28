@@ -8,7 +8,7 @@ Deduplication tracker remaining:
 - DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
-- DLC06NukaWorld \[ 696 of 977 \]
+- DLC06NukaWorld \[ 585 of 977 \]
 
 Current known issues:
 - \[PRP\] **World cell records may need reevaluated.**
@@ -62,7 +62,20 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues:
 0.58
-- \[PRP\] (0, 8, NW): Dedup 
+
+- \[PRP\] (PrewarVault111): Adapt the Vault 111 Floor Guide Fix (https://www.nexusmods.com/fallout4/mods/28167), except actually fix the problem instead of overlaying another version of the floor guide on top. CA5CF, CA5E9, CA67C, CA5E8, CA736
+- \[U32352\] (GeneralAtomicsFactory01): Tag doors 999E2 and 999E4 Inaccessible to prevent a "into the void" type situation. Also move A5420 to make it easier to interact with (conflict with grass occlusion). 213240, 213242, 213244, 213247, 213241, 2133E0, 21345E, 213457 need adjusted for previs float point bug prevention. Tune 2134D8, 2134DF, 213389, 19C80A, 10844B to stop z-fighting. Also fix 99C19 z pos.
+- \[PRP\] (7, 15, NW): Dedup 0603E9C1
+- \[PRP\] (7, 13, NW): Dedup 060269B5
+- \[PRP\] (7, 11, NW): Dedup 06025E68
+- \[PRP\] (3, 8, NW): Dedup 0601C361, 0601C3A4, 0601C3B9
+- \[PRP\] (2, 11, NW): Dedup 06029936
+- \[PRP\] (2, 9, NW): Dedup 0601DB73
+- \[PRP\] (2, 8, NW): Dedup 0602A34E
+- \[PRP\] (1, 13, NW): Dedup 0603DDFB
+- \[PRP\] (1, 8, NW): Dedup 06047C2B
+- \[PRP\] (0, 9, NW): Dedup 0602B42D, 06030146, 06030156, 06030157
+- \[PRP\] (0, 8, NW): Dedup 06016881, 06016882, 06016883, 06016990, 06016991, 06016992, 06016993, 06016994, 06016996, 06016997, 0601699B, 0601699C, 060169A0, 060169A1, 060169A8, 060169A9, 060169AA, 060169AC, 060169AD, 060169AE, 060169AF, 060169B0, 060169B1, 060169B2, 060169B3, 060169B4, 060169B5, 060169B6, 060169B7, 060169B8, 060169B9, 060169BA, 060169BB, 060169BC, 060169BF, 060169C0, 060169C2, 060169C3, 060169C4, 060169C5, 060169C6, 060169C7, 060169C8, 060169C9, 060169CA, 060169CB, 060169CC, 060169CD, 060169CE, 060169D0, 060169D2, 060169D3, 060169D4, 060169D5, 060169D6, 060169D7, 060169DC, 060169E5, 060169E6, 060169E7, 060169E8, 060169E9, 060169EA, 060169EB, 060169EC, 060169F1, 060169F2, 060169F3, 060169FC, 060169FD, 060169FE, 060169FF, 06016A00, 06016A01, 06016A02, 06016A03, 06016A04, 06016A05, 06016A06, 06016A07, 06016A08, 06016A09, 06016A0A, 06016A0B, 06016A0C, 06016A0D, 06016A0E, 06016A0F, 06016A10, 06016A11, 06016A12, 06016A13, 06016A14, 06016A17, 06016A18, 06016A19
 - \[PRP\] (6, 17, NW): Dedup 0603F15E
 - \[PRP\] (5, 16, NW): Dedup 0603EA31
 - \[PRP\] (4, 18, NW): Dedup 0603F160
