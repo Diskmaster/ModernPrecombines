@@ -8,7 +8,7 @@ Deduplication tracker remaining:
 - DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
-- DLC06NukaWorld \[ 810 of 977 \]
+- DLC06NukaWorld \[ 696 of 977 \]
 
 Current known issues:
 - \[PRP\] **World cell records may need reevaluated.**
