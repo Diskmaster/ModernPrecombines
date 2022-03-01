@@ -8,7 +8,7 @@ Deduplication tracker remaining:
 - DLC03Coast \[ 459 of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
-- DLC06NukaWorld \[ 585 of 977 \]
+- DLC06NukaWorld \[ 536 of 977 \]
 
 Current known issues:
 - \[PRP\] **World cell records may need reevaluated.**
@@ -54,7 +54,7 @@ List of areas to blacklist from the next build due to problems that have yet to 
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
 
 \(UF4OP bug numbers shown as Uxxxxx\)
-CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City, NWM - Nuka World Market, NWA - Nuka World Amphitheater
+CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City, NWM - Nuka World Market, NWA - Nuka World Amphitheater, FHVR - Far Harbor VR Simulation
 
 Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
 
@@ -63,6 +63,36 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 Current fixed issues:
 0.58
 
+- \[PRP\] (-26, 6, CW): Dedup 0600B1C1, 0600B1BF
+- \[PRP\] (-27, 6, CW): Dedup 0600A7BA
+- \[PRP\] (-28, 6, CW): Dedup 0600B1B8
+- \[PRP\] (0, -2, NW): Dedup 0604130B
+- \[PRP\] (2, 3, NW): Dedup 0603F79A
+- \[PRP\] (-5, -1, NW): Dedup 06031906
+- \[PRP\] (1, -3, NW): Dedup 060284C2
+- \[PRP\] (1, 4, NW): Dedup 060283EE
+- \[PRP\] (-4, -6, NW): Dedup 06028332, 06028333, 06028334, 06028335, 06028336
+- \[PRP\] (-1, -4, NW): Dedup 060281FE, 060281FF, 06028200, 06028201, 06028202, 06028203, 06028204
+-- The above four entries will affect textures in the area, as the duplicate entries were application of texturesets.
+- \[PRP\] (7, 2, NW): Dedup 06051EA9
+- \[PRP\] (6, 7, NW): Dedup 060181EF
+- \[PRP\] (6, 5, NW): Dedup 0601AAB4
+- \[PRP\] (6, 4, NW): Dedup 0601814A
+- \[PRP\] (5, 4, NW): Dedup 06015B48
+- \[PRP\] (3, 6, NW): Dedup 06047AEC
+- \[PRP\] (3, 5, NW): Dedup 06021FDD, 06021FDE, 06021FDF, 06021FE0
+- \[PRP\] (3, 4, NW): Dedup 0601913B, 0601913C, 06021FDC, 06021FE1, 06021FE2, 06021FE3
+- \[PRP\] (3, 3, NW): Dedup 0602A7D2
+- \[PRP\] (2, 6, NW): Dedup 06047B34
+- \[PRP\] (2, 5, NW): Dedup 0604A1A4
+- \[PRP\] (2, 1, NW): Dedup 0604981E
+- \[PRP\] (2, 0, NW): Dedup 0603047D
+- \[PRP\] (1, 6, NW): Dedup 06048DD1
+- \[PRP\] (1, 4, NW): Dedup 0602151F, 06021529
+- \[PRP\] (0, 4, NW): Dedup 06015670
+- \[PRP\] (0, 3, NW): Dedup 06015657
+- \[PRP\] (0, 2, NW): Dedup 06017EB6
+- \[PRP\] (0, 1, NW): Dedup 0605432C
 - \[PRP\] (PrewarVault111): Adapt the Vault 111 Floor Guide Fix (https://www.nexusmods.com/fallout4/mods/28167), except actually fix the problem instead of overlaying another version of the floor guide on top. CA5CF, CA5E9, CA67C, CA5E8
 - \[U32352\] (GeneralAtomicsFactory01): Tag doors 999E2 and 999E4 Inaccessible to prevent a "into the void" type situation. Also move A5420 to make it easier to interact with (conflict with grass occlusion). 213240, 213242, 213244, 213247, 213241, 2133E0, 21345E, 213457 need adjusted for previs float point bug prevention. Tune 2134D8, 2134DF, 213389, 19C80A, 10844B to stop z-fighting. Also fix 99C19 z pos.
 - \[PRP\] (7, 15, NW): Dedup 0603E9C1
