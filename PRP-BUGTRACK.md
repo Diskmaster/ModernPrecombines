@@ -5,7 +5,7 @@ Deduplication tracker remaining:
 - Fallout4.esm \[ 2771 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ N/A \]
-- DLC03Coast \[ 459 of 459 \]
+- DLC03Coast \[ 315 of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
 - DLC06NukaWorld \[ 536 of 977 \]
@@ -63,6 +63,48 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 Current fixed issues:
 0.58
 - \[PRP\] (
+- \[PRP\] (-9, -9, FH): Dedup 0303FE44
+- \[PRP\] (-11, -10, FH): Dedup 0304F55B
+- \[PRP\] (-13, -11, FH): Dedup 03057070
+- \[PRP\] (-9, -8, FH): Dedup 03024623
+- \[PRP\] (-10, -8, FH): Dedup 0302474C
+- \[PRP\] (-11, -6, FH): Dedup 03035999
+- \[PRP\] (-2, -16, FH): Dedup 03014546
+- \[PRP\] (-1, -16, FH): Dedup 0301EBBA
+- \[PRP\] (-1, -9, FH): Dedup 03025B46
+- \[PRP\] (-1, -12, FH): Dedup 0302D430, 030406A2, 030406BA
+- \[PRP\] (-2, -12, FH): Dedup 0301AF5A
+- \[PRP\] (-4, -9, FH): Dedup 0301484E
+- \[PRP\] (-5, -9, FH): Dedup 03012D7C
+- \[PRP\] (-5, -13, FH): Dedup 03011985
+- \[PRP\] (-5, -14, FH): Dedup 0304FC5A, 0304FC5B
+- \[PRP\] (-7, -15, FH): Dedup 03013F37
+- \[PRP\] (-2, -7, FH): Dedup 03011E94, 03012AD7, 0302AF24, 0302AF25
+- \[PRP\] (-3, -6, FH): Dedup 03012164, 03012165, 03012166, 030121A1, 030121C0, 030121C1, 030292AD, 030292E0
+- \[PRP\] (-1, -1, FH): Dedup 0300FB72
+- \[PRP\] (-1, -2, FH): Dedup 0303CAF5, 0303CBB7
+- \[PRP\] (-1, -7, FH): Dedup 03010E11, 0302AF55
+- \[PRP\] (-2, -2, FH): Dedup 0303CA5B
+- \[PRP\] (-3, -4, FH): Dedup 0302A933
+- \[PRP\] (-4, -2, FH): Dedup 0304E28A
+- \[PRP\] (-4, -3, FH): Dedup 030100F6
+- \[PRP\] (-4, -4, FH): Dedup 0300E505
+- \[PRP\] (-4, -5, FH): Dedup 03013D9B, 030379AE
+- \[PRP\] (-4, -6, FH): Dedup 03012880
+- \[PRP\] (-4, -8, FH): Dedup 03012356
+- \[PRP\] (-5, -4, FH): Dedup 03026932
+- \[PRP\] (-5, -5, FH): Dedup 03013CFD
+- \[PRP\] (-5, -7, FH): Dedup 03012278
+- \[PRP\] (-5, -8, FH): Dedup 03012D7E, 03012D81
+- \[PRP\] (-6, -2, FH): Dedup 0300E657
+- \[PRP\] (-6, -3, FH): Dedup 03037437
+- \[PRP\] (-6, -5, FH): Dedup 03026869
+- \[PRP\] (-6, -6, FH): Dedup 03012BF2, 03012BF4, 03012C0C
+- \[PRP\] (-6, -7, FH): Dedup 03028F5C, 03028F9C
+- \[PRP\] (-7, -1, FH): Dedup 0300D3E4
+- \[PRP\] (-7, -4, FH): Dedup 03026768
+- \[PRP\] (-7, -6, FH): Dedup 03026A08, 03027DB8
+- \[PRP\] (-7, -7, FH): Dedup 030135C1, 03013C49
 - \[PRP\] (-8, -2, FH): Dedup 030370E5
 - \[PRP\] (-8, -4, FH): Dedup 030266BA, 030266C6
 - \[PRP\] (-8, -6, FH): Dedup 0301149B
