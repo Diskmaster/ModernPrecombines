@@ -5,7 +5,7 @@ Deduplication tracker remaining:
 - Fallout4.esm \[ 2771 of 3300 \]
 - DLC01Robot \[ 346 of 358 \]
 - DLC02Workshop01 \[ N/A \]
-- DLC03Coast \[ 315 of 459 \]
+- DLC03Coast \[ 285 of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
 - DLC06NukaWorld \[ 536 of 977 \]
@@ -62,7 +62,25 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues:
 0.58
-- \[PRP\] (
+
+- \[PRP\] (-5, 6, FH): Dedup 03022EE8
+- \[PRP\] (-5, 5, FH): Dedup 03006660, 03006662
+- \[PRP\] (-5, 2, FH): Dedup 03022D64, 03022D65, 03022DDB, 03022DEE, 03035A46
+- \[PRP\] (-5, 1, FH): Dedup 03035A9B
+- \[PRP\] (-6, 3, FH): Dedup 030064F8
+- \[PRP\] (-6, 2, FH): Dedup 03008FFA, 03009003
+- \[PRP\] (-6, 1, FH): Dedup 03035AFF, 030377B9
+- \[PRP\] (-6, 0, FH): Dedup 0300ACA9
+- \[PRP\] (-7, 2, FH): Dedup 030061C3
+- \[PRP\] (-7, 0, FH): Dedup 0300A23B, 0300D2ED, 0300D3C7
+- \[PRP\] (-8, 6, FH): Dedup 03003C72, 03003CF9
+- \[PRP\] (-8, 4, FH): Dedup 030040C9
+- \[PRP\] (-8, 3, FH): Dedup 030040CF
+- \[PRP\] (-8, 2, FH): Dedup 0300612C
+- \[PRP\] (-2, 14, FH): Dedup 0302D6D8
+- \[PRP\] (-3, 8, FH): Dedup 03007A83, 0301A73E
+- \[PRP\] (-4, 12, FH): Dedup 03028920, 03028990
+- \[PRP\] (-6, 9, FH): Dedup 0302BDD3
 - \[PRP\] (-9, -9, FH): Dedup 0303FE44
 - \[PRP\] (-11, -10, FH): Dedup 0304F55B
 - \[PRP\] (-13, -11, FH): Dedup 03057070
