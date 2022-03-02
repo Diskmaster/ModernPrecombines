@@ -66,6 +66,69 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.58
 
+- \[PRP\] (
+- \[PRP\] (7, -14, FH): Dedup 0300C42C
+- \[PRP\] (4, -13, FH): Dedup 0303A010
+- \[PRP\] (1, -11, FH): Dedup 0302C51B
+- \[PRP\] (0, -12, FH): Dedup 0303CE6A
+- \[PRP\] (4, -12, FH): Dedup 0304FFAF
+- \[PRP\] (2, -13, FH): Dedup 0303936C
+- \[PRP\] (2, -14, FH): Dedup 0300F438
+- \[PRP\] (0, -9, FH): Dedup 03025B6F
+- \[PRP\] (5, -2, FH): Dedup 0303EF78
+- \[PRP\] (5, -8, FH): Dedup 0300A3A6, 03030CA9
+- \[PRP\] (2, -8, FH): Dedup 0301C59B
+- \[PRP\] (7, -4, FH): Dedup 0302CE86
+- \[PRP\] (7, -5, FH): Dedup 0302DA72, 0302DA73, 030345BA
+- \[PRP\] (7, -7, FH): Dedup 0302CEBB, 03031B4E
+- \[PRP\] (6, -4, FH): Dedup 0302CE8C
+- \[PRP\] (6, -5, FH): Dedup 0302D011
+- \[PRP\] (6, -6, FH): Dedup 03018924, 03018B73
+- \[PRP\] (5, -4, FH): Dedup 03014FB3
+- \[PRP\] (5, -5, FH): Dedup 03014F40
+- \[PRP\] (5, -6, FH): Dedup 0302CDB9, 0302CDC3, 0302D0C2
+- \[PRP\] (5, -7, FH): Dedup 03018933
+- \[PRP\] (4, -5, FH): Dedup 03018690
+- \[PRP\] (4, -6, FH): Dedup 03018741
+- \[PRP\] (4, -7, FH): Dedup 030077C0
+- \[PRP\] (3, -4, FH): Dedup 0303308B
+- \[PRP\] (3, -5, FH): Dedup 030150B5, 030150BE, 0304FFA3
+- \[PRP\] (3, -6, FH): Dedup 03015098, 03018707
+- \[PRP\] (2, -5, FH): Dedup 030076E7, 03014C99, 03018FEF, 0301901A, 0304FFA4
+- \[PRP\] (1, -6, FH): Dedup 03025E03
+- \[PRP\] (0, -3, FH): Dedup 0302DBD6
+- \[PRP\] (0, -5, FH): Dedup 03014B0D
+- \[PRP\] (0, -6, FH): Dedup 03025DD1
+- \[PRP\] (0, -7, FH): Dedup 03025DCB
+- \[PRP\] (0, -8, FH): Dedup 030332A8
+- \[PRP\] (10, -9, FH): Dedup 0305013B
+- \[PRP\] (9, -9, FH): Dedup 03050115
+- \[PRP\] (9, -10, FH): Dedup 0300B0DA
+- \[PRP\] (9, -11, FH): Dedup 0300A430
+- \[PRP\] (15, -2, FH): Dedup 03005E3F
+- \[PRP\] (13, -1, FH): Dedup 03005FC7
+- \[PRP\] (13, -3, FH): Dedup 030544CB
+- \[PRP\] (12, -3, FH): Dedup 03013ABD, 030146DA, 030544C5
+- \[PRP\] (11, -1, FH): Dedup 03007150
+- \[PRP\] (11, -2, FH): Dedup 03005FCA
+- \[PRP\] (10, -6, FH): Dedup 0301397E, 03013985, 03033714
+- \[PRP\] (10, -7, FH): Dedup 03034C70
+- \[PRP\] (9, -7, FH): Dedup 0300309E, 0300309F
+- \[PRP\] (8, -7, FH): Dedup 03034536
+- \[PRP\] (12, -7, FH): Dedup 03031E31
+- \[PRP\] (16, -3, FH): Dedup 0303F7D6, 0303F7EC
+- \[PRP\] (-9, 2, FH): Dedup 03030004, 03030005, 03030006, 03030007, 03030008, 03030009, 0303000A, 0303000B, 0303000C, 0303000D, 0303000E, 0303000F, 03030010, 03030011, 03030012, 03030013, 03030014, 03030015, 03030016, 03030017, 03030018, 03030019, 0303001A, 0303001B, 0303001C, 0303001D, 0303001E, 0303001F, 03030020, 03030021, 03030022, 03030023, 03030024, 03030025, 03030026, 03030027
+- \[PRP\] (-10, 4, FH): Dedup 0301328C, 0301331F
+- \[PRP\] (-10, 2, FH): Dedup 03010C88
+- \[PRP\] (-10, 8, FH): Dedup 0301842F
+- \[PRP\] (-1, 2, FH): Dedup 03024506
+- \[PRP\] (-2, 6, FH): Dedup 0302376A
+- \[PRP\] (-2, 5, FH): Dedup 03009D4D, 030238CA, 030238D3
+- \[PRP\] (-2, 3, FH): Dedup 03023D60
+- \[PRP\] (-2, 2, FH): Dedup 03007BCB
+- \[PRP\] (-2, 1, FH): Dedup 0303C9BB
+- \[PRP\] (-3, 1, FH): Dedup 030382E4
+- \[PRP\] (-3, 0, FH): Dedup 0300FA5D
 - \[PRP\] (-5, 6, FH): Dedup 03022EE8
 - \[PRP\] (-5, 5, FH): Dedup 03006660, 03006662
 - \[PRP\] (-5, 2, FH): Dedup 03022D64, 03022D65, 03022DDB, 03022DEE, 03035A46
