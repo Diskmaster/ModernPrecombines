@@ -11,6 +11,8 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 536 of 977 \]
 
 Current known issues:
+- \[PRP\] Future multilingual build setup.
+- \[???\] Check Vault81 Room Bounds (Priority: Very Very Very Very Very Low)
 - \[PRP\] **World cell records may need reevaluated.**
 - \[PRP\] 144d49
 - \[PRP\] 92b21
