@@ -62,7 +62,7 @@ Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle
 
 Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
-Current fixed issues:
+Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
 0.58
 
@@ -148,7 +148,7 @@ Current fixed issues:
 - \[PRP\] (1, 4, NW): Dedup 060283EE
 - \[PRP\] (-4, -6, NW): Dedup 06028332, 06028333, 06028334, 06028335, 06028336
 - \[PRP\] (-1, -4, NW): Dedup 060281FE, 060281FF, 06028200, 06028201, 06028202, 06028203, 06028204
--- The above four entries will affect textures in the area, as the duplicate entries were application of texturesets.
+-- The last four entries will affect textures in the area, as the duplicate entries were application of texture sets.
 - \[PRP\] (7, 2, NW): Dedup 06051EA9
 - \[PRP\] (6, 7, NW): Dedup 060181EF
 - \[PRP\] (6, 5, NW): Dedup 0601AAB4
