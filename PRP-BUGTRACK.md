@@ -2,7 +2,7 @@ Current released PPF Version: 0.57.2
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
-- Fallout4.esm \[ 2771 of 3300 \]
+- Fallout4.esm \[ 2646 of 3300 \]
 - DLC01Robot \[ 343 of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 of 459 \]
@@ -68,6 +68,45 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 0.58
 
 
+- \[PRP\] (13, -19, CW): Dedup 00107DF7, 0005E8E1
+- \[PRP\] (15, -21, CW): Dedup 001EEACB, 00203852, 00203853, 00203854, 00203855, 00203856, 00203857, 00203858
+- \[PRP\] (14, -21, CW): Dedup 001CB3E6, 00203941
+- \[PRP\] (9, -22, CW): Dedup 000B4883, 000B4884, 000B4885
+- \[PRP\] (13, -24, CW): Dedup 001E2037
+- \[PRP\] (12, -24, CW): Dedup 001F2688
+- \[PRP\] (9, -9, CW): Dedup 00198941
+- \[PRP\] (8, -9, CW): Dedup 00171BF1, 0006601A, 0006603E
+- \[PRP\] (8, -11, CW): Dedup 001B2C94
+- \[PRP\] (15, -12, CW): Dedup 001E0C73
+- \[PRP\] (8, -12, CW): Dedup 0017890F
+- \[PRP\] (12, -1, CW): Dedup 000D6FFF, 000D6FD3, 001BD508, 001BD509, 001BD50A, 001BD50B
+- \[PRP\] (11, -1, CW): Dedup 001D4D39, 001D4CF1, 001D4CF2, 001BD4E1, 001BD4EB, 001BD4EC, 001BD4ED, 001BD4EE, 001BD4EF, 001BD4F0
+-- Slightly shift 001D4D39 as well.
+- \[PRP\] (8, -1, CW): Dedup 001864D7
+- \[PRP\] (12, -2, CW): Dedup 001907E3, 001ACBF4, 001BD50C, 001BD50D, 001BD50E, 001BD50F, 001BD510, 001BD511, 001BD512, 001BD513, 001BD514, 001BD522, 001BD523, 001BD524, 001BD525, 001BD526
+- \[PRP\] (11, -2, CW): Dedup 001907E7, 001BD4DF, 001BD4E0, 001BD4E2, 001BD4E3
+- \[PRP\] (8, -2, CW): Dedup 001F23D4, 001E8806
+- \[PRP\] (13, -3, CW): Dedup 002457B0
+- \[PRP\] (12, -3, CW): Dedup 001907E9, 001907EA, 001BBCAC, 001BBCAD, 001BE548, 001BE549, 002456C3, 00247A6E, 00247A6F, 00247A70, 00247A71, 00247A72, 00247A73, 00247A74, 00247A75, 00247A76, 00247A77, 00247A78, 00247A7A, 00247A7B, 00247A7C, 00247A7D, 00247A7E
+- \[PRP\] (11, -3, CW): Dedup 002259D0, 002259D1
+- \[PRP\] (8, -3, CW): Dedup 001F23E5, 001C2362, 001E6F9C
+- \[PRP\] (8, -4, CW): Dedup 001F2498, 001EEEC2, 001C2336, 001C22E1
+- \[PRP\] (10, -5, CW): Dedup 001D43CE
+- \[PRP\] (8, -5, CW): Dedup 001F9785
+- \[PRP\] (9, -3, CW): Dedup 001B9EC6, 001B9EC7, 001B9EC8
+- \[PRP\] (19, -17, CW): Dedup 001ECDF7
+- \[PRP\] (18, -18, CW): Dedup 001E410A
+- \[PRP\] (16, -18, CW): Dedup 0016E686
+- \[PRP\] (19, -22, CW): Dedup 001EA0C9
+- \[PRP\] (22, -24, CW): Dedup 001ECE2D
+- \[PRP\] (23, -14, CW): Dedup 001E0E2A
+- \[PRP\] (18, -14, CW): Dedup 0019F76C
+- \[PRP\] (21, -1, CW): Dedup 0016110D
+- \[PRP\] (20, -4, CW): Dedup 001E1159
+- \[PRP\] (18, -5, CW): Dedup 001DE92F
+- \[PRP\] (25, -10, CW): Dedup 00166CFA, 00166CE7, 00166CE6, 00166CE5, 00166CE4, 00166CE3
+- \[PRP\] (25, -11, CW): Dedup 00163DEC
+- \[PRP\] (24, -11, CW): Dedup 00166D63, 00166D5B, 00166D4E
 - \[PRP\] (xx, xx, NW): Convert 06014677 to it's non-destructive version, as per Glitchfinder. Apparently the destructive version of the sign has no destructive data.
 - \[PRP\] (-33, -20, CW): Dedup 0017DDB2
 - \[PRP\] (-17, 4, CW): Dedup 000E4CF5
