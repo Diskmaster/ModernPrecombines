@@ -1,19 +1,4 @@
-[00:00] Start: Applying script "Remove_duplicate_references"
-[Fallout4-Dedup.esp] Adding master "Fallout4.esm"
-MQ101SetStage270Trigger and MQ101SetStage30Trigger are not duplicates. Skip this one.
-MonkeyTrapTriggers in -3, -15 (WestRoxburyStationExt are not duplicates.
-BlackWireTowerSpline01 in -12, -2 (OberlandStation) are not duplicates.
-Skip activators in -7, 2, numbered uniquely.
 
-Found duplicates:
-	Removing: [REFR:001BE760] (places NpcChairPlayerHouseRuinKitchenSit02 "Chair" [FURN:0006F9DD] in GRUP Cell Temporary Children of SunshineTidingsExt [CELL:0000DEED] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -21,9))
-	Remaining: [REFR:001BE75F] (places NpcChairPlayerHouseRuinKitchenSit02 "Chair" [FURN:0006F9DD] in GRUP Cell Temporary Children of SunshineTidingsExt [CELL:0000DEED] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -21,9))
-Found duplicates:
-	Removing: [REFR:000E4CF5] (places HitExtATrimA01 [STAT:000C3947] in GRUP Cell Temporary Children of ArcjetSystemsExt [CELL:0000DF8E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -17,4) in Precombined\0000DF8E_21E80958_OC.nif)
-	Remaining: [REFR:000E4CF6] (places HitExtATrimA01 [STAT:000C3947] in GRUP Cell Temporary Children of ArcjetSystemsExt [CELL:0000DF8E] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -17,4) in Precombined\0000DF8E_21E80958_OC.nif)
-Found duplicates:
-	Removing: [REFR:0021BFB5] (places TreeClusterDead03 "Tree Cluster" [SCOL:0005E20D] in GRUP Cell Temporary Children of [CELL:0000DF96] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -25,4) in Precombined\0000DF96_21987E4E_OC.nif)
-	Remaining: [REFR:000A24FA] (places TreeClusterDead03 "Tree Cluster" [SCOL:0005E20D] in GRUP Cell Temporary Children of [CELL:0000DF96] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -25,4) in Precombined\0000DF96_21987E4E_OC.nif)
 Found duplicates:
 	Removing: [REFR:0017DDB2] (places TreeCluster03 "Tree Cluster" [SCOL:00035871] in GRUP Cell Temporary Children of [CELL:0000C26D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -33,-20) in Precombined\0000C26D_04F09B23_OC.nif)
 	Remaining: [REFR:0017DDB3] (places TreeCluster03 "Tree Cluster" [SCOL:00035871] in GRUP Cell Temporary Children of [CELL:0000C26D] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -33,-20) in Precombined\0000C26D_04F09B23_OC.nif)

@@ -3,9 +3,9 @@ The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
 - Fallout4.esm \[ 2771 of 3300 \]
-- DLC01Robot \[ 346 of 358 \]
+- DLC01Robot \[ 343 of 358 \]
 - DLC02Workshop01 \[ N/A \]
-- DLC03Coast \[ 285 of 459 \]
+- DLC03Coast \[ 85 of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
 - DLC06NukaWorld \[ 536 of 977 \]
@@ -66,7 +66,51 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.58
 
-- \[PRP\] (
+
+- \[PRP\] (-33, -20, CW): Dedup 0017DDB2
+- \[PRP\] (-17, 4, CW): Dedup 000E4CF5
+- \[PRP\] (-21, 9, CW): Dedup 001BE760
+- \[PRP\] (-25, -1, CW): Dedup 010018F2
+- \[PRP\] (21, 30, CW): Dedup 03032AD8
+- \[PRP\] (-6, 1, FH): Dedup 0305D3E1
+- \[PRP\] (0, -11, FH): Dedup 0304E64A
+- \[PRP\] (7, 8, FH): Dedup 0303795C
+- \[PRP\] (7, 7, FH): Dedup 030217E9
+- \[PRP\] (3, 6, FH): Dedup 03029CBF
+- \[PRP\] (3, 5, FH): Dedup 0301972D
+- \[PRP\] (2, 4, FH): Dedup 03028DF3, 03028DF4
+- \[PRP\] (2, 0, FH): Dedup 0302DEF4
+- \[PRP\] (1, 7, FH): Dedup 0302EE28
+- \[PRP\] (0, 0, FH): Dedup 0302ACA2, 0302ACA3, 0302ACA4, 0302ACA5, 0302ACA7
+- \[PRP\] (5, 15, FH): Dedup 0303F51A, 0303F53A
+- \[PRP\] (7, 9, FH): Dedup 03021190, 03032528, 03032529
+- \[PRP\] (7, 8, FH): Dedup 0302E478, 0302E479, 0302E47A, 03031456
+- \[PRP\] (6, 13, FH): Dedup 0303F2F8, 0303F2F9
+- \[PRP\] (6, 10, FH): Dedup 030363C9
+- \[PRP\] (4, 12, FH): Dedup 0303D6B7
+- \[PRP\] (4, 10, FH): Dedup 03036531
+- \[PRP\] (3, 8, FH): Dedup 03010454
+- \[PRP\] (2, 14, FH): Dedup 0303F68A
+- \[PRP\] (2, 8, FH): Dedup 03031A4E
+- \[PRP\] (1, 15, FH): Dedup 0303F6D2, 0303F6DF
+- \[PRP\] (0, 12, FH): Dedup 0302EB64
+- \[PRP\] (3, 15, FH): Dedup 0303F5ED
+- \[PRP\] (14, 6, FH): Dedup 0304FEAD
+- \[PRP\] (15, 1, FH): Dedup 030035F0
+- \[PRP\] (14, 4, FH): Dedup 03011BB8
+- \[PRP\] (13, 7, FH): Dedup 0303DE23, 0303DE28
+- \[PRP\] (13, 5, FH): Dedup 03023294
+- \[PRP\] (12, 6, FH): Dedup 03023120
+- \[PRP\] (12, 0, FH): Dedup 030253B3
+- \[PRP\] (11, 7, FH): Dedup 03004FA2, 03044F25
+- \[PRP\] (13, 10, FH): Dedup 03012855
+- \[PRP\] (13, 8, FH): Dedup 0300350D, 0300350E, 03003535, 03003536, 03003538, 0300353A, 0300353B, 0303DDEA, 0303DE26, 03056373, 03056374, 03056375, 03056376, 03056377, 0305637A, 0305639B, 0305639D
+- \[PRP\] (11, 11, FH): Dedup 03015D9D
+- \[PRP\] (10, 8, FH): Dedup 03022C78, 03022C7A
+- \[PRP\] (16, 0, FH): Dedup 030254CB, 030047F1
+-- Second reference has no geometry. Punted to UF4OP as U32356
+- \[PRP\] (7, -12, FH): Dedup 0300DD87
+- \[PRP\] (7, -13, FH): Dedup 0300CB4A, 0303E5A2
 - \[PRP\] (7, -14, FH): Dedup 0300C42C
 - \[PRP\] (4, -13, FH): Dedup 0303A010
 - \[PRP\] (1, -11, FH): Dedup 0302C51B

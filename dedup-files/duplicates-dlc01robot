@@ -1,15 +1,4 @@
-[00:00] Start: Applying script "Remove_duplicate_references"
-Found duplicates:
-	Removing: [REFR:010018F2] (places SecurityGateFencingExSm01 [STAT:0001B42F] in GRUP Cell Temporary Children of FortHagenSatelliteArrayExt [CELL:0000E43A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -25,-1) in Precombined\0000E43A_81B8656E_OC.nif)
-	Remaining: [REFR:010018F9] (places SecurityGateFencingExSm01 [STAT:0001B42F] in GRUP Cell Temporary Children of FortHagenSatelliteArrayExt [CELL:0000E43A] (in Commonwealth "Commonwealth" [WRLD:0000003C] at -25,-1) in Precombined\0000E43A_81B8656E_OC.nif)
-[DLCRobot-Dedup.esp] Adding master "Fallout4.esm"
-[DLCRobot-Dedup.esp] Adding master "DLCRobot.esm"
-Found duplicates:
-	Removing: [REFR:0100A620] (places DLC01_RobcoWallSign_AssemblyLine1 [STAT:0100A60F] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
-	Remaining: [REFR:0100A61F] (places DLC01_RobcoWallSign_AssemblyLine1 [STAT:0100A60F] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
-Found duplicates:
-	Removing: [REFR:0100FE7A] (places DLC01_RobcoWallBase [STAT:0100A601] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
-	Remaining: [REFR:0100A652] (places DLC01_RobcoWallBase [STAT:0100A601] in GRUP Cell Temporary Children of TestTony "BoS Holding Cell" [CELL:01002623])
+
 Found duplicates:
 	Removing: [REFR:01010BBF] (places workbenchWeaponsB "Weapons Workbench" [FURN:0017E787] in GRUP Cell Persistent Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
 	Remaining: [REFR:0100886C] (places workbenchWeaponsB "Weapons Workbench" [FURN:0017E787] in GRUP Cell Persistent Children of DLC01FortHagenSatelliteArray01 "Fort Hagen Hangar" [CELL:010044DF])
