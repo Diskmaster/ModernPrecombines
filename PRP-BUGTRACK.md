@@ -68,6 +68,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 0.58
 
 
+- \[PRP\] (xx, xx, NW): Convert 06014677 to it's non-destructive version, as per Glitchfinder. Apparently the destructive version of the sign has no destructive data.
 - \[PRP\] (-33, -20, CW): Dedup 0017DDB2
 - \[PRP\] (-17, 4, CW): Dedup 000E4CF5
 - \[PRP\] (-21, 9, CW): Dedup 001BE760
