@@ -67,7 +67,16 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.58
 
-
+- \[PRP\] (0, -1, CW): Dedup 00175FE2
+- \[PRP\] (0, -2, CW): Dedup 0016F1B3
+- \[PRP\] (0, -4, CW): Dedup 001AEA4A, 001AEA4B
+- \[PRP\] (0, -5, CW): Dedup 00175238, 000B8FF5, 0016D899
+- \[PRP\] (0, -6, CW): Dedup 001BEE32, 001767A1
+- \[PRP\] (0, -7, CW): Dedup 000D5665, 000F4628
+- \[PRP\] (0, -8, CW): Dedup 0023D52A, 00188230, 0018822F, 0018822E, 0018822D, 0018822C
+- \[PRP\] (13, -25, CW): Dedup 001F29CC
+- \[PRP\] (13, -18, CW): Dedup 0004A26C, 0004A268
+- \[PRP\] (9, -18, CW): Dedup 0009F16F, 00115D84, 00115D85, 00115E74
 - \[PRP\] (13, -19, CW): Dedup 00107DF7, 0005E8E1
 - \[PRP\] (15, -21, CW): Dedup 001EEACB, 00203852, 00203853, 00203854, 00203855, 00203856, 00203857, 00203858
 - \[PRP\] (14, -21, CW): Dedup 001CB3E6, 00203941
@@ -107,7 +116,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (25, -10, CW): Dedup 00166CFA, 00166CE7, 00166CE6, 00166CE5, 00166CE4, 00166CE3
 - \[PRP\] (25, -11, CW): Dedup 00163DEC
 - \[PRP\] (24, -11, CW): Dedup 00166D63, 00166D5B, 00166D4E
-- \[PRP\] (xx, xx, NW): Convert 06014677 to it's non-destructive version, as per Glitchfinder. Apparently the destructive version of the sign has no destructive data.
+- \[PRP\] (4, 3, NW): Convert 06014677 to it's non-destructive version, as per Glitchfinder. Apparently the destructive version of the sign has no destructive data.
 - \[PRP\] (-33, -20, CW): Dedup 0017DDB2
 - \[PRP\] (-17, 4, CW): Dedup 000E4CF5
 - \[PRP\] (-21, 9, CW): Dedup 001BE760
