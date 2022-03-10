@@ -1,4 +1,4 @@
-Current released PPF Version: 0.57.2
+Current released PPF Version: 0.58
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
@@ -65,8 +65,15 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
+0.59
+
+- \[PRP\] ???
+
 0.58
 
+- \[PRP\] (-4, 2, CW): Fix 30FEF positioning to correct z-fighting
+- \[PRP\] (ListeningPostBravo01): Slightly nudge 189557 and 18958E to hopefully fix "invisible world" syndrome for a certain angle. (Not saved to PPF)
+- \[PRP\] (-4, 4, CW): Change 17E458 from ShrubLarge05 to ShrubMedium03 and slightly fix positioning to stop some floating shrubbery.
 - \[PRP\] (0, -1, CW): Dedup 00175FE2
 - \[PRP\] (0, -2, CW): Dedup 0016F1B3
 - \[PRP\] (0, -4, CW): Dedup 001AEA4A, 001AEA4B
