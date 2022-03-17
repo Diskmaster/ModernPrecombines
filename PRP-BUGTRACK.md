@@ -11,6 +11,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 536 of 977 \]
 
 Current known issues:
+- \[PRP\] 157502 z-fight
 - ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
 - \[PRP\] Future multilingual build setup.
 - \[???\] Check Vault81 Room Bounds (Priority: Very Very Very Very Very Low)
