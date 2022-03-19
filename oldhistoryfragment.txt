@@ -1,0 +1,20 @@
+Changelog since 0.49.xx
+- 0.49.07162021: Cleaned out unused interior and exterior cells that the game currently does not use and have marked hidden or never had any previs/precombine records generated. Update only requires the updated plugin in master or masterless version. Compat patches are unchanged as nothing changed with actually used cells.
+Starhammer/BenRierimanu — 07/16/2021
+- 0.49.07162021 - .esp: Replaced existing optional plugin file with correct extension because I'm a big dumb. If you downloaded the previous version, just rename to .esp extension.
+Notice of filename changing starting with 0.50 build and newer.
+The filename will change to PRP.esp as of this build. I'm mulling over if I just want to include an .esp with the archive going forward or not. PrevisPackFixes will be renamed to PPF in a future upload. 
+Previous save game owners can merely rename the files of the new build back to the old name if they prefer to not break save game compat
+PRP 0.50.1 (0.50.08182021) Delta upgrade kit is being uploaded as I speak. The usual caveats apply. Stick xdelta3.exe in the mod folder with the previous 0.49 full build and run the batch file. Lightly tested.
+
+Tracked in this release:
+PRP Hotfixes merged into mainline (Airport, MassPikeTunnel)
+UF4OP Bugs 31518, 28872, 29277, 29278, 29279
+BostonFPSFix / Sean OcclusionBoxDuplicate marked for delete
+0.51.09232021
+- Reverted four UF4OP conflicts that were discovered after working on a project. Doesn't require a full rebuild as they weren't part of precombines.
+- Also fixed location text.
+New Bug: DLC04KiddieKingdomTunnels01 "Employee Tunnels" [CELL:0601951C] is missing Has Water flag in certain compat patches. If you are half decent with fo4edit, forward the flag from any other plugin that has it. Compat patches will be updated later to reflect this fix
+0.52.0
+Updated to include records pending removal from UF4OP. (Mod comments recently were reported on their mod page about it and they are scheduled for removal from UF4OP as of the next release.)
+New bugs fixed in upcoming PPF.esp: [UF4OP] 28903 31518 23507 28872 21471 20423

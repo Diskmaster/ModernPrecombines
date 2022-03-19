@@ -3,6 +3,7 @@ Current released PPF Version: 0.58
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
+
 - Fallout4.esm \[ 2646 of 3300 \]
 - DLC01Robot \[ 343 of 358 \]
 - DLC02Workshop01 \[ N/A \]
@@ -12,6 +13,8 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 536 of 977 \]
 
 Current known issues:
+
+- \[PRP\] 030251C6 collision needs redone
 - \[PRP\] 1F57A3 previs issue
 - \[PRP\] 157502 z-fight
 - ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
@@ -44,10 +47,10 @@ Current known issues:
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
 - \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
-- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area, this broke due to the xedit floating point shifting bug.
+~~- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area, this broke due to the xedit floating point shifting bug.~~
 - \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
 - \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
-- \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.
+~~- \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.~~ Done as of 0.57 branch.
 - \[???\] DF85 - Performance issues?
 - \[PRP\] Financial06: Window void holes. Entire interior is missing external stuff like the sky and shit.
 - \[PRP\] ThicketExcavationExt02: Previs issue?, multiple water volumes.
@@ -70,7 +73,17 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.59
 
-- \[PRP\] 
+- \[PRP\] (BeaconHillPub): Fix the walls near the Employees Only area. 16C51A, 16C526, 16C6A2, 219DAB, 219DAC, 219DAD, 219DB1 to 219DB9, 219DBA, 219DD3 were touched including objects attached to the wall.
+- \[PRP\] (-5, -6, CW): Fix misalignment of 39B74
+- \[PRP\] (-5, -5, CW): Tentative 2CAFD move to fix a previs hole (there's supposed to be a window near a trash pile), 
+- \[PRP\] (WestonWaterTreatment01): Fix z-fighting by changing 1ED0C0 position.
+- \[PRP\] (16, 12, CW): Lower 1B551C, 1B551E and 1B551F to match the changes to 1B5509 in an earlier revision.
+- \[PRP\] (DmndSecurity01): Optimize Feng Shui by shifting 126DA1. I cannot be held responsible if Tom Nook comes after my ass about pipe damage with relation to the table's position.
+- \[PRP\] (Vault81Entry): Shift position of A9B99 and A9B9A to not be clobbered by the stairs nearby.
+- \[PRP\] (Vault81Secret): Shift position of 19E885 so it's not into the fucking wall.
+- \[PRP\] (Vault81): 19DA74 and 19DA75 got shoved closer to the wall. The folding chairs made no sense standing up like that.
+- \[PRP\] (DLC01FortHagenSatelliteArray01): Round up all values for all seven Crates that were previously touched in PPF to fix the same holes that have been plaguing previs since forever.
+- \[PRP\] (Vault75): Fix 1A8BA8 Z pos in the same way as the UF4OP replacement to see if it finally fixes the previs hole. That's probably what's really going on here. If so, UF4OP's fix should be UDR'd. As of current dev, 07038FB1 is intentionally positioned upwards. Review this after 0.59's release to see if I'm right or not.
 - \[PRP\] Include ALL esm UDRs that you normally get after cleaning the DLC .esm files to remove the DLC Cleaning requirement. The sheer number will not be listed here for brevity, though one could easily look them up themselves against an unclean esm install.
 
 0.58
