@@ -1,4 +1,5 @@
 Current released PPF Version: 0.58
+
 The version in git is always tagged newer as it's development.
 
 Deduplication tracker remaining:
@@ -11,6 +12,7 @@ Deduplication tracker remaining:
 - DLC06NukaWorld \[ 536 of 977 \]
 
 Current known issues:
+- \[PRP\] 1F57A3 previs issue
 - \[PRP\] 157502 z-fight
 - ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
 - \[PRP\] Future multilingual build setup.
@@ -68,7 +70,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.59
 
-- \[PRP\] ???
+- \[PRP\] 
+- \[PRP\] Include ALL esm UDRs that you normally get after cleaning the DLC .esm files to remove the DLC Cleaning requirement. The sheer number will not be listed here for brevity, though one could easily look them up themselves against an unclean esm install.
 
 0.58
 
