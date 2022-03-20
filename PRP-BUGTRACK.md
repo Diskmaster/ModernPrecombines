@@ -16,18 +16,11 @@ Current known issues:
 
 - \[PRP\] 030251C6 collision needs redone
 - \[PRP\] 1F57A3 previs issue
-- \[PRP\] 157502 z-fight
 - ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
 - \[PRP\] Future multilingual build setup.
 - \[???\] Check Vault81 Room Bounds (Priority: Very Very Very Very Very Low)
 - \[PRP\] **World cell records may need reevaluated.**
-- \[PRP\] 144d49
-- \[PRP\] 92b21
-- \[PRP\] 195233
-- \[PRP\] NukaWorldGalaxy xx0277ff needs checked
 - \[PRP\] Vault81Secret Check invisbed records.
-- \[PRP\] DmndSecurity01 Remove the new newly copied column records.
-- \[PRP\] Check 0831 0832 0833 0830 0848 083F.
 - \[PRP\] Bandaid (non-occlude) the airplane wreck meshes as I reported with U32336.
 - \[PRP\] (-5, 1, CW): Leftovers from the Law Offices fixes, Architecture\Buildings\Metal\MetalIntWall1x1Str01.nif needs some cleanup, else z-flicker happens at the edges.
 - \[PRP, U32336\] (-2, 19, CW): 127495 is causing visual flicker as a result of improper collision between floors. Can't fix until collision is fixed in model.
@@ -36,8 +29,6 @@ Current known issues:
 - \[PRP\] Nearest 11A621: \"Captain's hatch\" walls suck and have holes as they are clearly not intended for this.
 - \[PRP\] Wherever the hell https://youtu.be/hFE3jzjq_WY is at.
 - \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
-- \[PRP\] 0.53: CorvegaAssemblyPlant01 in both baseline and UIL flavors are busted for previs. Only an issue for the stable builds. Unstable has this cell working, probably from process improvements.
-- \[PRP\] Future builds should NOT have regenerated precombines for PPF. It's a waste of time. Build precombines in PRP stage.
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
 - \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
@@ -73,6 +64,10 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.59
 
+
+- \[PRP\] (DmndSecurity01): Prune new records that were taken in from one of the bugfixes that aren't needed with our work. 0800002B to 0800002E
+- \[PRP\] (DLC04GZVaultTec01): Slightly shift 060277ff to prevent railing smashing. I'd also do something about the railing, but that would require model work.
+- \[PRP\] (-18, 19, CW): Reposition 157502 to stop z-fighting.
 - \[PRP\] (BeaconHillPub): Fix the walls near the Employees Only area. 16C51A, 16C526, 16C6A2, 219DAB, 219DAC, 219DAD, 219DB1 to 219DB9, 219DBA, 219DD3 were touched including objects attached to the wall.
 - \[PRP\] (-5, -6, CW): Fix misalignment of 39B74
 - \[PRP\] (-5, -5, CW): Tentative 2CAFD move to fix a previs hole (there's supposed to be a window near a trash pile), 
