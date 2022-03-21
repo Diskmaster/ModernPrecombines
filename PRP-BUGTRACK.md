@@ -862,15 +862,15 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[U21508\] -5, 1 CW 3013D Flipped around a bookcase.
 - \[U31657\] -2, 15; -1, 14; -2, 14; -3, 14; -2, 13 CW Yet more DLCCoast previsibine header clobbering that was repaired.
 - \[U?????\] -6, 11 CW 1BED90 A lamp got changed here. Ask UF4OP.
-- \[PRP\] -8, 9 CW F9EFB I believe this was that building piece that was positioned wierdly.
+- \[PRP\] -8, 9 CW F9EFB I believe this was that building piece that was positioned weirdly.
 - \[U24786\] -3, 16 CW 19FD5C Insert amusing bug description about a metal rod here.
 - \[U23652\] -22, -11 CW 1C0F05 Moved a trash pile.
 - \[PRP\] -19, -1 CW D1551, D1552 Shift slightly a pair of staircases.
 - \[U31518\] -9, -13 CW 8EE09 Getting really tired of these toilet bugs.
 - \[PRP\] -2, -11 CW 129105 Moved a grass blob.
 - \[U31658, PRP\] -2. -15 CW 08000001 Add new SWCurb8x1Str01 to cap off a hole.
-- \[U31657\] -5, -1 CW Getting motonous, isn't it? Another DLCNukaWorld cell clobber.
-- \[U28903\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, don't remember the bug ID source. To be updated.
+- \[U31657\] -5, -1 CW Getting monotonous, isn't it? Another DLCNukaWorld cell clobber.
+- \[U28903\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, thanks to Glitchfinder for this one.
 - \[U22977\] -2, -4 CW 23B2C2 Move a trash decal here.
 - \[U28424\] -5, -6 CW 90AD4 Fix rotation and placement for light fixture so it's not embedded in the wall.
 - \[U28185\] 1, 7 FH 305DA94 Move the Leaf Pile nearby so it's not floating in the air.
