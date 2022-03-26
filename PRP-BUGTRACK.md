@@ -1,4 +1,4 @@
-Current released PPF Version: 0.58
+Current released PPF Version: 0.59
 
 The version in git is always tagged newer as it's development.
 
@@ -62,8 +62,11 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
-0.59
+0.60
 
+Pending
+
+0.59
 
 - \[PRP\] (DmndSecurity01): Prune new records that were taken in from one of the bugfixes that aren't needed with our work. 0800002B to 0800002E
 - \[PRP\] (DLC04GZVaultTec01): Slightly shift 060277ff to prevent railing smashing. I'd also do something about the railing, but that would require model work.
