@@ -68,6 +68,8 @@ Pending
 
 0.59
 
+- \[U32369\] (0, 9, NW): Move 06047DB1 AND 0604D493 so that they aren't floating. Upstreamable.
+- \[PRP\] (Financial28): Slightly shift 13C9A8 to make umbra happy. This desk was previously moved by UF4OP. Reminder to self to upstream if confirmed working.
 - \[PRP\] (DmndSecurity01): Prune new records that were taken in from one of the bugfixes that aren't needed with our work. 0800002B to 0800002E
 - \[PRP\] (DLC04GZVaultTec01): Slightly shift 060277ff to prevent railing smashing. I'd also do something about the railing, but that would require model work.
 - \[PRP\] (-18, 19, CW): Reposition 157502 to stop z-fighting.
