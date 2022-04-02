@@ -40,9 +40,9 @@
 					<plugins order="Explicit"> 
 						<plugin name="PPF"> 
 							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description> 
-							<image path="Main Files\PRP.jpg" /> 
+							<image path="Images\PRP.jpg" /> 
 							<conditionFlags> 
-								<flag name="PPF Selected">On</flag> 
+								<flag name="PPF Selected English">On</flag> 
 							</conditionFlags> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -50,9 +50,9 @@
 						</plugin> 
 						<plugin name="PRP"> 
 							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description> 
-							<image path="Main Files\PRP.jpg" /> 
+							<image path="Images\PRP.jpg" /> 
 							<conditionFlags> 
-								<flag name="PRP Selected">On</flag> 
+								<flag name="PRP Selected English">On</flag> 
 							</conditionFlags> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -64,9 +64,9 @@
 					<plugins order="Explicit"> 
 						<plugin name="PRP - Clarity 4.2 Patch"> 
 							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Main Files\Compat Grabbag\Clarity.jpg" /> 
+							<image path="Images\Clarity.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -74,9 +74,9 @@
 						</plugin> 
 						<plugin name="PRP - Clarity 4.3 Patch"> 
 							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Main Files\Compat Grabbag\Clarity.jpg" /> 
+							<image path="Images\Clarity.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -84,9 +84,9 @@
 						</plugin> 
 						<plugin name="PRP - Diamond City Ambience Patch"> 
 							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description> 
-							<image path="Main Files\Compat Grabbag\Diamond City Ambience.jpg" /> 
+							<image path="Images\Diamond City Ambience.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -94,9 +94,9 @@
 						</plugin> 
 						<plugin name="PRP - Fogout Patch"> 
 							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description> 
-							<image path="Main Files\Compat Grabbag\Fogout.jpg" /> 
+							<image path="Images\Fogout.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -104,9 +104,9 @@
 						</plugin> 
 						<plugin name="PRP - Interiors Enhanced Patch"> 
 							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description> 
-							<image path="Main Files\Compat Grabbag\Interiors Enhanced.jpg" /> 
+							<image path="Images\Interiors Enhanced.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -114,9 +114,9 @@
 						</plugin> 
 						<plugin name="PRP - Region Names Patch"> 
 							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description> 
-							<image path="Main Files\Compat Grabbag\Region Names.jpg" /> 
+							<image path="Images\Region Names.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -124,9 +124,9 @@
 						</plugin> 
 						<plugin name="PRP - Ultra Exterior Lighting Patch"> 
 							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description> 
-							<image path="Main Files\Compat Grabbag\Ultra Exterior Lighting.jpg" /> 
+							<image path="Images\Ultra Exterior Lighting.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -134,9 +134,9 @@
 						</plugin> 
 						<plugin name="PRP - Ultra Interior Lighting Patch"> 
 							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Main Files\Compat Grabbag\Ultra Interior Lighting.jpg" /> 
+							<image path="Images\Ultra Interior Lighting.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -144,9 +144,9 @@
 						</plugin> 
 						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)"> 
 							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Main Files\Compat Grabbag\Ultra Interior Lighting.jpg" /> 
+							<image path="Images\Ultra Interior Lighting.jpg" /> 
 							<files> 
-								<file source="Main Files\Compat Grabbag\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
+								<file source="Main Files\English\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -169,12 +169,12 @@
 							<description>Upgrade for https://www.nexusmods.com/fallout4/mods/44101, requires original mod for texture archive. Replace all other existing files
 
 UNSUPPORTED due to patch age.</description> 
-							<image path="Main Files\Extra\Aloot Home Plate.jpg" /> 
+							<image path="Images\Aloot Home Plate.jpg" /> 
 							<files> 
-								<file source="Main Files\Extra\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
-								<file source="Main Files\Extra\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
-								<file source="Main Files\Extra\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
-								<file source="Main Files\Extra\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
+								<file source="Main Files\English\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -182,9 +182,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - WIPAG and ECO Patch"> 
 							<description>Compatibility replacement for WIPAG and ECO. Replaces CraftingFramework patch against WIPAG. Temporarily uploaded here until Worsin's aware of it's existence and addition to WIPAG</description> 
-							<image path="Main Files\Extra\WIPAG.jpg" /> 
+							<image path="Images\WIPAG.jpg" /> 
 							<files> 
-								<file source="Main Files\Extra\WIPAG_ECO_Patch.esp" destination="WIPAG_ECO_Patch.esp" priority="0" /> 
+								<file source="Main Files\English\WIPAG_ECO_Patch.esp" destination="WIPAG_ECO_Patch.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -205,7 +205,7 @@ UNSUPPORTED due to patch age.</description>
 					<plugins order="Explicit"> 
 						<plugin name="PPF"> 
 							<description>Complemento maestro que incluye todas las correcciones reales. Necesario para el funcionamiento normal.</description> 
-							<image path="Main Files\PRP.jpg" /> 
+							<image path="Images\PRP.jpg" /> 
 							<conditionFlags> 
 								<flag name="PPF Selected Spanish">On</flag> 
 							</conditionFlags> 
@@ -224,7 +224,7 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP"> 
 							<description>Paquete Previsibines generado a partir de PPF. Necesario para el funcionamiento normal en un entorno normal del juego (vanilla).</description> 
-							<image path="Main Files\PRP.jpg" /> 
+							<image path="Images\PRP.jpg" /> 
 							<conditionFlags> 
 								<flag name="PRP Selected Spanish">On</flag> 
 							</conditionFlags> 
@@ -247,9 +247,9 @@ UNSUPPORTED due to patch age.</description>
 					<plugins order="Explicit"> 
 						<plugin name="PRP - Clarity 4.2 Patch"> 
 							<description>Parche para Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Main Files\Compat Grabbag\Clarity.jpg" /> 
+							<image path="Images\Clarity.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -257,9 +257,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Clarity 4.3 Patch"> 
 							<description>Parche para Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Main Files\Compat Grabbag\Clarity.jpg" /> 
+							<image path="Images\Clarity.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -267,9 +267,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Diamond City Ambience Patch"> 
 							<description>Parche para Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description> 
-							<image path="Main Files\Compat Grabbag\Diamond City Ambience.jpg" /> 
+							<image path="Images\Diamond City Ambience.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -277,9 +277,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Fogout Patch"> 
 							<description>Parche para Fogout https://www.nexusmods.com/fallout4/mods/2428</description> 
-							<image path="Main Files\Compat Grabbag\Fogout.jpg" /> 
+							<image path="Images\Fogout.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -287,9 +287,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Interiors Enhanced Patch"> 
 							<description>Parche parar Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description> 
-							<image path="Main Files\Compat Grabbag\Interiors Enhanced.jpg" /> 
+							<image path="Images\Interiors Enhanced.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -297,9 +297,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Region Names Patch"> 
 							<description>Parche para See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description> 
-							<image path="Main Files\Compat Grabbag\Region Names.jpg" /> 
+							<image path="Images\Region Names.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -307,9 +307,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Ultra Exterior Lighting Patch"> 
 							<description>Parche para Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description> 
-							<image path="Main Files\Compat Grabbag\Ultra Exterior Lighting.jpg" /> 
+							<image path="Images\Ultra Exterior Lighting.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -317,9 +317,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Ultra Interior Lighting Patch"> 
 							<description>Parche para Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Main Files\Compat Grabbag\Ultra Interior Lighting.jpg" /> 
+							<image path="Images\Ultra Interior Lighting.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -327,9 +327,9 @@ UNSUPPORTED due to patch age.</description>
 						</plugin> 
 						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)"> 
 							<description>Parche para Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Main Files\Compat Grabbag\Ultra Interior Lighting.jpg" /> 
+							<image path="Images\Ultra Interior Lighting.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Compat Grabbag\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
+								<file source="Main Files\Spanish\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -352,9 +352,9 @@ UNSUPPORTED due to patch age.</description>
 							<description>Parche para https://www.nexusmods.com/fallout4/mods/44101, requiere el mod original para las texturas. Reemplaza todos los otros archivos existentes.
 
 SIN SOPORTE  debido a que es un parche muy antiguo.</description> 
-							<image path="Main Files\Extra\Aloot Home Plate.jpg" /> 
+							<image path="Images\Aloot Home Plate.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Extra\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
+								<file source="Main Files\Spanish\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -363,9 +363,9 @@ SIN SOPORTE  debido a que es un parche muy antiguo.</description>
 						<plugin name="PRP - WIPAG and ECO Patch"> 
 							<description>Parche de compatibilidad para  WIPAG y ECO. Reemplaza el parche de CraftingFramework para WIPAG.
 Subido aquí temporalmente hasta que Worsin se de cuenta de su existencia y lo añada a WIPAG.</description> 
-							<image path="Main Files\Extra\WIPAG.jpg" /> 
+							<image path="Images\WIPAG.jpg" /> 
 							<files> 
-								<file source="Main Files\Spanish\Extra\WIPAG_ECO_Patch.esp" destination="WIPAG_ECO_Patch.esp" priority="0" /> 
+								<file source="Main Files\Spanish\WIPAG_ECO_Patch.esp" destination="WIPAG_ECO_Patch.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -380,38 +380,38 @@ Subido aquí temporalmente hasta que Worsin se de cuenta de su existencia y lo a
 		<patterns> 
 			<pattern> 
 				<dependencies operator="And"> 
-					<flagDependency flag="PPF Selected" value="On"/> 
+					<flagDependency flag="PPF Selected English" value="On"/> 
 				</dependencies> 
 				<files> 
-					<file source="Main Files\Pack Fixes\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF.esm" destination="PPF.esm" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\English\PPF.esm" destination="PPF.esm" priority="0" /> 
 				</files> 
 			</pattern> 
 			<pattern> 
 				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected" value="On"/> 
+					<flagDependency flag="PRP Selected English" value="On"/> 
 				</dependencies> 
 				<files> 
-					<file source="Main Files\Repair Pack\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF.esm" destination="PPF.esm" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
+					<file source="Main Files\Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
+					<file source="Main Files\English\PRP.esp" destination="PRP.esp" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\English\PPF.esm" destination="PPF.esm" priority="0" /> 
 				</files> 
 			</pattern> 
 			<pattern> 
 				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected" value="On"/> 
-					<flagDependency flag="PPF Selected" value="On"/> 
+					<flagDependency flag="PRP Selected English" value="On"/> 
+					<flagDependency flag="PPF Selected English" value="On"/> 
 				</dependencies> 
 				<files> 
-					<file source="Main Files\Repair Pack\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF.esm" destination="PPF.esm" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
+					<file source="Main Files\Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
+					<file source="Main Files\English\PRP.esp" destination="PRP.esp" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\English\PPF.esm" destination="PPF.esm" priority="0" /> 
 				</files> 
 			</pattern> 
 			<pattern> 
@@ -419,8 +419,8 @@ Subido aquí temporalmente hasta que Worsin se de cuenta de su existencia y lo a
 					<flagDependency flag="PPF Selected Spanish" value="On"/> 
 				</dependencies> 
 				<files> 
-					<file source="Main Files\Pack Fixes\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="Main Files\Spanish\Pack Fixes\PPF.esm" destination="PPF.esm" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
 				</files> 
 			</pattern> 
 			<pattern> 
@@ -428,12 +428,12 @@ Subido aquí temporalmente hasta que Worsin se de cuenta de su existencia y lo a
 					<flagDependency flag="PRP Selected Spanish" value="On"/> 
 				</dependencies> 
 				<files> 
-					<file source="Main Files\Repair Pack\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="Main Files\Spanish\Repair Pack\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="Main Files\Spanish\Pack Fixes\PPF.esm" destination="PPF.esm" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
+					<file source="Main Files\Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
+					<file source="Main Files\Spanish\PRP.esp" destination="PRP.esp" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
 				</files> 
 			</pattern> 
 			<pattern> 
@@ -442,12 +442,12 @@ Subido aquí temporalmente hasta que Worsin se de cuenta de su existencia y lo a
 					<flagDependency flag="PPF Selected Spanish" value="On"/> 
 				</dependencies> 
 				<files> 
-					<file source="Main Files\Repair Pack\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="Main Files\Repair Pack\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="Main Files\Spanish\Repair Pack\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="Main Files\Pack Fixes\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="Main Files\Spanish\Pack Fixes\PPF.esm" destination="PPF.esm" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
+					<file source="Main Files\Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
+					<file source="Main Files\Spanish\PRP.esp" destination="PRP.esp" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
 				</files> 
 			</pattern> 
 		</patterns> 

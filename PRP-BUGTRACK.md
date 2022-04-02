@@ -14,6 +14,7 @@ Deduplication tracker remaining:
 
 Current known issues:
 
+- \[U32372\] (-25, -1, CW): As reported by The Illusion in discord, a crack in the landscape closest to 0100C087 lets one see the ocean. Punted to UF4OP, I don't have a good quick fix for it.
 - \[PRP\] 030251C6 collision needs redone
 - \[PRP\] 1F57A3 previs issue
 - ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
@@ -68,6 +69,7 @@ Pending
 
 0.59
 
+- \[PRP\] (6, 13, FH): Reported visibility break in the area, fix pending.
 - \[U32369\] (0, 9, NW): Move 06047DB1 AND 0604D493 so that they aren't floating. Upstreamable.
 - \[PRP\] (Financial28): Slightly shift 13C9A8 to make umbra happy. This desk was previously moved by UF4OP. Reminder to self to upstream if confirmed working.
 - \[PRP\] (DmndSecurity01): Prune new records that were taken in from one of the bugfixes that aren't needed with our work. 0800002B to 0800002E
