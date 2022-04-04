@@ -69,6 +69,7 @@ Pending
 
 0.59
 
+- \[U32372\] (-24, -1, CW): Add a brand new pallet to cover up a nasty looking landscape crack at 1.5x size. PRP ID 0800002B (Please note, records were compacted, and new records listed before this point are probably wrong.)
 - \[PRP\] (6, 13, FH): Reported visibility break in the area, fix pending.
 - \[U32369\] (0, 9, NW): Move 06047DB1 AND 0604D493 so that they aren't floating. Upstreamable.
 - \[PRP\] (Financial28): Slightly shift 13C9A8 to make umbra happy. This desk was previously moved by UF4OP. Reminder to self to upstream if confirmed working.
