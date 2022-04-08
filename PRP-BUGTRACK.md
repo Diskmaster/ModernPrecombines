@@ -14,7 +14,7 @@ Deduplication tracker remaining:
 
 Current known issues:
 
-- \[U32372\] (-25, -1, CW): As reported by The Illusion in discord, a crack in the landscape closest to 0100C087 lets one see the ocean. Punted to UF4OP, I don't have a good quick fix for it.
+- \[PRP\] Nearest 238d30, chair flickering as reported in comments.
 - \[PRP\] 030251C6 collision needs redone
 - \[PRP\] 1F57A3 previs issue
 - ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
