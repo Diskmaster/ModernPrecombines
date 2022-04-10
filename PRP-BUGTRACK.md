@@ -12,6 +12,13 @@ Deduplication tracker remaining:
 - DLC05Workshop03 \[ Completed \]
 - DLC06NukaWorld \[ 536 of 977 \]
 
+Current planned changes:
+
+- New records in areas previously added from Glitch's Fixes need checked out.
+- Vault75 as of 0.59 needs double checked for confirmation of the true previs hole fix.
+- More commonwealth deduplication (exteriors)
+- A shrubbery.
+
 Current known issues:
 
 - \[PRP\] Nearest 238d30, chair flickering as reported in comments.
