@@ -180,16 +180,6 @@ UNSUPPORTED due to patch age.</description>
 								<type name="Optional"/> 
 							</typeDescriptor> 
 						</plugin> 
-						<plugin name="PRP - WIPAG and ECO Patch"> 
-							<description>Compatibility replacement for WIPAG and ECO. Replaces CraftingFramework patch against WIPAG. Temporarily uploaded here until Worsin's aware of it's existence and addition to WIPAG</description> 
-							<image path="Images\WIPAG.jpg" /> 
-							<files> 
-								<file source="Main Files\English\WIPAG_ECO_Patch.esp" destination="WIPAG_ECO_Patch.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
 					</plugins> 
 				</group> 
 			</optionalFileGroups> 
@@ -355,17 +345,6 @@ SIN SOPORTE  debido a que es un parche muy antiguo.</description>
 							<image path="Images\Aloot Home Plate.jpg" /> 
 							<files> 
 								<file source="Main Files\Spanish\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - WIPAG and ECO Patch"> 
-							<description>Parche de compatibilidad para  WIPAG y ECO. Reemplaza el parche de CraftingFramework para WIPAG.
-Subido aquí temporalmente hasta que Worsin se de cuenta de su existencia y lo añada a WIPAG.</description> 
-							<image path="Images\WIPAG.jpg" /> 
-							<files> 
-								<file source="Main Files\Spanish\WIPAG_ECO_Patch.esp" destination="WIPAG_ECO_Patch.esp" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
