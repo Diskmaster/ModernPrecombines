@@ -25,6 +25,15 @@
 								<type name="Optional"/> 
 							</typeDescriptor> 
 						</plugin> 
+						<plugin name="Italiano"> 
+							<description></description> 
+							<conditionFlags> 
+								<flag name="Italian">On</flag> 
+							</conditionFlags> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
 					</plugins> 
 				</group> 
 			</optionalFileGroups> 
@@ -345,6 +354,154 @@ SIN SOPORTE  debido a que es un parche muy antiguo.</description>
 							<image path="Images\Aloot Home Plate.jpg" /> 
 							<files> 
 								<file source="Main Files\Spanish\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Archivi Principali + Compat Grabbag"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Archivi Principali" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="PPF"> 
+							<description>Plugin principale che include tutte le correzioni. Necessario per una normale operazione.</description> 
+							<image path="Images\PRP.jpg" /> 
+							<conditionFlags> 
+								<flag name="PPF Selected Italian">On</flag> 
+							</conditionFlags> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP"> 
+							<description>Pacchetto di Previsibines generate da PPF. Necessario per una normale operazione in vanilla.</description> 
+							<image path="Images\PRP.jpg" /> 
+							<conditionFlags> 
+								<flag name="PRP Selected Italian">On</flag> 
+							</conditionFlags> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+				<group name="Compat Grabbag" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="PRP - Clarity 4.2 Patch"> 
+							<description>Patch per Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description> 
+							<image path="Images\Clarity.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Clarity 4.3 Patch"> 
+							<description>Patch per Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description> 
+							<image path="Images\Clarity.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Diamond City Ambience Patch"> 
+							<description>Patch per Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description> 
+							<image path="Images\Diamond City Ambience.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Fogout Patch"> 
+							<description>Patch per Fogout https://www.nexusmods.com/fallout4/mods/2428</description> 
+							<image path="Images\Fogout.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Interiors Enhanced Patch"> 
+							<description>Patch per Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description> 
+							<image path="Images\Interiors Enhanced.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Region Names Patch"> 
+							<description>Patch per See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description> 
+							<image path="Images\Region Names.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Ultra Exterior Lighting Patch"> 
+							<description>Patch per Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description> 
+							<image path="Images\Ultra Exterior Lighting.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Ultra Interior Lighting Patch"> 
+							<description>Patch per Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description> 
+							<image path="Images\Ultra Interior Lighting.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)"> 
+							<description>Patch per Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description> 
+							<image path="Images\Ultra Interior Lighting.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Extra"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Extra" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="PRP - Aloot's Home Plate Upgrade"> 
+							<description>Upgrade per https://www.nexusmods.com/fallout4/mods/44101, richiede la mod originale per l'archivio di textures. Sostituisci tutti gli altri file.
+
+NON SUPPORTATO perché vecchio.</description> 
+							<image path="Images\Aloot Home Plate.jpg" /> 
+							<files> 
+								<file source="Main Files\Italian\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
+								<file source="Main Files\Universal\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
@@ -427,6 +584,42 @@ SIN SOPORTE  debido a que es un parche muy antiguo.</description>
 					<file source="Main Files\Spanish\PRP.esp" destination="PRP.esp" priority="0" /> 
 					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
 					<file source="Main Files\Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
+				</files> 
+			</pattern> 
+			<pattern> 
+				<dependencies operator="And"> 
+					<flagDependency flag="PPF Selected Italian" value="On"/> 
+				</dependencies> 
+				<files> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\Italian\PPF.esm" destination="PPF.esm" priority="0" /> 
+				</files> 
+			</pattern> 
+			<pattern> 
+				<dependencies operator="And"> 
+					<flagDependency flag="PRP Selected Italian" value="On"/> 
+				</dependencies> 
+				<files> 
+					<file source="Main Files\Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
+					<file source="Main Files\Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
+					<file source="Main Files\Italian\PRP.esp" destination="PRP.esp" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\Italian\PPF.esm" destination="PPF.esm" priority="0" /> 
+				</files> 
+			</pattern> 
+			<pattern> 
+				<dependencies operator="And"> 
+					<flagDependency flag="PRP Selected Italian" value="On"/> 
+					<flagDependency flag="PPF Selected Italian" value="On"/> 
+				</dependencies> 
+				<files> 
+					<file source="Main Files\Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
+					<file source="Main Files\Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
+					<file source="Main Files\Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
+					<file source="Main Files\Italian\PRP.esp" destination="PRP.esp" priority="0" /> 
+					<file source="Main Files\Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
+					<file source="Main Files\Italian\PRP.esp" destination="PRP.esp" priority="0" /> 
 				</files> 
 			</pattern> 
 		</patterns> 
