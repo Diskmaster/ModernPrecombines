@@ -32,12 +32,6 @@
       <Dest>Vault 75</Dest>
     </String>
     <String List="0">
-      <EDID>UniversityPoint01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>University Point: Sedgwick Hall</Source>
-      <Dest>University Point: Sala di Sedgwick</Dest>
-    </String>
-    <String List="0">
       <EDID>Vault95</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 95</Source>

@@ -146,12 +146,6 @@
       <Dest>Bridgeway Trust</Dest>
     </String>
     <String List="0">
-      <EDID>UniversityPoint01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>University Point: Sala Sedgwick</Source>
-      <Dest>University Point: Sala di Sedgwick</Dest>
-    </String>
-    <String List="0">
       <EDID>HalluciGen01</EDID>
       <REC>CELL:FULL</REC>
       <Source>HalluciGen, Inc.</Source>
