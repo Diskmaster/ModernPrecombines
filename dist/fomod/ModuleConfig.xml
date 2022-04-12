@@ -7,7 +7,7 @@
 			<optionalFileGroups order="Explicit"> 
 				<group name="Languages" type="SelectExactlyOne"> 
 					<plugins order="Explicit"> 
-						<plugin name="English"> 
+						<plugin name="EN - English"> 
 							<description></description> 
 							<conditionFlags> 
 								<flag name="English">On</flag> 
@@ -16,7 +16,7 @@
 								<type name="Optional"/> 
 							</typeDescriptor> 
 						</plugin> 
-						<plugin name="Español"> 
+						<plugin name="ES - Español"> 
 							<description></description> 
 							<conditionFlags> 
 								<flag name="Spanish">On</flag> 
@@ -25,7 +25,7 @@
 								<type name="Optional"/> 
 							</typeDescriptor> 
 						</plugin> 
-						<plugin name="Italiano"> 
+						<plugin name="IT - Italiano"> 
 							<description></description> 
 							<conditionFlags> 
 								<flag name="Italian">On</flag> 
