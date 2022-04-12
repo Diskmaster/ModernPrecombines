@@ -2,4 +2,6 @@ Storage repository for the ~~Precombines~~ Previsibines Command Line manual. For
 
 [Command Line Manual](https://diskmaster.github.io/ModernPrecombines/MANUAL)
 
+[PRP Patching Manual](https://diskmaster.github.io/ModernPrecombines/Creating_PRP_patches_for_other_mods)
+
 [Previs Repair Pack Bugtracker](https://diskmaster.github.io/ModernPrecombines/PRP-BUGTRACK)
