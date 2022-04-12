@@ -4,7 +4,6 @@
 *.ba2
 *.csg
 *.cdx
-/dist-patch/Main Files/Pack Fixes/PPF.esm
-/dist/Main Files/Pack Fixes/PPF.esm
 /dist/Main Files/English
 /dist/Main Files/Spanish
+/dist/Main Files/Italian
