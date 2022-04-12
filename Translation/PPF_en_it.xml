@@ -8,18 +8,6 @@
   </Params>
   <Content>
     <String List="0">
-      <EDID>DLC04ZooCageWallTallDoorSingle01</EDID>
-      <REC>DOOR:FULL</REC>
-      <Source>Cage Door</Source>
-      <Dest>Porta della gabbia</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VimPopFactory01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vim! Corporate Headquarters</Source>
-      <Dest>Uffici amministrativi Vim!</Dest>
-    </String>
-    <String List="0">
       <EDID>LaytonTowers01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Layton Towers</Source>
@@ -32,64 +20,10 @@
       <Dest>Vault 118</Dest>
     </String>
     <String List="0">
-      <EDID>DLC01FortHagenSatelliteArray01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fort Hagen Hangar</Source>
-      <Dest>Hangar di Fort Hagen</Dest>
-    </String>
-    <String List="0">
-      <EDID>FensStreetSewer01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fens Street Sewer</Source>
-      <Dest>Fogne di Fens Street</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04NukaWorldPowerPlant01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nuka-World Power Plant</Source>
-      <Dest>Centrale elettrica di Nuka-World</Dest>
-    </String>
-    <String List="0">
-      <EDID>BostonPublicLibrary02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Boston Public Library</Source>
-      <Dest>Biblioteca pubblica di Boston</Dest>
-    </String>
-    <String List="0">
-      <EDID>Vault114</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Park Street Station</Source>
-      <Dest>Stazione di Park Street</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndSecurity01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Security Office</Source>
-      <Dest>Ufficio della sicurezza</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborBobbisPlace</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Bobbi&apos;s Place</Source>
-      <Dest>Abitazione di Bobbi</Dest>
-    </String>
-    <String List="0">
-      <EDID>zVitalePumphouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pumphouse</Source>
-      <Dest>Stazione di pompaggio</Dest>
-    </String>
-    <String List="0">
       <EDID>MedfordMemorial01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Medford Memorial Hospital</Source>
       <Dest>Medford Memorial Hospital</Dest>
-    </String>
-    <String List="0">
-      <EDID>USSConstitution01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>U.S.S. Constitution</Source>
-      <Dest>U.S.S. Constitution</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
@@ -98,40 +32,10 @@
       <Dest>Vault 75</Dest>
     </String>
     <String List="0">
-      <EDID>GwinnettBrewery02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Gwinnett Main Brewery</Source>
-      <Dest>Birrificio principale Gwinnett</Dest>
-    </String>
-    <String List="0">
       <EDID>UniversityPoint01</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Point: Sedgwick Hall</Source>
-      <Dest>University Point: Sedgwick Hall</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeCollegeAdminBuilding</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>College Admin Building</Source>
-      <Dest>Edifico amministrativo del college</Dest>
-    </String>
-    <String List="0">
-      <EDID>QASmoke</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Tunnels</Source>
-      <Dest>Gallerie</Dest>
-    </String>
-    <String List="0">
-      <EDID>CorvegaAssemblyPlant01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Corvega Assembly Plant</Source>
-      <Dest>Impianto di assemblaggio Corvega</Dest>
-    </String>
-    <String List="0">
-      <EDID>IrishPrideShipyard01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Cantiere navale delle Irish Pride Industries</Dest>
+      <Dest>University Point: Sala di Sedgwick</Dest>
     </String>
     <String List="0">
       <EDID>Vault95</EDID>
@@ -140,58 +44,10 @@
       <Dest>Vault 95</Dest>
     </String>
     <String List="0">
-      <EDID>GeneralAtomicsFactory01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>General Atomics Factory</Source>
-      <Dest>Fabbrica General Atomics</Dest>
-    </String>
-    <String List="0">
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
       <Dest>Med-Tek Research</Dest>
-    </String>
-    <String List="0">
-      <EDID>USAFSatellite01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>USAF Satellite Station Olivia</Source>
-      <Dest>Stazione satellitare USAF Olivia</Dest>
-    </String>
-    <String List="0">
-      <EDID>NHMFreightDepot01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Strongroom</Source>
-      <Dest>Camera blindata</Dest>
-    </String>
-    <String List="0">
-      <EDID>FallonsDepartmentStore01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fallon&apos;s Department Store</Source>
-      <Dest>Emporio di Fallon</Dest>
-    </String>
-    <String List="0">
-      <EDID>PoseidonReservoir01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Poseidon Reservoir</Source>
-      <Dest>Cisterna della Poseidon</Dest>
-    </String>
-    <String List="0">
-      <EDID>MassPikeTunnel01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Pike Tunnel</Source>
-      <Dest>Galleria Mass Pike</Dest>
-    </String>
-    <String List="0">
-      <EDID>VaultTecOffice01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault-Tec Regional HQ</Source>
-      <Dest>Centro di zona Vault-Tec</Dest>
-    </String>
-    <String List="0">
-      <EDID>DBTechHighSchool01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>D.B. Technical High School</Source>
-      <Dest>Istituto tecnico D.B.</Dest>
     </String>
     <String List="0">
       <EDID>DLC06VaultWorkshop</EDID>
@@ -228,12 +84,6 @@
       <REC>WRLD:FULL</REC>
       <Source>Sanctuary Hills</Source>
       <Dest>Sanctuary Hills</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03FarHarbor</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>The Island</Source>
-      <Dest>L&apos;Isola</Dest>
     </String>
     <String List="0">
       <EDID>NukaWorld</EDID>
