@@ -8,12 +8,6 @@
   </Params>
   <Content>
     <String List="0">
-      <EDID>CroupManor01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Croup Manor Basement</Source>
-      <Dest>Scantinato della Tenuta Croup</Dest>
-    </String>
-    <String List="0">
       <EDID>PrewarVault111</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
@@ -26,40 +20,10 @@
       <Dest>Red Rocket</Dest>
     </String>
     <String List="0">
-      <EDID>MaldenDrainage01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Malden Drainage</Source>
-      <Dest>Bonifica Malden</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03NorthwoodRidgeQuarry01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Northwood Ridge Quarry</Source>
-      <Dest>Cava di Northwood</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04BottlingPlant01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The World of Refreshment</Source>
-      <Dest>Il Mondo del Ristoro</Dest>
-    </String>
-    <String List="0">
       <EDID>CambridgeMassChemical01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Chemical</Source>
       <Dest>Mass Chemical</Dest>
-    </String>
-    <String List="0">
-      <EDID>Switchboard</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Switchboard</Source>
-      <Dest>La Centralina</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VimPopFactory01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vim! Corporate Headquarters</Source>
-      <Dest>Uffici amministrativi Vim!</Dest>
     </String>
     <String List="0">
       <EDID>Financial24</EDID>
@@ -68,124 +32,10 @@
       <Dest>Joe&apos;s Spuckies</Dest>
     </String>
     <String List="0">
-      <EDID>CharlestownHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Abandoned House</Source>
-      <Dest>Abitazione abbandonata</Dest>
-    </String>
-    <String List="0">
-      <EDID>BeaconHillApartments</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Apartments</Source>
-      <Dest>Appartamenti</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborWarehouse02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Warehouse</Source>
-      <Dest>Magazzino</Dest>
-    </String>
-    <String List="0">
-      <EDID>GraygardenHomestead01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Graygarden Homestead</Source>
-      <Dest>Tenuta Graygarden</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndStandsKellogg01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Kellogg&apos;s House</Source>
-      <Dest>Casa di Kellogg</Dest>
-    </String>
-    <String List="0">
-      <EDID>BADTFL01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>BADTFL Regional Office</Source>
-      <Dest>Ufficio regionale BADTFL</Dest>
-    </String>
-    <String List="0">
-      <EDID>BeantownBrewery01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Beantown Brewery</Source>
-      <Dest>Birrificio Beantown</Dest>
-    </String>
-    <String List="0">
-      <EDID>MassStateHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Massachusetts State House</Source>
-      <Dest>Ufficio governativo del Massachusetts</Dest>
-    </String>
-    <String List="0">
-      <EDID>ConcordFactory</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Workhouse</Source>
-      <Dest>Casa del lavoro</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndSurgeryCellar01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Surgery Cellar</Source>
-      <Dest>Sotterraneo del centro chirurgico</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndSchoolhouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Schoolhouse</Source>
-      <Dest>Scuola</Dest>
-    </String>
-    <String List="0">
-      <EDID>ConcordSpeakeasy</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Concord Speakeasy</Source>
-      <Dest>Spaccio di Concord</Dest>
-    </String>
-    <String List="0">
-      <EDID>BostonPublicLibrary01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Copley Station</Source>
-      <Dest>Stazione di Copley</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt15A</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Operations</Source>
-      <Dest>Operazioni</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04KiddieKingdomZ01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>King Cola&apos;s Castle Tower</Source>
-      <Dest>Torre del castello di King Cola</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04NWJunkyardUFO01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Ultimate UFO</Source>
-      <Dest>Super UFO</Dest>
-    </String>
-    <String List="0">
-      <EDID>ShawHighSchool01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Shaw High School</Source>
-      <Dest>Scuola superiore Shaw</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03NucleusCommandCenter01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nucleus Command Center</Source>
-      <Dest>Centro di comando del Nucleus</Dest>
-    </String>
-    <String List="0">
       <EDID>LaytonTowers01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Layton Towers</Source>
       <Dest>Layton Towers</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC01Lair01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Mechanist&apos;s Lair</Source>
-      <Dest>Rifugio del Meccanista</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Nukacade01</EDID>
@@ -194,22 +44,10 @@
       <Dest>Nuka-Cade</Dest>
     </String>
     <String List="0">
-      <EDID>MassFusion02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Fusion Main Reactor</Source>
-      <Dest>Reattore principale della Mass Fusion</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC03Vault118</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 118</Source>
       <Dest>Vault 118</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03PineCrestCavern01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pine Crest Cavern</Source>
-      <Dest>Caverna di Pine Crest</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborHotelRexford</EDID>
@@ -218,94 +56,10 @@
       <Dest>Hotel Rexford</Dest>
     </String>
     <String List="0">
-      <EDID>ParsonsState01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Parsons State Administration</Source>
-      <Dest>Amministrazione del Parsons</Dest>
-    </String>
-    <String List="0">
-      <EDID>Financial13</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Weatherby Investment Trust</Source>
-      <Dest>Investimenti Weatherby</Dest>
-    </String>
-    <String List="0">
-      <EDID>CharlestownDrugDen</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Drug Den</Source>
-      <Dest>Covo di spacciatori</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC01FortHagenSatelliteArray01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fort Hagen Hangar</Source>
-      <Dest>Hangar di Fort Hagen</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborWarehouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Warehouse</Source>
-      <Dest>Magazzino</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteConcourse</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Institute</Source>
-      <Dest>L&apos;Istituto</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndValentines01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Valentine Detective Agency</Source>
-      <Dest>Agenzia investigativa Valentine</Dest>
-    </String>
-    <String List="0">
-      <EDID>CollegeSquare01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>College Square Station</Source>
-      <Dest>Stazione di College Square</Dest>
-    </String>
-    <String List="0">
       <EDID>DmndStandsTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial Taphouse</Source>
       <Dest>Colonial Taphouse</Dest>
-    </String>
-    <String List="0">
-      <EDID>FensStreetSewer01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fens Street Sewer</Source>
-      <Dest>Fogne di Fens Street</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgePlumbing01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Plumber&apos;s Secret</Source>
-      <Dest>Segreto dell&apos;idraulico</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndAllFaithsChapel01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>All Faiths Chapel</Source>
-      <Dest>Tempio di Tutte le Fedi</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborWarehouse03</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Warehouse</Source>
-      <Dest>Magazzino</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04NukaWorldPowerPlant01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nuka-World Power Plant</Source>
-      <Dest>Centrale elettrica di Nuka-World</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04WWMineCart01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mad Mulligan&apos;s Mine</Source>
-      <Dest>Miniera di Mad Mulligan</Dest>
     </String>
     <String List="0">
       <EDID>DmndPublick01</EDID>
@@ -314,64 +68,10 @@
       <Dest>Publick Occurrences</Dest>
     </String>
     <String List="0">
-      <EDID>ConcordCivicAccess01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Concord Civic Access</Source>
-      <Dest>Accesso civico di Concord</Dest>
-    </String>
-    <String List="0">
-      <EDID>PickmanGallery01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pickman Gallery</Source>
-      <Dest>Galleria Pickman</Dest>
-    </String>
-    <String List="0">
-      <EDID>DanversHideout</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Hideout</Source>
-      <Dest>Nascondiglio</Dest>
-    </String>
-    <String List="0">
-      <EDID>PrewarTVStudio</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Colonial&apos;s Department Store</Source>
-      <Dest>Emporio coloniale</Dest>
-    </String>
-    <String List="0">
       <EDID>SaugusIronworks01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Saugus Ironworks</Source>
       <Dest>Saugus Ironworks</Dest>
-    </String>
-    <String List="0">
-      <EDID>NorthEndValentiStation</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Subway Station</Source>
-      <Dest>Stazione della metropolitana</Dest>
-    </String>
-    <String List="0">
-      <EDID>BostonPublicLibrary02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Boston Public Library</Source>
-      <Dest>Biblioteca pubblica di Boston</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt06</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Basement</Source>
-      <Dest>Scantinato</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04BradbertonsOffice01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Bradberton&apos;s Office</Source>
-      <Dest>Ufficio di Bradberton</Dest>
-    </String>
-    <String List="0">
-      <EDID>FortStrong01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fort Strong Armory</Source>
-      <Dest>Armeria di Fort Strong</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt01</EDID>
@@ -386,46 +86,10 @@
       <Dest>ArcJet Systems</Dest>
     </String>
     <String List="0">
-      <EDID>DLC03FarHarborLastPlank</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Last Plank</Source>
-      <Dest>L&apos;Ultima Spiaggia</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03EagleCoveTannery01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Eagle&apos;s Cove Tannery</Source>
-      <Dest>Conceria di Eagle&apos;s Cove</Dest>
-    </String>
-    <String List="0">
-      <EDID>Vault114</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Park Street Station</Source>
-      <Dest>Stazione di Park Street</Dest>
-    </String>
-    <String List="0">
-      <EDID>FourLeafFishpacking02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Marowski&apos;s Chem Lab</Source>
-      <Dest>Laboratorio chimico di Marowski</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03KitteredgePass01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Kitteredge Pass</Source>
-      <Dest>Passo di Kitteredge</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC03BeaverCreekLanes01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Beaver Creek Lanes</Source>
       <Dest>Beaver Creek Lanes</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03KyeBunker01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vim! Basement</Source>
-      <Dest>Seminterrato Vim!</Dest>
     </String>
     <String List="0">
       <EDID>DLC04WarehouseAmbush</EDID>
@@ -434,88 +98,22 @@
       <Dest>Ambush Warehouse Cell</Dest>
     </String>
     <String List="0">
-      <EDID>RevereBeachStation01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Revere Beach Station</Source>
-      <Dest>Stazione balneare Revere</Dest>
-    </String>
-    <String List="0">
       <EDID>Financial06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Corner Bookstore</Source>
       <Dest>Old Corner Bookstore</Dest>
     </String>
     <String List="0">
-      <EDID>DLC04HubPackLair</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nuka-Town Backstage</Source>
-      <Dest>Backstage di Nuka-Town</Dest>
-    </String>
-    <String List="0">
-      <EDID>TheBigDig01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Dig</Source>
-      <Dest>Lo scavo</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndJohnsHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>John and Cathy&apos;s House</Source>
-      <Dest>Casa di John e Cathy</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborTheThirdRail</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Third Rail</Source>
-      <Dest>Il Terzo Binario</Dest>
-    </String>
-    <String List="0">
       <EDID>SuperDuperMart01</EDID>
       <REC>CELL:FULL</REC>
-      <Source>Super-Duper Mart</Source>
+      <Source>Super Duper Mart</Source>
       <Dest>Super Duper Mart</Dest>
-    </String>
-    <String List="0">
-      <EDID>NationalGuardTrainingYard01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>National Guard Recruitment Office</Source>
-      <Dest>Ufficio di reclutamento della Guardia Nazionale</Dest>
-    </String>
-    <String List="0">
-      <EDID>SouthBoston35</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Factory</Source>
-      <Dest>Fabbrica</Dest>
     </String>
     <String List="0">
       <EDID>SentinelSite01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sentinel Site Prescott</Source>
       <Dest>Sentinel Site Prescott</Dest>
-    </String>
-    <String List="0">
-      <EDID>BackBayTallOffice01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Dartmouth Professional Building</Source>
-      <Dest>Edificio Dartmouth</Dest>
-    </String>
-    <String List="0">
-      <EDID>zUnusedFalloutShelter02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Shelter</Source>
-      <Dest>Rifugio</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndChoiceChops01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Polly&apos;s House</Source>
-      <Dest>Casa di Polly</Dest>
-    </String>
-    <String List="0">
-      <EDID>FederalRationStockpile01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Federal Ration Stockpile</Source>
-      <Dest>Riserve alimentari federali</Dest>
     </String>
     <String List="0">
       <EDID>FaneuilHall01</EDID>
@@ -542,52 +140,10 @@
       <Dest>Bunker</Dest>
     </String>
     <String List="0">
-      <EDID>DmndSecurity01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Security Office</Source>
-      <Dest>Ufficio della sicurezza</Dest>
-    </String>
-    <String List="0">
-      <EDID>EastBostonPrep01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>East Boston Preparatory School</Source>
-      <Dest>Scuola elementare di East Boston</Dest>
-    </String>
-    <String List="0">
-      <EDID>PrydwenHull01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Prydwen Main Deck</Source>
-      <Dest>Ponte principale del Prydwen</Dest>
-    </String>
-    <String List="0">
       <EDID>zUnusedTheaterLaundromat</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
       <Dest>Quick Test Cell</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04GZVaultTec01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vault-Tec: Tra le stelle</Dest>
-    </String>
-    <String List="0">
-      <EDID>TheCastle01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Castle Tunnels</Source>
-      <Dest>Gallerie del Castello</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt14</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Reactor Level</Source>
-      <Dest>Livello reattore</Dest>
-    </String>
-    <String List="0">
-      <EDID>ArcjetSystems02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>ArcJet Engine Core</Source>
-      <Dest>Nucleo motore ArcJet</Dest>
     </String>
     <String List="0">
       <EDID>Wattz01</EDID>
@@ -596,64 +152,10 @@
       <Dest>Wattz Electronics</Dest>
     </String>
     <String List="0">
-      <EDID>MQ203KelloggsBrain</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Memories</Source>
-      <Dest>Ricordi</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04SafariBearCave</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Bear Cave</Source>
-      <Dest>Caverna degli orsi</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborBobbisPlace</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Bobbi&apos;s Place</Source>
-      <Dest>Abitazione di Bobbi</Dest>
-    </String>
-    <String List="0">
-      <EDID>FraternalPost11501</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fraternal Post 115</Source>
-      <Dest>Avamposto confraternita 115</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteCave</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Institute Sublevel 21-D</Source>
-      <Dest>Istituto - Sottolivello 21-D</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC03FringeCoveDocks01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
       <Dest>Quick Test Cell</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04TransitCenter01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nuka-World Transit Center</Source>
-      <Dest>Centro di transito di Nuka-World</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04HubCappysCafe01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cappy&apos;s Cafe</Source>
-      <Dest>Cappy&apos;s Cafè</Dest>
-    </String>
-    <String List="0">
-      <EDID>PrydwenHull03</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Prydwen Quarters</Source>
-      <Dest>Stanze del Prydwen</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndFallons01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fallon&apos;s Basement</Source>
-      <Dest>Scantinato di Fallon</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeKendallHospital01</EDID>
@@ -662,34 +164,10 @@
       <Dest>Kendall Hospital</Dest>
     </String>
     <String List="0">
-      <EDID>RailroadHQEscapeTunnel</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Railroad HQ Escape Tunnel</Source>
-      <Dest>Galleria di fuga del quartier generale dei Railroad</Dest>
-    </String>
-    <String List="0">
-      <EDID>BigJohnsSalvage01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Shelter</Source>
-      <Dest>Rifugio</Dest>
-    </String>
-    <String List="0">
-      <EDID>ccTOSFO4001</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Noir Penthouse</Source>
-      <Dest>Attico noir</Dest>
-    </String>
-    <String List="0">
       <EDID>DmndDugoutInn01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dugout Inn</Source>
       <Dest>Dugout Inn</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgePD01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cambridge Police Station</Source>
-      <Dest>Stazione di polizia di Cambridge</Dest>
     </String>
     <String List="0">
       <EDID>MiltonGeneral01</EDID>
@@ -704,88 +182,16 @@
       <Dest>Nuka-Galaxy</Dest>
     </String>
     <String List="0">
-      <EDID>ConcordMuseum01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Museum of Freedom</Source>
-      <Dest>Museo della Libertà</Dest>
-    </String>
-    <String List="0">
-      <EDID>GoodneighborOldStateHouse</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Old State House</Source>
-      <Dest>Vecchio ufficio governativo</Dest>
-    </String>
-    <String List="0">
-      <EDID>REObject02Interior</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Bomb Shelter</Source>
-      <Dest>Rifugio antibomba</Dest>
-    </String>
-    <String List="0">
-      <EDID>SouthBoston19</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>High School</Source>
-      <Dest>Scuola superiore</Dest>
-    </String>
-    <String List="0">
-      <EDID>GNN01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Gunners Plaza</Source>
-      <Dest>Centro dei Gunner</Dest>
-    </String>
-    <String List="0">
       <EDID>HubrisComics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hubris Comics</Source>
       <Dest>Hubris Comics</Dest>
     </String>
     <String List="0">
-      <EDID>WaldenPond01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Gift Shop Basement</Source>
-      <Dest>Seminterrato del negozio di souvenir</Dest>
-    </String>
-    <String List="0">
       <EDID>PoseidonEnergy01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Energy</Source>
       <Dest>Poseidon Energy</Dest>
-    </String>
-    <String List="0">
-      <EDID>PoseidonEnergy02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Poseidon Energy Sublevels</Source>
-      <Dest>Sottolivelli della Poseidon Energy</Dest>
-    </String>
-    <String List="0">
-      <EDID>AndrewStation01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Andrew Station</Source>
-      <Dest>Stazione di Andrew</Dest>
-    </String>
-    <String List="0">
-      <EDID>zLexingtonGarage</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Lexington Parking Garage</Source>
-      <Dest>Parcheggio garage di Lexington</Dest>
-    </String>
-    <String List="0">
-      <EDID>zUnusedSubwayTerminalShowcase</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Terminals &amp; Holotapes, Oh My.</Source>
-      <Dest>Terminali e olonastri...</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04SafariWelcomeCenter</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Safari Adventure Welcome Center</Source>
-      <Dest>Centro di benvenuto Safari Adventure</Dest>
-    </String>
-    <String List="0">
-      <EDID>zVitalePumphouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pumphouse</Source>
-      <Dest>Stazione di pompaggio</Dest>
     </String>
     <String List="0">
       <EDID>DLC03HarborGrandHotel01</EDID>
@@ -800,22 +206,10 @@
       <Dest>Fizztop Mountain</Dest>
     </String>
     <String List="0">
-      <EDID>GoodneighborTheMemoryDen</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Memory Den</Source>
-      <Dest>L&apos;Antro della memoria</Dest>
-    </String>
-    <String List="0">
       <EDID>HestersRobotics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hester&apos;s Consumer Robotics</Source>
       <Dest>Hester&apos;s Consumer Robotics</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndOutfieldShengsHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Sheng Kawolski&apos;s House</Source>
-      <Dest>Casa di Sheng Kawolski</Dest>
     </String>
     <String List="0">
       <EDID>MedfordMemorial01</EDID>
@@ -830,106 +224,16 @@
       <Dest>Mean Pastries</Dest>
     </String>
     <String List="0">
-      <EDID>DmndMoeCroninsHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Moe Cronin&apos;s House</Source>
-      <Dest>Casa di Moe Cronin</Dest>
-    </String>
-    <String List="0">
       <EDID>Vault81</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
       <Dest>Vault 81</Dest>
     </String>
     <String List="0">
-      <EDID>GNN02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Gunners Plaza Basement</Source>
-      <Dest>Seminterrato del centro dei Gunner</Dest>
-    </String>
-    <String List="0">
       <EDID>ThicketExcavations01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Thicket Excavations</Source>
       <Dest>Thicket Excavations</Dest>
-    </String>
-    <String List="0">
-      <EDID>FensParkviewApartments02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Parkview Lounge</Source>
-      <Dest>Atrio Parkview</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt04</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Shelter</Source>
-      <Dest>Rifugio</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndWarehouseA01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Warehouse</Source>
-      <Dest>Magazzino</Dest>
-    </String>
-    <String List="0">
-      <EDID>UFOCrashSite01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cave</Source>
-      <Dest>Caverna</Dest>
-    </String>
-    <String List="0">
-      <EDID>FortStrong02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fort Strong Sublevel</Source>
-      <Dest>Sottolivello di Fort Strong</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndAbbotsHouse</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Abbot&apos;s House</Source>
-      <Dest>Casa di Abbot</Dest>
-    </String>
-    <String List="0">
-      <EDID>Theater16PearwoodResidences01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pearwood Residences</Source>
-      <Dest>Residenze Pearwood</Dest>
-    </String>
-    <String List="0">
-      <EDID>Waterfront02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Warehouse</Source>
-      <Dest>Magazzino</Dest>
-    </String>
-    <String List="0">
-      <EDID>EsplanadeChurch01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Holy Mission Congregation</Source>
-      <Dest>Congregazione della missione sacra</Dest>
-    </String>
-    <String List="0">
-      <EDID>MassFusion01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Fusion Building</Source>
-      <Dest>Edificio della Mass Fusion</Dest>
-    </String>
-    <String List="0">
-      <EDID>Libertalia01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Captain&apos;s Cabin</Source>
-      <Dest>Cabina del capitano</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteAdvSystems</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Institute Advanced Systems</Source>
-      <Dest>Istituto - Sistemi avanzati</Dest>
-    </String>
-    <String List="0">
-      <EDID>Vault81Secret</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Secret Vault 81</Source>
-      <Dest>Vault 81 segreto</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePolymerLabs01</EDID>
@@ -944,24 +248,6 @@
       <Dest>Haymarket Mall</Dest>
     </String>
     <String List="0">
-      <EDID>InstituteReactor</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Institute Reactor</Source>
-      <Dest>Reattore dell&apos;Istituto</Dest>
-    </String>
-    <String List="0">
-      <EDID>SaugusIronworks02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Saugus Blast Furnace</Source>
-      <Dest>Altoforno di Saugus</Dest>
-    </String>
-    <String List="0">
-      <EDID>EsplanadeMansion01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Marlborough House</Source>
-      <Dest>Casa Marlborough</Dest>
-    </String>
-    <String List="0">
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
@@ -974,70 +260,10 @@
       <Dest>Hawthorne Estate</Dest>
     </String>
     <String List="0">
-      <EDID>InstituteTunnel01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Public Works Maintenence Area</Source>
-      <Dest>Area di manutenzione opere pubbliche</Dest>
-    </String>
-    <String List="0">
-      <EDID>GwinnettBrewery01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Gwinnett Restaurant</Source>
-      <Dest>Ristorante Gwinnett</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeDiner01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cambridge Diner</Source>
-      <Dest>Ristorante di Cambridge</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04SafariReptileHouse</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Reptile House</Source>
-      <Dest>Casa dei rettili</Dest>
-    </String>
-    <String List="0">
       <EDID>Vault11402</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 114</Source>
       <Dest>Vault 114</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04HubOperatorLair01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Parlor</Source>
-      <Dest>Salone</Dest>
-    </String>
-    <String List="0">
-      <EDID>zLexingtonApartments</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Lexington Apartments</Source>
-      <Dest>Appartamenti di Lexington</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04BottlingPlant02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Secure Beverageer Lab</Source>
-      <Dest>Laboratorio del curatore capo delle bibite</Dest>
-    </String>
-    <String List="0">
-      <EDID>SandyCovesHome01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Sandy Coves Convalescent Home</Source>
-      <Dest>Casa di riposo di Sandy Coves</Dest>
-    </String>
-    <String List="0">
-      <EDID>MahkraFishpacking01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mahkra Fishpacking</Source>
-      <Dest>Stabilimento ittico Mahkra</Dest>
-    </String>
-    <String List="0">
-      <EDID>NorthEndHoardersApartment</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Apartment</Source>
-      <Dest>Appartamento</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
@@ -1046,63 +272,15 @@
       <Dest>Vault 75</Dest>
     </String>
     <String List="0">
-      <EDID>DLC04GZTheater01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Starlight Interstellar Theater</Source>
-      <Dest>Cinema Starlight Interstellar</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndArturosHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Arturo&apos;s House</Source>
-      <Dest>Casa di Arturo</Dest>
-    </String>
-    <String List="0">
-      <EDID>FourLeafFishpacking01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Four Leaf Fishpacking Plant</Source>
-      <Dest>Stabilimento ittico Four Leaf</Dest>
-    </String>
-    <String List="0">
-      <EDID>NahantOceanSociety01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nahant Oceanological Society</Source>
-      <Dest>Società Oceanologica Nahant</Dest>
-    </String>
-    <String List="0">
-      <EDID>RailroadHQ01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Railroad HQ</Source>
-      <Dest>Quartier generale dei Railroad</Dest>
-    </String>
-    <String List="0">
-      <EDID>FensParkviewApartments01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Apartment Building</Source>
-      <Dest>Alloggi</Dest>
-    </String>
-    <String List="0">
       <EDID>TrinityChurch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Trinity Church</Source>
       <Dest>Trinity Church</Dest>
     </String>
     <String List="0">
-      <EDID>DmndWaterfrontSunsHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Doctor Sun&apos;s House</Source>
-      <Dest>Casa del Dottor Sun</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndPembrokesHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pembroke Residence</Source>
-      <Dest>Residenza Pembroke</Dest>
-    </String>
-    <String List="0">
       <EDID>BostonCommon02</EDID>
       <REC>CELL:FULL</REC>
-      <Source>The Boylston Club</Source>
+      <Source>Boylston Club</Source>
       <Dest>Boylston Club</Dest>
     </String>
     <String List="0">
@@ -1112,64 +290,10 @@
       <Dest>Custom House Tower</Dest>
     </String>
     <String List="0">
-      <EDID>InstituteSRB</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Institute SRB</Source>
-      <Dest>Istituto - URS</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt17</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Storage</Source>
-      <Dest>Deposito</Dest>
-    </String>
-    <String List="0">
-      <EDID>GlowingSeaPOIDB06Int</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Parking Garage</Source>
-      <Dest>Parcheggio</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeEastCITRaiderCamp01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Office Building</Source>
-      <Dest>Edificio degli uffici</Dest>
-    </String>
-    <String List="0">
-      <EDID>TheaterMassBayMedicalCenter02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Bay Medical Radiology</Source>
-      <Dest>Radiologia medica Mass Bay</Dest>
-    </String>
-    <String List="0">
-      <EDID>SouthBoston25</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Church</Source>
-      <Dest>Chiesa</Dest>
-    </String>
-    <String List="0">
       <EDID>GeneralAtomicsGalleria01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Back Alley Bowling</Source>
       <Dest>Back Alley Bowling</Dest>
-    </String>
-    <String List="0">
-      <EDID>zUnusedGrenades</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cellar</Source>
-      <Dest>Cantina</Dest>
-    </String>
-    <String List="0">
-      <EDID>TheaterMassBayMedicalCenter01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Bay Medical Center</Source>
-      <Dest>Centro medico Mass Bay</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03NucleusSubInterior01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Vessel</Source>
-      <Dest>Il vascello</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubFizztopGrille01</EDID>
@@ -1184,24 +308,6 @@
       <Dest>Breakheart Banks</Dest>
     </String>
     <String List="0">
-      <EDID>ShenleysOysterBar01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Shenley&apos;s Oyster Bar</Source>
-      <Dest>Shenley Oyster Bar</Dest>
-    </String>
-    <String List="0">
-      <EDID>PrydwenHull02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Prydwen Command Deck</Source>
-      <Dest>Ponte di comando del Prydwen</Dest>
-    </String>
-    <String List="0">
-      <EDID>zLexingtonPharmacy</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Lexington Pharmacy</Source>
-      <Dest>Farmacia di Lexington</Dest>
-    </String>
-    <String List="0">
       <EDID>RelayTowerInt03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bunker</Source>
@@ -1214,64 +320,10 @@
       <Dest>Back Street Apparel</Dest>
     </String>
     <String List="0">
-      <EDID>Waterfront12</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Harbormaster Hotel</Source>
-      <Dest>Hotel Harbormaster</Dest>
-    </String>
-    <String List="0">
-      <EDID>Financial28</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Ruined Skyscraper</Source>
-      <Dest>Grattacielo in rovina</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04SafariPrimateHouse</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Primate House</Source>
-      <Dest>Casa dei primati</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteOldRobotics01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Old Robotics</Source>
-      <Dest>Vecchio dipartimento di robotica</Dest>
-    </String>
-    <String List="0">
-      <EDID>zUnusedFinancial23</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Atlantic Offices</Source>
-      <Dest>Uffici Atlantic</Dest>
-    </String>
-    <String List="0">
-      <EDID>GwinnettBrewery02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Gwinnett Main Brewery</Source>
-      <Dest>Birrificio principale Gwinnett</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndStandsHawthorne01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Hawthorne Residence</Source>
-      <Dest>Residenza Hawthorne</Dest>
-    </String>
-    <String List="0">
-      <EDID>Financial14</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Commonwealth Bank</Source>
-      <Dest>Banca del Commonwealth</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndCitySurplus01New</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Myrna&apos;s House</Source>
-      <Dest>Casa di Myrna</Dest>
-    </String>
-    <String List="0">
       <EDID>ShamrockTaphouse01</EDID>
       <REC>CELL:FULL</REC>
-      <Source>The Shamrock Taphouse</Source>
-      <Dest>Shamrock Taphouse</Dest>
+      <Source>Shamrock Taphouse</Source>
+      <Dest>Taphouse di Shamrock</Dest>
     </String>
     <String List="0">
       <EDID>FensBank01</EDID>
@@ -1280,64 +332,10 @@
       <Dest>Bridgeway Trust</Dest>
     </String>
     <String List="0">
-      <EDID>FortHagen02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fort Hagen Command Center</Source>
-      <Dest>Centro di comando di Fort Hagen</Dest>
-    </String>
-    <String List="0">
-      <EDID>QuincyPD01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Quincy Police Lock up</Source>
-      <Dest>Prigione della polizia di Quincy</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndWaterfrontCrockersHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Doc Crocker&apos;s House</Source>
-      <Dest>Casa del Dottor Crocker</Dest>
-    </String>
-    <String List="0">
       <EDID>UniversityPoint01</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Point: Sedgwick Hall</Source>
       <Dest>University Point: Sedgwick Hall</Dest>
-    </String>
-    <String List="0">
-      <EDID>zInstituteRotunda</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>CIT Rotunda</Source>
-      <Dest>Rotonda del CIT</Dest>
-    </String>
-    <String List="0">
-      <EDID>WarrenTheater01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Warren Theater</Source>
-      <Dest>Teatro Warren</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteRobotics</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Institute Robotics</Source>
-      <Dest>Istituto - Robotica</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04Gauntlet01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nuka-World Access Tunnels</Source>
-      <Dest>Gallerie d&apos;accesso a Nuka-World</Dest>
-    </String>
-    <String List="0">
-      <EDID>SanctuaryRosaHouse</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Rosa Residence</Source>
-      <Dest>Residenza Rosa</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteFEVlab</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>FEV Lab</Source>
-      <Dest>Laboratorio VEF</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndSalemStreetCottage</EDID>
@@ -1352,124 +350,10 @@
       <Dest>HalluciGen, Inc.</Dest>
     </String>
     <String List="0">
-      <EDID>RedRocket01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mole Rat Den</Source>
-      <Dest>Tana dei ratti talpa</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndArturosHouse02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Arturo&apos;s House</Source>
-      <Dest>Casa di Arturo</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt12</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Military Bunker</Source>
-      <Dest>Bunker militare</Dest>
-    </String>
-    <String List="0">
-      <EDID>JamaicaPlain01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Jamaica Plain Town Hall Basement</Source>
-      <Dest>Seminterrato del municipio di Jamaica Plain</Dest>
-    </String>
-    <String List="0">
-      <EDID>ParsonsState02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Parsons State Insane Asylum</Source>
-      <Dest>Ospedale Psichiatrico Parsons</Dest>
-    </String>
-    <String List="0">
-      <EDID>zUnusedCellar02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cellar</Source>
-      <Dest>Cantina</Dest>
-    </String>
-    <String List="0">
-      <EDID>zLexingtonLaundromat</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Lexington Laundromat</Source>
-      <Dest>Lavanderia automatica di Lexington</Dest>
-    </String>
-    <String List="0">
-      <EDID>FensKenmoreStation</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Subway Station</Source>
-      <Dest>Stazione della metropolitana</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeParkingGarage01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Kendall Parking</Source>
-      <Dest>Parcheggio Kendall</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03WindFarmBuilding01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Wind Farm Maintenance</Source>
-      <Dest>Manutenzione parco eolico</Dest>
-    </String>
-    <String List="0">
       <EDID>BeaconHillBostonBugle</EDID>
       <REC>CELL:FULL</REC>
-      <Source>The Boston Bugle</Source>
+      <Source>Boston Bugle</Source>
       <Dest>Boston Bugle</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeCollegeAdminBuilding</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>College Admin Building</Source>
-      <Dest>Edifico amministrativo del college</Dest>
-    </String>
-    <String List="0">
-      <EDID>ListeningPostBravo01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Listening Post Bravo</Source>
-      <Dest>Punto d&apos;ascolto Bravo</Dest>
-    </String>
-    <String List="0">
-      <EDID>QASmoke</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Tunnels</Source>
-      <Dest>Gallerie</Dest>
-    </String>
-    <String List="0">
-      <EDID>LongneckLukowskis01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Longneck Lukowski&apos;s Cannery</Source>
-      <Dest>Conservificio Longneck Lukowski</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeScienceCenter01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Science Center Gift Shop</Source>
-      <Dest>Negozio di souvenir del centro scientifico</Dest>
-    </String>
-    <String List="0">
-      <EDID>CorvegaAssemblyPlant01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Corvega Assembly Plant</Source>
-      <Dest>Impianto di assemblaggio Corvega</Dest>
-    </String>
-    <String List="0">
-      <EDID>NationalGuardTrainingYard03</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>National Guard Armory</Source>
-      <Dest>Armeria della Guardia Nazionale</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VimPopFactory02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vim! Factory</Source>
-      <Dest>Fabbrica Vim!</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndStandsCooke01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cooke Residence</Source>
-      <Dest>Residenza Cooke</Dest>
     </String>
     <String List="0">
       <EDID>BeaconHillPub</EDID>
@@ -1484,28 +368,10 @@
       <Dest>Hub 360</Dest>
     </String>
     <String List="0">
-      <EDID>RelayTowerInt08</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Train Car</Source>
-      <Dest>Vagone</Dest>
-    </String>
-    <String List="0">
       <EDID>DmndScienceCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Science! Center</Source>
       <Dest>Science! Center</Dest>
-    </String>
-    <String List="0">
-      <EDID>IrishPrideShipyard01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Cantiere navale delle Irish Pride Industries</Dest>
-    </String>
-    <String List="0">
-      <EDID>BostonMayoralShelter01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Boston Mayoral Shelter</Source>
-      <Dest>Rifugio del sindaco di Boston</Dest>
     </String>
     <String List="0">
       <EDID>Vault95</EDID>
@@ -1514,40 +380,10 @@
       <Dest>Vault 95</Dest>
     </String>
     <String List="0">
-      <EDID>WestonWaterTreatment01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Weston Water Treatment Plant</Source>
-      <Dest>Impianto di trattamento acque Weston</Dest>
-    </String>
-    <String List="0">
-      <EDID>Theater27TickerTapeLounge</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Ticker Tape Lounge</Source>
-      <Dest>Sala del telegrafo</Dest>
-    </String>
-    <String List="0">
-      <EDID>MassFusion02Trans</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Fusion Elevator</Source>
-      <Dest>Ascensore della Mass Fusion</Dest>
-    </String>
-    <String List="0">
-      <EDID>InstituteBioScience</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Institute BioScience</Source>
-      <Dest>Istituto - Bioscienze</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC03Acadia</EDID>
       <REC>CELL:FULL</REC>
       <Source>Acadia</Source>
       <Dest>Acadia</Dest>
-    </String>
-    <String List="0">
-      <EDID>GeneralAtomicsFactory01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>General Atomics Factory</Source>
-      <Dest>Fabbrica General Atomics</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMonsignorPlaza01</EDID>
@@ -1556,52 +392,10 @@
       <Dest>Monsignor Plaza</Dest>
     </String>
     <String List="0">
-      <EDID>SouthBostonPoliceDepartment01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>South Boston Police Department</Source>
-      <Dest>Dipartimento di Polizia di South Boston</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndChoiceChops02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Meat Locker</Source>
-      <Dest>Cella per la conservazione della carne</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04KiddieKingdomTunnels01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Employee Tunnels</Source>
-      <Dest>Gallerie del personale</Dest>
-    </String>
-    <String List="0">
       <EDID>FederalSurvCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bunker</Source>
       <Dest>Bunker</Dest>
-    </String>
-    <String List="0">
-      <EDID>BostonAirportRuins01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Boston Airport Ruins</Source>
-      <Dest>Rovine dell&apos;aeroporto di Boston</Dest>
-    </String>
-    <String List="0">
-      <EDID>SanctuaryBasementJahani</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Root Cellar</Source>
-      <Dest>Dispensa interrata</Dest>
-    </String>
-    <String List="0">
-      <EDID>zWaystation</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Waystation</Source>
-      <Dest>Stazione</Dest>
-    </String>
-    <String List="0">
-      <EDID>VirgilsLab01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Virgil&apos;s Laboratory</Source>
-      <Dest>Laboratorio di Virgil</Dest>
     </String>
     <String List="0">
       <EDID>OldGulletSinkhole01</EDID>
@@ -1610,40 +404,16 @@
       <Dest>Old Gullet Sinkhole</Dest>
     </String>
     <String List="0">
-      <EDID>MedTekResearch02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Med-Tek Sub-Levels</Source>
-      <Dest>Livelli sotterranei della Med-Tek</Dest>
-    </String>
-    <String List="0">
-      <EDID>CovenantHQ01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Sewer</Source>
-      <Dest>Fogne</Dest>
-    </String>
-    <String List="0">
       <EDID>DunwichBorers01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dunwich Borers</Source>
       <Dest>Dunwich Borers</Dest>
     </String>
     <String List="0">
-      <EDID>WestEverettEstates01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Backyard Bunker</Source>
-      <Dest>Bunker sul retro</Dest>
-    </String>
-    <String List="0">
       <EDID>Vault81Entry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
       <Dest>Vault 81</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeConstructionSiteWarehouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Construction Site Warehouse</Source>
-      <Dest>Magazzino del cantiere</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GrandchesterMansion01</EDID>
@@ -1658,40 +428,10 @@
       <Dest>Vault 111</Dest>
     </String>
     <String List="0">
-      <EDID>DmndEarlsHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Earl Sterling&apos;s House</Source>
-      <Dest>Casa di Earl Sterling</Dest>
-    </String>
-    <String List="0">
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
       <Dest>Med-Tek Research</Dest>
-    </String>
-    <String List="0">
-      <EDID>USAFSatellite01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>USAF Satellite Station Olivia</Source>
-      <Dest>Stazione satellitare USAF Olivia</Dest>
-    </String>
-    <String List="0">
-      <EDID>NationalGuardTrainingYard02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>National Guard Barracks</Source>
-      <Dest>Caserma della Guardia Nazionale</Dest>
-    </String>
-    <String List="0">
-      <EDID>CombatZoneHoldingCell</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Combat Zone Holding Cell</Source>
-      <Dest>Gabbia della Combat Zone</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndStandsLatimer01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Latimer Residence</Source>
-      <Dest>Residenza Latimer</Dest>
     </String>
     <String List="0">
       <EDID>CombatZone01</EDID>
@@ -1706,64 +446,10 @@
       <Dest>Water Street Apartments</Dest>
     </String>
     <String List="0">
-      <EDID>NHMFreightDepot01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Strongroom</Source>
-      <Dest>Camera blindata</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt09</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fishing Boat Cabin</Source>
-      <Dest>Cabina barca da pesca</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndPlayerHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Home Plate</Source>
-      <Dest>Casa base</Dest>
-    </String>
-    <String List="0">
-      <EDID>FallonsDepartmentStore01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fallon&apos;s Department Store</Source>
-      <Dest>Emporio di Fallon</Dest>
-    </String>
-    <String List="0">
-      <EDID>PoseidonReservoir01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Poseidon Reservoir</Source>
-      <Dest>Cisterna della Poseidon</Dest>
-    </String>
-    <String List="0">
-      <EDID>BunkerHill01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Utility Basement</Source>
-      <Dest>Scantinato per attrezzi</Dest>
-    </String>
-    <String List="0">
-      <EDID>MassPikeTunnel01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Pike Tunnel</Source>
-      <Dest>Galleria Mass Pike</Dest>
-    </String>
-    <String List="0">
-      <EDID>NorthEndBoxingGym</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Boxing Gym</Source>
-      <Dest>Palestra di pugilato</Dest>
-    </String>
-    <String List="0">
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
       <Dest>Electrical Hobbyist&apos;s Club Cellar</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03POI40Int</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Pump Control</Source>
-      <Dest>Controllo della pompa</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
@@ -1778,40 +464,10 @@
       <Dest>Greenetech Genetics</Dest>
     </String>
     <String List="0">
-      <EDID>NahantOceanSociety02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Nahant Oceanological Research Lab</Source>
-      <Dest>Laboratorio di ricerca oceanologica Nahant</Dest>
-    </String>
-    <String List="0">
-      <EDID>AtomatoysCorporateHQ01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Wilson Atomatoys Corporate HQ</Source>
-      <Dest>Quartier generale Wilson Atomatoys</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04GZBattlezone01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>RobCo Battlezone</Source>
-      <Dest>Zona di Battaglia RobCo</Dest>
-    </String>
-    <String List="0">
       <EDID>UniversityPoint02</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Credit Union</Source>
       <Dest>University Credit Union</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04KiddieKingdomFunHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Fun House</Source>
-      <Dest>Casa stregata</Dest>
-    </String>
-    <String List="0">
-      <EDID>WestRoxburyStation01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>West Roxbury Station</Source>
-      <Dest>Stazione di West Roxbury</Dest>
     </String>
     <String List="0">
       <EDID>OldNorthChurch01</EDID>
@@ -1826,64 +482,16 @@
       <Dest>Quick Test Cell</Dest>
     </String>
     <String List="0">
-      <EDID>CambridgeChurchGraveyard01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Union&apos;s Hope Cathedral</Source>
-      <Dest>Cattedrale della Speranza</Dest>
-    </String>
-    <String List="0">
       <EDID>Yangtze01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Yangtze</Source>
       <Dest>Yangtze</Dest>
     </String>
     <String List="0">
-      <EDID>GorskiCabin01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Root Cellar</Source>
-      <Dest>Dispensa interrata</Dest>
-    </String>
-    <String List="0">
-      <EDID>WRVRBroadcastCenter01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>WRVR Broadcast Center</Source>
-      <Dest>Stazione di trasmissione WRVR</Dest>
-    </String>
-    <String List="0">
       <EDID>Financial21</EDID>
       <REC>CELL:FULL</REC>
       <Source>35 Court</Source>
       <Dest>35 Court</Dest>
-    </String>
-    <String List="0">
-      <EDID>CharlestownLaundry</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Charlestown Laundry</Source>
-      <Dest>Lavanderia di Charlestown</Dest>
-    </String>
-    <String List="0">
-      <EDID>DBTechHighSchool02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Medical Center Station</Source>
-      <Dest>Stazione del centro medico</Dest>
-    </String>
-    <String List="0">
-      <EDID>VaultTecOffice01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault-Tec Regional HQ</Source>
-      <Dest>Centro di zona Vault-Tec</Dest>
-    </String>
-    <String List="0">
-      <EDID>ParsonsState03</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Parsons State Basement</Source>
-      <Dest>Seminterrato del Parsons</Dest>
-    </String>
-    <String List="0">
-      <EDID>Vault111Start</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault 111 Main Entrance</Source>
-      <Dest>Ingresso principale Vault 111</Dest>
     </String>
     <String List="0">
       <EDID>DmndRadio01</EDID>
@@ -1898,52 +506,10 @@
       <Dest>Suffolk County Charter School</Dest>
     </String>
     <String List="0">
-      <EDID>DBTechHighSchool01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>D.B. Technical High School</Source>
-      <Dest>Istituto tecnico D.B.</Dest>
-    </String>
-    <String List="0">
       <EDID>CombatZone02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
       <Dest>Quick Test Cell</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03AlderseaDaySpa01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Aldersea Day Spa</Source>
-      <Dest>Spa di Aldersea</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndStandsCodman01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Codman Residence</Source>
-      <Dest>Residenza Codman</Dest>
-    </String>
-    <String List="0">
-      <EDID>CabotHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cabot House</Source>
-      <Dest>Casa Cabot</Dest>
-    </String>
-    <String List="0">
-      <EDID>BarneysBunker01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Basement</Source>
-      <Dest>Scantinato</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt05</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Storage Compartment</Source>
-      <Dest>Compartimento di deposito</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03Nucleus</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Nucleus</Source>
-      <Dest>Il Nucleus</Dest>
     </String>
     <String List="0">
       <EDID>DLC04ColaCars01</EDID>
@@ -1952,64 +518,10 @@
       <Dest>Cola-Cars Arena</Dest>
     </String>
     <String List="0">
-      <EDID>DmndSolomonsHouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Solomon&apos;s House</Source>
-      <Dest>Casa di Solomon</Dest>
-    </String>
-    <String List="0">
-      <EDID>TrinityTower01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Trinity Tower Mid Level</Source>
-      <Dest>Trinity Tower - Livello centrale</Dest>
-    </String>
-    <String List="0">
-      <EDID>FensCafeBuilding</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Apartments</Source>
-      <Dest>Appartamenti</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndGreenhouse01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Greenhouse</Source>
-      <Dest>Serra</Dest>
-    </String>
-    <String List="0">
-      <EDID>DmndSurgeryBasement01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mega Surgery Center</Source>
-      <Dest>Supercentro Chirurgia</Dest>
-    </String>
-    <String List="0">
-      <EDID>RelayTowerInt15B</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Reactor Level</Source>
-      <Dest>Livello reattore</Dest>
-    </String>
-    <String List="0">
-      <EDID>SlocumsJoeHQOffice</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Slocum&apos;s Joe Offices</Source>
-      <Dest>Uffici di Slocum&apos;s Joe</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03POIBasementArmory</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Basement Armory</Source>
-      <Dest>Armeria del seminterrato</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC06VaultWorkshop</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 88</Source>
       <Dest>Vault 88</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04KiddieKingdomTheater01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>King Cola&apos;s Court</Source>
-      <Dest>Cortile di King Cola</Dest>
     </String>
     <String List="0">
       <EDID>HardwareTown01</EDID>
@@ -2022,12 +534,6 @@
       <REC>CELL:FULL</REC>
       <Source>Ticonderoga</Source>
       <Dest>Ticonderoga</Dest>
-    </String>
-    <String List="0">
-      <EDID>MuseumOfWitchcraft01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Museum of Witchcraft</Source>
-      <Dest>Museo della stregoneria</Dest>
     </String>
     <String List="0">
       <EDID>Commonwealth</EDID>
@@ -2060,34 +566,10 @@
       <Dest>Sanctuary Hills</Dest>
     </String>
     <String List="0">
-      <EDID>DLC03FarHarbor</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>The Island</Source>
-      <Dest>L&apos;Isola</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VRWorldspace</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Simulation</Source>
-      <Dest>Simulazione</Dest>
-    </String>
-    <String List="0">
       <EDID>NukaWorld</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Nuka-World</Source>
       <Dest>Nuka-World</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldAmphitheater</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Bradberton Amphitheater</Source>
-      <Dest>Anfiteatro Bradberton</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldMarket</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Nuka-Town Market</Source>
-      <Dest>Mercato di Nuka-Town</Dest>
     </String>
   </Content>
 </SSTXMLRessources>
