@@ -569,11 +569,11 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Source>Ash Tray</Source>
       <Dest>Portacenere</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>ALOOT_Static_Holofilm</EDID>
       <REC>STAT:FULL</REC>
       <Source>Holofilm</Source>
-      <Dest>olofilm</Dest>
+      <Dest>Film olografico</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_OilCan_Rare</EDID>
