@@ -8,12 +8,6 @@
   </Params>
   <Content>
     <String List="0">
-      <EDID>LaytonTowers01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Layton Towers</Source>
-      <Dest>Layton Towers</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC03Vault118</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 118</Source>
@@ -36,12 +30,6 @@
       <REC>CELL:FULL</REC>
       <Source>Vault 95</Source>
       <Dest>Vault 95</Dest>
-    </String>
-    <String List="0">
-      <EDID>MedTekResearch01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Med-Tek Research</Source>
-      <Dest>Med-Tek Research</Dest>
     </String>
     <String List="0">
       <EDID>DLC06VaultWorkshop</EDID>

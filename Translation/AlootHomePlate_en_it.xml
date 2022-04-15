@@ -158,12 +158,6 @@
       <Dest>Abraxo</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_T-45_Body</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>T-45 Torso</Source>
-      <Dest>T-45 Torso</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_BottleRum01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Rum</Source>
@@ -180,12 +174,6 @@
       <REC>STAT:FULL</REC>
       <Source>Vodka</Source>
       <Dest>Vodka</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_BlamcoMacAndCheese</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Blamco Mac And Cheese</Source>
-      <Dest>Blamco Mac And Cheese</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_InstaMash</EDID>
@@ -221,7 +209,7 @@
       <EDID>ALOOT_Static_SugarBombCereal</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sugar Bombs</Source>
-      <Dest>Sugar Bombs</Dest>
+      <Dest>Bombe di zucchero</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_SignTheaterPoster01</EDID>
@@ -284,12 +272,6 @@
       <Dest>Poster</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_CarpetCementDivider</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>FloorTrim</Source>
-      <Dest>FloorTrim</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_AdvertsPoster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -300,12 +282,6 @@
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
       <Dest>Poster</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Radaway</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Radaway</Source>
-      <Dest>Radaway</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_RadX</EDID>
@@ -326,22 +302,10 @@
       <Dest>Psycho</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Stimpack01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Stimpack</Source>
-      <Dest>Stimpack</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_BuffOut</EDID>
       <REC>STAT:FULL</REC>
       <Source>Buffout</Source>
       <Dest>Buffout</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Daytripper</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Daytripper</Source>
-      <Dest>Daytripper</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Mentats</EDID>
@@ -384,18 +348,6 @@
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
       <Dest>Poster</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_Terminal01</EDID>
-      <REC id="1" idMax="6">TERM:ITXT</REC>
-      <Source>Dipstick</Source>
-      <Dest>Dipstick</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_Terminal01</EDID>
-      <REC id="6" idMax="6">TERM:ITXT</REC>
-      <Source>Mecca Lecca High, Mecca Hiney Home...</Source>
-      <Dest>Mecca Lecca High, Mecca Hiney Home...</Dest>
     </String>
     <String List="0">
       <EDID>DiamondCity</EDID>
