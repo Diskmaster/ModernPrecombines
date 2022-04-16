@@ -16,8 +16,8 @@
     <String List="0">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.57.5</Source>
-      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.57.5</Dest>
+      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
+      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
     </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
@@ -686,6 +686,12 @@
       <Dest>Rifugio</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseIndustrialMachines</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>The Incredible Machines</Source>
+      <Dest>La macchine incredibili</Dest>
+    </String>
+    <String List="0">
       <EDID>ccTOSFO4001</EDID>
       <REC>CELL:FULL</REC>
       <Source>Noir Penthouse</Source>
@@ -702,6 +708,12 @@
       <REC>CELL:FULL</REC>
       <Source>Cambridge Police Station</Source>
       <Dest>Stazione di polizia di Cambridge</Dest>
+    </String>
+    <String List="0">
+      <EDID>REHoldingCell</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>Quick Test Cell</Dest>
     </String>
     <String List="0">
       <EDID>MiltonGeneral01</EDID>
@@ -1526,6 +1538,12 @@
       <Dest>Vault 95</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseWorkbenches</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Workbench Bonanza</Source>
+      <Dest>Banco da lavoro e prosperità</Dest>
+    </String>
+    <String List="0">
       <EDID>WestonWaterTreatment01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Weston Water Treatment Plant</Source>
@@ -1536,12 +1554,6 @@
       <REC>CELL:FULL</REC>
       <Source>Ticker Tape Lounge</Source>
       <Dest>Sala del telegrafo</Dest>
-    </String>
-    <String List="0">
-      <EDID>MassFusion02Trans</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Fusion Elevator</Source>
-      <Dest>Ascensore della Mass Fusion</Dest>
     </String>
     <String List="0">
       <EDID>InstituteBioScience</EDID>
@@ -1692,12 +1704,6 @@
       <REC>CELL:FULL</REC>
       <Source>National Guard Barracks</Source>
       <Dest>Caserma della Guardia Nazionale</Dest>
-    </String>
-    <String List="0">
-      <EDID>CombatZoneHoldingCell</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Combat Zone Holding Cell</Source>
-      <Dest>Gabbia della Combat Zone</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsLatimer01</EDID>
@@ -1982,6 +1988,12 @@
       <Dest>Appartamenti</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseTraps</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>The most dangerous cell</Source>
+      <Dest>La cella più pericolosa</Dest>
+    </String>
+    <String List="0">
       <EDID>DmndGreenhouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenhouse</Source>
@@ -2046,12 +2058,6 @@
       <REC>WRLD:FULL</REC>
       <Source>Commonwealth</Source>
       <Dest>Commonwealth</Dest>
-    </String>
-    <String List="0">
-      <EDID>DiamondCityFX</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Diamond City</Source>
-      <Dest>Diamond City</Dest>
     </String>
     <String List="0">
       <EDID>DiamondCity</EDID>
