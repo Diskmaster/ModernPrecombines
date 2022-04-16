@@ -8,10 +8,26 @@
   </Params>
   <Content>
     <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>Aloot</Source>
+      <Dest>Aloot</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Aloot&apos;s Home Plate 2.2 PRP Edition
+
+https://www.nexusmods.com/fallout4/mods/44101</Source>
+      <Dest>Aloot&apos;s Home Plate 2.2 PRP Edition
+
+https://www.nexusmods.com/fallout4/mods/44101</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_ShowerFortifyCharisma</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Fortify:Charisma_Shower</Source>
-      <Dest>Fortificare:Doccia_Carisma</Dest>
+      <Dest>Fortifica:Doccia_Carisma</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_ShowerSpell</EDID>
@@ -36,6 +52,12 @@
       <REC>ACTI:FULL</REC>
       <Source>Sink</Source>
       <Dest>Lavandino</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Sink</EDID>
+      <REC>ACTI:ATTX</REC>
+      <Source>Drink</Source>
+      <Dest>Bevi</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_IndoorWaterPurifier</EDID>
@@ -230,6 +252,12 @@
       <Dest>Porta</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Carpet02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Coperta</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Poster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -239,7 +267,7 @@
       <EDID>DinerIntCounter01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Diner Counter</Source>
-      <Dest>Bancone da pranzo</Dest>
+      <Dest>Banco tavola calda</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_GenericPoster04</EDID>
@@ -485,7 +513,7 @@
       <EDID>ALOOT_Static_Curtains02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Curtains</Source>
-      <Dest>Le tende</Dest>
+      <Dest>Tende</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CoffeePot</EDID>
@@ -521,7 +549,7 @@
       <EDID>ALOOT_Static_Curtains01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Curtains</Source>
-      <Dest>Le tende</Dest>
+      <Dest>Tende</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Camera01_Rare</EDID>
@@ -551,7 +579,7 @@
       <EDID>ALOOT_Static_Holofilm</EDID>
       <REC>STAT:FULL</REC>
       <Source>Holofilm</Source>
-      <Dest>olofilm</Dest>
+      <Dest>Film olografico</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_OilCan_Rare</EDID>
@@ -623,7 +651,7 @@
       <EDID>ALOOT_Static_T-51_Helmet</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-51 Helmet</Source>
-      <Dest>Elmo T-51</Dest>
+      <Dest>Casco T-51</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Prewar_Locker_Empty01</EDID>
@@ -665,13 +693,13 @@
       <EDID>ALOOT_Static_T-45_Body</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-45 Torso</Source>
-      <Dest>T-45 Torso</Dest>
+      <Dest>Busto T-45</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_T-45_Helmet</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-45 Helmet</Source>
-      <Dest>Elmo T-45</Dest>
+      <Dest>Casco T-45</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_T-45_LeftArm</EDID>
@@ -734,6 +762,36 @@
       <Dest>Detriti</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_CageLight01On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageBulbWire02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageBulbWire03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WallEmergencyLight01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ConstructionLight_StandingOn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Vault_Crate_03_Beige</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
@@ -773,7 +831,19 @@
       <EDID>ALOOT_Static_DCGuardTorsoArmor</EDID>
       <REC>STAT:FULL</REC>
       <Source>DC Guard Torso Armor</Source>
-      <Dest>Armatura busto guardia DC</Dest>
+      <Dest>Armatura del busto della guardia DC</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_VltXmasLightsLine04Half</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TriFoldFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flag</Source>
+      <Dest>Bandiera</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_OxygenTank</EDID>
@@ -803,7 +873,7 @@
       <EDID>ALOOT_Static_ProtectronDebris3</EDID>
       <REC>STAT:FULL</REC>
       <Source>Protectron Debris</Source>
-      <Dest>Detriti di Protectron</Dest>
+      <Dest>Detriti Protectron</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_TerminalBroken02</EDID>
@@ -869,7 +939,7 @@
       <EDID>ALOOT_Static_DressGO</EDID>
       <REC>STAT:FULL</REC>
       <Source>Dress</Source>
-      <Dest>Vestire</Dest>
+      <Dest>Vestiti</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Bathrobe</EDID>
@@ -936,6 +1006,12 @@
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
       <Dest>Dipinto</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PotsSauceLarge02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DishDirty01</EDID>
@@ -1022,10 +1098,28 @@
       <Dest>Tovagliolo</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Pot_EmptyLarge</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Ruin_CakePan01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Cake Pan</Source>
       <Dest>Tortiera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPan</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Ruin_Collander</EDID>
@@ -1118,6 +1212,12 @@
       <Dest>Ciotola</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_MutFruit</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>MutFruit</Source>
+      <Dest>Frutto Mut</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_HelmetHeavyGO</EDID>
       <REC>STAT:FULL</REC>
       <Source>Synth Helmet</Source>
@@ -1163,7 +1263,7 @@
       <EDID>ALOOT_Static_BattingHelmet</EDID>
       <REC>STAT:FULL</REC>
       <Source>Batting Helmet</Source>
-      <Dest>Casco da battitore</Dest>
+      <Dest>Casco da battuta</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BaseballGlove</EDID>
@@ -1193,7 +1293,7 @@
       <EDID>ALOOT_Static_Jangles01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Jangles</Source>
-      <Dest>[Jangles]</Dest>
+      <Dest>Campanelli</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ToyRocket01</EDID>
@@ -1310,6 +1410,18 @@
       <Dest>Zucca</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Carrot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Carrot</Source>
+      <Dest>Carota</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Melon</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Melon</Source>
+      <Dest>Melone</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_SignTheaterPoster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -1350,6 +1462,12 @@
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
       <Dest>Cartello</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NukaRug01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Coperta</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AdvertsPoster08</EDID>
@@ -1466,6 +1584,12 @@
       <Dest>Detriti</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_SubLight01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_SuperMutantCampNet05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Net</Source>
@@ -1514,6 +1638,12 @@
       <Dest>Vessillo</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_FlagpoleUSA01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flag</Source>
+      <Dest>Bandiera</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_SubLight02Hanging</EDID>
       <REC>STAT:FULL</REC>
       <Source>Ceiling Light</Source>
@@ -1532,6 +1662,18 @@
       <Dest>Lampada da soffitto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_LighrRedChain01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechLightCeiling01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_ExitSignOn01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Exit Sign</Source>
@@ -1542,6 +1684,12 @@
       <REC>STAT:FULL</REC>
       <Source>Fluorescent Light</Source>
       <Dest>Luce a fluorescenza</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SubLight03Wall</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ModernDomesticSideTableLrg01_DirtyStatic</EDID>
@@ -1565,7 +1713,7 @@
       <EDID>ALOOT_Static_CarpetCementDivider</EDID>
       <REC>STAT:FULL</REC>
       <Source>FloorTrim</Source>
-      <Dest>FloorTrim</Dest>
+      <Dest>Rivestimento del pavimento</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_RedPlate</EDID>
@@ -1580,6 +1728,12 @@
       <Dest>Piatto giallo</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_IndCatLight02On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_MuseumBanner04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Banner</Source>
@@ -1592,16 +1746,28 @@
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_LightbulbOn01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Curtains03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Curtains</Source>
-      <Dest>Le tende</Dest>
+      <Dest>Tende</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_PlayerHouse_Ruin_CurtainRod01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Curtain Rod</Source>
       <Dest>Bastone per tende</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechLightCeiling04_Dirty_Orange_On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AlarmClock</EDID>
@@ -1793,7 +1959,7 @@
       <EDID>ALOOT_Static_PlayerHouse_BathroomShaveDrawer01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Shave Drawer</Source>
-      <Dest>Postazione per rasarsi</Dest>
+      <Dest>Cassetto per la barba</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_FolderPapers01</EDID>
@@ -1838,6 +2004,24 @@
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_QuebecFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Le Drapeau du Québec</Source>
+      <Dest>Le Drapeau du Québec</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>Barile</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>Barile</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Calendar</EDID>
       <REC>STAT:FULL</REC>
       <Source>Calendar</Source>
@@ -1859,7 +2043,7 @@
       <EDID>ALOOT_Static_BloodPack</EDID>
       <REC>STAT:FULL</REC>
       <Source>BloodPack</Source>
-      <Dest>Branco Sanguinario</Dest>
+      <Dest>BloodPack</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Radaway</EDID>
@@ -1950,6 +2134,12 @@
       <REC>STAT:FULL</REC>
       <Source>Soap</Source>
       <Dest>Sapone</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carpet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Coperta</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Plant01</EDID>
@@ -2069,7 +2259,7 @@
       <EDID>ALOOT_Static_PlayerHouse_Ruin_BathroomHook02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Towel Hook</Source>
-      <Dest>Portasciugamano</Dest>
+      <Dest>Gancio per asciugamani</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_PlayerHouse_BathroomDispenser01</EDID>
@@ -2132,6 +2322,12 @@
       <Dest>Poster</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_CarpetRunner</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Coperta</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_ToolRack01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Tool Rack</Source>
@@ -2183,7 +2379,7 @@
       <EDID>ALOOT_Static_DinerIntCounter01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Diner Counter</Source>
-      <Dest>Bancone da pranzo</Dest>
+      <Dest>Banco tavola calda</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AshTrayFilled</EDID>
@@ -2267,7 +2463,7 @@
       <EDID>ALOOT_Static_ProtectronDebris6</EDID>
       <REC>STAT:FULL</REC>
       <Source>Protectron Debris</Source>
-      <Dest>Detriti di Protectron</Dest>
+      <Dest>Detriti Protectron</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Clock02_Wall</EDID>
@@ -2291,7 +2487,7 @@
       <EDID>ALOOT_Static_ProtectronDebris1</EDID>
       <REC>STAT:FULL</REC>
       <Source>Protectron Debris</Source>
-      <Dest>Detriti di Protectron</Dest>
+      <Dest>Detriti Protectron</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_WeightBench</EDID>
@@ -2304,6 +2500,12 @@
       <REC>FURN:FULL</REC>
       <Source>Shower</Source>
       <Dest>Doccia</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_MetalOfficeChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Sedia</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_NpcBenchDinerIntBoothSit01WithTable02</EDID>
@@ -2348,6 +2550,18 @@
       <Dest>Letto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_RailroadChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Sedia</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcChairVaultSit01</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Sedia</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_WorkbenchPowerArmorSmall</EDID>
       <REC>FURN:FULL</REC>
       <Source>Power Armor Station</Source>
@@ -2369,7 +2583,7 @@
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC>TERM:FULL</REC>
       <Source>Jules &amp; Amelie&apos;s Terminal</Source>
-      <Dest>Jules &amp; Amelie&apos;s Terminale</Dest>
+      <Dest>Terminale di Jules &amp; Amelie</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2390,8 +2604,7 @@ No one wants to travel down to the Atom Cats&apos; garage. Too many mutties and 
 
 Sheng sta raggiungendo la pubertà e l&apos;ho notato mentre controllava la mia merce. Naturalmente, ho sfruttato il mio fascino e l&apos;ho convinto a farmi collegare una linea diretta con la casa. Non più pagare per l&apos;acqua. Neanche io mi sento in colpa per questo. Da quando ci siamo trasferiti un anno fa, abbiamo portato in giro una merda di affari da colosso.
 
-Nessuno vuole scendere nel garage degli Atom Cats. Troppi mutanti e predoni tra di noi. Il salvataggio di Big John da solo è un fottuto incubo. Il rovescio della medaglia è che da quando siamo stati in grado di aprire un negozio qui nel Green Turd del Commonwealth, le persone sul lato nord del fiume hanno potuto far riparare la loro armatura potenziata qui. Le persone che hanno l&apos;armatura potenziata hanno i cappucci da bruciare. Quindi, naturalmente, Diamond City ottiene un taglio equo.
-</Dest>
+Nessuno vuole scendere nel garage degli Atom Cats. Troppi mutanti e predoni tra di noi. Il salvataggio di Big John da solo è un fottuto incubo. Il rovescio della medaglia è che da quando siamo stati in grado di aprire un negozio qui nel Green Turd del Commonwealth, le persone sul lato nord del fiume hanno potuto far riparare la loro armatura potenziata qui. Le persone che hanno l&apos;armatura potenziata hanno i cappucci da bruciare. Quindi, naturalmente, Diamond City ottiene un taglio equo.</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2412,20 +2625,19 @@ heading north after hearing rumors of the Institute. I figured with the kind of 
 
 Amelie non è però troppo infastidita da Solomon. Dice sempre nel suo Quebecois &quot;Jules, mon amour, il est juste tata avec une p&apos;tite queue&quot;. Vede sempre il buono nelle persone, o in questo caso il benevolo. Sono una ragazza fortunata, visto come sono finita con lei dopo che l&apos;Enclave è andata in pezzi a Washington.
 
-dirigendosi a nord dopo aver sentito le voci dell&apos;Istituto. Ho pensato che con il tipo di tecnologia che avevano, forse avrebbero avuto bisogno della meccanica dell&apos;armatura potenziata. Ho incontrato Amelie qui a Diamond City. Era diretta a sud, a New Orleans, ma l&apos;ho convinta a restare. In ogni caso... si...vorrei un nuovo vicino.
-</Dest>
+dirigendosi a nord dopo aver sentito le voci dell&apos;Istituto. Ho pensato che con il tipo di tecnologia che avevano, forse avrebbero avuto bisogno della meccanica dell&apos;armatura potenziata. Ho incontrato Amelie qui a Diamond City. Era diretta a sud, a New Orleans, ma l&apos;ho convinta a restare. In ogni caso... si...vorrei un nuovo vicino.</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="2" idMax="6">TERM:ITXT</REC>
       <Source>Amelie&apos;s Vault Boy Fetish</Source>
-      <Dest>Il feticcio del ragazzo del Vault di Amelie</Dest>
+      <Dest>Il fetish del ragazzo del Vault di Amelie</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="2" idMax="6">TERM:UNAM</REC>
       <Source>Amelie has taken to snatching up any and all vault boy signs she can find. I have no idea what brought this on. I&apos;m getting sick of seeing that shit-eating grin in every corner of the house. I should never have started trading with Vault 81....</Source>
-      <Dest>Amelie ha preso ad afferrare tutti i segni del ragazzo del Vault che riesce a trovare. Non ho idea di cosa abbia causato questo. Mi sto stufando di vedere quel sorriso da mangiamerda in ogni angolo della casa. Non avrei mai dovuto iniziare a fare trading con il Vault 81....</Dest>
+      <Dest>Amelie ha visto di nascosto tutti i segnali del ragazzo del Vault che riesce a trovare. Non ho idea di cosa abbia causato questo. Mi sto stufando di vedere quel sorriso da mangiamerda in ogni angolo della casa. Non avrei mai dovuto iniziare a fare affari con il Vault 81....</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2442,10 +2654,9 @@ They saw us turn the corner in our T-60 and T-51 armors and ran. It was funny, c
 
 
 </Source>
-      <Dest>Ho un cane oggi. È un bastardo rognoso, ma è piuttosto figo. L&apos;abbiamo trovato mentre stavamo scavando vicino ai laboratori Polymer. Stava scappando da alcuni Raiders che senza dubbio lo avrebbero mangiato.
+      <Dest>Ho preso un cane oggi. È un bastardo rognoso, ma è piuttosto figo. L&apos;abbiamo trovato mentre stavamo scavando vicino ai laboratori Polymer. Stava scappando da alcuni Raiders che senza dubbio lo avrebbero mangiato.
 
 Ci hanno visto girare l&apos;angolo con le nostre armature T-60 e T-51 e sono scappati. È stato divertente, perché il primo che ci ha visto si è semplicemente congelato. Il ragazzo dietro si è imbattuto in lui e i due hanno armeggiato un po&apos;. Senza dubbio non erano molto stagionati... e per &quot;stagionati&quot;, intendo non drogati dalle loro fottute menti! Alcuni di quei ragazzi avrebbero attaccato una Regina Mirelurk con nient&apos;altro che una pistola a pipa e il loro abito di compleanno.
-
 
 </Dest>
     </String>
@@ -2463,7 +2674,7 @@ Ci hanno visto girare l&apos;angolo con le nostre armature T-60 e T-51 e sono sc
 Whatever...I&apos;m done with his crony shennigans. I saw an old pump out by the Brewery in one of the wrecked train cars. By the looks of it, I could have it dismantled and back here in the basement within a week or so. As long as I bring it in piecemeal, no one should notice. I&apos;m sure the city would never allow us to have our own water source.
 
 If we can drill deep enough, we should be able to tap an aquifer and bypass the city supply altogether. No one would be the wiser, and Amelie could set up a small greenhouse downstairs. I&apos;m sure Vault 81 could pass some decent greenhouse lights our way if we came up with an enticing trade. </Source>
-      <Dest>L&apos;ho avuto con Shen. Quella piccola merda ha spento la nostra linea di galleggiamento. Ha detto qualcosa sulla domanda alta e non più &quot;scrocconi&quot;. A meno che non iniziamo a pagare le sue tariffe eccessive, l&apos;acqua rimarrà chiusa... devo dire che non guardo indietro con affetto all&apos;Enclave, ma almeno hanno visto l&apos;acqua come un diritto... oh aspetta... .forse non l&apos;hanno fatto.
+      <Dest>L&apos;ho avuto con Shen. Quella piccola merda ha spento la nostra linea di galleggiamento. Ha detto qualcosa sulla domanda alta e niente più &quot;scrocconi&quot;. A meno che non iniziamo a pagare le sue tariffe eccessive, l&apos;acqua rimarrà chiusa... devo dire che non guardo indietro con affetto all&apos;Enclave, ma almeno hanno visto l&apos;acqua come un diritto... oh aspetta... .forse non l&apos;hanno fatto.
 
 Qualunque cosa... ho chiuso con i suoi shennigan amichevoli. Ho visto una vecchia pompa fuori dalla fabbrica di birra in uno dei vagoni del treno distrutti. A quanto pare, potrei farlo smontare e riportarlo qui nel seminterrato entro una settimana o giù di lì. Finché lo porto in pezzi, nessuno dovrebbe accorgersene. Sono sicuro che la città non ci permetterebbe mai di avere una nostra fonte d&apos;acqua.
 
@@ -2504,12 +2715,11 @@ Whoever ends up here, best of luck to you. Enjoy the place.
 </Source>
       <Dest>Bene, abbiamo avuto notizie da un mercante quassù da Washington, che a sua volta ha avuto notizie da un mercante giù nella Carolina del Nord, che ha avuto notizie da Memphis che... qualunque cosa. Abbiamo sentito che a New Orleans sta succedendo una merda pazzesca.
 
-Certo, sono tutte voci e sciocchezze di seconda mano se me lo chiedi, ma Amelie giura di avere dei parenti laggiù e insiste affinché ce ne andiamo immediatamente. Ecco dove era diretta originariamente quando ci siamo incontrati. Immagino di aver solo ritardato l&apos;inevitabile viaggio verso sud. Non ho mai preso contatti con l&apos;Istituto, e da quello che ho sentito, forse è una buona cosa. Stanno cominciando a suonare più squilibrati di quanto non facesse il colonnello Autumn. Quindi, alla fine, suppongo di non aver avuto problemi a saltare la nave.
+Certo, sono tutte voci e sciocchezze senza senso se me lo chiedi, ma Amelie giura di avere dei parenti laggiù e insiste affinché ce ne andiamo immediatamente. Ecco dove era diretta originariamente quando ci siamo incontrati. Immagino di aver solo ritardato l&apos;inevitabile viaggio verso sud. Non ho mai preso contatti con l&apos;Istituto, e da quello che ho sentito, forse è una buona cosa. Stanno cominciando a suonare più squilibrati di quanto non facesse il colonnello Autumn. Quindi, alla fine, suppongo di non aver avuto problemi a saltare la nave.
 
-La cosa che mi infastidisce è che Geneva sapeva che non avevamo il tempo di andare a prendere un buon prezzo per la casa o per le cose che non possiamo prendere. Quindi la puttana ne ha approfittato e ci ha costretto a rivenderlo tutto alla città a buon mercato. Spero che si strozzi con il cazzo di McDonough. 
+La cosa che mi infastidisce è che Geneva sapeva che non avevamo il tempo di andare a prendere un buon prezzo per la casa o per le cose che non possiamo prendere. Quindi la puttana ne ha approfittato e ci ha costretto a rivenderlo tutto alla città a buon mercato. Spero che si strozzi con il cazzo di McDonough.
 
-Chiunque finisca qui, buona fortuna a te. Goditi il ​​posto.
-</Dest>
+Chiunque finisca qui, buona fortuna a te. Goditi il ​​posto.</Dest>
     </String>
     <String List="0">
       <EDID>DmndPlayerHouse01</EDID>
