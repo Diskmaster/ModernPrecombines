@@ -7,47 +7,23 @@
     <Version>2</Version>
   </Params>
   <Content>
-    <String List="0" Partial="2">
+    <String List="0">
       <EDID>[00000000]</EDID>
       <REC>TES4:CNAM</REC>
       <Source>BenRierimanu</Source>
       <Dest>BenRierimanu</Dest>
     </String>
-    <String List="0" Partial="2">
+    <String List="0">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
-      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
+      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.57.3</Source>
+      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.57.3</Dest>
     </String>
     <String List="0">
       <EDID>DLC04ZooCageWallTallDoorSingle01</EDID>
       <REC>DOOR:FULL</REC>
       <Source>Cage Door</Source>
       <Dest>Porta della gabbia</Dest>
-    </String>
-    <String List="0">
-      <EDID>NpcBedVaultBunkLay01Invisible</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Bed</Source>
-      <Dest>Letto</Dest>
-    </String>
-    <String List="0">
-      <EDID>NpcBedVaultLay01Invisible</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Bed</Source>
-      <Dest>Letto</Dest>
-    </String>
-    <String List="0">
-      <EDID>PrewarVault111</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault 111</Source>
-      <Dest>Vault 111</Dest>
-    </String>
-    <String List="0">
-      <EDID>CambridgeMassChemical01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Mass Chemical</Source>
-      <Dest>Mass Chemical</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VimPopFactory01</EDID>
@@ -104,12 +80,6 @@
       <Dest>Ufficio della sicurezza</Dest>
     </String>
     <String List="0">
-      <EDID>DLC04GZVaultTec01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vault-Tec: Tra le stelle</Dest>
-    </String>
-    <String List="0">
       <EDID>GoodneighborBobbisPlace</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bobbi&apos;s Place</Source>
@@ -128,34 +98,16 @@
       <Dest>Medford Memorial Hospital</Dest>
     </String>
     <String List="0">
-      <EDID>Vault81</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault 81</Source>
-      <Dest>Vault 81</Dest>
-    </String>
-    <String List="0">
-      <EDID>Vault81Secret</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Secret Vault 81</Source>
-      <Dest>Vault 81 segreto</Dest>
-    </String>
-    <String List="0">
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
-      <Dest>U.S.S. Constitution</Dest>
+      <Dest>Costituzione americana</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 75</Source>
       <Dest>Vault 75</Dest>
-    </String>
-    <String List="0">
-      <EDID>Financial28</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Ruined Skyscraper</Source>
-      <Dest>Grattacielo in rovina</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery02</EDID>
@@ -167,7 +119,7 @@
       <EDID>UniversityPoint01</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Point: Sedgwick Hall</Source>
-      <Dest>University Point: Sedgwick Hall</Dest>
+      <Dest>University Point: Sala Sedgwick</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeCollegeAdminBuilding</EDID>
@@ -188,12 +140,6 @@
       <Dest>Impianto di assemblaggio Corvega</Dest>
     </String>
     <String List="0">
-      <EDID>BeaconHillPub</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Prost Bar</Source>
-      <Dest>Prost Bar</Dest>
-    </String>
-    <String List="0">
       <EDID>IrishPrideShipyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Irish Pride Industries Shipyard</Source>
@@ -206,22 +152,10 @@
       <Dest>Vault 95</Dest>
     </String>
     <String List="0">
-      <EDID>WestonWaterTreatment01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Weston Water Treatment Plant</Source>
-      <Dest>Impianto di trattamento acque Weston</Dest>
-    </String>
-    <String List="0">
       <EDID>GeneralAtomicsFactory01</EDID>
       <REC>CELL:FULL</REC>
       <Source>General Atomics Factory</Source>
       <Dest>Fabbrica General Atomics</Dest>
-    </String>
-    <String List="0">
-      <EDID>Vault81Entry</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault 81</Source>
-      <Dest>Vault 81</Dest>
     </String>
     <String List="0">
       <EDID>MedTekResearch01</EDID>
@@ -314,28 +248,10 @@
       <Dest>L&apos;Isola</Dest>
     </String>
     <String List="0">
-      <EDID>DLC03VRWorldspace</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Simulation</Source>
-      <Dest>Simulazione</Dest>
-    </String>
-    <String List="0">
       <EDID>NukaWorld</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Nuka-World</Source>
       <Dest>Nuka-World</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldAmphitheater</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Bradberton Amphitheater</Source>
-      <Dest>Anfiteatro Bradberton</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldMarket</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Nuka-Town Market</Source>
-      <Dest>Mercato di Nuka-Town</Dest>
     </String>
   </Content>
 </SSTXMLRessources>
