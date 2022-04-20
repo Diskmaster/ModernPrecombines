@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SSTXMLRessources>
   <Params>
-    <Addon>AlootHomePlate.esp</Addon>
+    <Addon>AlootHomePlate_Old.esp</Addon>
     <Source>en</Source>
     <Dest>es</Dest>
     <Version>2</Version>
