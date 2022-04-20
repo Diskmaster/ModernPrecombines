@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>PRP-Compat-UEL.esp</Addon>
+    <Source>en</Source>
+    <Dest>es</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
+      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
+    </String>
+    <String List="0">
+      <EDID>Commonwealth</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Commonwealth</Source>
+      <Dest>Commonwealth</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCity</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Diamond City</Source>
+      <Dest>Diamond City</Dest>
+    </String>
+    <String List="0">
+      <EDID>Goodneighbor</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Goodneighbor</Source>
+      <Dest>Goodneighbor</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC03FarHarbor</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>The Island</Source>
+      <Dest>La Isla</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorld</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Nuka-World</Source>
+      <Dest>Nuka-World</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorldAmphitheater</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Bradberton Amphitheater</Source>
+      <Dest>Anfiteatro Bradberton</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorldMarket</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Nuka-Town Market</Source>
+      <Dest>Mercado de Nuka-Town</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
