@@ -24,8 +24,7 @@ Current known issues:
 - \[PRP\] Nearest 238d30, chair flickering as reported in comments.
 - \[PRP\] 030251C6 collision needs redone
 - \[PRP\] 1F57A3 previs issue
-- ??? Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead. Boston Public Library
-- \[PRP\] Future multilingual build setup.
+- ??? Boston Public Library: Terminal hanging in midair in BoS cut content, last room of library nearest ruined blue electronic panels closest to bobblehead.
 - \[???\] Check Vault81 Room Bounds (Priority: Very Very Very Very Very Low)
 - \[PRP\] **World cell records may need reevaluated.**
 - \[PRP\] Vault81Secret Check invisbed records.
@@ -38,19 +37,16 @@ Current known issues:
 - \[PRP\] Wherever the hell https://youtu.be/hFE3jzjq_WY is at.
 - \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
-- \[PRP\] Vault114 Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
-- \[U31719\] \[-8, 0\] Commonwealth - 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
-- \[PRP\] \[3, -3\] Commonwealth - 187B42/187BCB (Base 187C44) has no collision.
-- \[PRP\] \[3, -3\] Commonwealth - 973F7 cannot be seen from a certain distance.
+- \[PRP\] Vault114: Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
+- \[U31719\] \[-8, 0\] Commonwealth: 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
+- \[PRP\] \[3, -3\] Commonwealth: 187B42/187BCB (Base 187C44) has no collision.
+- \[PRP\] \[3, -3\] Commonwealth: 973F7 cannot be seen from a certain distance.
 - \[PRP\] Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
 - \[PRP\] -11, 13 CW: 304F1 window is breaking occlusion, marking not occluded to work around
 - \[PRP\] USSConstitution01: Yet another previs model nudge to A3996, as the mast pole of the ship wasn't showing up. Status: Unfixed.
 - \[PRP\] DLC01FortHagenSatelliteArray01: Nearest 0100d2a5, more previs void, likely a leftover from the previous fix that wasn't accounted for.
-~~- \[PRP\] DLC01FortHagenSatelliteArray01: 01001BD0, 010046C5, 010046C6, 010047B8, 010047B9, 010088B6, 0100F997 got shifted around to look proper in that room. All large crates. Previously 'fixed', but void holes are showing up in the area, this broke due to the xedit floating point shifting bug.~~
 - \[PRP\] GoodneighborBobbisPlace: Needs checked. Previs hole.
 - \[PRP\] TheaterHub360Ext: Previs issues as reported on nexus. Unconfirmed.
-~~- \[PRP\] Nuka World MDHT: Missing and needs generated, do as separate plugin for easier merging.~~ Done as of 0.57 branch.
-- \[???\] DF85 - Performance issues?
 - \[PRP\] Financial06: Window void holes. Entire interior is missing external stuff like the sky and shit.
 - \[PRP\] ThicketExcavationExt02: Previs issue?, multiple water volumes.
 - \[PRP\] ???: 80812 as reported by Hap.
