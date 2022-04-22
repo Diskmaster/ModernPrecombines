@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>PRP-SS2.esp</Addon>
+    <Source>en</Source>
+    <Dest>es</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Sim Settlements 2: Now with Previsibines! 0.59</Source>
+      <Dest>Sim Settlements 2: Ahora con Previsibines! 0.59</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2NightingaleShip</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Cargo Ship</Source>
+      <Dest>Barco de carga</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackVault81</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 81</Source>
+      <Dest>Refugio 81</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackVault81Entry</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 81</Source>
+      <Dest>Refugio 81</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HQOfficeDungeon</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>HQ Lower Level</Source>
+      <Dest>Nivel inferior del Cuartel General</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackGNNBasement</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>HQ Basement</Source>
+      <Dest>Sótano del Cuartel General</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HQOffice</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>HQ Lower Level</Source>
+      <Dest>Nivel inferior del Cuartel General</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackGNN</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>GNN</Source>
+      <Dest>ART</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HQMain</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>GNN</Source>
+      <Dest>ART</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackTheaterMassBayMedicalCenter01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Mass Bay Medical Center</Source>
+      <Dest>Centro médico Mass Bay</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HQBasement</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>HQ Basement</Source>
+      <Dest>Sótano del Cuartel General</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackVault75</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 75</Source>
+      <Dest>Refugio 75</Dest>
+    </String>
+    <String List="0">
+      <EDID>SS2C2HijackTheaterMassBayMedicalCenter02</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Mass Bay Medical Radiology</Source>
+      <Dest>Radiología del centro médico Mass Bay</Dest>
+    </String>
+    <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>Bodega</Dest>
+    </String>
+    <String List="0">
+      <EDID>Commonwealth</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Commonwealth</Source>
+      <Dest>Commonwealth</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
