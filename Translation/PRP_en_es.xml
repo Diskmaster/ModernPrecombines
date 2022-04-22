@@ -119,13 +119,13 @@
       <EDID>BeantownBrewery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Beantown Brewery</Source>
-      <Dest>Beantown Brewery</Dest>
+      <Dest>Cervecera Beantown</Dest>
     </String>
     <String List="0">
       <EDID>MassStateHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Massachusetts State House</Source>
-      <Dest>Massachusetts State House</Dest>
+      <Dest>Parlamento de Massachusetts</Dest>
     </String>
     <String List="0">
       <EDID>ConcordFactory</EDID>
@@ -281,7 +281,7 @@
       <EDID>DmndStandsTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial Taphouse</Source>
-      <Dest>Colonial Taphouse</Dest>
+      <Dest>Taberna Colonial</Dest>
     </String>
     <String List="0">
       <EDID>FensStreetSewer01</EDID>
@@ -443,7 +443,7 @@
       <EDID>DLC04WarehouseAmbush</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ambush Warehouse Cell</Source>
-      <Dest>Celda de almacén de emboscada</Dest>
+      <Dest>Celda de emboscada de almacén</Dest>
     </String>
     <String List="0">
       <EDID>RevereBeachStation01</EDID>
@@ -659,7 +659,7 @@
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
-      <Dest>Estancias del Prydwen</Dest>
+      <Dest>Cuarteles del Prydwen</Dest>
     </String>
     <String List="0">
       <EDID>DmndFallons01</EDID>
@@ -677,7 +677,7 @@
       <EDID>RailroadHQEscapeTunnel</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ Escape Tunnel</Source>
-      <Dest>Túnel de salida de cuartel del Ferrocarril</Dest>
+      <Dest>Túnel de salida del cuartel del Ferrocarril</Dest>
     </String>
     <String List="0">
       <EDID>BigJohnsSalvage01</EDID>
@@ -737,7 +737,7 @@
       <EDID>GoodneighborOldStateHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old State House</Source>
-      <Dest>Old State House</Dest>
+      <Dest>Antiguo Parlamento</Dest>
     </String>
     <String List="0">
       <EDID>REObject02Interior</EDID>
@@ -785,13 +785,13 @@
       <EDID>AndrewStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
-      <Dest>Andrew Station</Dest>
+      <Dest>Estación de Andrew</Dest>
     </String>
     <String List="0">
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>Aparcamiento</Dest>
+      <Dest>Garage del Aparcamiento de Lexington</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -827,7 +827,7 @@
       <EDID>GoodneighborTheMemoryDen</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Memory Den</Source>
-      <Dest>Memory Den</Dest>
+      <Dest>El Memory Den</Dest>
     </String>
     <String List="0">
       <EDID>HestersRobotics01</EDID>
@@ -989,7 +989,7 @@
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
-      <Dest>USS Constitution</Dest>
+      <Dest>U.S.S. Constitution</Dest>
     </String>
     <String List="0">
       <EDID>BobbisNewPlace01</EDID>
@@ -1043,13 +1043,13 @@
       <EDID>DLC04BottlingPlant02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secure Beverageer Lab</Source>
-      <Dest>Laboratorio seguro de creador de bebidas</Dest>
+      <Dest>Laboratorio seguro de Beverageer</Dest>
     </String>
     <String List="0">
       <EDID>SandyCovesHome01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sandy Coves Convalescent Home</Source>
-      <Dest>Residencia Sandy Coves</Dest>
+      <Dest>Sanatorio Sandy Coves</Dest>
     </String>
     <String List="0">
       <EDID>MahkraFishpacking01</EDID>
@@ -1085,7 +1085,7 @@
       <EDID>FourLeafFishpacking01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Four Leaf Fishpacking Plant</Source>
-      <Dest>Four Leaf</Dest>
+      <Dest>Conservera Four Leaf</Dest>
     </String>
     <String List="0">
       <EDID>NahantOceanSociety01</EDID>
@@ -1139,19 +1139,19 @@
       <EDID>InstituteSRB</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute SRB</Source>
-      <Dest>SRB del Instituto</Dest>
+      <Dest>S.R.B. de El Instituto</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt17</EDID>
       <REC>CELL:FULL</REC>
       <Source>Storage</Source>
-      <Dest>Capacidad</Dest>
+      <Dest>Depósito</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB06Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parking Garage</Source>
-      <Dest>Aparcamiento</Dest>
+      <Dest>Garage de Aparcamiento</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeEastCITRaiderCamp01</EDID>
@@ -1211,7 +1211,7 @@
       <EDID>ShenleysOysterBar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shenley&apos;s Oyster Bar</Source>
-      <Dest>Bar Shenley&apos;s Oyster</Dest>
+      <Dest>Ostrería Shenley</Dest>
     </String>
     <String List="0">
       <EDID>PrydwenHull02</EDID>
@@ -1223,7 +1223,7 @@
       <EDID>zLexingtonPharmacy</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Pharmacy</Source>
-      <Dest>Farmacia</Dest>
+      <Dest>Farmacia de Lexington</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1271,7 +1271,7 @@
       <EDID>GwinnettBrewery02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gwinnett Main Brewery</Source>
-      <Dest>Cervecería Gwinnett</Dest>
+      <Dest>Cervecera Gwinnett</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsHawthorne01</EDID>
@@ -1295,13 +1295,13 @@
       <EDID>ShamrockTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Shamrock Taphouse</Source>
-      <Dest>Taphouse de Shamrock</Dest>
+      <Dest>La Taberna Shamrock</Dest>
     </String>
     <String List="0">
       <EDID>FensBank01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bridgeway Trust</Source>
-      <Dest>Bridgeway Trust</Dest>
+      <Dest>Banco Bridgeway</Dest>
     </String>
     <String List="0">
       <EDID>FortHagen02</EDID>
@@ -1331,7 +1331,7 @@
       <EDID>zInstituteRotunda</EDID>
       <REC>CELL:FULL</REC>
       <Source>CIT Rotunda</Source>
-      <Dest>Rotonda del CIT</Dest>
+      <Dest>Rotonda del C.I.T.</Dest>
     </String>
     <String List="0">
       <EDID>WarrenTheater01</EDID>
@@ -1343,7 +1343,7 @@
       <EDID>InstituteRobotics</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Robotics</Source>
-      <Dest>Robótica del Instituto</Dest>
+      <Dest>Robótica de El Instituto</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Gauntlet01</EDID>
@@ -1361,7 +1361,7 @@
       <EDID>InstituteFEVlab</EDID>
       <REC>CELL:FULL</REC>
       <Source>FEV Lab</Source>
-      <Dest>Laboratorio VEF</Dest>
+      <Dest>Laboratorio del VEF</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndSalemStreetCottage</EDID>
@@ -1379,7 +1379,7 @@
       <EDID>RedRocket01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mole Rat Den</Source>
-      <Dest>Madriguera de rata topo</Dest>
+      <Dest>Madriguera de ratas topo</Dest>
     </String>
     <String List="0">
       <EDID>DmndArturosHouse02</EDID>
@@ -1463,7 +1463,7 @@
       <EDID>LongneckLukowskis01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Longneck Lukowski&apos;s Cannery</Source>
-      <Dest>Fábrica de conservas de Longneck Lukowski</Dest>
+      <Dest>Conservera Longneck Lukowski</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeScienceCenter01</EDID>
@@ -1523,7 +1523,7 @@
       <EDID>IrishPrideShipyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Astillero de Irish Pride Industries</Dest>
+      <Dest>Astillero de Industrias Irish Pride</Dest>
     </String>
     <String List="0">
       <EDID>BostonMayoralShelter01</EDID>
@@ -1559,7 +1559,7 @@
       <EDID>InstituteBioScience</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute BioScience</Source>
-      <Dest>Biociencias del Instituto</Dest>
+      <Dest>Biociencias de El Instituto</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Acadia</EDID>
@@ -1577,7 +1577,7 @@
       <EDID>CambridgeMonsignorPlaza01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Monsignor Plaza</Source>
-      <Dest>Monsignor Plaza</Dest>
+      <Dest>Plaza Monsignor</Dest>
     </String>
     <String List="0">
       <EDID>SouthBostonPoliceDepartment01</EDID>
@@ -1619,7 +1619,7 @@
       <EDID>zWaystation</EDID>
       <REC>CELL:FULL</REC>
       <Source>Waystation</Source>
-      <Dest>Zona de paso</Dest>
+      <Dest>Estación de paso</Dest>
     </String>
     <String List="0">
       <EDID>VirgilsLab01</EDID>
@@ -1655,7 +1655,7 @@
       <EDID>WestEverettEstates01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Backyard Bunker</Source>
-      <Dest>Búnker de patio trasero</Dest>
+      <Dest>Búnker del patio trasero</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Entry</EDID>
@@ -1691,7 +1691,7 @@
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
-      <Dest>Med-Tek Research</Dest>
+      <Dest>Investigación de Med-Tek</Dest>
     </String>
     <String List="0">
       <EDID>USAFSatellite01</EDID>
@@ -1757,7 +1757,7 @@
       <EDID>BunkerHill01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Utility Basement</Source>
-      <Dest>Sótano</Dest>
+      <Dest>Sótano de mantenimiento</Dest>
     </String>
     <String List="0">
       <EDID>MassPikeTunnel01</EDID>
@@ -1775,7 +1775,7 @@
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Bodega</Dest>
+      <Dest>Sótano del Club de aficcionados a la electricidad</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POI40Int</EDID>
@@ -1931,7 +1931,7 @@
       <EDID>DLC03AlderseaDaySpa01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Aldersea Day Spa</Source>
-      <Dest>Aldersea Day Spa</Dest>
+      <Dest>Balneario de Aldersea</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsCodman01</EDID>
