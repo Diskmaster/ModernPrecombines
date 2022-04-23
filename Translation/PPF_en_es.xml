@@ -143,7 +143,7 @@
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
-      <Dest>USS Constitution</Dest>
+      <Dest>U.S.S. Constitution</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
@@ -161,7 +161,7 @@
       <EDID>GwinnettBrewery02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gwinnett Main Brewery</Source>
-      <Dest>Gwinnett Main Brewery</Dest>
+      <Dest>Cervecera Gwinnett</Dest>
     </String>
     <String List="0">
       <EDID>UniversityPoint01</EDID>
@@ -191,13 +191,13 @@
       <EDID>BeaconHillPub</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prost Bar</Source>
-      <Dest>Prost Bar</Dest>
+      <Dest>Bar Prost</Dest>
     </String>
     <String List="0">
       <EDID>IrishPrideShipyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Astillero de Irish Pride Industries</Dest>
+      <Dest>Astillero de Industrias Irish Pride</Dest>
     </String>
     <String List="0">
       <EDID>Vault95</EDID>
@@ -227,7 +227,7 @@
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
-      <Dest>Med-Tek Research</Dest>
+      <Dest>Investigación de Med-Tek</Dest>
     </String>
     <String List="0">
       <EDID>USAFSatellite01</EDID>
