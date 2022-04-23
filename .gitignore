@@ -4,9 +4,6 @@
 *.ba2
 *.csg
 *.cdx
-/dist/Main Files/English
-/dist/Main Files/Spanish
-/dist/Main Files/Italian
-/dist-patch/Main Files/English
-/dist-patch/Main Files/Italian
-/dist-patch/Main Files/Spanish
+/dist/Main Files
+/dist-patch-53/Main Files
+/dist-patch-57/Main Files
