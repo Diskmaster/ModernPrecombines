@@ -1,0 +1,1937 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>AlootHomePlate.esp</Addon>
+    <Source>en</Source>
+    <Dest>esmx</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>ALOOT_HP_DCRadio01</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Radio</Source>
+      <Dest>Radio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_DCRadio02</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Radio</Source>
+      <Dest>Radio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Sink</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Sink</Source>
+      <Dest>Lavabo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Sink</EDID>
+      <REC>ACTI:ATTX</REC>
+      <Source>Drink</Source>
+      <Dest>Beber</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_IndoorWaterPurifier</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Water Purifier</Source>
+      <Dest>Purificador de agua</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Generator</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Generator</Source>
+      <Dest>Generador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FederalistDresserShort01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>Tocador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HomePlate_WorkshopWorkbench</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Workshop</Source>
+      <Dest>Taller</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_OfficeFileCabinet03_Steel</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>File Cabinet</Source>
+      <Dest>Archivador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_Locker_Wall02</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Ammo Box</Source>
+      <Dest>Caja de munición</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CabinetGarage02</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Cabinet</Source>
+      <Dest>Armario</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CabinetGarage05</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Cabinet</Source>
+      <Dest>Armario</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_AmmoBox</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Ammo Box</Source>
+      <Dest>Caja de munición</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WoodCrateContainer</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Wooden Crate</Source>
+      <Dest>Caja de madera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FootLocker</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Footlocker</Source>
+      <Dest>Baúl</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_Locker_Wall01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>Casillero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_BasementDesk</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Desk</Source>
+      <Dest>Escritorio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FederalistDresser01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>Tocador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Vault_Dresser_01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>Tocador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_Locker_01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>Casillero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_TrashCan_Empty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Trash Can</Source>
+      <Dest>Cesto de basura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerHouse_Ruin_BathroomMirror02</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Mirror</Source>
+      <Dest>Espejo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_HighTechTallOrangeFilingCabinet</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Cabinet</Source>
+      <Dest>Armario</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_OfficeDesk01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Desk</Source>
+      <Dest>Escritorio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FirstAidHanging</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>First Aid</Source>
+      <Dest>Primeros auxilios</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Safe</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Safe</Source>
+      <Dest>Caja fuerte</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerHouse_Ruin_Dryer01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dryer</Source>
+      <Dest>Secadora</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerHouse_Ruin_Washer01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Washer</Source>
+      <Dest>Lavadora</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_ModernDomesticDresser01Dirty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>Tocador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_HighTechDesk01_Dirty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Desk</Source>
+      <Dest>Escritorio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Refrigerator</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Refrigerator</Source>
+      <Dest>Refrigerador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_VaultLocker</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>Casillero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_SlidingDoor</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Door</Source>
+      <Dest>Puerta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carpet02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Alfombra</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Typewriter_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Typewriter</Source>
+      <Dest>Máquina de escribir</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IndustrialMetalTableSmall01B</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AnchorStatic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Anchor</Source>
+      <Dest>Ancla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Missile</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Missile</Source>
+      <Dest>Misil</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_LifePreserver01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Life Preserver</Source>
+      <Dest>Salvavidas</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CigaretteCarton</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cigarette Carton</Source>
+      <Dest>Paquete de cigarros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IndustrialMetalTableSmall01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CeilingLamp01ShortOn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceiling Lamp</Source>
+      <Dest>Lámpara de techo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_Toilet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toilet</Source>
+      <Dest>Inodoro</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting08</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleWine01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wine</Source>
+      <Dest>Vino</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster08</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster09</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster10</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster11</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster12</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeePot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Pot</Source>
+      <Dest>Cafetera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HotPlate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hot Plate</Source>
+      <Dest>Hornillo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignTheaterPoster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NewspaperPublickOccurences</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Newspaper</Source>
+      <Dest>Periódico</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_Lamp04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lamp</Source>
+      <Dest>Lámpara</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Camera01_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Camera</Source>
+      <Dest>Cámara</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HolotapeProp</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Holotape</Source>
+      <Dest>Holocinta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Globe01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Globe</Source>
+      <Dest>Globo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OilCan_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Used Oil Can</Source>
+      <Dest>Lata de aceite usado</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Nuclear</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Nuclear Material</Source>
+      <Dest>Material nuclear</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_FiberOptic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fiber Optics</Source>
+      <Dest>Fibra óptica</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Ceramic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceramic</Source>
+      <Dest>Cerámica</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Abraxo_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Abraxo</Source>
+      <Dest>Abraxo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBucket</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Bucket</Source>
+      <Dest>Cubeta metálica</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Rubber</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rubber</Source>
+      <Dest>Caucho</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MoleratHide</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Molerat Hide</Source>
+      <Dest>Piel de rata topo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Prewar_Locker_Empty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>Casillero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Asbestos</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Asbestos</Source>
+      <Dest>Amianto</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Abraxo</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Abraxo</Source>
+      <Dest>Abraxo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_T-45_LeftArm</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>T-45 Left Arm</Source>
+      <Dest>Brazo izquierdo de T-45</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Raider_LeftArm</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Left Arm</Source>
+      <Dest>Brazo izquierdo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechDebris01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WrenchGarage01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wrench</Source>
+      <Dest>Llave fija</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BOSTechDocs</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Technical Document</Source>
+      <Dest>Documento técnico</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechDebris02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodCrate01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wood Crate</Source>
+      <Dest>Caja de madera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TriFoldFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flag</Source>
+      <Dest>Bandera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OxygenTank</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Oxygen Tank</Source>
+      <Dest>Tanque de oxígeno</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MakeshiftBattery01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Makeshift Battery</Source>
+      <Dest>Batería improvisada</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clock01_Wall_Dest</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clock</Source>
+      <Dest>Reloj</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TerminalBroken02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Broken Terminal</Source>
+      <Dest>Terminal averiado</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Turpentine_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Turpentine</Source>
+      <Dest>Aguarrás</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToyTeddyBearDirty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Teddy Bear</Source>
+      <Dest>Osito de peluche</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ScissorsBarber01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scissors</Source>
+      <Dest>Tijeras</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleWhiskey01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Whiskey</Source>
+      <Dest>Whisky</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Bathrobe</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bathrobe</Source>
+      <Dest>Bata de baño</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodBasket</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wood Basket</Source>
+      <Dest>Cesta de madera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficeBoxPapers03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Files</Source>
+      <Dest>Archivos</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficeBoxPapers01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Files</Source>
+      <Dest>Archivos</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodCrate03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wood Crate</Source>
+      <Dest>Caja de madera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Mop01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mop</Source>
+      <Dest>Trapeador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ClothingIron</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clothing Iron</Source>
+      <Dest>Plancha</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BobbyPinBox</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bobby Pin Box</Source>
+      <Dest>Caja de pasadores</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting11</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PotsSauceLarge02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Olla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PotsFryingPan01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Frying Pan</Source>
+      <Dest>Sartén</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BowlGlassEmpty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bowl</Source>
+      <Dest>Tazón</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeePot01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Pot</Source>
+      <Dest>Cafetera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CookingOil</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cooking Oil</Source>
+      <Dest>Aceite para cocinar</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeeTin01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Tin</Source>
+      <Dest>Lata de café</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleRum01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rum</Source>
+      <Dest>Ron</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleBourbon01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bourbon</Source>
+      <Dest>Bourbon</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleVodka01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vodka</Source>
+      <Dest>Vodka</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_SaltShaker01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Salt Shaker</Source>
+      <Dest>Salero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_PepperMill01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pepper Mill</Source>
+      <Dest>Molinillo de pimienta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NapkinClean01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Napkin</Source>
+      <Dest>Servilleta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pot_EmptyLarge</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Olla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_CakePan01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cake Pan</Source>
+      <Dest>Molde para pasteles</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPan</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Olla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Olla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_Collander</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Collander</Source>
+      <Dest>Colador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OvenMitt</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Oven Mitt</Source>
+      <Dest>Guante para horno</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DrinkingGlass</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Drinking Glass</Source>
+      <Dest>Vaso de vidrio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Teapot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Teapot</Source>
+      <Dest>Tetera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Fork</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fork</Source>
+      <Dest>Tenedor</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Knife</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Knife</Source>
+      <Dest>Cuchillo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Cram</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cram</Source>
+      <Dest>Carne enlatada Cram</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_InstaMash</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>InstaMash</Source>
+      <Dest>Puré InstaMash</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_YumYumDeviledEggs</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Yum Yum Deviled Eggs</Source>
+      <Dest>Huevos endiablados Yum Yum</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Tato</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tato</Source>
+      <Dest>Mutipapa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericBowl</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bowl</Source>
+      <Dest>Tazón</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HelmetHeavyGO</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Synth Helmet</Source>
+      <Dest>Casco de sinte</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BurntBook02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Burnt Book</Source>
+      <Dest>Libro quemado</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BurntBook01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Burnt Book</Source>
+      <Dest>Libro quemado</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FeatherDuster</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Feather Duster</Source>
+      <Dest>Plumero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BaseballGlove</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Baseball Glove</Source>
+      <Dest>Guante de béisbol</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Baseball</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Baseball</Source>
+      <Dest>Pelota de béisbol</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Chessboard01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Chessboard</Source>
+      <Dest>Tablero de ajedrez</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToyTruck01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toy Truck</Source>
+      <Dest>Camión de juguete</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BowlingBall01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bowling Ball</Source>
+      <Dest>Bola de boliche</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Table_02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SugarBombCereal</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sugar Bombs</Source>
+      <Dest>Sugar Bombs</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Blue</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>Lata de pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Yellow</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>Lata de pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Red</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>Lata de pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Green</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>Lata de pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FlatbedCart_Small</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flatbed Cart</Source>
+      <Dest>Carrito de plataforma</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Corn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Corn</Source>
+      <Dest>Maíz</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Gourd</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Gourd</Source>
+      <Dest>Calabaza</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carrot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Carrot</Source>
+      <Dest>Zanahoria</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Melon</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Melon</Source>
+      <Dest>Melón</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignTheaterPoster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignTheaterPoster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Hoe</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hoe</Source>
+      <Dest>Azada</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Shovel</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Shovel</Source>
+      <Dest>Pala</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NukaRug01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Alfombra</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster08</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster09</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting09</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistryShelf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Shelf</Source>
+      <Dest>Estante</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_JoinOrDie01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>Tela</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>Tela</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>Tela</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MuseumBanner05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>Pancarta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>Tela</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Rubble_Pile_Debris_07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerBaseball2004</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>Pancarta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerBaseball1986</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>Pancarta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerBaseball1903</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>Pancarta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FlagpoleUSA01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flag</Source>
+      <Dest>Bandera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SubLight02Hanging</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceiling Light</Source>
+      <Dest>Lámpara de techo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignMassFusion01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CeilingLamp01On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceiling Lamp</Source>
+      <Dest>Lámpara de techo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ExitSignOn01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Exit Sign</Source>
+      <Dest>Letrero de salida</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FluorescentLightThin01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fluorescent Light</Source>
+      <Dest>Lámpara fluorescente</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ModernDomesticSideTableLrg01_DirtyStatic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RedPlate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Red Plate</Source>
+      <Dest>Plato rojo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_YellowPlate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Yellow Plate</Source>
+      <Dest>Plato amarillo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MuseumBanner04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>Pancarta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting10</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AlarmClock</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Alarm Clock</Source>
+      <Dest>Despertador</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CementBag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wooden Crate</Source>
+      <Dest>Caja de madera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GasolineCanister</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Gas Canister</Source>
+      <Dest>Bote de gasolina</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MS19Coolant</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coolant</Source>
+      <Dest>Refrigerante</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Coolant_Empty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Empty Coolant</Source>
+      <Dest>Refrigerante vacío</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Acid</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Acid</Source>
+      <Dest>Ácido</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FertilizerBag01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bag of Fertilizer</Source>
+      <Dest>Bolsa de fertilizante</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BinPlastic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Plastic Bin</Source>
+      <Dest>Papelera de plástico</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IvBag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>IV Bag</Source>
+      <Dest>Bolsa intravenosa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetCan01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Aluminum Canister</Source>
+      <Dest>Bote de aluminio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetBottle01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lab Bottle</Source>
+      <Dest>Botella de laboratorio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetBeaker02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Thin Beaker</Source>
+      <Dest>Matraz fino</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetBeaker03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Chemistry Jar</Source>
+      <Dest>Vaso de precipitado</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetCan02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Oil Canister</Source>
+      <Dest>Lata de aceite</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Bottle01Empty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Liquor Bottle</Source>
+      <Dest>Botella de licor</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_KitchenScale01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Kitchen Scale</Source>
+      <Dest>Balanza de cocina</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BioMedicalScanner</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Biometric Scanner</Source>
+      <Dest>Escáner biométrico</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SurgicalTray</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Surgical Tray</Source>
+      <Dest>Bandeja de cirugía</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetCan03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Industrial Oil Canister</Source>
+      <Dest>Lata de aceite industrial</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_EnamelBucket</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Enamel Bucket</Source>
+      <Dest>Cubeta de esmalte</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BrahminSkull</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Brahmin Skull</Source>
+      <Dest>Cráneo de brahmán</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OilCan</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Used Oil Can</Source>
+      <Dest>Lata de aceite usado</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Glass</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Glass</Source>
+      <Dest>Vidrio</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weights_Barbell02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>80lb Barbell</Source>
+      <Dest>Barra de pesas de 36 kg</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weights_Dumbbell01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>20lb Dumbbell</Source>
+      <Dest>Mancuerna de 9 kg</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weights_Barbell03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>40lb Barbell</Source>
+      <Dest>Barra de pesas de 18 kg</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weight01_25lb</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>25lb Weight</Source>
+      <Dest>Peso 11.25 kg</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weight01_10lb</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>10lb Weight</Source>
+      <Dest>Peso 4.5 kg</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weight01_5lb</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>5lb Weight</Source>
+      <Dest>Peso 2.25 kg</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PosterWanted01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FolderPapers01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Folder</Source>
+      <Dest>Carpeta</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficePaperDebrisSinglePg04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paper</Source>
+      <Dest>Papel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficePaperDebrisSinglePg03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paper</Source>
+      <Dest>Papel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_Lamp03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lamp</Source>
+      <Dest>Lámpara</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>Pintura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>Barril</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>Barril</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Calendar</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Calendar</Source>
+      <Dest>Agenda</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GreenHouseTable</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RadX</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rad-X</Source>
+      <Dest>Rad-X</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WastelandFungusStalkIngredient01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Glowing Fungus</Source>
+      <Dest>Hongo resplandeciente</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Tarberry</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tarberry</Source>
+      <Dest>Baya de brea</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Thistle</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Thistle</Source>
+      <Dest>Cardo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Hubflower</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hubflower</Source>
+      <Dest>Hubflower</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Jet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Jet</Source>
+      <Dest>Jet</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Psycho</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Psycho</Source>
+      <Dest>Psycho</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BuffOut</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Buffout</Source>
+      <Dest>Buffout</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Daytripper</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Day Tripper</Source>
+      <Dest>Daytripper</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Bloodleaf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bloodleaf</Source>
+      <Dest>Bloodleaf</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FungusBrainIngredient01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Brain Fungus</Source>
+      <Dest>Hongo cerebral</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WeightBench</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Weight Bench</Source>
+      <Dest>Banco de pesas</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Soap01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Soap</Source>
+      <Dest>Jabón</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carpet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Alfombra</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeeCup01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Cup</Source>
+      <Dest>Taza de café</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pen01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pen</Source>
+      <Dest>Bolígrafo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RadioMicrophoneTable01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Microphone</Source>
+      <Dest>Micrófono</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Beercrate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Crate</Source>
+      <Dest>Caja</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BeerBottleFull01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Beer</Source>
+      <Dest>Cerveza</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MilkBottleEmpty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bottle</Source>
+      <Dest>Botella</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignEmployeesHandWash01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignBiohazard02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>Letrero</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Mentats</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mentats</Source>
+      <Dest>Mentats</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clothingrack_01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rack</Source>
+      <Dest>Triángulo</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Toothbrush_Prewar02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toothbrush</Source>
+      <Dest>Cepillo de dientes</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Toothbrush_Prewar</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toothbrush</Source>
+      <Dest>Cepillo de dientes</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clipboard</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clipboard</Source>
+      <Dest>Portapapeles</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficePaperDebrisSinglePg01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paper</Source>
+      <Dest>Papel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pencil</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pencil</Source>
+      <Dest>Lápiz</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster13</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster14</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster15</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster16</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster17</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster18</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CarpetRunner</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Alfombra</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToolRack01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tool Rack</Source>
+      <Dest>Porta herramientas</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToolRack02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tool Rack</Source>
+      <Dest>Porta herramientas</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DiamondRoofGreebPipes03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pipes</Source>
+      <Dest>Tuberías</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TrashcanMetalOffice01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Trash Bin</Source>
+      <Dest>Bote de basura</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Plunger</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Plunger</Source>
+      <Dest>Destapacaños</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_FloorMat_Small_01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Floor Mat</Source>
+      <Dest>Alfombrilla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_FloorMat_Medium_02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Floor Mat</Source>
+      <Dest>Alfombrilla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_StaticTerminal01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Terminal</Source>
+      <Dest>Terminal</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DecalDebris05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Table_01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BigAssShelf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Floor Mat</Source>
+      <Dest>Alfombrilla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Cardboard_Box_Empty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Box</Source>
+      <Dest>Caja</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FlatbedCart</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flatbed Cart</Source>
+      <Dest>Carrito de plataforma</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DecalDebris06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechDebris05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clock02_Wall</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clock</Source>
+      <Dest>Reloj</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ACDuctSm1Way01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>Escombros</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ClothesHanger01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clothes Hanger</Source>
+      <Dest>Gancho</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WeightBench</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bench</Source>
+      <Dest>Banco</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_ChemicalShower</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Shower</Source>
+      <Dest>Baño</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_MetalOfficeChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Silla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcBenchDinerIntBoothSit01WithTable02</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bench</Source>
+      <Dest>Banco</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcTableVaultSit02</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Table</Source>
+      <Dest>Mesa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CookingStation</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Cooking Stove</Source>
+      <Dest>Estufa</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Couch</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Couch</Source>
+      <Dest>Sofá</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Bunk01</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bed</Source>
+      <Dest>Cama</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerBed</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bed</Source>
+      <Dest>Cama</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_RailroadChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Silla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcChairVaultSit01</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Silla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WorkbenchPowerArmorSmall</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Power Armor Station</Source>
+      <Dest>Estación de servoarmaduras</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Bunk02</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bed</Source>
+      <Dest>Cama</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="4" idMax="6">TERM:ITXT</REC>
+      <Source>That&apos;s it!</Source>
+      <Dest>¡Se acabó!</Dest>
+    </String>
+    <String List="0">
+      <EDID>DmndPlayerHouse01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>Home Plate</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCity</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Diamond City</Source>
+      <Dest>Diamond City</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCityPlayerHouseMapMarker</EDID>
+      <REC>REFR:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>Home Plate</Dest>
+    </String>
+    <String List="0">
+      <EDID>FFDiamondCity02</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>Home Plate</Dest>
+    </String>
+    <String List="0">
+      <EDID>FFDiamondCity02</EDID>
+      <REC>QUST:NNAM</REC>
+      <Source>Visit your Home in Diamond City</Source>
+      <Dest>Visita tu hogar en Diamond City.</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCityPlayerHouseLocation</EDID>
+      <REC>LCTN:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>Home Plate</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
