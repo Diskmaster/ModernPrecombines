@@ -1,0 +1,1877 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>AlootHomePlate.esp</Addon>
+    <Source>en</Source>
+    <Dest>ja</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>ALOOT_HP_Sink</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Sink</Source>
+      <Dest>流し台</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Sink</EDID>
+      <REC>ACTI:ATTX</REC>
+      <Source>Drink</Source>
+      <Dest>飲む</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_IndoorWaterPurifier</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Water Purifier</Source>
+      <Dest>浄水器</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Generator</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Generator</Source>
+      <Dest>ジェネレータ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FederalistDresserShort01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>ドレッサー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_OfficeFileCabinet03_Steel</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>File Cabinet</Source>
+      <Dest>ファイルキャビネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_Locker_Wall02</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Ammo Box</Source>
+      <Dest>弾薬ボックス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CabinetGarage02</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Cabinet</Source>
+      <Dest>キャビネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CabinetGarage05</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Cabinet</Source>
+      <Dest>キャビネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_AmmoBox</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Ammo Box</Source>
+      <Dest>弾薬ボックス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WoodCrateContainer</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Wooden Crate</Source>
+      <Dest>木箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FootLocker</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Footlocker</Source>
+      <Dest>小型ロッカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_Locker_Wall01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>ロッカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_BasementDesk</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Desk</Source>
+      <Dest>机</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_FederalistDresser01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>ドレッサー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Vault_Dresser_01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>ドレッサー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Prewar_Locker_01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>ロッカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerHouse_Ruin_BathroomMirror02</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Mirror</Source>
+      <Dest>鏡</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_HighTechTallOrangeFilingCabinet</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Cabinet</Source>
+      <Dest>キャビネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_OfficeDesk01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Desk</Source>
+      <Dest>机</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerHouse_Ruin_Dryer01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dryer</Source>
+      <Dest>乾燥機</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerHouse_Ruin_Washer01</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Washer</Source>
+      <Dest>洗濯機</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_ModernDomesticDresser01Dirty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dresser</Source>
+      <Dest>ドレッサー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_HighTechDesk01_Dirty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Desk</Source>
+      <Dest>机</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Refrigerator</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Refrigerator</Source>
+      <Dest>冷蔵庫</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_VaultLocker</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>ロッカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_SlidingDoor</EDID>
+      <REC>DOOR:FULL</REC>
+      <Source>Door</Source>
+      <Dest>ドア</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carpet02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>ラグマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Typewriter_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Typewriter</Source>
+      <Dest>タイプライター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IndustrialMetalTableSmall01B</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AnchorStatic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Anchor</Source>
+      <Dest>アンカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_LifePreserver01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Life Preserver</Source>
+      <Dest>救命具</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CigaretteCarton</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cigarette Carton</Source>
+      <Dest>タバコのカートン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IndustrialMetalTableSmall01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CeilingLamp01ShortOn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceiling Lamp</Source>
+      <Dest>天井灯</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_Toilet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toilet</Source>
+      <Dest>便器</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting08</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleWine01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wine</Source>
+      <Dest>ワイン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster08</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster09</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster10</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster11</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster12</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeePot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Pot</Source>
+      <Dest>コーヒーポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HotPlate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hot Plate</Source>
+      <Dest>ホットプレート</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignTheaterPoster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NewspaperPublickOccurences</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Newspaper</Source>
+      <Dest>新聞</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_Lamp04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lamp</Source>
+      <Dest>ランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Camera01_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Camera</Source>
+      <Dest>カメラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HolotapeProp</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Holotape</Source>
+      <Dest>ホロテープ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Globe01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Globe</Source>
+      <Dest>地球儀</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OilCan_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Used Oil Can</Source>
+      <Dest>使用済みのオイル缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Nuclear</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Nuclear Material</Source>
+      <Dest>核物質</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_FiberOptic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fiber Optics</Source>
+      <Dest>光ファイバー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Ceramic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceramic</Source>
+      <Dest>セラミック</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Abraxo_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Abraxo</Source>
+      <Dest>アブラクシオ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBucket</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Metal Bucket</Source>
+      <Dest>金属バケツ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Rubber</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rubber</Source>
+      <Dest>ゴム</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MoleratHide</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Molerat Hide</Source>
+      <Dest>モールラットの皮</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Prewar_Locker_Empty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Locker</Source>
+      <Dest>ロッカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Asbestos</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Asbestos</Source>
+      <Dest>アスベスト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Abraxo</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Abraxo</Source>
+      <Dest>アブラクシオ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_T-45_LeftArm</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>T-45 Left Arm</Source>
+      <Dest>T-45 左腕</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Raider_LeftArm</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Left Arm</Source>
+      <Dest>左腕</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechDebris01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WrenchGarage01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wrench</Source>
+      <Dest>レンチ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BOSTechDocs</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Technical Document</Source>
+      <Dest>技術資料</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechDebris02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodCrate01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wood Crate</Source>
+      <Dest>木箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TriFoldFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flag</Source>
+      <Dest>旗</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OxygenTank</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Oxygen Tank</Source>
+      <Dest>酸素タンク</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MakeshiftBattery01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Makeshift Battery</Source>
+      <Dest>簡易バッテリー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clock01_Wall_Dest</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clock</Source>
+      <Dest>時計</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TerminalBroken02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Broken Terminal</Source>
+      <Dest>壊れたターミナル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Turpentine_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Turpentine</Source>
+      <Dest>ターペンタイン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToyTeddyBearDirty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Teddy Bear</Source>
+      <Dest>テディベア</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ScissorsBarber01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Scissors</Source>
+      <Dest>ハサミ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleWhiskey01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Whiskey</Source>
+      <Dest>ウィスキー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Bathrobe</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bathrobe</Source>
+      <Dest>バスローブ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodBasket</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wood Basket</Source>
+      <Dest>木製のバスケット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficeBoxPapers03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Files</Source>
+      <Dest>ファイル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficeBoxPapers01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Files</Source>
+      <Dest>ファイル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodCrate03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wood Crate</Source>
+      <Dest>木箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Mop01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mop</Source>
+      <Dest>モップ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ClothingIron</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clothing Iron</Source>
+      <Dest>アイロン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BobbyPinBox</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bobby Pin Box</Source>
+      <Dest>ヘアピンの箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting11</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PotsSauceLarge02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>ポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PotsFryingPan01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Frying Pan</Source>
+      <Dest>フライパン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BowlGlassEmpty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bowl</Source>
+      <Dest>ボウル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeePot01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Pot</Source>
+      <Dest>コーヒーポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CookingOil</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cooking Oil</Source>
+      <Dest>食用油</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeeTin01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Tin</Source>
+      <Dest>コーヒー缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleRum01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rum</Source>
+      <Dest>ラム酒</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleBourbon01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bourbon</Source>
+      <Dest>バーボン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BottleVodka01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vodka</Source>
+      <Dest>ウォッカ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_SaltShaker01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Salt Shaker</Source>
+      <Dest>ソルトシェイカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_PepperMill01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pepper Mill</Source>
+      <Dest>ペッパーミル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NapkinClean01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Napkin</Source>
+      <Dest>ナプキン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pot_EmptyLarge</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>ポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_CakePan01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cake Pan</Source>
+      <Dest>ケーキ型</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPan</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>ポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>ポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_Collander</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Collander</Source>
+      <Dest>水切り用ボウル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OvenMitt</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Oven Mitt</Source>
+      <Dest>オーブン・ミトン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DrinkingGlass</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Drinking Glass</Source>
+      <Dest>グラス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Teapot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Teapot</Source>
+      <Dest>ティーポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Fork</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fork</Source>
+      <Dest>フォーク</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Knife</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Knife</Source>
+      <Dest>ナイフ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Cram</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cram</Source>
+      <Dest>肉詰め</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_InstaMash</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>InstaMash</Source>
+      <Dest>即席ポテト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_YumYumDeviledEggs</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Yum Yum Deviled Eggs</Source>
+      <Dest>ヤムヤム・デビルエッグ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Tato</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tato</Source>
+      <Dest>テイト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericBowl</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bowl</Source>
+      <Dest>ボウル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HelmetHeavyGO</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Synth Helmet</Source>
+      <Dest>シンスヘルメット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BurntBook02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Burnt Book</Source>
+      <Dest>焼けた本</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BurntBook01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Burnt Book</Source>
+      <Dest>焼けた本</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FeatherDuster</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Feather Duster</Source>
+      <Dest>はたき</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BaseballGlove</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Baseball Glove</Source>
+      <Dest>野球のグローブ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Baseball</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Baseball</Source>
+      <Dest>野球ボール</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Chessboard01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Chessboard</Source>
+      <Dest>チェス盤</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToyTruck01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toy Truck</Source>
+      <Dest>オモチャのトラック</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Table_02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SugarBombCereal</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sugar Bombs</Source>
+      <Dest>シュガーボム</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Blue</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>ペンキ缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Yellow</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>ペンキ缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Red</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>ペンキ缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PaintBucket_Green</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Can</Source>
+      <Dest>ペンキ缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FlatbedCart_Small</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flatbed Cart</Source>
+      <Dest>平台カート</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Corn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Corn</Source>
+      <Dest>トウモロコシ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Gourd</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Gourd</Source>
+      <Dest>ゴード</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carrot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Carrot</Source>
+      <Dest>ニンジン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Melon</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Melon</Source>
+      <Dest>スイカ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignTheaterPoster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignTheaterPoster04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Hoe</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hoe</Source>
+      <Dest>くわ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Shovel</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Shovel</Source>
+      <Dest>シャベル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NukaRug01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>ラグマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster08</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster09</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting09</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistryShelf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Shelf</Source>
+      <Dest>棚</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPoster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GenericPosterGroup03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_JoinOrDie01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>布</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>布</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>布</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MuseumBanner05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>バナー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RaiderCampTentCloth04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cloth</Source>
+      <Dest>布</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Rubble_Pile_Debris_07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Billboard06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerBaseball2004</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>バナー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerBaseball1986</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>バナー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerBaseball1903</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>バナー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FlagpoleUSA01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flag</Source>
+      <Dest>旗</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SubLight02Hanging</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceiling Light</Source>
+      <Dest>天井用照明</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignMassFusion01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CeilingLamp01On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ceiling Lamp</Source>
+      <Dest>天井灯</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ExitSignOn01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Exit Sign</Source>
+      <Dest>出口の看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FluorescentLightThin01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fluorescent Light</Source>
+      <Dest>蛍光灯</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ModernDomesticSideTableLrg01_DirtyStatic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RedPlate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Red Plate</Source>
+      <Dest>赤い皿</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_YellowPlate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Yellow Plate</Source>
+      <Dest>黄色い皿</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MuseumBanner04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Banner</Source>
+      <Dest>バナー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting10</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AlarmClock</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Alarm Clock</Source>
+      <Dest>目覚まし時計</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CementBag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wooden Crate</Source>
+      <Dest>木箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GasolineCanister</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Gas Canister</Source>
+      <Dest>ガスキャニスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MS19Coolant</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coolant</Source>
+      <Dest>冷却材</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Coolant_Empty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Empty Coolant</Source>
+      <Dest>空の冷却材</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FertilizerBag01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bag of Fertilizer</Source>
+      <Dest>肥料の袋</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BinPlastic</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Plastic Bin</Source>
+      <Dest>プラスチック製のゴミ箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IvBag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>IV Bag</Source>
+      <Dest>IVバッグ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetCan01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Aluminum Canister</Source>
+      <Dest>アルミキャニスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetBottle01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lab Bottle</Source>
+      <Dest>ラボのビン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetBeaker02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Thin Beaker</Source>
+      <Dest>小ビーカー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetBeaker03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Chemistry Jar</Source>
+      <Dest>ケミストリージャー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetCan02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Oil Canister</Source>
+      <Dest>オイルキャニスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Bottle01Empty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Liquor Bottle</Source>
+      <Dest>酒のビン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_KitchenScale01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Kitchen Scale</Source>
+      <Dest>キッチン用計量器</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BioMedicalScanner</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Biometric Scanner</Source>
+      <Dest>バイオメトリック・スキャナー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SurgicalTray</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Surgical Tray</Source>
+      <Dest>手術用トレー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ChemistrySetCan03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Industrial Oil Canister</Source>
+      <Dest>工業用オイルキャニスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_EnamelBucket</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Enamel Bucket</Source>
+      <Dest>エナメルバケツ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BrahminSkull</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Brahmin Skull</Source>
+      <Dest>バラモンのガイコツ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OilCan</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Used Oil Can</Source>
+      <Dest>使用済みのオイル缶</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Component_Glass</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Glass</Source>
+      <Dest>ガラス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weights_Barbell02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>80lb Barbell</Source>
+      <Dest>80ポンド・バーベル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weights_Dumbbell01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>20lb Dumbbell</Source>
+      <Dest>20ポンドのダンベル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weights_Barbell03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>40lb Barbell</Source>
+      <Dest>40ポンド・バーベル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weight01_25lb</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>25lb Weight</Source>
+      <Dest>25ポンドの重り</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weight01_10lb</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>10lb Weight</Source>
+      <Dest>10ポンドの重り</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Weight01_5lb</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>5lb Weight</Source>
+      <Dest>5ポンドの重り</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PosterWanted01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FolderPapers01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Folder</Source>
+      <Dest>フォルダー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficePaperDebrisSinglePg04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paper</Source>
+      <Dest>紙</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficePaperDebrisSinglePg03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paper</Source>
+      <Dest>紙</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AdvertsPoster02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_Lamp03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lamp</Source>
+      <Dest>ランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Painting07</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Painting</Source>
+      <Dest>絵</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>バレル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>バレル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Calendar</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Calendar</Source>
+      <Dest>カレンダー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_GreenHouseTable</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RadX</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rad-X</Source>
+      <Dest>RAD-X</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WastelandFungusStalkIngredient01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Glowing Fungus</Source>
+      <Dest>発光キノコ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Tarberry</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tarberry</Source>
+      <Dest>タールベリー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Thistle</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Thistle</Source>
+      <Dest>アザミ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Hubflower</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hubflower</Source>
+      <Dest>ハブフラワー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Jet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Jet</Source>
+      <Dest>ジェット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Psycho</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Psycho</Source>
+      <Dest>サイコ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BuffOut</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Buffout</Source>
+      <Dest>バファウト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Daytripper</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Day Tripper</Source>
+      <Dest>デイトリッパー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Bloodleaf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bloodleaf</Source>
+      <Dest>ブラッドリーフ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FungusBrainIngredient01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Brain Fungus</Source>
+      <Dest>脳みそキノコ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WeightBench</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Weight Bench</Source>
+      <Dest>ウェイトベンチ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Soap01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Soap</Source>
+      <Dest>石鹸</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carpet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>ラグマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pen01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pen</Source>
+      <Dest>ペン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_RadioMicrophoneTable01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Microphone</Source>
+      <Dest>マイク</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Beercrate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Crate</Source>
+      <Dest>箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BeerBottleFull01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Beer</Source>
+      <Dest>ビール</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MilkBottleEmpty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bottle</Source>
+      <Dest>ビン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignEmployeesHandWash01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SignBiohazard02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Sign</Source>
+      <Dest>看板</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Mentats</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mentats</Source>
+      <Dest>メンタス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clothingrack_01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rack</Source>
+      <Dest>ラック</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Toothbrush_Prewar02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toothbrush</Source>
+      <Dest>歯ブラシ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Toothbrush_Prewar</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toothbrush</Source>
+      <Dest>歯ブラシ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clipboard</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clipboard</Source>
+      <Dest>クリップボード</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_OfficePaperDebrisSinglePg01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paper</Source>
+      <Dest>紙</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pencil</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pencil</Source>
+      <Dest>えんぴつ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster13</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster14</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster15</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster16</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster17</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Poster18</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Poster</Source>
+      <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CarpetRunner</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>ラグマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToolRack01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tool Rack</Source>
+      <Dest>工具棚</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToolRack02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tool Rack</Source>
+      <Dest>工具棚</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DiamondRoofGreebPipes03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pipes</Source>
+      <Dest>パイプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TrashcanMetalOffice01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Trash Bin</Source>
+      <Dest>ゴミ箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Plunger</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Plunger</Source>
+      <Dest>プランジャー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_FloorMat_Small_01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Floor Mat</Source>
+      <Dest>フロアマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_FloorMat_Medium_02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Floor Mat</Source>
+      <Dest>フロアマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_StaticTerminal01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Terminal</Source>
+      <Dest>ターミナル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DecalDebris05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Table_01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BigAssShelf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Floor Mat</Source>
+      <Dest>フロアマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Cardboard_Box_Empty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Box</Source>
+      <Dest>箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FlatbedCart</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flatbed Cart</Source>
+      <Dest>平台カート</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DecalDebris06</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechDebris05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Clock02_Wall</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clock</Source>
+      <Dest>時計</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ACDuctSm1Way01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Debris</Source>
+      <Dest>がらくた</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ClothesHanger01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clothes Hanger</Source>
+      <Dest>洋服ハンガー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WeightBench</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bench</Source>
+      <Dest>ベンチ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_ChemicalShower</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Shower</Source>
+      <Dest>シャワー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_MetalOfficeChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>イス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcBenchDinerIntBoothSit01WithTable02</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bench</Source>
+      <Dest>ベンチ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcTableVaultSit02</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Table</Source>
+      <Dest>テーブル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CookingStation</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Cooking Stove</Source>
+      <Dest>コンロ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Couch</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Couch</Source>
+      <Dest>ソファー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Bunk01</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bed</Source>
+      <Dest>ベッド</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_PlayerBed</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bed</Source>
+      <Dest>ベッド</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_RailroadChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>イス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcChairVaultSit01</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>イス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WorkbenchPowerArmorSmall</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Power Armor Station</Source>
+      <Dest>パワーアーマーステーション</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Bunk02</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Bed</Source>
+      <Dest>ベッド</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="4" idMax="6">TERM:ITXT</REC>
+      <Source>That&apos;s it!</Source>
+      <Dest>終わりだ！</Dest>
+    </String>
+    <String List="0">
+      <EDID>DmndPlayerHouse01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>ホームプレート</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCity</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Diamond City</Source>
+      <Dest>ダイアモンドシティ</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCityPlayerHouseMapMarker</EDID>
+      <REC>REFR:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>ホームプレート</Dest>
+    </String>
+    <String List="0">
+      <EDID>FFDiamondCity02</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>Home Plate</Dest>
+    </String>
+    <String List="0">
+      <EDID>FFDiamondCity02</EDID>
+      <REC>QUST:NNAM</REC>
+      <Source>Visit your Home in Diamond City</Source>
+      <Dest>ダイアモンドシティの自宅に行く</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCityPlayerHouseLocation</EDID>
+      <REC>LCTN:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>ホームプレート</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
