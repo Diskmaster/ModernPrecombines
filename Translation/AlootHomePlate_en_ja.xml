@@ -7,6 +7,46 @@
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="1">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>Aloot</Source>
+      <Dest>Aloot</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Aloot&apos;s Home Plate 2.2 PRP Edition
+
+https://www.nexusmods.com/fallout4/mods/44101</Source>
+      <Dest>Aloot&apos;s Home Plate 2.2 PRP Edition
+
+https://www.nexusmods.com/fallout4/mods/44101</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>ALOOT_HP_ShowerFortifyCharisma</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Fortify:Charisma_Shower</Source>
+      <Dest>Fortify:Charisma_Shower</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>ALOOT_HP_ShowerSpell</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Out of the Shower</Source>
+      <Dest>Out of the Shower</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_DCRadio01</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Radio</Source>
+      <Dest>ラジオ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_DCRadio02</EDID>
+      <REC>ACTI:FULL</REC>
+      <Source>Radio</Source>
+      <Dest>ラジオ</Dest>
+    </String>
     <String List="0">
       <EDID>ALOOT_HP_Sink</EDID>
       <REC>ACTI:FULL</REC>
@@ -38,6 +78,30 @@
       <Dest>ドレッサー</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_DogArmorTrunk</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Dog Armor Trunk</Source>
+      <Dest>犬用アーマートランク</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HomePlate_WorkshopWorkbench</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Workshop</Source>
+      <Dest>ワークショップ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_SteamerTrunkVault81</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Armor Storage</Source>
+      <Dest>防具保管庫</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_SteamerTrunk2</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Weapon Storage</Source>
+      <Dest>武器保管庫</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_OfficeFileCabinet03_Steel</EDID>
       <REC>CONT:FULL</REC>
       <Source>File Cabinet</Source>
@@ -47,7 +111,7 @@
       <EDID>ALOOT_HP_Prewar_Locker_Wall02</EDID>
       <REC>CONT:FULL</REC>
       <Source>Ammo Box</Source>
-      <Dest>弾薬ボックス</Dest>
+      <Dest>弾薬箱</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_CabinetGarage02</EDID>
@@ -65,13 +129,13 @@
       <EDID>ALOOT_HP_AmmoBox</EDID>
       <REC>CONT:FULL</REC>
       <Source>Ammo Box</Source>
-      <Dest>弾薬ボックス</Dest>
+      <Dest>弾薬箱</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_WoodCrateContainer</EDID>
       <REC>CONT:FULL</REC>
       <Source>Wooden Crate</Source>
-      <Dest>木箱</Dest>
+      <Dest>木枠</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_FootLocker</EDID>
@@ -110,6 +174,12 @@
       <Dest>ロッカー</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_Prewar_TrashCan_Empty</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Trash Can</Source>
+      <Dest>ごみ箱</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_PlayerHouse_Ruin_BathroomMirror02</EDID>
       <REC>CONT:FULL</REC>
       <Source>Mirror</Source>
@@ -128,10 +198,22 @@
       <Dest>机</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_FirstAidHanging</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>First Aid</Source>
+      <Dest>応急処置</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Safe</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Safe</Source>
+      <Dest>金庫</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_PlayerHouse_Ruin_Dryer01</EDID>
       <REC>CONT:FULL</REC>
       <Source>Dryer</Source>
-      <Dest>乾燥機</Dest>
+      <Dest>ドライヤー</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_PlayerHouse_Ruin_Washer01</EDID>
@@ -173,13 +255,19 @@
       <EDID>ALOOT_Static_Carpet02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Rug</Source>
-      <Dest>ラグマット</Dest>
+      <Dest>ラグ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Poster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
       <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>DinerIntCounter01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Diner Counter</Source>
+      <Dest>ダイナーカウンター</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_GenericPoster04</EDID>
@@ -215,19 +303,19 @@
       <EDID>ALOOT_Static_Painting02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Billboard02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Painting03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_GenericPosterGroup06</EDID>
@@ -263,7 +351,19 @@
       <EDID>ALOOT_Static_Painting05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Missile</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Missile</Source>
+      <Dest>ミサイル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DeskTopPicture01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Picture</Source>
+      <Dest>写真</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Poster07</EDID>
@@ -281,13 +381,19 @@
       <EDID>ALOOT_Static_Painting06</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CigaretteCarton</EDID>
       <REC>STAT:FULL</REC>
       <Source>Cigarette Carton</Source>
       <Dest>タバコのカートン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DogmeatShelf</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Dog Shelf</Source>
+      <Dest>ドッグシェルフ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_IndustrialMetalTableSmall01</EDID>
@@ -299,25 +405,43 @@
       <EDID>ALOOT_Static_CeilingLamp01ShortOn</EDID>
       <REC>STAT:FULL</REC>
       <Source>Ceiling Lamp</Source>
-      <Dest>天井灯</Dest>
+      <Dest>シーリングランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FireExtinguisherHolder</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fire Extinguisher Holder</Source>
+      <Dest>消火器フォルダー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FireExtinguisher</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fire Extinguisher</Source>
+      <Dest>消火器</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_PlayerHouse_Ruin_Toilet01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Toilet</Source>
-      <Dest>便器</Dest>
+      <Dest>トイレ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Painting04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Painting08</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Key02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Key</Source>
+      <Dest>キー</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BottleWine01</EDID>
@@ -386,6 +510,12 @@
       <Dest>ポスター</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Curtains02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Curtains</Source>
+      <Dest>カーテン</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_CoffeePot</EDID>
       <REC>STAT:FULL</REC>
       <Source>Coffee Pot</Source>
@@ -407,13 +537,19 @@
       <EDID>ALOOT_Static_NewspaperPublickOccurences</EDID>
       <REC>STAT:FULL</REC>
       <Source>Newspaper</Source>
-      <Dest>新聞</Dest>
+      <Dest>新聞紙</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_PlayerHouse_Ruin_Lamp04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Lamp</Source>
       <Dest>ランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Curtains01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Curtains</Source>
+      <Dest>カーテン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Camera01_Rare</EDID>
@@ -434,16 +570,46 @@
       <Dest>地球儀</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_AshTray</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ash Tray</Source>
+      <Dest>灰皿</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Holofilm</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Holofilm</Source>
+      <Dest>ホロフィルム</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_OilCan_Rare</EDID>
       <REC>STAT:FULL</REC>
       <Source>Used Oil Can</Source>
       <Dest>使用済みのオイル缶</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_VaseVintageCleanFlowers02c</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flowers</Source>
+      <Dest>花</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_VaseVintageCleanFlowers01e</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flowers</Source>
+      <Dest>花</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Component_Nuclear</EDID>
       <REC>STAT:FULL</REC>
       <Source>Nuclear Material</Source>
       <Dest>核物質</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Pillow01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pillow</Source>
+      <Dest>枕</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Component_FiberOptic</EDID>
@@ -482,16 +648,34 @@
       <Dest>モールラットの皮</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_T-51_Helmet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>T-51 Helmet</Source>
+      <Dest>T-51 ヘルメット</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Prewar_Locker_Empty01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Locker</Source>
       <Dest>ロッカー</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_AntiFreeze_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Anti Freeze</Source>
+      <Dest>不凍液</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AntiFreeze</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Anti Freeze</Source>
+      <Dest>不凍液</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Component_Asbestos</EDID>
       <REC>STAT:FULL</REC>
       <Source>Asbestos</Source>
-      <Dest>アスベスト</Dest>
+      <Dest>石綿</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Abraxo</EDID>
@@ -500,10 +684,40 @@
       <Dest>アブラクシオ</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_BlowTorch_Rare</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Blow Torch</Source>
+      <Dest>トーチランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_T-45_Body</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>T-45 Torso</Source>
+      <Dest>T-45 胴体</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_T-45_Helmet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>T-45 Helmet</Source>
+      <Dest>T-45 ヘルメット</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_T-45_LeftArm</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-45 Left Arm</Source>
       <Dest>T-45 左腕</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Raider_Torso</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raider Torso</Source>
+      <Dest>レイダーの胴体</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Raider_Helmet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Raider Helmet</Source>
+      <Dest>レイダーのヘルメット</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Raider_LeftArm</EDID>
@@ -512,10 +726,16 @@
       <Dest>左腕</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Component_FiberGlass</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Fiber Glass</Source>
+      <Dest>ファイバーグラス</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_HighTechDebris01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_WrenchGarage01</EDID>
@@ -530,16 +750,94 @@
       <Dest>技術資料</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_InstR03BluePrint</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Institute Blue Print</Source>
+      <Dest>インスティチュート用塗装(ブルー)</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_HighTechDebris02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageLight01On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageBulbWire02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageBulbWire03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WallEmergencyLight01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ConstructionLight_StandingOn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Crate_03_Beige</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vault Crate</Source>
+      <Dest>金庫枠</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Crate_01_Red</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vault Crate</Source>
+      <Dest>金庫枠</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_WoodCrate01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Wood Crate</Source>
-      <Dest>木箱</Dest>
+      <Dest>木製の木枠</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Crate_01_Steel</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vault Crate</Source>
+      <Dest>金庫枠</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Crate_04_Steel</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vault Crate</Source>
+      <Dest>金庫枠</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DCGuardHelmet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>DC Guard Helmet</Source>
+      <Dest>DCガード・ヘルメット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DCGuardTorsoArmor</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>DC Guard Torso Armor</Source>
+      <Dest>DCガード・胴体アーマー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_VltXmasLightsLine04Half</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_TriFoldFlag</EDID>
@@ -551,7 +849,13 @@
       <EDID>ALOOT_Static_OxygenTank</EDID>
       <REC>STAT:FULL</REC>
       <Source>Oxygen Tank</Source>
-      <Dest>酸素タンク</Dest>
+      <Dest>酸素ボンベ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BarrelFlammableVert</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Gas Tank</Source>
+      <Dest>ガスボンベ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_MakeshiftBattery01</EDID>
@@ -566,10 +870,22 @@
       <Dest>時計</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_ProtectronDebris3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Protectron Debris</Source>
+      <Dest>プロテクトロンの砕片</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_TerminalBroken02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Broken Terminal</Source>
       <Dest>壊れたターミナル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CottonYarnSpool</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Yarn</Source>
+      <Dest>糸</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Turpentine_Rare</EDID>
@@ -584,6 +900,12 @@
       <Dest>テディベア</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_NukaColaBottleEmpty</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Empty Nuka Bottle</Source>
+      <Dest>空のヌカコーラのビン</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_ScissorsBarber01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Scissors</Source>
@@ -596,6 +918,30 @@
       <Dest>ウィスキー</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Lighter</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Lighter</Source>
+      <Dest>ライター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CigarCarton</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cigar Carton</Source>
+      <Dest>葉巻のカートン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Shotglass</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Shotglass</Source>
+      <Dest>ショットグラス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DressGO</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Dress</Source>
+      <Dest>ドレス</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Bathrobe</EDID>
       <REC>STAT:FULL</REC>
       <Source>Bathrobe</Source>
@@ -605,7 +951,13 @@
       <EDID>ALOOT_Static_WoodBasket</EDID>
       <REC>STAT:FULL</REC>
       <Source>Wood Basket</Source>
-      <Dest>木製のバスケット</Dest>
+      <Dest>木のバスケット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Vault_Crate_03_Steel</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Vault Crate</Source>
+      <Dest>金庫枠</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_OfficeBoxPapers03</EDID>
@@ -623,13 +975,19 @@
       <EDID>ALOOT_Static_WoodCrate03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Wood Crate</Source>
-      <Dest>木箱</Dest>
+      <Dest>木製の木枠</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Mop01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Mop</Source>
       <Dest>モップ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IroningBoard</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ironing Board</Source>
+      <Dest>アイロン台</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ClothingIron</EDID>
@@ -647,7 +1005,7 @@
       <EDID>ALOOT_Static_Painting11</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_PotsSauceLarge02</EDID>
@@ -656,10 +1014,22 @@
       <Dest>ポット</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_DishDirty01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Dirty Dish</Source>
+      <Dest>汚れた皿</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_PotsFryingPan01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Frying Pan</Source>
       <Dest>フライパン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DeathclawOmelette</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Deathclaw Omelette</Source>
+      <Dest>デスクローオムレツ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BowlGlassEmpty</EDID>
@@ -672,6 +1042,12 @@
       <REC>STAT:FULL</REC>
       <Source>Coffee Pot</Source>
       <Dest>コーヒーポット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Cuttingboard</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Cuttingboard</Source>
+      <Dest>まな板</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CookingOil</EDID>
@@ -758,6 +1134,12 @@
       <Dest>オーブン・ミトン</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Dish03LargeClean</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Clean Dish</Source>
+      <Dest>綺麗な皿</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_DrinkingGlass</EDID>
       <REC>STAT:FULL</REC>
       <Source>Drinking Glass</Source>
@@ -782,6 +1164,18 @@
       <Dest>ナイフ</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Spoon</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Spoon</Source>
+      <Dest>スプーン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BlamcoMacAndCheese</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Blamco Mac And Cheese</Source>
+      <Dest>新品のマカロニ&amp;チーズ</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Cram</EDID>
       <REC>STAT:FULL</REC>
       <Source>Cram</Source>
@@ -803,7 +1197,7 @@
       <EDID>ALOOT_Static_Billboard03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Tato</EDID>
@@ -816,6 +1210,12 @@
       <REC>STAT:FULL</REC>
       <Source>Bowl</Source>
       <Dest>ボウル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MutFruit</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>MutFruit</Source>
+      <Dest>マットフルーツ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_HelmetHeavyGO</EDID>
@@ -842,22 +1242,64 @@
       <Dest>はたき</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_ModCrate</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mod Crate</Source>
+      <Dest>Mod箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Modbox</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Mod Box</Source>
+      <Dest>Modボックス</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_TerminalAddition01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Terminal Addition</Source>
+      <Dest>追加端末</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BattingHelmet</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Batting Helmet</Source>
+      <Dest>バッティングヘルメット</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_BaseballGlove</EDID>
       <REC>STAT:FULL</REC>
       <Source>Baseball Glove</Source>
-      <Dest>野球のグローブ</Dest>
+      <Dest>野球グローブ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Baseball</EDID>
       <REC>STAT:FULL</REC>
       <Source>Baseball</Source>
-      <Dest>野球ボール</Dest>
+      <Dest>野球</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BoardGame01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Board Game</Source>
+      <Dest>ボードゲーム</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Chessboard01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Chessboard</Source>
       <Dest>チェス盤</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Jangles01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Jangles</Source>
+      <Dest>ジャングル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToyRocket01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toy Rocket</Source>
+      <Dest>オモチャのロケット</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ToyTruck01</EDID>
@@ -870,6 +1312,18 @@
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
       <Dest>ポスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ToyBin</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toy Bin</Source>
+      <Dest>オモチャ箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BowlingBall01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Bowling Ball</Source>
+      <Dest>ボウリングボール</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AdvertsPoster05</EDID>
@@ -893,7 +1347,7 @@
       <EDID>ALOOT_Static_Billboard01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Vault_Table_02</EDID>
@@ -932,10 +1386,16 @@
       <Dest>ペンキ缶</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_PaintBrush</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Paint Brush</Source>
+      <Dest>ペイントブラシ</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_FlatbedCart_Small</EDID>
       <REC>STAT:FULL</REC>
       <Source>Flatbed Cart</Source>
-      <Dest>平台カート</Dest>
+      <Dest>平台車</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Corn</EDID>
@@ -983,13 +1443,13 @@
       <EDID>ALOOT_Static_Billboard04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Hoe</EDID>
       <REC>STAT:FULL</REC>
       <Source>Hoe</Source>
-      <Dest>くわ</Dest>
+      <Dest>鍬</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Shovel</EDID>
@@ -1001,13 +1461,13 @@
       <EDID>ALOOT_Static_Billboard05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_NukaRug01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Rug</Source>
-      <Dest>ラグマット</Dest>
+      <Dest>ラグ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AdvertsPoster08</EDID>
@@ -1022,10 +1482,28 @@
       <Dest>ポスター</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_DeskTopPicture02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Picture</Source>
+      <Dest>写真</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DeskTopPicture03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Picture</Source>
+      <Dest>写真</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DeskTopPicture04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Picture</Source>
+      <Dest>写真</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Painting09</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ChemistryShelf</EDID>
@@ -1064,6 +1542,12 @@
       <Dest>ポスター</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_SuperMutantCampNet02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Net</Source>
+      <Dest>ネット</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_RaiderCampTentCloth07</EDID>
       <REC>STAT:FULL</REC>
       <Source>Cloth</Source>
@@ -1097,13 +1581,43 @@
       <EDID>ALOOT_Static_Rubble_Pile_Debris_07</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SubLight01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SuperMutantCampNet05</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Net</Source>
+      <Dest>ネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SuperMutantCampNet03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Net</Source>
+      <Dest>ネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SuperMutantCampNet04</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Net</Source>
+      <Dest>ネット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SuperMutantCampNet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Net</Source>
+      <Dest>ネット</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Billboard06</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BannerBaseball2004</EDID>
@@ -1133,25 +1647,37 @@
       <EDID>ALOOT_Static_SubLight02Hanging</EDID>
       <REC>STAT:FULL</REC>
       <Source>Ceiling Light</Source>
-      <Dest>天井用照明</Dest>
+      <Dest>シーリングライト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_SignMassFusion01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CeilingLamp01On</EDID>
       <REC>STAT:FULL</REC>
       <Source>Ceiling Lamp</Source>
-      <Dest>天井灯</Dest>
+      <Dest>シーリングランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_LighrRedChain01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechLightCeiling01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ExitSignOn01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Exit Sign</Source>
-      <Dest>出口の看板</Dest>
+      <Dest>出口標識</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_FluorescentLightThin01</EDID>
@@ -1160,22 +1686,52 @@
       <Dest>蛍光灯</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_SubLight03Wall</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_ModernDomesticSideTableLrg01_DirtyStatic</EDID>
       <REC>STAT:FULL</REC>
       <Source>Table</Source>
       <Dest>テーブル</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Placemat01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Placemat</Source>
+      <Dest>ランチョンマット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HoodedLamp03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Hooded Lamp</Source>
+      <Dest>フード付きランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CarpetCementDivider</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>FloorTrim</Source>
+      <Dest>フロアトリム</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_RedPlate</EDID>
       <REC>STAT:FULL</REC>
       <Source>Red Plate</Source>
-      <Dest>赤い皿</Dest>
+      <Dest>レッドプレート</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_YellowPlate</EDID>
       <REC>STAT:FULL</REC>
       <Source>Yellow Plate</Source>
-      <Dest>黄色い皿</Dest>
+      <Dest>イエロープレート</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_IndCatLight02On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_MuseumBanner04</EDID>
@@ -1187,7 +1743,31 @@
       <EDID>ALOOT_Static_Painting10</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_LightbulbOn01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Curtains03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Curtains</Source>
+      <Dest>カーテン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_CurtainRod01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Curtain Rod</Source>
+      <Dest>カーテンロッド</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechLightCeiling04_Dirty_Orange_On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>ライト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AlarmClock</EDID>
@@ -1199,7 +1779,7 @@
       <EDID>ALOOT_Static_CementBag</EDID>
       <REC>STAT:FULL</REC>
       <Source>Wooden Crate</Source>
-      <Dest>木箱</Dest>
+      <Dest>木枠</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_GasolineCanister</EDID>
@@ -1220,6 +1800,12 @@
       <Dest>空の冷却材</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Component_Acid</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Acid</Source>
+      <Dest>酸</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_FertilizerBag01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Bag of Fertilizer</Source>
@@ -1229,7 +1815,7 @@
       <EDID>ALOOT_Static_BinPlastic</EDID>
       <REC>STAT:FULL</REC>
       <Source>Plastic Bin</Source>
-      <Dest>プラスチック製のゴミ箱</Dest>
+      <Dest>プラスチック容器</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_IvBag</EDID>
@@ -1319,55 +1905,61 @@
       <EDID>ALOOT_Static_Component_Glass</EDID>
       <REC>STAT:FULL</REC>
       <Source>Glass</Source>
-      <Dest>ガラス</Dest>
+      <Dest>メガネ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Weights_Barbell02</EDID>
       <REC>STAT:FULL</REC>
       <Source>80lb Barbell</Source>
-      <Dest>80ポンド・バーベル</Dest>
+      <Dest>80lb バーベル</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Weights_Dumbbell01</EDID>
       <REC>STAT:FULL</REC>
       <Source>20lb Dumbbell</Source>
-      <Dest>20ポンドのダンベル</Dest>
+      <Dest>20lb ダンベル</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Weights_Barbell03</EDID>
       <REC>STAT:FULL</REC>
       <Source>40lb Barbell</Source>
-      <Dest>40ポンド・バーベル</Dest>
+      <Dest>40lb バーベル</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Weight01_25lb</EDID>
       <REC>STAT:FULL</REC>
       <Source>25lb Weight</Source>
-      <Dest>25ポンドの重り</Dest>
+      <Dest>25lb ウェイト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Weight01_10lb</EDID>
       <REC>STAT:FULL</REC>
       <Source>10lb Weight</Source>
-      <Dest>10ポンドの重り</Dest>
+      <Dest>10lb ウェイト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Weight01_5lb</EDID>
       <REC>STAT:FULL</REC>
       <Source>5lb Weight</Source>
-      <Dest>5ポンドの重り</Dest>
+      <Dest>5lb ウェイト</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Painting01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_PosterWanted01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_BathroomShaveDrawer01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Shave Drawer</Source>
+      <Dest>シェービングドロワー</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_FolderPapers01</EDID>
@@ -1409,7 +2001,13 @@
       <EDID>ALOOT_Static_Painting07</EDID>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
-      <Dest>絵</Dest>
+      <Dest>描画</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_QuebecFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Le Drapeau du Québec</Source>
+      <Dest>ケベック州旗</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_MetalBarrel01</EDID>
@@ -1430,16 +2028,34 @@
       <Dest>カレンダー</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_MemDenHangingCloth01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Curtain</Source>
+      <Dest>カーテン</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_GreenHouseTable</EDID>
       <REC>STAT:FULL</REC>
       <Source>Table</Source>
       <Dest>テーブル</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_BloodPack</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>BloodPack</Source>
+      <Dest>血液パック</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Radaway</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Radaway</Source>
+      <Dest>RADアウェイ</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_RadX</EDID>
       <REC>STAT:FULL</REC>
       <Source>Rad-X</Source>
-      <Dest>RAD-X</Dest>
+      <Dest>Rad-X</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_WastelandFungusStalkIngredient01</EDID>
@@ -1476,6 +2092,12 @@
       <REC>STAT:FULL</REC>
       <Source>Psycho</Source>
       <Dest>サイコ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Stimpack01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Stimpack</Source>
+      <Dest>スティムパック</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BuffOut</EDID>
@@ -1517,7 +2139,25 @@
       <EDID>ALOOT_Static_Carpet01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Rug</Source>
-      <Dest>ラグマット</Dest>
+      <Dest>ラグ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Plant01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Plant</Source>
+      <Dest>植物</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PoliceGlasses</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Police Glasses</Source>
+      <Dest>警官のメガネ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CoffeeCup01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Coffee Cup</Source>
+      <Dest>コーヒーカップ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Pen01</EDID>
@@ -1529,13 +2169,31 @@
       <EDID>ALOOT_Static_RadioMicrophoneTable01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Microphone</Source>
-      <Dest>マイク</Dest>
+      <Dest>マイクロフォン</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_VaseVintageCleanFlowers03e</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flowers</Source>
+      <Dest>花</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_VaseVintageCleanFlowers02b</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Flowers</Source>
+      <Dest>花</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_FilmProjector</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Film Projector</Source>
+      <Dest>映写機</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Beercrate</EDID>
       <REC>STAT:FULL</REC>
       <Source>Crate</Source>
-      <Dest>箱</Dest>
+      <Dest>枠</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BeerBottleFull01</EDID>
@@ -1553,13 +2211,13 @@
       <EDID>ALOOT_Static_SignEmployeesHandWash01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_SignBiohazard02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
-      <Dest>看板</Dest>
+      <Dest>サイン</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Mentats</EDID>
@@ -1574,6 +2232,12 @@
       <Dest>ラック</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Toothpaste_Prewar</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Tooth Paste</Source>
+      <Dest>歯磨き粉</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Toothbrush_Prewar02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Toothbrush</Source>
@@ -1584,6 +2248,24 @@
       <REC>STAT:FULL</REC>
       <Source>Toothbrush</Source>
       <Dest>歯ブラシ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_BathroomSoapTray01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Soap Tray</Source>
+      <Dest>石けんトレー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_Ruin_BathroomHook02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Towel Hook</Source>
+      <Dest>タオルフック</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_PlayerHouse_BathroomDispenser01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Toilet Paper</Source>
+      <Dest>トイレットペーパー</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Clipboard</EDID>
@@ -1601,7 +2283,7 @@
       <EDID>ALOOT_Static_Pencil</EDID>
       <REC>STAT:FULL</REC>
       <Source>Pencil</Source>
-      <Dest>えんぴつ</Dest>
+      <Dest>鉛筆</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Poster13</EDID>
@@ -1643,19 +2325,19 @@
       <EDID>ALOOT_Static_CarpetRunner</EDID>
       <REC>STAT:FULL</REC>
       <Source>Rug</Source>
-      <Dest>ラグマット</Dest>
+      <Dest>ラグ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ToolRack01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Tool Rack</Source>
-      <Dest>工具棚</Dest>
+      <Dest>工具ラック</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ToolRack02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Tool Rack</Source>
-      <Dest>工具棚</Dest>
+      <Dest>工具ラック</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DiamondRoofGreebPipes03</EDID>
@@ -1674,6 +2356,36 @@
       <REC>STAT:FULL</REC>
       <Source>Plunger</Source>
       <Dest>プランジャー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WoodenBox01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wooden Box</Source>
+      <Dest>木箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_BannerFlagSwag01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Patriotic Banner</Source>
+      <Dest>愛国者の旗</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DeskFileA</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>File Holder</Source>
+      <Dest>ファイルホルダー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_DinerIntCounter01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Diner Counter</Source>
+      <Dest>ダイナーカウンター</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_AshTrayFilled</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Ash Tray</Source>
+      <Dest>灰皿</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Vault_FloorMat_Small_01</EDID>
@@ -1697,7 +2409,19 @@
       <EDID>ALOOT_Static_DecalDebris05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SubLight02WallFree</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Wall Lamp</Source>
+      <Dest>ウォールランプ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_LSGunBoard</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Gun Board</Source>
+      <Dest>ガンボード</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Vault_Table_01</EDID>
@@ -1721,19 +2445,25 @@
       <EDID>ALOOT_Static_FlatbedCart</EDID>
       <REC>STAT:FULL</REC>
       <Source>Flatbed Cart</Source>
-      <Dest>平台カート</Dest>
+      <Dest>平台車</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DecalDebris06</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_HighTechDebris05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ProtectronDebris6</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Protectron Debris</Source>
+      <Dest>プロテクトロンの砕片</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Clock02_Wall</EDID>
@@ -1745,13 +2475,19 @@
       <EDID>ALOOT_Static_ACDuctSm1Way01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Debris</Source>
-      <Dest>がらくた</Dest>
+      <Dest>瓦礫</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ClothesHanger01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Clothes Hanger</Source>
-      <Dest>洋服ハンガー</Dest>
+      <Dest>衣類ハンガー</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ProtectronDebris1</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Protectron Debris</Source>
+      <Dest>プロテクトロンの砕片</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_WeightBench</EDID>
@@ -1784,16 +2520,22 @@
       <Dest>テーブル</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_DogBed</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Dog Bed</Source>
+      <Dest>犬用ベッド</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_CookingStation</EDID>
       <REC>FURN:FULL</REC>
       <Source>Cooking Stove</Source>
-      <Dest>コンロ</Dest>
+      <Dest>調理用コンロ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Couch</EDID>
       <REC>FURN:FULL</REC>
       <Source>Couch</Source>
-      <Dest>ソファー</Dest>
+      <Dest>ソファ</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Bunk01</EDID>
@@ -1833,9 +2575,152 @@
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC>TERM:WNAM</REC>
+      <Source>VAULT-TEC: It Just Works!!!</Source>
+      <Dest>VAULT-TEC: それはうまくいく!!!</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC>TERM:FULL</REC>
+      <Source>Jules &amp; Amelie&apos;s Terminal</Source>
+      <Dest>ジュール&amp;アメリのターミナル</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="0" idMax="6">TERM:ITXT</REC>
+      <Source>The Water Situation</Source>
+      <Dest>水の事情</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="0" idMax="6">TERM:UNAM</REC>
+      <Source>So, Amelie and I have been shacked up in Diamond City for a while, and the water situation has always been pretty decent...right up until McDonough let that little crony, capitalist Sheng Kawolski start managing things.  Don&apos;t get me wrong, I can see why the city allows charging outsiders, but residents?... Whatever.
+
+Sheng is hitting puberty, and I noticed him checking out my goods. Naturally, I worked my charm and got him to let me hook up a direct line to the house. No more paying for water. I don&apos;t feel guilty about it either. We&apos;ve brought in a behemoth&apos;s shit of business since we moved in a year ago. 
+
+No one wants to travel down to the Atom Cats&apos; garage. Too many mutties and raiders between us. Big John&apos;s Salvage alone is a fucking nightmare. The flipside is that since we were able to set up shop here in the Green Turd of the Commonwealth, people on the north side of the river have been able to get their Power Armor serviced here. People who got Power Armor got caps to burn. So naturally Diamond City gets a fair cut. 
+</Source>
+      <Dest>アメリと私はしばらくダイアモンドシティに住んでいるが、水事情はいつもまともだった...マクドナウが取り巻きの資本家シェン・カウォルスキーに管理を任せるまでは。 誤解を恐れずに言えば、市が部外者の充電を許可する理由は分かるが、住民はどうなんだ? ...どうでもいい。
+
+シェンは思春期を迎えていて、私のグッズをチェックしているのに気づいた。当然、私は愛嬌を振りまいて家への直接配管を許可してもらった。もう水道代を払う必要はない。罪悪感もない。1年前に引っ越してきてからというもの、ビミョーに商売繁盛している。
+
+誰もアトムキャッツのガレージに行きたがらない。変異体やレイダーが多いからだ。ビッグ・ジョンのガレージは悪夢のようだ。 裏を返せば、ここ連邦の芝生に店を構えて以来、川の北側に住む人々はここでパワーアーマーのサービスを受けることができるようになったということ。パワーアーマーを手に入れた人々は キャップを燃やせるようになった。だから当然ダイアモンドシティは公平に扱われる 。
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="1" idMax="6">TERM:ITXT</REC>
+      <Source>Dipstick</Source>
+      <Dest>水中眼鏡</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="1" idMax="6">TERM:UNAM</REC>
+      <Source>I swear, between Solomon trying to use his own feces to make Jet and catching him trying to drill a peep hole through our shared wall, I&apos;m about ready to go beyond filing a complaint with security. Ugh!!! Why can&apos;t crazy Myrna be our neighbor? I&apos;d rather deal with her endless synth accusations., which are utterly hilarious; I doubt the Institute is manufacturing lesbots to take over the Commonwealth.   
+
+Amelie isn&apos;t too bothered by Solomon though. She always says in her Quebecois &quot;Jules, mon amour,  il est juste tata avec une p&apos;tite queue.&quot; She always sees the good in people, or in this case the benign. I&apos;m a lucky gal, seeing how I ended up with her after the Enclave fell apart down in DC. 
+
+heading north after hearing rumors of the Institute. I figured with the kind of tech they had, maybe they&apos;d need Power Armor mechanics. I bumped into Amelie here in Diamond City. She was headed south to New Orleans, but I convinced her to stay. In any case... yeah...I&apos;d like a new neighbor.
+</Source>
+      <Dest>ソロモンが自分の糞でジェットを作ろうとしたり、共有の壁に穴を開けようとしているのを見つけたり、もうセキュリティに苦情を入れるどころの騒ぎじゃない。うっ!!! なんで気が狂ったマーナが隣人じゃダメなんだ? むしろ彼女の終わりのない人造人間の告発に対処すべきで、まったく愉快だ; 研究所が連邦を乗っ取るためにレズボットを製造しているとは思えないが。  
+
+でも、アメリはソロモンのことをあまり気にしていない。彼女はいつもケベック語で &quot;Jules, mon amour, il est juste tata avec une p&apos;tite queue. &quot;と言っている。彼女はいつも人の良いところ、この場合は善良なところを見ている。私は幸運な女、エンクレイヴが崩壊した後 ワシントンで彼女の元に辿り着いた 
+
+研究所の噂を聞いて北上中。彼らの持つ技術でパワーアーマーの整備士が必要だと思った。ここダイアモンドシティでアメリとばったり会った。彼女はニューオーリンズに 向かってたんだけど、私が説得してここに残った。いずれにせよ...そうだな...新しい隣人が欲しいよ。
+</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="2" idMax="6">TERM:ITXT</REC>
+      <Source>Amelie&apos;s Vault Boy Fetish</Source>
+      <Dest>アメリのVault Boyフェチ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="2" idMax="6">TERM:UNAM</REC>
+      <Source>Amelie has taken to snatching up any and all vault boy signs she can find. I have no idea what brought this on. I&apos;m getting sick of seeing that shit-eating grin in every corner of the house. I should never have started trading with Vault 81....</Source>
+      <Dest>アメリはvault boyのサインを見つけるとすべてひったくるようになった。何がきっかけでこうなったのかさっぱりわからない。家中のいたるところで、あの糞を食ったような笑みを見るのはもううんざりだ。Vault 81と取引するんじゃなかった....</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="3" idMax="6">TERM:ITXT</REC>
+      <Source>A New Addition to the Family</Source>
+      <Dest>新しい家族の誕生</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="3" idMax="6">TERM:UNAM</REC>
+      <Source>Got a dog today. He&apos;s a mangy mutt, but he&apos;s pretty cool. We found him while we were scavanging out near Polymer labs. He was running from some Raiders who no doubt were gonna eat him. 
+
+They saw us turn the corner in our T-60 and T-51 armors and ran. It was funny, cause the first one who saw us just froze. The guy behind ran into him, and the two fumbled around a bit. No doubt they weren&apos;t very seasoned...and by &quot;seasoned&quot;, I mean not drugged out of their fucking minds! Some of those guys would attack a Mirelurk Queen with nothing but a pipe pistol and their birthday suit.
+
+
+</Source>
+      <Dest>今日、犬を飼うことにした。毛むくじゃらの雑種だけど、なかなかいい子だよ。ポリマー研究所の近くで調達していた時に見つけたんだ。食べようとしたレイダーから 逃げてきたんだ。
+
+私たちがT-60とT-51の装甲で角を曲がるのを見て、走っていったんだ。面白いことに、私たちを最初に見た人は、ただ固まっていたんだ。後ろのやつがぶつかってきて、2人はちょっともみくちゃになった。間違いなく、彼らはあまり経験豊富ではなかった...「経験豊富」というのは、気が狂うほど薬漬けにされていなかったという意味だ! パイプピストルとバースデースーツだけで、マイアラーククイーンを襲うような連中もいるんだ。</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="4" idMax="6">TERM:ITXT</REC>
       <Source>That&apos;s it!</Source>
-      <Dest>終わりだ！</Dest>
+      <Dest>それだ!</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="4" idMax="6">TERM:UNAM</REC>
+      <Source>I&apos;ve had it with Shen. That little shit turned off our water line. Said something about demand being high and no more &quot;freeloaders&quot;. Unless we start paying his excessive rates, then the water&apos;s gonna stay off...I have to say, I don&apos;t look back fondly on the Enclave, but at least they saw water as a right....oh wait...maybe they didn&apos;t. 
+
+Whatever...I&apos;m done with his crony shennigans. I saw an old pump out by the Brewery in one of the wrecked train cars. By the looks of it, I could have it dismantled and back here in the basement within a week or so. As long as I bring it in piecemeal, no one should notice. I&apos;m sure the city would never allow us to have our own water source.
+
+If we can drill deep enough, we should be able to tap an aquifer and bypass the city supply altogether. No one would be the wiser, and Amelie could set up a small greenhouse downstairs. I&apos;m sure Vault 81 could pass some decent greenhouse lights our way if we came up with an enticing trade. </Source>
+      <Dest>シェンはもうたくさんだ。あのクソガキがうちの水道管を止めたんだ。需要が高いとか言って、もう &quot;タダ乗り &quot;はお断りだ。彼の過剰な料金を払わない限り、水は止まったままだ...飛び地のことを好んで振り返ることはないが、少なくとも彼らは水を権利として見ていた...ああ、待てよ...そうではなかったかもしれない。
+
+どうでもいいけど、彼の取り巻きの悪ふざけはもういいよ。ビール工場で古いポンプを見た壊れた電車の中にあったんだ。1週間かそこらで分解して地下に運べるだろう。少しずつ運んでいけば、誰も気づかないはずだ。水源を自分たちで持つなんて、市は絶対に許さないだろうし。
+
+十分に深く掘ることができれば、帯水層を利用することができれば街への供給を完全に回避することができるはず。誰も気づかないだろうし、アメリは階下に小さな温室を作れる。魅力的な取引をすればVault 81は温室の明かりを我々にくれるだろう 。 </Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="5" idMax="6">TERM:ITXT</REC>
+      <Source>All set!!!...well, almost...</Source>
+      <Dest>準備万端!!...いや、ほとんど...</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="5" idMax="6">TERM:UNAM</REC>
+      <Source>Amelie has the Water Pump/Purifier pretty much ready, and I only need to fine tune some things on the generator. But....there&apos;s a problem. The things are louder than two Mirelurks fucking on a tin roof!!! If Shen figures out what we&apos;re doing down here, the little shit will certainly report us to McDonough, and then it&apos;s &quot;good bye&quot; to our little project... As luck would have it, I think I found a solution.
+
+I ran into this guy the other day, on his way to Trinity Tower. Kept saying something about wanting to bring culture to the Mutties. I&apos;m sure he&apos;s dead by now, but regardless he said he was from that radio station WRVR west of Diamond City. They probably have some acoustic panels I could trade for. They wouldn&apos;t completely sound proof the basement, but a few of them would definitely deaden the noise. Enough for us to go unnoticed. Gonna head on over soon.</Source>
+      <Dest>アメリはウォーターポンプと浄水器をほぼ完成させたし、私はあとは発電機の微調整をするだけだ。でも...問題がある。トタン屋根の上でファックする2匹のマイアラークよりも大きな音がするんだ!!! もしシェンが私達がここで何してるか知ったら、あのクソガキは間違いなくマクドナウに報告するだろう、そうなったら私達の小さな計画はおじゃんだ... 幸運にも、解決策を見つけたよ。
+
+先日、トリニティ・タワーに向かう途中、この男に出くわしたんだ。変異体に文化をもたらしたいとか言ってた。もう死んでるだろうけど、関係ない彼はラジオ局のWRVRから来たと言ってたダイヤモンドシティの西だ。音響パネルと交換できるかもしれない 。地下室を完全に防音することはできないけど数枚あれば確実に音を消せる。気づかれないようにするには十分だ。すぐに向かうよ。</Dest>
+    </String>
+    <String List="0" Partial="1">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="6" idMax="6">TERM:ITXT</REC>
+      <Source>Mecca Lecca High, Mecca Hiney Home...</Source>
+      <Dest>Mecca Lecca High, Mecca Hiney Home...</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="6" idMax="6">TERM:UNAM</REC>
+      <Source>Well, we got word from some merchant up here from DC, who in turn got word from some merchant down in North Carolina, who got word from Memphis that....whatever. We heard that some crazy shit is going down in New Orleans. 
+
+Sure, it&apos;s all rumors and second hand nonsense if you ask me, but Amelie swears she has relatives down there and is insisting that we leave immediately. That&apos;s where she was headed originally when we met. I guess I only delayed the inevitable journey southward. I never did make contact with the Institute, and from what I&apos;ve been hearing, maybe that&apos;s a good thing. They&apos;re starting to sound more deranged than Colonel Autumn did. So, in the end, I suppose I got no problem jumping ship.
+
+The thing that does bug me is that Geneva knew we didn&apos;t have time to fetch a good price on the house or the stuff we can&apos;t take. So the bitch took advantage and forced us to sell it all back to the city dirt cheap. I hope she chokes on McDonough&apos;s cock. 
+
+Whoever ends up here, best of luck to you. Enjoy the place. 
+</Source>
+      <Dest>ワシントンDCの商人から連絡があり、 ノースカロライナ州の商人から連絡があり、 メンフィスから連絡があり......とにかく。ニューオーリンズで とんでもないことが起きてるそうだ 。
+
+確かに、噂や又聞きだが、アメリはそこに親戚がいると言って、すぐに出発するように言っている。私らが会ったとき、彼女はもともとそこに向かっていたんだ。私は南へ向かうのを遅らせただけなのだろう。私は研究所と連絡を取らなかった。私が聞いてきたことからすると、多分それは良いことだ。 彼らはオータム大佐の時よりも 狂っているように思える。だから、結局のところ、私は船に飛び乗ることに問題はなかったと思う。
+
+気になるのは、ジュネーブは私たちが家も荷物もいい値段で売る時間がないことを知っていたこと。だからあの女は私たちを利用して安く売らせようとした。マクドナーのチンポで窒息死すればいいのに。
+
+誰がここに終わっても、幸運を祈る。この場所を楽しんでほしい。
+</Dest>
     </String>
     <String List="0">
       <EDID>DmndPlayerHouse01</EDID>
@@ -1859,7 +2744,7 @@
       <EDID>FFDiamondCity02</EDID>
       <REC>QUST:FULL</REC>
       <Source>Home Plate</Source>
-      <Dest>Home Plate</Dest>
+      <Dest>ホームプレート</Dest>
     </String>
     <String List="0">
       <EDID>FFDiamondCity02</EDID>

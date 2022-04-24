@@ -7,11 +7,23 @@
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="1">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
+      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04ZooCageWallTallDoorSingle01</EDID>
       <REC>DOOR:FULL</REC>
       <Source>Cage Door</Source>
-      <Dest>オリの扉</Dest>
+      <Dest>檻の扉</Dest>
     </String>
     <String List="0">
       <EDID>NpcBedVaultBunkLay01Invisible</EDID>
@@ -95,7 +107,7 @@
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vaul-Tec:アモングスターズ</Dest>
+      <Dest>Vault-Tec:アマング・ザ・スター</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborBobbisPlace</EDID>
@@ -275,7 +287,7 @@
       <EDID>Commonwealth</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Commonwealth</Source>
-      <Dest>連邦</Dest>
+      <Dest>コモンウェルス</Dest>
     </String>
     <String List="0">
       <EDID>DiamondCity</EDID>

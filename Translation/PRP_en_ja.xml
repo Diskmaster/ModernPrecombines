@@ -7,6 +7,18 @@
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="1">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
+      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
+    </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
       <REC>CELL:FULL</REC>
@@ -155,13 +167,13 @@
       <EDID>DLC04KiddieKingdomZ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Castle Tower</Source>
-      <Dest>キング・コーラの城の塔</Dest>
+      <Dest>キング・コーラの城塔</Dest>
     </String>
     <String List="0">
       <EDID>DLC04NWJunkyardUFO01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ultimate UFO</Source>
-      <Dest>アルティメットUFO</Dest>
+      <Dest>アルティメット UFO</Dest>
     </String>
     <String List="0">
       <EDID>ShawHighSchool01</EDID>
@@ -197,7 +209,7 @@
       <EDID>MassFusion02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Fusion Main Reactor</Source>
-      <Dest>メインリアクター</Dest>
+      <Dest>マスフュージョンメ・インリアクター</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Vault118</EDID>
@@ -233,7 +245,7 @@
       <EDID>CharlestownDrugDen</EDID>
       <REC>CELL:FULL</REC>
       <Source>Drug Den</Source>
-      <Dest>依存患者の巣窟</Dest>
+      <Dest>ドラッグ・デン</Dest>
     </String>
     <String List="0">
       <EDID>DLC01FortHagenSatelliteArray01</EDID>
@@ -335,7 +347,7 @@
       <EDID>PrewarTVStudio</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial&apos;s Department Store</Source>
-      <Dest>コロニアルズ・デパート</Dest>
+      <Dest>コロニアルのデパート</Dest>
     </String>
     <String List="0">
       <EDID>SaugusIronworks01</EDID>
@@ -407,7 +419,7 @@
       <EDID>FourLeafFishpacking02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Marowski&apos;s Chem Lab</Source>
-      <Dest>マロースキーの薬品ラボ</Dest>
+      <Dest>マロースキーの薬物ラボ</Dest>
     </String>
     <String List="0">
       <EDID>DLC03KitteredgePass01</EDID>
@@ -427,11 +439,11 @@
       <Source>Vim! Basement</Source>
       <Dest>ヴィム地下室</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>DLC04WarehouseAmbush</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ambush Warehouse Cell</Source>
-      <Dest>奇襲攻撃倉庫セル</Dest>
+      <Dest>待ち伏せ倉庫セル</Dest>
     </String>
     <String List="0">
       <EDID>RevereBeachStation01</EDID>
@@ -468,6 +480,12 @@
       <REC>CELL:FULL</REC>
       <Source>The Third Rail</Source>
       <Dest>サードレール</Dest>
+    </String>
+    <String List="0">
+      <EDID>SuperDuperMart01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Super-Duper Mart</Source>
+      <Dest>スーパーウルトラ・マーケット</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
@@ -545,7 +563,7 @@
       <EDID>EastBostonPrep01</EDID>
       <REC>CELL:FULL</REC>
       <Source>East Boston Preparatory School</Source>
-      <Dest>プレップスクール</Dest>
+      <Dest>私立イーストボストン高校</Dest>
     </String>
     <String List="0">
       <EDID>PrydwenHull01</EDID>
@@ -563,7 +581,7 @@
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vaul-Tec:アモングスターズ</Dest>
+      <Dest>Vault-Tec:アマング・ザ・スター</Dest>
     </String>
     <String List="0">
       <EDID>TheCastle01</EDID>
@@ -593,7 +611,7 @@
       <EDID>MQ203KelloggsBrain</EDID>
       <REC>CELL:FULL</REC>
       <Source>Memories</Source>
-      <Dest>記憶</Dest>
+      <Dest>メモリーズ</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariBearCave</EDID>
@@ -617,7 +635,7 @@
       <EDID>InstituteCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Sublevel 21-D</Source>
-      <Dest>インスティチュート坑道21-D</Dest>
+      <Dest>インスティテュートサブレベル21-D</Dest>
     </String>
     <String List="0">
       <EDID>DLC03FringeCoveDocks01</EDID>
@@ -667,17 +685,17 @@
       <Source>Shelter</Source>
       <Dest>シェルター</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>WarehouseIndustrialMachines</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Incredible Machines</Source>
-      <Dest>驚異のマシン</Dest>
+      <Dest>インクレディブル・マシーン</Dest>
     </String>
     <String List="0">
       <EDID>ccTOSFO4001</EDID>
       <REC>CELL:FULL</REC>
       <Source>Noir Penthouse</Source>
-      <Dest>Noir Penthouse</Dest>
+      <Dest>ノアール・ペントハウス</Dest>
     </String>
     <String List="0">
       <EDID>DmndDugoutInn01</EDID>
@@ -725,7 +743,7 @@
       <EDID>REObject02Interior</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bomb Shelter</Source>
-      <Dest>防空施設</Dest>
+      <Dest>防空壕</Dest>
     </String>
     <String List="0">
       <EDID>SouthBoston19</EDID>
@@ -770,10 +788,16 @@
       <Dest>アンドリュー駅</Dest>
     </String>
     <String List="0">
+      <EDID>zLexingtonGarage</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Parking Garage</Source>
+      <Dest>レキシントン駐車場</Dest>
+    </String>
+    <String List="0" Partial="1">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
       <REC>CELL:FULL</REC>
       <Source>Terminals &amp; Holotapes, Oh My.</Source>
-      <Dest>ターミナル&amp;ホロテープ、おやおや</Dest>
+      <Dest>ターミナル &amp; ホロテープ、何か。</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
@@ -905,7 +929,7 @@
       <EDID>EsplanadeChurch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Holy Mission Congregation</Source>
-      <Dest>聖職者団</Dest>
+      <Dest>会衆派教会</Dest>
     </String>
     <String List="0">
       <EDID>MassFusion01</EDID>
@@ -971,7 +995,7 @@
       <EDID>BobbisNewPlace01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hawthorne Estate</Source>
-      <Dest>ホーソン私有地</Dest>
+      <Dest>ホーソンの私有地</Dest>
     </String>
     <String List="0">
       <EDID>InstituteTunnel01</EDID>
@@ -995,7 +1019,7 @@
       <EDID>DLC04SafariReptileHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reptile House</Source>
-      <Dest>ワニハウス</Dest>
+      <Dest>爬虫類ハウス</Dest>
     </String>
     <String List="0">
       <EDID>Vault11402</EDID>
@@ -1103,7 +1127,7 @@
       <EDID>BostonCommon02</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Boylston Club</Source>
-      <Dest>ボイルストン・クラブ</Dest>
+      <Dest>ボイルストンクラ</Dest>
     </String>
     <String List="0">
       <EDID>CustomHouseTower01</EDID>
@@ -1145,7 +1169,7 @@
       <EDID>SouthBoston25</EDID>
       <REC>CELL:FULL</REC>
       <Source>Church</Source>
-      <Dest>協会</Dest>
+      <Dest>教会</Dest>
     </String>
     <String List="0">
       <EDID>GeneralAtomicsGalleria01</EDID>
@@ -1169,7 +1193,7 @@
       <EDID>DLC03NucleusSubInterior01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Vessel</Source>
-      <Dest>船舶</Dest>
+      <Dest>釣り船のキャビン</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubFizztopGrille01</EDID>
@@ -1193,7 +1217,13 @@
       <EDID>PrydwenHull02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
-      <Dest>プリドゥエン司令デッキ</Dest>
+      <Dest>プリドゥエンの司令デッキ</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonPharmacy</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Pharmacy</Source>
+      <Dest>レキシントン薬局</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1307,13 +1337,13 @@
       <EDID>WarrenTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warren Theater</Source>
-      <Dest>ウォレン・シアター</Dest>
+      <Dest>ウォーレン・シアター</Dest>
     </String>
     <String List="0">
       <EDID>InstituteRobotics</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Robotics</Source>
-      <Dest>ロボット工学部門</Dest>
+      <Dest>インスティチュートロボット工学部門</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Gauntlet01</EDID>
@@ -1325,7 +1355,7 @@
       <EDID>SanctuaryRosaHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Rosa Residence</Source>
-      <Dest>ローザ邸</Dest>
+      <Dest>ローザレジデンス</Dest>
     </String>
     <String List="0">
       <EDID>InstituteFEVlab</EDID>
@@ -1507,11 +1537,11 @@
       <Source>Vault 95</Source>
       <Dest>Vault 95</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>WarehouseWorkbenches</EDID>
       <REC>CELL:FULL</REC>
       <Source>Workbench Bonanza</Source>
-      <Dest>作業台ボナンザ</Dest>
+      <Dest>作業台の鉱脈</Dest>
     </String>
     <String List="0">
       <EDID>WestonWaterTreatment01</EDID>
@@ -1523,7 +1553,7 @@
       <EDID>Theater27TickerTapeLounge</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ticker Tape Lounge</Source>
-      <Dest>ティッカーテープ・ラウンジ</Dest>
+      <Dest> ティッカーテープ・ラウンジ</Dest>
     </String>
     <String List="0">
       <EDID>InstituteBioScience</EDID>
@@ -1559,7 +1589,7 @@
       <EDID>DmndChoiceChops02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Meat Locker</Source>
-      <Dest>食肉ロッカー</Dest>
+      <Dest>肉のロッカー</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomTunnels01</EDID>
@@ -1601,7 +1631,7 @@
       <EDID>OldGulletSinkhole01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Gullet Sinkhole</Source>
-      <Dest>シンクホール</Dest>
+      <Dest>オールド・ガレット・シンクホール</Dest>
     </String>
     <String List="0">
       <EDID>MedTekResearch02</EDID>
@@ -1742,10 +1772,16 @@
       <Dest>ボクシングジム</Dest>
     </String>
     <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>電気愛好家クラブ・地下</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC03POI40Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pump Control</Source>
-      <Dest>ポンプコントロール</Dest>
+      <Dest>ポンプ・コントロール</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
@@ -1865,7 +1901,7 @@
       <EDID>Vault111Start</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111 Main Entrance</Source>
-      <Dest>Vault 111メインエントランス</Dest>
+      <Dest>Vault 111 正面入り口</Dest>
     </String>
     <String List="0">
       <EDID>DmndRadio01</EDID>
@@ -1951,7 +1987,7 @@
       <Source>Apartments</Source>
       <Dest>アパート</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>WarehouseTraps</EDID>
       <REC>CELL:FULL</REC>
       <Source>The most dangerous cell</Source>
@@ -1961,7 +1997,7 @@
       <EDID>DmndGreenhouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenhouse</Source>
-      <Dest>グリーンハウス</Dest>
+      <Dest>温室</Dest>
     </String>
     <String List="0">
       <EDID>DmndSurgeryBasement01</EDID>
@@ -1997,7 +2033,7 @@
       <EDID>DLC04KiddieKingdomTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Court</Source>
-      <Dest>キング・コーラの宮廷</Dest>
+      <Dest>キング・コーラのコート</Dest>
     </String>
     <String List="0">
       <EDID>HardwareTown01</EDID>
@@ -2021,7 +2057,7 @@
       <EDID>Commonwealth</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Commonwealth</Source>
-      <Dest>連邦</Dest>
+      <Dest>コモンウェルス</Dest>
     </String>
     <String List="0">
       <EDID>DiamondCity</EDID>
