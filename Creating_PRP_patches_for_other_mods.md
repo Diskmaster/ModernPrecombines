@@ -5,7 +5,7 @@ Hello, welcome to my little tutorial on creating patches for PRP (or at least th
 - The Creation Kit for Fallout 4 installed where the game is located at
 - [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165) version 1.6.3[^1]
 - [f4ck_loader](https://github.com/Perchik71/Fallout4Test/releases) [^2]
-- [xedit](https://www.nexusmods.com/fallout4/mods/2737) x64 type will be used due to the possibility of needing the larger memory size 
+- [xedit](https://www.nexusmods.com/fallout4/mods/2737) x86 type will be used to avoid floating errors that may pop in the x64 version.
 - [Pra's FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898)
 - [PRP](https://www.nexusmods.com/fallout4/mods/46403) and/or [PPF.esm](./PPF.esm)[^3]
 - [SeargeDP's set of xedit script files](https://forums.nexusmods.com/index.php?/topic/5522717-fallout-4-optimization-and-performance-systems-explained/page-52#entry100828598) - optional
@@ -27,7 +27,7 @@ Previously I mentioned that MO2 was okay to use with the clean method since I th
 Before I begin the guide, let's talk about what needs to be patched: 
 - Any mod that touches precombined references will most likely need to be patched. To find these records you can use xedit's precombine filter. [Pic1](/Patch-Tutorial-Pics/Xedit_filter_for_checking_precombine.png)
 - Any mod that has its own precombine files, found in Meshes/Precombined, or its own Visibility files, found in the Vis folder, might need a patch with PRP. If the files are conflicting, then it is possible the mod needs a patch or to at least to have its precombined files regenerated with the Apply Material Swap.pas script if the mod in question didn't do that.
-- Any mod which replaces meshes affecting precombined objects (you may also need to regenerate SCOLs).
+- Any mod which replaces meshes affecting precombined objects (you may also need to regenerate SCOLs). This includes any mods that change the static model's (MODL in xedit) mesh. Lod's should be fine (this Idk for sure).
 
 ## Preparation of the esp patch
 Once you have figured out which mods would need PRP patches, let us get down to business. You should open xedit with just one of the mods in question and PRP (I do not believe load order would be relevant here). Deep copy as override the Cell and Worldspace records of the plugin in question to a new esp file, that is a plain esp file (no esl/esm flags set), you can name the new plugin with spaces since this guide is using the CKfixes, as mentioned in the [Manual](/MANUAL.md), but I still prefer to name the file without spaces. Apply the "Apply Material Swap" script to the newly generated plugin and wait for it to finish. Once it is done, add every plugin as a master[^4]. Apply a filter to show only navmesh entries on your plugin only [Pic2](/Patch-Tutorial-Pics/Xedit_filter_for_navmesh.png). Remove every navmesh entry and only the navmesh entries (keep the Cell and Worldspace records)[^5]. Now check your plugin again, if there are no subrecords in the CELLs you would need to create an intentional ITM preferably in the temporary references subrecords[^6][^7]. Now it is time to update the Version Control Info. You can do this in two ways: Saving the esp file in the CK (slower) or using this [xedit script](/scripts/1000101-Apply_Version_Control_Information_To_Forms.pas) (faster). If you saved the esp in the CK, open the plugin in xedit and check for errors[^8][^9]. If your PRP patch is free of errors, I recommend backing up your PRP patch file. Now it is time to do the precombine generation.
@@ -47,7 +47,7 @@ Once you get the CombinedObjects.esp, you should check for errors in the plugin 
 ### Using Searge's Combined Objects Script
 This is the faster of the two options. Put the script in your xedit's `Edit Scripts` folder and run the script on the PRP patch plugin.
 ### Saving the CombinedObjects plugin in the CK
-This is the slower method of the two options. Open the Creation Kit and set the `CombinedObjects.esp` as master. Once the CK finishes referencing everything, just save the plugin. Then open xedit and use the `Merge overrides into master.pas` script on the `CombinedObjects.esp` plugin and have it merge into the PRP patch plugin.
+This is the slower method of the two options. Open the Creation Kit and set the `CombinedObjects.esp` as active. Once the CK finishes referencing everything, just save the plugin. Then open xedit and use the `Merge overrides into master.pas` script on the `CombinedObjects.esp` plugin and have it merge into the PRP patch plugin.
 
 The CombinedObjects plugin can be safely deleted since we are now done with it.
 
@@ -61,7 +61,7 @@ This is the part where you need a lot of ram, page file/swap, and patience (can 
 
 
 ## Previs Generation - Part B
-The final generation boss has arrived. As with all the other steps, you can run the final, fourth batch file, type this in command prompt `f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`, or this in powershell `.\f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`. Once the creation kit finishes the generation, closing itself, you should see a VIS folder and a PreVis.esp plugin in either your DATA folder. You can pack the newly created VIS folder into your archive from the [Precombine generation step](#precombine-generation---part-c) using these [settings](/Patch-Tutorial-Pics/Archive_2_precombine_packing.png) (The same settings used when you initially created the ba2 archive).
+The final generation boss has arrived. As with all the other steps, you can run the final, fourth batch file, type this in command prompt `f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`, or this in powershell `.\f4ck_loader.exe -GeneratePreVisData:pluginname.esp clean all`. Once the creation kit finishes the generation, closing itself, you should see a VIS folder and a PreVis.esp plugin in either your DATA folder.
 ### Possible Reasons why Previs generation crashed with an error
 There are a few reasons why Previs generation has failed:
 - As mentioned above in the [Information section](#information-about-previs-generation), you probably ran out of memory. The only solution so far is increasing your ram size ($), increasing your page file/swap size (I might cover this, but there are plenty of tutorials online on how to do this), or moving the texture ba2s somewhere else.
@@ -70,7 +70,14 @@ There are a few reasons why Previs generation has failed:
 - Missing meshes. Use the `Assets manager.pas` script, making sure it is selected to `Check for missing assets`, to the plugin you are trying to patch or to your plugin then press OK. As for a solution, I do not know of any other than asking for the missing meshes.
 
 ## Previs Generation - Part C
-It's now time to save the PreVis.esp in the Creation Kit[^11]. Once that is done, open the now saved PreVis.esp file in xedit, select the Cell and Worldspace categories, and `Deep copy as override (with overwriting) into` your PRP patch plugin. You will get a prompt that asks if you want to overwrite a CELL, select Yes to All. Verify that all CELLs are included from the PreVis.esp plugin and that the new timestamps are there. Once you have verified that everything is there, congratulations you have created your first PRP patch!
+It's now time to use Searge's `05_MergePrevis.pas` or to save the PreVis.esp in the Creation Kit.
+### Using Searge's Merge Previs Script
+This is the faster of the two options. All you have to do is put the script in XEdit's `Edits Scripts` folder, just like in the Precombine Generation, and run the script on your PRP patch plugin.
+### Saving the PreVis.esp in the CK
+The slower option, that I have done in the past. Open the CK and set Previs.esp as active and then save the plugin. Open the now saved PreVis.esp file in xedit and apply the `Merge overrides into master.pas` your PRP patch plugin. 
+
+## Previs Generation - Part D
+Once that is done, save your esp but do not close FO4Edit just yet. If your plugin contains Worldspace cells, you should check and remove extra Previs files that your plugin does not have, this part is going to be tedious I know but we do this because of a fault in previs generation. RVIS (in xedit) is the center of a 3x3 grid in the map and the CK does a 3x3 block for generating previs on that center but with generating previs, every cell entry is marked like a center and produces UVD files we shouldn't need or want (Thank you Hap in discord). You can pack the newly created VIS folder into your archive from the [Precombine generation step](#precombine-generation---part-c) using these [settings](/Patch-Tutorial-Pics/Archive_2_precombine_packing.png) (The same settings used when you initially created the ba2 archive).
 
 ## Testing Phase
 Now that your have generated everything, it is time to see if your generation worked correctly on the first try. I would select a few CELL locations and just run around the area to check for any preculling issues, if you found any please wait for a future guide on how to fix this (tbd and probably on another md file).
@@ -88,4 +95,3 @@ Now that your have generated everything, it is time to see if your generation wo
 [^8]: If XPRI errors are present, you probably didn't add the plugins above as master to your PRP patch plugin as mentioned earlier. You should remove all the Cell and Worldspace entries in xedit and start over again with the preparation step, making sure that all the plugins are listed as master files. If the XPRI errors are still present, create an issue to me (feeddanoob) or contact me in the Collective Modding Discord (also feeddanoob) and I will try to see what the problem is.
 [^9]: Please note: Some of the parent mods have XPRI errors in them too, example is Nuka World [Pic4](/Patch-Tutorial-Pics/Example_of_Nuka_World_having_XPRI_errors.png) so you can ignore those.
 [^10]: Note: The Maximum Archive Size could be anything your hardware can handle, I am only using the default value that it pops up with. The main setting to be focused on is the Compression Setting to none. Please note if you do decide to pack into smaller archives that you will have to do additional work for the game to use those smaller archives (I suggest/recommend packing them all in one archive if you can)
-[^11]: For this generation, I only suggest using the CK saving method and not Searges's `05_MergePrevis.pas` script, unlike in the manual. If I am reading the script correctly it only copies the winning overrides from the PreVis.esp. The thing is the PreVis.esp is usually going to have more Worldspace cells than the PRP patch you are trying to create. This can be a problem when you are creating multiple patches and those patches may have .uvd conflicts even though they do not have any worldspace cell conflicts. I believe the script is only usefull for full CELL generation (don't quote me on this).
