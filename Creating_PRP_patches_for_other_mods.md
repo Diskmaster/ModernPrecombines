@@ -83,6 +83,9 @@ The slower option, that I have done in the past. Open the CK and set Previs.esp 
 ## Previs Generation - Part D
 Once that is done, save your esp but do not close FO4Edit just yet. If your plugin contains Worldspace cells, you should check and remove extra Previs files that your plugin does not use, this part is done using the `collect assets` script in FO4Edit (similar procedure to the [Manual](/MANUAL.md) but for VIS). Click on your patch plugin and then run the `collect assets` script, once the script launches leave everything as default and press okay, a second window will appear with a confirmation of everything to be packed, leave everything as is and press okay. We do this rather than manually packing the archive because of a fault in previs generation. RVIS (in xedit) is the center of a 3x3 grid in the map and the CK does a 3x3 block for generating previs on that center but with generating previs, every cell entry is marked like a center and produces UVD files we shouldn't need or want (Thank you Hap in discord). After the script is done you can then move the archive created from the `collect assets` script under your "[FO4Edit's directory]\\asset-collector-output\\" to your FO4's DATA folder.
 
+## Clean your patch plugin
+While you could leave everything as an ITM, your plugin may be flagged by programs such as loot as dirty. Since we are just copying records and generating previsibines, it is recommended to clean your patch plugin to make sure another mods' functions could work. Using FO4Edit's QAC argument, clean your patch plugin.
+
 ## Testing Phase
 Now that your have generated everything, it is time to see if your generation worked correctly on the first try. I would select a few CELL locations and just run around the area to check for any preculling issues, if you found any please wait for a future guide on how to fix this (tbd and probably on another md file).
 
