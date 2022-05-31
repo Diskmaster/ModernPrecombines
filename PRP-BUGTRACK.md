@@ -89,7 +89,7 @@ Pending
 - \[PRP\] (Vault81Secret): Shift position of 19E885 so it's not into the fucking wall.
 - \[PRP\] (Vault81): 19DA74 and 19DA75 got shoved closer to the wall. The folding chairs made no sense standing up like that.
 - \[PRP\] (DLC01FortHagenSatelliteArray01): Round up all values for all seven Crates that were previously touched in PPF to fix the same holes that have been plaguing previs since forever.
-- \[PRP\] (Vault75): Fix 1A8BA8 Z pos in the same way as the UF4OP replacement to see if it finally fixes the previs hole. That's probably what's really going on here. If so, UF4OP's fix should be UDR'd. As of current dev, 07038FB1 is intentionally positioned upwards. Review this after 0.59's release to see if I'm right or not.
+- \[PRP\] (Vault75): ~~Fix 1A8BA8 Z pos in the same way as the UF4OP replacement to see if it finally fixes the previs hole. That's probably what's really going on here. If so, UF4OP's fix should be UDR'd. As of current dev, 07038FB1 is intentionally positioned upwards. Review this after 0.59's release to see if I'm right or not.~~ Reported fixed by Glitchfinder. Will mark UF4OP's fix as UDR in next build.
 - \[PRP\] Include ALL esm UDRs that you normally get after cleaning the DLC .esm files to remove the DLC Cleaning requirement. The sheer number will not be listed here for brevity, though one could easily look them up themselves against an unclean esm install.
 
 0.58
