@@ -8,26 +8,10 @@
   </Params>
   <Content>
     <String List="0">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:CNAM</REC>
-      <Source>Aloot</Source>
-      <Dest>Aloot</Dest>
-    </String>
-    <String List="0">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:SNAM</REC>
-      <Source>Aloot&apos;s Home Plate 2.2 PRP Edition
-
-https://www.nexusmods.com/fallout4/mods/44101</Source>
-      <Dest>Aloot&apos;s Home Plate 2.2 PRP Edition
-
-https://www.nexusmods.com/fallout4/mods/44101</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_HP_ShowerFortifyCharisma</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Fortify:Charisma_Shower</Source>
-      <Dest>Fortifica:Doccia_Carisma</Dest>
+      <Dest>Forticare:Doccia_Carisma</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_ShowerSpell</EDID>
@@ -81,7 +65,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_HP_DogArmorTrunk</EDID>
       <REC>CONT:FULL</REC>
       <Source>Dog Armor Trunk</Source>
-      <Dest>Baule con armatura per cani</Dest>
+      <Dest>Baule armatura per cani</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HomePlate_WorkshopWorkbench</EDID>
@@ -93,13 +77,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_HP_SteamerTrunkVault81</EDID>
       <REC>CONT:FULL</REC>
       <Source>Armor Storage</Source>
-      <Dest>Deposito di armature</Dest>
+      <Dest>Baule armature</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_SteamerTrunk2</EDID>
       <REC>CONT:FULL</REC>
       <Source>Weapon Storage</Source>
-      <Dest>Deposito di armi</Dest>
+      <Dest>Baule armi</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_OfficeFileCabinet03_Steel</EDID>
@@ -252,12 +236,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Porta</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Carpet02</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Rug</Source>
-      <Dest>Coperta</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_Poster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -267,7 +245,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>DinerIntCounter01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Diner Counter</Source>
-      <Dest>Banco tavola calda</Dest>
+      <Dest>Bancone ristorante</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_GenericPoster04</EDID>
@@ -363,7 +341,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_DeskTopPicture01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Picture</Source>
-      <Dest>Foto</Dest>
+      <Dest>Immagine</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Poster07</EDID>
@@ -393,7 +371,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_DogmeatShelf</EDID>
       <REC>STAT:FULL</REC>
       <Source>Dog Shelf</Source>
-      <Dest>Scaffale per cani</Dest>
+      <Dest>Mensola per cani</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_IndustrialMetalTableSmall01</EDID>
@@ -651,7 +629,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_T-51_Helmet</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-51 Helmet</Source>
-      <Dest>Casco T-51</Dest>
+      <Dest>T-51 Elmo</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Prewar_Locker_Empty01</EDID>
@@ -693,13 +671,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_T-45_Body</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-45 Torso</Source>
-      <Dest>Busto T-45</Dest>
+      <Dest>T-45 Torace</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_T-45_Helmet</EDID>
       <REC>STAT:FULL</REC>
       <Source>T-45 Helmet</Source>
-      <Dest>Casco T-45</Dest>
+      <Dest>T-45 Elmo</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_T-45_LeftArm</EDID>
@@ -711,13 +689,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_Raider_Torso</EDID>
       <REC>STAT:FULL</REC>
       <Source>Raider Torso</Source>
-      <Dest>Busto da predatore</Dest>
+      <Dest>Torace predone</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Raider_Helmet</EDID>
       <REC>STAT:FULL</REC>
       <Source>Raider Helmet</Source>
-      <Dest>Elmo da predatore</Dest>
+      <Dest>Elmo predone</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Raider_LeftArm</EDID>
@@ -753,7 +731,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_InstR03BluePrint</EDID>
       <REC>STAT:FULL</REC>
       <Source>Institute Blue Print</Source>
-      <Dest>Blue Print dell&apos;Istituto</Dest>
+      <Dest>Stampa blu dell&apos;Istituto</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_HighTechDebris02</EDID>
@@ -762,46 +740,16 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Detriti</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_CageLight01On</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_CageBulbWire02</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_CageBulbWire03</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_WallEmergencyLight01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_ConstructionLight_StandingOn</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_Vault_Crate_03_Beige</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
-      <Dest>Cassa Vault</Dest>
+      <Dest>Cassaforte Vault</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Vault_Crate_01_Red</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
-      <Dest>Cassa Vault</Dest>
+      <Dest>Cassaforte Vault</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_WoodCrate01</EDID>
@@ -813,13 +761,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_Vault_Crate_01_Steel</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
-      <Dest>Cassa Vault</Dest>
+      <Dest>Cassaforte Vault</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Vault_Crate_04_Steel</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
-      <Dest>Cassa Vault</Dest>
+      <Dest>Cassaforte Vault</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DCGuardHelmet</EDID>
@@ -831,13 +779,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_DCGuardTorsoArmor</EDID>
       <REC>STAT:FULL</REC>
       <Source>DC Guard Torso Armor</Source>
-      <Dest>Armatura del busto della guardia DC</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_VltXmasLightsLine04Half</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
+      <Dest>Armatura torace da guardia DC</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_TriFoldFlag</EDID>
@@ -873,7 +815,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_ProtectronDebris3</EDID>
       <REC>STAT:FULL</REC>
       <Source>Protectron Debris</Source>
-      <Dest>Detriti Protectron</Dest>
+      <Dest>Protectron Detriti</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_TerminalBroken02</EDID>
@@ -885,7 +827,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_CottonYarnSpool</EDID>
       <REC>STAT:FULL</REC>
       <Source>Yarn</Source>
-      <Dest>Filato</Dest>
+      <Dest>Filati</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Turpentine_Rare</EDID>
@@ -939,7 +881,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_DressGO</EDID>
       <REC>STAT:FULL</REC>
       <Source>Dress</Source>
-      <Dest>Vestiti</Dest>
+      <Dest>Vestito</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Bathrobe</EDID>
@@ -957,7 +899,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_Vault_Crate_03_Steel</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
-      <Dest>Cassa Vault</Dest>
+      <Dest>Cassaforte Vault</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_OfficeBoxPapers03</EDID>
@@ -987,7 +929,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_IroningBoard</EDID>
       <REC>STAT:FULL</REC>
       <Source>Ironing Board</Source>
-      <Dest>Tavolo da stiro</Dest>
+      <Dest>Tavola da stiro</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ClothingIron</EDID>
@@ -1006,12 +948,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <REC>STAT:FULL</REC>
       <Source>Painting</Source>
       <Dest>Dipinto</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_PotsSauceLarge02</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Pot</Source>
-      <Dest>Pentola</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DishDirty01</EDID>
@@ -1098,28 +1034,10 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Tovagliolo</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Pot_EmptyLarge</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Pot</Source>
-      <Dest>Pentola</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_Ruin_CakePan01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Cake Pan</Source>
       <Dest>Tortiera</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Ruin_KitchenPan</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Pot</Source>
-      <Dest>Pentola</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Ruin_KitchenPot</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Pot</Source>
-      <Dest>Pentola</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Ruin_Collander</EDID>
@@ -1215,7 +1133,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_MutFruit</EDID>
       <REC>STAT:FULL</REC>
       <Source>MutFruit</Source>
-      <Dest>Frutto Mut</Dest>
+      <Dest>Mutfruit</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_HelmetHeavyGO</EDID>
@@ -1251,13 +1169,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_Modbox</EDID>
       <REC>STAT:FULL</REC>
       <Source>Mod Box</Source>
-      <Dest>Scatola Mod</Dest>
+      <Dest>Box Mod</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_TerminalAddition01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Terminal Addition</Source>
-      <Dest>Aggiunta terminale</Dest>
+      <Dest>Aggiunta al terminale</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_BattingHelmet</EDID>
@@ -1293,7 +1211,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_Jangles01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Jangles</Source>
-      <Dest>Campanelli</Dest>
+      <Dest>Jangles</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ToyRocket01</EDID>
@@ -1410,18 +1328,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Zucca</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Carrot</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Carrot</Source>
-      <Dest>Carota</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Melon</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Melon</Source>
-      <Dest>Melone</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_SignTheaterPoster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -1464,12 +1370,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Cartello</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_NukaRug01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Rug</Source>
-      <Dest>Coperta</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_AdvertsPoster08</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -1485,19 +1385,19 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_DeskTopPicture02</EDID>
       <REC>STAT:FULL</REC>
       <Source>Picture</Source>
-      <Dest>Foto</Dest>
+      <Dest>Immagine</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DeskTopPicture03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Picture</Source>
-      <Dest>Foto</Dest>
+      <Dest>Immagine</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DeskTopPicture04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Picture</Source>
-      <Dest>Foto</Dest>
+      <Dest>Immagine</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Painting09</EDID>
@@ -1584,12 +1484,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Detriti</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_SubLight01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_SuperMutantCampNet05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Net</Source>
@@ -1662,18 +1556,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Lampada da soffitto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_LighrRedChain01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_HighTechLightCeiling01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_ExitSignOn01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Exit Sign</Source>
@@ -1684,12 +1566,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <REC>STAT:FULL</REC>
       <Source>Fluorescent Light</Source>
       <Dest>Luce a fluorescenza</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_SubLight03Wall</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ModernDomesticSideTableLrg01_DirtyStatic</EDID>
@@ -1713,7 +1589,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_CarpetCementDivider</EDID>
       <REC>STAT:FULL</REC>
       <Source>FloorTrim</Source>
-      <Dest>Rivestimento del pavimento</Dest>
+      <Dest>Rivestimento per pavimenti</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_RedPlate</EDID>
@@ -1728,12 +1604,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Piatto giallo</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_IndCatLight02On</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_MuseumBanner04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Banner</Source>
@@ -1746,12 +1616,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_LightbulbOn01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_Curtains03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Curtains</Source>
@@ -1762,12 +1626,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <REC>STAT:FULL</REC>
       <Source>Curtain Rod</Source>
       <Dest>Bastone per tende</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_HighTechLightCeiling04_Dirty_Orange_On</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Light</Source>
-      <Dest>Luce</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AlarmClock</EDID>
@@ -2004,24 +1862,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_QuebecFlag</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Le Drapeau du Québec</Source>
-      <Dest>Le Drapeau du Québec</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_MetalBarrel01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Barrel</Source>
-      <Dest>Barile</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_MetalBarrel02</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Barrel</Source>
-      <Dest>Barile</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_Calendar</EDID>
       <REC>STAT:FULL</REC>
       <Source>Calendar</Source>
@@ -2043,13 +1883,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_BloodPack</EDID>
       <REC>STAT:FULL</REC>
       <Source>BloodPack</Source>
-      <Dest>BloodPack</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Radaway</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Radaway</Source>
-      <Dest>Radaway</Dest>
+      <Dest>Sacca di sangue</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_RadX</EDID>
@@ -2094,12 +1928,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Psycho</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Stimpack01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Stimpack</Source>
-      <Dest>Stimpack</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_BuffOut</EDID>
       <REC>STAT:FULL</REC>
       <Source>Buffout</Source>
@@ -2136,12 +1964,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Sapone</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Carpet01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Rug</Source>
-      <Dest>Coperta</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_Plant01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Plant</Source>
@@ -2151,7 +1973,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_PoliceGlasses</EDID>
       <REC>STAT:FULL</REC>
       <Source>Police Glasses</Source>
-      <Dest>Occhiali della polizia</Dest>
+      <Dest>Occhiali da poliziotto</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CoffeeCup01</EDID>
@@ -2265,7 +2087,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_PlayerHouse_BathroomDispenser01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Toilet Paper</Source>
-      <Dest>Carta igienica</Dest>
+      <Dest>Carta igenica</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Clipboard</EDID>
@@ -2322,12 +2144,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Poster</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_CarpetRunner</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Rug</Source>
-      <Dest>Coperta</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_ToolRack01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Tool Rack</Source>
@@ -2373,13 +2189,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_DeskFileA</EDID>
       <REC>STAT:FULL</REC>
       <Source>File Holder</Source>
-      <Dest>Titolare del fascicolo</Dest>
+      <Dest>Portafoglio</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_DinerIntCounter01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Diner Counter</Source>
-      <Dest>Banco tavola calda</Dest>
+      <Dest>Bancone ristorante</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AshTrayFilled</EDID>
@@ -2421,7 +2237,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_LSGunBoard</EDID>
       <REC>STAT:FULL</REC>
       <Source>Gun Board</Source>
-      <Dest>Scheda pistola</Dest>
+      <Dest>Schedario pistola</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Vault_Table_01</EDID>
@@ -2463,7 +2279,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_ProtectronDebris6</EDID>
       <REC>STAT:FULL</REC>
       <Source>Protectron Debris</Source>
-      <Dest>Detriti Protectron</Dest>
+      <Dest>Protectron Detriti</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Clock02_Wall</EDID>
@@ -2487,7 +2303,7 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_Static_ProtectronDebris1</EDID>
       <REC>STAT:FULL</REC>
       <Source>Protectron Debris</Source>
-      <Dest>Detriti Protectron</Dest>
+      <Dest>Protectron Detriti</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_WeightBench</EDID>
@@ -2500,12 +2316,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <REC>FURN:FULL</REC>
       <Source>Shower</Source>
       <Dest>Doccia</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_MetalOfficeChairWithWriting</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Chair</Source>
-      <Dest>Sedia</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_NpcBenchDinerIntBoothSit01WithTable02</EDID>
@@ -2550,18 +2360,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Letto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_RailroadChairWithWriting</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Chair</Source>
-      <Dest>Sedia</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_NpcChairVaultSit01</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Chair</Source>
-      <Dest>Sedia</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_HP_WorkbenchPowerArmorSmall</EDID>
       <REC>FURN:FULL</REC>
       <Source>Power Armor Station</Source>
@@ -2577,13 +2375,13 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC>TERM:WNAM</REC>
       <Source>VAULT-TEC: It Just Works!!!</Source>
-      <Dest>VAULT-TEC: Funziona e basta!!!</Dest>
+      <Dest>VAULT-TEC: funziona e basta!!!</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC>TERM:FULL</REC>
       <Source>Jules &amp; Amelie&apos;s Terminal</Source>
-      <Dest>Terminale di Jules &amp; Amelie</Dest>
+      <Dest>Il terminale di Jules &amp; Amelie</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2600,17 +2398,11 @@ Sheng is hitting puberty, and I noticed him checking out my goods. Naturally, I 
 
 No one wants to travel down to the Atom Cats&apos; garage. Too many mutties and raiders between us. Big John&apos;s Salvage alone is a fucking nightmare. The flipside is that since we were able to set up shop here in the Green Turd of the Commonwealth, people on the north side of the river have been able to get their Power Armor serviced here. People who got Power Armor got caps to burn. So naturally Diamond City gets a fair cut. 
 </Source>
-      <Dest>Quindi, Amelie ed io siamo stati rinchiusi a Diamond City per un po&apos;, e la situazione dell&apos;acqua è sempre stata abbastanza decente... fino a quando McDonough ha lasciato che quel piccolo amico, il capitalista Sheng Kawolski, iniziasse a gestire le cose. Non fraintendetemi, posso capire perché la città permette di caricare gli estranei, ma i residenti?... Qualunque cosa.
+      <Dest>Allora, io e Amelie abbiamo vissuto a Diamond City per un po&apos; di tempo e la situazione dell&apos;acqua è sempre stata abbastanza decente... fino a quando McDonough non ha lasciato che quel piccolo capitalista Sheng Kawolski iniziasse a gestire le cose.  Non fraintendetemi, capisco perché la città permetta di far pagare gli stranieri, ma i residenti?... Non importa.
 
-Sheng sta raggiungendo la pubertà e l&apos;ho notato mentre controllava la mia merce. Naturalmente, ho sfruttato il mio fascino e l&apos;ho convinto a farmi collegare una linea diretta con la casa. Non più pagare per l&apos;acqua. Neanche io mi sento in colpa per questo. Da quando ci siamo trasferiti un anno fa, abbiamo portato in giro una merda di affari da colosso.
+Sheng sta entrando nella pubertà e ho notato che stava controllando la mia merce. Naturalmente ho esercitato il mio fascino e l&apos;ho convinto a lasciarmi allacciare una linea diretta alla casa. Non dovrò più pagare l&apos;acqua. Non mi sento nemmeno in colpa. Da quando ci siamo trasferiti, un anno fa, abbiamo portato una quantità di affari da capogiro. 
 
-Nessuno vuole scendere nel garage degli Atom Cats. Troppi mutanti e predoni tra di noi. Il salvataggio di Big John da solo è un fottuto incubo. Il rovescio della medaglia è che da quando siamo stati in grado di aprire un negozio qui nel Green Turd del Commonwealth, le persone sul lato nord del fiume hanno potuto far riparare la loro armatura potenziata qui. Le persone che hanno l&apos;armatura potenziata hanno i cappucci da bruciare. Quindi, naturalmente, Diamond City ottiene un taglio equo.</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_Terminal01</EDID>
-      <REC id="1" idMax="6">TERM:ITXT</REC>
-      <Source>Dipstick</Source>
-      <Dest>Dipstick</Dest>
+Nessuno vuole andare nel garage degli Atom Cats. Ci sono troppi mutanti e raider tra di noi. Big John&apos;s Salvage da solo è un fottuto incubo. Il rovescio della medaglia è che da quando siamo riusciti ad aprire un&apos;officina qui, nella &quot;cacca verde&quot; del Commonwealth, la gente della sponda nord del fiume ha potuto far riparare qui le proprie Power Armor. Chi ha avuto un&apos;Armatura Elettrica ha avuto tappi da bruciare. Quindi, naturalmente, Diamond City riceve una parte equa. </Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2621,29 +2413,30 @@ Amelie isn&apos;t too bothered by Solomon though. She always says in her Quebeco
 
 heading north after hearing rumors of the Institute. I figured with the kind of tech they had, maybe they&apos;d need Power Armor mechanics. I bumped into Amelie here in Diamond City. She was headed south to New Orleans, but I convinced her to stay. In any case... yeah...I&apos;d like a new neighbor.
 </Source>
-      <Dest>Lo giuro, tra Solomon che cerca di usare le sue stesse feci per fare Jet e lo sorprende mentre cerca di fare uno spioncino attraverso il nostro muro condiviso, sono pronto ad andare oltre la denuncia alla sicurezza. Uh!!! Perché la pazza Myrna non può essere la nostra vicina? Preferirei occuparmi delle sue infinite accuse sui sintetizzatori, che sono assolutamente esilaranti; Dubito che l&apos;Istituto stia fabbricando lesbot per conquistare il Commonwealth.
+      <Dest>Giuro, tra Solomon che cerca di usare le sue stesse feci per fare il Jet e l&apos;averlo beccato mentre cercava di trapanare un buco nel nostro muro comune, sono quasi pronta ad andare oltre la denuncia alla sicurezza. Ugh!!! Perché la pazza Myrna non può essere la nostra vicina? Preferirei avere a che fare con le sue infinite accuse di synth, che sono assolutamente esilaranti; dubito che l&apos;Istituto stia producendo lesbots per conquistare il Commonwealth.   
 
-Amelie non è però troppo infastidita da Solomon. Dice sempre nel suo Quebecois &quot;Jules, mon amour, il est juste tata avec une p&apos;tite queue&quot;. Vede sempre il buono nelle persone, o in questo caso il benevolo. Sono una ragazza fortunata, visto come sono finita con lei dopo che l&apos;Enclave è andata in pezzi a Washington.
+Amelie non è troppo infastidita da Solomon. Dice sempre nel suo Quebecois &quot;Jules, mon amour, il est juste tata avec une p&apos;tite queue&quot;. Vede sempre il bene nelle persone, o in questo caso il benevolo. Sono una ragazza fortunata, visto che sono finita con lei dopo il crollo dell&apos;Enclave a Washington. 
 
-dirigendosi a nord dopo aver sentito le voci dell&apos;Istituto. Ho pensato che con il tipo di tecnologia che avevano, forse avrebbero avuto bisogno della meccanica dell&apos;armatura potenziata. Ho incontrato Amelie qui a Diamond City. Era diretta a sud, a New Orleans, ma l&apos;ho convinta a restare. In ogni caso... si...vorrei un nuovo vicino.</Dest>
+Mi sono diretta a nord dopo aver sentito parlare dell&apos;Istituto. Ho pensato che con il tipo di tecnologia che avevano, forse avrebbero avuto bisogno di meccanici di armature elettriche. Ho incontrato Amelie qui a Diamond City. Era diretta a sud, a New Orleans, ma l&apos;ho convinta a restare. In ogni caso... sì... mi piacerebbe avere un nuovo vicino.
+</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="2" idMax="6">TERM:ITXT</REC>
       <Source>Amelie&apos;s Vault Boy Fetish</Source>
-      <Dest>Il fetish del ragazzo del Vault di Amelie</Dest>
+      <Dest>Feticismo del ragazzo del Vault di Amelie</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="2" idMax="6">TERM:UNAM</REC>
       <Source>Amelie has taken to snatching up any and all vault boy signs she can find. I have no idea what brought this on. I&apos;m getting sick of seeing that shit-eating grin in every corner of the house. I should never have started trading with Vault 81....</Source>
-      <Dest>Amelie ha visto di nascosto tutti i segnali del ragazzo del Vault che riesce a trovare. Non ho idea di cosa abbia causato questo. Mi sto stufando di vedere quel sorriso da mangiamerda in ogni angolo della casa. Non avrei mai dovuto iniziare a fare affari con il Vault 81....</Dest>
+      <Dest>Amelie ha iniziato ad accaparrarsi tutti i segni che riesce a trovare. Non ho idea di cosa l&apos;abbia provocata. Mi sto stancando di vedere quel sorriso da mangiamerda in ogni angolo della casa. Non avrei mai dovuto iniziare a commerciare con il Vault 81....</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="3" idMax="6">TERM:ITXT</REC>
       <Source>A New Addition to the Family</Source>
-      <Dest>Una nuova aggiunta alla famiglia</Dest>
+      <Dest>Un nuovo arrivato in famiglia</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2654,9 +2447,10 @@ They saw us turn the corner in our T-60 and T-51 armors and ran. It was funny, c
 
 
 </Source>
-      <Dest>Ho preso un cane oggi. È un bastardo rognoso, ma è piuttosto figo. L&apos;abbiamo trovato mentre stavamo scavando vicino ai laboratori Polymer. Stava scappando da alcuni Raiders che senza dubbio lo avrebbero mangiato.
+      <Dest>Oggi ho preso un cane. È un bastardino rognoso, ma è piuttosto forte. L&apos;abbiamo trovato mentre stavamo rovistando vicino ai laboratori Polymer. Stava scappando da alcuni Raider che senza dubbio lo avrebbero mangiato. 
 
-Ci hanno visto girare l&apos;angolo con le nostre armature T-60 e T-51 e sono scappati. È stato divertente, perché il primo che ci ha visto si è semplicemente congelato. Il ragazzo dietro si è imbattuto in lui e i due hanno armeggiato un po&apos;. Senza dubbio non erano molto stagionati... e per &quot;stagionati&quot;, intendo non drogati dalle loro fottute menti! Alcuni di quei ragazzi avrebbero attaccato una Regina Mirelurk con nient&apos;altro che una pistola a pipa e il loro abito di compleanno.
+Ci hanno visto girare l&apos;angolo con le nostre armature T-60 e T-51 e sono scappati. È stato divertente, perché il primo che ci ha visto si è bloccato. Il tizio dietro gli andò incontro e i due annasparono un po&apos;. Non c&apos;è dubbio che non fossero molto esperti... e per &quot;esperti&quot; intendo non drogati fino al collo! Alcuni di loro avrebbero attaccato una regina di Mirelurk con nient&apos;altro che una pistola a piombini e il loro vestito di compleanno.
+
 
 </Dest>
     </String>
@@ -2674,17 +2468,17 @@ Ci hanno visto girare l&apos;angolo con le nostre armature T-60 e T-51 e sono sc
 Whatever...I&apos;m done with his crony shennigans. I saw an old pump out by the Brewery in one of the wrecked train cars. By the looks of it, I could have it dismantled and back here in the basement within a week or so. As long as I bring it in piecemeal, no one should notice. I&apos;m sure the city would never allow us to have our own water source.
 
 If we can drill deep enough, we should be able to tap an aquifer and bypass the city supply altogether. No one would be the wiser, and Amelie could set up a small greenhouse downstairs. I&apos;m sure Vault 81 could pass some decent greenhouse lights our way if we came up with an enticing trade. </Source>
-      <Dest>L&apos;ho avuto con Shen. Quella piccola merda ha spento la nostra linea di galleggiamento. Ha detto qualcosa sulla domanda alta e niente più &quot;scrocconi&quot;. A meno che non iniziamo a pagare le sue tariffe eccessive, l&apos;acqua rimarrà chiusa... devo dire che non guardo indietro con affetto all&apos;Enclave, ma almeno hanno visto l&apos;acqua come un diritto... oh aspetta... .forse non l&apos;hanno fatto.
+      <Dest>Ne ho abbastanza di Shen. Quel piccolo stronzo ha chiuso la nostra linea idrica. Ha detto che la domanda era alta e che non c&apos;erano più &quot;scrocconi&quot;. A meno che non iniziamo a pagare le sue tariffe eccessive, allora l&apos;acqua rimarrà chiusa... Devo dire che non guardo con affetto all&apos;Enclave, ma almeno loro vedevano l&apos;acqua come un diritto....oh aspetta... forse non lo vedevano. 
 
-Qualunque cosa... ho chiuso con i suoi shennigan amichevoli. Ho visto una vecchia pompa fuori dalla fabbrica di birra in uno dei vagoni del treno distrutti. A quanto pare, potrei farlo smontare e riportarlo qui nel seminterrato entro una settimana o giù di lì. Finché lo porto in pezzi, nessuno dovrebbe accorgersene. Sono sicuro che la città non ci permetterebbe mai di avere una nostra fonte d&apos;acqua.
+Comunque sia... ho chiuso con le sue truffe clientelari. Ho visto una vecchia pompa vicino al birrificio in uno dei vagoni ferroviari distrutti. A quanto pare, potrei smontarla e riportarla qui in cantina entro una settimana o poco più. Finché lo porto qui in modo frammentario, nessuno dovrebbe notarlo. Sono sicuro che la città non ci permetterebbe mai di avere una nostra fonte d&apos;acqua.
 
-Se riusciamo a trivellare abbastanza in profondità, dovremmo essere in grado di attingere a una falda acquifera e bypassare del tutto l&apos;approvvigionamento cittadino. Nessuno sarebbe più saggio e Amelie potrebbe allestire una piccola serra al piano di sotto. Sono sicuro che il Vault 81 potrebbe far passare alcune luci decenti a effetto serra sulla nostra strada se trovassimo uno scambio allettante.</Dest>
+Se riusciamo a trivellare abbastanza in profondità, dovremmo essere in grado di attingere a una falda acquifera e bypassare del tutto l&apos;approvvigionamento cittadino. Nessuno se ne accorgerebbe e Amelie potrebbe allestire una piccola serra al piano di sotto. Sono sicuro che Vault 81 potrebbe farci avere delle luci di serra decenti se proponessimo uno scambio allettante. </Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
       <REC id="5" idMax="6">TERM:ITXT</REC>
       <Source>All set!!!...well, almost...</Source>
-      <Dest>Tutto pronto!!!...beh, quasi...</Dest>
+      <Dest>Tutto pronto!!!... beh, quasi...</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2692,15 +2486,9 @@ Se riusciamo a trivellare abbastanza in profondità, dovremmo essere in grado di
       <Source>Amelie has the Water Pump/Purifier pretty much ready, and I only need to fine tune some things on the generator. But....there&apos;s a problem. The things are louder than two Mirelurks fucking on a tin roof!!! If Shen figures out what we&apos;re doing down here, the little shit will certainly report us to McDonough, and then it&apos;s &quot;good bye&quot; to our little project... As luck would have it, I think I found a solution.
 
 I ran into this guy the other day, on his way to Trinity Tower. Kept saying something about wanting to bring culture to the Mutties. I&apos;m sure he&apos;s dead by now, but regardless he said he was from that radio station WRVR west of Diamond City. They probably have some acoustic panels I could trade for. They wouldn&apos;t completely sound proof the basement, but a few of them would definitely deaden the noise. Enough for us to go unnoticed. Gonna head on over soon.</Source>
-      <Dest>Amelie ha la pompa dell&apos;acqua/purificatore praticamente pronta e devo solo mettere a punto alcune cose sul generatore. Ma... c&apos;è un problema. Le cose sono più rumorose di due Mirelurk che scopano su un tetto di lamiera!!! Se Shen capisce cosa stiamo facendo quaggiù, quella piccola merda sicuramente ci segnalerà a McDonough, e poi è un &quot;arrivederci&quot; al nostro piccolo progetto... Per fortuna, penso di aver trovato una soluzione.
+      <Dest>Amelie ha la pompa dell&apos;acqua/depuratore praticamente pronti e io devo solo mettere a punto alcune cose sul generatore. Ma.... c&apos;è un problema. Quelle cose sono più rumorose di due Mirelurk che scopano su un tetto di latta!!! Se Shen scopre cosa stiamo facendo quaggiù, quella piccola merda ci denuncerà sicuramente a McDonough, e allora sarà &quot;addio&quot; al nostro piccolo progetto... Per fortuna, credo di aver trovato una soluzione.
 
-Ho incontrato questo tizio l&apos;altro giorno, mentre andava alla Trinity Tower. Continuavo a dire qualcosa sul voler portare cultura ai Mutties. Sono sicuro che ormai sia morto, ma comunque ha detto che proveniva da quella stazione radio WRVR a ovest di Diamond City. Probabilmente hanno dei pannelli acustici con cui potrei scambiare. Non attutirebbero completamente il seminterrato, ma alcuni di loro attutirebbero sicuramente il rumore. Abbastanza per passare inosservati. Presto andrò avanti.</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_Terminal01</EDID>
-      <REC id="6" idMax="6">TERM:ITXT</REC>
-      <Source>Mecca Lecca High, Mecca Hiney Home...</Source>
-      <Dest>Mecca Lecca High, Mecca Hiney Home...</Dest>
+Ho incontrato questo tizio l&apos;altro giorno, mentre andava alla Trinity Tower. Continuava a dire di voler portare cultura ai Mutties. Sono sicuro che ormai è morto, ma comunque ha detto di essere di quella stazione radio WRVR a ovest di Diamond City. Probabilmente hanno dei pannelli acustici che potrei scambiare. Non insonorizzerebbero del tutto il seminterrato, ma alcuni di essi attutirebbero sicuramente il rumore. Abbastanza da farci passare inosservati. Ci andrò presto.</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2713,13 +2501,14 @@ The thing that does bug me is that Geneva knew we didn&apos;t have time to fetch
 
 Whoever ends up here, best of luck to you. Enjoy the place. 
 </Source>
-      <Dest>Bene, abbiamo avuto notizie da un mercante quassù da Washington, che a sua volta ha avuto notizie da un mercante giù nella Carolina del Nord, che ha avuto notizie da Memphis che... qualunque cosa. Abbiamo sentito che a New Orleans sta succedendo una merda pazzesca.
+      <Dest>Abbiamo saputo da un commerciante di Washington, che a sua volta ha saputo da un commerciante della Carolina del Nord, che ha saputo da Memphis che.... quello che è. Abbiamo sentito che a New Orleans stanno succedendo cose assurde. 
 
-Certo, sono tutte voci e sciocchezze senza senso se me lo chiedi, ma Amelie giura di avere dei parenti laggiù e insiste affinché ce ne andiamo immediatamente. Ecco dove era diretta originariamente quando ci siamo incontrati. Immagino di aver solo ritardato l&apos;inevitabile viaggio verso sud. Non ho mai preso contatti con l&apos;Istituto, e da quello che ho sentito, forse è una buona cosa. Stanno cominciando a suonare più squilibrati di quanto non facesse il colonnello Autumn. Quindi, alla fine, suppongo di non aver avuto problemi a saltare la nave.
+Certo, sono tutte voci e sciocchezze di seconda mano, ma Amelie giura di avere dei parenti laggiù e insiste perché ce ne andiamo immediatamente. È lì che era diretta quando ci siamo conosciuti. Credo di aver solo ritardato l&apos;inevitabile viaggio verso sud. Non ho mai preso contatto con l&apos;Istituto e, da quello che ho sentito, forse è una buona cosa. Cominciano a sembrare più squilibrati di quanto non lo fosse il colonnello Autumn. Quindi, alla fine, non ho problemi a lasciare la nave.
 
-La cosa che mi infastidisce è che Geneva sapeva che non avevamo il tempo di andare a prendere un buon prezzo per la casa o per le cose che non possiamo prendere. Quindi la puttana ne ha approfittato e ci ha costretto a rivenderlo tutto alla città a buon mercato. Spero che si strozzi con il cazzo di McDonough.
+La cosa che mi infastidisce è che Ginevra sapeva che non avevamo tempo per ottenere un buon prezzo per la casa o per le cose che non possiamo prendere. Così la stronza se n&apos;è approfittata e ci ha costretti a rivendere tutto alla città a prezzi stracciati. Spero che si strozzi con il cazzo di McDonough. 
 
-Chiunque finisca qui, buona fortuna a te. Goditi il ​​posto.</Dest>
+Chiunque finisca qui, vi auguro buona fortuna. Godetevi il posto. 
+</Dest>
     </String>
     <String List="0">
       <EDID>DmndPlayerHouse01</EDID>
