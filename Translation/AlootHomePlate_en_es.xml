@@ -1990,6 +1990,12 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Pintura</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_QuebecFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>The Flag of Quebec</Source>
+      <Dest>La bandera de Quebec</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_MetalBarrel01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Barrel</Source>
