@@ -3,22 +3,10 @@
   <Params>
     <Addon>PPF.esm</Addon>
     <Source>en</Source>
-    <Dest>es</Dest>
+    <Dest>esmx</Dest>
     <Version>2</Version>
   </Params>
   <Content>
-    <String List="0">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:CNAM</REC>
-      <Source>BenRierimanu</Source>
-      <Dest>BenRierimanu</Dest>
-    </String>
-    <String List="0">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:SNAM</REC>
-      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
-      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
-    </String>
     <String List="0">
       <EDID>DLC04ZooCageWallTallDoorSingle01</EDID>
       <REC>DOOR:FULL</REC>
@@ -71,7 +59,7 @@
       <EDID>DLC01FortHagenSatelliteArray01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Hagen Hangar</Source>
-      <Dest>Hangar de Fort Hagen</Dest>
+      <Dest>Hangar del fuerte Hagen</Dest>
     </String>
     <String List="0">
       <EDID>FensStreetSewer01</EDID>
@@ -143,7 +131,7 @@
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
-      <Dest>U.S.S. Constitution</Dest>
+      <Dest>USS Constitution</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
@@ -161,7 +149,7 @@
       <EDID>GwinnettBrewery02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gwinnett Main Brewery</Source>
-      <Dest>Cervecera Gwinnett</Dest>
+      <Dest>Gwinnett Main Brewery</Dest>
     </String>
     <String List="0">
       <EDID>UniversityPoint01</EDID>
@@ -191,13 +179,13 @@
       <EDID>BeaconHillPub</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prost Bar</Source>
-      <Dest>Bar Prost</Dest>
+      <Dest>Prost Bar</Dest>
     </String>
     <String List="0">
       <EDID>IrishPrideShipyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Astillero de Industrias Irish Pride</Dest>
+      <Dest>Astillero de Irish Pride Industries</Dest>
     </String>
     <String List="0">
       <EDID>Vault95</EDID>
@@ -227,7 +215,7 @@
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
-      <Dest>Investigación de Med-Tek</Dest>
+      <Dest>Med-Tek Research</Dest>
     </String>
     <String List="0">
       <EDID>USAFSatellite01</EDID>
@@ -239,7 +227,7 @@
       <EDID>NHMFreightDepot01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Strongroom</Source>
-      <Dest>Cámara acorazada</Dest>
+      <Dest>Bóveda</Dest>
     </String>
     <String List="0">
       <EDID>FallonsDepartmentStore01</EDID>
@@ -311,7 +299,7 @@
       <EDID>DLC03FarHarbor</EDID>
       <REC>WRLD:FULL</REC>
       <Source>The Island</Source>
-      <Dest>La Isla</Dest>
+      <Dest>La isla</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VRWorldspace</EDID>

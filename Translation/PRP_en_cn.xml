@@ -3,2109 +3,2073 @@
   <Params>
     <Addon>PRP.esp</Addon>
     <Source>en</Source>
-    <Dest>es</Dest>
+    <Dest>cn</Dest>
     <Version>2</Version>
   </Params>
   <Content>
     <String List="0">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:CNAM</REC>
-      <Source>BenRierimanu</Source>
-      <Dest>BenRierimanu</Dest>
-    </String>
-    <String List="0">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:SNAM</REC>
-      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
-      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
-    </String>
-    <String List="0">
       <EDID>CroupManor01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Croup Manor Basement</Source>
-      <Dest>Sótano de la mansión Croup</Dest>
+      <Dest>克洛普莊園地下室</Dest>
     </String>
     <String List="0">
       <EDID>PrewarVault111</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>Refugio 111</Dest>
+      <Dest>111號避難所</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB05Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Red Rocket</Source>
-      <Dest>Red Rocket</Dest>
+      <Dest>紅火箭</Dest>
     </String>
     <String List="0">
       <EDID>MaldenDrainage01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Malden Drainage</Source>
-      <Dest>Drenaje de Malden</Dest>
+      <Dest>摩頓排水管</Dest>
     </String>
     <String List="0">
       <EDID>DLC03NorthwoodRidgeQuarry01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Northwood Ridge Quarry</Source>
-      <Dest>Cantera de Northwood Ridge</Dest>
+      <Dest>北木山採石場</Dest>
     </String>
     <String List="0">
       <EDID>DLC04BottlingPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The World of Refreshment</Source>
-      <Dest>El Mundo Refrescante</Dest>
+      <Dest>清涼暢快世界</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMassChemical01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Chemical</Source>
-      <Dest>Mass Chemical</Dest>
+      <Dest>麻州化工廠</Dest>
     </String>
     <String List="0">
       <EDID>Switchboard</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Switchboard</Source>
-      <Dest>La Centralita</Dest>
+      <Dest>總控間</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VimPopFactory01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vim! Corporate Headquarters</Source>
-      <Dest>Sede corporativa de Vim!</Dest>
+      <Dest>「活力！」企業總部</Dest>
     </String>
     <String List="0">
       <EDID>Financial24</EDID>
       <REC>CELL:FULL</REC>
       <Source>Joe&apos;s Spuckies</Source>
-      <Dest>Joe&apos;s Spuckies</Dest>
+      <Dest>喬的潛艇堡店</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Abandoned House</Source>
-      <Dest>Casa abandonada</Dest>
+      <Dest>廢棄的房子</Dest>
     </String>
     <String List="0">
       <EDID>BeaconHillApartments</EDID>
       <REC>CELL:FULL</REC>
       <Source>Apartments</Source>
-      <Dest>Apartamentos</Dest>
+      <Dest>公寓</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborWarehouse02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>Almacén</Dest>
+      <Dest>倉庫</Dest>
     </String>
     <String List="0">
       <EDID>GraygardenHomestead01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Graygarden Homestead</Source>
-      <Dest>Hacienda Graygarden</Dest>
+      <Dest>格雷花園農莊</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsKellogg01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kellogg&apos;s House</Source>
-      <Dest>Casa de Kellogg</Dest>
+      <Dest>克羅格家</Dest>
     </String>
     <String List="0">
       <EDID>BADTFL01</EDID>
       <REC>CELL:FULL</REC>
       <Source>BADTFL Regional Office</Source>
-      <Dest>Oficina regional del DADTAL</Dest>
+      <Dest>菸酒槍藥局地區辦公室</Dest>
     </String>
     <String List="0">
       <EDID>BeantownBrewery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Beantown Brewery</Source>
-      <Dest>Cervecera Beantown</Dest>
+      <Dest>豆子鎮釀酒廠</Dest>
     </String>
     <String List="0">
       <EDID>MassStateHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Massachusetts State House</Source>
-      <Dest>Parlamento de Massachusetts</Dest>
+      <Dest>麻薩諸塞州政府</Dest>
     </String>
     <String List="0">
       <EDID>ConcordFactory</EDID>
       <REC>CELL:FULL</REC>
       <Source>Workhouse</Source>
-      <Dest>Reformatorio</Dest>
+      <Dest>救濟院</Dest>
     </String>
     <String List="0">
       <EDID>DmndSurgeryCellar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Surgery Cellar</Source>
-      <Dest>Sótano de cirugía</Dest>
+      <Dest>地下手術室</Dest>
     </String>
     <String List="0">
       <EDID>DmndSchoolhouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Schoolhouse</Source>
-      <Dest>Escuela</Dest>
+      <Dest>學堂</Dest>
     </String>
     <String List="0">
       <EDID>ConcordSpeakeasy</EDID>
       <REC>CELL:FULL</REC>
       <Source>Concord Speakeasy</Source>
-      <Dest>Tugurio de Concord</Dest>
+      <Dest>康科德地下酒吧</Dest>
     </String>
     <String List="0">
       <EDID>BostonPublicLibrary01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Copley Station</Source>
-      <Dest>Estación de Copley</Dest>
+      <Dest>寇布利車站</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt15A</EDID>
       <REC>CELL:FULL</REC>
       <Source>Operations</Source>
-      <Dest>Operaciones</Dest>
+      <Dest>操作室</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomZ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Castle Tower</Source>
-      <Dest>Torre del castillo del rey Cola</Dest>
+      <Dest>可樂王城堡塔</Dest>
     </String>
     <String List="0">
       <EDID>DLC04NWJunkyardUFO01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ultimate UFO</Source>
-      <Dest>OVNI Final</Dest>
+      <Dest>終極UFO</Dest>
     </String>
     <String List="0">
       <EDID>ShawHighSchool01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shaw High School</Source>
-      <Dest>Instituto Shaw</Dest>
+      <Dest>夏烏高中</Dest>
     </String>
     <String List="0">
       <EDID>DLC03NucleusCommandCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nucleus Command Center</Source>
-      <Dest>Centro de mando del Núcleo</Dest>
+      <Dest>原子核會指揮中心</Dest>
     </String>
     <String List="0">
       <EDID>LaytonTowers01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Layton Towers</Source>
-      <Dest>Torres Layton</Dest>
+      <Dest>雷頓塔</Dest>
     </String>
     <String List="0">
       <EDID>DLC01Lair01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Mechanist&apos;s Lair</Source>
-      <Dest>Guarida del Mecanista</Dest>
+      <Dest>機械大師巢穴</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Nukacade01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-Cade</Source>
-      <Dest>Galería Nuka-Cade</Dest>
+      <Dest>核子電玩遊樂場</Dest>
     </String>
     <String List="0">
       <EDID>MassFusion02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Fusion Main Reactor</Source>
-      <Dest>Reactor principal de Mass Fusion</Dest>
+      <Dest>大核融合廠主反應爐</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Vault118</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 118</Source>
-      <Dest>Refugio 118</Dest>
+      <Dest>118號避難所</Dest>
     </String>
     <String List="0">
       <EDID>DLC03PineCrestCavern01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pine Crest Cavern</Source>
-      <Dest>Caverna de Pine Crest</Dest>
+      <Dest>松冠洞穴</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborHotelRexford</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hotel Rexford</Source>
-      <Dest>Hotel Rexford</Dest>
+      <Dest>瑞福大飯店</Dest>
     </String>
     <String List="0">
       <EDID>ParsonsState01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parsons State Administration</Source>
-      <Dest>Administración de Parsons</Dest>
+      <Dest>帕森斯州立病院行政部門</Dest>
     </String>
     <String List="0">
       <EDID>Financial13</EDID>
       <REC>CELL:FULL</REC>
       <Source>Weatherby Investment Trust</Source>
-      <Dest>Fondo de inversión Weatherby</Dest>
+      <Dest>威勒比投資信託</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownDrugDen</EDID>
       <REC>CELL:FULL</REC>
       <Source>Drug Den</Source>
-      <Dest>Cubil de drogas</Dest>
+      <Dest>毒窟</Dest>
     </String>
     <String List="0">
       <EDID>DLC01FortHagenSatelliteArray01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Hagen Hangar</Source>
-      <Dest>Hangar de Fort Hagen</Dest>
+      <Dest>黑根堡機庫</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborWarehouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>Almacén</Dest>
+      <Dest>倉庫</Dest>
     </String>
     <String List="0">
       <EDID>InstituteConcourse</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Institute</Source>
-      <Dest>El Instituto</Dest>
+      <Dest>學院</Dest>
     </String>
     <String List="0">
       <EDID>DmndValentines01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Valentine Detective Agency</Source>
-      <Dest>Agencia de detectives Valentine</Dest>
+      <Dest>瓦倫坦偵探事務所</Dest>
     </String>
     <String List="0">
       <EDID>CollegeSquare01</EDID>
       <REC>CELL:FULL</REC>
       <Source>College Square Station</Source>
-      <Dest>Estación de College Square</Dest>
+      <Dest>大學廣場站</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial Taphouse</Source>
-      <Dest>Taberna Colonial</Dest>
+      <Dest>殖民酒館</Dest>
     </String>
     <String List="0">
       <EDID>FensStreetSewer01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fens Street Sewer</Source>
-      <Dest>Cloaca de la calle de los Fens</Dest>
+      <Dest>後灣沼澤街下水道</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePlumbing01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Plumber&apos;s Secret</Source>
-      <Dest>Secreto del Fontanero</Dest>
+      <Dest>水管工的秘密</Dest>
     </String>
     <String List="0">
       <EDID>DmndAllFaithsChapel01</EDID>
       <REC>CELL:FULL</REC>
       <Source>All Faiths Chapel</Source>
-      <Dest>Capilla de Todas las Fes</Dest>
+      <Dest>全信仰教堂</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborWarehouse03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>Almacén</Dest>
+      <Dest>倉庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC04NukaWorldPowerPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-World Power Plant</Source>
-      <Dest>Central eléctrica de Nuka-World</Dest>
+      <Dest>核子世界發電廠</Dest>
     </String>
     <String List="0">
       <EDID>DLC04WWMineCart01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mad Mulligan&apos;s Mine</Source>
-      <Dest>La mina del Loco Mulligan</Dest>
+      <Dest>瘋莫利根礦坑</Dest>
     </String>
     <String List="0">
       <EDID>DmndPublick01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Publick Occurrences</Source>
-      <Dest>Publick Occurrences</Dest>
+      <Dest>公共事件報社</Dest>
     </String>
     <String List="0">
       <EDID>ConcordCivicAccess01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Concord Civic Access</Source>
-      <Dest>Acceso cívico de Concord</Dest>
+      <Dest>康科德下水道</Dest>
     </String>
     <String List="0">
       <EDID>PickmanGallery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pickman Gallery</Source>
-      <Dest>Galería Pickman</Dest>
+      <Dest>皮克曼畫廊</Dest>
     </String>
     <String List="0">
       <EDID>DanversHideout</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hideout</Source>
-      <Dest>Escondite</Dest>
+      <Dest>藏匿處</Dest>
     </String>
     <String List="0">
       <EDID>PrewarTVStudio</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial&apos;s Department Store</Source>
-      <Dest>Grandes Almacenes Colonial&apos;s</Dest>
+      <Dest>殖民地百貨公司</Dest>
     </String>
     <String List="0">
       <EDID>SaugusIronworks01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Saugus Ironworks</Source>
-      <Dest>Siderúrgica Saugus</Dest>
+      <Dest>索格斯鐵工廠</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndValentiStation</EDID>
       <REC>CELL:FULL</REC>
       <Source>Subway Station</Source>
-      <Dest>Estación de Metro</Dest>
+      <Dest>地鐵站</Dest>
     </String>
     <String List="0">
       <EDID>BostonPublicLibrary02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Boston Public Library</Source>
-      <Dest>Biblioteca Pública de Boston</Dest>
+      <Dest>波士頓公共圖書館</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Basement</Source>
-      <Dest>Sótano</Dest>
+      <Dest>地下室</Dest>
     </String>
     <String List="0">
       <EDID>DLC04BradbertonsOffice01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bradberton&apos;s Office</Source>
-      <Dest>Despacho de Bradberton</Dest>
+      <Dest>布來伯頓辦公室</Dest>
     </String>
     <String List="0">
       <EDID>FortStrong01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Strong Armory</Source>
-      <Dest>Arsenal de Fort Strong</Dest>
+      <Dest>史特朗堡軍械庫</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bunker</Source>
-      <Dest>Búnker</Dest>
+      <Dest>地堡</Dest>
     </String>
     <String List="0">
       <EDID>ArcjetSystems01</EDID>
       <REC>CELL:FULL</REC>
       <Source>ArcJet Systems</Source>
-      <Dest>ArcJet Systems</Dest>
+      <Dest>電弧噴射系統</Dest>
     </String>
     <String List="0">
       <EDID>DLC03FarHarborLastPlank</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Last Plank</Source>
-      <Dest>El Last Plank</Dest>
+      <Dest>末板酒吧</Dest>
     </String>
     <String List="0">
       <EDID>DLC03EagleCoveTannery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Eagle&apos;s Cove Tannery</Source>
-      <Dest>Curtiduría de Eagle&apos;s Cove</Dest>
+      <Dest>鷹谷皮革工廠</Dest>
     </String>
     <String List="0">
       <EDID>Vault114</EDID>
       <REC>CELL:FULL</REC>
       <Source>Park Street Station</Source>
-      <Dest>Estación Park Street</Dest>
+      <Dest>公園街車站</Dest>
     </String>
     <String List="0">
       <EDID>FourLeafFishpacking02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Marowski&apos;s Chem Lab</Source>
-      <Dest>Laboratorio de drogas de Marowski</Dest>
+      <Dest>馬洛斯基的藥物實驗室</Dest>
     </String>
     <String List="0">
       <EDID>DLC03KitteredgePass01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kitteredge Pass</Source>
-      <Dest>Paso de Kitteredge</Dest>
+      <Dest>基特里奇礦洞</Dest>
     </String>
     <String List="0">
       <EDID>DLC03BeaverCreekLanes01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Beaver Creek Lanes</Source>
-      <Dest>Pistas de Beaver Creek</Dest>
+      <Dest>河狸溪保齡球館</Dest>
     </String>
     <String List="0">
       <EDID>DLC03KyeBunker01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vim! Basement</Source>
-      <Dest>Sótano de Vim!</Dest>
+      <Dest>「活力！」地下室</Dest>
     </String>
     <String List="0">
       <EDID>DLC04WarehouseAmbush</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ambush Warehouse Cell</Source>
-      <Dest>Celda de emboscada de almacén</Dest>
+      <Dest>突襲倉庫</Dest>
     </String>
     <String List="0">
       <EDID>RevereBeachStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Revere Beach Station</Source>
-      <Dest>Estación de Revere Beach</Dest>
+      <Dest>里維爾灘車站</Dest>
     </String>
     <String List="0">
       <EDID>Financial06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Corner Bookstore</Source>
-      <Dest>Librería Old Corner</Dest>
+      <Dest>老街角書店</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubPackLair</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-Town Backstage</Source>
-      <Dest>Trastienda de Nuka-Town</Dest>
+      <Dest>核子城後台</Dest>
     </String>
     <String List="0">
       <EDID>TheBigDig01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Dig</Source>
-      <Dest>La Excavación</Dest>
+      <Dest>挖掘</Dest>
     </String>
     <String List="0">
       <EDID>DmndJohnsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>John and Cathy&apos;s House</Source>
-      <Dest>Casa de John y Cathy</Dest>
+      <Dest>約翰和凱西的家</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborTheThirdRail</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Third Rail</Source>
-      <Dest>The Third Rail</Dest>
-    </String>
-    <String List="0">
-      <EDID>SuperDuperMart01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Super-Duper Mart</Source>
-      <Dest>Super-Duper Mart</Dest>
+      <Dest>第三鐵軌酒館</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Recruitment Office</Source>
-      <Dest>Oficina de reclutamiento de la Guardia Nacional</Dest>
+      <Dest>國民警衛隊招募辦公室</Dest>
     </String>
     <String List="0">
       <EDID>SouthBoston35</EDID>
       <REC>CELL:FULL</REC>
       <Source>Factory</Source>
-      <Dest>Fábrica</Dest>
+      <Dest>工廠</Dest>
     </String>
     <String List="0">
       <EDID>SentinelSite01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sentinel Site Prescott</Source>
-      <Dest>Base de centinelas Prescott</Dest>
+      <Dest>普雷斯科特鐵衛站</Dest>
     </String>
     <String List="0">
       <EDID>BackBayTallOffice01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dartmouth Professional Building</Source>
-      <Dest>Edificio profesional de Dartmouth</Dest>
+      <Dest>達特茅斯商業大廈</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedFalloutShelter02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shelter</Source>
-      <Dest>Refugio</Dest>
+      <Dest>庇護處</Dest>
     </String>
     <String List="0">
       <EDID>DmndChoiceChops01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Polly&apos;s House</Source>
-      <Dest>Casa de Polly</Dest>
+      <Dest>波莉家</Dest>
     </String>
     <String List="0">
       <EDID>FederalRationStockpile01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Federal Ration Stockpile</Source>
-      <Dest>Reservas de suministros federales</Dest>
+      <Dest>聯邦糧食貯藏庫</Dest>
     </String>
     <String List="0">
       <EDID>FaneuilHall01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Faneuil Hall</Source>
-      <Dest>Faneuil Hall</Dest>
+      <Dest>法尼爾廳</Dest>
     </String>
     <String List="0">
       <EDID>FortHagen01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Hagen</Source>
-      <Dest>Fort Hagen</Dest>
+      <Dest>黑根堡</Dest>
     </String>
     <String List="0">
       <EDID>GreenetechGenetics02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenetech Genetics</Source>
-      <Dest>Greenetech Genetics</Dest>
+      <Dest>葛林科技基因研究院</Dest>
     </String>
     <String List="0">
       <EDID>DLC03EchoLakeLumber01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bunker</Source>
-      <Dest>Búnker</Dest>
+      <Dest>地堡</Dest>
     </String>
     <String List="0">
       <EDID>DmndSecurity01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Security Office</Source>
-      <Dest>Oficina de seguridad</Dest>
+      <Dest>警衛室</Dest>
     </String>
     <String List="0">
       <EDID>EastBostonPrep01</EDID>
       <REC>CELL:FULL</REC>
       <Source>East Boston Preparatory School</Source>
-      <Dest>Escuela preparatoria de East Boston</Dest>
+      <Dest>東波士頓預校</Dest>
     </String>
     <String List="0">
       <EDID>PrydwenHull01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Main Deck</Source>
-      <Dest>Cubierta principal del Prydwen</Dest>
+      <Dest>普利德溫號主甲板</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedTheaterLaundromat</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
-      <Dest>Quick Test Cell</Dest>
+      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vault-Tec: Entre las estrellas</Dest>
+      <Dest>避難所科技：星辰之間</Dest>
     </String>
     <String List="0">
       <EDID>TheCastle01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Castle Tunnels</Source>
-      <Dest>Los túneles del Castillo</Dest>
+      <Dest>城堡隧道</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt14</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reactor Level</Source>
-      <Dest>Nivel del Reactor</Dest>
+      <Dest>反應爐等級</Dest>
     </String>
     <String List="0">
       <EDID>ArcjetSystems02</EDID>
       <REC>CELL:FULL</REC>
       <Source>ArcJet Engine Core</Source>
-      <Dest>Núcleo de motor de ArcJet</Dest>
+      <Dest>電弧噴射引擎核心</Dest>
     </String>
     <String List="0">
       <EDID>Wattz01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Wattz Electronics</Source>
-      <Dest>Wattz Electronics</Dest>
+      <Dest>瓦茲電子</Dest>
     </String>
     <String List="0">
       <EDID>MQ203KelloggsBrain</EDID>
       <REC>CELL:FULL</REC>
       <Source>Memories</Source>
-      <Dest>Recuerdos</Dest>
+      <Dest>記憶</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariBearCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bear Cave</Source>
-      <Dest>Cueva de los osos</Dest>
+      <Dest>熊穴</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborBobbisPlace</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bobbi&apos;s Place</Source>
-      <Dest>Casa de Bobbi</Dest>
+      <Dest>芭比的住所</Dest>
     </String>
     <String List="0">
       <EDID>FraternalPost11501</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fraternal Post 115</Source>
-      <Dest>Puesto fraternal 115</Dest>
+      <Dest>115號兄弟哨站</Dest>
     </String>
     <String List="0">
       <EDID>InstituteCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Sublevel 21-D</Source>
-      <Dest>Subnivel 21-D del Instituto</Dest>
+      <Dest>學院次層21-D</Dest>
     </String>
     <String List="0">
       <EDID>DLC03FringeCoveDocks01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
-      <Dest>Quick Test Cell</Dest>
+      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>DLC04TransitCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-World Transit Center</Source>
-      <Dest>Centro de tránsito de Nuka-World</Dest>
+      <Dest>核子世界轉運站</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubCappysCafe01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cappy&apos;s Cafe</Source>
-      <Dest>El Café de Chapita</Dest>
+      <Dest>阿蓋咖啡廳</Dest>
     </String>
     <String List="0">
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
-      <Dest>Cuarteles del Prydwen</Dest>
+      <Dest>普利德溫號營房</Dest>
     </String>
     <String List="0">
       <EDID>DmndFallons01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fallon&apos;s Basement</Source>
-      <Dest>Sótano de Fallon&apos;s</Dest>
+      <Dest>飛倫家地下室</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeKendallHospital01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kendall Hospital</Source>
-      <Dest>Hospital de Kendall</Dest>
+      <Dest>肯德爾醫院</Dest>
     </String>
     <String List="0">
       <EDID>RailroadHQEscapeTunnel</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ Escape Tunnel</Source>
-      <Dest>Túnel de salida del cuartel del Ferrocarril</Dest>
+      <Dest>鐵路總部逃生通道</Dest>
     </String>
     <String List="0">
       <EDID>BigJohnsSalvage01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shelter</Source>
-      <Dest>Refugio</Dest>
+      <Dest>庇護處</Dest>
     </String>
     <String List="0">
       <EDID>WarehouseIndustrialMachines</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Incredible Machines</Source>
-      <Dest>Las máquinas increíbles</Dest>
+      <Dest>驚奇機器</Dest>
     </String>
     <String List="0">
       <EDID>ccTOSFO4001</EDID>
       <REC>CELL:FULL</REC>
       <Source>Noir Penthouse</Source>
-      <Dest>Ático noir</Dest>
+      <Dest>Noir Penthouse</Dest>
     </String>
     <String List="0">
       <EDID>DmndDugoutInn01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dugout Inn</Source>
-      <Dest>Taberna Dugout</Dest>
+      <Dest>板凳旅店</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePD01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cambridge Police Station</Source>
-      <Dest>Comisaría de Cambridge</Dest>
+      <Dest>劍橋警察局</Dest>
     </String>
     <String List="0">
       <EDID>REHoldingCell</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
-      <Dest>Quick Test Cell</Dest>
+      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>MiltonGeneral01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Milton General Hospital</Source>
-      <Dest>Hospital Milton General</Dest>
+      <Dest>米爾頓綜合醫院</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZNukaGalaxy01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-Galaxy</Source>
-      <Dest>Nuka-Galaxia</Dest>
+      <Dest>核子銀河冒險</Dest>
     </String>
     <String List="0">
       <EDID>ConcordMuseum01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Museum of Freedom</Source>
-      <Dest>Museo de la Libertad</Dest>
+      <Dest>自由博物館</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborOldStateHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old State House</Source>
-      <Dest>Antiguo Parlamento</Dest>
+      <Dest>舊州政府</Dest>
     </String>
     <String List="0">
       <EDID>REObject02Interior</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bomb Shelter</Source>
-      <Dest>Refugio antiaéreo</Dest>
+      <Dest>防空洞</Dest>
     </String>
     <String List="0">
       <EDID>SouthBoston19</EDID>
       <REC>CELL:FULL</REC>
       <Source>High School</Source>
-      <Dest>Escuela de secundaria</Dest>
+      <Dest>高中</Dest>
     </String>
     <String List="0">
       <EDID>GNN01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gunners Plaza</Source>
-      <Dest>Plaza de los artilleros</Dest>
+      <Dest>槍手廣場</Dest>
     </String>
     <String List="0">
       <EDID>HubrisComics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hubris Comics</Source>
-      <Dest>Cómics Hubris</Dest>
+      <Dest>虎不理漫畫店</Dest>
     </String>
     <String List="0">
       <EDID>WaldenPond01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gift Shop Basement</Source>
-      <Dest>Sótano de la tienda de regalos</Dest>
+      <Dest>禮品店地下室</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonEnergy01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Energy</Source>
-      <Dest>Poseidon Energy</Dest>
+      <Dest>海神能源</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonEnergy02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Energy Sublevels</Source>
-      <Dest>Subniveles de Poseidon Energy</Dest>
+      <Dest>海神能源次層</Dest>
     </String>
     <String List="0">
       <EDID>AndrewStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
-      <Dest>Estación de Andrew</Dest>
-    </String>
-    <String List="0">
-      <EDID>zLexingtonGarage</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Lexington Parking Garage</Source>
-      <Dest>Garage del Aparcamiento de Lexington</Dest>
+      <Dest>安德魯車站</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
       <REC>CELL:FULL</REC>
       <Source>Terminals &amp; Holotapes, Oh My.</Source>
-      <Dest>Terminales y Holocintas, Oh, Vaya.</Dest>
+      <Dest>終端機和全像卡帶，喔我的天。</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
       <REC>CELL:FULL</REC>
       <Source>Safari Adventure Welcome Center</Source>
-      <Dest>Centro de bienvenida de Aventura del Safari</Dest>
+      <Dest>狩獵冒險服務中心</Dest>
     </String>
     <String List="0">
       <EDID>zVitalePumphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pumphouse</Source>
-      <Dest>Estación de bombeo</Dest>
+      <Dest>幫浦室</Dest>
     </String>
     <String List="0">
       <EDID>DLC03HarborGrandHotel01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Harbor Grand Hotel</Source>
-      <Dest>Gran Hotel Harbor</Dest>
+      <Dest>匕港大飯店</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubFizztopMountainInterior01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fizztop Mountain</Source>
-      <Dest>Monte Fizztop</Dest>
+      <Dest>泡泡山</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborTheMemoryDen</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Memory Den</Source>
-      <Dest>El Memory Den</Dest>
+      <Dest>記憶保管庫</Dest>
     </String>
     <String List="0">
       <EDID>HestersRobotics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hester&apos;s Consumer Robotics</Source>
-      <Dest>Robótica de consumo Hester</Dest>
+      <Dest>海斯特家用機器人</Dest>
     </String>
     <String List="0">
       <EDID>DmndOutfieldShengsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sheng Kawolski&apos;s House</Source>
-      <Dest>Casa de Sheng Kawolski</Dest>
+      <Dest>小昇．克沃斯基家</Dest>
     </String>
     <String List="0">
       <EDID>MedfordMemorial01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Medford Memorial Hospital</Source>
-      <Dest>Hospital Medford Memorial</Dest>
+      <Dest>梅德福紀念醫院</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndMeanPastries</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mean Pastries</Source>
-      <Dest>Pasteles Bestiales</Dest>
+      <Dest>敏恩糕點</Dest>
     </String>
     <String List="0">
       <EDID>DmndMoeCroninsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Moe Cronin&apos;s House</Source>
-      <Dest>Casa de Moe Cronin</Dest>
+      <Dest>老莫．克勞寧家</Dest>
     </String>
     <String List="0">
       <EDID>Vault81</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
-      <Dest>Refugio 81</Dest>
+      <Dest>81號避難所</Dest>
     </String>
     <String List="0">
       <EDID>GNN02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gunners Plaza Basement</Source>
-      <Dest>Sótano de la plaza de los artilleros</Dest>
+      <Dest>槍手廣場地下室</Dest>
     </String>
     <String List="0">
       <EDID>ThicketExcavations01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Thicket Excavations</Source>
-      <Dest>Excavaciones Thicket</Dest>
+      <Dest>灌木叢挖掘場</Dest>
     </String>
     <String List="0">
       <EDID>FensParkviewApartments02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parkview Lounge</Source>
-      <Dest>Sala de Parkview</Dest>
+      <Dest>公寓公共空間</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt04</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shelter</Source>
-      <Dest>Refugio</Dest>
+      <Dest>庇護處</Dest>
     </String>
     <String List="0">
       <EDID>DmndWarehouseA01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>Almacén</Dest>
+      <Dest>倉庫</Dest>
     </String>
     <String List="0">
       <EDID>UFOCrashSite01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cave</Source>
-      <Dest>Cueva</Dest>
+      <Dest>洞穴</Dest>
     </String>
     <String List="0">
       <EDID>FortStrong02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Strong Sublevel</Source>
-      <Dest>Subnivel de Fort Strong</Dest>
+      <Dest>史特朗堡次層</Dest>
     </String>
     <String List="0">
       <EDID>DmndAbbotsHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Abbot&apos;s House</Source>
-      <Dest>Casa de Abbot</Dest>
+      <Dest>阿伯特家</Dest>
     </String>
     <String List="0">
       <EDID>Theater16PearwoodResidences01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pearwood Residences</Source>
-      <Dest>Residencias de Pearwood</Dest>
+      <Dest>梨林公寓</Dest>
     </String>
     <String List="0">
       <EDID>Waterfront02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>Almacén</Dest>
+      <Dest>倉庫</Dest>
     </String>
     <String List="0">
       <EDID>EsplanadeChurch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Holy Mission Congregation</Source>
-      <Dest>Congregación de la Misión Sagrada</Dest>
+      <Dest>神聖使命教會</Dest>
     </String>
     <String List="0">
       <EDID>MassFusion01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Fusion Building</Source>
-      <Dest>Edificio de Mass Fusion</Dest>
+      <Dest>大核融合廠建築</Dest>
     </String>
     <String List="0">
       <EDID>Libertalia01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Captain&apos;s Cabin</Source>
-      <Dest>Camarote del capitán</Dest>
+      <Dest>船長室</Dest>
     </String>
     <String List="0">
       <EDID>InstituteAdvSystems</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Advanced Systems</Source>
-      <Dest>Sistemas Avanzados del Instituto</Dest>
+      <Dest>學院先進系統部門</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Secret</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secret Vault 81</Source>
-      <Dest>Refugio secreto 81</Dest>
+      <Dest>神祕81號避難所</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePolymerLabs01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cambridge Polymer Labs</Source>
-      <Dest>Cambridge Polymer Labs</Dest>
+      <Dest>劍橋聚合物研究所</Dest>
     </String>
     <String List="0">
       <EDID>Financial07</EDID>
       <REC>CELL:FULL</REC>
       <Source>Haymarket Mall</Source>
-      <Dest>Centro comercial de Haymarket</Dest>
+      <Dest>乾草市場商城</Dest>
     </String>
     <String List="0">
       <EDID>InstituteReactor</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Reactor</Source>
-      <Dest>Reactor del Instituto</Dest>
+      <Dest>學院反應爐</Dest>
     </String>
     <String List="0">
       <EDID>SaugusIronworks02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Saugus Blast Furnace</Source>
-      <Dest>Altos hornos de Saugus</Dest>
+      <Dest>索格斯高爐</Dest>
     </String>
     <String List="0">
       <EDID>EsplanadeMansion01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Marlborough House</Source>
-      <Dest>Casa de Marlborough</Dest>
+      <Dest>馬爾堡房屋</Dest>
     </String>
     <String List="0">
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
-      <Dest>U.S.S. Constitution</Dest>
+      <Dest>憲法號</Dest>
     </String>
     <String List="0">
       <EDID>BobbisNewPlace01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hawthorne Estate</Source>
-      <Dest>Hacienda Hawthorne</Dest>
+      <Dest>霍桑莊園</Dest>
     </String>
     <String List="0">
       <EDID>InstituteTunnel01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Public Works Maintenence Area</Source>
-      <Dest>Zona de mantenimiento de obras públicas</Dest>
+      <Dest>公共工程維護區</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gwinnett Restaurant</Source>
-      <Dest>Restaurante Gwinnett</Dest>
+      <Dest>谷內餐廳</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeDiner01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cambridge Diner</Source>
-      <Dest>Cafetería de Cambridge</Dest>
+      <Dest>劍橋食堂</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariReptileHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reptile House</Source>
-      <Dest>Casa de los reptiles</Dest>
+      <Dest>爬蟲類展覽館</Dest>
     </String>
     <String List="0">
       <EDID>Vault11402</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 114</Source>
-      <Dest>Refugio 114</Dest>
+      <Dest>114號避難所</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubOperatorLair01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Parlor</Source>
-      <Dest>El Salón</Dest>
+      <Dest>雅座</Dest>
     </String>
     <String List="0">
       <EDID>zLexingtonApartments</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Apartments</Source>
-      <Dest>Apartamentos Lexington</Dest>
+      <Dest>列星頓鎮公寓</Dest>
     </String>
     <String List="0">
       <EDID>DLC04BottlingPlant02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secure Beverageer Lab</Source>
-      <Dest>Laboratorio seguro de Beverageer</Dest>
+      <Dest>飲料實驗室</Dest>
     </String>
     <String List="0">
       <EDID>SandyCovesHome01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sandy Coves Convalescent Home</Source>
-      <Dest>Sanatorio Sandy Coves</Dest>
+      <Dest>沙灣養老院</Dest>
     </String>
     <String List="0">
       <EDID>MahkraFishpacking01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mahkra Fishpacking</Source>
-      <Dest>Conservera Mahkra</Dest>
+      <Dest>瑪卡拉魚產品包裝廠</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndHoardersApartment</EDID>
       <REC>CELL:FULL</REC>
       <Source>Apartment</Source>
-      <Dest>Apartamento</Dest>
+      <Dest>公寓</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 75</Source>
-      <Dest>Refugio 75</Dest>
+      <Dest>75號避難所</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Starlight Interstellar Theater</Source>
-      <Dest>Cine Starlight Interstellar</Dest>
+      <Dest>星光星際劇場</Dest>
     </String>
     <String List="0">
       <EDID>DmndArturosHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Arturo&apos;s House</Source>
-      <Dest>Casa de Arturo</Dest>
+      <Dest>亞圖羅家</Dest>
     </String>
     <String List="0">
       <EDID>FourLeafFishpacking01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Four Leaf Fishpacking Plant</Source>
-      <Dest>Conservera Four Leaf</Dest>
+      <Dest>四葉魚產品包裝廠</Dest>
     </String>
     <String List="0">
       <EDID>NahantOceanSociety01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nahant Oceanological Society</Source>
-      <Dest>Sociedad Oceanológica de Nahant</Dest>
+      <Dest>奈罕海洋學會</Dest>
     </String>
     <String List="0">
       <EDID>RailroadHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ</Source>
-      <Dest>Cuartel general del Ferrocarril</Dest>
+      <Dest>鐵路總部</Dest>
     </String>
     <String List="0">
       <EDID>FensParkviewApartments01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Apartment Building</Source>
-      <Dest>Edificio de apartamentos</Dest>
+      <Dest>公寓大樓</Dest>
     </String>
     <String List="0">
       <EDID>TrinityChurch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Trinity Church</Source>
-      <Dest>Iglesia de Trinity</Dest>
+      <Dest>崔尼帝教堂</Dest>
     </String>
     <String List="0">
       <EDID>DmndWaterfrontSunsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Doctor Sun&apos;s House</Source>
-      <Dest>Casa del doctor Sun</Dest>
+      <Dest>孫醫生家</Dest>
     </String>
     <String List="0">
       <EDID>DmndPembrokesHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pembroke Residence</Source>
-      <Dest>Residencia de Pembroke</Dest>
+      <Dest>潘柏克的住所</Dest>
     </String>
     <String List="0">
       <EDID>BostonCommon02</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Boylston Club</Source>
-      <Dest>El club Boylston</Dest>
+      <Dest>波伊斯頓俱樂部</Dest>
     </String>
     <String List="0">
       <EDID>CustomHouseTower01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Custom House Tower</Source>
-      <Dest>Torre de aduana</Dest>
+      <Dest>自訂的海關大樓</Dest>
     </String>
     <String List="0">
       <EDID>InstituteSRB</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute SRB</Source>
-      <Dest>S.R.B. de El Instituto</Dest>
+      <Dest>學院合成人回收部門</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt17</EDID>
       <REC>CELL:FULL</REC>
       <Source>Storage</Source>
-      <Dest>Depósito</Dest>
+      <Dest>儲藏庫</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB06Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parking Garage</Source>
-      <Dest>Garage de Aparcamiento</Dest>
+      <Dest>停車場</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeEastCITRaiderCamp01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Office Building</Source>
-      <Dest>Edificio de oficinas</Dest>
+      <Dest>辦公大樓</Dest>
     </String>
     <String List="0">
       <EDID>TheaterMassBayMedicalCenter02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Bay Medical Radiology</Source>
-      <Dest>Radiología del centro médico Mass Bay</Dest>
+      <Dest>麻州灣醫療放射學</Dest>
     </String>
     <String List="0">
       <EDID>SouthBoston25</EDID>
       <REC>CELL:FULL</REC>
       <Source>Church</Source>
-      <Dest>Iglesia</Dest>
+      <Dest>教堂</Dest>
     </String>
     <String List="0">
       <EDID>GeneralAtomicsGalleria01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Back Alley Bowling</Source>
-      <Dest>Bolera de Back Alley</Dest>
+      <Dest>後巷保齡球館</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedGrenades</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cellar</Source>
-      <Dest>Bodega</Dest>
+      <Dest>地窖</Dest>
     </String>
     <String List="0">
       <EDID>TheaterMassBayMedicalCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Bay Medical Center</Source>
-      <Dest>Centro médico Mass Bay</Dest>
+      <Dest>麻州灣醫療中心</Dest>
     </String>
     <String List="0">
       <EDID>DLC03NucleusSubInterior01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Vessel</Source>
-      <Dest>La Nave</Dest>
+      <Dest>船艦</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubFizztopGrille01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fizztop Grille</Source>
-      <Dest>Fizztop Grille</Dest>
+      <Dest>泡泡山烤排餐廳</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Breakheart Banks</Source>
-      <Dest>Breakheart Banks</Dest>
+      <Dest>心碎河岸</Dest>
     </String>
     <String List="0">
       <EDID>ShenleysOysterBar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shenley&apos;s Oyster Bar</Source>
-      <Dest>Ostrería Shenley</Dest>
+      <Dest>尚力生蠔酒吧</Dest>
     </String>
     <String List="0">
       <EDID>PrydwenHull02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
-      <Dest>Cubierta de mando del Prydwen</Dest>
-    </String>
-    <String List="0">
-      <EDID>zLexingtonPharmacy</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Lexington Pharmacy</Source>
-      <Dest>Farmacia de Lexington</Dest>
+      <Dest>普利德溫號指揮區</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bunker</Source>
-      <Dest>Búnker</Dest>
+      <Dest>地堡</Dest>
     </String>
     <String List="0">
       <EDID>BackStreetApparel01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Back Street Apparel</Source>
-      <Dest>Back Street Apparel</Dest>
+      <Dest>後街服飾店</Dest>
     </String>
     <String List="0">
       <EDID>Waterfront12</EDID>
       <REC>CELL:FULL</REC>
       <Source>Harbormaster Hotel</Source>
-      <Dest>Hotel Harbormaster</Dest>
+      <Dest>港口大亨大飯店</Dest>
     </String>
     <String List="0">
       <EDID>Financial28</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ruined Skyscraper</Source>
-      <Dest>Rascacielos en ruinas</Dest>
+      <Dest>摩天樓廢墟</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariPrimateHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Primate House</Source>
-      <Dest>Casa de los primates</Dest>
+      <Dest>靈長類展覽館</Dest>
     </String>
     <String List="0">
       <EDID>InstituteOldRobotics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Robotics</Source>
-      <Dest>Robótica antigua</Dest>
+      <Dest>老舊機器室</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedFinancial23</EDID>
       <REC>CELL:FULL</REC>
       <Source>Atlantic Offices</Source>
-      <Dest>Oficinas del Atlántico</Dest>
+      <Dest>大西洋辦公室</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gwinnett Main Brewery</Source>
-      <Dest>Cervecera Gwinnett</Dest>
+      <Dest>谷內大釀酒廠</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsHawthorne01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hawthorne Residence</Source>
-      <Dest>Residencia de Hawthorne</Dest>
+      <Dest>霍桑宅邸</Dest>
     </String>
     <String List="0">
       <EDID>Financial14</EDID>
       <REC>CELL:FULL</REC>
       <Source>Commonwealth Bank</Source>
-      <Dest>Banco de la Commonwealth</Dest>
+      <Dest>聯邦銀行</Dest>
     </String>
     <String List="0">
       <EDID>DmndCitySurplus01New</EDID>
       <REC>CELL:FULL</REC>
       <Source>Myrna&apos;s House</Source>
-      <Dest>Casa de Myrna</Dest>
+      <Dest>彌兒娜家</Dest>
     </String>
     <String List="0">
       <EDID>ShamrockTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Shamrock Taphouse</Source>
-      <Dest>La Taberna Shamrock</Dest>
+      <Dest>三葉草酒館</Dest>
     </String>
     <String List="0">
       <EDID>FensBank01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bridgeway Trust</Source>
-      <Dest>Banco Bridgeway</Dest>
+      <Dest>橋路信託</Dest>
     </String>
     <String List="0">
       <EDID>FortHagen02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Hagen Command Center</Source>
-      <Dest>Centro de mando de Fort Hagen</Dest>
+      <Dest>黑根堡指揮中心</Dest>
     </String>
     <String List="0">
       <EDID>QuincyPD01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quincy Police Lock up</Source>
-      <Dest>Almacén de pruebas de la policía de Quincy</Dest>
+      <Dest>昆西警察查閱</Dest>
     </String>
     <String List="0">
       <EDID>DmndWaterfrontCrockersHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Doc Crocker&apos;s House</Source>
-      <Dest>Casa del doctor Crocker</Dest>
+      <Dest>剮克醫生家</Dest>
     </String>
     <String List="0">
       <EDID>UniversityPoint01</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Point: Sedgwick Hall</Source>
-      <Dest>University Point: sala Sedgwick</Dest>
+      <Dest>大學角：塞奇威克大廳</Dest>
     </String>
     <String List="0">
       <EDID>zInstituteRotunda</EDID>
       <REC>CELL:FULL</REC>
       <Source>CIT Rotunda</Source>
-      <Dest>Rotonda del C.I.T.</Dest>
+      <Dest>聯邦理工圓頂大廳</Dest>
     </String>
     <String List="0">
       <EDID>WarrenTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warren Theater</Source>
-      <Dest>Teatro Warren</Dest>
+      <Dest>沃倫劇院</Dest>
     </String>
     <String List="0">
       <EDID>InstituteRobotics</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Robotics</Source>
-      <Dest>Robótica de El Instituto</Dest>
+      <Dest>學院機器人部門</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Gauntlet01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-World Access Tunnels</Source>
-      <Dest>Túneles de acceso de Nuka-World</Dest>
+      <Dest>核子世界通行通道</Dest>
     </String>
     <String List="0">
       <EDID>SanctuaryRosaHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Rosa Residence</Source>
-      <Dest>Residencia de Rosa</Dest>
+      <Dest>羅莎宅邸</Dest>
     </String>
     <String List="0">
       <EDID>InstituteFEVlab</EDID>
       <REC>CELL:FULL</REC>
       <Source>FEV Lab</Source>
-      <Dest>Laboratorio del VEF</Dest>
+      <Dest>FEV實驗室</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndSalemStreetCottage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cottage</Source>
-      <Dest>Casita</Dest>
+      <Dest>小屋</Dest>
     </String>
     <String List="0">
       <EDID>HalluciGen01</EDID>
       <REC>CELL:FULL</REC>
       <Source>HalluciGen, Inc.</Source>
-      <Dest>HalluciGen, Inc.</Dest>
+      <Dest>幻露生公司</Dest>
     </String>
     <String List="0">
       <EDID>RedRocket01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mole Rat Den</Source>
-      <Dest>Madriguera de ratas topo</Dest>
+      <Dest>鼴鼠窩</Dest>
     </String>
     <String List="0">
       <EDID>DmndArturosHouse02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Arturo&apos;s House</Source>
-      <Dest>Casa de Arturo</Dest>
+      <Dest>亞圖羅家</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt12</EDID>
       <REC>CELL:FULL</REC>
       <Source>Military Bunker</Source>
-      <Dest>Búnker militar</Dest>
+      <Dest>軍用地堡</Dest>
     </String>
     <String List="0">
       <EDID>JamaicaPlain01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Jamaica Plain Town Hall Basement</Source>
-      <Dest>Sótano del ayuntamiento de Jamaica Plain</Dest>
+      <Dest>牙買加平原市鎮大廳地下室</Dest>
     </String>
     <String List="0">
       <EDID>ParsonsState02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parsons State Insane Asylum</Source>
-      <Dest>Manicomio estatal Parsons</Dest>
+      <Dest>帕森斯州立精神病院</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedCellar02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cellar</Source>
-      <Dest>Bodega</Dest>
+      <Dest>地窖</Dest>
     </String>
     <String List="0">
       <EDID>zLexingtonLaundromat</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Laundromat</Source>
-      <Dest>Lavandería de Lexington</Dest>
+      <Dest>列星頓鎮自助洗衣店</Dest>
     </String>
     <String List="0">
       <EDID>FensKenmoreStation</EDID>
       <REC>CELL:FULL</REC>
       <Source>Subway Station</Source>
-      <Dest>Estación de metro</Dest>
+      <Dest>地鐵站</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeParkingGarage01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kendall Parking</Source>
-      <Dest>Aparcamiento de Kendall</Dest>
+      <Dest>肯德爾停車場</Dest>
     </String>
     <String List="0">
       <EDID>DLC03WindFarmBuilding01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Wind Farm Maintenance</Source>
-      <Dest>Mantenimiento de la granja eólica</Dest>
+      <Dest>風力發電廠維護處</Dest>
     </String>
     <String List="0">
       <EDID>BeaconHillBostonBugle</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Boston Bugle</Source>
-      <Dest>El Boston Bugle</Dest>
+      <Dest>波士頓號角報</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeCollegeAdminBuilding</EDID>
       <REC>CELL:FULL</REC>
       <Source>College Admin Building</Source>
-      <Dest>Edificio administrativo de la Universidad</Dest>
+      <Dest>大學行政大樓</Dest>
     </String>
     <String List="0">
       <EDID>ListeningPostBravo01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Listening Post Bravo</Source>
-      <Dest>Puesto de escucha Bravo</Dest>
+      <Dest>B監聽站</Dest>
     </String>
     <String List="0">
       <EDID>QASmoke</EDID>
       <REC>CELL:FULL</REC>
       <Source>Tunnels</Source>
-      <Dest>Túneles</Dest>
+      <Dest>通道</Dest>
     </String>
     <String List="0">
       <EDID>LongneckLukowskis01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Longneck Lukowski&apos;s Cannery</Source>
-      <Dest>Conservera Longneck Lukowski</Dest>
+      <Dest>長脖子魯柯斯基牌的罐頭工廠</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeScienceCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Science Center Gift Shop</Source>
-      <Dest>Tienda de regalos del centro científico</Dest>
+      <Dest>科學中心禮品店</Dest>
     </String>
     <String List="0">
       <EDID>CorvegaAssemblyPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Corvega Assembly Plant</Source>
-      <Dest>Planta de montaje de Corvega</Dest>
+      <Dest>可偉佳裝配廠</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard03</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Armory</Source>
-      <Dest>Arsenal de la Guardia Nacional</Dest>
+      <Dest>國民警衛隊軍械庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VimPopFactory02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vim! Factory</Source>
-      <Dest>Fábrica de Vim!</Dest>
+      <Dest>「活力！」工廠</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsCooke01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cooke Residence</Source>
-      <Dest>Residencia de Cooke</Dest>
+      <Dest>庫克的住所</Dest>
     </String>
     <String List="0">
       <EDID>BeaconHillPub</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prost Bar</Source>
-      <Dest>Bar Prost</Dest>
+      <Dest>乾杯酒吧</Dest>
     </String>
     <String List="0">
       <EDID>TheaterHub360</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hub 360</Source>
-      <Dest>Núcleo 360</Dest>
+      <Dest>360中心</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt08</EDID>
       <REC>CELL:FULL</REC>
       <Source>Train Car</Source>
-      <Dest>Vagón de tren</Dest>
+      <Dest>火車車廂</Dest>
     </String>
     <String List="0">
       <EDID>DmndScienceCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Science! Center</Source>
-      <Dest>Centro Science!</Dest>
+      <Dest>「科學！」中心</Dest>
     </String>
     <String List="0">
       <EDID>IrishPrideShipyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Astillero de Industrias Irish Pride</Dest>
+      <Dest>愛爾蘭之光工業造船廠</Dest>
     </String>
     <String List="0">
       <EDID>BostonMayoralShelter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Boston Mayoral Shelter</Source>
-      <Dest>Refugio de la Alcaldía de Boston</Dest>
+      <Dest>波士頓市長避難所</Dest>
     </String>
     <String List="0">
       <EDID>Vault95</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 95</Source>
-      <Dest>Refugio 95</Dest>
+      <Dest>95號避難所</Dest>
     </String>
     <String List="0">
       <EDID>WarehouseWorkbenches</EDID>
       <REC>CELL:FULL</REC>
       <Source>Workbench Bonanza</Source>
-      <Dest>Bancos de trabajo por doquier</Dest>
+      <Dest>工作台富源區</Dest>
     </String>
     <String List="0">
       <EDID>WestonWaterTreatment01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Weston Water Treatment Plant</Source>
-      <Dest>Planta de tratamiento de aguas Weston</Dest>
+      <Dest>韋斯頓淨水廠</Dest>
     </String>
     <String List="0">
       <EDID>Theater27TickerTapeLounge</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ticker Tape Lounge</Source>
-      <Dest>Salón Ticker Tape</Dest>
+      <Dest>彩帶休息室</Dest>
     </String>
     <String List="0">
       <EDID>InstituteBioScience</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute BioScience</Source>
-      <Dest>Biociencias de El Instituto</Dest>
+      <Dest>學院生命科學部門</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Acadia</EDID>
       <REC>CELL:FULL</REC>
       <Source>Acadia</Source>
-      <Dest>Acadia</Dest>
+      <Dest>阿卡迪亞</Dest>
     </String>
     <String List="0">
       <EDID>GeneralAtomicsFactory01</EDID>
       <REC>CELL:FULL</REC>
       <Source>General Atomics Factory</Source>
-      <Dest>Fábrica de General Atomics</Dest>
+      <Dest>通用原子工廠</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMonsignorPlaza01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Monsignor Plaza</Source>
-      <Dest>Plaza Monsignor</Dest>
+      <Dest>閣下廣場</Dest>
     </String>
     <String List="0">
       <EDID>SouthBostonPoliceDepartment01</EDID>
       <REC>CELL:FULL</REC>
       <Source>South Boston Police Department</Source>
-      <Dest>Departamento de policía de South Boston</Dest>
+      <Dest>南波士頓警察局</Dest>
     </String>
     <String List="0">
       <EDID>DmndChoiceChops02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Meat Locker</Source>
-      <Dest>Cámara de carne</Dest>
+      <Dest>肉櫃</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomTunnels01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Employee Tunnels</Source>
-      <Dest>Túneles para empleados</Dest>
+      <Dest>員工通道</Dest>
     </String>
     <String List="0">
       <EDID>FederalSurvCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bunker</Source>
-      <Dest>Búnker</Dest>
+      <Dest>地堡</Dest>
     </String>
     <String List="0">
       <EDID>BostonAirportRuins01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Boston Airport Ruins</Source>
-      <Dest>Ruinas del aeropuerto de Boston</Dest>
+      <Dest>波士頓機場廢墟</Dest>
     </String>
     <String List="0">
       <EDID>SanctuaryBasementJahani</EDID>
       <REC>CELL:FULL</REC>
       <Source>Root Cellar</Source>
-      <Dest>Bodega subterránea</Dest>
+      <Dest>根莖作物地窖</Dest>
     </String>
     <String List="0">
       <EDID>zWaystation</EDID>
       <REC>CELL:FULL</REC>
       <Source>Waystation</Source>
-      <Dest>Estación de paso</Dest>
+      <Dest>分站</Dest>
     </String>
     <String List="0">
       <EDID>VirgilsLab01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Virgil&apos;s Laboratory</Source>
-      <Dest>Laboratorio de Virgil</Dest>
+      <Dest>維吉爾的實驗室</Dest>
     </String>
     <String List="0">
       <EDID>OldGulletSinkhole01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Gullet Sinkhole</Source>
-      <Dest>Sumidero de Vieja Garganta</Dest>
+      <Dest>舊水路排水口</Dest>
     </String>
     <String List="0">
       <EDID>MedTekResearch02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Sub-Levels</Source>
-      <Dest>Subniveles de Med-Tek</Dest>
+      <Dest>邁科藥研次層</Dest>
     </String>
     <String List="0">
       <EDID>CovenantHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sewer</Source>
-      <Dest>Alcantarilla</Dest>
+      <Dest>下水道</Dest>
     </String>
     <String List="0">
       <EDID>DunwichBorers01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dunwich Borers</Source>
-      <Dest>Dunwich Borers</Dest>
+      <Dest>丹維奇鑿岩公司</Dest>
     </String>
     <String List="0">
       <EDID>WestEverettEstates01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Backyard Bunker</Source>
-      <Dest>Búnker del patio trasero</Dest>
+      <Dest>後院地堡</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Entry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
-      <Dest>Refugio 81</Dest>
+      <Dest>81號避難所</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeConstructionSiteWarehouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Construction Site Warehouse</Source>
-      <Dest>Almacén de obra</Dest>
+      <Dest>施工地點倉庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GrandchesterMansion01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Grandchester Mystery Mansion</Source>
-      <Dest>Mansión misteriosa Grandchester</Dest>
+      <Dest>葛蘭切斯德神秘宅邸</Dest>
     </String>
     <String List="0">
       <EDID>Vault111Cryo</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>Refugio 111</Dest>
+      <Dest>111號避難所</Dest>
     </String>
     <String List="0">
       <EDID>DmndEarlsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Earl Sterling&apos;s House</Source>
-      <Dest>Casa de Earl Sterling</Dest>
+      <Dest>厄爾．史特陵家</Dest>
     </String>
     <String List="0">
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
-      <Dest>Investigación de Med-Tek</Dest>
+      <Dest>邁科藥研</Dest>
     </String>
     <String List="0">
       <EDID>USAFSatellite01</EDID>
       <REC>CELL:FULL</REC>
       <Source>USAF Satellite Station Olivia</Source>
-      <Dest>Estación Olivia de la USAF</Dest>
+      <Dest>美國空軍奧莉維亞衛星站</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard02</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Barracks</Source>
-      <Dest>Cuartel de la Guardia Nacional</Dest>
+      <Dest>國民警衛隊軍營</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsLatimer01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Latimer Residence</Source>
-      <Dest>Residencia de Latimer</Dest>
+      <Dest>拉提莫的住所</Dest>
     </String>
     <String List="0">
       <EDID>CombatZone01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Combat Zone</Source>
-      <Dest>Combat Zone</Dest>
+      <Dest>戰區</Dest>
     </String>
     <String List="0">
       <EDID>Financial30</EDID>
       <REC>CELL:FULL</REC>
       <Source>Water Street Apartments</Source>
-      <Dest>Apartamentos de Water Street</Dest>
+      <Dest>水街公寓</Dest>
     </String>
     <String List="0">
       <EDID>NHMFreightDepot01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Strongroom</Source>
-      <Dest>Cámara acorazada</Dest>
+      <Dest>保管室</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt09</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fishing Boat Cabin</Source>
-      <Dest>Cabaña para barco de pesca</Dest>
+      <Dest>漁船船艙</Dest>
     </String>
     <String List="0">
       <EDID>DmndPlayerHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Home Plate</Source>
-      <Dest>Home Plate</Dest>
+      <Dest>本壘板</Dest>
     </String>
     <String List="0">
       <EDID>FallonsDepartmentStore01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fallon&apos;s Department Store</Source>
-      <Dest>Grandes almacenes Fallon&apos;s</Dest>
+      <Dest>飛倫家百貨公司</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonReservoir01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Reservoir</Source>
-      <Dest>Embalse de Poseidon</Dest>
+      <Dest>海神蓄水庫</Dest>
     </String>
     <String List="0">
       <EDID>BunkerHill01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Utility Basement</Source>
-      <Dest>Sótano de mantenimiento</Dest>
+      <Dest>公用設施地下室</Dest>
     </String>
     <String List="0">
       <EDID>MassPikeTunnel01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Pike Tunnel</Source>
-      <Dest>Túnel de Mass Pike</Dest>
+      <Dest>麻州公路隧道</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndBoxingGym</EDID>
       <REC>CELL:FULL</REC>
       <Source>Boxing Gym</Source>
-      <Dest>Gimnasio de boxeo</Dest>
-    </String>
-    <String List="0">
-      <EDID>zPOIJoel06</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Sótano del Club de aficcionados a la electricidad</Dest>
+      <Dest>拳擊健身房</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POI40Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pump Control</Source>
-      <Dest>Control de bomba</Dest>
+      <Dest>幫浦控制室</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Malden Center</Source>
-      <Dest>Malden Center</Dest>
+      <Dest>摩頓中央地鐵站</Dest>
     </String>
     <String List="0">
       <EDID>GreenetechGenetics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenetech Genetics</Source>
-      <Dest>Greenetech Genetics</Dest>
+      <Dest>葛林科技基因研究院</Dest>
     </String>
     <String List="0">
       <EDID>NahantOceanSociety02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nahant Oceanological Research Lab</Source>
-      <Dest>Laboratorio de Investigación Oceanológica de Nahant</Dest>
+      <Dest>奈罕市海洋研究實驗室</Dest>
     </String>
     <String List="0">
       <EDID>AtomatoysCorporateHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Wilson Atomatoys Corporate HQ</Source>
-      <Dest>Sede corporativa de Wilson Atomatoys</Dest>
+      <Dest>威森原子玩具公司總部</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZBattlezone01</EDID>
       <REC>CELL:FULL</REC>
       <Source>RobCo Battlezone</Source>
-      <Dest>Zona de combate RobCo</Dest>
+      <Dest>羅科戰鬥場</Dest>
     </String>
     <String List="0">
       <EDID>UniversityPoint02</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Credit Union</Source>
-      <Dest>Unión Universitaria de Crédito</Dest>
+      <Dest>大學信用合作社</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomFunHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fun House</Source>
-      <Dest>Casa de la risa</Dest>
+      <Dest>奇幻屋</Dest>
     </String>
     <String List="0">
       <EDID>WestRoxburyStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>West Roxbury Station</Source>
-      <Dest>Estación de West Roxbury</Dest>
+      <Dest>西羅斯伯利車站</Dest>
     </String>
     <String List="0">
       <EDID>OldNorthChurch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old North Church</Source>
-      <Dest>Old North Church</Dest>
+      <Dest>老北教堂</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedTheater46A</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
-      <Dest>Quick Test Cell</Dest>
+      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeChurchGraveyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Union&apos;s Hope Cathedral</Source>
-      <Dest>Catedral de Union&apos;s Hope</Dest>
+      <Dest>聯盟的希望大教堂</Dest>
     </String>
     <String List="0">
       <EDID>Yangtze01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Yangtze</Source>
-      <Dest>Yangtze</Dest>
+      <Dest>揚子號</Dest>
     </String>
     <String List="0">
       <EDID>GorskiCabin01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Root Cellar</Source>
-      <Dest>Bodega subterránea</Dest>
+      <Dest>根莖作物地窖</Dest>
     </String>
     <String List="0">
       <EDID>WRVRBroadcastCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>WRVR Broadcast Center</Source>
-      <Dest>Centro de emisión WRVR</Dest>
+      <Dest>WRVR電台中心</Dest>
     </String>
     <String List="0">
       <EDID>Financial21</EDID>
       <REC>CELL:FULL</REC>
       <Source>35 Court</Source>
-      <Dest>Juzgado 35</Dest>
+      <Dest>35號法庭</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownLaundry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Charlestown Laundry</Source>
-      <Dest>Lavandería de Charlestown</Dest>
+      <Dest>查爾斯敦洗衣店</Dest>
     </String>
     <String List="0">
       <EDID>DBTechHighSchool02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Medical Center Station</Source>
-      <Dest>Estación del Centro Médico</Dest>
+      <Dest>醫療中心站</Dest>
     </String>
     <String List="0">
       <EDID>VaultTecOffice01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec Regional HQ</Source>
-      <Dest>Sede regional de Vault-Tec</Dest>
+      <Dest>避難所科技地區總部</Dest>
     </String>
     <String List="0">
       <EDID>ParsonsState03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parsons State Basement</Source>
-      <Dest>Sótano de Parsons</Dest>
+      <Dest>帕森斯州立病院地下室</Dest>
     </String>
     <String List="0">
       <EDID>Vault111Start</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111 Main Entrance</Source>
-      <Dest>Entrada principal al Refugio 111</Dest>
+      <Dest>111號避難所正門</Dest>
     </String>
     <String List="0">
       <EDID>DmndRadio01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Diamond City Radio</Source>
-      <Dest>Radio de Diamond City</Dest>
+      <Dest>鑽石城電台</Dest>
     </String>
     <String List="0">
       <EDID>SuffolkCountyCharterSchool01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Suffolk County Charter School</Source>
-      <Dest>Escuela pública del condado de Suffolk</Dest>
+      <Dest>薩福克郡特許學校</Dest>
     </String>
     <String List="0">
       <EDID>DBTechHighSchool01</EDID>
       <REC>CELL:FULL</REC>
       <Source>D.B. Technical High School</Source>
-      <Dest>Instituto Técnico D.B.</Dest>
+      <Dest>D.B.科技高中</Dest>
     </String>
     <String List="0">
       <EDID>CombatZone02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quick Test Cell</Source>
-      <Dest>Quick Test Cell</Dest>
+      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>DLC03AlderseaDaySpa01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Aldersea Day Spa</Source>
-      <Dest>Balneario de Aldersea</Dest>
+      <Dest>愛德喜芳療會館</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsCodman01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Codman Residence</Source>
-      <Dest>Residencia de Codman</Dest>
+      <Dest>考曼邸</Dest>
     </String>
     <String List="0">
       <EDID>CabotHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cabot House</Source>
-      <Dest>Casa de Cabot</Dest>
+      <Dest>凱伯宅邸</Dest>
     </String>
     <String List="0">
       <EDID>BarneysBunker01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Basement</Source>
-      <Dest>Sótano</Dest>
+      <Dest>地下室</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt05</EDID>
       <REC>CELL:FULL</REC>
       <Source>Storage Compartment</Source>
-      <Dest>Compartimento de almacenaje</Dest>
+      <Dest>儲藏庫隔間</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Nucleus</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Nucleus</Source>
-      <Dest>El Núcleo</Dest>
+      <Dest>原子核會</Dest>
     </String>
     <String List="0">
       <EDID>DLC04ColaCars01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cola-Cars Arena</Source>
-      <Dest>Arena de coches Nuka-Cola</Dest>
+      <Dest>可樂車競技場</Dest>
     </String>
     <String List="0">
       <EDID>DmndSolomonsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Solomon&apos;s House</Source>
-      <Dest>Casa de Solomon</Dest>
+      <Dest>索羅門家</Dest>
     </String>
     <String List="0">
       <EDID>TrinityTower01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Trinity Tower Mid Level</Source>
-      <Dest>Nivel medio de la torre Trinity</Dest>
+      <Dest>崔尼帝塔中級</Dest>
     </String>
     <String List="0">
       <EDID>FensCafeBuilding</EDID>
       <REC>CELL:FULL</REC>
       <Source>Apartments</Source>
-      <Dest>Apartamentos</Dest>
+      <Dest>公寓</Dest>
     </String>
     <String List="0">
       <EDID>WarehouseTraps</EDID>
       <REC>CELL:FULL</REC>
       <Source>The most dangerous cell</Source>
-      <Dest>La celda más peligrosa</Dest>
+      <Dest>最危險的囚房</Dest>
     </String>
     <String List="0">
       <EDID>DmndGreenhouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenhouse</Source>
-      <Dest>Invernadero</Dest>
+      <Dest>溫室</Dest>
     </String>
     <String List="0">
       <EDID>DmndSurgeryBasement01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mega Surgery Center</Source>
-      <Dest>Macrocentro de cirugía</Dest>
+      <Dest>富豪手術中心</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt15B</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reactor Level</Source>
-      <Dest>Nivel del Reactor</Dest>
+      <Dest>反應爐等級</Dest>
     </String>
     <String List="0">
       <EDID>SlocumsJoeHQOffice</EDID>
       <REC>CELL:FULL</REC>
       <Source>Slocum&apos;s Joe Offices</Source>
-      <Dest>Oficinas de Slocum&apos;s Joe</Dest>
+      <Dest>思樂肯咖啡辦公室</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POIBasementArmory</EDID>
       <REC>CELL:FULL</REC>
       <Source>Basement Armory</Source>
-      <Dest>Armería del sótano</Dest>
+      <Dest>地下軍械庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC06VaultWorkshop</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 88</Source>
-      <Dest>Refugio 88</Dest>
+      <Dest>88號避難所</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Court</Source>
-      <Dest>Corte del rey Cola</Dest>
+      <Dest>可樂王宮廷</Dest>
     </String>
     <String List="0">
       <EDID>HardwareTown01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hardware Town</Source>
-      <Dest>Hardware Town</Dest>
+      <Dest>五金鎮</Dest>
     </String>
     <String List="0">
       <EDID>TiconderogaStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ticonderoga</Source>
-      <Dest>Ticonderoga</Dest>
+      <Dest>提康德羅加</Dest>
     </String>
     <String List="0">
       <EDID>MuseumOfWitchcraft01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Museum of Witchcraft</Source>
-      <Dest>Museo de la Brujería</Dest>
+      <Dest>巫術博物館</Dest>
     </String>
     <String List="0">
       <EDID>Commonwealth</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Commonwealth</Source>
-      <Dest>Commonwealth</Dest>
+      <Dest>聯邦</Dest>
     </String>
     <String List="0">
       <EDID>DiamondCity</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Diamond City</Source>
-      <Dest>Diamond City</Dest>
+      <Dest>鑽石城</Dest>
     </String>
     <String List="0">
       <EDID>Goodneighbor</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Goodneighbor</Source>
-      <Dest>Goodneighbor</Dest>
+      <Dest>芳鄰鎮</Dest>
     </String>
     <String List="0">
       <EDID>SanctuaryHillsWorld</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Sanctuary Hills</Source>
-      <Dest>Sanctuary Hills</Dest>
+      <Dest>庇護山丘</Dest>
     </String>
     <String List="0">
       <EDID>DLC03FarHarbor</EDID>
       <REC>WRLD:FULL</REC>
       <Source>The Island</Source>
-      <Dest>La Isla</Dest>
+      <Dest>小島</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VRWorldspace</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Simulation</Source>
-      <Dest>Simulación</Dest>
+      <Dest>模擬</Dest>
     </String>
     <String List="0">
       <EDID>NukaWorld</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Nuka-World</Source>
-      <Dest>Nuka-World</Dest>
+      <Dest>核子世界</Dest>
     </String>
     <String List="0">
       <EDID>NukaWorldAmphitheater</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Bradberton Amphitheater</Source>
-      <Dest>Anfiteatro Bradberton</Dest>
+      <Dest>布來伯頓圓形劇場</Dest>
     </String>
     <String List="0">
       <EDID>NukaWorldMarket</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Nuka-Town Market</Source>
-      <Dest>Mercado de Nuka-Town</Dest>
+      <Dest>美國核子城市場</Dest>
     </String>
   </Content>
 </SSTXMLRessources>

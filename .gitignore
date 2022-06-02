@@ -4,9 +4,7 @@
 *.ba2
 *.csg
 *.cdx
-/dist/Main Files/English
-/dist/Main Files/Spanish
-/dist/Main Files/Italian
-/dist-patch/Main Files/English
-/dist-patch/Main Files/Italian
-/dist-patch/Main Files/Spanish
+02 Universal
+01 English
+01 Italian
+01 Spanish

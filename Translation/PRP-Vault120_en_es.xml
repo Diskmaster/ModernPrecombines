@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>PRP-Vault120.esp</Addon>
+    <Source>en</Source>
+    <Dest>es</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>https://www.nexusmods.com/fallout4/mods/58584 0.58.pre12</Source>
+      <Dest>https://www.nexusmods.com/fallout4/mods/58584 0.58.pre12</Dest>
+    </String>
+    <String List="0">
+      <EDID>0VAULT120TEST</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>UNDER THE SEA TEST 02</Source>
+      <Dest>BAJO EL MAR TEST 02</Dest>
+    </String>
+    <String List="0">
+      <EDID>0DETECTIVE</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>DETECTIVE&apos;S OFFICE</Source>
+      <Dest>OFICINA DEl DETECTIVE</Dest>
+    </String>
+    <String List="0">
+      <EDID>0WWTest4</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Arturo&apos;s House</Source>
+      <Dest>Casa de Arturo</Dest>
+    </String>
+    <String List="0">
+      <EDID>0VAULT120BroadcastCenter</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>BROADCAST CENTER</Source>
+      <Dest>CENTRO DE TRANSMISIÓN</Dest>
+    </String>
+    <String List="0">
+      <EDID>0WWTest2</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Arturo&apos;s House</Source>
+      <Dest>Casa de Arturo</Dest>
+    </String>
+    <String List="0">
+      <EDID>0CARAPACEPlayerHouse</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>CARAPACE</Source>
+      <Dest>CONCHA</Dest>
+    </String>
+    <String List="0">
+      <EDID>0WWTest1</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Arturo&apos;s House</Source>
+      <Dest>Casa de Arturo</Dest>
+    </String>
+    <String List="0">
+      <EDID>0WWTest</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Marker Cell</Source>
+      <Dest>Celda de marcador</Dest>
+    </String>
+    <String List="0">
+      <EDID>0VAULT120</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>VAULT 120</Source>
+      <Dest>REFUGIO 120</Dest>
+    </String>
+    <String List="0">
+      <EDID>0WWTest3</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Arturo&apos;s House</Source>
+      <Dest>Casa de Arturo</Dest>
+    </String>
+    <String List="0">
+      <EDID>0VAULT120Entrance</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>UNDER THE SEA</Source>
+      <Dest>BAJO EL MAR</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

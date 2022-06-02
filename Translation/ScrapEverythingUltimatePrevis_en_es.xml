@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>ScrapEverythingUltimatePrevis.esp</Addon>
+    <Source>en</Source>
+    <Dest>es</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>SEU Previs PPF 0.54.8</Source>
+      <Dest>SEU Previs PPF 0.54.8</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC01Lair01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>The Mechanist&apos;s Lair</Source>
+      <Dest>Guarida del Mecanista</Dest>
+    </String>
+    <String List="0">
+      <EDID>DmndPlayerHouse01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Home Plate</Source>
+      <Dest>Home Plate</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC06VaultWorkshop</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 88</Source>
+      <Dest>Refugio 88</Dest>
+    </String>
+    <String List="0">
+      <EDID>Commonwealth</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Commonwealth</Source>
+      <Dest>Commonwealth</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC03FarHarbor</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>The Island</Source>
+      <Dest>La Isla</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorld</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Nuka-World</Source>
+      <Dest>Nuka-World</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

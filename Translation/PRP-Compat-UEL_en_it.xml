@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>PRP-Compat-UEL.esp</Addon>
+    <Source>en</Source>
+    <Dest>it</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>Commonwealth</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Commonwealth</Source>
+      <Dest>Commonwealth</Dest>
+    </String>
+    <String List="0">
+      <EDID>DiamondCity</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Diamond City</Source>
+      <Dest>Diamond City</Dest>
+    </String>
+    <String List="0">
+      <EDID>Goodneighbor</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Goodneighbor</Source>
+      <Dest>Goodneighbor</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC03FarHarbor</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>The Island</Source>
+      <Dest>L&apos;Isola</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorld</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Nuka-World</Source>
+      <Dest>Nuka-World</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorldAmphitheater</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Bradberton Amphitheater</Source>
+      <Dest>Anfiteatro Bradberton</Dest>
+    </String>
+    <String List="0">
+      <EDID>NukaWorldMarket</EDID>
+      <REC>WRLD:FULL</REC>
+      <Source>Nuka-Town Market</Source>
+      <Dest>Mercato di Nuka-Town</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>

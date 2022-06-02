@@ -17,6 +17,8 @@ Before you begin, the Creation Kit by default has a known bug where it incorrect
 
 One would be hex editing the executable in a pair of places, the source of which I think is Searge *note: need to verify this*. The relevant places to edit with an appropriate hex editor are 0x34726D, change `B9 01 00 00 00` to `B9 00 00 00 00`. Then repeat the same sequence at 0xDCAA76 and you are golden. *note: Expand this to a full hexedit tutorial*
 
+Users of the recently released Steam version of the CK will want to use Steamless on the executable before trying to patch it.
+
 The alternative would be to obtain a recently released set of xEdit scripts by Searge, the link is above if you need them. Unpack CKPatcher.exe and run it in your Fallout 4 directory. If it was successful, you should see a 588MB sized patched CreationKit.patched.exe. Don't be too alarmed by the size. This patch greatly expands the record count and plugins the creation kit can handle, and does include the above hex edit. I'm personally using this in tandem with CKFixes 1.6 and it appears to work fine. Your mileage may vary.
 
 Now we are going to do a sanity check. Open your `Data` folder or Mod Organizer 2's `mods` folder and make absolutely sure that the texture .ba2 archives you need are activated. This means the archives for any mods you're using during previsibines generation, as well as all their masters. Optionally, create a `textmp` folder in `Data/` while you are here. The reason we do this sanity check is that if you don't have textures present during generation, the meshes tend to break in unexpected ways. This is a theme one will notice as they read this, as this isn't the only time.

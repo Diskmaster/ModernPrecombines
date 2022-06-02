@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>Eli_FactionHousingOverhaul_FarHarbor_Previs.esp</Addon>
+    <Source>en</Source>
+    <Dest>es</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Previs support package for Eli&apos;s FHO Revision 0.53</Source>
+      <Dest>Pack de soporte Previs para Eli&apos;s FHO Revision 0.53</Dest>
+    </String>
+    <String List="0">
+      <EDID>InstituteConcourse</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>The Institute</Source>
+      <Dest>El Instituto</Dest>
+    </String>
+    <String List="0">
+      <EDID>PrydwenHull01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Prydwen Main Deck</Source>
+      <Dest>Cubierta principal del Prydwen</Dest>
+    </String>
+    <String List="0">
+      <EDID>TheCastle01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>The Castle Tunnels</Source>
+      <Dest>Los túneles del Castillo</Dest>
+    </String>
+    <String List="0">
+      <EDID>PrydwenHull03</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Prydwen Quarters</Source>
+      <Dest>Estancias del Prydwen</Dest>
+    </String>
+    <String List="0">
+      <EDID>0GeneralsQuarters</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>General&apos;s Quarters</Source>
+      <Dest>Cuartel del General </Dest>
+    </String>
+    <String List="0">
+      <EDID>Vault81</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 81</Source>
+      <Dest>Refugio 81</Dest>
+    </String>
+    <String List="0">
+      <EDID>RailroadHQ01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Railroad HQ</Source>
+      <Dest>Cuartel general del Ferrocarril</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
