@@ -7,6 +7,20 @@
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>Aloot</Source>
+      <Dest>Aloot</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Aloot&apos;s Home Plate 2.3 
+https://www.nexusmods.com/fallout4/mods/44101</Source>
+      <Dest>Aloot&apos;s Home Plate 2.3 
+https://www.nexusmods.com/fallout4/mods/44101</Dest>
+    </String>
     <String List="0">
       <EDID>ALOOT_HP_ShowerFortifyCharisma</EDID>
       <REC>MGEF:FULL</REC>
@@ -56,18 +70,6 @@
       <Dest>Generatore</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_FederalistDresserShort01</EDID>
-      <REC>CONT:FULL</REC>
-      <Source>Dresser</Source>
-      <Dest>Cassettone</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_DogArmorTrunk</EDID>
-      <REC>CONT:FULL</REC>
-      <Source>Dog Armor Trunk</Source>
-      <Dest>Baule armatura per cani</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_HomePlate_WorkshopWorkbench</EDID>
       <REC>CONT:FULL</REC>
       <Source>Workshop</Source>
@@ -110,16 +112,16 @@
       <Dest>Armadietto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_AmmoBox</EDID>
+      <EDID>ALOOT_HP_FederalistDresserShort01</EDID>
       <REC>CONT:FULL</REC>
-      <Source>Ammo Box</Source>
-      <Dest>Scatola di munizioni</Dest>
+      <Source>Dresser</Source>
+      <Dest>Cassettone</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_WoodCrateContainer</EDID>
+      <EDID>ALOOT_HP_DogArmorTrunk</EDID>
       <REC>CONT:FULL</REC>
-      <Source>Wooden Crate</Source>
-      <Dest>Cassa di legno</Dest>
+      <Source>Dog Armor Trunk</Source>
+      <Dest>Baule armatura per cani</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_FootLocker</EDID>
@@ -230,16 +232,22 @@
       <Dest>Armadietto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_AmmoBox</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Ammo Box</Source>
+      <Dest>Scatola di munizioni</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WoodCrateContainer</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Wooden Crate</Source>
+      <Dest>Cassa di legno</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_SlidingDoor</EDID>
       <REC>DOOR:FULL</REC>
       <Source>Door</Source>
       <Dest>Porta</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Poster01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Poster</Source>
-      <Dest>Poster</Dest>
     </String>
     <String List="0">
       <EDID>DinerIntCounter01</EDID>
@@ -416,16 +424,16 @@
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Key02</EDID>
+      <EDID>ALOOT_Static_Carpet02</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Key</Source>
-      <Dest>Chiave</Dest>
+      <Source>Rug</Source>
+      <Dest>Tappeto</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_BottleWine01</EDID>
+      <EDID>ALOOT_Static_Poster01</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Wine</Source>
-      <Dest>Vino</Dest>
+      <Source>Poster</Source>
+      <Dest>Poster</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Poster02</EDID>
@@ -740,6 +748,36 @@
       <Dest>Detriti</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_CageLight01On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageBulbWire02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_CageBulbWire03</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_WallEmergencyLight01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_ConstructionLight_StandingOn</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Vault_Crate_03_Beige</EDID>
       <REC>STAT:FULL</REC>
       <Source>Vault Crate</Source>
@@ -782,6 +820,12 @@
       <Dest>Armatura torace da guardia DC</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_VltXmasLightsLine04Half</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_TriFoldFlag</EDID>
       <REC>STAT:FULL</REC>
       <Source>Flag</Source>
@@ -812,16 +856,16 @@
       <Dest>Orologio</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_ProtectronDebris3</EDID>
+      <EDID>ALOOT_Static_Key02</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Protectron Debris</Source>
-      <Dest>Protectron Detriti</Dest>
+      <Source>Key</Source>
+      <Dest>Chiave</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_TerminalBroken02</EDID>
+      <EDID>ALOOT_Static_BottleWine01</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Broken Terminal</Source>
-      <Dest>Terminale rotto</Dest>
+      <Source>Wine</Source>
+      <Dest>Vino</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CottonYarnSpool</EDID>
@@ -950,6 +994,12 @@
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_PotsSauceLarge02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_DishDirty01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Dirty Dish</Source>
@@ -1034,10 +1084,28 @@
       <Dest>Tovagliolo</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Pot_EmptyLarge</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Ruin_CakePan01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Cake Pan</Source>
       <Dest>Tortiera</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPan</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Ruin_KitchenPot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Pot</Source>
+      <Dest>Pentola</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Ruin_Collander</EDID>
@@ -1328,6 +1396,18 @@
       <Dest>Zucca</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Carrot</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Carrot</Source>
+      <Dest>Carota</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Melon</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Melon</Source>
+      <Dest>Melone</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_SignTheaterPoster01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Poster</Source>
@@ -1368,6 +1448,12 @@
       <REC>STAT:FULL</REC>
       <Source>Sign</Source>
       <Dest>Cartello</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_NukaRug01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Tappeto</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AdvertsPoster08</EDID>
@@ -1484,6 +1570,12 @@
       <Dest>Detriti</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_SubLight01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_SuperMutantCampNet05</EDID>
       <REC>STAT:FULL</REC>
       <Source>Net</Source>
@@ -1556,6 +1648,18 @@
       <Dest>Lampada da soffitto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_LighrRedChain01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechLightCeiling01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_ExitSignOn01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Exit Sign</Source>
@@ -1566,6 +1670,12 @@
       <REC>STAT:FULL</REC>
       <Source>Fluorescent Light</Source>
       <Dest>Luce a fluorescenza</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_SubLight03Wall</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_ModernDomesticSideTableLrg01_DirtyStatic</EDID>
@@ -1604,6 +1714,12 @@
       <Dest>Piatto giallo</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_IndCatLight02On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_MuseumBanner04</EDID>
       <REC>STAT:FULL</REC>
       <Source>Banner</Source>
@@ -1616,6 +1732,12 @@
       <Dest>Dipinto</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_LightbulbOn01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_Curtains03</EDID>
       <REC>STAT:FULL</REC>
       <Source>Curtains</Source>
@@ -1626,6 +1748,12 @@
       <REC>STAT:FULL</REC>
       <Source>Curtain Rod</Source>
       <Dest>Bastone per tende</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_HighTechLightCeiling04_Dirty_Orange_On</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Light</Source>
+      <Dest>Luce</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_AlarmClock</EDID>
@@ -1861,6 +1989,24 @@
       <Source>Painting</Source>
       <Dest>Dipinto</Dest>
     </String>
+    <String List="0" Partial="1">
+      <EDID>ALOOT_Static_QuebecFlag</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>The Flag of Quebec</Source>
+      <Dest>La bandiera del Quebec</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>Barile</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_MetalBarrel02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Barrel</Source>
+      <Dest>Barile</Dest>
+    </String>
     <String List="0">
       <EDID>ALOOT_Static_Calendar</EDID>
       <REC>STAT:FULL</REC>
@@ -1884,6 +2030,12 @@
       <REC>STAT:FULL</REC>
       <Source>BloodPack</Source>
       <Dest>Sacca di sangue</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Radaway</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Radaway</Source>
+      <Dest>Radaway</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_RadX</EDID>
@@ -1928,6 +2080,12 @@
       <Dest>Psycho</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_Stimpack01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Stimpack</Source>
+      <Dest>Stimpack</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_BuffOut</EDID>
       <REC>STAT:FULL</REC>
       <Source>Buffout</Source>
@@ -1962,6 +2120,12 @@
       <REC>STAT:FULL</REC>
       <Source>Soap</Source>
       <Dest>Sapone</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_Static_Carpet01</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Tappeto</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Plant01</EDID>
@@ -2144,6 +2308,12 @@
       <Dest>Poster</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_Static_CarpetRunner</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Rug</Source>
+      <Dest>Tappeto</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_Static_ToolRack01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Tool Rack</Source>
@@ -2306,16 +2476,22 @@
       <Dest>Protectron Detriti</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_WeightBench</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Bench</Source>
-      <Dest>Panchina</Dest>
+      <EDID>ALOOT_Static_ProtectronDebris3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Protectron Debris</Source>
+      <Dest>Protectron Detriti</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_ChemicalShower</EDID>
+      <EDID>ALOOT_Static_TerminalBroken02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Broken Terminal</Source>
+      <Dest>Terminale rotto</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_MetalOfficeChairWithWriting</EDID>
       <REC>FURN:FULL</REC>
-      <Source>Shower</Source>
-      <Dest>Doccia</Dest>
+      <Source>Chair</Source>
+      <Dest>Sedia</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_NpcBenchDinerIntBoothSit01WithTable02</EDID>
@@ -2330,16 +2506,16 @@
       <Dest>Tavolo</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_DogBed</EDID>
+      <EDID>ALOOT_HP_WeightBench</EDID>
       <REC>FURN:FULL</REC>
-      <Source>Dog Bed</Source>
-      <Dest>Letto per cani</Dest>
+      <Source>Bench</Source>
+      <Dest>Panchina</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_CookingStation</EDID>
+      <EDID>ALOOT_HP_ChemicalShower</EDID>
       <REC>FURN:FULL</REC>
-      <Source>Cooking Stove</Source>
-      <Dest>Fornello</Dest>
+      <Source>Shower</Source>
+      <Dest>Doccia</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Couch</EDID>
@@ -2358,6 +2534,30 @@
       <REC>FURN:FULL</REC>
       <Source>Bed</Source>
       <Dest>Letto</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_RailroadChairWithWriting</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Sedia</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_DogBed</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Dog Bed</Source>
+      <Dest>Letto per cani</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CookingStation</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Cooking Stove</Source>
+      <Dest>Fornello</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_NpcChairVaultSit01</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Chair</Source>
+      <Dest>Sedia</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_WorkbenchPowerArmorSmall</EDID>
@@ -2403,6 +2603,12 @@ No one wants to travel down to the Atom Cats&apos; garage. Too many mutties and 
 Sheng sta entrando nella pubertà e ho notato che stava controllando la mia merce. Naturalmente ho esercitato il mio fascino e l&apos;ho convinto a lasciarmi allacciare una linea diretta alla casa. Non dovrò più pagare l&apos;acqua. Non mi sento nemmeno in colpa. Da quando ci siamo trasferiti, un anno fa, abbiamo portato una quantità di affari da capogiro. 
 
 Nessuno vuole andare nel garage degli Atom Cats. Ci sono troppi mutanti e raider tra di noi. Big John&apos;s Salvage da solo è un fottuto incubo. Il rovescio della medaglia è che da quando siamo riusciti ad aprire un&apos;officina qui, nella &quot;cacca verde&quot; del Commonwealth, la gente della sponda nord del fiume ha potuto far riparare qui le proprie Power Armor. Chi ha avuto un&apos;Armatura Elettrica ha avuto tappi da bruciare. Quindi, naturalmente, Diamond City riceve una parte equa. </Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="1" idMax="6">TERM:ITXT</REC>
+      <Source>Dipstick</Source>
+      <Dest>Dipstick</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>
@@ -2489,6 +2695,12 @@ I ran into this guy the other day, on his way to Trinity Tower. Kept saying some
       <Dest>Amelie ha la pompa dell&apos;acqua/depuratore praticamente pronti e io devo solo mettere a punto alcune cose sul generatore. Ma.... c&apos;è un problema. Quelle cose sono più rumorose di due Mirelurk che scopano su un tetto di latta!!! Se Shen scopre cosa stiamo facendo quaggiù, quella piccola merda ci denuncerà sicuramente a McDonough, e allora sarà &quot;addio&quot; al nostro piccolo progetto... Per fortuna, credo di aver trovato una soluzione.
 
 Ho incontrato questo tizio l&apos;altro giorno, mentre andava alla Trinity Tower. Continuava a dire di voler portare cultura ai Mutties. Sono sicuro che ormai è morto, ma comunque ha detto di essere di quella stazione radio WRVR a ovest di Diamond City. Probabilmente hanno dei pannelli acustici che potrei scambiare. Non insonorizzerebbero del tutto il seminterrato, ma alcuni di essi attutirebbero sicuramente il rumore. Abbastanza da farci passare inosservati. Ci andrò presto.</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_Terminal01</EDID>
+      <REC id="6" idMax="6">TERM:ITXT</REC>
+      <Source>Mecca Lecca High, Mecca Hiney Home...</Source>
+      <Dest>Mecca Lecca High, Mecca Hiney Home...</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Terminal01</EDID>

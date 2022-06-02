@@ -7,20 +7,18 @@
     <Version>2</Version>
   </Params>
   <Content>
-    <String List="0">
+    <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:CNAM</REC>
       <Source>Aloot</Source>
       <Dest>Aloot</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>Aloot&apos;s Home Plate 2.2 PRP Edition
-
+      <Source>Aloot&apos;s Home Plate 2.3 
 https://www.nexusmods.com/fallout4/mods/44101</Source>
-      <Dest>Aloot&apos;s Home Plate 2.2 PRP Edition
-
+      <Dest>Aloot&apos;s Home Plate 2.3 
 https://www.nexusmods.com/fallout4/mods/44101</Dest>
     </String>
     <String List="0">
@@ -72,18 +70,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Generador</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_FederalistDresserShort01</EDID>
-      <REC>CONT:FULL</REC>
-      <Source>Dresser</Source>
-      <Dest>Cómoda</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_HP_DogArmorTrunk</EDID>
-      <REC>CONT:FULL</REC>
-      <Source>Dog Armor Trunk</Source>
-      <Dest>Blindaje para perro</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_HomePlate_WorkshopWorkbench</EDID>
       <REC>CONT:FULL</REC>
       <Source>Workshop</Source>
@@ -126,16 +112,16 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Armario</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_AmmoBox</EDID>
+      <EDID>ALOOT_HP_FederalistDresserShort01</EDID>
       <REC>CONT:FULL</REC>
-      <Source>Ammo Box</Source>
-      <Dest>Caja de munición</Dest>
+      <Source>Dresser</Source>
+      <Dest>Cómoda</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_WoodCrateContainer</EDID>
+      <EDID>ALOOT_HP_DogArmorTrunk</EDID>
       <REC>CONT:FULL</REC>
-      <Source>Wooden Crate</Source>
-      <Dest>Caja de madera</Dest>
+      <Source>Dog Armor Trunk</Source>
+      <Dest>Blindaje para perro</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_FootLocker</EDID>
@@ -246,22 +232,22 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Taquilla</Dest>
     </String>
     <String List="0">
+      <EDID>ALOOT_HP_AmmoBox</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Ammo Box</Source>
+      <Dest>Caja de munición</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_WoodCrateContainer</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Wooden Crate</Source>
+      <Dest>Caja de madera</Dest>
+    </String>
+    <String List="0">
       <EDID>ALOOT_HP_SlidingDoor</EDID>
       <REC>DOOR:FULL</REC>
       <Source>Door</Source>
       <Dest>Puerta</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Carpet02</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Rug</Source>
-      <Dest>Alfombra</Dest>
-    </String>
-    <String List="0">
-      <EDID>ALOOT_Static_Poster01</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Poster</Source>
-      <Dest>Cartel</Dest>
     </String>
     <String List="0">
       <EDID>DinerIntCounter01</EDID>
@@ -438,16 +424,16 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Pintura</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_Key02</EDID>
+      <EDID>ALOOT_Static_Carpet02</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Key</Source>
-      <Dest>Llave</Dest>
+      <Source>Rug</Source>
+      <Dest>Alfombra</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_BottleWine01</EDID>
+      <EDID>ALOOT_Static_Poster01</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Wine</Source>
-      <Dest>Vino</Dest>
+      <Source>Poster</Source>
+      <Dest>Cartel</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_Poster02</EDID>
@@ -870,16 +856,16 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Reloj</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_ProtectronDebris3</EDID>
+      <EDID>ALOOT_Static_Key02</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Protectron Debris</Source>
-      <Dest>Restos de Protectrón </Dest>
+      <Source>Key</Source>
+      <Dest>Llave</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_TerminalBroken02</EDID>
+      <EDID>ALOOT_Static_BottleWine01</EDID>
       <REC>STAT:FULL</REC>
-      <Source>Broken Terminal</Source>
-      <Dest>Terminal estropeado</Dest>
+      <Source>Wine</Source>
+      <Dest>Vino</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_Static_CottonYarnSpool</EDID>
@@ -2004,12 +1990,6 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Pintura</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_Static_QuebecFlag</EDID>
-      <REC>STAT:FULL</REC>
-      <Source>Le Drapeau du Qu�bec</Source>
-      <Dest>La bandera de Quebec</Dest>
-    </String>
-    <String List="0">
       <EDID>ALOOT_Static_MetalBarrel01</EDID>
       <REC>STAT:FULL</REC>
       <Source>Barrel</Source>
@@ -2490,16 +2470,16 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Restos de Protectrón </Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_WeightBench</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Bench</Source>
-      <Dest>Banco</Dest>
+      <EDID>ALOOT_Static_ProtectronDebris3</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Protectron Debris</Source>
+      <Dest>Restos de Protectrón </Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_ChemicalShower</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Shower</Source>
-      <Dest>Ducha</Dest>
+      <EDID>ALOOT_Static_TerminalBroken02</EDID>
+      <REC>STAT:FULL</REC>
+      <Source>Broken Terminal</Source>
+      <Dest>Terminal estropeado</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_MetalOfficeChairWithWriting</EDID>
@@ -2520,16 +2500,16 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <Dest>Mesa</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_DogBed</EDID>
+      <EDID>ALOOT_HP_WeightBench</EDID>
       <REC>FURN:FULL</REC>
-      <Source>Dog Bed</Source>
-      <Dest>Cama de perro</Dest>
+      <Source>Bench</Source>
+      <Dest>Banco</Dest>
     </String>
     <String List="0">
-      <EDID>ALOOT_HP_CookingStation</EDID>
+      <EDID>ALOOT_HP_ChemicalShower</EDID>
       <REC>FURN:FULL</REC>
-      <Source>Cooking Stove</Source>
-      <Dest>Hornillo</Dest>
+      <Source>Shower</Source>
+      <Dest>Ducha</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_Couch</EDID>
@@ -2554,6 +2534,18 @@ https://www.nexusmods.com/fallout4/mods/44101</Dest>
       <REC>FURN:FULL</REC>
       <Source>Chair</Source>
       <Dest>Silla</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_DogBed</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Dog Bed</Source>
+      <Dest>Cama de perro</Dest>
+    </String>
+    <String List="0">
+      <EDID>ALOOT_HP_CookingStation</EDID>
+      <REC>FURN:FULL</REC>
+      <Source>Cooking Stove</Source>
+      <Dest>Hornillo</Dest>
     </String>
     <String List="0">
       <EDID>ALOOT_HP_NpcChairVaultSit01</EDID>
