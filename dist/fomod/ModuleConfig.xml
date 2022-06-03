@@ -164,35 +164,7 @@
 					</plugins> 
 				</group> 
 			</optionalFileGroups> 
-		</installStep> 
-		<installStep name="Extra"> 
-			<visible> 
-				<dependencies operator="And"> 
-						<flagDependency flag="English" value="On"/> 
-				</dependencies> 
-			</visible> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Extra" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PRP - Aloot's Home Plate Upgrade"> 
-							<description>Upgrade for https://www.nexusmods.com/fallout4/mods/44101, requires original mod for texture archive. Replace all other existing files
-
-UNSUPPORTED due to patch age.</description> 
-							<image path="Images\Aloot Home Plate.jpg" /> 
-							<files> 
-								<file source="01 English\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
-		</installStep> 
+		</installStep>
 		<installStep name="Archivos Principales + Compat Grabbag"> 
 			<visible> 
 				<dependencies operator="And"> 
@@ -337,35 +309,7 @@ UNSUPPORTED due to patch age.</description>
 					</plugins> 
 				</group> 
 			</optionalFileGroups> 
-		</installStep> 
-		<installStep name="Extras"> 
-			<visible> 
-				<dependencies operator="And"> 
-						<flagDependency flag="Spanish" value="On"/> 
-				</dependencies> 
-			</visible> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Extras" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PRP - Aloot's Home Plate Upgrade"> 
-							<description>Parche para https://www.nexusmods.com/fallout4/mods/44101, requiere el mod original para las texturas. Reemplaza todos los otros archivos existentes.
-
-SIN SOPORTE  debido a que es un parche muy antiguo.</description> 
-							<image path="Images\Aloot Home Plate.jpg" /> 
-							<files> 
-								<file source="01 Spanish\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
-		</installStep> 
+		</installStep>
 		<installStep name="Archivi Principali + Compat Grabbag"> 
 			<visible> 
 				<dependencies operator="And"> 
@@ -484,34 +428,6 @@ SIN SOPORTE  debido a que es un parche muy antiguo.</description>
 							<image path="Images\Ultra Interior Lighting.jpg" /> 
 							<files> 
 								<file source="01 Italian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
-		</installStep> 
-		<installStep name="Extra"> 
-			<visible> 
-				<dependencies operator="And"> 
-						<flagDependency flag="Italian" value="On"/> 
-				</dependencies> 
-			</visible> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Extra" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PRP - Aloot's Home Plate Upgrade"> 
-							<description>Upgrade per https://www.nexusmods.com/fallout4/mods/44101, richiede la mod originale per l'archivio di textures. Sostituisci tutti gli altri file.
-
-NON SUPPORTATO perché vecchio.</description> 
-							<image path="Images\Aloot Home Plate.jpg" /> 
-							<files> 
-								<file source="01 Italian\AlootHomePlate.esp" destination="AlootHomePlate.esp" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate.cdx" destination="AlootHomePlate.cdx" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate - Main.ba2" destination="AlootHomePlate - Main.ba2" priority="0" /> 
-								<file source="02 Universal\AlootHomePlate - Geometry.csg" destination="AlootHomePlate - Geometry.csg" priority="0" /> 
 							</files> 
 							<typeDescriptor> 
 								<type name="Optional"/> 
