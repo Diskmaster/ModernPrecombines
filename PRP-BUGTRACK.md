@@ -21,6 +21,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] SCOL BA70D DecoMainA2x1CornerWallDmg02_SG apparently has z-fighting that needs correction.
 - \[PRP\] Nearest 238d30, chair flickering as reported in comments.
 - \[PRP\] 030251C6 collision needs redone
 - \[PRP\] 1F57A3 previs issue
@@ -68,7 +69,16 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.60
 
-Pending
+- \[Upend\] (-9, -4, CW): 23C285 appears to have strangely left under the ground, with the only evidence of it's existence being the top of a hook. Mark for deletion and let UF4OP properly deal with it. Thanks to Marvesly for the report.
+- \[Upend\] (1, 1, CW): 15C768 has a missing piece of flooring that's exposed to the ground. Add a pair of DecoLobbyA1x1Cor01 refs to cover this up.
+- \[PRP\] (-1, 0, CW): 13FE52 needs brought forward slightly to prevent z-fighting with neighboring buildings.
+- \[PRP\] (2, -4, CW): 17FD2D needs shifted slightly to make umbra happy.
+- \[PRP\] (-17, -12, CW): 14F9B7 got fragmented and two of the trees that were floating were grounded.
+- \[Upendmaybe\] (-21, -1, CW): 1A5BE0 needed raised up to not be embedded in the mattress it was previously on.
+- \[PRP\] (-3, 21, CW): A7D63 needs lowered to prevent floating tree disorder.
+- \[PRP\] (-6, 8, CW): 1F804B marked for deletion, as there's no reason to have a stain texture apply to the air.
+- \[Upend\] (3, -2, CW): Add a BldgBrick1Story1x1Mid01 to prevent a fall through a big hole that you can't get out of scenario, nearest 163AE0
+- \[
 
 0.59
 
