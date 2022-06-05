@@ -78,7 +78,10 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (-3, 21, CW): A7D63 needs lowered to prevent floating tree disorder.
 - \[PRP\] (-6, 8, CW): 1F804B marked for deletion, as there's no reason to have a stain texture apply to the air.
 - \[Upend\] (3, -2, CW): Add a BldgBrick1Story1x1Mid01 to prevent a fall through a big hole that you can't get out of scenario, nearest 163AE0
-- \[
+- \[PRP\] (-24, 6, CW): 2773D needs nudged so it's not obviously showing it's missing sides.
+- \[Upend\] (-17, 10, CW): 199CC4 got shifted around so the skeleton's hand wasn't clipping through the boat. Placement may need redone.
+- \[PRP\] (-15, 18, CW): 22AFC needs shoved back to make the front part of the porch more believeable and not having a decent sized hole one can see through, also move 22B05 nearby as well.
+
 
 0.59
 
