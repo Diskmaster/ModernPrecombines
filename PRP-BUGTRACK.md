@@ -58,10 +58,10 @@ Current known issues:
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
 
-\(UF4OP bug numbers shown as Uxxxxx\)
+\(UF4OP bug numbers shown as Uxxxxx, FCF is Frost Cell Fixes, krrptd's version of PRP\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City, NWM - Nuka World Market, NWA - Nuka World Amphitheater, FHVR - Far Harbor VR Simulation
 
-Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7
+Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62
 
 Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
@@ -81,6 +81,23 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (-24, 6, CW): 2773D needs nudged so it's not obviously showing it's missing sides.
 - \[Upend\] (-17, 10, CW): 199CC4 got shifted around so the skeleton's hand wasn't clipping through the boat. Placement may need redone.
 - \[PRP\] (-15, 18, CW): 22AFC needs shoved back to make the front part of the porch more believeable and not having a decent sized hole one can see through, also move 22B05 nearby as well.
+- \[PRP\] (USAFSatellite01): Fix rotation on 217B01, 147053 Fix position Z on 75BC6, 217AE7, 753D6, 75BD8 (z-fighting)
+- \[PRP\] (8, 9, CW): Shift position of 12F971 to fix the strange pothole of the roadcurve chunk clobbering with the landscape.
+- \[PRP\] (-16, -5, CW): Move 222F54 to bring that building up to code.
+- \[Upend\] (-1, 6, FH): Fix position of 03023DC4 to get it the hell away from the neighboring large as the xbox fern occlusion hitbox.
+- \[PRP\] (6, 15, CW): Lower a floating Bramble04 10204D, contributed by feeddanoob.
+- \[FCF\] (MassFusion01): Fix z-fighting on 924F2.
+- \[FCF\] (FederalRationStockpile01): Close wall seams with 39102, 39103, 39119
+- \[FCF\] (FaneuilHall01): Fix previs issues with doorways. 10D70F and 10D710
+- \[FCF\] (Theater16PearwoodResidences01): Correct another previs door issue. 1CC452, 1CC453
+- \[FCF\] (7, -2, CW): Move 1EAADB (rubble) to prevent players getting stuck.
+- \[FCF\] (-3, 24, CW): Apparently moved a roof chunk, 249A1
+- \[FCF\] (6, -1, CW): Add a missing ceiling panel.
+- \[FCF\] (-6, -7, CW): Add a missing metal wall part.
+- \[FCF\] (1, -2, NW): Add missing ceiling pieces nearest the NW gate.
+- \[PRP\] (-7, 0, CW): Pending moves of AAF10 and AAF11 to deal with a previs hole between the buildings.
+- \[PRP\] (ConcordMuseum01): Make 180B2, 180B3, and 180B4 more uniform placement. There's probably going to be some commentary about removing the soul of this infamous interior's broken design, but I had to do this to fix a tiny seam between the left most stair and the wood flooring. It's small but very noticeable if you are looking for it.
+- \[PRP\] (DLC01FortHagenSatelliteArray01): Revert the moves for all seven crates, and then tag them in XLRT with 1E819A NoObjectCombinationReftype
 
 
 0.59
