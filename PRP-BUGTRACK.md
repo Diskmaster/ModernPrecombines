@@ -101,7 +101,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (-7, -1, CW): Tag 2399FD with EnableMarker (187965)
 - \[Upend\] (-6, -1, CW): Also tag 07026EF7 with the same marker.
 - \[PRP\] (DmndSecurity01): Apply NoObjectCombinationReftype to 11A47F and 11A481 to fix previs generation.
-- \[PRP\] (Vault81Secret): Delete 1AB5AB (as per Glitchfinder, wrong matswap and duplicate mesh which was z-fighting), 08000031, 08000032, 08000033, 08000034 (placed to cover the prior object), 08000043, 08000044, 0800004E, 0800004F (double fix, they cover the gap that is fixed by some of my objects but do so with the wrong floor material), 08000030 (placed to cover z-fighting), 0800004D (duplicate of the existing object to fix a z-fighting error), 0800002F (z-fighting patch), 08000048 (z-fighting patch), Apply XRLT 1E819A as noted above to 08000049, 0800004B, 0800004C, 08000035, 08000036, 08000037, 08000038, 08000039, 0800003A, 0800003B, 0800003C, 0800003D, 0800003E, nudge 1AB5A3, 11236C, 882C8, D9B22, 88359, 
+- \[PRP\] (Vault81Secret): Delete 1AB5AB (as per Glitchfinder, wrong matswap and duplicate mesh which was z-fighting), 08000031, 08000032, 08000033, 08000034 (placed to cover the prior object), 08000043, 08000044, 0800004E, 0800004F (double fix, they cover the gap that is fixed by some of my objects but do so with the wrong floor material), 08000030 (placed to cover z-fighting), 0800004D (duplicate of the existing object to fix a z-fighting error), 0800002F (z-fighting patch), 08000048 (z-fighting patch), Apply XRLT 1E819A as noted above to 08000049, 0800004B, 0800004C, 08000035, 08000036, 08000037, 08000038, 08000039, 0800003A, 0800003B, 0800003C, 0800003D, 0800003E, nudge 1AB5A3, 11236C, 882C8, D9B22, 88359, 113537, 113538, 19F0A5, 19F0A4
+- \[PRP\] 
 
 0.59
 
