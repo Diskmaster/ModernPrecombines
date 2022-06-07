@@ -98,7 +98,10 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (-7, 0, CW): Pending moves of AAF10 and AAF11 to deal with a previs hole between the buildings.
 - \[PRP\] (ConcordMuseum01): Make 180B2, 180B3, and 180B4 more uniform placement. There's probably going to be some commentary about removing the soul of this infamous interior's broken design, but I had to do this to fix a tiny seam between the left most stair and the wood flooring. It's small but very noticeable if you are looking for it.
 - \[PRP\] (DLC01FortHagenSatelliteArray01): Revert the moves for all seven crates, and then tag them in XLRT with 1E819A NoObjectCombinationReftype
-
+- \[PRP\] (-7, -1, CW): Tag 2399FD with EnableMarker (187965)
+- \[Upend\] (-6, -1, CW): Also tag 07026EF7 with the same marker.
+- \[PRP\] (DmndSecurity01): Apply NoObjectCombinationReftype to 11A47F and 11A481 to fix previs generation.
+- \[PRP\] (Vault81Secret): Delete 1AB5AB (as per Glitchfinder, wrong matswap and duplicate mesh which was z-fighting), 08000031, 08000032, 08000033, 08000034 (placed to cover the prior object), 08000043, 08000044, 0800004E, 0800004F (double fix, they cover the gap that is fixed by some of my objects but do so with the wrong floor material), 08000030 (placed to cover z-fighting), 0800004D (duplicate of the existing object to fix a z-fighting error), 0800002F (z-fighting patch), 08000048 (z-fighting patch), Apply XRLT 1E819A as noted above to 08000049, 0800004B, 0800004C, 08000035, 08000036, 08000037, 08000038, 08000039, 0800003A, 0800003B, 0800003C, 0800003D, 0800003E, nudge 1AB5A3, 11236C, 882C8, D9B22, 88359, 
 
 0.59
 
