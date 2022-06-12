@@ -3,7 +3,7 @@ Hello, welcome to my little tutorial on creating patches for PRP (or at least th
 
 ## Prerequisites
 - The Creation Kit for Fallout 4 installed where the game is located at
-- [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165) version 1.6.3[^1]
+- [F4 Creation Kit Fixes](https://www.nexusmods.com/fallout4/mods/51165) version 1.8[^1]
 - [f4ck_loader](https://github.com/Perchik71/Fallout4Test/releases) [^2]
 - [xedit](https://www.nexusmods.com/fallout4/mods/2737) x86 type will be used to avoid floating errors that may pop in the x64 version.
 - [Pra's FO4Edit Scripts](https://www.nexusmods.com/fallout4/mods/28898)
@@ -92,7 +92,7 @@ Now that your have generated everything, it is time to see if your generation wo
 ## Creating patches for your patches
 (tbd and probably on another md file)
 
-[^1]:Guide was built using this version. Do not use CK fixes v1.7 when generating previsibines, there will be errors when generating the Cell index.
+[^1]:Guide was built using 1.6.3. CK Fixes 1.7 has known generation issues and was pulled a while back. 1.8 also works provided PRP - Main.ba2 is compressed. As it currently is, it will not fit under the 4gb limit.
 [^2]:Guide will be using this because I use an enb
 [^3]:For now, I suggest using PRP 0.57.2 since it is labeled stable. The PPF listed in the Github will always be the latest version but for simplicity sake I suggest using the one shipped in the mod page.
 [^4]:That is all the DLC + UF4P + PRP + the plugin in question's masters. There is a problem when the CK adds the masters of other plugins to your new plugin and that causes errors when generating the precombine data.
