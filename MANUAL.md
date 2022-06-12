@@ -11,7 +11,7 @@ Before we get too in depth, there's a few things that need to happen to get your
  - A decent amount of hard drive space, and more importantly, physical RAM, depending on the size of the project and how it's created. [The Previsibines Repair Pack](https://www.nexusmods.com/fallout4/mods/46403), my mod, took up to 126.6GB system commit (that's used RAM and swap file!) at full previs generation of the game and all DLC, UF4OP included.
 
 There's a set of optional scripts floating around that makes this easier to work with and I'll point out the options as they are relevant - this includes the previously mentioned pack above.
-Also, I personally use [CK Fixes 1.6.3](https://www.nexusmods.com/fallout4/mods/51165), but it is somewhat optional. Some don't like it and it's got bugs in odd places, but it does the job for me. *note: post preferred configuration*
+Also, I personally use [CK Fixes 1.8](https://www.nexusmods.com/fallout4/mods/51165), but it is somewhat optional. Some don't like it and it's got bugs in odd places, but it does the job for me. Be aware, you cannot use PRP as it is with it due to the archive size. The PRP - Main.ba2 archive has to be recompressed to fit under the 4GB filesize limit by default. A future release will have that available as an alternate, but I do not provide it at this time.
 
 Before you begin, the Creation Kit by default has a known bug where it incorrectly generates Havok information in the wrong bit range for the game. 32-bit, specifically, and we want 64-bit. To fix this, you have two options:
 
