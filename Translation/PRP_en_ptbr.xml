@@ -467,7 +467,13 @@
       <EDID>GoodneighborTheThirdRail</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Third Rail</Source>
-      <Dest>The Third Rail</Dest>
+      <Dest>O Terceiro Trilho</Dest>
+    </String>
+    <String List="0">
+      <EDID>SuperDuperMart01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Super-Duper Mart</Source>
+      <Dest>Super-Duper Mart</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
@@ -768,6 +774,12 @@
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
       <Dest>Estação Andrew</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonGarage</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Parking Garage</Source>
+      <Dest>Estacionamento Lexington</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -1194,6 +1206,12 @@
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
       <Dest>Convés de comando da Prydwen</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonPharmacy</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Pharmacy</Source>
+      <Dest>Farmácia Lexington</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1742,6 +1760,12 @@
       <Dest>Academia de Boxe</Dest>
     </String>
     <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>Adega do Clube de Eletrônica</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC03POI40Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pump Control</Source>
@@ -1967,7 +1991,7 @@
       <EDID>DmndSurgeryBasement01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mega Surgery Center</Source>
-      <Dest>Mega Surgery Center</Dest>
+      <Dest>Mega Centro Cirúrgico</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt15B</EDID>
