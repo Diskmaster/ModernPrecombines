@@ -137,6 +137,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
   - Remove the pointless C7634 as well while we are here.
   - Lower a floating set of bricks. C77A8.
   - Shift a Buttercup poster back a bit to give the illusion that it's under the grime texture nearby. 1E8070
+- \[Import\] Import updated replacement meshes that had occlusion stripped from Flicker Fixer with versions done by Exoclyps done for the Storywealth Collection. Thanks!
 
 0.59
 
