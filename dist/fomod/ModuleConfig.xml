@@ -1,553 +1,897 @@
-<!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] --> 
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd"> 
-	<moduleName>Previsibines Repair Pack</moduleName> 
-	<moduleImage path="Images\PRP.jpg" /> 
-	<installSteps order="Explicit"> 
-		<installStep name="Choose Your Language"> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Languages" type="SelectExactlyOne"> 
-					<plugins order="Explicit"> 
-						<plugin name="EN - English"> 
-							<description></description> 
-							<conditionFlags> 
-								<flag name="English">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="ES - Español"> 
-							<description></description> 
-							<conditionFlags> 
-								<flag name="Spanish">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="IT - Italiano"> 
-							<description></description> 
-							<conditionFlags> 
-								<flag name="Italian">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
-		</installStep> 
-		<installStep name="Main Files + Compat Grabbag"> 
-			<visible> 
-				<dependencies operator="And"> 
-						<flagDependency flag="English" value="On"/> 
-				</dependencies> 
-			</visible> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Main Files" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PPF"> 
-							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description> 
-							<image path="Images\PRP.jpg" /> 
-							<conditionFlags> 
-								<flag name="PPF Selected English">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP"> 
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description> 
-							<image path="Images\PRP.jpg" /> 
-							<conditionFlags> 
-								<flag name="PRP Selected English">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-				<group name="Compat Grabbag" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PRP - Clarity 4.2 Patch"> 
-							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Images\Clarity.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Clarity 4.3 Patch"> 
-							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Images\Clarity.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Diamond City Ambience Patch"> 
-							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description> 
-							<image path="Images\Diamond City Ambience.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Fogout Patch"> 
-							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description> 
-							<image path="Images\Fogout.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Interiors Enhanced Patch"> 
-							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description> 
-							<image path="Images\Interiors Enhanced.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Region Names Patch"> 
-							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description> 
-							<image path="Images\Region Names.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Exterior Lighting Patch"> 
-							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description> 
-							<image path="Images\Ultra Exterior Lighting.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Interior Lighting Patch"> 
-							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Images\Ultra Interior Lighting.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)"> 
-							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Images\Ultra Interior Lighting.jpg" /> 
-							<files> 
-								<file source="01 English\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
+<!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>Previsibines Repair Pack</moduleName>
+	<moduleImage path="Images\PRP.jpg"/>
+	<installSteps order="Explicit">
+		<installStep name="Choose Your Language">
+			<optionalFileGroups order="Explicit">
+				<group name="Languages" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="EN - English">
+							<description/>
+							<conditionFlags>
+								<flag name="English">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="ES - Español">
+							<description/>
+							<conditionFlags>
+								<flag name="Spanish">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="IT - Italiano">
+							<description/>
+							<conditionFlags>
+								<flag name="Italian">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="JA - Japanese (translate me)">
+							<description/>
+							<conditionFlags>
+								<flag name="Japanese">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PTBR - Brazilian Portuguese (translate me)">
+							<description/>
+							<conditionFlags>
+								<flag name="Portuguese">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
 		</installStep>
-		<installStep name="Archivos Principales + Compat Grabbag"> 
-			<visible> 
-				<dependencies operator="And"> 
-						<flagDependency flag="Spanish" value="On"/> 
-				</dependencies> 
-			</visible> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Archivos Principales" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PPF"> 
-							<description>Complemento maestro que incluye todas las correcciones reales. Necesario para el funcionamiento normal.</description> 
-							<image path="Images\PRP.jpg" /> 
-							<conditionFlags> 
-								<flag name="PPF Selected Spanish">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<dependencyType> 
-									<defaultType name="Optional"/> 
-									<patterns> 
-										<pattern> 
-											<dependencies operator="And"> 
-											</dependencies> 
-											<type name="Optional"/> 
-										</pattern> 
-									</patterns> 
-								</dependencyType> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP"> 
-							<description>Paquete Previsibines generado a partir de PPF. Necesario para el funcionamiento normal en un entorno normal del juego (vanilla).</description> 
-							<image path="Images\PRP.jpg" /> 
-							<conditionFlags> 
-								<flag name="PRP Selected Spanish">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<dependencyType> 
-									<defaultType name="Optional"/> 
-									<patterns> 
-										<pattern> 
-											<dependencies operator="And"> 
-											</dependencies> 
-											<type name="Optional"/> 
-										</pattern> 
-									</patterns> 
-								</dependencyType> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-				<group name="Compat Grabbag" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PRP - Clarity 4.2 Patch"> 
-							<description>Parche para Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Images\Clarity.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Clarity 4.3 Patch"> 
-							<description>Parche para Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Images\Clarity.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Diamond City Ambience Patch"> 
-							<description>Parche para Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description> 
-							<image path="Images\Diamond City Ambience.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Fogout Patch"> 
-							<description>Parche para Fogout https://www.nexusmods.com/fallout4/mods/2428</description> 
-							<image path="Images\Fogout.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Interiors Enhanced Patch"> 
-							<description>Parche parar Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description> 
-							<image path="Images\Interiors Enhanced.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Region Names Patch"> 
-							<description>Parche para See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description> 
-							<image path="Images\Region Names.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Exterior Lighting Patch"> 
-							<description>Parche para Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description> 
-							<image path="Images\Ultra Exterior Lighting.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Interior Lighting Patch"> 
-							<description>Parche para Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Images\Ultra Interior Lighting.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)"> 
-							<description>Parche para Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Images\Ultra Interior Lighting.jpg" /> 
-							<files> 
-								<file source="01 Spanish\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
+		<installStep name="Main Files + Compat Grabbag">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="English" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Main Files" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PPF">
+							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PPF Selected English">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP">
+							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PRP Selected English">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compat Grabbag" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PRP - Clarity 4.2 Patch">
+							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Clarity 4.3 Patch">
+							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Diamond City Ambience Patch">
+							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+							<image path="Images\Diamond City Ambience.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Fogout Patch">
+							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<image path="Images\Fogout.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Interiors Enhanced Patch">
+							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+							<image path="Images\Interiors Enhanced.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Region Names Patch">
+							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+							<image path="Images\Region Names.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Exterior Lighting Patch">
+							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+							<image path="Images\Ultra Exterior Lighting.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch">
+							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 English\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
 		</installStep>
-		<installStep name="Archivi Principali + Compat Grabbag"> 
-			<visible> 
-				<dependencies operator="And"> 
-						<flagDependency flag="Italian" value="On"/> 
-				</dependencies> 
-			</visible> 
-			<optionalFileGroups order="Explicit"> 
-				<group name="Archivi Principali" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PPF"> 
-							<description>Plugin principale che include tutte le correzioni. Necessario per una normale operazione.</description> 
-							<image path="Images\PRP.jpg" /> 
-							<conditionFlags> 
-								<flag name="PPF Selected Italian">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP"> 
-							<description>Pacchetto di Previsibines generate da PPF. Necessario per una normale operazione in vanilla.</description> 
-							<image path="Images\PRP.jpg" /> 
-							<conditionFlags> 
-								<flag name="PRP Selected Italian">On</flag> 
-							</conditionFlags> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-				<group name="Compat Grabbag" type="SelectAny"> 
-					<plugins order="Explicit"> 
-						<plugin name="PRP - Clarity 4.2 Patch"> 
-							<description>Patch per Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Images\Clarity.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Clarity 4.3 Patch"> 
-							<description>Patch per Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description> 
-							<image path="Images\Clarity.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Diamond City Ambience Patch"> 
-							<description>Patch per Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description> 
-							<image path="Images\Diamond City Ambience.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Fogout Patch"> 
-							<description>Patch per Fogout https://www.nexusmods.com/fallout4/mods/2428</description> 
-							<image path="Images\Fogout.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Interiors Enhanced Patch"> 
-							<description>Patch per Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description> 
-							<image path="Images\Interiors Enhanced.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Region Names Patch"> 
-							<description>Patch per See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description> 
-							<image path="Images\Region Names.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Exterior Lighting Patch"> 
-							<description>Patch per Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description> 
-							<image path="Images\Ultra Exterior Lighting.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Interior Lighting Patch"> 
-							<description>Patch per Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Images\Ultra Interior Lighting.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)"> 
-							<description>Patch per Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description> 
-							<image path="Images\Ultra Interior Lighting.jpg" /> 
-							<files> 
-								<file source="01 Italian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0" /> 
-							</files> 
-							<typeDescriptor> 
-								<type name="Optional"/> 
-							</typeDescriptor> 
-						</plugin> 
-					</plugins> 
-				</group> 
-			</optionalFileGroups> 
-		</installStep> 
-	</installSteps> 
-	<conditionalFileInstalls> 
-		<patterns> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PPF Selected English" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected English" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected English" value="On"/> 
-					<flagDependency flag="PPF Selected English" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PPF Selected Spanish" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected Spanish" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected Spanish" value="On"/> 
-					<flagDependency flag="PPF Selected Spanish" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PPF Selected Italian" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected Italian" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="PRP Selected Italian" value="On"/> 
-					<flagDependency flag="PPF Selected Italian" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0" /> 
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0" /> 
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0" /> 
-					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0" /> 
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0" /> 
-					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0" /> 
-				</files> 
-			</pattern> 
-		</patterns> 
-	</conditionalFileInstalls> 
+		<installStep name="Archivos Principales + Compat Grabbag">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Spanish" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Archivos Principales" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PPF">
+							<description>Complemento maestro que incluye todas las correcciones reales. Necesario para el funcionamiento normal.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PPF Selected Spanish">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP">
+							<description>Paquete Previsibines generado a partir de PPF. Necesario para el funcionamiento normal en un entorno normal del juego (vanilla).</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PRP Selected Spanish">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compat Grabbag" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PRP - Clarity 4.2 Patch">
+							<description>Parche para Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Clarity 4.3 Patch">
+							<description>Parche para Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Diamond City Ambience Patch">
+							<description>Parche para Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+							<image path="Images\Diamond City Ambience.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Fogout Patch">
+							<description>Parche para Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<image path="Images\Fogout.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Interiors Enhanced Patch">
+							<description>Parche parar Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+							<image path="Images\Interiors Enhanced.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Region Names Patch">
+							<description>Parche para See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+							<image path="Images\Region Names.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Exterior Lighting Patch">
+							<description>Parche para Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+							<image path="Images\Ultra Exterior Lighting.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch">
+							<description>Parche para Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+							<description>Parche para Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 Spanish\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Archivi Principali + Compat Grabbag">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Italian" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Archivi Principali" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PPF">
+							<description>Plugin principale che include tutte le correzioni. Necessario per una normale operazione.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PPF Selected Italian">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP">
+							<description>Pacchetto di Previsibines generate da PPF. Necessario per una normale operazione in vanilla.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PRP Selected Italian">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compat Grabbag" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PRP - Clarity 4.2 Patch">
+							<description>Patch per Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Clarity 4.3 Patch">
+							<description>Patch per Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Diamond City Ambience Patch">
+							<description>Patch per Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+							<image path="Images\Diamond City Ambience.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Fogout Patch">
+							<description>Patch per Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<image path="Images\Fogout.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Interiors Enhanced Patch">
+							<description>Patch per Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+							<image path="Images\Interiors Enhanced.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Region Names Patch">
+							<description>Patch per See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+							<image path="Images\Region Names.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Exterior Lighting Patch">
+							<description>Patch per Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+							<image path="Images\Ultra Exterior Lighting.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch">
+							<description>Patch per Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+							<description>Patch per Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 Italian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+	<installStep name="Main Files + Compat Grabbag (translate me)">
+		<visible>
+			<dependencies operator="And">
+				<flagDependency flag="Japanese" value="On"/>
+			</dependencies>
+		</visible>
+		<optionalFileGroups order="Explicit">
+			<group name="Main Files" type="SelectAny">
+				<plugins order="Explicit">
+					<plugin name="PPF">
+						<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+						<image path="Images\PRP.jpg"/>
+						<conditionFlags>
+							<flag name="PPF Selected Japanese">On</flag>
+						</conditionFlags>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP">
+						<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+						<image path="Images\PRP.jpg"/>
+						<conditionFlags>
+							<flag name="PRP Selected Japanese">On</flag>
+						</conditionFlags>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+				</plugins>
+			</group>
+			<group name="Compat Grabbag" type="SelectAny">
+				<plugins order="Explicit">
+					<plugin name="PRP - Clarity 4.2 Patch">
+						<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+						<image path="Images\Clarity.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Clarity 4.3 Patch">
+						<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+						<image path="Images\Clarity.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Diamond City Ambience Patch">
+						<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+						<image path="Images\Diamond City Ambience.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Fogout Patch">
+						<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+						<image path="Images\Fogout.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Interiors Enhanced Patch">
+						<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+						<image path="Images\Interiors Enhanced.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Region Names Patch">
+						<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+						<image path="Images\Region Names.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Ultra Exterior Lighting Patch">
+						<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+						<image path="Images\Ultra Exterior Lighting.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Ultra Interior Lighting Patch">
+						<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+						<image path="Images\Ultra Interior Lighting.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+						<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+						<image path="Images\Ultra Interior Lighting.jpg"/>
+						<files>
+							<file source="01 Japanese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+				</plugins>
+			</group>
+		</optionalFileGroups>
+	</installStep>
+	<installStep name="Main Files + Compat Grabbag (translate me)">
+		<visible>
+			<dependencies operator="And">
+				<flagDependency flag="Portuguese" value="On"/>
+			</dependencies>
+		</visible>
+		<optionalFileGroups order="Explicit">
+			<group name="Main Files" type="SelectAny">
+				<plugins order="Explicit">
+					<plugin name="PPF">
+						<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+						<image path="Images\PRP.jpg"/>
+						<conditionFlags>
+							<flag name="PPF Selected Portuguese">On</flag>
+						</conditionFlags>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP">
+						<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+						<image path="Images\PRP.jpg"/>
+						<conditionFlags>
+							<flag name="PRP Selected Portuguese">On</flag>
+						</conditionFlags>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+				</plugins>
+			</group>
+			<group name="Compat Grabbag" type="SelectAny">
+				<plugins order="Explicit">
+					<plugin name="PRP - Clarity 4.2 Patch">
+						<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+						<image path="Images\Clarity.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Clarity 4.3 Patch">
+						<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+						<image path="Images\Clarity.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Diamond City Ambience Patch">
+						<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+						<image path="Images\Diamond City Ambience.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Fogout Patch">
+						<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+						<image path="Images\Fogout.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Interiors Enhanced Patch">
+						<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+						<image path="Images\Interiors Enhanced.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Region Names Patch">
+						<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+						<image path="Images\Region Names.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Ultra Exterior Lighting Patch">
+						<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+						<image path="Images\Ultra Exterior Lighting.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Ultra Interior Lighting Patch">
+						<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+						<image path="Images\Ultra Interior Lighting.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+					<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+						<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+						<image path="Images\Ultra Interior Lighting.jpg"/>
+						<files>
+							<file source="01 Portuguese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+						</files>
+						<typeDescriptor>
+							<type name="Optional"/>
+						</typeDescriptor>
+					</plugin>
+				</plugins>
+			</group>
+		</optionalFileGroups>
+	</installStep>
+	<conditionalFileInstalls>
+		<patterns>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected English" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected English" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected English" value="On"/>
+					<flagDependency flag="PPF Selected English" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected Spanish" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Spanish" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Spanish" value="On"/>
+					<flagDependency flag="PPF Selected Spanish" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected Italian" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Italian" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Italian" value="On"/>
+					<flagDependency flag="PPF Selected Italian" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected Japanese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Japanese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Japanese" value="On"/>
+					<flagDependency flag="PPF Selected Japanese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected Portuguese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Portuguese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Portuguese" value="On"/>
+					<flagDependency flag="PPF Selected Portuguese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+		</patterns>
+	</conditionalFileInstalls>
 </config>
