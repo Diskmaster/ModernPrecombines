@@ -94,7 +94,7 @@ Now that your have generated everything, it is time to see if your generation wo
 
 [^1]:Guide was built using 1.6.3. CK Fixes 1.7 has known generation issues and was pulled a while back. 1.8 also works provided PRP - Main.ba2 is compressed. As it currently is, it will not fit under the 4gb limit.
 [^2]:Guide will be using this because I use an enb
-[^3]:For now, I suggest using PRP 0.57.2 since it is labeled stable. The PPF listed in the Github will always be the latest version but for simplicity sake I suggest using the one shipped in the mod page.
+[^3]:For now, I suggest using the version described on the mod page with bold text since it is labeled stable. The PPF listed in the Github will always be the latest version but for simplicity sake I suggest using the one shipped in the mod page.
 [^4]:That is all the DLC + UF4P + PRP + the plugin in question's masters. There is a problem when the CK adds the masters of other plugins to your new plugin and that causes errors when generating the precombine data.
 [^5]:We will be saving the esp in the creation kit (as opposed to using the copy version control script in xedit) and sometimes the CK adjusts the navmesh entries to some unknown parameters, so for simplicity’s sake we skip everything related to navmeshes.
 [^6]:The Precombined Timestamps (PCMB in xedit) and the Combined References (XCRI in xedit) will not update if the cell has no subrecords.
