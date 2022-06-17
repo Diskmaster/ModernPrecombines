@@ -139,7 +139,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
   - Lower a floating set of bricks. C77A8.
   - Shift a Buttercup poster back a bit to give the illusion that it's under the grime texture nearby. 1E8070
 - \[Import\] Import updated replacement meshes that had occlusion stripped from Flicker Fixer with versions done by Exoclyps done for the Storywealth Collection. Thanks!
-
+- \[PRP\] (CorvegaAssemblyPlantExt01 to 06): There's way too many records to list here, but explicitly purge any NULL linkrefs from non-precombined references in these exterior cells. This is preventing them from being added to the lists, and this is clearly wrong. There might be straggler refs outside of the named blocks, but I'm not touching them without a script to search for them. Also, please note that MultirefLOD is a reflink that the game ignores for previsibining so it's fine to leave it in place.
+  - Counts: Ext01 37, Ext02 17, Ext03 33, Ext04 81, Ext05 28, Ext06 14
 
 0.59
 
