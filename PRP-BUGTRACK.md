@@ -21,6 +21,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] Sections of Corvega's walls are not being precombined due to a NULL linkref. They need to be purged. This might be an ongoing problem elsewhere in the game.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
 - \[PRP\] Review 1E33A0 and 1E33A1 for previs issues.
 - \[PRP\] 1DF316 and 1DF320 needs a custom mesh to stop clipping into neighboring hallway
@@ -138,6 +139,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
   - Lower a floating set of bricks. C77A8.
   - Shift a Buttercup poster back a bit to give the illusion that it's under the grime texture nearby. 1E8070
 - \[Import\] Import updated replacement meshes that had occlusion stripped from Flicker Fixer with versions done by Exoclyps done for the Storywealth Collection. Thanks!
+
 
 0.59
 
