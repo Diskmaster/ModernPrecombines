@@ -141,6 +141,22 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[Import\] Import updated replacement meshes that had occlusion stripped from Flicker Fixer with versions done by Exoclyps done for the Storywealth Collection. Thanks!
 - \[PRP\] (CorvegaAssemblyPlantExt01 to 06): There's way too many records to list here, but explicitly purge any NULL linkrefs from non-precombined references in these exterior cells. This is preventing them from being added to the lists, and this is clearly wrong. There might be straggler refs outside of the named blocks, but I'm not touching them without a script to search for them. Also, please note that MultirefLOD is a reflink that the game ignores for previsibining so it's fine to leave it in place.
   - Counts: Ext01 37, Ext02 17, Ext03 33, Ext04 81, Ext05 28, Ext06 14
+- \[PRP\] (3, 11, CW): UDR duplicate HedgeRow03 1E4B6B and also remove null XLKR from 981A7
+- \[PRP\] (6, -26, CW): UDR 14A7F4 and kill NULL XLKR in 14A7F3
+- \[PRP\] (5, -27, CW): UDR 14A7C7 and kill NULL XLKR in 14A7C6
+- \[PRP\] (6, -1, CW): 1BA36D to 1BA373, kill NULL XLKR extra refs that shouldn't be there.
+- \[PRP\] (7, -2, CW): 1D985E another NULL XLKR intended for multireflod
+- \[PRP\] (6, -2, CW): 1BA36B, 1BA374, 1D985F see above
+- \[PRP\] (5, -2, CW): 1D9872, 1D9873, 1D9874 see above
+- \[PRP\] (7, -3, CW): 1D9858, 1D985C see above
+- \[PRP\] (6, -3, CW): Too many to list, see above
+- \[PRP\] (7, -4, CW): Same as previous line.
+- \[PRP\] (6, -4, CW): That's a lot of nulls.
+- \[PRP\] (-9, 9, CW): E51FE
+- \[PRP\] (-10, 9, CW): E51FD
+- \[PRP\] (-3, -13, CW): UDR 15AD6E and kill NULL XLKR in 15AD6D
+- \[PRP\] (-5, -7, CW): 22DA61 clear null LOD XLKR ref
+- \[PRP\] (1, 15, FH): 303F748 and 303F747, UDR and NULL XLKR song and dance
 
 0.59
 
