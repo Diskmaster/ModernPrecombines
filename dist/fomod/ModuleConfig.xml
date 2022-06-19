@@ -34,7 +34,7 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PTBR - Brazilian Portuguese (translate me)">
+						<plugin name="PTBR - Portugues do Brasil">
 							<description/>
 							<conditionFlags>
 								<flag name="Portuguese">On</flag>
