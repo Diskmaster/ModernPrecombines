@@ -1,7 +1,3 @@
-Current released PPF Version: 0.59
-
-The version in git is always tagged newer as it's development.
-
 Deduplication tracker remaining:
 
 - Fallout4.esm \[ 2594 of 3300 \]
@@ -14,14 +10,11 @@ Deduplication tracker remaining:
 
 Current planned changes:
 
-- New records in areas previously added from Glitch's Fixes need checked out.
-- Vault75 as of 0.59 needs double checked for confirmation of the true previs hole fix.
 - More commonwealth deduplication (exteriors)
 - A shrubbery.
 
 Current known issues:
 
-- \[PRP\] Sections of Corvega's walls are not being precombined due to a NULL linkref. They need to be purged. This might be an ongoing problem elsewhere in the game.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
 - \[PRP\] Review 1E33A0 and 1E33A1 for previs issues.
 - \[PRP\] 1DF316 and 1DF320 needs a custom mesh to stop clipping into neighboring hallway
@@ -72,6 +65,10 @@ Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle
 Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
+
+0.61
+
+Coming Soon
 
 0.60
 
