@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] 22685, 3E805, 1F7A9 needs No Previs restored in PPF dev.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
 - \[PRP\] Review 1E33A0 and 1E33A1 for previs issues.
 - \[PRP\] 1DF316 and 1DF320 needs a custom mesh to stop clipping into neighboring hallway
