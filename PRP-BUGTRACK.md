@@ -15,7 +15,6 @@ Current planned changes:
 
 Current known issues:
 
-- \[PRP\] 22685, 3E805, 1F7A9 needs No Previs restored in PPF dev.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
 - \[PRP\] Review 1E33A0 and 1E33A1 for previs issues.
 - \[PRP\] 1DF316 and 1DF320 needs a custom mesh to stop clipping into neighboring hallway
@@ -859,7 +858,7 @@ Coming Soon
 - \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
 - \[PRP\] WestRoxburyStationExt (-3, -15): Move the Motorcycle01 (1D3AE3) reference here to look more believable than stuck in the ground.
 - \[PRP\] CambridgePDExt02 (-8, 2): UDR'd 190B54, looked like it was overlapping 193670 presumably a development oversight at some point, maybe the original model didn't have windows on that side?
-- \[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12.
+- ~~\[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12.~~ Merged upstream.
 - \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
 - \[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx
 
@@ -965,7 +964,7 @@ Coming Soon
 - \[PRP\] -19, -1 CW D1551, D1552 Shift slightly a pair of staircases.
 - \[U31518\] -9, -13 CW 8EE09 Getting really tired of these toilet bugs.
 - \[PRP\] -2, -11 CW 129105 Moved a grass blob.
-- \[U31658, PRP\] -2. -15 CW 08000001 Add new SWCurb8x1Str01 to cap off a hole.
+- ~~\[U31658, PRP\] -2. -15 CW 08000001 Add new SWCurb8x1Str01 to cap off a hole.~~ Merged Upstream
 - \[U31657\] -5, -1 CW Getting monotonous, isn't it? Another DLCNukaWorld cell clobber.
 - \[U28903\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, thanks to Glitchfinder for this one.
 - \[U22977\] -2, -4 CW 23B2C2 Move a trash decal here.
