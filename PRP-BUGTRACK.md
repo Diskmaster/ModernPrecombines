@@ -154,6 +154,11 @@ Coming Soon
 - \[PRP\] (-3, -13, CW): UDR 15AD6E and kill NULL XLKR in 15AD6D
 - \[PRP\] (-5, -7, CW): 22DA61 clear null LOD XLKR ref
 - \[PRP\] (1, 15, FH): 303F748 and 303F747, UDR and NULL XLKR song and dance
+- \[PRP\] (0, 0, DC): Remove EnableParent on 1347.
+- \[PRP\] (x, x, CW): 1BF97E and 1BF97D needs pulled forward to fix a building hole.
+- \[PRP\] (-16, 10, CW): 893D3 got moved to the plateau nearby to stop the branches from outright floating.
+- \[U32472\] (0, 4, CW): A9416 and A9411 has a rather visible seam.
+- \[PRP\] Recreate a junk 08000012 record to prevent crashes on upgrading, to be replaced at a later date by something actually useful.
 
 0.59
 
