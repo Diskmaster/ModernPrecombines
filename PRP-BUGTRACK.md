@@ -15,6 +15,8 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] (-3, 6, CW, and other locations): Investigate if Common_DisableMarker / Common_Walls_DisableLayer is actually used by the game.
+- \[PRP\] 981EC has a texture swap implemented, but the textures themselves are copies of the base game's version. This is as good as I can do here as I'm not a texture artist.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
 - \[PRP\] Review 1E33A0 and 1E33A1 for previs issues.
 - \[PRP\] 1DF316 and 1DF320 needs a custom mesh to stop clipping into neighboring hallway
@@ -158,7 +160,8 @@ Coming Soon
 - \[PRP\] (x, x, CW): 1BF97E and 1BF97D needs pulled forward to fix a building hole.
 - \[PRP\] (-16, 10, CW): 893D3 got moved to the plateau nearby to stop the branches from outright floating.
 - \[U32472\] (0, 4, CW): A9416 and A9411 has a rather visible seam.
-- \[PRP\] Recreate a junk 08000012 record to prevent crashes on upgrading, to be replaced at a later date by something actually useful.
+- \[PRP\] (3, 10, CW): Dedup 98F06, create and apply texswap to 981EC, copied textures are the same as base game intentionally. Texture replacement artists should look at and create replacements that fit the style with the filename set of PaintedWoodWhiteDirty01 in the Textures/SetDressing/Fences directory. The versions in the game intro are untouched.
+- \[U32477\] (3, -6, CW): Plug up the hole nearest B7281 to prevent open world syndrome when the barricade is gone.
 
 0.59
 

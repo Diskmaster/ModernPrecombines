@@ -1662,9 +1662,6 @@ Found duplicates:
 	Removing: [REFR:0008493B] (places DriedGrassCluster04 [STAT:0018C343] in GRUP Cell Temporary Children of WestEverettEstatesExt [CELL:0000DAE8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,10) in Precombined\0000DAE8_5959CED1_OC.nif)
 	Remaining: [REFR:0008493C] (places DriedGrassCluster04 [STAT:0018C343] in GRUP Cell Temporary Children of WestEverettEstatesExt [CELL:0000DAE8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,10) in Precombined\0000DAE8_5959CED1_OC.nif)
 Found duplicates:
-	Removing: [REFR:00098F06] (places PicketFenceB_PW_GateOpen01 [STAT:00125C69] in GRUP Cell Temporary Children of WestEverettEstatesExt [CELL:0000DAE8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,10) in Precombined\0000DAE8_1F475F65_OC.nif)
-	Remaining: [REFR:000981EC] (places PicketFenceB_PW_GateOpen01 [STAT:00125C69] in GRUP Cell Temporary Children of WestEverettEstatesExt [CELL:0000DAE8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,10) in Precombined\0000DAE8_1F475F65_OC.nif)
-Found duplicates:
 	Removing: [REFR:00098F08] (places PicketFenceB_Post01 "Picket Fence Post" [STAT:0005257D] in GRUP Cell Temporary Children of WestEverettEstatesExt [CELL:0000DAE8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,10) in Precombined\0000DAE8_6776F5AC_OC.nif)
 	Remaining: [REFR:00098EFE] (places PicketFenceB_Post01 "Picket Fence Post" [STAT:0005257D] in GRUP Cell Temporary Children of WestEverettEstatesExt [CELL:0000DAE8] (in Commonwealth "Commonwealth" [WRLD:0000003C] at 3,10) in Precombined\0000DAE8_6776F5AC_OC.nif)
 Found duplicates:
