@@ -635,19 +635,13 @@ Coming Soon
 - \[U32328\] Fix 1E7723 clipping through roof.
 - \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
 
-0.57.2
+0.57
 
 - \[PRP\] Fixed missing header forward in previous release.
 - \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
-
-0.57.1
-
 - \[PRP\] Generated MDHT for Nuka World.
 - \[PRP\] Compacted PPF.esm to allow for ESL tagging.
 - \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
-
-~~0.56~~ 0.57
-
 - \[PRP\] Import Flicker Fixer model set, to include in generation.
 
 0.56
@@ -861,16 +855,16 @@ Coming Soon
 - \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
 - \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
 
-0.55.1
+0.55
 
 - \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
 - \[PRP\] WestRoxburyStationExt (-3, -15): Move the Motorcycle01 (1D3AE3) reference here to look more believable than stuck in the ground.
 - \[PRP\] CambridgePDExt02 (-8, 2): UDR'd 190B54, looked like it was overlapping 193670 presumably a development oversight at some point, maybe the original model didn't have windows on that side?
 - ~~\[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12.~~ Merged upstream.
 - \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
-- \[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx
+- ~~\[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx~~ Material fix merged upstream. Revert in 0.60
 
-0.54.26 and earlier.
+0.54 and earlier.
 
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
 - \[PRP\] 16, 12 CW: 1B5509 grounded to fix bad placement that revealed a hole to the water nearby. Shoddy construction.
