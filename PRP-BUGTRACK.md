@@ -74,7 +74,7 @@ Coming Soon
 
 0.60
 
-- \[U32436\] (-9, -4, CW): 23C285 appears to have strangely left under the ground, with the only evidence of it's existence being the top of a hook. Mark for deletion and let UF4OP properly deal with it. Thanks to Marvesly for the report.
+- \[U32436\] ~~(-9, -4, CW): 23C285 appears to have strangely left under the ground, with the only evidence of it's existence being the top of a hook. Mark for deletion and let UF4OP properly deal with it. Thanks to Marvesly for the report.~~ Merged upstream. IPTO will clean it out later.
 - \[U32437\] (1, 1, CW): 15C768 has a missing piece of flooring that's exposed to the ground. Add a pair of DecoLobbyA1x1Cor01 refs to cover this up.
 - \[PRP\] (-1, 0, CW): 13FE52 needs brought forward slightly to prevent z-fighting with neighboring buildings.
 - \[PRP\] (2, -4, CW): 17FD2D needs shifted slightly to make umbra happy.
