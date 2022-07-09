@@ -164,6 +164,8 @@ Coming Soon
 - \[U32477\] (3, -6, CW): Plug up the hole nearest B7281 to prevent open world syndrome when the barricade is gone.
 - \[PRP\] (Vault75): Kill 1802D3 and 18043E
 - \[U24630\] (-24, -24, CW): Fix base reference for 18f40c to be a HitFloorSolidFull01 instead of HitFloorSolidMid01 as per bug. Already fixed in UF4OP, we're just fixing the problem at our level.
+- \[U29291\] (0, 7, NW): Nudge 0601DA78 to hopefully help fix a previs break, might require a collisionmarker.
+- \[U28513\] Migrate bug contents to PPF.
 
 0.59
 
