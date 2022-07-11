@@ -43,6 +43,15 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="FR - Français">
+							<description/>
+							<conditionFlags>
+								<flag name="French">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -573,6 +582,133 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
+		<installStep name="Principaux fichiers + Sac à main compatible">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="French" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Main Files" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PPF">
+							<description>Master Plugin qui inclut tous les correctifs réels. Requis pour un fonctionnement normal.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PPF Selected French">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP">
+							<description>Package Previsibines généré à partir de PPF. Requis pour un fonctionnement normal dans un environnement vanilla.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PRP Selected French">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compat Grabbag" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PRP - Clarity 4.2 Patch">
+							<description>Patch pour la Clarté 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Clarity 4.3 Patch">
+							<description>Patch pour la Clarté 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Diamond City Ambience Patch">
+							<description>Patch pour l'ambiance Diamond City https://www.nexusmods.com/fallout4/mods/39267</description>
+							<image path="Images\Diamond City Ambience.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Fogout Patch">
+							<description>Patch pour Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<image path="Images\Fogout.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Interiors Enhanced Patch">
+							<description>Patch pour les intérieurs amélioré https://www.nexusmods.com/fallout4/mods/8768</description>
+							<image path="Images\Interiors Enhanced.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Region Names Patch">
+							<description>Patch pour voir les noms de région sur vos fichiers de sauvegarde https://www.nexusmods.com/fallout4/mods/41361</description>
+							<image path="Images\Region Names.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Exterior Lighting Patch">
+							<description>Patch pour éclairage extérieur Ultra https://www.nexusmods.com/fallout4/mods/41625</description>
+							<image path="Images\Ultra Exterior Lighting.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch">
+							<description>Patch pour éclairage intérieur Ultra https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+							<description>Patch pour l'éclairage intérieur ultra - Plugin d'ambiance plus sombre https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 French\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
 	</installSteps>
 	<conditionalFileInstalls>
 		<patterns>
@@ -718,6 +854,42 @@
 					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected French" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected French" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected French" value="On"/>
+					<flagDependency flag="PPF Selected French" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
 			</pattern>
 		</patterns>
