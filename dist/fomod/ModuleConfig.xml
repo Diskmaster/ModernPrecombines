@@ -199,16 +199,7 @@
 								<flag name="PPF Selected Spanish">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -218,16 +209,7 @@
 								<flag name="PRP Selected Spanish">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
