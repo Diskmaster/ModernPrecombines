@@ -167,7 +167,7 @@ Coming Soon
 - \[U24630\] (-24, -24, CW): Fix base reference for 18f40c to be a HitFloorSolidFull01 instead of HitFloorSolidMid01 as per bug. Already fixed in UF4OP, we're just fixing the problem at our level.
 - \[U29291\] (0, 7, NW): Nudge 0601DA78 to hopefully help fix a previs break, might require a collisionmarker.
 - \[U28513\] Migrate bug contents to PPF.
-- \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there.
+- \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there. Add 1E819A XLRT to 1C7EE0
 
 0.59
 
