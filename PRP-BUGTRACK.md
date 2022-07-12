@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[U28872\] Mark UDR newly added records that we fixed directly in DmndSecurity01 to mask previs holes in vanilla previs.
 - \[PRP, U24630\] Need to remember to UDR 07306B9E when 2.1.4 is out.
 - \[PRP\] (-3, 6, CW, and other locations): Investigate if Common_DisableMarker / Common_Walls_DisableLayer is actually used by the game.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
@@ -166,6 +167,7 @@ Coming Soon
 - \[U24630\] (-24, -24, CW): Fix base reference for 18f40c to be a HitFloorSolidFull01 instead of HitFloorSolidMid01 as per bug. Already fixed in UF4OP, we're just fixing the problem at our level.
 - \[U29291\] (0, 7, NW): Nudge 0601DA78 to hopefully help fix a previs break, might require a collisionmarker.
 - \[U28513\] Migrate bug contents to PPF.
+- \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there.
 
 0.59
 
@@ -609,11 +611,11 @@ Coming Soon
 - \[PRP\] (5, 4): Did some maintenance work with the pier and road in the area. What a mess. 08000055, 08000056, 08000057
 - \[PRP\] (Vault75): Shift slightly F0433 and neighbors to fix previs generation. 
 - \[PRP\] (Vault95): A lot of alignment work as pointed out by Glitchfinder, also fix multiple incorrect texswaps.
-- \[PRP\] Imported new references from Glitch's Fixes that weren't already pulled from existing UF4OP bug reports, as noted below.
-- \[PRP\] (Vault81): 08000053 and 08000054
-- \[PRP\] (Vault81Secret): 0800002F to 08000052
-- \[PRP\] (DmndSecurity01): 0800002B to 0800002E
-- \[PRP\] (CambridgeMassChemical01): 0800001C to 0800002A
+- \[PRP\] ~~Imported new references from Glitch's Fixes that weren't already pulled from existing UF4OP bug reports, as noted below.~~ 28869, 28872, and 28905, the source UF4OP bugs were merged upstream.
+- ~~\[PRP\] (Vault81Entry): 08000053 and 08000054~~
+- ~~\[PRP\] (Vault81Secret): 0800002F to 08000052~~
+- ~~\[PRP\] (DmndSecurity01): 0800002B to 0800002E~~
+- ~~\[PRP\] (CambridgeMassChemical01): 0800001C to 0800002A~~
 - \[PRP, U32338\] (-6, 1): Add a new DecoRoofATrimBCorCap01 to match the one in the below entry. 08000016
 - \[PRP, U32338\] (-5, 1): Further refinements from VlitS after last night's work on the building. 30146, 3033E, 08000015
 - \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover. 08000014
