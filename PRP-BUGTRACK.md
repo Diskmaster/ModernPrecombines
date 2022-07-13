@@ -619,7 +619,7 @@ Coming Soon
 - ~~\[PRP\] (CambridgeMassChemical01): 0800001C to 0800002A~~
 - \[PRP, U32338\] (-6, 1): Add a new DecoRoofATrimBCorCap01 to match the one in the below entry. 08000016
 - \[PRP, U32338\] (-5, 1): Further refinements from VlitS after last night's work on the building. 30146, 3033E, 08000015
-- \[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover. 08000014
+- ~~\[U32335\] (-5, 1): Plug hole at 304B9 to halt previs strangeness and also fix a development leftover. 08000014~~
 - \[PRP\] (-26, 10): Dedup 00193D1F, 00193D20
 - \[PRP\] (-17, 6): Dedup 001F9A4B
 - \[PRP\] (-20, 5): Dedup 000275FF 
@@ -639,7 +639,7 @@ Coming Soon
 - \[PRP\] (-22, 9): Dedup 0022DBFE, 0022DBFF, 0022DC00, 0022DC01, 0022DC02, 0022DC03, 0022DC04, 0022DC05, 0022DC06, 0022DC07, 0022DC08, 0022DC09, 0022DC0A, 0022DC0B, 0022DC0C, 0022DC0D, 0022DC0E, 0022DC0F, 0022DC10, 0022DC11, 0022DC12
 - \[PRP\] (-21, 9): Dedup 0022DC13, 0022DC14, 0022DC15, 0022DC16, 0022DC17, 0022DC18, 0022DC19, 0022DC1A, 0022DC1B, 0022DC1C, 0022DC1D, 0022DC1E, 0022DC1F
 - \[PRP\] Fix positioning of 68A78 to stop z-fighting. I doubt anyone's going to notice the extra block from where it currently sits.
-- \[U32328\] Fix 1E7723 clipping through roof.
+- ~~\[U32328\] Fix 1E7723 clipping through roof.~~
 - \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
 
 0.57
@@ -661,7 +661,7 @@ Coming Soon
 - Every subrecord deduplicated above was also tagged with the `_Theater_LOD` layer tag, which may alter LOD in the area significantly.
 135A45 is under terrain, also deduplicated.
 1359EE also covered by other references above it and is unreachable.
-23C797 is a duplicate lootbox that UF4OP can also pick up, filed as \[U32314\]
+~~23C797 is a duplicate lootbox that UF4OP can also pick up, filed as \[U32314\]~~
 - \[PRP\] (2, -7): Dedup 0017C016, 00164196, 0023C759, 0023C75A, 0023C75B, 0023C75C, 0023C75D
 - \[PRP\] (-23, 9): Dedup 0009CFA6, 0009CFA4
 - \[PRP\] (-18, 8): Dedup 0020978C
@@ -674,21 +674,21 @@ Coming Soon
 - \[PRP\] (-19, 19): Dedup 0019B3BB
 - \[PRP\] (-22, 19): Dedup 00060BE7
 - \[**U32316**, PRP\] (-19, 16): Dedup **00066F0F**, 000640C4, 0005540C
-- Marked the relevant subrecord bold for the bug.
+- ~~Marked the relevant subrecord bold for the bug.~~ Deletion merged upstream
 - \[PRP\] (-20, 25): Dedup 002255A7
 - \[PRP\] (-23, 25): Dedup 0021DC21, 0021DC22, 0021DC23, 0021DC24, 0021DC25
 - \[PRP\] (-18, 24): Dedup 00090F76
 - \[PRP\] (-14, 6): Dedup 0001DAD1
-- \[U32308\] (-9, 5): Dedup 001978CA
+- ~~\[U32308\] (-9, 5): Dedup 001978CA~~
 - \[PRP\] (-12, 4): Dedup 00058C95, 000EC8E9, 000EC8E8
 - \[PRP\] (-14, 4): Dedup 0015B792
 - \[PRP\] (-14, 3): Dedup 0015A3D3
 - \[PRP\] (-9, 14): Dedup 00224E11, 00224E0C, 00224E0B, 00224E0A, 00224DF4
 - \[PRP\] (-10, 14): Dedup 0006403D
-- \[U32317\] (-16, 14): Dedup 00203AEC
+- ~~\[U32317\] (-16, 14): Dedup 00203AEC~~
 - \[PRP\] (-9, 11): Dedup 0024050A, 0024050B, 0024050C
 - \[PRP\] (-10, 11): Dedup 00191C0C, 000FD4DC, 000DB810
-- \[U32318\] (-9, 10): Dedup 00240594, Remove 000F3BC3
+- \[U32318\] (-9, 10): Dedup 00240594
 - \[PRP\] (-9, 9): Dedup 001019E9
 - \[PRP\] (-10, 9): Dedup 00165580, 00165581, 00165582
 - \[PRP\] (-9, 8): Dedup 000FD17E, 000FD133
@@ -708,8 +708,8 @@ Coming Soon
 - \[PRP\] (-1, 5): Dedup 000BF249, 000BF24A, 000BF24B, 000BF24C, 000BF24F, 000BF250, 000BF251, 000BF252, 000BF253, 000BF254, 000BF255, 000BF256, 000BF257, 000BF25A, 000BF25C, 000BF25D, 000BF25E
 - \[PRP\] (-7, 5): Dedup 00239B59
 - \[PRP\] (-1, 4): Dedup 000D2E28, 000D2E29, 000D2E40, 00163624
-- \[PRP\] (-2, 4): Dedup 000A9537, 00087DE3
-- 87DE3 also filed as U32307
+- \[PRP\] (-2, 4): Dedup 000A9537
+- ~~87DE3 also filed as U32307~~
 - \[PRP\] (-3, 4): Dedup 001C13B8, 000B14E6
 - For B14E6, normally, we leave one instance of the duplicated subrecord, but this specific Bramble02 appears to be under pavement and brick and would otherwise be clipping out. I think this is an instance that can be deleted.
 - \[PRP\] (-5, 4): Dedup 00159FB5
@@ -807,7 +807,7 @@ Coming Soon
 - \[PRP\] (-13, -10): Dedup 00209F53
 - \[PRP\] (-15, -10): Dedup 00205530, 0020552F, 0020552E, 0020552D, 0020552C
 - \[PRP\] (8, 8, FH): Shift 030211AA by -40 z rotation to fix the glass positioning as originally reported at https://www.nexusmods.com/fallout4/mods/40230 and fixed by MrTroubleMaker on the nexus. Thanks for letting me use this fix!
-- \[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.
+- ~~\[U32304\] (-15, -15): Added a new RoadChunk03 to help mask the water leak observed in the area.~~ Merged upstream.
 - \[PRP\] (0, -4): Adjust BldgBrick4Story2x2ResEntA 73473 hopefully to fix a previs issue.
 - \[PRP\] (-11, -11): Dedup 001C4B16
 - \[PRP\] (-13, -14): Dedup 00157CCC
@@ -858,7 +858,7 @@ Coming Soon
 - \[PRP\] ChestnutHillockReservoirExt02 (-8, -6): Deduplicate a Traffic Cone. 14322D
 - \[PRP\] Vault95: Slightly shift a world block to close a void hole near DFF18 (Vault Door)
 - \[U22211\] Fix the rotation of the sign. The UF4OP precombined file contributed is overwritten as part of the process we do for PRP, so for our purposes we just have to rotate the sign.
-- \[U32299\] ScrapPalaceExt04: 1A0CD5 Move armor workbench away from the crates it appears to be shoved inside of.
+- ~~\[U32299\] ScrapPalaceExt04: 1A0CD5 Move armor workbench away from the crates it appears to be shoved inside of.~~ Merged upstream.
 - \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
 - \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
 
@@ -912,7 +912,7 @@ Coming Soon
 - \[U?????\] zVitalePumphouse01: 21A404, 21E06A, 21E06B, 21E06C, 21E06D More UF4OP records.
 - \[U23801\] MedfordMemorial01: 45432 and 45436 countertops got shifted.
 - \[U23460\] MedfordMemorial01: 7DC87 and 20B852 had placement corrected.
-- \[U32315, PRP\] Vault75: 07038FB1 was resulting in a void hole on previsibine generation. Z adjustment needs verified.
+- \[U32315, PRP\] Vault75: 07038FB1 was resulting in a void hole on previsibine generation.
 - \[U23634\] GwinnettBrewery02: AD910 and AD911 moved to correctly stick to a wall.
 - \[PRP\] UniversityPoint01: 87A62 the chair got moved to not be floating awkwardly.
 - \[U?????\] CambridgeCollegeAdminBuilding: 21548A was moved by UF4OP
