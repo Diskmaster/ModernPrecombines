@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[U31719\] SWCurbCurve03b.nif needs geometry corrected to properly fix that bug.
 - \[U28872\] Mark UDR newly added records that we fixed directly in DmndSecurity01 to mask previs holes in vanilla previs.
 - \[PRP, U24630\] Need to remember to UDR 07306B9E when 2.1.4 is out.
 - \[PRP\] (-3, 6, CW, and other locations): Investigate if Common_DisableMarker / Common_Walls_DisableLayer is actually used by the game.
@@ -41,7 +42,6 @@ Current known issues:
 - \[PRP\] Croup Manor 2F ref https://www.youtube.com/watch?v=qJAYTCSn7y8
 - \[PRP\] **High Priority** Once the new stable is set, rebuild ALL patches against it.
 - \[PRP\] Vault114: Third floor railing occlusion is broken \(haven't figured out a good way to fix, tried all the usual methods\)
-- \[U31719\] \[-8, 0\] Commonwealth: 16002F and 16002A missing side of SCOL mesh \(sidewalk\), held pending investigation to model welding.
 - \[PRP\] \[3, -3\] Commonwealth: 187B42/187BCB (Base 187C44) has no collision.
 - \[PRP\] \[3, -3\] Commonwealth: 973F7 cannot be seen from a certain distance.
 - \[PRP\] Crane in Mass Fusion Roof occlusion issue? (Unconfirmed)
@@ -168,6 +168,7 @@ Coming Soon
 - \[U29291\] (0, 7, NW): Nudge 0601DA78 to hopefully help fix a previs break, might require a collisionmarker.
 - \[U28513\] Migrate bug contents to PPF.
 - \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there. Add 1E819A XLRT to 1C7EE0
+- \[PRP, U31719\] (-8, 0, CW): 16002F and 16002A missing side of SCOL mesh \(sidewalk\), break them and delete the relevant sidewalk pieces. One left side isn't even visible, and the two right side ones need some welding or model work to make them useable without glaring visual issues.
 
 0.59
 
@@ -607,7 +608,7 @@ Coming Soon
 - \[PRP\] (0, -6, NWA): Dedup 06053443
 - \[PRP\] (-1, -5, NWA): Dedup 060532D7
 - \[PRP\] (0, -5, NWM): Dedup 06054B1D, 06054B91, 06054ED6, 06054F12, 060558D7
-- \[PRP\] (21, 19): Fixed up the poles and threw down additional tile nearest 000bd4a6, 08000058
+- \[PRP, U32521, U32507\] (21, 19): Fixed up the poles and threw down additional tile nearest 000bd4a6, 08000058
 - \[PRP\] (5, 4): Did some maintenance work with the pier and road in the area. What a mess. 08000055, 08000056, 08000057
 - \[PRP\] (Vault75): Shift slightly F0433 and neighbors to fix previs generation. 
 - \[PRP\] (Vault95): A lot of alignment work as pointed out by Glitchfinder, also fix multiple incorrect texswaps.
@@ -874,7 +875,7 @@ Coming Soon
 
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
 - \[PRP\] 16, 12 CW: 1B5509 grounded to fix bad placement that revealed a hole to the water nearby. Shoddy construction.
-- \[U31795, PRP\] 12, 20 CW: 91591 ~~needed raised above the sidewalk, shifted to work around navmesh in the area, positioning might need tuning.~~ Marked UDR for now, pending better positioning work else occlusion issues with nearby bush.
+- ~~\[U31795, PRP\] 12, 20 CW: 91591 needed raised above the sidewalk, shifted to work around navmesh in the area, positioning might need tuning.~~ Fixed in UF4OP 2.1.4 proper.
 - \[PRP\] -5, -5 CW: 1914F and 11308B were lowered to cover up a hole in the foundation from bad building placement.
 - \[PRP\] -1, -7 CW: 1463AE, 1906DB, 190777, 2479FD, 2479FE dedup.
 - \[PRP\] -5, -7 CW: 115653, 1ACA05 dedup.
@@ -929,7 +930,7 @@ Coming Soon
 - \[PRP\] TiconderogaStation01: 3A2F6 Remove the Kitchen door blocking goodies.
 - \[PRP\] TiconderogaStation01: 1A90A9 Fix wall placement.
 - \[PRP\] 7, 5 CW 23A73A, 23A73C Put a pair of dead fish back in the water.
-- \[U31732, PRP\] 4, 1 CW Remove No LOD Water from cell.
+- ~~\[U31732, PRP\] 4, 1 CW Remove No LOD Water from cell.~~ Merged upstream.
 - \[PRP\] 0,1 CW 1A32E3 (Historically in BostonFPSFix and reported by another user) Disable Test Occlusion Box in this cell.
 - \[U23817\] 4, 14 CW 1E6A90 Moved a rubble pile.
 - \[U24712\] 2, 9 CW 1138E2 Moved a fire extinguisher holder more closely to the wall
