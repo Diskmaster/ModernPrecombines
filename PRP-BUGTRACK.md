@@ -76,14 +76,14 @@ Coming Soon
 0.60
 
 - \[U32436\] ~~(-9, -4, CW): 23C285 appears to have strangely left under the ground, with the only evidence of it's existence being the top of a hook. Mark for deletion and let UF4OP properly deal with it. Thanks to Marvesly for the report.~~ Merged upstream. IPTO will clean it out later.
-- \[U32437\] (1, 1, CW): 15C768 has a missing piece of flooring that's exposed to the ground. Add a pair of DecoLobbyA1x1Cor01 refs to cover this up.
+- ~~\[U32437\] (1, 1, CW): 15C768 has a missing piece of flooring that's exposed to the ground. Add a pair of DecoLobbyA1x1Cor01 refs to cover this up.~~
 - \[PRP\] (-1, 0, CW): 13FE52 needs brought forward slightly to prevent z-fighting with neighboring buildings.
 - \[PRP\] (2, -4, CW): 17FD2D needs shifted slightly to make umbra happy.
 - \[PRP\] (-17, -12, CW): 14F9B7 got fragmented and two of the trees that were floating were grounded.
 - \[PRP\] (-21, -1, CW): 1A5BE0 needed raised up to not be embedded in the mattress it was previously on.
 - \[PRP\] (-3, 21, CW): A7D63 needs lowered to prevent floating tree disorder.
 - \[PRP\] (-6, 8, CW): 1F804B marked for deletion, as there's no reason to have a stain texture apply to the air.
-- \[U32438\] (3, -2, CW): Add a BldgBrick1Story1x1Mid01 to prevent a fall through a big hole that you can't get out of scenario, nearest 163AE0
+- ~~\[U32438\] (3, -2, CW): Add a BldgBrick1Story1x1Mid01 to prevent a fall through a big hole that you can't get out of scenario, nearest 163AE0~~
 - \[PRP\] (-24, 6, CW): 2773D needs nudged so it's not obviously showing it's missing sides.
 - \[U32439\] (-17, 10, CW): 199CC4 got shifted around so the skeleton's hand wasn't clipping through the boat. Placement may need redone.
 - \[PRP\] (-15, 18, CW): 22AFC needs shoved back to make the front part of the porch more believeable and not having a decent sized hole one can see through, also move 22B05 nearby as well.
@@ -172,7 +172,7 @@ Coming Soon
 
 0.59
 
-- \[U32372\] (-24, -1, CW): Add a brand new pallet to cover up a nasty looking landscape crack at 1.5x size. PRP ID 0800002B (Please note, records were compacted, and new records listed before this point are probably wrong.)
+- ~~\[U32372\] (-24, -1, CW): Add a brand new pallet to cover up a nasty looking landscape crack at 1.5x size. PRP ID 0800002B (Please note, records were compacted, and new records listed before this point are probably wrong.)~~
 - \[PRP\] (6, 13, FH): Reported visibility break in the area, fix pending.
 - \[U32369\] (0, 9, NW): Move 06047DB1 AND 0604D493 so that they aren't floating. Upstreamable.
 - \[PRP\] (Financial28): Slightly shift 13C9A8 to make umbra happy. This desk was previously moved by UF4OP. Reminder to self to upstream if confirmed working.
@@ -456,7 +456,7 @@ Coming Soon
 - \[PRP\] (0, 2, NW): Dedup 06017EB6
 - \[PRP\] (0, 1, NW): Dedup 0605432C
 - \[PRP\] (PrewarVault111): Adapt the Vault 111 Floor Guide Fix (https://www.nexusmods.com/fallout4/mods/28167), except actually fix the problem instead of overlaying another version of the floor guide on top. CA5CF, CA5E9, CA67C, CA5E8
-- \[U32352\] (GeneralAtomicsFactory01): Tag doors 999E2 and 999E4 Inaccessible to prevent a "into the void" type situation. Also move A5420 to make it easier to interact with (conflict with grass occlusion). 213240, 213242, 213244, 213247, 213241, 2133E0, 21345E, 213457 need adjusted for previs float point bug prevention. Tune 2134D8, 2134DF, 213389, 19C80A, 10844B to stop z-fighting. Also fix 99C19 z pos.
+- \[U32352\] (GeneralAtomicsFactory01): ~~Tag doors 999E2 and 999E4 Inaccessible to prevent a "into the void" type situation.~~ Also move A5420 to make it easier to interact with (conflict with grass occlusion). 213240, 213242, 213244, 213247, 213241, 2133E0, 21345E, 213457 need adjusted for previs float point bug prevention. Tune 2134D8, 2134DF, 213389, 19C80A, 10844B to stop z-fighting. Also fix 99C19 z pos.
 - \[PRP\] (7, 15, NW): Dedup 0603E9C1
 - \[PRP\] (7, 13, NW): Dedup 060269B5
 - \[PRP\] (7, 11, NW): Dedup 06025E68
@@ -511,26 +511,26 @@ Coming Soon
 - \[PRP\] (-16, 3, NW): Dedup 060386E8
 - \[PRP\] (-10, 9, NW): Dedup 0603C42D
 -- Bugs filed for this sprint: U32341 to U32351
-- \[PRP\] (-1, 7, NW): Dedup 06017D29
+- ~~\[PRP\] (-1, 7, NW): Dedup 06017D29~~
 - \[PRP\] (-1, 6, NW): Dedup 06015913, 06017AA8, 06017AA9
-- \[PRP\] (-1, 4, NW): Dedup 06015677, 06015853, 060159CC, 06017B81, 060241D9
+- \[PRP\] (-1, 4, NW): Dedup 06015677, 06015853, 060159CC, 06017B81, ~~060241D9~~
 - \[PRP\] (-1, 3, NW): Dedup 06015862, 06015868, 0601586C, 06015A1F
 - \[PRP\] (-1, 2, NW): Dedup 06032D70
 - \[PRP\] (-1, 1, NW): Dedup 060144E6, 060540EF
-- \[PRP\] (-2, 7, NW): Dedup 0601BE84, 0601BEFA, 0602441F
+- \[PRP\] (-2, 7, NW): Dedup 0601BE84, 0601BEFA, ~~0602441F~~
 - \[PRP\] (-2, 6, NW): Dedup 06016D43
-- \[PRP\] (-2, 5, NW): Dedup 060241B2
+- ~~\[PRP\] (-2, 5, NW): Dedup 060241B2~~
 - \[PRP\] (-2, 4, NW): Dedup 06047D2A
-- \[PRP\] (-2, 0, NW): Dedup 06033584
+- ~~\[PRP\] (-2, 0, NW): Dedup 06033584~~
 - \[PRP\] (-3, 7, NW): Dedup 06015D87, 06015DB8, 06015E01
-- \[PRP\] (-3, 0, NW): Dedup 0603518A, 0603B8F2
+- \[PRP\] (-3, 0, NW): Dedup ~~0603518A~~, 0603B8F2
 - \[PRP\] (-4, 7, NW): Dedup 06017034
 - \[PRP\] (-4, 6, NW): Dedup 06024410
 - \[PRP\] (-4, 3, NW): Dedup 060449DD
 - \[PRP\] (-4, 0, NW): Dedup 0603ACA4, 0604BF62
 - \[PRP\] (-5, 1, NW): Dedup 0603B039
 - \[PRP\] (-5, 0, NW): Dedup 060129A0
-- \[PRP\] (-6, 3, NW): Dedup 0603794F
+- ~~\[PRP\] (-6, 3, NW): Dedup 0603794F~~
 - \[PRP\] (-6, 0, NW): Dedup 06040EFB, 060415FA
 - \[PRP\] (-7, 0, NW): Dedup 06036E98
 - \[PRP\] (-1, 13, NW): Dedup 0603DD1F
@@ -542,11 +542,11 @@ Coming Soon
 - \[PRP\] (-3, 9, NW): Dedup 0602C210
 - \[PRP\] (-3, 8, NW): Dedup 0601DAD2
 - \[PRP\] (-4, 8, NW): Dedup 0601DAD4
-- \[PRP\] (-9, -9, NW): Dedup 0601F3BC, 0601FD8F
+- \[PRP\] (-9, -9, NW): Dedup ~~0601F3BC~~, 0601FD8F
 - \[PRP\] (-9, -10, NW): Dedup 0601FD5F, 0601FD60, 0601FD61
 - \[PRP\] (-9, -12, NW): Dedup 0601F3C6
 - \[PRP\] (-10, -10, NW): Dedup 0601DE31
-- \[PRP\] (-11, -9, NW): Dedup 0601DDB6
+- ~~\[PRP\] (-11, -9, NW): Dedup 0601DDB6~~
 - \[PRP\] (-11, -10, NW): Dedup 0601DDE1
 - \[PRP\] (-16, -13, NW): Dedup 0604FEBE
 - \[PRP\] (-9, -4, NW): Dedup 0601CA34
@@ -554,36 +554,36 @@ Coming Soon
 - \[PRP\] (-9, -7, NW): Dedup 060112FA
 - \[PRP\] (-9, -8, NW): Dedup 0601E930
 - \[PRP\] (-10, -6, NW): Dedup 0601C9C8
-- \[PRP\] (-10, -8, NW): Dedup 0601E8E8
+- ~~\[PRP\] (-10, -8, NW): Dedup 0601E8E8~~
 - \[PRP\] (-11, -8, NW): Dedup 0601DDAE
 - \[PRP\] (-13, -1, NW): Dedup 0601ABCA, 0601ABCC
 - \[PRP\] (-15, -1, NW): Dedup 0602CF3A, 0602CF3A
 - \[PRP\] (-5, -19, NW): Dedup 0604FF9B
 - \[PRP\] (-1, -10, NW): Dedup 06020AEE
-- \[PRP\] (-1, -11, NW): Dedup 06020AE9
+- ~~\[PRP\] (-1, -11, NW): Dedup 06020AE9~~
 - \[PRP\] (-3, -13, NW): Dedup 0603B80B
 - \[PRP\] (-4, -11, NW): Dedup 06013165
 - \[PRP\] (-5, -9, NW): Dedup 0601F2F6, 0601CD80
 - \[PRP\] (-5, -10, NW): Dedup 0602004E
 - \[PRP\] (-5, -11, NW): Dedup 06013160
 - \[PRP\] (-6, -14, NW): Dedup 0603B77B
-- \[PRP\] (-7, -10, NW): Dedup 0601FE8D
+- ~~\[PRP\] (-7, -10, NW): Dedup 0601FE8D~~
 - \[PRP\] (-7, -16, NW): Dedup 0604FFC3
 - \[PRP\] (-8, -9, NW): Dedup 0601FD88
 - \[PRP\] (-8, -16, NW): Dedup 0604FFC1
-- \[PRP\] (-1, -1, NW): Dedup 06042B99
-- \[PRP\] (-1, -2, NW): Dedup 0604062F, 060429E0, 06042BB1
+- ~~\[PRP\] (-1, -1, NW): Dedup 06042B99~~
+- \[PRP\] (-1, -2, NW): Dedup 0604062F, ~~060429E0, 06042BB1~~
 - \[PRP\] (-1, -3, NW): Dedup 06041382, 0605077C, 0605077C, 06055C2B
 - \[PRP\] (-1, -4, NW): Dedup 060235E0, 060281F1
 - \[PRP\] (-1, -5, NW): Dedup 0602D2B9
 - \[PRP\] (-1, -6, NW): Dedup 0600BE62, 0600BE5C, 0600BE5B, 0600BE5A, 0600BE63, 0600BE60, 0600BE5F, 0600BE5E, 0600BE59, 0600BE58, 0600BE61, 0600BE5D, 0600BE57, 06028392
 -- Note on the first 12, already fairly underground, probably tagged by Beth for removal at some point.
-- \[PRP\] (-2, -1, NW): Dedup 060351B2
+- ~~\[PRP\] (-2, -1, NW): Dedup 060351B2~~
 - \[PRP\] (-2, -2, NW): Dedup 06028030, 0602805D, 0602805C
 -- Last two were under ground.
 - \[PRP\] (-2, -4, NW): Dedup 060282A9
 - \[PRP\] (-2, -6, NW): Dedup 0602837C, 0602837D, 0602837F, 06028382, 06028383, 06028384, 06028386, 06028387, 0602838D, 0602838E
-- \[PRP\] (-2, -7, NW): Dedup 06028393
+- ~~\[PRP\] (-2, -7, NW): Dedup 06028393~~
 - \[PRP\] (-3, -1, NW): Dedup 06035D71, 06049617
 - \[PRP\] (-3, -3, NW): Dedup 060280DE
 - \[PRP\] (-3, -4, NW): Dedup 060282C0, 060282CB, 060282D3, 060282D9
@@ -602,7 +602,7 @@ Coming Soon
 - \[PRP\] (-6, -8, NW): Dedup 0603B4F6
 - \[PRP\] (-7, -3, NW): Dedup 06029D3F
 - \[PRP\] (-8, -4, NW): Dedup 0601422D, 0601CACE
-- \[PRP\] (-8, -5, NW): Dedup 0601CAB8, 0601CAD3
+- \[PRP\] (-8, -5, NW): Dedup ~~0601CAB8~~, 0601CAD3
 - \[PRP\] (-8, -7, NW): Dedup 06043338
 - \[PRP\] (0, -5, NWA): Dedup 06052A56
 - \[PRP\] (0, -6, NWA): Dedup 06053443
