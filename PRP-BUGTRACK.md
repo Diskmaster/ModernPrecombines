@@ -160,9 +160,9 @@ Coming Soon
 - \[PRP\] (0, 0, DC): Remove EnableParent on 1347.
 - \[PRP\] (x, x, CW): 1BF97E and 1BF97D needs pulled forward to fix a building hole.
 - \[PRP\] (-16, 10, CW): 893D3 got moved to the plateau nearby to stop the branches from outright floating.
-- \[U32472\] (0, 4, CW): A9416 and A9411 has a rather visible seam.
+- ~~\[U32472\] (0, 4, CW): A9416 and A9411 has a rather visible seam.~~
 - \[PRP\] (3, 10, CW): Dedup 98F06, create and apply texswap to 981EC, ~~copied textures are the same as base game intentionally.~~ Texture replacement artists should look at and create replacements that fit the style with the filename set of PaintedWoodWhiteDirty01 in the Textures/SetDressing/Fences directory. The versions in the game intro are untouched. pointythunder654 has contributed a set of textures to fix this issue for our side.
-- \[U32477\] (3, -6, CW): Plug up the hole nearest B7281 to prevent open world syndrome when the barricade is gone.
+- ~~\[U32477\] (3, -6, CW): Plug up the hole nearest B7281 to prevent open world syndrome when the barricade is gone.~~
 - \[PRP\] (Vault75): Kill 1802D3 and 18043E
 - \[U24630\] (-24, -24, CW): Fix base reference for 18f40c to be a HitFloorSolidFull01 instead of HitFloorSolidMid01 as per bug. Already fixed in UF4OP, we're just fixing the problem at our level.
 - \[U29291\] (0, 7, NW): Nudge 0601DA78 to hopefully help fix a previs break, might require a collisionmarker.
@@ -608,7 +608,7 @@ Coming Soon
 - \[PRP\] (0, -6, NWA): Dedup 06053443
 - \[PRP\] (-1, -5, NWA): Dedup 060532D7
 - \[PRP\] (0, -5, NWM): Dedup 06054B1D, 06054B91, 06054ED6, 06054F12, 060558D7
-- \[PRP, U32521, U32507\] (21, 19): Fixed up the poles and threw down additional tile nearest 000bd4a6, 08000058
+- \[PRP, U32521, U32507\] (21, 19): Fixed up the poles and threw down additional tile nearest 000bd4a6, ~~08000058~~
 - \[PRP\] (5, 4): Did some maintenance work with the pier and road in the area. What a mess. 08000055, 08000056, 08000057
 - \[PRP\] (Vault75): Shift slightly F0433 and neighbors to fix previs generation. 
 - \[PRP\] (Vault95): A lot of alignment work as pointed out by Glitchfinder, also fix multiple incorrect texswaps.
