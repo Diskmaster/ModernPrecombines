@@ -15,6 +15,8 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP-UF4OP2_1_4\] Verify the following areas: DmndSecurity01, 
+- \[Import\] Merge https://www.nexusmods.com/fallout4/mods/58671
 - \[U31719\] SWCurbCurve03b.nif needs geometry corrected to properly fix that bug.
 - \[U28872\] Mark UDR newly added records that we fixed directly in DmndSecurity01 to mask previs holes in vanilla previs.
 - \[PRP, U24630\] Need to remember to UDR 07306B9E when 2.1.4 is out.
@@ -122,8 +124,8 @@ Coming Soon
   - Adjust positioning of 180424, C0E81, 18043D, 18049E, 180487, FCBC7, 214659, 214676, 214677, 214678, 214686, 2146C1, 2146D5, 2146D6, 2146D7, 2146D8, 2146DC, 2146DF, C282E, C2823, C29A6, C29A7 to fix various z-fighting and positing issues. 180395's placement needs verified.
   - Delete C299B, C21CB, C2316
   - Dedup 214804, 1E34D9, 1E33E8, 1AE4C5, 1AB90A, 19B809, 19B7EE
-- \[U32442\] (Vault75): Rip 1AAFCB out of the wall and out of the way nearby on top of a pile of trash.
-- \[U32443\] (Vault75): Add Painting_CanvasSwapToPainting24 texswap to 1A5DEB
+- ~~\[U32442\] (Vault75): Rip 1AAFCB out of the wall and out of the way nearby on top of a pile of trash.~~
+- ~~\[U32443\] (Vault75): Add Painting_CanvasSwapToPainting24 texswap to 1A5DEB~~
 - \[PRP\] (Financial28): Move 1FE506, 1FE508, 1F34F5, 1FE4F6 to fix z-fighting
 - \[PRP\] (Financial28): Remove a ClutterGenSlimeA that we presume was originally supposed to be attached to a desk. 2259F1
 - \[PRP\] (SouthBostonPoliceDepartment01): Adjust 225E0E to fix z-fighting
@@ -226,7 +228,7 @@ Coming Soon
 - \[PRP\] (11, -2, CW): Dedup 001907E7, 001BD4DF, 001BD4E0, 001BD4E2, 001BD4E3
 - \[PRP\] (8, -2, CW): Dedup 001F23D4, 001E8806
 - \[PRP\] (13, -3, CW): Dedup 002457B0
-- \[PRP\] (12, -3, CW): Dedup 001907E9, 001907EA, 001BBCAC, 001BBCAD, 001BE548, 001BE549, 002456C3, 00247A6E, 00247A6F, 00247A70, 00247A71, 00247A72, 00247A73, 00247A74, 00247A75, 00247A76, 00247A77, 00247A78, 00247A7A, 00247A7B, 00247A7C, 00247A7D, 00247A7E
+- \[PRP\] (12, -3, CW): Dedup 001907E9, 001907EA, 001BBCAC, 001BBCAD, 001BE548, 001BE549, 002456C3, 00247A6E, 00247A6F, 00247A70, ~~00247A71~~, 00247A72, 00247A73, 00247A74, 00247A75, 00247A76, 00247A77, 00247A78, 00247A7A, 00247A7B, 00247A7C, 00247A7D, 00247A7E
 - \[PRP\] (11, -3, CW): Dedup 002259D0, 002259D1
 - \[PRP\] (8, -3, CW): Dedup 001F23E5, 001C2362, 001E6F9C
 - \[PRP\] (8, -4, CW): Dedup 001F2498, 001EEEC2, 001C2336, 001C22E1
@@ -975,7 +977,7 @@ Coming Soon
 - \[PRP\] -2, -11 CW 129105 Moved a grass blob.
 - ~~\[U31658, PRP\] -2. -15 CW 08000001 Add new SWCurb8x1Str01 to cap off a hole.~~ Merged Upstream
 - \[U31657\] -5, -1 CW Getting monotonous, isn't it? Another DLCNukaWorld cell clobber.
-- \[U28903\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, thanks to Glitchfinder for this one.
+- ~~\[U28903\] -2, -2; -4, -2 CW 08000002/03/04/05 Implemented a pair of contributed trash cover ups in these cells, thanks to Glitchfinder for this one.~~
 - \[U22977\] -2, -4 CW 23B2C2 Move a trash decal here.
 - \[U28424\] -5, -6 CW 90AD4 Fix rotation and placement for light fixture so it's not embedded in the wall.
 - \[U28185\] 1, 7 FH 305DA94 Move the Leaf Pile nearby so it's not floating in the air.
