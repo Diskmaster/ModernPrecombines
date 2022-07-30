@@ -890,7 +890,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>（未汉化）补丁 - Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+							<description>补丁 - Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
 							<image path="Images\Diamond City Ambience.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
@@ -900,7 +900,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Fogout Patch">
-							<description>（未汉化）补丁 - Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<description>补丁 - Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
 							<image path="Images\Fogout.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
@@ -910,7 +910,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>（未汉化）补丁 - Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+							<description>补丁 - Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
 							<image path="Images\Interiors Enhanced.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
@@ -920,7 +920,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Region Names Patch">
-							<description>（未汉化）补丁 - See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+							<description>补丁 - See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
 							<image path="Images\Region Names.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
@@ -930,7 +930,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>（未汉化）补丁 - Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+							<description>补丁 - Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
 							<image path="Images\Ultra Exterior Lighting.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
@@ -940,7 +940,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>（未汉化）补丁 - Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+							<description>补丁 - Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
 							<image path="Images\Ultra Interior Lighting.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
@@ -950,7 +950,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>（未汉化）补丁 - Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+							<description>补丁 - Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
 							<image path="Images\Ultra Interior Lighting.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>

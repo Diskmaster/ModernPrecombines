@@ -29,13 +29,13 @@
       <EDID>NpcBedVaultBunkLay01Invisible</EDID>
       <REC>FURN:FULL</REC>
       <Source>Bed</Source>
-      <Dest>Bed</Dest>
+      <Dest>床</Dest>
     </String>
     <String List="0">
       <EDID>NpcBedVaultLay01Invisible</EDID>
       <REC>FURN:FULL</REC>
       <Source>Bed</Source>
-      <Dest>Bed</Dest>
+      <Dest>床</Dest>
     </String>
     <String List="0">
       <EDID>PrewarVault111</EDID>
