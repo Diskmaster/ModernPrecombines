@@ -61,6 +61,15 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="ZHCN - 简体中文">
+							<description/>
+							<conditionFlags>
+								<flag name="SChinese">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -827,6 +836,133 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
+		<installStep name="主文件 + 兼容补丁">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="SChinese" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="主文件" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PPF">
+							<description>主插件，包含所有实际修复。正常运行所需。</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PPF Selected SChinese">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP">
+							<description>从PPF构建生成的Previsibines包。原版环境下正常运行所需。</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PRP Selected SChinese">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compat Grabbag" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PRP - Clarity 4.2 Patch">
+							<description>补丁 - Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Clarity 4.3 Patch">
+							<description>补丁 - Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Diamond City Ambience Patch">
+							<description>（未汉化）补丁 - Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+							<image path="Images\Diamond City Ambience.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Fogout Patch">
+							<description>（未汉化）补丁 - Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<image path="Images\Fogout.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Interiors Enhanced Patch">
+							<description>（未汉化）补丁 - Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+							<image path="Images\Interiors Enhanced.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Region Names Patch">
+							<description>（未汉化）补丁 - See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+							<image path="Images\Region Names.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Exterior Lighting Patch">
+							<description>（未汉化）补丁 - Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+							<image path="Images\Ultra Exterior Lighting.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch">
+							<description>（未汉化）补丁 - Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+							<description>（未汉化）补丁 - Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 SChinese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
 	</installSteps>
 	<conditionalFileInstalls>
 		<patterns>
@@ -1044,6 +1180,42 @@
 					<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Polish\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected SChinese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected SChinese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected SChinese" value="On"/>
+					<flagDependency flag="PPF Selected SChinese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
 			</pattern>
 		</patterns>
