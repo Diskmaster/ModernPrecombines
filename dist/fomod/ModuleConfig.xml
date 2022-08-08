@@ -344,7 +344,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
+							<description>Parche para JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
 							<image path="Images\JSRS.jpg"/>
 							<files>
 								<file source="01 Spanish\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
@@ -481,7 +481,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
+							<description>Patch per JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
 							<image path="Images\JSRS.jpg"/>
 							<files>
 								<file source="01 Italian\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
@@ -618,7 +618,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
+							<description>Patch para o mod JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
 							<image path="Images\JSRS.jpg"/>
 							<files>
 								<file source="01 Portuguese\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
@@ -755,7 +755,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
+							<description>Patch pour JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
 							<image path="Images\JSRS.jpg"/>
 							<files>
 								<file source="01 French\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
@@ -1029,7 +1029,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
+							<description>补丁 - JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
 							<image path="Images\JSRS.jpg"/>
 							<files>
 								<file source="01 SChinese\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
