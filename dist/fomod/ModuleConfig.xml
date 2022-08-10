@@ -936,7 +936,7 @@
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="兼容补丁" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="PRP - Clarity 4.2 Patch">
 							<description>补丁 - Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
