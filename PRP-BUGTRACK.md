@@ -74,7 +74,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.61
 
-- \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Tune 1E340B, 221215, 1A8BA8 (reapply in this case, leftover from the UF4OP update) Z pos to appease umbra.
+- \[
+- \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Apply 1E340B, 221215, 1A8BA8 XLRT for previs exclude.
 
 0.60
 
