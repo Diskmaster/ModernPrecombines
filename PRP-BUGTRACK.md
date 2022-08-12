@@ -74,7 +74,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.61
 
-- \[
+- \[U32571\] (-8, 9): Add a new DecoManBDam1x1WallTrimBtm02 to mask a small hole due to nearby building meshes being relatively one sided. Placement is not the best.
 - \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Apply 1E340B, 221215, 1A8BA8 XLRT for previs exclude.
 
 0.60
