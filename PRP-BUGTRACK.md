@@ -15,12 +15,12 @@ Current planned changes:
 
 Current known issues:
 
-- \[PRP\] Vault75 needs some more work to plug previs holes.
+- \[PRP\] https://discord.com/channels/830436661736243230/954847055824687215/1008908652758974575
+- ~~\[PRP\] Vault75 needs some more work to plug previs holes.~~ Done, but needs checked.
 - \[PRP-UF4OP2_1_4\] Verify the following areas: DmndSecurity01
 - \[Import\] Merge https://www.nexusmods.com/fallout4/mods/58671
 - \[U31719\] SWCurbCurve03b.nif needs geometry corrected to properly fix that bug.
 - \[U28872\] Mark UDR newly added records that we fixed directly in DmndSecurity01 to mask previs holes in vanilla previs.
-- \[PRP, U24630\] Need to remember to UDR 07306B9E when 2.1.4 is out.
 - \[PRP\] (-3, 6, CW, and other locations): Investigate if Common_DisableMarker / Common_Walls_DisableLayer is actually used by the game.
 - \[PRP\] Base mesh EA905 (MetalRoofC1x2WallCover01Full01) is missing polygons on the external side (allowing view inside, can't be fixed without mesh editing)
 - \[PRP\] Review 1E33A0 and 1E33A1 for previs issues.
@@ -72,8 +72,10 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
-0.61
+0.62
 
+- \[PRP\] Remove the five leftover FullLOD entries that were mistakenly copied over from UF4OP in the update migration to 2.1.4. The deletes were intentional. Not removing these could adversely affect LOD generation.
+- \[U32582\] (GlowingSeaPOIDB05Int): Tune position of 1F41E1. It's not set up very well to be looted.
 - \[U32572, FCF, PRP\] (7, -4): Swap 6662E door entry for static version. That door isn't going anywhere, and should not be interactable.
 - \[U32571\] (-8, 9): Add a new DecoManBDam1x1WallTrimBtm02 to mask a small hole due to nearby building meshes being relatively one sided. Placement is not the best.
 - \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Apply 1E340B, 221215, 1A8BA8 XLRT for previs exclude.
