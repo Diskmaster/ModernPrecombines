@@ -74,6 +74,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.62
 
+- \[~~U32322~~, U32590, PRP\] Create a new texswap to correctly address the debris hole issue and tag references as needed. So far, only a few nearest -10, 15, CW need it. More will probably show up at some point. Refs 1D0AE3, 1D0B36, 1D0B46
 - \[PRP\] Remove the five leftover FullLOD entries that were mistakenly copied over from UF4OP in the update migration to 2.1.4. The deletes were intentional. Not removing these could adversely affect LOD generation.
 - \[U32582\] (GlowingSeaPOIDB05Int): Tune position of 1F41E1. It's not set up very well to be looted.
 - \[U32572, FCF, PRP\] (7, -4): Swap 6662E door entry for static version. That door isn't going anywhere, and should not be interactable.
