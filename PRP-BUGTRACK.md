@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] Architecture\Buildings\Hightech\Skin\HitExtABaseCornerA01.nif has badly done collision 
 - \[PRP\] https://discord.com/channels/830436661736243230/954847055824687215/1008908652758974575
 - ~~\[PRP\] Vault75 needs some more work to plug previs holes.~~ Done, but needs checked.
 - \[PRP-UF4OP2_1_4\] Verify the following areas: DmndSecurity01
@@ -74,15 +75,15 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.62
 
+- \[PRP\] (-6, 2, CW) Tune 1BA193, 1BA194, 97A6C, 1BA17A, 1BA183 positions to fix wall seams.
+- \[PRP\] (BeaconHillBostonBugle) Fix x rotation on 22C378 to make it look correct.
+- \[PRP\] (tbd) 176BE3, 176BE1, 176BE0 round Z pos to make Umbra happy.
 - \[~~U32322~~, U32590, PRP\] Create a new texswap to correctly address the debris hole issue and tag references as needed. So far, only a few nearest -10, 15, CW need it. More will probably show up at some point. Refs 1D0AE3, 1D0B36, 1D0B46
 - \[PRP\] Remove the five leftover FullLOD entries that were mistakenly copied over from UF4OP in the update migration to 2.1.4. The deletes were intentional. Not removing these could adversely affect LOD generation.
 - \[U32582\] (GlowingSeaPOIDB05Int): Tune position of 1F41E1. It's not set up very well to be looted.
 - \[U32572, FCF, PRP\] (7, -4): Swap 6662E door entry for static version. That door isn't going anywhere, and should not be interactable.
 - \[U32571\] (-8, 9): Add a new DecoManBDam1x1WallTrimBtm02 to mask a small hole due to nearby building meshes being relatively one sided. Placement is not the best.
 - \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Apply 1E340B, 221215, 1A8BA8 XLRT for previs exclude.
-
-0.60
-
 - \[U23169\] Backport post-UF4OP 2.1.4 fix for the bugfix so that the helper border meshes are initially disabled by default.
 - \[U32436\] ~~(-9, -4, CW): 23C285 appears to have strangely left under the ground, with the only evidence of it's existence being the top of a hook. Mark for deletion and let UF4OP properly deal with it. Thanks to Marvesly for the report.~~ Merged upstream. IPTO will clean it out later.
 - ~~\[U32437\] (1, 1, CW): 15C768 has a missing piece of flooring that's exposed to the ground. Add a pair of DecoLobbyA1x1Cor01 refs to cover this up.~~
@@ -200,9 +201,6 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (DLC01FortHagenSatelliteArray01): Round up all values for all seven Crates that were previously touched in PPF to fix the same holes that have been plaguing previs since forever.
 - \[PRP\] (Vault75): ~~Fix 1A8BA8 Z pos in the same way as the UF4OP replacement to see if it finally fixes the previs hole. That's probably what's really going on here. If so, UF4OP's fix should be UDR'd. As of current dev, 07038FB1 is intentionally positioned upwards. Review this after 0.59's release to see if I'm right or not.~~ Reported fixed by Glitchfinder. Will mark UF4OP's fix as UDR in next build.
 - \[PRP\] Include ALL esm UDRs that you normally get after cleaning the DLC .esm files to remove the DLC Cleaning requirement. The sheer number will not be listed here for brevity, though one could easily look them up themselves against an unclean esm install.
-
-0.58
-
 - \[PRP\] (-4, 2, CW): Fix 30FEF positioning to correct z-fighting
 - \[PRP\] (ListeningPostBravo01): Slightly nudge 189557 and 18958E to hopefully fix "invisible world" syndrome for a certain angle. (Not saved to PPF)
 - \[PRP\] (-4, 4, CW): Change 17E458 from ShrubLarge05 to ShrubMedium03 and slightly fix positioning to stop some floating shrubbery.
@@ -659,9 +657,6 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] Compacted PPF.esm to allow for ESL tagging.
 - \[PRP\] Included pair of SCOLs that came with Flicker Fixer into main archive.
 - \[PRP\] Import Flicker Fixer model set, to include in generation.
-
-0.56
-
 - \[PRP\] (DLC06VaultWorkshop): Dedup 05003C5A, 05001E78, 050022AB, 050022AD, 050022AF, 050022FD, 050022FF
 - Why the fuck is it called DLC06 when it's DLC05?
 - \[PRP\] (2, -4): Dedup 00187B4A, 001CA806
@@ -870,18 +865,12 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - ~~\[U32299\] ScrapPalaceExt04: 1A0CD5 Move armor workbench away from the crates it appears to be shoved inside of.~~ Merged upstream.
 - \[PRP\] CutlerBendExt07: Fix positioning of a pair of wrecks near a fence.
 - \[PRP\] QASmoke: Migrated DLC01 related cell changes to main cell. Non-essential bugfix.
-
-0.55
-
 - \[PRP\] WestRoxburyStationExt (-3, -15): Round off coords for 20E166 to hopefully fix the object flickering.
 - \[PRP\] WestRoxburyStationExt (-3, -15): Move the Motorcycle01 (1D3AE3) reference here to look more believable than stuck in the ground.
 - \[PRP\] CambridgePDExt02 (-8, 2): UDR'd 190B54, looked like it was overlapping 193670 presumably a development oversight at some point, maybe the original model didn't have windows on that side?
 - ~~\[U32174, PRP\] BunkerHillExt (4, 3): Added a RWPieceWallAStr01 to fill a hole that the RWPieceTopCapStr01a is showing on the left side from a certain angle. PRP record 12.~~ Merged upstream.
 - \[PRP\] ~~DLC01FortHagenSatelliteArray01: 01001D99, 01001D9B, 01001D9C, 01001D9D, 01001D9E, 01007430, 0100743F, 01008275, 01008816, 01008F2A, 0100A038, 0100A376, 0100D1C8, 0100EC9D, 0100EC9E, 0100ED55, 0100ED56 dedup'd.~~ Slated for revert in next build due to void holes in the area that appear unfixable. Will be saved to PPF when time allows.
 - ~~\[U31804, PRP\] -1, -15 CW 20B07, 20B3B/3C/3D/3E/3F/40/41/42/43/44/45/46/47/48/49 Various Skylight placement plate shifting to fix a previsibine issue, which fixes the occlusion, but as per the attached bug, the bug is really due to a missing flag in the material file. Placement fix pending removal in 0.55.xx~~ Material fix merged upstream. Revert in 0.60
-
-0.54 and earlier.
-
 - \[PRP\] 20, 17 CW: 1C9CD6 has a floating rear piece. ~~Since it's a SCOL, just nudge the placement.~~ Broke the SCOL at least for now. Not seeing a good way to fix this one.
 - \[PRP\] 16, 12 CW: 1B5509 grounded to fix bad placement that revealed a hole to the water nearby. Shoddy construction.
 - ~~\[U31795, PRP\] 12, 20 CW: 91591 needed raised above the sidewalk, shifted to work around navmesh in the area, positioning might need tuning.~~ Fixed in UF4OP 2.1.4 proper.
