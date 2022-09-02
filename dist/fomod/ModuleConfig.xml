@@ -79,6 +79,15 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="RU - Russian">
+							<description/>
+							<conditionFlags>
+								<flag name="Russian">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -1179,6 +1188,143 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
+		<installStep name="Main Files + Compat Grabbag">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Russian" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Main Files" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PPF">
+							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PPF Selected Russian">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP">
+							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+							<image path="Images\PRP.jpg"/>
+							<conditionFlags>
+								<flag name="PRP Selected Russian">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compat Grabbag" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="PRP - Clarity 4.2 Patch">
+							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Clarity 4.3 Patch">
+							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
+							<image path="Images\Clarity.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Diamond City Ambience Patch">
+							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
+							<image path="Images\Diamond City Ambience.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Fogout Patch">
+							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
+							<image path="Images\Fogout.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Interiors Enhanced Patch">
+							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
+							<image path="Images\Interiors Enhanced.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Region Names Patch">
+							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
+							<image path="Images\Region Names.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Exterior Lighting Patch">
+							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
+							<image path="Images\Ultra Exterior Lighting.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch">
+							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
+							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
+							<image path="Images\Ultra Interior Lighting.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="PRP - JSRS Regions Patch">
+							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
+							<image path="Images\JSRS.jpg"/>
+							<files>
+								<file source="01 Russian\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
 	</installSteps>
 	<conditionalFileInstalls>
 		<patterns>
@@ -1468,6 +1614,42 @@
 					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PPF Selected Japanese" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Russian" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Russian\PPF.esm" destination="PPF.esm" priority="0"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="PRP Selected Russian" value="On"/>
+					<flagDependency flag="PPF Selected Russian" value="On"/>
+				</dependencies>
+				<files>
+					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
+					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
+					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
+					<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+					<file source="01 Russian\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
 			</pattern>
 		</patterns>
