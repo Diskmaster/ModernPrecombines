@@ -77,7 +77,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 - \[PRP\] (-6, 2, CW) Tune 1BA193, 1BA194, 97A6C, 1BA17A, 1BA183 positions to fix wall seams.
 - \[PRP\] (BeaconHillBostonBugle) Fix x rotation on 22C378 to make it look correct.
-- \[PRP\] (tbd) 176BE3, 176BE1, 176BE0 round Z pos to make Umbra happy.
+- \[PRP\] (1, -3, CW; 2, -4, CW) 176BE3, 176BE1, 176BE0 round Z pos to make Umbra happy.
 - \[~~U32322~~, U32590, PRP\] Create a new texswap to correctly address the debris hole issue and tag references as needed. So far, only a few nearest -10, 15, CW need it. More will probably show up at some point. Refs 1D0AE3, 1D0B36, 1D0B46
 - \[PRP\] Remove the five leftover FullLOD entries that were mistakenly copied over from UF4OP in the update migration to 2.1.4. The deletes were intentional. Not removing these could adversely affect LOD generation.
 - \[U32582\] (GlowingSeaPOIDB05Int): Tune position of 1F41E1. It's not set up very well to be looted.
