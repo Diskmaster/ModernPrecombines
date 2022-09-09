@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] Exclude Sanctuary Bridge, and maybe all home roofs to support mesh replacers?
 - \[PRP\] Architecture\Buildings\Hightech\Skin\HitExtABaseCornerA01.nif has badly done collision 
 - \[PRP\] https://discord.com/channels/830436661736243230/954847055824687215/1008908652758974575
 - ~~\[PRP\] Vault75 needs some more work to plug previs holes.~~ Done, but needs checked.
@@ -73,8 +74,9 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
-0.62
+0.64
 
+- \[PRP\] 
 - \[PRP\] (-6, 2, CW) Tune 1BA193, 1BA194, 97A6C, 1BA17A, 1BA183 positions to fix wall seams.
 - \[PRP\] (BeaconHillBostonBugle) Fix x rotation on 22C378 to make it look correct.
 - \[PRP\] (1, -3, CW; 2, -4, CW) 176BE3, 176BE1, 176BE0 round Z pos to make Umbra happy.
@@ -200,7 +202,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (Vault81): 19DA74 and 19DA75 got shoved closer to the wall. The folding chairs made no sense standing up like that.
 - \[PRP\] (DLC01FortHagenSatelliteArray01): Round up all values for all seven Crates that were previously touched in PPF to fix the same holes that have been plaguing previs since forever.
 - \[PRP\] (Vault75): ~~Fix 1A8BA8 Z pos in the same way as the UF4OP replacement to see if it finally fixes the previs hole. That's probably what's really going on here. If so, UF4OP's fix should be UDR'd. As of current dev, 07038FB1 is intentionally positioned upwards. Review this after 0.59's release to see if I'm right or not.~~ Reported fixed by Glitchfinder. Will mark UF4OP's fix as UDR in next build.
-- \[PRP\] Include ALL esm UDRs that you normally get after cleaning the DLC .esm files to remove the DLC Cleaning requirement. The sheer number will not be listed here for brevity, though one could easily look them up themselves against an unclean esm install.
+- ~~\[PRP\] Include ALL esm UDRs that you normally get after cleaning the DLC .esm files to remove the DLC Cleaning requirement. The sheer number will not be listed here for brevity, though one could easily look them up themselves against an unclean esm install.~~ Reverted in minimal testing, moved to it's own plugin.
 - \[PRP\] (-4, 2, CW): Fix 30FEF positioning to correct z-fighting
 - \[PRP\] (ListeningPostBravo01): Slightly nudge 189557 and 18958E to hopefully fix "invisible world" syndrome for a certain angle. (Not saved to PPF)
 - \[PRP\] (-4, 4, CW): Change 17E458 from ShrubLarge05 to ShrubMedium03 and slightly fix positioning to stop some floating shrubbery.
