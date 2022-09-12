@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] Look into manually patching https://www.nexusmods.com/fallout4/mods/64147
 - \[PRP\] Exclude Sanctuary Bridge, and maybe all home roofs to support mesh replacers?
 - \[PRP\] Architecture\Buildings\Hightech\Skin\HitExtABaseCornerA01.nif has badly done collision 
 - \[PRP\] https://discord.com/channels/830436661736243230/954847055824687215/1008908652758974575

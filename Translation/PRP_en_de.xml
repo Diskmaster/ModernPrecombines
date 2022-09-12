@@ -470,6 +470,12 @@
       <Dest>The Third Rail</Dest>
     </String>
     <String List="0">
+      <EDID>SuperDuperMart01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Super-Duper Mart</Source>
+      <Dest>Super-Duper Mart</Dest>
+    </String>
+    <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Recruitment Office</Source>
@@ -768,6 +774,12 @@
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
       <Dest>Andrew Station</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonGarage</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Parking Garage</Source>
+      <Dest>Lexington-Parkhaus</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -1194,6 +1206,12 @@
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
       <Dest>Kommandodeck der Prydwen</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonPharmacy</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Pharmacy</Source>
+      <Dest>Lexington Apotheke</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1740,6 +1758,12 @@
       <REC>CELL:FULL</REC>
       <Source>Boxing Gym</Source>
       <Dest>Boxstudio</Dest>
+    </String>
+    <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>Verein der Elektronikbastler Keller</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POI40Int</EDID>
