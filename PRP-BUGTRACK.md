@@ -77,7 +77,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.64
 
-- \[PRP\] 
+- \[PRP\] (Various): Implement separated material swaps and update records accordingly, as per the Underwater Glass Fix mod.
+- \[PRP\] (-26, -12, CW): Delete DBB88 which appears to be a wild edit.
 - \[PRP\] (-6, 2, CW) Tune 1BA193, 1BA194, 97A6C, 1BA17A, 1BA183 positions to fix wall seams.
 - \[PRP\] (BeaconHillBostonBugle) Fix x rotation on 22C378 to make it look correct.
 - \[PRP\] (1, -3, CW; 2, -4, CW) 176BE3, 176BE1, 176BE0 round Z pos to make Umbra happy.
