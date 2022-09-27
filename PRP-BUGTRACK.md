@@ -16,12 +16,12 @@ Current planned changes:
 Current known issues:
 
 - \[PRP\] Look into manually patching https://www.nexusmods.com/fallout4/mods/64147
-- \[PRP\] Exclude Sanctuary Bridge, and maybe all home roofs to support mesh replacers?
+- \[PRP\] ~~Exclude Sanctuary Bridge~~, and maybe all home roofs to support mesh replacers?
 - \[PRP\] Architecture\Buildings\Hightech\Skin\HitExtABaseCornerA01.nif has badly done collision 
 - \[PRP\] https://discord.com/channels/830436661736243230/954847055824687215/1008908652758974575
 - ~~\[PRP\] Vault75 needs some more work to plug previs holes.~~ Done, but needs checked.
 - \[PRP-UF4OP2_1_4\] Verify the following areas: DmndSecurity01
-- \[Import\] Merge https://www.nexusmods.com/fallout4/mods/58671
+- \[Import\] ~~ Merge https://www.nexusmods.com/fallout4/mods/58671 ~~
 - \[U31719\] SWCurbCurve03b.nif needs geometry corrected to properly fix that bug.
 - \[U28872\] Mark UDR newly added records that we fixed directly in DmndSecurity01 to mask previs holes in vanilla previs.
 - \[PRP\] (-3, 6, CW, and other locations): Investigate if Common_DisableMarker / Common_Walls_DisableLayer is actually used by the game.
@@ -77,6 +77,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.64
 
+
+- \[PRP\] (-19, 20, CW): Community request. XLRT NoCombo 1F970 (NorthBridge / Sanctuary bridge) to support easy mesh replacement.
 - \[PRP\] (Various): Implement separated material swaps and update records accordingly, as per the Underwater Glass Fix mod.
 - \[PRP\] (-26, -12, CW): Delete DBB88 which appears to be a wild edit.
 - \[PRP\] (-6, 2, CW) Tune 1BA193, 1BA194, 97A6C, 1BA17A, 1BA183 positions to fix wall seams.
