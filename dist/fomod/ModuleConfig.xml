@@ -1479,6 +1479,7 @@
 					<flagDependency flag="PPF Selected English" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1492,6 +1493,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1506,6 +1508,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1515,6 +1518,7 @@
 					<flagDependency flag="PPF Selected Spanish" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1528,6 +1532,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1542,6 +1547,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1551,6 +1557,7 @@
 					<flagDependency flag="PPF Selected Italian" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1564,6 +1571,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1578,6 +1586,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1587,6 +1596,7 @@
 					<flagDependency flag="PPF Selected Portuguese" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1600,6 +1610,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1614,6 +1625,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1623,6 +1635,7 @@
 					<flagDependency flag="PPF Selected French" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1636,6 +1649,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1650,6 +1664,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1659,6 +1674,7 @@
 					<flagDependency flag="PPF Selected Polish" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Polish\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1672,6 +1688,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Polish\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1686,6 +1703,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Polish\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1695,6 +1713,7 @@
 					<flagDependency flag="PPF Selected SChinese" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1708,6 +1727,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1722,6 +1742,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1731,6 +1752,7 @@
 					<flagDependency flag="PPF Selected Japanese" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1744,6 +1766,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1758,6 +1781,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1767,6 +1791,7 @@
 					<flagDependency flag="PPF Selected Japanese" value="On"/>
 				</dependencies>
 				<files>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1780,6 +1805,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Russian\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1794,6 +1820,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 Russian\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1807,6 +1834,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 German\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 German\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
@@ -1821,6 +1849,7 @@
 					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
 					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 German\PRP.esp" destination="PRP.esp" priority="0"/>
+					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 German\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
