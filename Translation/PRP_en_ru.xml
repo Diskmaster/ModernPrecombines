@@ -32,6 +32,12 @@
       <Dest>Канализация Мальдена</Dest>
     </String>
     <String List="0">
+      <EDID>DLC01LairHoldingCell</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>DLC01 Holding Cell</Source>
+      <Dest>DLC01: камера</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC03NorthwoodRidgeQuarry01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Northwood Ridge Quarry</Source>
@@ -84,6 +90,18 @@
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
       <Dest>Склад</Dest>
+    </String>
+    <String List="0">
+      <EDID>WarehouseGunTraps</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>TrapGunPackins</Source>
+      <Dest>TrapGunPackins</Dest>
+    </String>
+    <String List="0">
+      <EDID>DebugRange</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>Ячейка для быстрого теста</Dest>
     </String>
     <String List="0">
       <EDID>GraygardenHomestead01</EDID>
@@ -156,12 +174,6 @@
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Castle Tower</Source>
       <Dest>Башня замка Ядер-Короля</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC04NWJunkyardUFO01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Ultimate UFO</Source>
-      <Dest>СверхНЛО</Dest>
     </String>
     <String List="0">
       <EDID>ShawHighSchool01</EDID>
@@ -264,6 +276,12 @@
       <REC>CELL:FULL</REC>
       <Source>College Square Station</Source>
       <Dest>Станция &quot;Колледж-Сквер&quot;</Dest>
+    </String>
+    <String List="0">
+      <EDID>WarehouseAmbushes</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>Ячейка для быстрого теста</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsTaphouse01</EDID>
@@ -470,6 +488,12 @@
       <Dest>Третий Рельс</Dest>
     </String>
     <String List="0">
+      <EDID>SuperDuperMart01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Super-Duper Mart</Source>
+      <Dest>Супер-Дупер-Март</Dest>
+    </String>
+    <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Recruitment Office</Source>
@@ -638,6 +662,12 @@
       <Dest>Кафе Мистера Крышки</Dest>
     </String>
     <String List="0">
+      <EDID>DebugJPSA</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Companion Situational Awareness</Source>
+      <Dest>Оценка ситуации спутником</Dest>
+    </String>
+    <String List="0">
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
@@ -672,12 +702,6 @@
       <REC>CELL:FULL</REC>
       <Source>The Incredible Machines</Source>
       <Dest>Невероятные механизмы</Dest>
-    </String>
-    <String List="0">
-      <EDID>ccTOSFO4001</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Noir Penthouse</Source>
-      <Dest>Пентхаус в стиле нуар</Dest>
     </String>
     <String List="0">
       <EDID>DmndDugoutInn01</EDID>
@@ -768,6 +792,12 @@
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
       <Dest>Станция &quot;Эндрю&quot;</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonGarage</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Parking Garage</Source>
+      <Dest>Лексингтонский парковочный гараж</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -924,6 +954,12 @@
       <REC>CELL:FULL</REC>
       <Source>Institute Advanced Systems</Source>
       <Dest>Институт - отдел высших систем</Dest>
+    </String>
+    <String List="0">
+      <EDID>WarehouseMusic</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>Ячейка для быстрого теста</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Secret</EDID>
@@ -1194,6 +1230,12 @@
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
       <Dest>Мостик &quot;Придвена&quot;</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonPharmacy</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Pharmacy</Source>
+      <Dest>Лексингтонская аптека</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1610,6 +1652,12 @@
       <Dest>Уровни &quot;Мед-Тек&quot;</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseClutter</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Workbench Bonanza</Source>
+      <Dest>Изобилие верстаков</Dest>
+    </String>
+    <String List="0">
       <EDID>CovenantHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sewer</Source>
@@ -1742,6 +1790,12 @@
       <Dest>Боксерский зал</Dest>
     </String>
     <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>Подвал клуба любителей электротехники</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC03POI40Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pump Control</Source>
@@ -1836,6 +1890,12 @@
       <REC>CELL:FULL</REC>
       <Source>35 Court</Source>
       <Dest>35 Корт</Dest>
+    </String>
+    <String List="0">
+      <EDID>WarehouseBathrooms</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>Ячейка для быстрого теста</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownLaundry</EDID>

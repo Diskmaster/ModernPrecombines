@@ -66,7 +66,7 @@ Current known issues:
 List of areas to blacklist from the next build due to problems that have yet to be fixed:
 All Hidden Interior cells and test areas in the game, DLC01FortHagenSatelliteArray01, ...
 
-\(UF4OP bug numbers shown as Uxxxxx, FCF is Frost Cell Fixes, krrptd's version of PRP\)
+\(UF4OP bug numbers shown as Uxxxxx anything crossed out is implemented upstream, FCF is Frost Cell Fixes, krrptd's version of PRP\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City, NWM - Nuka World Market, NWA - Nuka World Amphitheater, FHVR - Far Harbor VR Simulation
 
 Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62
@@ -75,8 +75,11 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
-0.64
+0.66 (pending)
 
+I dunno yet.
+
+0.65
 
 - \[PRP\] (-19, 20, CW): Community request. XLRT NoCombo 1F970 (NorthBridge / Sanctuary bridge) to support easy mesh replacement.
 - \[PRP\] (Various): Implement separated material swaps and update records accordingly, as per the Underwater Glass Fix mod.
@@ -174,7 +177,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] (-5, -7, CW): 22DA61 clear null LOD XLKR ref
 - \[PRP\] (1, 15, FH): 303F748 and 303F747, UDR and NULL XLKR song and dance
 - \[PRP\] (0, 0, DC): Remove EnableParent on 1347.
-- \[PRP\] (x, x, CW): 1BF97E and 1BF97D needs pulled forward to fix a building hole.
+- \[PRP\] (0, 2, CW): 1BF97E and 1BF97D needs pulled forward to fix a building hole.
 - \[PRP\] (-16, 10, CW): 893D3 got moved to the plateau nearby to stop the branches from outright floating.
 - ~~\[U32472\] (0, 4, CW): A9416 and A9411 has a rather visible seam.~~
 - \[PRP\] (3, 10, CW): Dedup 98F06, create and apply texswap to 981EC, ~~copied textures are the same as base game intentionally.~~ Texture replacement artists should look at and create replacements that fit the style with the filename set of PaintedWoodWhiteDirty01 in the Textures/SetDressing/Fences directory. The versions in the game intro are untouched. pointythunder654 has contributed a set of textures to fix this issue for our side.
