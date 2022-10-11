@@ -7,18 +7,6 @@
     <Version>2</Version>
   </Params>
   <Content>
-    <String List="0" Partial="1">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:CNAM</REC>
-      <Source>BenRierimanu</Source>
-      <Dest>BenRierimanu</Dest>
-    </String>
-    <String List="0" Partial="2">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:SNAM</REC>
-      <Source>https://www.nexusmods.com/fallout4/mods/46403 0.59</Source>
-      <Dest>https://www.nexusmods.com/fallout4/mods/46403 0.59</Dest>
-    </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
       <REC>CELL:FULL</REC>
@@ -29,7 +17,7 @@
       <EDID>PrewarVault111</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>Vault 111</Dest>
+      <Dest>111 金庫</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB05Int</EDID>
@@ -42,6 +30,12 @@
       <REC>CELL:FULL</REC>
       <Source>Malden Drainage</Source>
       <Dest>モールデン排水路</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC01LairHoldingCell</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>DLC01 Holding Cell</Source>
+      <Dest>DLC01 Holding Cell</Dest>
     </String>
     <String List="0">
       <EDID>DLC03NorthwoodRidgeQuarry01</EDID>
@@ -96,6 +90,18 @@
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
       <Dest>倉庫</Dest>
+    </String>
+    <String List="0">
+      <EDID>WarehouseGunTraps</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>TrapGunPackins</Source>
+      <Dest>トラップガンパッキング</Dest>
+    </String>
+    <String List="0">
+      <EDID>DebugRange</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>クイック・テスト・セル</Dest>
     </String>
     <String List="0">
       <EDID>GraygardenHomestead01</EDID>
@@ -170,12 +176,6 @@
       <Dest>キング・コーラの城塔</Dest>
     </String>
     <String List="0">
-      <EDID>DLC04NWJunkyardUFO01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Ultimate UFO</Source>
-      <Dest>アルティメット UFO</Dest>
-    </String>
-    <String List="0">
       <EDID>ShawHighSchool01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shaw High School</Source>
@@ -215,7 +215,7 @@
       <EDID>DLC03Vault118</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 118</Source>
-      <Dest>Vault 118</Dest>
+      <Dest>118 金庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC03PineCrestCavern01</EDID>
@@ -276,6 +276,12 @@
       <REC>CELL:FULL</REC>
       <Source>College Square Station</Source>
       <Dest>カレッジスクエア駅</Dest>
+    </String>
+    <String List="0">
+      <EDID>WarehouseAmbushes</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>クイック・テスト・セル</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsTaphouse01</EDID>
@@ -439,11 +445,11 @@
       <Source>Vim! Basement</Source>
       <Dest>ヴィム地下室</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>DLC04WarehouseAmbush</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ambush Warehouse Cell</Source>
-      <Dest>待ち伏せ倉庫セル</Dest>
+      <Dest>奇襲攻撃倉庫セル</Dest>
     </String>
     <String List="0">
       <EDID>RevereBeachStation01</EDID>
@@ -611,7 +617,7 @@
       <EDID>MQ203KelloggsBrain</EDID>
       <REC>CELL:FULL</REC>
       <Source>Memories</Source>
-      <Dest>メモリーズ</Dest>
+      <Dest>記憶</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariBearCave</EDID>
@@ -656,6 +662,12 @@
       <Dest>キャッピーズ・カフェ</Dest>
     </String>
     <String List="0">
+      <EDID>DebugJPSA</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Companion Situational Awareness</Source>
+      <Dest>仲間の状況認識力</Dest>
+    </String>
+    <String List="0">
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
@@ -685,17 +697,11 @@
       <Source>Shelter</Source>
       <Dest>シェルター</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>WarehouseIndustrialMachines</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Incredible Machines</Source>
-      <Dest>インクレディブル・マシーン</Dest>
-    </String>
-    <String List="0">
-      <EDID>ccTOSFO4001</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Noir Penthouse</Source>
-      <Dest>ノアール・ペントハウス</Dest>
+      <Dest>驚異のマシン</Dest>
     </String>
     <String List="0">
       <EDID>DmndDugoutInn01</EDID>
@@ -793,11 +799,11 @@
       <Source>Lexington Parking Garage</Source>
       <Dest>レキシントン駐車場</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
       <REC>CELL:FULL</REC>
       <Source>Terminals &amp; Holotapes, Oh My.</Source>
-      <Dest>ターミナル &amp; ホロテープ、何か。</Dest>
+      <Dest>ターミナル&amp;ホロテープ、おやおや</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
@@ -863,7 +869,7 @@
       <EDID>Vault81</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
-      <Dest>Vault 81</Dest>
+      <Dest>81 金庫</Dest>
     </String>
     <String List="0">
       <EDID>GNN02</EDID>
@@ -950,10 +956,16 @@
       <Dest>アドバンス・システム</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseMusic</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>クイック・テスト・セル</Dest>
+    </String>
+    <String List="0">
       <EDID>Vault81Secret</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secret Vault 81</Source>
-      <Dest>シークレットVault 81</Dest>
+      <Dest>81 秘密の金庫</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePolymerLabs01</EDID>
@@ -1025,7 +1037,7 @@
       <EDID>Vault11402</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 114</Source>
-      <Dest>Vault 114</Dest>
+      <Dest>114 金庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubOperatorLair01</EDID>
@@ -1067,7 +1079,7 @@
       <EDID>Vault75</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 75</Source>
-      <Dest>Vault 75</Dest>
+      <Dest>75 金庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZTheater01</EDID>
@@ -1139,7 +1151,7 @@
       <EDID>InstituteSRB</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute SRB</Source>
-      <Dest>SRB</Dest>
+      <Dest>インスティテュート SRB</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt17</EDID>
@@ -1535,13 +1547,13 @@
       <EDID>Vault95</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 95</Source>
-      <Dest>Vault 95</Dest>
+      <Dest>95 金庫</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>WarehouseWorkbenches</EDID>
       <REC>CELL:FULL</REC>
       <Source>Workbench Bonanza</Source>
-      <Dest>作業台の鉱脈</Dest>
+      <Dest>作業台ボナンザ</Dest>
     </String>
     <String List="0">
       <EDID>WestonWaterTreatment01</EDID>
@@ -1640,6 +1652,12 @@
       <Dest>メッド・テック・サブレベル</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseClutter</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Workbench Bonanza</Source>
+      <Dest>ワークベンチボナンザ</Dest>
+    </String>
+    <String List="0">
       <EDID>CovenantHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sewer</Source>
@@ -1661,7 +1679,7 @@
       <EDID>Vault81Entry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
-      <Dest>Vault 81</Dest>
+      <Dest>81 金庫</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeConstructionSiteWarehouse01</EDID>
@@ -1679,7 +1697,7 @@
       <EDID>Vault111Cryo</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>Vault 111</Dest>
+      <Dest>111 金庫</Dest>
     </String>
     <String List="0">
       <EDID>DmndEarlsHouse01</EDID>
@@ -1874,6 +1892,12 @@
       <Dest>35コート</Dest>
     </String>
     <String List="0">
+      <EDID>WarehouseBathrooms</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Quick Test Cell</Source>
+      <Dest>クイック・テスト・セル</Dest>
+    </String>
+    <String List="0">
       <EDID>CharlestownLaundry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Charlestown Laundry</Source>
@@ -1987,11 +2011,11 @@
       <Source>Apartments</Source>
       <Dest>アパート</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>WarehouseTraps</EDID>
       <REC>CELL:FULL</REC>
       <Source>The most dangerous cell</Source>
-      <Dest>最も危険なセル</Dest>
+      <Dest>最も危険な細胞</Dest>
     </String>
     <String List="0">
       <EDID>DmndGreenhouse01</EDID>
@@ -2027,7 +2051,7 @@
       <EDID>DLC06VaultWorkshop</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 88</Source>
-      <Dest>Vault 88</Dest>
+      <Dest>88 金庫</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomTheater01</EDID>
