@@ -15,6 +15,7 @@ Current planned changes:
 
 Current known issues:
 
+- \[PRP\] Somehow extend SanctuaryExt08 region to cover the fence so it can be made scrapable.
 - \[PRP\] Look into manually patching https://www.nexusmods.com/fallout4/mods/64147
 - \[PRP\] ~~Exclude Sanctuary Bridge~~, and maybe all home roofs to support mesh replacers?
 - \[PRP\] Architecture\Buildings\Hightech\Skin\HitExtABaseCornerA01.nif has badly done collision 
