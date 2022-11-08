@@ -173,13 +173,13 @@
       <EDID>DLC04KiddieKingdomZ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Castle Tower</Source>
-      <Dest>キング・コーラの城塔</Dest>
+      <Dest>キング・コーラの城の塔</Dest>
     </String>
       <String List="0">
       <EDID>DLC04NWJunkyardUFO01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ultimate UFO</Source>
-      <Dest>アルティメット UFO</Dest>
+      <Dest>アルティメットUFO</Dest>
     </String>
     <String List="0">
       <EDID>ShawHighSchool01</EDID>
@@ -1931,7 +1931,7 @@
       <EDID>Vault111Start</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111 Main Entrance</Source>
-      <Dest>Vault 111 正面入り口</Dest>
+      <Dest>Vault 111メインエントランス</Dest>
     </String>
     <String List="0">
       <EDID>DmndRadio01</EDID>
