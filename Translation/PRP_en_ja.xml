@@ -17,7 +17,7 @@
       <EDID>PrewarVault111</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>111 金庫</Dest>
+      <Dest>Vault 111</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB05Int</EDID>
@@ -173,7 +173,13 @@
       <EDID>DLC04KiddieKingdomZ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Castle Tower</Source>
-      <Dest>キング・コーラの城塔</Dest>
+      <Dest>キング・コーラの城の塔</Dest>
+    </String>
+      <String List="0">
+      <EDID>DLC04NWJunkyardUFO01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Ultimate UFO</Source>
+      <Dest>アルティメットUFO</Dest>
     </String>
     <String List="0">
       <EDID>ShawHighSchool01</EDID>
@@ -209,13 +215,13 @@
       <EDID>MassFusion02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Fusion Main Reactor</Source>
-      <Dest>マスフュージョンメ・インリアクター</Dest>
+      <Dest>メインリアクター</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Vault118</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 118</Source>
-      <Dest>118 金庫</Dest>
+      <Dest>Vault 118</Dest>
     </String>
     <String List="0">
       <EDID>DLC03PineCrestCavern01</EDID>
@@ -869,7 +875,7 @@
       <EDID>Vault81</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
-      <Dest>81 金庫</Dest>
+      <Dest>Vault 81</Dest>
     </String>
     <String List="0">
       <EDID>GNN02</EDID>
@@ -965,7 +971,7 @@
       <EDID>Vault81Secret</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secret Vault 81</Source>
-      <Dest>81 秘密の金庫</Dest>
+      <Dest>シークレットVault 81</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePolymerLabs01</EDID>
@@ -1037,7 +1043,7 @@
       <EDID>Vault11402</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 114</Source>
-      <Dest>114 金庫</Dest>
+      <Dest>Vault 114</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubOperatorLair01</EDID>
@@ -1079,7 +1085,7 @@
       <EDID>Vault75</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 75</Source>
-      <Dest>75 金庫</Dest>
+      <Dest>Vault 75</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZTheater01</EDID>
@@ -1151,7 +1157,7 @@
       <EDID>InstituteSRB</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute SRB</Source>
-      <Dest>インスティテュート SRB</Dest>
+      <Dest>SRB</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt17</EDID>
@@ -1547,7 +1553,7 @@
       <EDID>Vault95</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 95</Source>
-      <Dest>95 金庫</Dest>
+      <Dest>Vault 95</Dest>
     </String>
     <String List="0">
       <EDID>WarehouseWorkbenches</EDID>
@@ -1655,7 +1661,7 @@
       <EDID>WarehouseClutter</EDID>
       <REC>CELL:FULL</REC>
       <Source>Workbench Bonanza</Source>
-      <Dest>ワークベンチボナンザ</Dest>
+      <Dest>作業台ボナンザ</Dest>
     </String>
     <String List="0">
       <EDID>CovenantHQ01</EDID>
@@ -1679,7 +1685,7 @@
       <EDID>Vault81Entry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 81</Source>
-      <Dest>81 金庫</Dest>
+      <Dest>Vault 81</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeConstructionSiteWarehouse01</EDID>
@@ -1697,7 +1703,7 @@
       <EDID>Vault111Cryo</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>111 金庫</Dest>
+      <Dest>Vault 111</Dest>
     </String>
     <String List="0">
       <EDID>DmndEarlsHouse01</EDID>
@@ -1925,7 +1931,7 @@
       <EDID>Vault111Start</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111 Main Entrance</Source>
-      <Dest>Vault 111 正面入り口</Dest>
+      <Dest>Vault 111メインエントランス</Dest>
     </String>
     <String List="0">
       <EDID>DmndRadio01</EDID>
@@ -2015,7 +2021,7 @@
       <EDID>WarehouseTraps</EDID>
       <REC>CELL:FULL</REC>
       <Source>The most dangerous cell</Source>
-      <Dest>最も危険な細胞</Dest>
+      <Dest>最も危険なセル</Dest>
     </String>
     <String List="0">
       <EDID>DmndGreenhouse01</EDID>
