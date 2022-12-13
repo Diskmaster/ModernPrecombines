@@ -22,12 +22,15 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
+Red: Removed, Green: Added, Yellow: Changed, Green or Yellow Circle: Also Upstreamed with relevant UF4OP bug number.
+
 0.66 and newer
 
-- \[Removed\] \[0, 0, CW\] Example line for documentation testing. Nothing has actually changed.
-- \[Added\] \[0, 0, CW\] A shrubbery! At last.
-- \[Changed\] \[0, 0, CW\] What's this, it's a box of nothing!
-- \[Changed\] \[0, 0, CW\] \[U50000\] Hey look, mom, a bug number?!
+- \[:red_square:\] \[0, 0, CW\] Example line for documentation testing. Nothing has actually changed.
+- \[:green_square:\] \[0, 0, CW\] A shrubbery! At last.
+- \[:yellow_square:\] \[0, 0, CW\] What's this, it's a box of nothing!
+- \[:yellow_circle:\] \[0, 0, CW\] \[U50000\] Hey look, mom, a bug number?!
+- \[:hurtrealbad:\] ???
 
 0.65
 
