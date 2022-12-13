@@ -26,11 +26,11 @@ Red: Removed, Green: Added, Yellow: Changed, Green or Yellow Circle: Also Upstre
 
 0.66 and newer
 
-- \[:red_square:\] \[0, 0, CW\] Example line for documentation testing. Nothing has actually changed.
-- \[:green_square:\] \[0, 0, CW\] A shrubbery! At last.
-- \[:yellow_square:\] \[0, 0, CW\] What's this, it's a box of nothing!
-- \[:yellow_circle:\] \[0, 0, CW\] \[U50000\] Hey look, mom, a bug number?!
-- \[:hurtrealbad:\] ???
+- :red_square: \[0, 0, CW\] Example line for documentation testing. Nothing has actually changed.
+- :green_square: \[0, 0, CW\] A shrubbery! At last.
+- :yellow_square: \[0, 0, CW\] What's this, it's a box of nothing!
+- :yellow_circle: \[0, 0, CW\] \[U50000\] Hey look, mom, a bug number?!
+- :hurtrealbad: ???
 
 0.65
 
