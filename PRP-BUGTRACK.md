@@ -22,15 +22,19 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
 
-Red: Removed, Green: Added, Yellow: Changed, Green or Yellow Circle: Also Upstreamed with relevant UF4OP bug number.
+🟥: Removed, 🟩: Added, 🟨: Changed
 
 0.66 and newer
 
-- 🟥 \[0, 0, CW\] Example line for documentation testing. Nothing has actually changed.
-- 🟩 \[0, 0, CW\] A shrubbery! At last.
-- 🟨 \[0, 0, CW\] What's this, it's a box of nothing!
-- 🟨 \[0, 0, CW\] \[U50000\] Hey look, mom, a bug number?!
-- 🍰 ???
+- Chg \[Documentation\] Starting with this version, documentation style update. Older notes will be updated and fleshed out at a later date.
+- New \[-3, 3, CW\] Tune 87420 and 8741F to placate Umbra and thus fix a "see through lane" between the two buildings. On a side note, the collision on the base objects looks a bit half assed.
+- New \[NatickSubstation\] Move 1622DF to hide a floating edge in the mesh as per Glitchfinder.
+- New \[BackStreetApparel01\] Adjust 64B6F, 1EF092 and 1EF0A2 to fix z-fighting and in the case of the last ref, make it look somewhat more natural for floor clutter.
+- New \[-7, -6, CW\] \[U00TBD\] Add a new RWPieceGrassStr01 next to it's brethren to plug a noticeable hole that was omitted in dev, clearly. (-25156.800781, -21460.675781, 805.914124 rot z 77.1086)
+- New \[3, -3, CW\] Tune 2D1DF and 19784 to make Umbra happy. What a pain.
+- New \[1, -7, CW\] More tuning for Umbra, 17EAB1. May have to return to this one. 
+- New \[AtomatoysCorporateHQ01\] \[U00TBD\] 1FB9FC is a duplicate desk, delete it and keep the other.
+- New \[0, 1, CW\] Adjust position of AAAA2, 1727F9, and 1727FA to close a hole inside a building.
 
 0.65
 
