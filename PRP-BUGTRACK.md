@@ -34,13 +34,15 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[3, -3, CW\] Tune 2D1DF and 19784 to make Umbra happy. What a pain.
 - 🟩 \[1, -7, CW\] More tuning for Umbra, 17EAB1. May have to return to this one. 
 - 🟩 \[AtomatoysCorporateHQ01\] \[U00TBD\] 1FB9FC is a duplicate desk, delete it and keep the other.
-- 🟩 \[0, 1, CW\] Adjust position of AAAA2, 1727F9, and 1727FA to close a hole inside a building. [Note: Glitchfinder mentioned there was a plugin to correctly patch this?]
+- 🟩 \[0, 1, CW\] Adjust position of AAAA2, 1727F9, and 1727FA to close a hole inside a building.
 - 🟩 \[-21, 5, CW\] Move 17A344 forward enough to cover up a visible part of xxx and also 17A345 to get some errant leaves out of the underground part that was clipping through.
 - 🟩 \[3, -2, CW\] \[U00TBD\] Duplicate 1CF39E to plug a hole that lets players see up through the one sided building mesh.
 - 🟩 \[20, 8, CW\] Shift position of C9E75 to be somewhat less floaty. Position may need tuned further, but it's better looking than vanilla. Also fix the floating edge from 1085B9. Correct 1BBBDE and 1BBBDF to prevent some minor overlap.
 - 🟩 \[20, 8, CW\] \[U00TBD\] Add a ClutterGenShelfC next to 1BBBF0 to deal with an open end.
 - 🟩 \[-10, 14, CW\] Adjust 3480E and 30504 to fix a hole in the doorway and reduce umbra's confusion.
 - 🟩 \[1, 11, CW\] Fix a floating pile of leaves. 1E1956
+- New/ \[-21, -12, CW\] Update 2325D1 and 232379 positions to fix z-flicker.
+
 
 0.65
 
