@@ -14,22 +14,16 @@
       <Dest>Porte de cage</Dest>
     </String>
     <String List="0">
-      <EDID>NpcBedVaultBunkLay01Invisible</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Bed</Source>
-      <Dest>Lit</Dest>
-    </String>
-    <String List="0">
-      <EDID>NpcBedVaultLay01Invisible</EDID>
-      <REC>FURN:FULL</REC>
-      <Source>Bed</Source>
-      <Dest>Lit</Dest>
-    </String>
-    <String List="0">
       <EDID>PrewarVault111</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
       <Dest>Abri 111</Dest>
+    </String>
+    <String List="0">
+      <EDID>GlowingSeaPOIDB05Int</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Red Rocket</Source>
+      <Dest>Red Rocket</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMassChemical01</EDID>
@@ -86,6 +80,18 @@
       <Dest>Station Park Street</Dest>
     </String>
     <String List="0">
+      <EDID>FederalRationStockpile01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Federal Ration Stockpile</Source>
+      <Dest>Réserve fédérale de rations</Dest>
+    </String>
+    <String List="0">
+      <EDID>FaneuilHall01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Faneuil Hall</Source>
+      <Dest>Faneuil Hall</Dest>
+    </String>
+    <String List="0">
       <EDID>DmndSecurity01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Security Office</Source>
@@ -102,6 +108,18 @@
       <REC>CELL:FULL</REC>
       <Source>Bobbi&apos;s Place</Source>
       <Dest>Chez Bobbi</Dest>
+    </String>
+    <String List="0">
+      <EDID>ConcordMuseum01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Museum of Freedom</Source>
+      <Dest>Musée de la liberté</Dest>
+    </String>
+    <String List="0">
+      <EDID>AndrewStation01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Andrew Station</Source>
+      <Dest>Station Andrew</Dest>
     </String>
     <String List="0">
       <EDID>zVitalePumphouse01</EDID>
@@ -122,6 +140,18 @@
       <Dest>Abri 81</Dest>
     </String>
     <String List="0">
+      <EDID>Theater16PearwoodResidences01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Pearwood Residences</Source>
+      <Dest>Résidences Pearwood</Dest>
+    </String>
+    <String List="0">
+      <EDID>MassFusion01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Mass Fusion Building</Source>
+      <Dest>Bâtiment de Mass Fusion</Dest>
+    </String>
+    <String List="0">
       <EDID>Vault81Secret</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secret Vault 81</Source>
@@ -132,6 +162,12 @@
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
       <Dest>USS Constitution</Dest>
+    </String>
+    <String List="0">
+      <EDID>Vault11402</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 114</Source>
+      <Dest>Abri 114</Dest>
     </String>
     <String List="0">
       <EDID>Vault75</EDID>
@@ -158,16 +194,16 @@
       <Dest>University Point : Pavillon Sedgwick</Dest>
     </String>
     <String List="0">
+      <EDID>BeaconHillBostonBugle</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>The Boston Bugle</Source>
+      <Dest>The Boston Bugle</Dest>
+    </String>
+    <String List="0">
       <EDID>CambridgeCollegeAdminBuilding</EDID>
       <REC>CELL:FULL</REC>
       <Source>College Admin Building</Source>
       <Dest>Bâtiment administratif de l&apos;université</Dest>
-    </String>
-    <String List="0">
-      <EDID>QASmoke</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Tunnels</Source>
-      <Dest>Tunnels</Dest>
     </String>
     <String List="0">
       <EDID>CorvegaAssemblyPlant01</EDID>
@@ -204,6 +240,12 @@
       <REC>CELL:FULL</REC>
       <Source>General Atomics Factory</Source>
       <Dest>Usine General Atomics</Dest>
+    </String>
+    <String List="0">
+      <EDID>SouthBostonPoliceDepartment01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>South Boston Police Department</Source>
+      <Dest>Police de Boston Sud</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Entry</EDID>
