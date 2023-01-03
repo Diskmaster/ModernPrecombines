@@ -42,6 +42,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[-10, 14, CW\] Adjust 3480E and 30504 to fix a hole in the doorway and reduce umbra's confusion.
 - 🟩 \[1, 11, CW\] Fix a floating pile of leaves. 1E1956
 - New/ \[-21, -12, CW\] Update 2325D1 and 232379 positions to fix z-flicker.
+- New/ \[Various\] Add a bunch of XLRT exclusions for various picture frames as if they are assigned an XALP (Alpha) value, paint splotches or wear and tear show up correctly as the setting gets ignored in previsibine generation. [Dev note: so far, interiors have been looked through. GNN01 among other interiors got hit a bit hard by this change, I might revert. Too soon to say.]
 
 
 0.65
