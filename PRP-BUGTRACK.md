@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 2594 of 3300 \]
+- Fallout4.esm \[ 2377 of 3300 \]
 - DLC01Robot \[ 343 of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 of 459 \]
@@ -48,7 +48,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New/ \[4, -8, CW\] Dedup 18822A, 19DD70, 19DD71
 - New/ \[1, -7, CW\] Dedup F45DA
 - New/ \[3, -7, CW\] Dedup 874E0, 137720
-- New/ \[4, -7, CW\] Dedup 000A52A1, 000A52A2, 000A52A3, 000A52A4, 000A51FA, 000A51F9, 000A51F8, 000A51F7, 000A51F6, 000A51F5, 000A51F1, 00087544, 000874C2, 001330F0, 001330EF, 001330A5, 0012E5BB, 0012E526, 0012E4CF, 0012E464, 0019DD67, 0019DD68, 000ACCC2
+- New/ \[4, -7, CW\] Dedup 000A52A1, 000A52A2, 000A52A3, 000A52A4, 000A51FA, 000A51F9, 000A51F8, 000A51F7, 000A51F6, 000A51F5, 000A51F1, 00087544, 000874C2, 001330F0, 001330EF, 001330A5, 0012E5BB, 0012E526, 0012E4CF, 0012E464, 0019DD67, 0019DD68, 000ACCC2 [devnote: It was either in this block or in one of the neighbors I may have accidentally deleted one more ref than expected. I'll manually review later.]
 - New/ \[5, -7, CW\] Dedup 00178E16, 000A526A, 000A5296, 000A5297
 - New/ \[6, -7, CW\] Dedup 0009F357, 00179A69, 0017BC1F
 - New/ \[1, -6, CW\] Dedup 00238373, 00182CF1, 001BFCBB, 0022F58D, 0022F58E, 0022F58F
@@ -65,6 +65,14 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New/ \[1, -4, CW\] Dedup 000A1772, 000A176E, 001AE975
 - New/ \[3, -4, CW\] Dedup 0019AC8C, 00187B23
 - New/ \[4, -4, CW\] Dedup 001F44BE, 001D45F0, 001386B8, 001386B7, 001386B6, 001386B5, 0002CD7E
+- New/ \[5, -4, CW\] Dedup 00046546, 00116745, 0002D1A6, 0002D1A9, 001D7B43, 001D7B44
+- New/ \[6, -4, CW\] Dedup 001EB9EA, 001EB9E9, 001E45F6, 001E45F5, 001B1FED, 00051F24, 00051F21, 00051EEC, 00051EE6, 000517F2, 00046867, 001EEE78
+- New/ \[7, -4, CW\] Dedup 001E45FF, 001E45FE, 0004EE94, 001F1C47
+- New/ \[1, -3, CW\] Dedup 001718B6
+- New/ \[2, -3, CW\] Dedup 001CF95F, 0018B483, 00163ACF
+- New/ \[3, -3, CW\] Dedup 001CF2DF, 0018B531, 00044488, 00044489, do not deduplicate 001CCB4E and instead move it down to fix a missing building piece [devnote: verify this one], move 0023C79A away from 0023AEFA \[U32721\]
+- New/ \[4, -3, CW\] Dedup 001D14FA, 001D14F5, 001D14F4, 000C4ADF, 00118E7E, 00118E7F, 0002CBBB, 0002CBED, 0002CDE2, 002185B7
+- New/ \[5, -3, CW\] Dedup 0011485A
 
 
 0.65
