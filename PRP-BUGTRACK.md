@@ -20,7 +20,7 @@ Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle
 
 Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
-Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicate in the associated plugin master file:
+Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicated object reference at the same exact position in the associated plugin master file:
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
@@ -42,8 +42,29 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[-10, 14, CW\] Adjust 3480E and 30504 to fix a hole in the doorway and reduce umbra's confusion.
 - 🟩 \[1, 11, CW\] Fix a floating pile of leaves. 1E1956
 - New/ \[-21, -12, CW\] Update 2325D1 and 232379 positions to fix z-flicker.
-- New/ \[Various\] Add a bunch of XLRT exclusions for various picture frames as if they are assigned an XALP (Alpha) value, paint splotches or wear and tear show up correctly as the setting gets ignored in previsibine generation. [Dev note: so far, interiors have been looked through. GNN01 among other interiors got hit a bit hard by this change, I might revert. Too soon to say.]
+- New/ \[Various\] Add a bunch of XLRT exclusions for various picture frames as if they are assigned an XALP (Alpha) value, paint splotches or wear and tear show up correctly as the setting gets ignored in previsibine generation.
 - New/ \[ParsonsState01\] Update alpha cutoff value for 10D1B8, looks out of place with the above exclusions.
+- New/ \[2, -8, CW\] Dedup 1CFD27
+- New/ \[4, -8, CW\] Dedup 18822A, 19DD70, 19DD71
+- New/ \[1, -7, CW\] Dedup F45DA
+- New/ \[3, -7, CW\] Dedup 874E0, 137720
+- New/ \[4, -7, CW\] Dedup 000A52A1, 000A52A2, 000A52A3, 000A52A4, 000A51FA, 000A51F9, 000A51F8, 000A51F7, 000A51F6, 000A51F5, 000A51F1, 00087544, 000874C2, 001330F0, 001330EF, 001330A5, 0012E5BB, 0012E526, 0012E4CF, 0012E464, 0019DD67, 0019DD68, 000ACCC2
+- New/ \[5, -7, CW\] Dedup 00178E16, 000A526A, 000A5296, 000A5297
+- New/ \[6, -7, CW\] Dedup 0009F357, 00179A69, 0017BC1F
+- New/ \[1, -6, CW\] Dedup 00238373, 00182CF1, 001BFCBB, 0022F58D, 0022F58E, 0022F58F
+- New/ \[3, -6, CW\] Dedup 000AE381, 001D009A
+- New/ \[4, -6, CW\] Dedup 000CFF91, 000B714E, 000ADFF3, 000ADFF4, 00132EC6, 000D0FE5, 00178C1E, 000A529B, 000A529C, 000A529D, 000A529E, 000A52A0, 000A52AA, 000A52AD, 000A52D1, 000A52D5, 00133091, 00133092, 00133093, 00133094, 0016C2E1
+- New/ \[5, -6, CW\] Dedup 0012D4CE, 0012D4CD, 0012CA98, 0012CA97, 0012CA8F, 0012CA8E, 0012CA86, 0012CA87, 0012CA5A, 0012EA56, 00055474, 000A5204, 000A520A, 000A5216, 000A5218, 000A5219, 000A521E, 000A5223, 000A5235, 000A5236, 000A5237, 000A5238, 000A523B, 000A523C, 000A523E, 000A5241, 000A5242, 000A5243, 000A5244, 000A5245, 000A5257, 000A5258, 000A525B, 000A525C, 000A525D, 000A5265, 000A5266, 000A5267, 000A526E
+- New/ \[6, -6, CW\] Dedup 83997, 0004691F, 000D0231, 000A78CB, 000A78CF, 000A78F2
+- New/ \[7, -6, CW\] Dedup 001F1D23, 0004A69C, 0017BD0E, 0017BDB9
+- New/ \[1, -5, CW\] Dedup 001AE918, 0018990A, 0017C72A, 0018B15E, 0018B10A, 00176BB9, 0016F8D4
+- New/ \[4, -5, CW\] Dedup 001D79A0, 000B70C4, 000B8F06, 001BD202, 001F4490
+- New/ \[5, -5, CW\] Dedup 000A5281, 000A5255, 000A5253, 000A524D, 000A524C, 000A524B, 000A524A, 000A5249, 000A5215, 000A5214, 000A5212, 000A5210, 000A520F, 000A520D, 000A520C, 000A520B, 000A51FD, 000A3C50, 0002D08C
+- New/ \[6, -5, CW\] Dedup 0022D7AD, 0012CB63, 0012CB62, 001EEE95, 001EEE96, 001EEE97
+- New/ \[7, -5, CW\] Dedup 000B0338, 001259C1, 00180EAC, 00044741, 000468C4, 001BD2F5, 001FAC98
+- New/ \[1, -4, CW\] Dedup 000A1772, 000A176E, 001AE975
+- New/ \[3, -4, CW\] Dedup 0019AC8C, 00187B23
+- New/ \[4, -4, CW\] Dedup 001F44BE, 001D45F0, 001386B8, 001386B7, 001386B6, 001386B5, 0002CD7E
 
 
 0.65
