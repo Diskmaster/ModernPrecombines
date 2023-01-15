@@ -24,7 +24,11 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-0.66 and newer
+0.67 and newer
+
+- TBD
+
+0.66 (Beta)
 
 - 🟨 \[Documentation\] Starting with this version, documentation style update. Older notes will be updated and fleshed out at a later date.
 - 🟩 \[-3, 3, CW\] Tune 87420 and 8741F to placate Umbra and thus fix a "see through lane" between the two buildings. On a side note, the collision on the base objects looks a bit half assed.
@@ -73,7 +77,6 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New/ \[3, -3, CW\] Dedup 001CF2DF, 0018B531, 00044488, 00044489, do not deduplicate 001CCB4E and instead move it down to fix a missing building piece [devnote: verify this one], move 0023C79A away from 0023AEFA \[U32721\]
 - New/ \[4, -3, CW\] Dedup 001D14FA, 001D14F5, 001D14F4, 000C4ADF, 00118E7E, 00118E7F, 0002CBBB, 0002CBED, 0002CDE2, 002185B7
 - New/ \[5, -3, CW\] Dedup 0011485A
-
 
 0.65
 
