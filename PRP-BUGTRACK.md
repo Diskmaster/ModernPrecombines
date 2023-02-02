@@ -16,7 +16,7 @@ Current planned changes:
 \(UF4OP bug numbers shown as Uxxxxx anything crossed out is implemented upstream, FCF is Frost Cell Fixes, krrptd's version of PRP\)
 CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City, NWM - Nuka World Market, NWA - Nuka World Amphitheater, FHVR - Far Harbor VR Simulation
 
-Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62
+Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62, 90EE5
 
 Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
@@ -26,7 +26,10 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.67 and newer
 
-- TBD
+- New/ \[2, -7, CW\] Move 17BFC5 so it's not obviously clipping into the wall. What the shit. Also tune 17BF74 and 17BF97 so they look a bit more natural as the fixtures appear to have been thrown out.
+- New/ \[4, -6, CW\] Nudge 16C3CD and it's neighboring wall chunks, 16C3CB, 1767F4, 176805, and 176806 to correct obvious z-fighting of wall meeting wall.
+- New/ \[FortStrong01\] Delete 1E7321 that's embedded in the wall. What the fuck is that even doing there?
+- New/ \[DBTechHighSchool01\] Fix 1CEF1B Zpos slightly to correct z-fighting (decal vs rug)
 
 0.66 (Beta)
 
@@ -74,7 +77,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New/ \[7, -4, CW\] Dedup 001E45FF, 001E45FE, 0004EE94, 001F1C47
 - New/ \[1, -3, CW\] Dedup 001718B6
 - New/ \[2, -3, CW\] Dedup 001CF95F, 0018B483, 00163ACF
-- New/ \[3, -3, CW\] Dedup 001CF2DF, 0018B531, 00044488, 00044489, do not deduplicate 001CCB4E and instead move it down to fix a missing building piece [devnote: verify this one], move 0023C79A away from 0023AEFA \[U32721\]
+- New/ \[3, -3, CW\] Dedup 001CF2DF, 0018B531, 00044488, 00044489, do not deduplicate 001CCB4E and instead move it down to fix a missing building piece, move 0023C79A away from 0023AEFA \[U32721\]
 - New/ \[4, -3, CW\] Dedup 001D14FA, 001D14F5, 001D14F4, 000C4ADF, 00118E7E, 00118E7F, 0002CBBB, 0002CBED, 0002CDE2, 002185B7
 - New/ \[5, -3, CW\] Dedup 0011485A
 
