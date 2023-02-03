@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 2377 of 3300 \]
+- Fallout4.esm \[ 2267 of 3300 \]
 - DLC01Robot \[ 343 of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 of 459 \]
@@ -26,6 +26,40 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.67 and newer
 
+
+- New/ \[4, -22, CW\] Dedup 0011223C, tweak position of 11223A to make it not clip into the debris pile below.
+- New/ \[6, -23, CW\] Dedup 00056BCB
+- New/ \[3, -24, CW\] Dedup 0012190B
+- New/ \[1, -24, CW\] Dedup 0016D23E
+- New/ \[7, -10, CW\] Dedup 0007446F
+- New/ \[6, -10, CW\] Dedup 001CC832 [check 001CC833]
+- New/ \[5, -10, CW\] Dedup 00174EB0
+- New/ \[7, -11, CW\] Dedup 00074478
+- New/ \[6, -11, CW\] Dedup 0009168D, 001754B8, 001754BC
+- New/ \[5, -11, CW\] Dedup 00185AD0
+- New/ \[3, -11, CW\] Dedup 001CC140
+- New/ \[7, -12, CW\] Dedup 0009B80B, 00170567, 00170554, 001704EE, 001704D8, 001704D7, 001704B2
+- New/ \[2, -12, CW\] Dedup 0012904B
+- New/ \[1, -12, CW\] Dedup 001F04D8
+- New/ \[6, -14, CW\] Dedup 000EBA83
+- New/ \[5, -14, CW\] Dedup 001FE0EC
+- New/ \[5, -15, CW\] Dedup 0021519D
+- New/ \[2, -15, CW\] Dedup 000F1A72
+- New/ \[0, -11, CW\] Dedup 002130E8
+- New/ \[7, -1, CW\] Dedup 001AD4F9
+- New/ \[6, -1, CW\] Dedup 0005AA76, 000C3765, 001232F3, 001232F7, 0012B304, 00074BC7, 0001D090, 0001D091
+- New/ \[5, -1, CW\] Dedup 0012B339, 0012B34F, 0012B351, 0012B388, 000B9515
+- New/ \[4, -1, CW\] Dedup 00179413, 001C390B, 001C73AB
+- New/ \[3, -1, CW\] Dedup 001C7463, 001C7461, 001794B5, 001C3921
+- New/ \[2, -1, CW\] Dedup 00211DB8
+- New/ \[7, -2, CW\] Dedup 0021457A, 001E6E68, 001E6E67, 0005B7DD, 001E86FA, 001E86FB, 001E86FD, 001E86FE, 001E86FF
+- New/ \[6, -2, CW\] Dedup 0012BE30
+- New/ \[5, -2, CW\] Dedup 0022D68D, 00134130, 00134131, 0003A216, 0007866A, 00221451, 00221452, 00221455, 00237E5B
+- New/ \[4, -2, CW\] Dedup 001CC9C2, 001CC928, 001CC927, 0005B844, 0015B531, 0015B530, 0015B52F, 0015B4C1, 0011EF97, 0011EE86, 000976E6, 001C9212, 001C9236, 001C9237, 001C9269, 001D14D2, 002225CD, 002225CE, 002225CF, 002225D0
+- New/ \[3, -2, CW\] Dedup 001CC8D7, 0016D4EA, 001CF3AB, 001CF3AC
+- New/ \[2, -2, CW\] Dedup 0014528C
+- New/ \[7, -3, CW\] Dedup 001E6FCD, 001E6F9A, 001A82FD, 001A82FC, 0013A275, 000693CD
+- New/ \[6, -3, CW\] Dedup 001E4649, 00054FB2, 00044FF2, 00044FF1, 0003E387, 0003E388, 0003E38B, 0003E38C, 0003E38D, 0003E38E
 - New/ \[2, -7, CW\] Move 17BFC5 so it's not obviously clipping into the wall. What the shit. Also tune 17BF74 and 17BF97 so they look a bit more natural as the fixtures appear to have been thrown out.
 - New/ \[4, -6, CW\] Nudge 16C3CD and it's neighboring wall chunks, 16C3CB, 1767F4, 176805, and 176806 to correct obvious z-fighting of wall meeting wall.
 - New/ \[FortStrong01\] Delete 1E7321 that's embedded in the wall. What the fuck is that even doing there?
