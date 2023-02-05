@@ -1,12 +1,12 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 2183 of 3300 \]
-- DLC01Robot \[ 343 of 358 \]
+- Fallout4.esm \[ 2183 (382 Exterior) of 3300 \]
+- DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
-- DLC03Coast \[ 85 of 459 \]
+- DLC03Coast \[ 85 Interior of 459 \]
 - DLC04Workshop02 \[ N/A \]
 - DLC05Workshop03 \[ Completed \]
-- DLC06NukaWorld \[ 536 of 977 \]
+- DLC06NukaWorld \[ 536 Interior of 977 \]
 
 Current planned changes:
 
