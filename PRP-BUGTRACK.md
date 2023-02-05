@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 2267 of 3300 \]
+- Fallout4.esm \[ 2183 of 3300 \]
 - DLC01Robot \[ 343 of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 of 459 \]
@@ -26,7 +26,49 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.67 and newer
 
-
+- New/ \[18, 12, CW\] Dedup 000AD9B3, 001B5371
+- New/ \[16, 12, CW\] Dedup 000BB896, 001B56DF
+- New/ \[23, 11, CW\] Dedup 00159B85, 00159B88, 00159B84, 00159B87, 00159B86, 00159B80, 00159B64, 00159B59, 00159B4D, 00159B49
+- New/ \[22, 11, CW\] Dedup 00159B4E
+- New/ \[19, 11, CW\] Dedup 0021923C
+- New/ \[18, 11, CW\] Dedup 001B52A0
+- New/ \[23, 9, CW\] Dedup 001BDFBA
+- New/ \[22, 9, CW\] Dedup 001A6CC8
+- New/ \[21, 9, CW\] Dedup 001C339D, 001C339E
+- New/ \[19, 9, CW\] Dedup 00160FD1, 00160FD2, 00160FD3, 00160FD4
+- New/ \[18, 9, CW\] Dedup 000C5591, 000C5590, 000C558F, 000C558E, 000C5509, 000C5503, 000C5502, 000C54F8, 000C54B6, 000C54B5, 000C54B3, 000C54B2, 000C54A4, 000C54A3, 000C54A2, 000CAF45
+- New/ \[23, 8, CW\] Dedup 001BE0CE
+- New/ \[22, 8, CW\] Dedup 0013047F, 000D1609
+- New/ \[17, 8, CW\] Dedup 001BBAB9
+- New/ \[22, 23, CW\] Dedup 00158BCC, 00158BCB
+- New/ \[20, 22, CW\] Dedup 0019B8A6
+- New/ \[23, 21, CW\] Dedup 0012029B
+- New/ \[20, 21, CW\] Dedup 001D33ED
+- New/ \[23, 20, CW\] Dedup 0012037B, 001A4D3C
+- New/ \[22, 20, CW\] Dedup 001AE128
+- New/ \[23, 19, CW\] Dedup 0004CFE1, 0023A417
+- New/ \[22, 19, CW\] Dedup 001943A1, 00107E6B
+- New/ \[22, 18, CW\] Dedup 00238ACD, 000BD41F
+- New/ \[20, 18, CW\] Dedup 0022F475
+- New/ \[22, 17, CW\] Dedup 001A5108
+- New/ \[20, 17, CW\] Dedup 001AB15D, 001AB15E, 001AB15F [Review BB7CE and 1AB15C, duplicate SCOLs just shifted near each other]
+- New/ \[19, 24, CW\] Dedup 00185E1C, 00185E24
+- New/ \[25, 6, CW\] Dedup 000D17DB
+- New/ \[26, 5, CW\] Dedup 0019E982
+- New/ \[24, 15, CW\] Dedup 001F717E
+- New/ \[25, 11, CW\] Dedup 001B58AB
+- New/ \[24, 8, CW\] Dedup 001CAADF, lower 001BDF2F slightly to make the dirt pile mesh better with the expected ref
+- New/ \[2, -25, CW\] Dedup 001216CD
+- New/ \[2, -26, CW\] Dedup 0014A4E6
+- New/ \[2, -17, CW\] Dedup 00095372, 000F1C2E
+- New/ \[4, -18, CW\] Fragment SCOL 1EF304 and Dedup 001232BA, 00055E75
+- New/ \[2, -18, CW\] Dedup 001F9864
+- New/ \[2, -19, CW\] Dedup 00087233
+- New/ \[1, -19, CW\] Dedup 00027FB2, 00027FB3
+- New/ \[3, -21, CW\] Dedup 000EC542
+- New/ \[7, -22, CW\] Dedup 0022C003
+- New/ \[6, -22, CW\] Dedup 0022C10F, 0011E5D4
+- New/ \[-3, 8, CW\] Fragment SCOL 1F13F8 and 1F13BE to fix "missing car matswap" disorder. [Dev note: Verify previs for both newly created piles]
 - New/ \[4, -22, CW\] Dedup 0011223C, tweak position of 11223A to make it not clip into the debris pile below.
 - New/ \[6, -23, CW\] Dedup 00056BCB
 - New/ \[3, -24, CW\] Dedup 0012190B
