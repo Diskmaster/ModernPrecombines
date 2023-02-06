@@ -26,6 +26,49 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.67 and newer
 
+- New/ \[14, 6, CW\] Dedup 0003C83A, 0003C838
+- New/ \[10, 4, CW\] Dedup 000A571E
+- New/ \[11, 3, CW\] Dedup 000B8C34
+- New/ \[12, 2, CW\] Dedup 000EFAA9, 000EF985
+- New/ \[11, 2, CW\] Dedup 000D02A8
+- New/ \[10, 2, CW\] Dedup 0013B13C, 000D02EB, 0013F8B2
+- New/ \[13, 1, CW\] Dedup 000D2365
+- New/ \[11, 1, CW\] Dedup 001EEB5A
+- New/ \[11, 0, CW\] Dedup 0023CF8A, 000D6FEB, 000D6FE6
+- New/ \[8, 0, CW\] Dedup 0019DEBB, 001A30FB
+- New/ \[9, 15, CW\] Dedup 0003A306, 000DCCA8 [Tag DCCA8 for UF4OP bugs]
+- New/ \[14, 14, CW\] Dedup 00225ED8, 0003C40D, 0003C428
+- New/ \[13, 14, CW\] Dedup 0002A579, 0007751E
+- New/ \[12, 14, CW\] Dedup 00077503
+- New/ \[11, 11, CW\] Dedup 00153148
+- New/ \[12, 10, CW\] Dedup 001EDF2B
+- New/ \[15, 9, CW\] Dedup 000481E9
+- New/ \[14, 9, CW\] Dedup 0015F000, 0015EFF0, 0015D5E0
+- New/ \[12, 9, CW\] Dedup 002100C2, 0020E36B
+- New/ \[9, 9, CW\] Dedup 0012443C
+- New/ \[14, 8, CW\] Dedup 0019F299, 00249079
+- New/ \[14, 23, CW\] Dedup 000DF41B
+- New/ \[10, 22, CW\] Dedup 00069846, 00069845, 00069844, 00069843, 00069842, 00069841
+- New/ \[14, 20, CW\] Dedup 001EE4F5
+- New/ \[15, 17, CW\] Dedup 00075576
+- New/ \[13, 17, CW\] Dedup 00096C2A
+- New/ \[12, 17, CW\] Dedup 00135E03, 00135E04, 00135E05
+- New/ \[15, 25, CW\] Dedup 001EE41D
+- New/ \[14, 25, CW\] Dedup 000E48F2
+- New/ \[9, 25, CW\] Dedup 00141637
+- New/ \[15, 24, CW\] Dedup 001EE3D6
+- New/ \[12, 24, CW\] Dedup 000EB120
+- New/ \[23, 7, CW\] Dedup 001BB777, 001BE0D5
+- New/ \[19, 6, CW\] Dedup 001BBAF7, 001BBB0C [Dev: Revert 001BBAF8 delete]
+- New/ \[21, 5, CW\] Dedup 001CD400
+- New/ \[17, 4, CW\] Dedup 001F168D
+- New/ \[19, 3, CW\] Dedup 0011A59C
+- New/ \[18, 3, CW\] Dedup 0011C5F0
+- New/ \[16, 3, CW\] Dedup 001F30D3
+- New/ \[19, 2, CW\] Dedup 001D06D0
+- New/ \[23, 15, CW\] Dedup 001F7157
+- New/ \[20, 14, CW\] Dedup 001F0341
+- New/ \[19, 13, CW\] Dedup 000AD983
 - New/ \[18, 12, CW\] Dedup 000AD9B3, 001B5371
 - New/ \[16, 12, CW\] Dedup 000BB896, 001B56DF
 - New/ \[23, 11, CW\] Dedup 00159B85, 00159B88, 00159B84, 00159B87, 00159B86, 00159B80, 00159B64, 00159B59, 00159B4D, 00159B49
@@ -61,14 +104,13 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New/ \[2, -25, CW\] Dedup 001216CD
 - New/ \[2, -26, CW\] Dedup 0014A4E6
 - New/ \[2, -17, CW\] Dedup 00095372, 000F1C2E
-- New/ \[4, -18, CW\] Fragment SCOL 1EF304 and Dedup 001232BA, 00055E75
+- New/ \[4, -18, CW\] Dedup 001232BA, 00055E75
 - New/ \[2, -18, CW\] Dedup 001F9864
 - New/ \[2, -19, CW\] Dedup 00087233
 - New/ \[1, -19, CW\] Dedup 00027FB2, 00027FB3
 - New/ \[3, -21, CW\] Dedup 000EC542
 - New/ \[7, -22, CW\] Dedup 0022C003
 - New/ \[6, -22, CW\] Dedup 0022C10F, 0011E5D4
-- New/ \[-3, 8, CW\] Fragment SCOL 1F13F8 and 1F13BE to fix "missing car matswap" disorder. [Dev note: Verify previs for both newly created piles]
 - New/ \[4, -22, CW\] Dedup 0011223C, tweak position of 11223A to make it not clip into the debris pile below.
 - New/ \[6, -23, CW\] Dedup 00056BCB
 - New/ \[3, -24, CW\] Dedup 0012190B
