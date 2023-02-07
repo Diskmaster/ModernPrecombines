@@ -26,6 +26,37 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.67 and newer
 
+- New/ \[0, 1, CW\] Dedup 
+- New/ \[7, 0, CW\] Dedup 00134BED, 00134A17
+- New/ \[6, 0, CW\] Dedup 00184788, 0012F239, 000C378F, 000C3790, 00130CAA
+- New/ \[5, 0, CW\] Dedup 00130BD7, 00130BD5, 00130BD4, 00131F94
+- New/ \[4, 0, CW\] Dedup 001C3A89
+- New/ \[3, 0, CW\] Dedup 0017952B, 00179528, 00179522, 00179519, 00179518, 0013FCE7
+- New/ \[1, 0, CW\] Dedup 0010B7EB, 0016D578, 0016D5E9
+- New/ \[0, 0, CW\] Dedup 0023A105, 0023A104, 0023A10A, 0023A109, 0023A10B, 0023A10C, 0023A10D, 0023A10E, 0023A102, 0023A103, 0023A106, 0023A107, 0023A108 [Dev note: Dev leftovers it appears that were sunk below the ground at some point. Marked the entire mess for deletion]
+- New/ \[2, 14, CW\] Dedup 00102357 [Dev note: Strangely enough, this wall is covered on all sides by other walls. The hell is it doing here at all?]
+- New/ \[5, 13, CW\] Dedup 00239E19, 00239DED, 000FF091
+- New/ \[4, 13, CW\] Dedup 001EDF65
+- New/ \[1, 13, CW\] Dedup 000C9BB6 [Dev note: This reduces the shadow effect for the pipe in the area which is noticeable if you've seen vanilla]
+- New/ \[4, 12, CW\] Dedup 00082A9A
+- New/ \[2, 11, CW\] Dedup 00098453, 00098454
+- New/ \[7, 10, CW\] Dedup 001B47BD, 001B47BB
+- New/ \[4, 10, CW\] Dedup 0009820D
+- New/ \[3, 10, CW\] Dedup 0008493B, 00098F08, 00098F09, 00098F0A, 00098F0B, 00098F0C, 00098F0D, 00098F0E, 00098F0F, 00098F11, 00098F12, 00098F13, 00098F14, 00098F15, 00098F16, 00098F17, 00098F18
+- New/ \[1, 10, CW\] Dedup 0009E50E
+- New/ \[7, 9, CW\] Dedup 001B47C6
+- New/ \[3, 9, CW\] Dedup 000845F7
+- New/ \[6, 22, CW\] Dedup 000C864A
+- New/ \[2, 21, CW\] Dedup 000C55D6
+- New/ \[2, 20, CW\] Dedup 000EADB3
+- New/ \[1, 20, CW\] Dedup 000FD8B7
+- New/ \[1, 19, CW\] Dedup 001E2DB8
+- New/ \[0, 23, CW\] Dedup 00228762
+- New/ \[0, 19, CW\] Dedup 000EA4DA
+- New/ \[1, 26, CW\] Dedup 001414A0
+- New/ \[7, 24, CW\] Dedup 000CF9AA
+- New/ \[14, 7, CW\] Dedup 001F4007, 00043C42
+- New/ \[13, 7, CW\] Dedup 0019E5B8, 0017134B
 - New/ \[14, 6, CW\] Dedup 0003C83A, 0003C838
 - New/ \[10, 4, CW\] Dedup 000A571E
 - New/ \[11, 3, CW\] Dedup 000B8C34
