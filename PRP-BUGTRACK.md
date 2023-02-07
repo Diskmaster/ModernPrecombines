@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 2183 (382 Exterior) of 3300 \]
+- Fallout4.esm \[ 2021 (220 Exterior) of 3300 \]
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 Interior of 459 \]
@@ -26,7 +26,9 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 0.67 and newer
 
-- New/ \[0, 1, CW\] Dedup 
+- New/ \[0, 5, CW\] Dedup 000BF17F, 000BF22B, 000BF22F, 000BF230, 000BF231, 000BF240, 000BF245, 000BF259
+- New/ \[0, 4, CW\] Dedup 00163589, 000891CD, 000D2E41
+- New/ \[0, 1, CW\] Dedup 000AAA5B, 0013B040, 00148B25, 001B8FD5, 001B8FD6, 001B8FD7, 001B8FD8, 001B8FD9, 001B8FDA [Dev: Filed U32764 for the hanging raider (1B8FD2 to 1B8FD4)]
 - New/ \[7, 0, CW\] Dedup 00134BED, 00134A17
 - New/ \[6, 0, CW\] Dedup 00184788, 0012F239, 000C378F, 000C3790, 00130CAA
 - New/ \[5, 0, CW\] Dedup 00130BD7, 00130BD5, 00130BD4, 00131F94
