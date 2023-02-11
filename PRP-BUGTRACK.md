@@ -30,6 +30,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 67 (Beta)
 
+- 🟩 \[Various\] Import contributed meshes from ossompossum (deadshrub01-05.nif)
 - 🟩 \[13, 9, CW\] Dedup 0020FFBB, 0020FFBA, 0020FFB9, 0020FFB8, 0020FFB7, 0020FFB6, 0020FFB5, 0020FFB4, 0020FFB3, 0020FFB2, 0020FFB1, 0020FFB0, 0020FFAF, 0020FFAE, 0020FFAD, 0020FFAB, 0020FFAA, 0020FFA8, 0020FFA7, 0020FF46, 0020FF4A, 0020FF49, 0020FF48, 0020FF47, 0020FF46, 0020FF45, 0020FF44, 0020FF43, 0020FF42, 0020FF41, 0020FF40, 0020FF3F, 0020FF3E, 0020FF3D, 0020FF3C, 0020FF3B, 0020FF3A, 0020FF39, 0020FF38, 0020FF37, 0020FF36, 0020FF35
 - 🟩 \[10, 25, CW\] Dedup 001F03C3, 001F03C4
 - 🟩 \[6, -23, CW\] Dedup 0011D0B7
@@ -48,7 +49,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[1, 5, CW\] Dedup 000BF182, 000BF183, 000BF184, 000BF1AE, 000BF1B3, 000BF1C8, 000BF1C9, 000BF1CA, 000BF1E0, 000BF1F6, 000BF1F8, 000BF1F9, 000BF1FA, 000BF208, 000BF209, 000BF20A, 000BF21D, 000BF222, 000BF228
 - 🟩 \[6, 4, CW\] Dedup 0011934C, 0011934F, 00119352
 - 🟩 \[4, 4, CW\] Dedup 001CA1B2, 001193A1, 000BF2F7, 000BF2F8, 000BF2F9, 000BF2FA, 000D30DB [barely poking out of the neighboring junkpile, marked for delete], 000BF2FB, 000BF30E, 000BF31B
-- 🟩 \[3, 4, CW\] Dedup 000BF27C, 000BF293, 000BF298, 000BF29D, 000BF2A1 [!], 000BF325, 000BF326
+- 🟩 \[3, 4, CW\] Dedup 000BF27C, 000BF293, 000BF298, 000BF29D, 000BF2A1 [U32772], 000BF325, 000BF326
 - 🟩 \[2, 4, CW\] Dedup 000D2D1B, move BF1B8 to minimize clipping near a truck
 - 🟩 \[1, 4, CW\] Dedup 000D2D95, 000D2D9A, 000D2DBC, 000D2DC1
 - 🟩 \[6, 3, CW\] Dedup 0018214C
@@ -108,7 +109,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[11, 1, CW\] Dedup 001EEB5A
 - 🟩 \[11, 0, CW\] Dedup 0023CF8A, 000D6FEB, 000D6FE6
 - 🟩 \[8, 0, CW\] Dedup 0019DEBB, 001A30FB
-- 🟩 \[9, 15, CW\] Dedup 0003A306, 000DCCA8 [Tag DCCA8 for UF4OP bugs]
+- 🟩 \[9, 15, CW\] Dedup 0003A306, 000DCCA8 [U32773]
 - 🟩 \[14, 14, CW\] Dedup 00225ED8, 0003C40D, 0003C428
 - 🟩 \[13, 14, CW\] Dedup 0002A579, 0007751E
 - 🟩 \[12, 14, CW\] Dedup 00077503
@@ -227,15 +228,15 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[-3, 3, CW\] Tune 87420 and 8741F to placate Umbra and thus fix a "see through lane" between the two buildings. On a side note, the collision on the base objects looks a bit half assed.
 - 🟩 \[NatickSubstation\] Move 1622DF to hide a floating edge in the mesh as per Glitchfinder.
 - 🟩 \[BackStreetApparel01\] Adjust 64B6F, 1EF092 and 1EF0A2 to fix z-fighting and in the case of the last ref, make it look somewhat more natural for floor clutter.
-- 🟩 \[-7, -6, CW\] \[U00TBD\] Add a new RWPieceGrassStr01 next to it's brethren to plug a noticeable hole that was omitted in dev, clearly. (-25156.800781, -21460.675781, 805.914124 rot z 77.1086)
+- 🟩 \[-7, -6, CW\] \[U32774\] Add a new RWPieceGrassStr01 next to it's brethren to plug a noticeable hole that was omitted in dev, clearly. (-25156.800781, -21460.675781, 805.914124 rot z 77.1086)
 - 🟩 \[3, -3, CW\] Tune 2D1DF and 19784 to make Umbra happy. What a pain.
 - 🟩 \[1, -7, CW\] More tuning for Umbra, 17EAB1. May have to return to this one. 
-- 🟩 \[AtomatoysCorporateHQ01\] \[U00TBD\] 1FB9FC is a duplicate desk, delete it and keep the other.
+- 🟩 \[AtomatoysCorporateHQ01\] \[U32775\] 1FB9FC is a duplicate desk, delete it and keep the other.
 - 🟩 \[0, 1, CW\] Adjust position of AAAA2, 1727F9, and 1727FA to close a hole inside a building.
 - 🟩 \[-21, 5, CW\] Move 17A344 forward enough to cover up a visible part of xxx and also 17A345 to get some errant leaves out of the underground part that was clipping through.
-- 🟩 \[3, -2, CW\] \[U00TBD\] Duplicate 1CF39E to plug a hole that lets players see up through the one sided building mesh.
+- 🟩 \[3, -2, CW\] \[U32776\] Duplicate 1CF39E to plug a hole that lets players see up through the one sided building mesh.
 - 🟩 \[20, 8, CW\] Shift position of C9E75 to be somewhat less floaty. Position may need tuned further, but it's better looking than vanilla. Also fix the floating edge from 1085B9. Correct 1BBBDE and 1BBBDF to prevent some minor overlap.
-- 🟩 \[20, 8, CW\] \[U00TBD\] Add a ClutterGenShelfC next to 1BBBF0 to deal with an open end.
+- 🟩 \[20, 8, CW\] \[U32777\] Add a ClutterGenShelfC next to 1BBBF0 to deal with an open end.
 - 🟩 \[-10, 14, CW\] Adjust 3480E and 30504 to fix a hole in the doorway and reduce umbra's confusion.
 - 🟩 \[1, 11, CW\] Fix a floating pile of leaves. 1E1956
 - 🟩 \[-21, -12, CW\] Update 2325D1 and 232379 positions to fix z-flicker.
