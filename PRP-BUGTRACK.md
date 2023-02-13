@@ -37,7 +37,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[6, -9, CW\] Dedup 001751F4
 - 🟩 \[5, -11, CW\] Dedup 00174EE9, 00174EEA, 00020F64
 - 🟩 \[1, -2, CW\] Dedup 00171877, 00171878, 0017187A, 0017187F, 00171881, 00171884, 00171886, 0017188A, 0017188D, 0017188F
-- 🟩 \[14, -21, CW\] Dedup 00204345 [U32765]
+- ~~🟩 \[14, -21, CW\] Dedup 00204345 [U32765]~~
 - 🟩 \[4, 7, CW\] Dedup 000BF09E, 000BF11D
 - 🟩 \[3, 7, CW\] Dedup 000BF15D, 000BF168
 - 🟩 \[2, 7, CW\] Dedup 0015C3D8, 000E0168, 000D2CAF, 000D2CB0, 000D2CB1, 000D2CB2, 000D2CB3, 000D2CB4
@@ -49,7 +49,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[1, 5, CW\] Dedup 000BF182, 000BF183, 000BF184, 000BF1AE, 000BF1B3, 000BF1C8, 000BF1C9, 000BF1CA, 000BF1E0, 000BF1F6, 000BF1F8, 000BF1F9, 000BF1FA, 000BF208, 000BF209, 000BF20A, 000BF21D, 000BF222, 000BF228
 - 🟩 \[6, 4, CW\] Dedup 0011934C, 0011934F, 00119352
 - 🟩 \[4, 4, CW\] Dedup 001CA1B2, 001193A1, 000BF2F7, 000BF2F8, 000BF2F9, 000BF2FA, 000D30DB [barely poking out of the neighboring junkpile, marked for delete], 000BF2FB, 000BF30E, 000BF31B
-- 🟩 \[3, 4, CW\] Dedup 000BF27C, 000BF293, 000BF298, 000BF29D, 000BF2A1 [U32772], 000BF325, 000BF326
+- 🟩 \[3, 4, CW\] Dedup 000BF27C, 000BF293, 000BF298, 000BF29D, ~~000BF2A1 [U32772]~~, 000BF325, 000BF326
 - 🟩 \[2, 4, CW\] Dedup 000D2D1B, move BF1B8 to minimize clipping near a truck
 - 🟩 \[1, 4, CW\] Dedup 000D2D95, 000D2D9A, 000D2DBC, 000D2DC1
 - 🟩 \[6, 3, CW\] Dedup 0018214C
@@ -109,7 +109,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[11, 1, CW\] Dedup 001EEB5A
 - 🟩 \[11, 0, CW\] Dedup 0023CF8A, 000D6FEB, 000D6FE6
 - 🟩 \[8, 0, CW\] Dedup 0019DEBB, 001A30FB
-- 🟩 \[9, 15, CW\] Dedup 0003A306, 000DCCA8 [U32773]
+- 🟩 \[9, 15, CW\] Dedup 0003A306, ~~000DCCA8 [U32773]~~
 - 🟩 \[14, 14, CW\] Dedup 00225ED8, 0003C40D, 0003C428
 - 🟩 \[13, 14, CW\] Dedup 0002A579, 0007751E
 - 🟩 \[12, 14, CW\] Dedup 00077503
@@ -228,15 +228,15 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[-3, 3, CW\] Tune 87420 and 8741F to placate Umbra and thus fix a "see through lane" between the two buildings. On a side note, the collision on the base objects looks a bit half assed.
 - 🟩 \[NatickSubstation\] Move 1622DF to hide a floating edge in the mesh as per Glitchfinder.
 - 🟩 \[BackStreetApparel01\] Adjust 64B6F, 1EF092 and 1EF0A2 to fix z-fighting and in the case of the last ref, make it look somewhat more natural for floor clutter.
-- 🟩 \[-7, -6, CW\] \[U32774\] Add a new RWPieceGrassStr01 next to it's brethren to plug a noticeable hole that was omitted in dev, clearly. (-25156.800781, -21460.675781, 805.914124 rot z 77.1086)
+- ~~🟩 \[-7, -6, CW\] \[U32774\] Add a new RWPieceGrassStr01 next to it's brethren to plug a noticeable hole that was omitted in dev, clearly.~~
 - 🟩 \[3, -3, CW\] Tune 2D1DF and 19784 to make Umbra happy. What a pain.
 - 🟩 \[1, -7, CW\] More tuning for Umbra, 17EAB1. May have to return to this one. 
-- 🟩 \[AtomatoysCorporateHQ01\] \[U32775\] 1FB9FC is a duplicate desk, delete it and keep the other.
+- ~~🟩 \[AtomatoysCorporateHQ01\] \[U32775\] 1FB9FC is a duplicate desk, delete it and keep the other.~~
 - 🟩 \[0, 1, CW\] Adjust position of AAAA2, 1727F9, and 1727FA to close a hole inside a building.
 - 🟩 \[-21, 5, CW\] Move 17A344 forward enough to cover up a visible part of xxx and also 17A345 to get some errant leaves out of the underground part that was clipping through.
 - 🟩 \[3, -2, CW\] \[U32776\] Duplicate 1CF39E to plug a hole that lets players see up through the one sided building mesh.
 - 🟩 \[20, 8, CW\] Shift position of C9E75 to be somewhat less floaty. Position may need tuned further, but it's better looking than vanilla. Also fix the floating edge from 1085B9. Correct 1BBBDE and 1BBBDF to prevent some minor overlap.
-- 🟩 \[20, 8, CW\] \[U32777\] Add a ClutterGenShelfC next to 1BBBF0 to deal with an open end.
+- ~~🟩 \[20, 8, CW\] \[U32777\] Add a ClutterGenShelfC next to 1BBBF0 to deal with an open end.~~
 - 🟩 \[-10, 14, CW\] Adjust 3480E and 30504 to fix a hole in the doorway and reduce umbra's confusion.
 - 🟩 \[1, 11, CW\] Fix a floating pile of leaves. 1E1956
 - 🟩 \[-21, -12, CW\] Update 2325D1 and 232379 positions to fix z-flicker.
@@ -268,7 +268,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - 🟩 \[7, -4, CW\] Dedup 001E45FF, 001E45FE, 0004EE94, 001F1C47
 - 🟩 \[1, -3, CW\] Dedup 001718B6
 - 🟩 \[2, -3, CW\] Dedup 001CF95F, 0018B483, 00163ACF
-- 🟩 \[3, -3, CW\] Dedup 001CF2DF, 0018B531, 00044488, 00044489, do not deduplicate 001CCB4E and instead move it down to fix a missing building piece, move 0023C79A away from 0023AEFA \[U32721\]
+- 🟩 \[3, -3, CW\] Dedup 001CF2DF, 0018B531, 00044488, 00044489, do not deduplicate 001CCB4E and instead move it down to fix a missing building piece, ~~move 0023C79A away from 0023AEFA \[U32721\]~~
 - 🟩 \[4, -3, CW\] Dedup 001D14FA, 001D14F5, 001D14F4, 000C4ADF, 00118E7E, 00118E7F, 0002CBBB, 0002CBED, 0002CDE2, 002185B7
 - 🟩 \[5, -3, CW\] Dedup 0011485A
 
@@ -283,7 +283,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[~~U32322~~, U32590, PRP\] Create a new texswap to correctly address the debris hole issue and tag references as needed. So far, only a few nearest -10, 15, CW need it. More will probably show up at some point. Refs 1D0AE3, 1D0B36, 1D0B46
 - \[PRP\] Remove the five leftover FullLOD entries that were mistakenly copied over from UF4OP in the update migration to 2.1.4. The deletes were intentional. Not removing these could adversely affect LOD generation.
 - \[U32582\] (GlowingSeaPOIDB05Int): Tune position of 1F41E1. It's not set up very well to be looted.
-- \[U32572, FCF, PRP\] (7, -4): Swap 6662E door entry for static version. That door isn't going anywhere, and should not be interactable.
+- ~~\[U32572, FCF, PRP\] (7, -4): Swap 6662E door entry for static version. That door isn't going anywhere, and should not be interactable.~~
 - \[U32571\] (-8, 9): Add a new DecoManBDam1x1WallTrimBtm02 to mask a small hole due to nearby building meshes being relatively one sided. Placement is not the best.
 - \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Apply 1E340B, 221215, 1A8BA8 XLRT for previs exclude.
 - \[U23169\] Backport post-UF4OP 2.1.4 fix for the bugfix so that the helper border meshes are initially disabled by default.
