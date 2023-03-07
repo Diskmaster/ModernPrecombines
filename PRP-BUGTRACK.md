@@ -24,9 +24,11 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-68 and newer
+69 and newer
 
-- TBD
+- New\ \[Import\] Updated RR floor mesh contributed by Sakamoto-San in discord as per https://discord.com/channels/830436661736243230/954847055824687215/1075829817464868907. As per their description: The mesh is not linked to the material file and the specular map is not assigned in the material too, leading to a reflective/wet floor
+- New\ \[Various in FH\] Import the removed placement fixes from UF4OP that got removed as a result of U31597 (as of 2.1.5)
+
 
 67 (Beta)
 
@@ -234,7 +236,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - ~~🟩 \[AtomatoysCorporateHQ01\] \[U32775\] 1FB9FC is a duplicate desk, delete it and keep the other.~~
 - 🟩 \[0, 1, CW\] Adjust position of AAAA2, 1727F9, and 1727FA to close a hole inside a building.
 - 🟩 \[-21, 5, CW\] Move 17A344 forward enough to cover up a visible part of xxx and also 17A345 to get some errant leaves out of the underground part that was clipping through.
-- 🟩 \[3, -2, CW\] \[U32776\] Duplicate 1CF39E to plug a hole that lets players see up through the one sided building mesh.
+- ~~🟩 \[3, -2, CW\] \[U32776\] Duplicate 1CF39E to plug a hole that lets players see up through the one sided building mesh.~~
 - 🟩 \[20, 8, CW\] Shift position of C9E75 to be somewhat less floaty. Position may need tuned further, but it's better looking than vanilla. Also fix the floating edge from 1085B9. Correct 1BBBDE and 1BBBDF to prevent some minor overlap.
 - ~~🟩 \[20, 8, CW\] \[U32777\] Add a ClutterGenShelfC next to 1BBBF0 to deal with an open end.~~
 - 🟩 \[-10, 14, CW\] Adjust 3480E and 30504 to fix a hole in the doorway and reduce umbra's confusion.
@@ -284,7 +286,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - \[PRP\] Remove the five leftover FullLOD entries that were mistakenly copied over from UF4OP in the update migration to 2.1.4. The deletes were intentional. Not removing these could adversely affect LOD generation.
 - \[U32582\] (GlowingSeaPOIDB05Int): Tune position of 1F41E1. It's not set up very well to be looted.
 - ~~\[U32572, FCF, PRP\] (7, -4): Swap 6662E door entry for static version. That door isn't going anywhere, and should not be interactable.~~
-- \[U32571\] (-8, 9): Add a new DecoManBDam1x1WallTrimBtm02 to mask a small hole due to nearby building meshes being relatively one sided. Placement is not the best.
+- ~~\[U32571\] (-8, 9): Add a new DecoManBDam1x1WallTrimBtm02 to mask a small hole due to nearby building meshes being relatively one sided. Placement is not the best.~~
 - \[PRP\] (Vault75) 19F927 needs moved upwards to stop clipping into the neighboring tunnel. Apply 1E340B, 221215, 1A8BA8 XLRT for previs exclude.
 - \[U23169\] Backport post-UF4OP 2.1.4 fix for the bugfix so that the helper border meshes are initially disabled by default.
 - \[U32436\] ~~(-9, -4, CW): 23C285 appears to have strangely left under the ground, with the only evidence of it's existence being the top of a hook. Mark for deletion and let UF4OP properly deal with it. Thanks to Marvesly for the report.~~ Merged upstream. IPTO will clean it out later.
