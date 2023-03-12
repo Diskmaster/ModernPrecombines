@@ -29,6 +29,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New\ \[Import\] Updated RR floor mesh contributed by Sakamoto-San in discord as per https://discord.com/channels/830436661736243230/954847055824687215/1075829817464868907. As per their description: The mesh is not linked to the material file and the specular map is not assigned in the material too, leading to a reflective/wet floor
 - New\ \[Various in FH\] Import the removed placement fixes from UF4OP that got removed as a result of U31597 (as of 2.1.5)
 - New\ \[Various\] Correctly push forward place name changes in UF4OP that somehow got overwritten, translators may have to review this.
+- TODO\ \[-7, -5, CW\] The building hole nearest 1B50BA needs filled. Most likely another DecoMainA1x1Wall01 would suffice here, to be determined. Found by ShadowoftheWind (CRP dev)
 
 67 (Beta)
 
