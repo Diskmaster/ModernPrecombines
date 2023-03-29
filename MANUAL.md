@@ -4,24 +4,17 @@ To start, what are previsibines exactly?
 
 Before we get too in depth, there's a few things that need to happen to get your game to be able to deal with this effectively. At the bare minimum, you need the following:
 
- - A copy of the Creation Kit, version 1.10.162 as of this manual's current commit. You can obtain this through the Bethesda launcher along with Archive2 and associated tools for mod development. This manual assumes you have them installed and working correctly.
- - The latest xEdit / FO4Edit release, version 4.0.4 as of this commit.
- - A copy of [Pra's xEdit scripts](https://www.nexusmods.com/fallout4/mods/28898). Install them to `Edit Scripts/` in your Fallout 4 installation so FO4Edit can find them. This also applies to [Searge's script pack](https://forums.nexusmods.com/index.php?/topic/5522717-fallout-4-optimization-and-performance-systems-explained/page-52#entry100828598) or any other scripts that have a .pas extension.
- - The script posted here *note: scripts/mscheetham-floatingpoint.pas It's named differently in the repo, just need to fix the link later. Have to go to work as of this commit. Will update later with instructions*
+ - A copy of the Creation Kit, version 1.10.162 as of this manual's current commit. You can obtain this [here](https://store.steampowered.com/app/1946160/Fallout_4_Creation_Kit/) in Steam along with Archive2 and associated tools for mod development. This manual assumes you have them installed and working correctly. The latest version that was available from Beth.net is also valid provided the version number is the same.
+ - The latest xEdit / FO4Edit release, version 4.0.4 as of this commit. (PRP development used the 4.0.4c discord exclusive build for the minor bugfixes since.)
+ - PJM's script pack which is hosted here. [TODO: Find out where PJM's putting the xEdit scripts we use for building.]
  - A decent amount of hard drive space, and more importantly, physical RAM, depending on the size of the project and how it's created. [The Previsibines Repair Pack](https://www.nexusmods.com/fallout4/mods/46403), my mod, took up to 126.6GB system commit (that's used RAM and swap file!) at full previs generation of the game and all DLC, UF4OP included.
 
 There's a set of optional scripts floating around that makes this easier to work with and I'll point out the options as they are relevant - this includes the previously mentioned pack above.
-Also, I personally use [CK Fixes 1.9](https://www.nexusmods.com/fallout4/mods/51165), but it is somewhat optional. Some don't like it and it's got bugs in odd places, but it does the job for me. Be aware, you cannot use PRP as it is with it due to the archive size. The PRP - Main.ba2 archive has to be recompressed to fit under the 4GB filesize limit by default. A future release will have that available as an alternate, but I do not provide it at this time.
+Also, I personally use [CK Fixes 2.0.1](https://www.nexusmods.com/fallout4/mods/51165) Some don't like it and it's got bugs in odd places, but it does the job for me, it is required currently due to the recent previs API fix. If you have more than three masters, the CK will not get past the root cell check in the previs phase without that plugin. My recommended config to use with it is on the PRP mod page in the Misc section, replacing fallout4_test.ini
 
-~~Before you begin, the Creation Kit by default has a known bug where it incorrectly generates Havok information in the wrong bit range for the game and ignores any attempts to tell it otherwise. 32-bit (PS4 format), specifically, and we want 64-bit. To fix this, you have two options:
+If you are building for XB1 players, a setting has to be manually patched to the 0x02 format. Set the first of the two options in the ini to 2 to make this work and build filtered for precombines.
 
-One would be hex editing the executable in a pair of places, the source of which I think is Searge *note: need to verify this*. The relevant places to edit with an appropriate hex editor are 0x34726D, change `B9 01 00 00 00` to `B9 00 00 00 00` or `B9 02 00 00 00` for 32-bit XB1 compatible meshes. Then repeat the same sequence at 0xDCAA76 and you are golden. *note: Expand this to a full hexedit tutorial*
-
-Users of the recently released Steam version of the CK will want to use the downgrade patcher on the same place you get CK Fixes as linked above.
-
-The alternative would be to obtain a recently released set of xEdit scripts by Searge, the link is above if you need them. Unpack CKPatcher.exe and run it in your Fallout 4 directory. If it was successful, you should see a 588MB sized patched CreationKit.patched.exe. Don't be too alarmed by the size. This patch greatly expands the record count and plugins the creation kit can handle, and does include the above hex edit. I'm personally using this in tandem with CKFixes 1.9 and it appears to work fine. Your mileage may vary.~~
-
-The above is no longer required if using a recent version of CKFixes. If you are building for XB1 players, a setting has to be manually patched to the 0x02 format. Perchik has been made aware and something a little more friendly will become available later on.
+- [Dev note: review past point, author is hungry]
 
 Now we are going to do a sanity check. Open your `Data` folder or Mod Organizer 2's `mods` folder and make absolutely sure that the texture .ba2 archives you need are activated. This means the archives for any mods you're using during previsibines generation, as well as all their masters. Optionally, create a `textmp` folder in `Data/` while you are here. The reason we do this sanity check is that if you don't have textures present during generation, the meshes tend to break in unexpected ways. This is a theme one will notice as they read this, as this isn't the only time.
 
