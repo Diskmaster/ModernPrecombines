@@ -1,3 +1,5 @@
+Developer note: This manual was originally created before the existence of PJM's xEdit script set that build 69 was built with, and should be referenced instead of this older document, at least until I get around to rewriting it. The link can be found a few paragraphs below.
+
 A small preface before I begin: I've never been that good at documenting in a clear and concise manner, so bear with me as I do my best to explain the process. This living manual is not going to be very pretty at this stage as my current goal is to explain the methods used as best I can to those that don't know that much on how to use the Creation Kit.
 
 To start, what are previsibines exactly?
