@@ -6,7 +6,7 @@ Before we get too in depth, there's a few things that need to happen to get your
 
  - A copy of the Creation Kit, version 1.10.162 as of this manual's current commit. You can obtain this [here](https://store.steampowered.com/app/1946160/Fallout_4_Creation_Kit/) in Steam along with Archive2 and associated tools for mod development. This manual assumes you have them installed and working correctly. The latest version that was available from Beth.net is also valid provided the version number is the same.
  - The latest xEdit / FO4Edit release, version 4.0.4 as of this commit. (PRP development used the 4.0.4c discord exclusive build for the minor bugfixes since.)
- - PJM's script pack which is hosted here. [TODO: Find out where PJM's putting the xEdit scripts we use for building.]
+ - PJM's script pack which can be downloaded [here](https://www.nexusmods.com/fallout4/mods/69978).
  - A decent amount of hard drive space, and more importantly, physical RAM, depending on the size of the project and how it's created. [The Previsibines Repair Pack](https://www.nexusmods.com/fallout4/mods/46403), my mod, took up to 126.6GB system commit (that's used RAM and swap file!) at full previs generation of the game and all DLC, UF4OP included.
 
 There's a set of optional scripts floating around that makes this easier to work with and I'll point out the options as they are relevant - this includes the previously mentioned pack above.
@@ -14,7 +14,7 @@ Also, I personally use [CK Fixes 2.0.1](https://www.nexusmods.com/fallout4/mods/
 
 If you are building for XB1 players, a setting has to be manually patched to the 0x02 format. Set the first of the two options in the ini to 2 to make this work and build filtered for precombines.
 
-- [Dev note: review past point, author is hungry]
+- [Dev note: need to review past point, author is hungry, if you need updated documentation now, there's an article on PJM's mod page that shows the basics or reference the patching guide for PRP as it's newer than what's below here.]
 
 Now we are going to do a sanity check. Open your `Data` folder or Mod Organizer 2's `mods` folder and make absolutely sure that the texture .ba2 archives you need are activated. This means the archives for any mods you're using during previsibines generation, as well as all their masters. Optionally, create a `textmp` folder in `Data/` while you are here. The reason we do this sanity check is that if you don't have textures present during generation, the meshes tend to break in unexpected ways. This is a theme one will notice as they read this, as this isn't the only time.
 
