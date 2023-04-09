@@ -1,4 +1,4 @@
-The known list of PRP patches are here. Send pull requests if you have them and are not on the list. I don't intend to keep very good track of branch versions for patches outside of my own. Users should check the mod pages accordingly and install the correct patch versions that match the PRP branch they are using.
+The known list of PRP patches are here. Send pull requests if you have them and are not on the list. I don't intend to keep very good track of branch versions for patches outside of my own. Users should check the mod pages accordingly and install the correct patch versions that match the PRP branch they are using. Also, I am terrible at Markdown, apparently.
 
 Last updated: 04 09 2023
 
@@ -6,7 +6,7 @@ Current available branches: 59, 65, 69 (**65 is the current recommended build**)
 
 Please note that unless a patch has been made against a patch, assume any external patch is not compatible with any others due to the way precombines are constructed. You can't just slap five compatibility patches together and make it work magically.
 
-- - BenRierimanu [PRP Dev](https://www.nexusmods.com/fallout4/mods/46403):
+- **BenRierimanu** [PRP Dev](https://www.nexusmods.com/fallout4/mods/46403)
 
 FOMOD Included (all three branches, these patches only change cell headers and can and will conflict with each other):
 - [Clarity 4.2 and 4.3 as seperate patches](https://www.nexusmods.com/fallout4/mods/31991)
