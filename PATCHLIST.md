@@ -19,8 +19,8 @@ FOMOD Included (all three branches, these patches only change cell headers and c
 - [JSRS Sound Mod, replaces Regions plugin](https://www.nexusmods.com/fallout4/mods/52931)
 
 External patches for interiors, version independent:
-- [Sim Settlements 2 Chapter 2 Interiors](https://www.nexusmods.com/fallout4/mods/55817) [Patch](https://www.nexusmods.com/fallout4/mods/57947)
-- [Vault 120 - 20 Leagues Under the Sea](https://www.nexusmods.com/fallout4/mods/58514) [Patch](https://www.nexusmods.com/fallout4/mods/58584)
+- [Sim Settlements 2 Chapter 2 Interiors](https://www.nexusmods.com/fallout4/mods/55817) --- [Patch](https://www.nexusmods.com/fallout4/mods/57947)
+- [Vault 120 - 20 Leagues Under the Sea](https://www.nexusmods.com/fallout4/mods/58514) --- [Patch](https://www.nexusmods.com/fallout4/mods/58584)
 
 External patches on PRP mod page:
 - Galac-Tac and Mercs and Music (as a combination) (65, 69)
