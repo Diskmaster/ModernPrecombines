@@ -215,7 +215,7 @@
       <EDID>SuperDuperMart01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Super-Duper Mart</Source>
-      <Dest>Супер-Дупер-Март</Dest>
+      <Dest>Супермаркет</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
@@ -689,7 +689,7 @@
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Подвал клуба любителей электротехники</Dest>
+      <Dest>Подвал клуба любителей электроники</Dest>
     </String>
     <String List="0">
       <EDID>GreenetechGenetics01</EDID>
