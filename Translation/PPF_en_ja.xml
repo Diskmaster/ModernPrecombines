@@ -11,13 +11,19 @@
       <EDID>DLC04ZooCageWallTallDoorSingle01</EDID>
       <REC>DOOR:FULL</REC>
       <Source>Cage Door</Source>
-      <Dest>檻の扉</Dest>
+      <Dest>オリの扉</Dest>
     </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Croup Manor Basement</Source>
       <Dest>クループ家の館の地下</Dest>
+    </String>
+    <String List="0">
+      <EDID>PrewarVault111</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 111</Source>
+      <Dest>Vault 111</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB05Int</EDID>
@@ -35,7 +41,7 @@
       <EDID>CambridgeMassChemical01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Chemical</Source>
-      <Dest>大量の薬品</Dest>
+      <Dest>マサチューセッツ・ケミカル</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VimPopFactory01</EDID>
@@ -96,6 +102,12 @@
       <REC>CELL:FULL</REC>
       <Source>The Mechanist&apos;s Lair</Source>
       <Dest>メカニストの隠れ家</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC03Vault118</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 118</Source>
+      <Dest>Vault 118</Dest>
     </String>
     <String List="0">
       <EDID>ParsonsState01</EDID>
@@ -239,13 +251,13 @@
       <EDID>EastBostonPrep01</EDID>
       <REC>CELL:FULL</REC>
       <Source>East Boston Preparatory School</Source>
-      <Dest>私立イーストボストン高校</Dest>
+      <Dest>プレップスクール</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vault-Tec:アマング・ザ・スター</Dest>
+      <Dest>Vaul-Tec:アモングスターズ</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborBobbisPlace</EDID>
@@ -338,6 +350,12 @@
       <Dest>メッドフォード記念病院</Dest>
     </String>
     <String List="0">
+      <EDID>Vault81</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 81</Source>
+      <Dest>Vault 81</Dest>
+    </String>
+    <String List="0">
       <EDID>FensParkviewApartments02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parkview Lounge</Source>
@@ -392,6 +410,12 @@
       <Dest>グインネット・レストラン</Dest>
     </String>
     <String List="0">
+      <EDID>Vault11402</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 114</Source>
+      <Dest>Vault 114</Dest>
+    </String>
+    <String List="0">
       <EDID>zLexingtonApartments</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Apartments</Source>
@@ -410,6 +434,12 @@
       <Dest>アパート</Dest>
     </String>
     <String List="0">
+      <EDID>Vault75</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 75</Source>
+      <Dest>Vault 75</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC04GZTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Starlight Interstellar Theater</Source>
@@ -425,7 +455,7 @@
       <EDID>BostonCommon02</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Boylston Club</Source>
-      <Dest>ボイルストンクラ</Dest>
+      <Dest>ボイルストン・クラブ</Dest>
     </String>
     <String List="0">
       <EDID>TheaterMassBayMedicalCenter02</EDID>
@@ -437,7 +467,7 @@
       <EDID>SouthBoston25</EDID>
       <REC>CELL:FULL</REC>
       <Source>Church</Source>
-      <Dest>教会</Dest>
+      <Dest>協会</Dest>
     </String>
     <String List="0">
       <EDID>GeneralAtomicsGalleria01</EDID>
@@ -566,6 +596,12 @@
       <Dest>ボストン市長用シェルター</Dest>
     </String>
     <String List="0">
+      <EDID>Vault95</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 95</Source>
+      <Dest>Vault 95</Dest>
+    </String>
+    <String List="0">
       <EDID>WestonWaterTreatment01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Weston Water Treatment Plant</Source>
@@ -594,6 +630,12 @@
       <REC>CELL:FULL</REC>
       <Source>Virgil&apos;s Laboratory</Source>
       <Dest>バージルの研究所</Dest>
+    </String>
+    <String List="0">
+      <EDID>Vault81Entry</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 81</Source>
+      <Dest>Vault 81</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GrandchesterMansion01</EDID>
@@ -629,7 +671,7 @@
       <EDID>FallonsDepartmentStore01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fallon&apos;s Department Store</Source>
-      <Dest>ファロンデパート</Dest>
+      <Dest>ファロン・デパート</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonReservoir01</EDID>
@@ -707,13 +749,13 @@
       <EDID>DLC06VaultWorkshop</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 88</Source>
-      <Dest>88 金庫</Dest>
+      <Dest>Vault 88</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Court</Source>
-      <Dest>キング・コーラのコート</Dest>
+      <Dest>キング・コーラの宮廷</Dest>
     </String>
     <String List="0">
       <EDID>HardwareTown01</EDID>
@@ -731,7 +773,7 @@
       <EDID>Commonwealth</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Commonwealth</Source>
-      <Dest>コモンウェルス</Dest>
+      <Dest>連邦</Dest>
     </String>
     <String List="0">
       <EDID>DiamondCity</EDID>
