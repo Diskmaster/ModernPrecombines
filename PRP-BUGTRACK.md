@@ -20,19 +20,29 @@ Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle
 
 Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
 
+Known issues that can't be fixed by me at this time (mesh related):
+
+
+
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicated object reference at the same exact position in the associated plugin master file:
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-69 and newer
+70 and newer
+
+- New\ \[Various\] Mesh updates from Glitchfinder, Exoclyps, and Pra, see git commit IDs a7beb7a, b68a0d7, 7aa2aa3, and 818bb0b for specifics. In the case of Pra's Mesh Bound Fixes, temporary until they get accepted upstream.
+- New\ \[-7, -5, CW\] The building hole nearest 1B50BA needs filled. Added new DecoMainA1x1Wall01 ref to cover it up. Found by ShadowoftheWind (CRP dev) [Dev: File bug to upstream]
+- New\ \[21, 18, CW\] Fix 1AB0B6 positioning, as it appears perpendicular to the wall.
+- New\ \[1, 4, CW\] Update ref type for 17B565 and 17B567 from DecoMainC1x1WinA02Full01 to DecoMainC1x1WinA02Full02 to correct a window that shouldn't be able to be seen through.
+- New\ \[3, 1, CW\] 169F5B needs grounded to properly serve it's purpose as a broken base of a lamp. Also slap down a new RWPieceWallAStr01 to cover up a mesh piece that's sticking out nearby. [Dev: Another one to upstream, the wall addition anyway]
+
+
+
+69
 
 - New\ \[Import\] Updated RR floor mesh contributed by Sakamoto-San in discord as per https://discord.com/channels/830436661736243230/954847055824687215/1075829817464868907. As per their description: The mesh is not linked to the material file and the specular map is not assigned in the material too, leading to a reflective/wet floor
 - New\ \[Various in FH\] Import the removed placement fixes from UF4OP that got removed as a result of U31597 (as of 2.1.5)
 - New\ \[Various\] Correctly push forward place name changes in UF4OP that somehow got overwritten, translators may have to review this.
-- TODO\ \[-7, -5, CW\] The building hole nearest 1B50BA needs filled. Most likely another DecoMainA1x1Wall01 would suffice here, to be determined. Found by ShadowoftheWind (CRP dev)
-
-67 (Beta)
-
 - 🟩 \[Various\] Import contributed meshes from ossompossum (deadshrub01-05.nif)
 - 🟩 \[13, 9, CW\] Dedup 0020FFBB, 0020FFBA, 0020FFB9, 0020FFB8, 0020FFB7, 0020FFB6, 0020FFB5, 0020FFB4, 0020FFB3, 0020FFB2, 0020FFB1, 0020FFB0, 0020FFAF, 0020FFAE, 0020FFAD, 0020FFAB, 0020FFAA, 0020FFA8, 0020FFA7, 0020FF46, 0020FF4A, 0020FF49, 0020FF48, 0020FF47, 0020FF46, 0020FF45, 0020FF44, 0020FF43, 0020FF42, 0020FF41, 0020FF40, 0020FF3F, 0020FF3E, 0020FF3D, 0020FF3C, 0020FF3B, 0020FF3A, 0020FF39, 0020FF38, 0020FF37, 0020FF36, 0020FF35
 - 🟩 \[10, 25, CW\] Dedup 001F03C3, 001F03C4
