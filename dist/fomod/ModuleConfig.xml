@@ -1489,9 +1489,6 @@
 					<flagDependency flag="PRP Selected English" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1504,52 +1501,10 @@
 					<flagDependency flag="PPF Selected English" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
 					<file source="01 English\PPF.esm" destination="PPF.esm" priority="0"/>
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="PPF Selected EnglishVR" value="On"/>
-				</dependencies>
-				<files>
-					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
-					<file source="01 EnglishVR\PPF.esm" destination="PPF.esm" priority="0"/>
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="PRP Selected EnglishVR" value="On"/>
-				</dependencies>
-				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
-					<file source="01 EnglishVR\PRP.esp" destination="PRP.esp" priority="0"/>
-					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
-					<file source="01 EnglishVR\PPF.esm" destination="PPF.esm" priority="0"/>
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="PRP Selected EnglishVR" value="On"/>
-					<flagDependency flag="PPF Selected EnglishVR" value="On"/>
-				</dependencies>
-				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
-					<file source="01 EnglishVR\PRP.esp" destination="PRP.esp" priority="0"/>
-					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
-					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
-					<file source="01 EnglishVR\PPF.esm" destination="PPF.esm" priority="0"/>
 				</files>
 			</pattern>
 			<pattern>
@@ -1567,9 +1522,6 @@
 					<flagDependency flag="PRP Selected Spanish" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1582,9 +1534,6 @@
 					<flagDependency flag="PPF Selected Spanish" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1606,9 +1555,6 @@
 					<flagDependency flag="PRP Selected Italian" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1621,9 +1567,6 @@
 					<flagDependency flag="PPF Selected Italian" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1645,9 +1588,6 @@
 					<flagDependency flag="PRP Selected Portuguese" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1660,9 +1600,6 @@
 					<flagDependency flag="PPF Selected Portuguese" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1684,9 +1621,6 @@
 					<flagDependency flag="PRP Selected French" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1699,9 +1633,6 @@
 					<flagDependency flag="PPF Selected French" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1723,9 +1654,6 @@
 					<flagDependency flag="PRP Selected Polish" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1738,9 +1666,6 @@
 					<flagDependency flag="PPF Selected Polish" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1762,9 +1687,6 @@
 					<flagDependency flag="PRP Selected SChinese" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1777,9 +1699,6 @@
 					<flagDependency flag="PPF Selected SChinese" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1801,9 +1720,6 @@
 					<flagDependency flag="PRP Selected Japanese" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1816,9 +1732,6 @@
 					<flagDependency flag="PPF Selected Japanese" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1840,9 +1753,6 @@
 					<flagDependency flag="PRP Selected Russian" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1855,9 +1765,6 @@
 					<flagDependency flag="PPF Selected Russian" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1869,9 +1776,6 @@
 					<flagDependency flag="PRP Selected German" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 German\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
@@ -1884,9 +1788,6 @@
 					<flagDependency flag="PPF Selected German" value="On"/>
 				</dependencies>
 				<files>
-					<file source="02 Universal\PRP - Geometry.csg" destination="PRP - Geometry.csg" priority="0"/>
-					<file source="02 Universal\PRP - Main.ba2" destination="PRP - Main.ba2" priority="0"/>
-					<file source="02 Universal\PRP.cdx" destination="PRP.cdx" priority="0"/>
 					<file source="01 German\PRP.esp" destination="PRP.esp" priority="0"/>
 					<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
 					<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
