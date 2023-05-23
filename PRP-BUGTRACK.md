@@ -36,7 +36,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New\ \[1, 4, CW\] Update ref type for 17B565 and 17B567 from DecoMainC1x1WinA02Full01 to DecoMainC1x1WinA02Full02 to correct a window that shouldn't be able to be seen through.
 - New\ \[3, 1, CW\] **U32905** 169F5B needs grounded to properly serve it's purpose as a broken base of a lamp. Also slap down a new RWPieceWallAStr01 to cover up a mesh piece that's sticking out nearby.
 - New\ \[Fill me in\] **U32930** 13BC19 and 13BC1D position needs tuned to resolve z-flicker.
-
+- New\ \[Various\] Ossumpossum added a specular map to a set of railing meshes and these updated meshes will be considered in the next update for inclusion for building. This adds a new texture to the archive.
 
 69
 
