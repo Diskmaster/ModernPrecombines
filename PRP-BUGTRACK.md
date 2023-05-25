@@ -37,6 +37,14 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New\ \[3, 1, CW\] **U32905** 169F5B needs grounded to properly serve it's purpose as a broken base of a lamp. Also slap down a new RWPieceWallAStr01 to cover up a mesh piece that's sticking out nearby.
 - New\ \[Fill me in\] **U32930** 13BC19 and 13BC1D position needs tuned to resolve z-flicker.
 - New\ \[Various\] Ossumpossum added a specular map to a set of railing meshes and these updated meshes will be considered in the next update for inclusion for building. This adds a new texture to the archive.
+- New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize.
+- New\ \[6, -5, CW\] Fix position of 1BD2E7 to correct z-fighting with it's neighbor, lower 001F904D down to make the trash pile less floaty, 
+- New\ \[7, -6, CW\] Rounded 001B9ECC and 001B9ECA to hopefully fix a previs hole.
+- New\ \[7, -6, CW\] **Forward** 001B9EE7 needs moved to not be sunken into the ground. I'm not familiar with these nodes, so new position is a guess.
+- New\ \[6, -6, CW\] **Forward** 001B9EEB needs moved as the IdleMarker appears to be embedded halfway into the nearby fountain, and that's just not a good thing.
+- Pending\ \[6, -6, CW\] 0017F081 might need base model swapped to the no grate version to fix a lighting calculation issue. To be determined, as need to look ingame for this.
+- Pending\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
+
 
 69
 
