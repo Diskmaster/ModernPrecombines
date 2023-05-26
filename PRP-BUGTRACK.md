@@ -40,11 +40,11 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize.
 - New\ \[6, -5, CW\] Fix position of 1BD2E7 to correct z-fighting with it's neighbor, lower 001F904D down to make the trash pile less floaty, 
 - New\ \[7, -6, CW\] Rounded 001B9ECC and 001B9ECA to hopefully fix a previs hole.
-- New\ \[7, -6, CW\] **Forward** 001B9EE7 needs moved to not be sunken into the ground. I'm not familiar with these nodes, so new position is a guess.
-- New\ \[6, -6, CW\] **Forward** 001B9EEB needs moved as the IdleMarker appears to be embedded halfway into the nearby fountain, and that's just not a good thing.
-- Pending\ \[6, -6, CW\] 0017F081 might need base model swapped to the no grate version to fix a lighting calculation issue. To be determined, as need to look ingame for this.
+- New\ \[6, -6, CW\] 0017F081 might need base model swapped to the no grate version to fix a lighting calculation issue. To be determined, as need to look ingame for this.
 - Pending\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
-
+- New\ \[6, -6, CW\] Tune positions of 001FF0A2, 001BD310, 001BD311, 00205630, 00205632, 00205631, and 001FF0A3 to fix rust stains bleeding into thin air.
+- New\ \[7, -6, CW\] Swap base defines of 001BD30E and 001BD30F, Also lower 00210627 to the ground.
+- 
 
 69
 
