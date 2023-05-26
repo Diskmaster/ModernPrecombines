@@ -22,13 +22,15 @@ Models in the Meshes/ folder have been contributed from everyone listed on the m
 
 Known issues that can't be fixed by me at this time (mesh related):
 
-
-
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicated object reference at the same exact position in the associated plugin master file:
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-70 and newer
+71 and newer
+
+- Pending\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
+
+70
 
 - New\ \[Various\] Mesh updates from Glitchfinder, Exoclyps, and Pra, see git commit IDs a7beb7a, b68a0d7, 7aa2aa3, and 818bb0b for specifics. In the case of Pra's Mesh Bound Fixes, temporary until they get accepted upstream.
 - New\ \[-7, -5, CW\] **U32904** The building hole nearest 1B50BA needs filled. Added new DecoMainA1x1Wall01 ref to cover it up. Found by ShadowoftheWind (CRP dev)
@@ -41,10 +43,8 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New\ \[6, -5, CW\] Fix position of 1BD2E7 to correct z-fighting with it's neighbor, lower 001F904D down to make the trash pile less floaty, 
 - New\ \[7, -6, CW\] Rounded 001B9ECC and 001B9ECA to hopefully fix a previs hole.
 - New\ \[6, -6, CW\] 0017F081 might need base model swapped to the no grate version to fix a lighting calculation issue. To be determined, as need to look ingame for this.
-- Pending\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
 - New\ \[6, -6, CW\] Tune positions of 001FF0A2, 001BD310, 001BD311, 00205630, 00205632, 00205631, and 001FF0A3 to fix rust stains bleeding into thin air.
 - New\ \[7, -6, CW\] Swap base defines of 001BD30E and 001BD30F, Also lower 00210627 to the ground.
-- 
 
 69
 
