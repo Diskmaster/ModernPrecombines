@@ -1,0 +1,242 @@
+|   meshlist
+|   
++---Architecture
+|   +---Airport
+|   |       AirportTerminalEnd01.nif
+|   |       AirportTerminalEnd02.nif
+|   |       AirportTerminalEnd03.nif
+|   |       AirportTerminalEnd04.nif
+|   |       AirportTerminalMid01.nif
+|   |       AirportTerminalMid02.nif
+|   |       AirportTerminalMid03.nif
+|   |       AirportTower01.nif
+|   |       AirportTunnel01.nif
+|   |       AirportTunnel02.nif
+|   |       
+|   +---Buildings
+|   |   |   Bld02FrontBrickCom02.nif
+|   |   |   Bld03CornerBrickCom02.nif
+|   |   |   Bld03CornerBrickCom03.nif
+|   |   |   Bld03FrontBrickRes01.nif
+|   |   |   Bld03FrontBrickRes03.nif
+|   |   |   Bld04Corner30BrickRes01.nif
+|   |   |   Bld04CornerBrickCom03.nif
+|   |   |   Bld04FrontBrickCom01.nif
+|   |   |   Bld04FrontBrickCom02.nif
+|   |   |   Bld04FrontBrickCom02R.nif
+|   |   |   Bld04FrontBrickCom03.nif
+|   |   |   Bld04FrontBrickRes02.nif
+|   |   |   Bld04FrontBrickRes03.nif
+|   |   |   Bld04FrontBrickRes06.nif
+|   |   |   Bld05BackBrickRes05.nif
+|   |   |   Bld05CornerBrickCom01.nif
+|   |   |   BldgBrick4Story2x2CornerResEntA.nif
+|   |   |   BldgBrick4Story2x2ResEntA.nif
+|   |   |   BldgBrick5Story1x2ComA.nif
+|   |   |   BldgBrick7Story3x5FreeComEntA.nif
+|   |   |   BldgBrick7Story3x5FreeComEntA_Mesh.nif
+|   |   |   
+|   |   +---DecoKit
+|   |   |   \---DecoStreaks
+|   |   |           CamBldStreak01.nif
+|   |   |           
+|   |   +---HouseKit
+|   |   |       HouseKGrndAddonDeck01.nif
+DecoHouseRuin04, HouseKPreFabMedDamFront01, HouseKPreFabMed02, HouseKPreFabMed01, HouseKPreFabLrg01, CoastHouseRemnants02
+|   |   |       HouseKGrndAddonDeckKRoofEndL01.nif
+DecoHouseRes04, 02, 01, DecoHouseRuin02, HouseKPreFabSm01, MedDam02, MedDam01, RowDam01
+|   |   |       HouseKGrndAddonDeckKRoofEndR01.nif
+^
+|   |   |       HouseKGrndAddonGarage01.nif
+|   |   |       HouseKGrndAddonRoom01.nif
+HouseKPreFabSm01, Lg01
+|   |   |       HouseKGrndFrameA01.nif
+HouseKPreFabMed02, Med02, Lrg01
+|   |   |       HouseKGrndFrameA01Back01.nif
+HouseKPreFabMedDam01, RowDam01
+|   |   |       HouseKGrndFrameA01Back01Dam01.nif
+HouseKPreFabRemnants01
+|   |   |       HouseKGrndFrameA01Front01.nif
+HouseKPreFabMedDamFront01
+|   |   |       HouseKGrndFrameA01Front01Dam01.nif
+HouseKPreFabRemnants01, MedDam01, RowDam01
+|   |   |       HouseKGrndFrameA02.nif
+HouseKPreFabRowDam01
+|   |   |       HouseKGrndFrameA03.nif
+HouseKPreFabSm01, MedDam02
+|   |   |       HouseKGrndFrameA04.nif
+|   |   |       HouseKGrndFrameABasement01.nif
+|   |   |       HouseKRoof4WayIntact01.nif
+|   |   |       HouseKRoofEnd01.nif
+HouseKPreFabSm01, Med01, Lrg01
+|   |   |       HouseKRoofEnd02.nif
+HouseKPreFabRowDam01, Lrg01
+|   |   |       HouseKUpprAddonRoom01.nif
+HouseKPreFabLrg01
+|   |   |       HouseKUpprFrameA01.nif
+Med02, Med01, Lrg01
+|   |   |       HouseKUpprFrameA01Back01.nif
+RowDam01
+|   |   |       HouseKUpprFrameA01Back01Dam01.nif
+MedDam02, MedDam01, RowDam01
+|   |   |       HouseKUpprFrameA01Front01.nif
+MedDamFront01
+|   |   |       HouseKUpprFrameA01Front01Dam01.nif
+MedDam02, RowDam01
+|   |   |       
+|   |   +---Metal
+|   |   |       MetalAddAwnARoofEndCap02.nif
+|   |   |       
+|   |   +---Residential
+|   |   |       Res01ModernDormer01RR.nif
+|   |   |       
+|   |   \---SmallTown
+|   |           Bld02FrontBrickACom01R.nif
+|   |           Bld02FrontSidingACom04.nif
+ConcordBlock03, Block02
+|   |           Bld03FreeSidingARes04.nif
+
+|   |           
+|   +---DiamondCity
+|   |   \---ShackRV_Ext
+|   |           DiamondShack01.nif
+|   |           
+|   +---Shacks
+|   |       ShackStairs01.nif
+DN76Ship7, MiscShip, Ship4, Ship2, Ship11, Ship1
+|   |       ShackStairs02.nif
+DN76Ship6, Ship7, Ship8, Ship4, MiscShip
+|   |       
+|   \---Unique
+|       +---Bridge01
+|       |       Bridge01Drawbridge01RR.nif
+
+|       |       Bridge01Mid01RR.nif
+|       |       Bridge01MidEndDB.nif
+|       |       Bridge01MidRubbleEndL02.nif
+|       |       Bridge01MidRubbleEndR02.nif
+|       |       
+|       \---Cabins
+|               Cabin01.nif
+|               
++---DLC03
+|   \---Architecture
+|       \---Hotel
+|           |   HotelEntranceA.nif
+|           |   HotelExtWallWinCurveCustomB.nif
+|           |   HotelExtWindowTallA.nif
+|           |   HotelExtWindowTallA_DmgA.nif
+|           |   HotelExtWindowTallA_DmgB.nif
+|           |   HotelExtWindowTallA_Glass.nif
+|           |   HotelIntWallA_DoubleWinSlantIn.nif
+|           |   HotelIntWallA_WinA.nif
+|           |   HotelIntWallA_WinSlantInDmgA.nif
+|           |   HotelIntWallA_WinSlantInDmgB.nif
+|           |   HotelIntWallTallA_WinA.nif
+|           |   HotelIntWallTallA_WinADmgA.nif
+|           |   HotelIntWallTallA_WinADmgB.nif
+|           |   HotelIntWallTallA_WinADouble.nif
+|           |   HotelLobbyRingWindowA.nif
+|           |   HotelLobbyRingWindowA_DmgA.nif
+|           |   HotelLobbyRingWindowA_Half.nif
+|           |   HotelLobbyWallCustomA.nif
+|           |   HotelLobbyWallCustomA_Glass.nif
+|           |   HotelLobbyWallCustomB.nif
+|           |   HotelRestRingLowerAGlass.nif
+|           |   HotelRestRingLowerAGlass_DmgA.nif
+|           |   HotelRestRingLowerAGlass_DmgB.nif
+|           |   HotelRestRingUpper_WinA.nif
+|           |   HotelRestRingUpper_WinADmgA.nif
+|           |   HotelRestRingUpper_WinADmgB.nif
+|           |   
+|           \---Custom
+|                   HotelIntWallA_WinSlantIn.nif
+|                   HotelIntWallCurve512Tall_WinA.nif
+|                   HotelIntWallCurve512_WinA.nif
+|                   HotelIntWallCurve512_WinB.nif
+
++---Interiors
+|   +---RedRocket
+|   |       RedRExt_Workshop02.nif
+|   |       
+|   \---Vault
+|       \---Vault111
+|           \---SetDressing
+|                   V111SafetyPosterSmall01.nif
+|                   
++---Landscape
+|   +---GuardRails
+|   |       GRailRWCurveOut1280Up176.nif
+|   |       GRailRWCurveOut768Up128L.nif
+|   |       GRailRWCustomBridgeEndL.nif
+|   |       GRailRWStr1024Shift128R.nif
+|   |       GRailRWStr512.nif
+|   |       GRailRWStr512Broken01.nif
+|   |       
+|   +---plants
+|   |       deadshrub01.nif
+|   |       deadshrub02.nif
+|   |       deadshrub03.nif
+RoadSCSmall02, DLC04_ShrubGroupSM03
+|   |       deadshrub05.nif
+RoadSCMed12, DLC04_ShrubGroupLG02, MD01
+|   |       deadshrub06.nif
+DLC04_ShrubGroupLG01
+|   |       
+|   +---RetainingWall
+|   |   \---Residential
+|   |           RWPieceRailAPost01.nif
+LoadScreen_DLC03SettlementNucleus02/04
+|   |           RWPieceRailARail01.nif
+|   |           RWPieceRailARail01BrknL01.nif
+|   |           RWPieceRailARail01BrknR01.nif
+|   |           RWPieceRailARailCor01.nif
+|   |           RWPieceRailARailCurveFree01L.nif
+|   |           RWPieceRailARailCurveFree01R.nif
+|   |           RWPieceRailARailEndL01.nif
+|   |           RWPieceRailARailEndL02.nif
+|   |           RWPieceRailARailEndR01.nif
+|   |           RWPieceRailARailEndR02.nif
+|   |           RWPieceRailARailRoundIn02.nif
+|   |           
+|   \---Roads
+|       +---Raised
+|       |       RoadRaised1Way01.nif
+|       |       RoadRaised1WayA.nif
+|       |       RoadRaised1WayB.nif
+|       |       RoadRaisedCurb02A.nif
+|       |       RoadRaisedEndA.nif
+|       |       RoadRaisedRampA.nif
+|       |       RoadRaisedRampCurbA.nif
+|       |       RoadRaisedRound.nif
+|       |       
+|       \---River
+|               RRoadCurveCustom01.nif
+|               RRoadCurveCustom02.nif
+|               RRoadCurveCustom03.nif
+|               RRoadCurveCustom04.nif
+|               RRoadCurveCustom05.nif
+|               RRoadCurveCustom07.nif
+|               RRoadCurveCustom08.nif
+|               RRoadCurveCustom09.nif
+|               RRoadCurveCustom10.nif
+|               RRoadCurveCustom11.nif
+|               
+\---SetDressing
+    +---Habitat
+    |       SuperMutantCampSpikePile01.nif
+	|       SuperMutantCampSpikePile02.nif
+    |       
+    +---IndMachines
+    |       ValvePlain01.nif
+	Machine_Poseidon02, 01, Bowling02, Reactor03, Water_tester01, Bowling01, IndustrialMachine44, 44A, 45, 45A, 45B, DLC01_CCmachPartA_01, PartB_01, DLC01_Lair_Machine21alt, DLC01_Lair_RoboPipes_001, DLC01_Lair_pipe10, DLC01_Lair_pipe02, DLC01_Lair_pipe07, DLC01_LayerWall02, DLC01_Lair_Machine10, DLC01_Lair_Machine21, DLC06WaterPumpPart01, DLC06WaterPumpComplete01, DLC06WaterPumpPArtJ01, DLC06WaterPumpPartF01, B03, B02, B01, C01, Machine_Reactor03_Cheap_BP_DLC04, DLC04_IndustrialMachine51, DLC04_IndustrialMachine50
+    |       
+    +---MachineKit
+    |   \---MachineParts
+    |           MacConBreakerBox03.nif
+	MemoryDenLS, zfgbn, IndustrialGreeb01, POIDL009_PropaneDispenser, IndustrialMachine19, 16, 01, DLC01_Lair_Machine45
+    |           
+    +---Signage
+    |       BillboardBldgVerticalSm03.nif
+
+            
