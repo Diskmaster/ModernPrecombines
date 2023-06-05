@@ -45,6 +45,9 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 - New\ \[6, -6, CW\] 0017F081 might need base model swapped to the no grate version to fix a lighting calculation issue. To be determined, as need to look ingame for this.
 - New\ \[6, -6, CW\] Tune positions of 001FF0A2, 001BD310, 001BD311, 00205630, 00205632, 00205631, and 001FF0A3 to fix rust stains bleeding into thin air.
 - New\ \[7, -6, CW\] Swap base defines of 001BD30E and 001BD30F, Also lower 00210627 to the ground.
+- New\ \[7, -5, CW\] Designate 1BB3FB as NoPrecombine (Glitchfinder import)
+- New\ \[6, -5, CW\] Additional object moves. D0233, 20557A, 205582, 205583, add new HitExtACapLongTop01 (Glitchfinder import)
+- New\ \[6, -6, CW\] Various object moves to fix up Shamrock Taphouse's roof. Refs 1BB389, 1BB38E, 1BB38F, 1BB390, 1BB396, 1BB397, 1BB398, 1BB399, 1BB39A, 1BB39B, 1BB39D, 1BB39E, 1BB39F, 1BB3A0, 1BB3A1, 1BB3A2, 1BB3A7, 1BB3A9, 1BB3AA, 1BB3AE, 1BB3AF, 1BB3FD. Also add missing CapLongTop01 refs as needed (Glitchfinder import)
 
 69
 
