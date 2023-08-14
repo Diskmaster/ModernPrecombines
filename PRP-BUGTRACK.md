@@ -26,9 +26,19 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-71 and newer
+Queued
 
-- Pending\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
+- New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
+- New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
+
+72 and newer
+
+- New\ 
+- New\ \[2, 7, CW\] Adjust position of 15C38A to stop clipping through the neighboring console.
+- New\ \[BostonMayoralShelter01\] Fix position of 20B193, 20B194, and 20B195 to prevent y-fighting (no, you aren't misreading this, it's not z-fighting, it's a Y-AXIS conflict)
+- New\ \[1, 11, CW\] Lower 7EDED to close some shitty construction work in the settlement.
+- New\ \[8, 0, CW\] Reset scale on 0019DE07 to fix the world holes the smaller size was showing.
+- New\ \[FourLeafFishpacking01\] 0010F3A0 needed moved to fix a hole in the interior's room ceiling.
 
 70
 
