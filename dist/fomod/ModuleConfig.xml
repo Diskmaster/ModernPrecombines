@@ -117,7 +117,7 @@
 								<flag name="PPF Selected English">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -127,7 +127,7 @@
 								<flag name="PRP Selected English">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -254,7 +254,7 @@
 								<flag name="PPF Selected Spanish">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -264,7 +264,7 @@
 								<flag name="PRP Selected Spanish">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -391,7 +391,7 @@
 								<flag name="PPF Selected Italian">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -401,7 +401,7 @@
 								<flag name="PRP Selected Italian">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -528,7 +528,7 @@
 								<flag name="PPF Selected Portuguese">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -538,7 +538,7 @@
 								<flag name="PRP Selected Portuguese">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -665,7 +665,7 @@
 								<flag name="PPF Selected French">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -675,7 +675,7 @@
 								<flag name="PRP Selected French">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -802,7 +802,7 @@
 								<flag name="PPF Selected Polish">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -812,7 +812,7 @@
 								<flag name="PRP Selected Polish">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -939,7 +939,7 @@
 								<flag name="PPF Selected SChinese">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -949,7 +949,7 @@
 								<flag name="PRP Selected SChinese">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -1076,7 +1076,7 @@
 								<flag name="PPF Selected Japanese">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -1086,7 +1086,7 @@
 								<flag name="PRP Selected Japanese">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -1213,7 +1213,7 @@
 								<flag name="PPF Selected Russian">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -1223,7 +1223,7 @@
 								<flag name="PRP Selected Russian">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -1350,7 +1350,7 @@
 								<flag name="PPF Selected German">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
@@ -1360,7 +1360,7 @@
 								<flag name="PRP Selected German">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
