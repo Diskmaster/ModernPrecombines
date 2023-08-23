@@ -33,7 +33,25 @@ Queued
 
 72 and newer
 
-- New\ 
+
+- New\ \[18, -5, CW\] Lower 1de980 to the ground like it's supposed to be.
+- New\ \[TheaterHub360\] Resolve z-fighting for 226299 and 22627E
+- New\ \[1, -19, CW\] Fix angle of 230D45 stain.
+- New\ \[-6, -7, CW\] Fix angle of C94DE and C94DC to fix a few floor seams, among others in the area.
+- New\ \[NationalGuardTrainingYard02\] Move 707D0 so it's not intersecting rubble.
+- New\ \[-7, 27, CW\] Fix 239579 Rust bounds, also tune 365CD to make an edge Umbra case go away.
+- New\ \[BostonPublicLibrary02\] Move a worthless burnt magazine out from under a debris pile so it can be recycled. 15DD83
+- New\ \[-6, -4, CW\] Resolve an OSHA violation (z-fight) for 1B396F
+- New\ \[VaultTecOffice01\] Scale up 8F07D slightly to resolve z-fighting with it's neighbor 8F058 and it's reference group elevator parts. Also, round positions. This one may need tuned later.
+- New\ \[VaultTecOffice01\] Fix 496C2 (Poster)'s rotation on the Y axis to fix it from disappearing at certain angles.
+- New\ \[CambridgeCollegeAdminBuilding\] Update 23B0F9 wall stain to stop angle-fighting (disappearing on approach)
+- New\ \[CambridgePolymerLabs01\] Slightly shift the quartet of file cabinets (573D7, D9, D8, and DD) to remove wall z-fighting.
+- New\ \[-23, -1, CW\] Another landscape seam to patch near the road to Fort Hagen.
+- New\ \[-19, 22, CW (pending)\] Fix a landscape tear just below the Sanctuary bridge.
+- New\ \[-25, -1, CW\] Fix the Fort Hagen Satellite Array landscape tear now that I know how to do it, also disable 07393A09 (the ref UF4OP added with bug 32372 that I suggested to cover up the problem)
+- New\ \[-8, 2, CW\] Slightly shift 532E4 to fix tiny z-fighting with the doorway position.
+- New\ \[ArcjetSystems01\] Fix z-fighting with DD183 debris, also 5456F for the same.
+- New\ \[2, 6, CW\] Update POS of 166209 to fix a misalignment.
 - New\ \[2, 7, CW\] Adjust position of 15C38A to stop clipping through the neighboring console.
 - New\ \[BostonMayoralShelter01\] Fix position of 20B193, 20B194, and 20B195 to prevent y-fighting (no, you aren't misreading this, it's not z-fighting, it's a Y-AXIS conflict)
 - New\ \[1, 11, CW\] Lower 7EDED to close some shitty construction work in the settlement.
