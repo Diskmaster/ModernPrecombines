@@ -33,7 +33,14 @@ Queued
 
 72 and newer
 
-
+- New\ \[Various\] Imported all applicable CC changes to vanilla records to prevent CC breaking specific interiors.
+- New\ \[4, 0, CW\] Fix 1C7283 position, Also, 000C467B; 000C467A; 000C4679; 000C4678; 000C4677; 00067311; 00067310; 0006730F; 0006730E; 0006730D; 000C467C; 00067324; 00067323; 00067322; 00067321; 00067320; 0006731F; 0006731E; 0006731D; 00067319; 00067318; 00067317; 00067316
+- New\ \[-10, 14, CW\] Fix floating Ashtray 347FF, needs forwarding to UF4OP
+- New\ \[AtomatoysCorporateHQ01\] Adjust EE899 in the ~~alicorn~~ horse robot factory to stop more z-fighting
+- New\ \[GoodneighborTheMemoryDen\] Adjust 10AFB9 to fix debris z-fighting.
+- Changed\ \[-3, -4, CW\] Adjust 1B61EC height and revert 1132f7 move. That one corner's going to be left as a construction failure for now.
+- New\ \[Vault114\] Nudge 7BF8E to hopefully resolve an umbra calculation error.
+- New\ \[5, -7, CW\] Nudge ACCC5 to resolve both z-fighting and a building gap nearby.
 - New\ \[18, -5, CW\] Lower 1de980 to the ground like it's supposed to be.
 - New\ \[TheaterHub360\] Resolve z-fighting for 226299 and 22627E
 - New\ \[1, -19, CW\] Fix angle of 230D45 stain.
@@ -1147,7 +1154,7 @@ Queued
 - \[PRP\] 4, -4 GN: 2066DD deduplicated.
 - \[PRP\] -24, 22 SHW: 122723 and 17FDDF Deduplicated.
 - \[PRP\] -3, -4 CW: Moved 1B6201 and associated objects on shelving to not clobber nearby flooring. Also UDR'd 1B61E5 (duplicate)
-- \[PRP\] -3, -4 CW: Raised 1132F7, 1132F6, 1B6224 and 1B6239 to counteract a visible hole in the furniture. Nearby 1B61EC and 1B6203 were also shifted to make the higher position more easily attainable by walking.
+- \[PRP\] -3, -4 CW: Raised ~~1132F7~~, 1132F6, 1B6224 and 1B6239 to counteract a visible hole in the furniture. Nearby 1B61EC and 1B6203 were also shifted to make the higher position more easily attainable by walking.
 - \[PRP\] 7, 12 CW: 1B4789 Hard to see NFoothillsShrubLarge01 badly placed and repositioned.
 - \[PRP\] AtomatoysFactoryExt03: 49E3D, 49E4C, 49E4D, 49ED9 Fixed position of pipes to stop occlusion confusion when looking between them. Thanks to Zaw (Horizon) for bringing it to my attention.
 - \[PRP\] DLC04BottlingPlant01: Clear out about 45 or so invalid XRFG \(Reference Group\) entries that the CK did automatically in previous builds, otherwise leaves the area unchanged.
