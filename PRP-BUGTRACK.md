@@ -26,13 +26,19 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-Queued
+TODO
 
+- New\ \[???\] I remember a mesh that had bad occlusion that I need to find and tag non-occlude.
 - New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
 - New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
+- New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
 
-72 and newer
+72
 
+- New\ \[1, 2, CW\] Cap a building hole with a DecoMainA1x2WinB01CapTop01 [todo: file bug upstream]
+- New\ \[Various\] New contributed model fixes. (RedR_SmBldg01_PumpMeterFREE01/02.nif, VltLGHallHalf01.nif, FancyLightSingleOff01.nif)
+- New\ \[CambridigePlumbing01\] Add WrhsMainLoftCatwalk meshes to non-occluder list.
+- New\ \[MassPikeTunnel01\] F1333 and five other shelves were rounded to satisfy umbra.
 - New\ \[Various\] Imported all applicable CC changes to vanilla records to prevent CC breaking specific interiors.
 - New\ \[4, 0, CW\] Fix 1C7283 position, Also, 000C467B; 000C467A; 000C4679; 000C4678; 000C4677; 00067311; 00067310; 0006730F; 0006730E; 0006730D; 000C467C; 00067324; 00067323; 00067322; 00067321; 00067320; 0006731F; 0006731E; 0006731D; 00067319; 00067318; 00067317; 00067316
 - New\ \[-10, 14, CW\] Fix floating Ashtray 347FF, needs forwarding to UF4OP
@@ -64,9 +70,6 @@ Queued
 - New\ \[1, 11, CW\] Lower 7EDED to close some shitty construction work in the settlement.
 - New\ \[8, 0, CW\] Reset scale on 0019DE07 to fix the world holes the smaller size was showing.
 - New\ \[FourLeafFishpacking01\] 0010F3A0 needed moved to fix a hole in the interior's room ceiling.
-
-70
-
 - New\ \[Various\] Mesh updates from Glitchfinder, Exoclyps, and Pra, see git commit IDs a7beb7a, b68a0d7, 7aa2aa3, and 818bb0b for specifics. In the case of Pra's Mesh Bound Fixes, temporary until they get accepted upstream.
 - New\ \[-7, -5, CW\] **U32904** The building hole nearest 1B50BA needs filled. Added new DecoMainA1x1Wall01 ref to cover it up. Found by ShadowoftheWind (CRP dev)
 - New\ \[21, 18, CW\] Fix 1AB0B6 positioning, as it appears perpendicular to the wall.
@@ -74,7 +77,6 @@ Queued
 - New\ \[3, 1, CW\] **U32905** 169F5B needs grounded to properly serve it's purpose as a broken base of a lamp. Also slap down a new RWPieceWallAStr01 to cover up a mesh piece that's sticking out nearby.
 - New\ \[Fill me in\] **U32930** 13BC19 and 13BC1D position needs tuned to resolve z-flicker.
 - New\ \[Various\] Ossumpossum added a specular map to a set of railing meshes and these updated meshes will be considered in the next update for inclusion for building. This adds a new texture to the archive.
-- New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize.
 - New\ \[6, -5, CW\] Fix position of 1BD2E7 to correct z-fighting with it's neighbor, lower 001F904D down to make the trash pile less floaty, 
 - New\ \[7, -6, CW\] Rounded 001B9ECC and 001B9ECA to hopefully fix a previs hole.
 - New\ \[6, -6, CW\] 0017F081 might need base model swapped to the no grate version to fix a lighting calculation issue. To be determined, as need to look ingame for this.
