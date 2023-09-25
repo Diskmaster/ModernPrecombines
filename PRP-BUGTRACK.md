@@ -35,6 +35,7 @@ TODO
 
 72
 
+- Changed\ \[Various\] Resolve a file conflict between Flicker Fixer eXofixed and Glitchfinder's patch for BillBoardBldgVerticalSm03.nif
 - New\ \[1, 2, CW\] Cap a building hole with a DecoMainA1x2WinB01CapTop01 [todo: file bug upstream]
 - New\ \[Various\] New contributed model fixes. (RedR_SmBldg01_PumpMeterFREE01/02.nif, VltLGHallHalf01.nif, FancyLightSingleOff01.nif)
 - New\ \[CambridigePlumbing01\] Add WrhsMainLoftCatwalk meshes to non-occluder list.
@@ -70,7 +71,7 @@ TODO
 - New\ \[1, 11, CW\] Lower 7EDED to close some shitty construction work in the settlement.
 - New\ \[8, 0, CW\] Reset scale on 0019DE07 to fix the world holes the smaller size was showing.
 - New\ \[FourLeafFishpacking01\] 0010F3A0 needed moved to fix a hole in the interior's room ceiling.
-- New\ \[Various\] Mesh updates from Glitchfinder, Exoclyps, and Pra, see git commit IDs a7beb7a, b68a0d7, 7aa2aa3, and 818bb0b for specifics. In the case of Pra's Mesh Bound Fixes, temporary until they get accepted upstream.
+- New\ \[Various\] Mesh updates from Glitchfinder, Exoclyps, and Pra, see git commit IDs a7beb7a, b68a0d7, 7aa2aa3, and 818bb0b for specifics.
 - New\ \[-7, -5, CW\] **U32904** The building hole nearest 1B50BA needs filled. Added new DecoMainA1x1Wall01 ref to cover it up. Found by ShadowoftheWind (CRP dev)
 - New\ \[21, 18, CW\] Fix 1AB0B6 positioning, as it appears perpendicular to the wall.
 - New\ \[1, 4, CW\] Update ref type for 17B565 and 17B567 from DecoMainC1x1WinA02Full01 to DecoMainC1x1WinA02Full02 to correct a window that shouldn't be able to be seen through.
