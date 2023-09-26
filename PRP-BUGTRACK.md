@@ -35,6 +35,7 @@ TODO
 
 72
 
+- New\ \[Various\] Apply location changes from the Dead Zone Fixes mod (max compat version).
 - Changed\ \[Various\] Resolve a file conflict between Flicker Fixer eXofixed and Glitchfinder's patch for BillBoardBldgVerticalSm03.nif
 - New\ \[1, 2, CW\] Cap a building hole with a DecoMainA1x2WinB01CapTop01 [todo: file bug upstream]
 - New\ \[Various\] New contributed model fixes. (RedR_SmBldg01_PumpMeterFREE01/02.nif, VltLGHallHalf01.nif, FancyLightSingleOff01.nif)
