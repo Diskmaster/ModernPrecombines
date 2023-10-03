@@ -33,8 +33,10 @@ TODO
 - New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
 - New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
+- New\ \[Various Vaults\] Updated compat with the Vault Suit customization CC. Unfinished.
 
 73
+
 
 - Changed\ \[Various\] Updated SCOL meshes to reflect the deadbrush mesh updates.
 - New\ \[CambridgeConstructionSiteWarehouse01\] **U33191** Update Materials\Architecture\Warehouse\WrhsRoofPlywood01.bgsm to be double sided so that a wood chunk isn't treated by the game as invisible.
