@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 1862 (61 Persistent Exterior) of 3300 \]
+- Fallout4.esm \[ 1836 (61 Persistent Exterior) of 3300 \]
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 Interior of 459 \]
@@ -37,7 +37,21 @@ TODO
 
 73
 
-
+- New\ \[DBTechHighSchool01\] Dedup 000ABA50, 0014E25F, 000E2400, 000E2349, 0007E128, 0007CC49, 0007CC48, 0004849C, 0004849A, 00048422, 0004841F, 
+- New\ \[DmndStandsCodman01\] Dedup 000C6DD3
+- New\ \[CaboutHouse01\] Dedup 00216ADE, 0015627D
+- New\ \[DmndSolomonsHouse01\] Dedup 000C6AB5 (pile of concrete near wall)
+- New\ \[TiconderogaStation01\] Dedup 00206017, 00205F05, 00047013
+- New\ \[MuseumOfWitchcraft01\] A duplicate set of railing was installed on the stairs. Scrap it. 001609F9
+- New\ \[6, 19, CW\] Fragment 1E75A0 to better finetune individual debris placement as a piece of it is floating. 
+- New\ \[zLexingtonApartments\] Nudge 137A00, 1379DE, 1379DF, 1379E1, 1379E2, 1379E3, 1379E7 for umbra happiness and hopefully eliminate seams.
+- New\ \[FortHagen02\] Duplicate the nearby HitDebrisPileCeiling03 and plug the hole at 9A003 [upstreamable]
+- New\ \[MassFusion01\] Slap in a brand new HitFloorSolidTop01 to fix up an oversight in the interior, as the above floor piece was designed to be seen one way. [todo: upstream]
+- New\ \[3, -2, CW\] Disable 20E937, reposition 16D4DE so it's not underground (on top of the shelving nearby), and move 20E92D away to compensate.
+- New\ \[3, -3, CW\] Update 195C0 to hopefully further resolve an umbra edge case.
+- New\ \[CorvegaAssemblyPlantExt01\] Disable 35D98 (Industrial lighting that appears to have been a dev leftover intended to be attached to a spotlight of some sort)
+- New\ \[14, 14, CW\] Shore up an umbra edge case nearest 247950
+- New\ \[USAFSatellite01\] Resolve minor z-flicker with 7521A and 75BD5 (trash decals near the quest object chest on the lower floor)
 - Changed\ \[Various\] Updated SCOL meshes to reflect the deadbrush mesh updates.
 - New\ \[CambridgeConstructionSiteWarehouse01\] **U33191** Update Materials\Architecture\Warehouse\WrhsRoofPlywood01.bgsm to be double sided so that a wood chunk isn't treated by the game as invisible.
 - New\ \[Various\] Apply location changes from the Dead Zone Fixes mod (max compat version).
