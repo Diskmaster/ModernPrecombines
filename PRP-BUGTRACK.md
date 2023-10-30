@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 1730 (61 Persistent Exterior) of 3300 \]
+- Fallout4.esm \[ 1593 (61 Persistent Exterior) of 3300 \]
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 Interior of 459 \]
@@ -37,7 +37,26 @@ TODO
 
 73
 
-
+- New\ \[CambridgeMonsignorPlaza01\] Dedup 0022C21A
+- New\ \[FederalSurvCenter01\] Dedup 000936D9, 0021B8A7, 0021FFE2
+- New\ \[BostonAirportRuins01\] Dedup 0020BC2A, 000D6BC2, 000B9A05, 000B9973, 0004D4A7, 0004CFF4, 00048D95
+- New\ \[OldGulletSinkhole01\] Dedup 0003A8E6
+- New\ \[MedTekResearch02\] Dedup 000C3620, 0007C972
+- New\ \[CovenantHQ01\] Dedup 00205B37, 0004E1DC
+- New\ \[DunwichBorers01\] Dedup ~~0017A7D5~~ [Deleted in error, revert this in cleanup]
+- New\ \[Vault81Entry\] Dedup 0020A190, 00153933, 000A9CFA, 000A9CF9
+- New\ \[Vault111Cryo\] Dedup 001B5EBA, 001B0FF4, 001B0FF3, 000AD65D, 0008B8DC, 0005327E, 0005327F, 0002B5C4, 0002B5C6, 0002B5C9, 0002B5CB
+- New\ \[MedTekResearch01\] Dedup 0018F36B, 0001FC88, 0001FC87, 0001FB8D, 0008277F, 00082659, 00082657, 0007AE58, 0007ADDE, 0007ADDD, 0007ADDC, 0007ABE2, 000B03E7, 000B0446, 000B9103, 0022BEC7
+- New\ \[NationalGuardTrainingYard02\] Dedup 001CA0A2, 00174813, 000E3073, 000E305D
+- New\ \[CombatZone01\] Dedup 00205199, 0023B065
+- New\ \[NHMFreightDepot01\] Dedup 000AA220
+- New\ \[RelayTowerInt09\] Dedup 001B5AA1
+- New\ \[FallonsDepartmentStore01\] Dedup 001C05CF, 001C04D7, 001BDB23, 00174969
+- New\ \[PoseidonReservoir01\] Dedup 00053C09, 00053C05
+- New\ \[BunkerHill01\] Dedup 000FB0B0
+- New\ \[MassPikeTunnel01\] Dedup 0019C721, 0019C6EC, 0019C6BB, 0019C6AA, 001518B5, 000FC3A8
+- New\ \[NorthEndBoxingGym\] Dedup 001ACE9D, 000A5F84
+- New\ \[zPOIJoel06\] Dedup 00230C69
 - New\ \[MaldenCenter01\] Dedup 00049F35, 00049E11, 0019DCD1, 0019DCD0, 0011CBAA, 0005DA5A, 0005DA58, 0005DA56, 0005DA55, 000B2B9A, 000BA772, 001C490E
 - New\ \[GreentechGenetics01\] Dedup 000B9AC4
 - New\ \[NahantOceanSociety02\] Dedup 0020CCA0, 002052A4
