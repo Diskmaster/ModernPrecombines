@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 1593 (61 Persistent Exterior) of 3300 \]
+- Fallout4.esm \[ 1486 (61 Persistent Exterior) of 3300 \]
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 Interior of 459 \]
@@ -37,13 +37,45 @@ TODO
 
 73
 
+- New\ \[-23, -7, CW\] Import TunnelCap.esp from Glitchfinder ( ref https://discord.com/channels/830436661736243230/954847055824687215/1167188537674825759 src: CM PRP Bugs channel )
+- New\ \[SouthBoston25\] Dedup 0009B4C4, 0009B4C0, 0009B49A
+- New\ \[GeneralAtomicsGalleria01\] Dedup 001E3105, 0014342D, 000E7C28, 000E7C27
+- New\ \[zUnusedGrenades\] Dedup 000F98AB
+- New\ \[TheaterMassBayMedicalCenter01\] Dedup 00231711, 0023021B
+- New\ \[BackStreetApparel01\] Dedup 0006498C, 00087888
+- New\ \[Waterfront12\] Dedup 00223BAF, 0022FF24
+- New\ \[InstituteOldRobotics01\] Dedup 001C2196
+- New\ \[zUnusedFinancial23\] Dedup 0004EEB1, 0004E1C8
+- New\ \[Financial14\] Dedup 001CA716
+- New\ \[DmndCitySurplus01New\] Dedup 00139E19
+- New\ \[ShamrockTaphouse01\] Dedup 000F4337
+- New\ \[FensBank01\] Dedup 001B4A26
+- New\ \[FortHagen02\] Dedup 000D107B, 00099074
+- New\ \[UniversityPoint01\] Dedup 000ED671, 00034A53, 00034CB0
+- New\ \[zInstituteRotunda\] Dedup 0022DF1C, 000C762D, 000C3035, 000C1C5E, 000C0FC2
+- New\ \[WarrenTheater01\] Dedup 000B7FE6
+- New\ \[InstituteFEVlab\] Dedup 002274B1, 002274B0
+- New\ \[JamaicaPlain01\] Dedup 000E9A26, 0005C821
+- New\ \[ParsonsState02\] Dedup 0010EE5F
+- New\ \[zUnusedCellar02\] Dedup 000E1B7E
+- New\ \[FensKenmoreStation\] Dedup 00218559
+- New\ \[CambridgeParkingGarage01\] Dedup 0023CC2B
+- New\ \[BeaconHillBostonBugle\] Dedup 00150DE3, 00150DB2
+- New\ \[LongneckLukowskis01\] Dedup 000FE686, 000FE684, 000FE682, 000242DA, 0003F018, 0003F010
+- New\ \[NationalGuardTrainingYard03\] Dedup 001CB978, 001CB977, 001CB90F, 001CB90E
+- New\ \[BeaconHillPub\] Dedup 0016C4DF
+- New\ \[TheaterHub360\] Dedup 000CFC29, 000CF72C, 000CF729, 000CF728, 002262A8
+- New\ \[IrishPrideShipyard01\] Dedup 00136274, 000D6944, 000D623C, 000D61F7, 00165274, 00043139, 0004312F, 0004312E, 00043123, 00047AE0
+- New\ \[BostonMayoralShelter01\] Dedup 00170EB0, 00206444, 0020B266
+- New\ \[Vault95\] Dedup 002148F4, 0021489B, 000DFC62, 0014B0CA
+- New\ \[WestonWaterTreatment01\] Dedup 001ED2A4, 001ED099, 001302B5, 000E6B09 [other elevator object is linkref, this one isn't], 001F3952
+- New\ \[GeneralAtomicsFactory01\] Dedup 0021399E, 002138C5, 002135AE, 002134D1, 0019C830, 00099B3E, 000813C1, 000811E0
 - New\ \[CambridgeMonsignorPlaza01\] Dedup 0022C21A
 - New\ \[FederalSurvCenter01\] Dedup 000936D9, 0021B8A7, 0021FFE2
 - New\ \[BostonAirportRuins01\] Dedup 0020BC2A, 000D6BC2, 000B9A05, 000B9973, 0004D4A7, 0004CFF4, 00048D95
 - New\ \[OldGulletSinkhole01\] Dedup 0003A8E6
 - New\ \[MedTekResearch02\] Dedup 000C3620, 0007C972
 - New\ \[CovenantHQ01\] Dedup 00205B37, 0004E1DC
-- New\ \[DunwichBorers01\] Dedup ~~0017A7D5~~ [Deleted in error, revert this in cleanup]
 - New\ \[Vault81Entry\] Dedup 0020A190, 00153933, 000A9CFA, 000A9CF9
 - New\ \[Vault111Cryo\] Dedup 001B5EBA, 001B0FF4, 001B0FF3, 000AD65D, 0008B8DC, 0005327E, 0005327F, 0002B5C4, 0002B5C6, 0002B5C9, 0002B5CB
 - New\ \[MedTekResearch01\] Dedup 0018F36B, 0001FC88, 0001FC87, 0001FB8D, 0008277F, 00082659, 00082657, 0007AE58, 0007ADDE, 0007ADDD, 0007ADDC, 0007ABE2, 000B03E7, 000B0446, 000B9103, 0022BEC7
@@ -68,7 +100,7 @@ TODO
 - New\ \[GorskiCabin01\] Dedup 0006745D, 00067447
 - New\ \[CharlestownLaundry\] Dedup 001A054B
 - New\ \[DBTechHighSchool02\] Dedup 0019DD4F, 0019DD4E, 0019DD46, 0019DD45, 0019DD3D, 0019DD3C, 0019DD34, 0019DD33, 001951D7, 0014E482, 000E88D3
-- New\ \[VaultTecOffice01\] Dedup 0008E6D9, 0008E6D8, 0008E6D7, 0008E6D6, 0008E6D5, 0008E6D4, 0008E6D3, 0008E6D2, 0008E6D1, 0008E6D0, 0008E6CF, 0008E6CE, 0008E6CD, 0008E6CC, 0008E6CB, 0008E6CA, 0008E6C9, 0008E6C8, ~~0008E6B0~~, 0008E68D, 000496D7 [note: verify position of previous group, might not be exactly positioned as expected, also del 8E68D and two RFGPs]
+- New\ \[VaultTecOffice01\] Dedup 0008E6D9, 0008E6D8, 0008E6D7, 0008E6D6, 0008E6D5, 0008E6D4, 0008E6D3, 0008E6D2, 0008E6D1, 0008E6D0, 0008E6CF, 0008E6CE, 0008E6CD, 0008E6CC, 0008E6CB, 0008E6CA, 0008E6C9, 0008E6C8, 0008E68D, 000496D7
 - New\ \[ParsonsState03\] Dedup 002172B5, 001F1D90
 - New\ \[SuffolkCountyCharterSchool01\] Dedup 001D35F0, 001D234C, 001CC4FC, 001938B9, 000F061B, 000EFF1F, 000EFD5F, 000EFD5C, 000EFD52, 00029D8E, 001D3707
 - New\ \[DBTechHighSchool01\] Dedup 000ABA50, 0014E25F, 000E2400, 000E2349, 0007E128, 0007CC49, 0007CC48, 0004849C, 0004849A, 00048422, 0004841F, 0004841E, 0004836D, 0004836C, 0004836B, 0004836A, 00048369, 00048368, 0003BFF7, 0003BDFD, 0003B90B, 0003B837, 0003B82F, 0003B82D
