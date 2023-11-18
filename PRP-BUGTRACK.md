@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 1486 (61 Persistent Exterior) of 3300 \]
+- Fallout4.esm \[ 1352 (61 Persistent Exterior) of 3300 \]
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 Interior of 459 \]
@@ -37,6 +37,26 @@ TODO
 
 73
 
+- New\ \[
+- New\ \[CambridgePolymerLabs01\] Dedup 000B3E53, 000A76C3, 0009C2BD [devnote: hidden by another ref], 0016D869, 00150613
+- New\ \[InstituteReactor\] Dedup 0012A1D4 [devnote: this one isn't tagged in FX layer, other is, report to UF4OP?]
+- New\ \[USSConstitution01\] Dedup 0018E52A
+- New\ \[InstituteTunnel01\] Dedup 00204F97, 00204F96, 00151144, 00150B3C, 00150B34, 00215FD0, also fix position and scaling on 198EF8
+- New\ \[GwinnettBrewery01\] Dedup 001F87B5, 000AD8AF, 000AD891, 0004E924, 0004E923, 0004E8B0
+- New\ \[Vault11402\] Dedup 000D3844
+- New\ \[zLexingtonApartments\] Dedup 001379D0
+- New\ \[SandyCovesHome01\] Dedup 000261F3, 0002560B
+- New\ \[MahkraFishpacking01\] Dedup 001C445E
+- New\ \[DmndArturosHouse01\] Dedup 000FCDC5
+- New\ \[FourLeafFishpacking01\] Dedup 0010F48D, 0010F25C, 0010F25B, 0016BB52
+- New\ \[RailroadHQ01\] Dedup 0003A44D, 000359CF, 00020A90, 00095C9B
+- New\ \[TrinityChurch01\] Dedup 000E55E0
+- New\ \[BostonCommon02\] Dedup 001AD601
+- New\ \[GlowingSeaPOIDB06Int\] Dedup 001F5F38, 001F5F37, 001F5F32, 001F5F31, 001F5C69, 001F59D0 [ACTI, UF4OP?]
+- New\ \[CambridgeEastCITRaiderCamp01\] Dedup 002263C5
+- New\ \[TheaterMassBayMedicalCenter02\] Dedup 001C570E
+- New\ \[-21, -2, CW\] Swap E4039 BunExtWall01 to BunExtWallWin01 to fix an issue with looking into the void of madness that is a level designer. [note: not actually done yet, needs done in xEdit]
+- New\ \[-10, 8, CW\] Attempt to simplify positioning of 2FAFC, 2FAFE, and 2FB04 to resolve an umbra floating point edge case. This will probably need reviewed again in 73.
 - New\ \[-23, -7, CW\] Import TunnelCap.esp from Glitchfinder ( ref https://discord.com/channels/830436661736243230/954847055824687215/1167188537674825759 src: CM PRP Bugs channel )
 - New\ \[SouthBoston25\] Dedup 0009B4C4, 0009B4C0, 0009B49A
 - New\ \[GeneralAtomicsGalleria01\] Dedup 001E3105, 0014342D, 000E7C28, 000E7C27
