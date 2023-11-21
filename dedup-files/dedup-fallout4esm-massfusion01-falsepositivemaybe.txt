@@ -1,0 +1,535 @@
+
+Found duplicates:
+	Removing: [REFR:000F8C26] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A38] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C27] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A36] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C28] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A35] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C29] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A34] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C2A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A32] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C2B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A31] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C2D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A2F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C30] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A29] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C3A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A1C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C3C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A1A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8C3E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F5A17] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF2F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A8] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF0D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A6] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D412] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D45F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D40B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D45D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D56] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D441] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D55] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D440] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D57] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D43F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D59] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D43E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E73] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D41C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E36] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3ED] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E26] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E2] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF2C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A9] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D58] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D43D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D4FB] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4FF] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D4FC] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4FE] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D48C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8DFC] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D488] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8DF8] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D47D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4B9] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D47C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4B8] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D47B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4B7] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D411] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D469] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D416] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D467] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D40D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D463] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D40A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D45C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D3E8] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D500] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D3CF] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3EC] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015C499] (places DN084_GlassElevatorDoor [DOOR:0015B756] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015C49C] (places DN084_GlassElevatorDoor [DOOR:0015B756] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_InteriorGlassElevator1 [REFR:0015B754] (places DN084_GlassElevator [ACTI:0015B753] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_InteriorGlassElevator2 [REFR:0015C49B] (places DN084_GlassElevator [ACTI:0015B753] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [ACHR:00155839] (places LvlProtectron [NPC_:00106B07] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [ACHR:0015D475] (places LvlProtectron [NPC_:00106B07] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [ACHR:00155836] (places LvlProtectron [NPC_:00106B07] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [ACHR:0015D474] (places LvlProtectron [NPC_:00106B07] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015583A] (places ProtectronPod01 [FURN:00100CD5] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D476] (places ProtectronPod01 [FURN:00100CD5] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:00155837] (places ProtectronPod01 [FURN:00100CD5] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D473] (places ProtectronPod01 [FURN:00100CD5] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_InteriorElevatorMarkerPlayer1 [REFR:00154FF2] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_InteriorElevatorMarkerPlayer2 [REFR:00154FF3] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF32] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A5] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF31] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A4] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF30] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A3] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF17] (places NPCInspectWounded [FURN:000DEDD6] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A2] (places NPCInspectWounded [FURN:000DEDD6] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF2E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A1] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF1A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A0] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF18] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D49F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF2B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D49E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF19] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D49D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF14] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D49C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF16] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D49B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF27] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D49A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF15] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D499] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF29] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D498] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF25] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D497] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF13] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D496] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF06] (places NPCSearchStanding [FURN:001A03E4] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D495] (places NPCSearchStanding [FURN:001A03E4] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF07] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D494] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF05] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D493] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF23] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D492] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF0C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D491] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF1D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D490] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF1C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF1B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF12] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF11] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8DFC] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF10] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF0F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF0E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D489] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF0B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8DF8] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF0A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D487] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF09] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D486] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0014FF08] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D485] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8DFD] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8DF9] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D490] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8DF7] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D492] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_BoS303_LowerEncEnableMarker5F [REFR:000F8D72] (places DefaultEnableDisableTrigger [ACTI:0004946F] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_Inst303_LowerEncEnableMarker5F [REFR:0015D450] (places DefaultEnableDisableTrigger [ACTI:0004946F] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D76] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D44F] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D51] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D44A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D4F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D448] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D4E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D447] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D4C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D445] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D65] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D444] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D66] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D443] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D64] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D442] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D6B] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D43C] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D60] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D43B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D6A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D43A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D61] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D439] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D5D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D438] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D5E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D437] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D5C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D436] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D5A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D435] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D62] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D434] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D5F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D433] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8D5B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D432] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E88] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D430] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E87] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D42F] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E86] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8D8C] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E6E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D42D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E6D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D42C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E6F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D42B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E72] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D42A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E71] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D429] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E74] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D428] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E6A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D427] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E6B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D426] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E83] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D425] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E6C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D424] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E66] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D423] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E69] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D422] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E7C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D420] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E7B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D41F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E7D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D41E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E7A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D41D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E70] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D41B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E68] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D41A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E67] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D419] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E2F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3EA] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E2E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E9] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E2D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D500] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E2C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D501] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E2B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E6] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E2A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E5] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E29] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E4] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E28] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E3] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F8E25] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3EE] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F6543] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A3] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F6535] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A0] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F6530] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D45D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F6516] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4BA] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F650D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D4A6] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F6507] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D45F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F64F5] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F64F2] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D487] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F64F3] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F64F8] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D48A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F64F9] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D489] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F59DC] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C3F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A18] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C3D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A1B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C3B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A1D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C39] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A1F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C38] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A20] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C37] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A22] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C36] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A23] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C35] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A24] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C34] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A25] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C33] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A26] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C50] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A27] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C32] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A2A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C2F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A2B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C2E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A30] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C2C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A39] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C25] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A3B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C24] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A3C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C23] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A3E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C22] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A3F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C21] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A40] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C20] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A43] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C1F] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A44] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C1E] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A46] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C1D] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A47] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C1C] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A48] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C1B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A4A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C1A] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:000F5A4B] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:000F8C19] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_InteriorElevatorMarkerDogmeat1 [REFR:001504CD] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_InteriorElevatorMarkerDogmeat2 [REFR:00154FF5] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_InteriorElevatorMarkerCompanion1 [REFR:001504CE] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_InteriorElevatorMarkerCompanion2 [REFR:00154FF6] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_InteriorElevatorMarkerQuestCompanion1 [REFR:001504CF] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_InteriorElevatorMarkerQuestCompanion2 [REFR:00154FF4] (places xMarkerxFlagGreen [STAT:00031810] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: DN084_IDCardElevatorCall2 [REFR:001604CE] (places IDCardReader01 "ID Card Reader" [ACTI:000998F4] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: DN084_IDCardElevatorCall1 [REFR:001604CC] (places IDCardReader01 "ID Card Reader" [ACTI:000998F4] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D33D] (places IDCardReader01 "ID Card Reader" [ACTI:000998F4] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:00155010] (places IDCardReader01 "ID Card Reader" [ACTI:000998F4] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D3F2] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3DD] (places PackageLocationPrimitive [ACTI:00098163] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:0015D3F3] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0015D3E0] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+Found duplicates:
+	Removing: [REFR:00247910] (places LightBox [STAT:000001F7] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])
+	Remaining: [REFR:0024790E] (places LightBox [STAT:000001F7] in GRUP Cell Persistent Children of MassFusion01 "Mass Fusion Building" [CELL:000F4BF4])

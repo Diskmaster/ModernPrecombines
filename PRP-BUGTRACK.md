@@ -1,6 +1,7 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 1352 (61 Persistent Exterior) of 3300 \]
+- Fallout4.esm \[ 663 (61 Persistent Exterior) of 3300 \]
+- Side note: MassFusion01 had a lot of false positives that need reviewed later.
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
 - DLC03Coast \[ 85 Interior of 459 \]
@@ -37,7 +38,23 @@ TODO
 
 73
 
-- New\ \[
+- New\ \[PoseidonEnergy01\] Dedup 0009864A, 
+- New\ \[PoseidonEnergy02\] Dedup 0017AC34, 0017AC2F, 0017ABF8
+- New\ \[AndrewStation01\] Dedup 002049A6, 001B2474, 001A8836, 0009C709, 00074D42
+- New\ \[zLexingtonGarage\] Dedup 00222E56
+- New\ \[zUnusedSubwayTerminalShowcase\] Dedup 0010CB06, 0010CAB0, 00152A8D
+- New\ \[GoodneighborTheMemoryDen\] Dedup 0023B6D5
+- New\ \[HestersRobotics01\] Dedup 001525A6
+- New\ \[DmndOutfieldShengsHouse01\] Dedup 00139F78, 000C66F8
+- New\ \[MedfordMemorial01\] Dedup 0020B6CA, 0020B680, 0020B570, 00100921, 000A7B85, 0007DB3E, 0017D7BB [upstream], 0020B90D [upstream]
+- New\ \[Vault81\] Dedup 0022DA35, 0020A1D8, 001D1230, 001A6064 [upstream], 0023895F [upstream], 00238961 [upstream]
+- New\ \[UFOCrashSite01\] Dedup 00187020
+- New\ \[Theater16PearwoodResidences01\] Dedup 0021B6A4, 0021B69A, 0021B5DD, 001CC2FD
+- New\ \[Waterfront02\] Dedup 00219E47 [No bones about it, this femur was duplicated.], 001CA5AF
+- New\ \[EsplanadeChurch01\] Dedup 001AFF1D
+- New\ \[MassFusion01\] Dedup 000F8D63 [0015D453 is in the floor], 000F64D1, 000F64CF, 000920D3, 00092698, 000968D1, 00098C6E, 00098C82, 00098C83, 00098C84, 00098D18, 0009D4E1, 000F591B, 000F5931, 000F5C0B
+- New\ \[InstituteAdvSystems\] Dedup 001D0E31
+- New\ \[Vault81Secret\] Dedup 001AB354, 000B2BDA, 0011353C, 000D98E8, 00088326
 - New\ \[CambridgePolymerLabs01\] Dedup 000B3E53, 000A76C3, 0009C2BD [devnote: hidden by another ref], 0016D869, 00150613
 - New\ \[InstituteReactor\] Dedup 0012A1D4 [devnote: this one isn't tagged in FX layer, other is, report to UF4OP?]
 - New\ \[USSConstitution01\] Dedup 0018E52A
