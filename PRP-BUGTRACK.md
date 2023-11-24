@@ -1,6 +1,6 @@
 Deduplication tracker remaining:
 
-- Fallout4.esm \[ 663 (61 Persistent Exterior) of 3300 \]
+- Fallout4.esm \[ 670 (61 Persistent Exterior) of 3300 \]
 - Side note: MassFusion01 had a lot of false positives that need reviewed later.
 - DLC01Robot \[ 343 Interior of 358 \]
 - DLC02Workshop01 \[ N/A \]
@@ -29,16 +29,24 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 TODO
 
+- New\ \[Various\] CC related compat updates. Work in progress.
 - New\ \[???\] I remember a mesh that had bad occlusion that I need to find and tag non-occlude.
 - New\ \[CorvegaAssemblyPlantExt01\] Seen a road chunk that has a bad occlusion set in the railing that needs looked at during a stream.
 - New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
 - New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
-- New\ \[Various Vaults\] Updated compat with the Vault Suit customization CC. Unfinished.
 
 73
 
-- New\ \[PoseidonEnergy01\] Dedup 0009864A, 
+- New\ \[
+- New\ \[MiltonGeneral01\] Dedup 00113C2A, 00113C29, 00113C02, 00113C01, 00113C00, 00113BFF, 000E6572, 000E64AA, 000E67DB, 0002A1B0
+- New\ \[ConcordMuseum01\] Dedup 0018DEE2, 000A2797, 000A14B1, 00044175, 00044174, 00044173, 00044169, 00044167, 000440BC, 000440B7, 0005C67F, 00018069, 00017EB2, 00018938, 0001F191, 0001E9BD, 0001CBF9, 000B1A93
+- New\ \[GoodneighborOldStateHouse\] Dedup 0010B512, 0015A103
+- New\ \[REObject02Interior\] Dedup 0015B718
+- New\ \[GNN01\] Dedup 001FAAD5, 001FA831, 001FA6A2, 001F78E9, 0002D3E0, 0002DF26
+- New\ \[HubrisComics01\] Dedup 0018BB9E, 00144898, 00101D4B, 00101D4C, 00066953, 0006687C
+- New\ \[WaldenPond01\] Dedup 001D5294, 001D51F8, 0002F7D2
+- New\ \[PoseidonEnergy01\] Dedup 0009864A, 000A7E00, 000A777B, 000A777A, 000A7779, 000A7778, 000A7777, 000506F7, 0004F189, 00125872
 - New\ \[PoseidonEnergy02\] Dedup 0017AC34, 0017AC2F, 0017ABF8
 - New\ \[AndrewStation01\] Dedup 002049A6, 001B2474, 001A8836, 0009C709, 00074D42
 - New\ \[zLexingtonGarage\] Dedup 00222E56
