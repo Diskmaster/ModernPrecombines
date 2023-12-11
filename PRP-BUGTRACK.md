@@ -36,9 +36,12 @@ TODO
 - New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
 
-73
+74
 
 - New\ \[
+
+73
+
 - New\ \[MiltonGeneral01\] Dedup 00113C2A, 00113C29, 00113C02, 00113C01, 00113C00, 00113BFF, 000E6572, 000E64AA, 000E67DB, 0002A1B0
 - New\ \[ConcordMuseum01\] Dedup 0018DEE2, 000A2797, 000A14B1, 00044175, 00044174, 00044173, 00044169, 00044167, 000440BC, 000440B7, 0005C67F, 00018069, 00017EB2, 00018938, 0001F191, 0001E9BD, 0001CBF9, 000B1A93
 - New\ \[GoodneighborOldStateHouse\] Dedup 0010B512, 0015A103
