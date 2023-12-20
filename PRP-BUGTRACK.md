@@ -38,7 +38,28 @@ TODO
 
 74
 
-- New\ \[
+- New\ \[Vault114\] Dedup 
+- New\ \[RevereBeachStation01\] Dedup 0021BC44, 0021BA28, 0019DCB6, 0019DCB5, 0019DCAD, 0019DCAC, 0019DCA4, 0019DCA3, 000671ED, 00062495, 000623D8
+- New\ \[Financial06\] Dedup 001B1862, 001B184B
+- New\ \[TheBigDig01\] Dedup 0014B6EA, 0014B672, 0014B52C, 0014B52B, 00126CCE [upstream], 00126AB2, 00126AB0, 00126AAF, 00125E2E, 000C8853, 000BE64A, 000BE3D3, 0004F5D0, 001C65D2 [upstream], 00126C1C
+- New\ \[GoodneighborTheThirdRail\] Dedup 000CB706, 000CB705
+- New\ \[SuperDuperMart01\] Dedup 000ED6F6
+- New\ \[NationalGuardTrainingYard01\] Dedup 00070553
+- New\ \[SentinelSite01\] Dedup 00143B2C, 001314C1
+- New\ \[FederalRationStockpile01\] Dedup 001A43FF, 000233C7, 000369A6, 00036A97, 000F8FFA
+- New\ \[FaneuilHall01\] Dedup 0006335D, 00063347, 000632EE
+- New\ \[FortHagen01\] Dedup 000BB402, 000BB3FC, 001AD38D
+- New\ \[EastBostonPrep01\] Dedup 000C0C0D, 000C0BFC, 000C0B8A, 0014780E, 00037CE8
+- New\ \[PrydwenHull01\] Dedup 002179AA, 0006A3F2, 0006A3F1, 0006A3F0, 0006A3D6, 0006A3D5, 0018B954
+- New\ \[TheCastle01\] Dedup 00221B30, 00221B23
+- New\ \[ArcjetSystems02\] Dedup 000804D1
+- New\ \[Wattz01\] Dedup 00106B80, 0006F21B, 0006F214
+- New\ \[GoodneighborBobbisPlace\] Dedup 000CB64F
+- New\ \[FraternalPost11501\] Dedup 000D06AC, Adjust 245A0C slightly to not clobber nearby picture frame (looks tacky, upstream it), 000D068C, 00042AD6, 000427F4, 0003AB12, 0003AAEF, 0003A28F
+- New\ \[PrydwenHull03\] Dedup 0021630C
+- New\ \[CambridgeKendallHospital01\] Dedup 0022C9BA, 002129B2, 0020E805, ~~0020A5F0~~ [dumbass, revert this one], 002043F3, 001F9991, 001F0F1C, 001F0F1B, 001EDC4A, 001EDBFE, 001ED8FC, 001ED834
+- New\ \[WarehouseIndustrialMachines\] Dedup 0019AA4C, 0017D3E1
+- New\ \[CambridgePD01\] Dedup 0010BDAD
 
 73
 
