@@ -657,374 +657,40 @@ Found duplicates: - Diff is slight x pos position, tag for review.
 Found duplicates: - Duplicate, tag for UF04P
 	Removing: [REFR:00177A25] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of SentinelSite01 "Sentinel Site Prescott" [CELL:0012653A])
 	Remaining: [REFR:00177A26] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of SentinelSite01 "Sentinel Site Prescott" [CELL:0012653A])
-
-Found duplicates:
-	Removing: [REFR:0013B6EC] (places DebrisPileLargeConc06 [STAT:0008C7FD] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_30437CDE_OC.nif)
-	Remaining: [REFR:00061DF9] (places DebrisPileLargeConc06 [STAT:0008C7FD] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_30437CDE_OC.nif)
-Found duplicates:
-	Removing: [REFR:000AE5C8] (places IndSmPipe2WayLarge01 [STAT:00031EE2] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_A5596153_OC.nif)
-	Remaining: [REFR:000AE5CC] (places IndSmPipe2WayLarge01 [STAT:00031EE2] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_A5596153_OC.nif)
-Found duplicates:
-	Removing: [REFR:0007C02F] (places SubLAccessTunnel02 [STAT:00034525] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_19F73EDD_OC.nif)
-	Remaining: [REFR:0005C944] (places SubLAccessTunnel02 [STAT:00034525] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_19F73EDD_OC.nif)
-Found duplicates:
-	Removing: [REFR:0017101E] (places Vault_FloorMat_Small_01 [STAT:000AEF5B] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_2E8A6976_OC.nif)
-	Remaining: [REFR:00062609] (places Vault_FloorMat_Small_01 [STAT:000AEF5B] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4] in Precombined\000428E4_2E8A6976_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CFD10] (places SubwayFluorOmni01NS [LIGH:00025251] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4])
-	Remaining: [REFR:000AF0A5] (places SubwayFluorOmni01NS [LIGH:00025251] in GRUP Cell Temporary Children of Vault114 "Park Street Station" [CELL:000428E4])
-Found duplicates:
-	Removing: [REFR:001F8E2B] (places NpcChairPlayerHouseRuinKitchenSit02Static "Broken Chair" [STAT:00072A3E] in GRUP Cell Temporary Children of [CELL:001F8A9E])
-	Remaining: [REFR:001F8E2E] (places NpcChairPlayerHouseRuinKitchenSit02Static "Broken Chair" [STAT:00072A3E] in GRUP Cell Temporary Children of [CELL:001F8A9E])
-Found duplicates:
-	Removing: [REFR:001A2AD1] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-	Remaining: [REFR:0023D769] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: [REFR:00053B08] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD56B_OC.nif)
-	Remaining: [REFR:00053B09] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD56B_OC.nif)
-Found duplicates:
-	Removing: [REFR:00053AD5] (places MacBaseBlockMisc06 [STAT:00135F63] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD56B_OC.nif)
-	Remaining: [REFR:00053AD7] (places MacBaseBlockMisc06 [STAT:00135F63] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD56B_OC.nif)
-Found duplicates:
-	Removing: [REFR:00053A52] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD730_OC.nif)
-	Remaining: [REFR:00053A53] (places MacDetailGreeble20 [STAT:00135FFF] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD730_OC.nif)
-Found duplicates:
+Found duplicates: - Duplicate, one is tagged linkref, punt to UF04P
 	Removing: [REFR:0011D6BD] (places HighTechLightCeiling02Broken [STAT:000F9247] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
 	Remaining: [REFR:0011D6BE] (places HighTechLightCeiling02Broken [STAT:000F9247] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: [REFR:000DED46] (places BoS_DN017_MainframeAccessTerminal "Repair Department Terminal" [TERM:000DED45] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-	Remaining: [REFR:0011EA82] (places BoS_DN017_MainframeAccessTerminal "Repair Department Terminal" [TERM:000DED45] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: [REFR:000DD0E6] (places HitFloorSolidTop01 [STAT:00039C15] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD73B_OC.nif)
-	Remaining: [REFR:00054311] (places HitFloorSolidTop01 [STAT:00039C15] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD73B_OC.nif)
-Found duplicates:
-	Removing: [REFR:000DCE62] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD736_OC.nif)
-	Remaining: [REFR:000DCE6E] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD736_OC.nif)
-Found duplicates:
-	Removing: [REFR:00081D8F] (places OfficeFileCabinetEmpty01 "File Cabinet Drawer" [STAT:00049621] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD730_OC.nif)
-	Remaining: [REFR:000DCF5E] (places OfficeFileCabinetEmpty01 "File Cabinet Drawer" [STAT:00049621] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_000DD730_OC.nif)
-Found duplicates:
-	Removing: [REFR:00081BF4] (places HitSmRmCorOut03 [STAT:000713DD] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_0011C55A_OC.nif)
-	Remaining: [REFR:0011EA81] (places HitSmRmCorOut03 [STAT:000713DD] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_0011C55A_OC.nif)
-Found duplicates:
-	Removing: [REFR:0011AE9D] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_0011C55A_OC.nif)
-	Remaining: [REFR:0011C439] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2] in Precombined\0007E2C2_0011C55A_OC.nif)
-Found duplicates:
-	Removing: [ACHR:000D97E9] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-	Remaining: [ACHR:000DED9A] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: [ACHR:000D97E8] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-	Remaining: [ACHR:000DED99] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: DN017_TurretHall_InitialTurretQuest [ACHR:000D97E7] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-	Remaining: DN017_TurretHall_InitialTurretPrequest [ACHR:000DED97] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: [ACHR:000D97EA] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-	Remaining: [ACHR:000DED9B] (places DN017_LvlTurretTurretSequence [NPC_:000D97F6] in GRUP Cell Persistent Children of ArcjetSystems01 "ArcJet Systems" [CELL:0007E2C2])
-Found duplicates:
-	Removing: [REFR:0015798F] (places CarpetEdging06 [STAT:0015CC84] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_1A3040AE_OC.nif)
-	Remaining: [REFR:00157990] (places CarpetEdging06 [STAT:0015CC84] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_1A3040AE_OC.nif)
-Found duplicates:
-	Removing: [REFR:0015762A] (places Rubble_Pile_Debris_07 [STAT:0019149F] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_18B7002E_OC.nif)
-	Remaining: [REFR:0015762B] (places Rubble_Pile_Debris_07 [STAT:0019149F] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_18B7002E_OC.nif)
-Found duplicates:
-	Removing: [REFR:001575C3] (places FederalistTableLong01 "Table" [STAT:000BA4AD] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_162E3862_OC.nif)
-	Remaining: [REFR:001575D0] (places FederalistTableLong01 "Table" [STAT:000BA4AD] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_162E3862_OC.nif)
-Found duplicates:
-	Removing: [REFR:0015357B] (places CarpetSquare02 "Rug" [STAT:0015CC8F] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_2310FA7A_OC.nif)
-	Remaining: [REFR:0015358D] (places CarpetSquare02 "Rug" [STAT:0015CC8F] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_2310FA7A_OC.nif)
-Found duplicates:
-	Removing: [REFR:00100679] (places BldBrickSmWall01 [STAT:00082E42] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_00EEA511_OC.nif)
-	Remaining: [REFR:0015358B] (places BldBrickSmWall01 [STAT:00082E42] in GRUP Cell Temporary Children of BostonPublicLibrary02 "Boston Public Library" [CELL:000EBE93] in Precombined\000EBE93_00EEA511_OC.nif)
-Found duplicates:
-	Removing: [REFR:0022B9FC] (places MacRod05 [STAT:00135F33] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768CD_OC.nif)
-	Remaining: [REFR:0022B9FF] (places MacRod05 [STAT:00135F33] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768CD_OC.nif)
-Found duplicates:
-	Removing: [REFR:002254CA] (places Rubble_Flat_Trash_Sm01 [STAT:0010693B] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_800768CC_OC.nif)
-	Remaining: [REFR:002254CB] (places Rubble_Flat_Trash_Sm01 [STAT:0010693B] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_800768CC_OC.nif)
-Found duplicates:
+Found duplicates: - Punt to UF04P
 	Removing: [REFR:001A2A28] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3])
 	Remaining: [REFR:001A2A29] (places MistLargeRoundDustyDim [MSTT:000821BD] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3])
-Found duplicates:
-	Removing: [REFR:000421B8] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-	Remaining: [REFR:0004349F] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00042016] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-	Remaining: [REFR:000435E4] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00042015] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-	Remaining: [REFR:000435E3] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-Found duplicates:
-	Removing: [REFR:00042014] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-	Remaining: [REFR:000435E2] (places IndFrame256x256AShapeEdge01 [STAT:000247E7] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768C9_OC.nif)
-Found duplicates:
-	Removing: [REFR:001223B1] (places OfficeBoxPapers02 "Files" [STAT:0003A9EC] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768CC_OC.nif)
-	Remaining: [REFR:0022CDB8] (places OfficeBoxPapers02 "Files" [STAT:0003A9EC] in GRUP Cell Temporary Children of SaugusIronworks01 "Saugus Ironworks" [CELL:00041CB3] in Precombined\00041CB3_000768CC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0020E963] (places Rubble_Pile_Debris_06 [STAT:001914A2] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00087C7A_OC.nif)
-	Remaining: [REFR:0020E964] (places Rubble_Pile_Debris_06 [STAT:001914A2] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00087C7A_OC.nif)
-Found duplicates:
-	Removing: [REFR:000E6E59] (places PW_03c_Strut_flip [STAT:0002F626] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_0008A860_OC.nif)
-	Remaining: [REFR:000E6E5B] (places PW_03c_Strut_flip [STAT:0002F626] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_0008A860_OC.nif)
-Found duplicates:
-	Removing: [REFR:000E6E52] (places PW_03a_Core_Exposed [STAT:0002E04B] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_0008A860_OC.nif)
-	Remaining: [REFR:000E6E5A] (places PW_03a_Core_Exposed [STAT:0002E04B] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_0008A860_OC.nif)
-Found duplicates:
-	Removing: [REFR:00087C8F] (places BldWoodBMdWall01 [STAT:00076B88] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00088FB7_OC.nif)
-	Remaining: [REFR:000EF1A3] (places BldWoodBMdWall01 [STAT:00076B88] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00088FB7_OC.nif)
-Found duplicates:
-	Removing: [REFR:0003828F] (places SteamTPlatBrickTaller01 [STAT:0002400E] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00088FCF_OC.nif)
-	Remaining: [REFR:000EEBC3] (places SteamTPlatBrickTaller01 [STAT:0002400E] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00088FCF_OC.nif)
-Found duplicates:
-	Removing: [REFR:0003835D] (places BldWoodPMdWallPlugBBotDblDoor01 [STAT:0001B7BB] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_56000F31_OC.nif)
-	Remaining: [REFR:00087CDE] (places BldWoodPMdWallPlugBBotDblDoor01 [STAT:0001B7BB] in GRUP Cell Temporary Children of PickmanGallery01 "Pickman Gallery" [CELL:000379C5] in Precombined\000379C5_00087D49_OC.nif)
-Found duplicates:
+Found duplicates: - Previously altered by PPF. Review in xEdit.
 	Removing: [REFR:00060D2D] (places SteamTSmHallBrick1Way01 [STAT:00023FAC] in GRUP Cell Temporary Children of ConcordCivicAccess01 "Concord Civic Access" [CELL:0003776D] in Precombined\0003776D_00082128_OC.nif)
 	Remaining: [REFR:000EEF42] (places SteamTSmHallBrick1Way01 [STAT:00023FAC] in GRUP Cell Temporary Children of ConcordCivicAccess01 "Concord Civic Access" [CELL:0003776D] in Precombined\0003776D_00082128_OC.nif)
-Found duplicates:
-	Removing: [REFR:0004BC03] (places SteamTBgRoomBrickPillar01 [STAT:00023FBF] in GRUP Cell Temporary Children of ConcordCivicAccess01 "Concord Civic Access" [CELL:0003776D] in Precombined\0003776D_00082128_OC.nif)
-	Remaining: [REFR:000EEF41] (places SteamTBgRoomBrickPillar01 [STAT:00023FBF] in GRUP Cell Temporary Children of ConcordCivicAccess01 "Concord Civic Access" [CELL:0003776D] in Precombined\0003776D_00082128_OC.nif)
-Found duplicates:
-	Removing: [REFR:00224AF3] (places SteamTBrickpileLarge03 [STAT:00023A8C] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E15_OC.nif)
-	Remaining: [REFR:00224AF4] (places SteamTBrickpileLarge03 [STAT:00023A8C] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E15_OC.nif)
-Found duplicates:
-	Removing: [REFR:00205A06] (places BlackPlane [STAT:001F1A76] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_3BE2224E_OC.nif)
-	Remaining: [REFR:00205A07] (places BlackPlane [STAT:001F1A76] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_3BE2224E_OC.nif)
-Found duplicates:
-	Removing: [REFR:0018B023] (places CaveMoundRocksLow04 [STAT:0004F118] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-	Remaining: [REFR:0018B024] (places CaveMoundRocksLow04 [STAT:0004F118] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B3C1E] (places SteamTPlatTaller01 [STAT:00023DC8] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E15_OC.nif)
-	Remaining: [REFR:002248E5] (places SteamTPlatTaller01 [STAT:00023DC8] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E15_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B3BA0] (places SteamTBgRoomRockFreeDoor03 [STAT:00023DE9] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E16_OC.nif)
-	Remaining: [REFR:000B3BAC] (places SteamTBgRoomRockFreeDoor03 [STAT:00023DE9] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E16_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B39C8] (places SteamTBgRoomBrickCeilOnlyBg01 [STAT:00023FD7] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-	Remaining: [REFR:000B39F4] (places SteamTBgRoomBrickCeilOnlyBg01 [STAT:00023FD7] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B39C5] (places SteamTBgRoomBrickCeilOnlyBg01 [STAT:00023FD7] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-	Remaining: [REFR:000B39F5] (places SteamTBgRoomBrickCeilOnlyBg01 [STAT:00023FD7] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B3951] (places SteamTBgRoomBrickFreeDoorArch01 [STAT:00023FB4] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0D_OC.nif)
-	Remaining: [REFR:002247CD] (places SteamTBgRoomBrickFreeDoorArch01 [STAT:00023FB4] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0D_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B3935] (places SteamTSmRoomBrickPillar01 [STAT:00023FE5] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-	Remaining: [REFR:000B394B] (places SteamTSmRoomBrickPillar01 [STAT:00023FE5] in GRUP Cell Temporary Children of FensStreetSewer01 "Fens Street Sewer" [CELL:0003B381] in Precombined\0003B381_000B3E0F_OC.nif)
-Found duplicates:
-	Removing: [REFR:0023B175] (places GenericPosterGroup06 [STAT:000BF83F] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061CF8_OC.nif)
-	Remaining: [REFR:0023B176] (places GenericPosterGroup06 [STAT:000BF83F] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061CF8_OC.nif)
-Found duplicates:
-	Removing: [REFR:000618CD] (places SubPlatformColBTop01 [STAT:00074C4E] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061E73_OC.nif)
-	Remaining: [REFR:000618D1] (places SubPlatformColBTop01 [STAT:00074C4E] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061E73_OC.nif)
-Found duplicates:
-	Removing: [REFR:00022DA0] (places SubPlatformCol01 [STAT:00031CC2] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061E73_OC.nif)
-	Remaining: [REFR:00022E35] (places SubPlatformCol01 [STAT:00031CC2] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061E73_OC.nif)
-Found duplicates:
-	Removing: [REFR:00022D9D] (places SubPlatformCol01 [STAT:00031CC2] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061E73_OC.nif)
-	Remaining: [REFR:00022E34] (places SubPlatformCol01 [STAT:00031CC2] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B] in Precombined\0002288B_00061E73_OC.nif)
-Found duplicates:
+Found duplicates: - Punt to UF04P
 	Removing: [REFR:00173D27] (places LightBox [STAT:000001F7] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B])
 	Remaining: [REFR:00173D26] (places LightBox [STAT:000001F7] in GRUP Cell Temporary Children of CollegeSquare01 "College Square Station" [CELL:0002288B])
-Found duplicates:
-	Removing: MQ105SetStage20Trigger [REFR:00065F68] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of DmndValentines01 "Valentine Detective Agency" [CELL:00001E47])
-	Remaining: MQ201SetStage20TriggerREF [REFR:00067FF7] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of DmndValentines01 "Valentine Detective Agency" [CELL:00001E47])
 Found duplicates:
 	Removing: [REFR:0022999D] (places defaultLightCool01NS [LIGH:000560D0] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
 	Remaining: [REFR:0022999E] (places defaultLightCool01NS [LIGH:000560D0] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
 Found duplicates:
 	Removing: [REFR:001A0B45] (places InsLaserGridDoor01 [ACTI:0019F6CE] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
 	Remaining: [REFR:001A0B46] (places InsLaserGridDoor01 [ACTI:0019F6CE] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-Found duplicates:
+Found duplicates: - Also the above three needs punted.
 	Removing: [REFR:001A0B3A] (places InsLaserGridDoor01 [ACTI:0019F6CE] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
 	Remaining: [REFR:001A0B3B] (places InsLaserGridDoor01 [ACTI:0019F6CE] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
 Found duplicates:
-	Removing: [REFR:00186947] (places CollisionMarker [STAT:00000021] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-	Remaining: [REFR:001ED382] (places CollisionMarker [STAT:00000021] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-Found duplicates:
-	Removing: [REFR:00125D6C] (places InstituteCabinet01Office "Office Cabinet" [CONT:000FDC84] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-	Remaining: [REFR:001F2BB2] (places InstituteCabinet01Office "Office Cabinet" [CONT:000FDC84] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-Found duplicates:
 	Removing: [REFR:001ED430] (places LightBeamThin01Institute [MSTT:001ED413] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
 	Remaining: [REFR:001ED42F] (places LightBeamThin01Institute [MSTT:001ED413] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-Found duplicates:
-	Removing: DN136_OldroboticsInaccessibleDoorREF [REFR:0006A37C] (places HitDoorSm01Load "Door" [DOOR:000E1C42] in GRUP Cell Persistent Children of InstituteConcourse "The Institute" [CELL:0002A199])
-	Remaining: DN136_OldroboticsDoor01REF [REFR:0011EA1C] (places HitDoorSm01Load "Door" [DOOR:000E1C42] in GRUP Cell Persistent Children of InstituteConcourse "The Institute" [CELL:0002A199])
-Found duplicates:
-	Removing: MadisonLiQuartersRef [REFR:000C9AB9] (places xMarkerxFlagYellow [STAT:0003180E] in GRUP Cell Persistent Children of InstituteConcourse "The Institute" [CELL:0002A199])
-	Remaining: MadisonLiQuartersRef001 [REFR:000550A0] (places xMarkerxFlagYellow [STAT:0003180E] in GRUP Cell Temporary Children of InstituteConcourse "The Institute" [CELL:0002A199])
-Found duplicates:
-	Removing: [REFR:001CCD12] (places HitFloorTrimTopWall01 [STAT:0007EED4] in GRUP Cell Temporary Children of Financial13 "Weatherby Investment Trust" [CELL:00070117] in Precombined\00070117_36DF9BB3_OC.nif)
-	Remaining: [REFR:001CCD46] (places HitFloorTrimTopWall01 [STAT:0007EED4] in GRUP Cell Temporary Children of Financial13 "Weatherby Investment Trust" [CELL:00070117] in Precombined\00070117_36DF9BB3_OC.nif)
-Found duplicates:
-	Removing: [REFR:001A930C] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257])
-	Remaining: [REFR:001A930D] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257])
-Found duplicates:
-	Removing: [REFR:0006CF73] (places GrassMoundFull02 [STAT:001A97C7] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257] in Precombined\0005C257_3D5A230C_OC.nif)
-	Remaining: [REFR:0006CF89] (places GrassMoundFull02 [STAT:001A97C7] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257] in Precombined\0005C257_3D5A230C_OC.nif)
-Found duplicates:
-	Removing: [REFR:00060954] (places BldWoodPBgWallScktABot01 [STAT:0001C9EE] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257] in Precombined\0005C257_33B033AE_OC.nif)
-	Remaining: [REFR:00060953] (places BldWoodPBgWallScktABot01 [STAT:0001C9EE] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257] in Precombined\0005C257_33B033AE_OC.nif)
-Found duplicates:
+Found duplicates: - [Charlie Brown noises]
 	Removing: [REFR:0016CE03] (places DefaultLightCoolFLNSNonSpec [LIGH:00148C70] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257])
 	Remaining: [REFR:0016CE02] (places DefaultLightCoolFLNSNonSpec [LIGH:00148C70] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257])
-Found duplicates:
-	Removing: [REFR:00189A61] (places OfficePaperDebrisSinglePg02 [STAT:00165025] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257] in Precombined\0005C257_0C2F6E16_OC.nif)
-	Remaining: [REFR:00212E25] (places OfficePaperDebrisSinglePg02 [STAT:00165025] in GRUP Cell Temporary Children of ParsonsState01 "Parsons State Administration" [CELL:0005C257] in Precombined\0005C257_0C2F6E16_OC.nif)
 Found duplicates:
 	Removing: [REFR:0016B119] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
 	Remaining: [REFR:0016B11A] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
 Found duplicates:
-	Removing: [REFR:0016B0DC] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B117] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0DB] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B118] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0DA] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11A] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D9] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11A] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D8] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11B] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D7] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11C] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D6] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11D] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D5] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11E] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D4] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B11F] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0D2] (places MistLargeRoundDustyDimmest [MSTT:001C9085] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B121] (places MistLargeRoundDustyDimmest [MSTT:001C9085] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0CC] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B125] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0C9] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F651] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0C8] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B126] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0C5] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F650] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0C4] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B127] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0C2] (places HighTechLightWallFixture02b [STAT:000FA85D] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F640] (places HighTechLightWallFixture02b [STAT:000FA85D] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0C1] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B128] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0BD] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F64E] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0BA] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B129] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0B9] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F64D] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0B6] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B12A] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0B5] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F64C] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0B2] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B12B] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0B1] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F64B] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0AE] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B12C] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0AD] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F64A] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0AA] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B12D] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0A9] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F649] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0A6] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B12E] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B0A5] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B12F] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B09F] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F648] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B09D] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B131] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B09B] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F647] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B099] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B132] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B097] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F646] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B095] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B133] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B093] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F645] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B091] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B134] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B08F] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F644] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B08D] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B135] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B08B] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F643] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B089] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F642] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B086] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B136] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B085] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016B137] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:0016B082] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F641] (places HighTechLightWallFixture01a [STAT:000FA859] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:000F89E8] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59] in Precombined\00084A59_000F8E63_OC.nif)
-	Remaining: [REFR:000F89CB] (places HitFloorSolidBot01 [STAT:00039C14] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59] in Precombined\00084A59_000F8E63_OC.nif)
-Found duplicates:
-	Removing: [REFR:000F8A41] (places OfficeFileCabinetDrawer01 "File Cabinet Drawer" [STAT:00049620] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59] in Precombined\00084A59_800F8E63_OC.nif)
-	Remaining: [REFR:0005A7C5] (places OfficeFileCabinetDrawer01 "File Cabinet Drawer" [STAT:00049620] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59] in Precombined\00084A59_800F8E63_OC.nif)
-Found duplicates:
-	Removing: BoS303_Stage240_EnterLabsTrigger [REFR:000F1FF2] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: DN084_Stage390_ExitLabsTrigger [REFR:0014F672] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
-	Removing: [REFR:00162B49] (places HighTechLightWallFixture02b [STAT:000FA85D] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-	Remaining: [REFR:0016F652] (places HighTechLightWallFixture02b [STAT:000FA85D] in GRUP Cell Temporary Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
 	Removing: [REFR:00217B3A] (places DecalStainRust12 [TXST:00061903] in GRUP Cell Persistent Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
 	Remaining: [REFR:00217B39] (places DecalStainRust12 [TXST:00061903] in GRUP Cell Persistent Children of MassFusion02 "Mass Fusion Main Reactor" [CELL:00084A59])
-Found duplicates:
+Found duplicates: - More optimization work (needs refurbished meshes)
 	Removing: [REFR:0016240C] (places BldWlpSmBrokeWallCap01 [STAT:0001BA6C] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_88AA6C82_OC.nif)
 	Remaining: [REFR:0016244E] (places BldWlpSmBrokeWallCap01 [STAT:0001BA6C] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_88AA6C82_OC.nif)
 Found duplicates:
@@ -1057,283 +723,13 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:0015DB21] (places BldWlpSmBrokeWallCap01 [STAT:0001BA6C] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_90430F74_OC.nif)
 	Remaining: [REFR:0015DB3E] (places BldWlpSmBrokeWallCap01 [STAT:0001BA6C] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_90430F74_OC.nif)
-Found duplicates:
-	Removing: [REFR:0015DA13] (places UtilElevatorSingleScktB02 [STAT:0002F2CC] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_00000000_OC.nif)
-	Remaining: [REFR:0015DA14] (places UtilElevatorSingleScktB02 [STAT:0002F2CC] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_00000000_OC.nif)
-Found duplicates:
-	Removing: [REFR:0015D9FD] (places BldWlpMdWallPlugABotDoor01 [STAT:0001CB0F] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_3EF72868_OC.nif)
-	Remaining: [REFR:0015DB62] (places BldWlpMdWallPlugABotDoor01 [STAT:0001CB0F] in GRUP Cell Temporary Children of LaytonTowers01 "Layton Towers" [CELL:000A1CB7] in Precombined\000A1CB7_3EF72868_OC.nif)
-Found duplicates:
-	Removing: [REFR:00214503] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of [CELL:002141AD])
-	Remaining: [REFR:00214504] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of [CELL:002141AD])
-Found duplicates:
-	Removing: [REFR:001BA53E] (places OfficeBoxPapers03 "Box" [STAT:0003A9ED] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_000FF363_OC.nif)
-	Remaining: [REFR:001BA540] (places OfficeBoxPapers03 "Box" [STAT:0003A9ED] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_000FF363_OC.nif)
-Found duplicates:
-	Removing: [REFR:0001B5E9] (places Prewar_Locker_Empty01 [STAT:0011EB53] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_000FF354_OC.nif)
-	Remaining: [REFR:001B8BE8] (places Prewar_Locker_Empty01 [STAT:0011EB53] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_000FF354_OC.nif)
-Found duplicates:
-	Removing: [REFR:0001B077] (places Halloween_Banner_Pumpkins [SCOL:000AC007] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_000FF354_OC.nif)
-	Remaining: [REFR:0001B078] (places Halloween_Banner_Pumpkins [SCOL:000AC007] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_000FF354_OC.nif)
-Found duplicates:
-	Removing: [REFR:000E6088] (places HitDebrisPileCeiling01 [STAT:000F2549] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_48BED409_OC.nif)
-	Remaining: [REFR:000E6C75] (places HitDebrisPileCeiling01 [STAT:000F2549] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_48BED409_OC.nif)
-Found duplicates:
-	Removing: [REFR:000E6087] (places HitFloorThruFull02 [STAT:00039C05] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_800FF373_OC.nif)
-	Remaining: [REFR:000E6D68] (places HitFloorThruFull02 [STAT:00039C05] in GRUP Cell Temporary Children of ShawHighSchool01 "Shaw High School" [CELL:0003C0F1] in Precombined\0003C0F1_800FF373_OC.nif)
-Found duplicates:
-	Removing: [REFR:001B2A3B] (places BldConcSmWall04 [STAT:00067AAC] in GRUP Cell Temporary Children of RelayTowerInt15A "Operations" [CELL:001B2916] in Precombined\001B2916_11D6AF25_OC.nif)
-	Remaining: [REFR:001B2A85] (places BldConcSmWall04 [STAT:00067AAC] in GRUP Cell Temporary Children of RelayTowerInt15A "Operations" [CELL:001B2916] in Precombined\001B2916_11D6AF25_OC.nif)
-Found duplicates:
-	Removing: [REFR:0016312C] (places DecalDebris04 [STAT:001914C9] in GRUP Cell Temporary Children of BostonPublicLibrary01 "Copley Station" [CELL:000EBE92] in Precombined\000EBE92_00100C89_OC.nif)
-	Remaining: [REFR:0016312D] (places DecalDebris04 [STAT:001914C9] in GRUP Cell Temporary Children of BostonPublicLibrary01 "Copley Station" [CELL:000EBE92] in Precombined\000EBE92_00100C89_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019DC9B] (places MonorailCarDoorEndOpen [STAT:0019DB8A] in GRUP Cell Temporary Children of BostonPublicLibrary01 "Copley Station" [CELL:000EBE92] in Precombined\000EBE92_00100C89_OC.nif)
-	Remaining: [REFR:0019DCA1] (places MonorailCarDoorEndOpen [STAT:0019DB8A] in GRUP Cell Temporary Children of BostonPublicLibrary01 "Copley Station" [CELL:000EBE92] in Precombined\000EBE92_00100C89_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019DC9A] (places MonorailCarDoorEndOpen [STAT:0019DB8A] in GRUP Cell Temporary Children of BostonPublicLibrary01 "Copley Station" [CELL:000EBE92] in Precombined\000EBE92_00100C89_OC.nif)
-	Remaining: [REFR:0019DCA2] (places MonorailCarDoorEndOpen [STAT:0019DB8A] in GRUP Cell Temporary Children of BostonPublicLibrary01 "Copley Station" [CELL:000EBE92] in Precombined\000EBE92_00100C89_OC.nif)
-Found duplicates:
-	Removing: [REFR:001BD9CD] (places BldWoodPSmFlrOnly01 [STAT:0001A81F] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_36DF9BB3_OC.nif)
-	Remaining: [REFR:0023B70F] (places BldWoodPSmFlrOnly01 [STAT:0001A81F] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_36DF9BB3_OC.nif)
-Found duplicates:
-	Removing: [REFR:001BD9CC] (places BldWoodPSmFlrOnly01 [STAT:0001A81F] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_16000F31_OC.nif)
-	Remaining: [REFR:001BD9CE] (places BldWoodPSmFlrOnly01 [STAT:0001A81F] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_16000F31_OC.nif)
-Found duplicates:
-	Removing: [REFR:00078989] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_1C6C6162_OC.nif)
-	Remaining: [REFR:00086F7E] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_1C6C6162_OC.nif)
-Found duplicates:
-	Removing: [REFR:0007897E] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_3CB3F5E0_OC.nif)
-	Remaining: [REFR:001BD9EC] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_3CB3F5E0_OC.nif)
-Found duplicates:
-	Removing: [REFR:0007897D] (places BldWoodPSmFlrOnly01 [STAT:0001A81F] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_20DF9482_OC.nif)
-	Remaining: [REFR:000789A9] (places BldWoodPSmFlrOnly01 [STAT:0001A81F] in GRUP Cell Temporary Children of ConcordSpeakeasy "Concord Speakeasy" [CELL:000788D4] in Precombined\000788D4_20DF9482_OC.nif)
-Found duplicates:
-	Removing: [REFR:001BAA57] (places SignFactoryMetalFrame01 [STAT:001650AE] in GRUP Cell Temporary Children of ConcordFactory "Workhouse" [CELL:000E3CC4] in Precombined\000E3CC4_33B95421_OC.nif)
-	Remaining: [REFR:001BBDA0] (places SignFactoryMetalFrame01 [STAT:001650AE] in GRUP Cell Temporary Children of ConcordFactory "Workhouse" [CELL:000E3CC4] in Precombined\000E3CC4_33B95421_OC.nif)
-Found duplicates:
-	Removing: [REFR:0020F119] (places CollisionMarker [STAT:00000021] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-	Remaining: [REFR:0020F11A] (places CollisionMarker [STAT:00000021] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-Found duplicates:
-	Removing: [REFR:001E97A8] (places HoleFillBlack [STAT:0005C195] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_AF9770ED_OC.nif)
-	Remaining: [REFR:001F6AE3] (places HoleFillBlack [STAT:0005C195] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_AF9770ED_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE548] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-	Remaining: [REFR:001E0299] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE547] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-	Remaining: [REFR:001E0298] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE546] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_01B56295_OC.nif)
-	Remaining: [REFR:001E0297] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_01B56295_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE545] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_01B56295_OC.nif)
-	Remaining: [REFR:001E0296] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_01B56295_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE544] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-	Remaining: [REFR:001E0295] (places ShackWallFlat05 [STAT:001C5017] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE3B6] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_3427A2C4_OC.nif)
-	Remaining: [REFR:001DE3B7] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_3427A2C4_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE3B4] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_3F05AF05_OC.nif)
-	Remaining: [REFR:001DE3B8] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_3F05AF05_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE3A0] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_3A7CDF6B_OC.nif)
-	Remaining: [REFR:001DE3A5] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D69D_OC.nif)
-Found duplicates:
-	Removing: [REFR:001DE34E] (places BldWlpSmWallPlugADoor01 [STAT:0001BA47] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-	Remaining: [REFR:001DE3AF] (places BldWlpSmWallPlugADoor01 [STAT:0001BA47] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-Found duplicates:
-	Removing: [REFR:001D49C3] (places CaveMoundRocksLow04 [STAT:0004F118] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_064A8A90_OC.nif)
-	Remaining: [REFR:001D49C4] (places CaveMoundRocksLow04 [STAT:0004F118] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_064A8A90_OC.nif)
-Found duplicates:
-	Removing: [REFR:001D496C] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-	Remaining: [REFR:001DE3CD] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:001C3F54] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-	Remaining: [REFR:001C3F55] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE31E_OC.nif)
-Found duplicates:
-	Removing: [REFR:001C3F4F] (places DebrisPileSmallWood01 [STAT:0008029E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-	Remaining: [REFR:001C3F50] (places DebrisPileSmallWood01 [STAT:0008029E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_28F0581B_OC.nif)
-Found duplicates:
-	Removing: [REFR:001C3F4D] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_33015EA3_OC.nif)
-	Remaining: [REFR:001C3F4E] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-Found duplicates:
-	Removing: [REFR:001C3F14] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_28F0581B_OC.nif)
-	Remaining: [REFR:001C3F15] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-Found duplicates:
-	Removing: [REFR:001C3F06] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE31A_OC.nif)
-	Remaining: [REFR:001C3F07] (places DebrisPileSmallWood02 [STAT:0008029F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-Found duplicates:
-	Removing: [REFR:001C3E60] (places BldWoodBSmCeilOnly01 [STAT:00076C67] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_241578A6_OC.nif)
-	Remaining: [REFR:001C3EBE] (places BldWoodBSmCeilOnly01 [STAT:00076C67] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_241578A6_OC.nif)
-Found duplicates:
+Found duplicates: - Very close together, review.
 	Removing: [REFR:001BDDBE] (places CollisionMarker [STAT:00000021] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
 	Remaining: [REFR:001BDDBF] (places CollisionMarker [STAT:00000021] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24])
-Found duplicates:
-	Removing: [REFR:001B9BA5] (places DebrisPileLargeWood06 [STAT:0007ED8D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_6DEBA7AA_OC.nif)
-	Remaining: [REFR:001DE33B] (places DebrisPileLargeWood06 [STAT:0007ED8D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:001B9BA1] (places DebrisPileLargeWood06 [STAT:0007ED8D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82E6_OC.nif)
-	Remaining: [REFR:001DE33D] (places DebrisPileLargeWood06 [STAT:0007ED8D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D54B] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D66F_OC.nif)
-	Remaining: [REFR:001DE3FE] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82B9_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D517] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE32E] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D516] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-	Remaining: [REFR:001DE32F] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D514] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE331] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D513] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-	Remaining: [REFR:001DE332] (places BldWoodPSmFlrOnly10 [STAT:0001A828] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D4FC] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-	Remaining: [REFR:001DE3B2] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D4F9] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82CF_OC.nif)
-	Remaining: [REFR:001DE3B1] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_12622261_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D4EF] (places BldWoodPSmFlrPlat10 [STAT:0001A832] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE33E] (places BldWoodPSmFlrPlat10 [STAT:0001A832] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D45C] (places Mirelurk_NestPile_Skirt01 [STAT:0017AE04] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67F_OC.nif)
-	Remaining: [REFR:001DE349] (places Mirelurk_NestPile_Skirt01 [STAT:0017AE04] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-Found duplicates:
-	Removing: [REFR:0019D452] (places Mirelurk_NestPile_Skirt01 [STAT:0017AE04] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67F_OC.nif)
-	Remaining: [REFR:001DE34C] (places Mirelurk_NestPile_Skirt01 [STAT:0017AE04] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_2136426E_OC.nif)
-Found duplicates:
-	Removing: [REFR:00194146] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE337_OC.nif)
-	Remaining: [REFR:001DE33F] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-Found duplicates:
-	Removing: [REFR:00194143] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_4BAE270F_OC.nif)
-	Remaining: [REFR:001DE343] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D5BB5] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE337_OC.nif)
-	Remaining: [REFR:001DE340] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D5B8E] (places Mirelurk_NestPile02 [STAT:0016789D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE346_OC.nif)
-	Remaining: [REFR:001DE3F0] (places Mirelurk_NestPile02 [STAT:0016789D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE337_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D5B6F] (places ShackWallFlatEnd02 "Shack Wall" [STAT:000469BB] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D67E_OC.nif)
-	Remaining: [REFR:000D5B70] (places ShackWallFlatEnd02 "Shack Wall" [STAT:000469BB] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D67E_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D5B5C] (places DebrisPileLargeWood06 [STAT:0007ED8D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_4A452642_OC.nif)
-	Remaining: [REFR:001DE335] (places DebrisPileLargeWood06 [STAT:0007ED8D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_4A452642_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D5A51] (places BldWoodPSmFlrPlatChunk02 [STAT:0001A834] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_9B7D2C76_OC.nif)
-	Remaining: [REFR:001DE3C5] (places BldWoodPSmFlrPlatChunk02 [STAT:0001A834] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D6A5_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D4C62] (places DebrisPileLargeWood03 [STAT:0007ED90] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D6A4_OC.nif)
-	Remaining: [REFR:001DE3BE] (places DebrisPileLargeWood03 [STAT:0007ED90] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D69C_OC.nif)
-Found duplicates:
-	Removing: [REFR:000D4273] (places DebrisPileLargeWood04 [STAT:0007ED8B] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D6A4_OC.nif)
-	Remaining: [REFR:001DE3BD] (places DebrisPileLargeWood04 [STAT:0007ED8B] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D6A1_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CF415] (places BldWoodPSmFlrPlatChunk02 [STAT:0001A834] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_801B82CD_OC.nif)
-	Remaining: [REFR:001DE40A] (places BldWoodPSmFlrPlatChunk02 [STAT:0001A834] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CF411] (places BldWoodPSmFlrPlatChunk04 [STAT:0001A836] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_801B82CD_OC.nif)
-	Remaining: [REFR:001DE409] (places BldWoodPSmFlrPlatChunk04 [STAT:0001A836] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CD37E] (places SteamTSmRoomBrickCeilOnly01 [STAT:00023FE7] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D691_OC.nif)
-	Remaining: [REFR:001AF405] (places SteamTSmRoomBrickCeilOnly01 [STAT:00023FE7] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D691_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CCF46] (places BldWoodPDoorStatic01 "Door" [STAT:0001E2D4] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE334] (places BldWoodPDoorStatic01 "Door" [STAT:0001E2D4] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CCD6F] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE405] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CCD6C] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE407] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CCD6A] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE406] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC7F5] (places BldWoodPSmFlrPlat09 [STAT:0001A831] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82E0_OC.nif)
-	Remaining: [REFR:001DE3C4] (places BldWoodPSmFlrPlat09 [STAT:0001A831] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D6A5_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC7F4] (places BldWoodPSmFlrPlat05 [STAT:0001A82D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82E0_OC.nif)
-	Remaining: [REFR:001DE3C2] (places BldWoodPSmFlrPlat05 [STAT:0001A82D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D6A5_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC7F3] (places BldWoodPSmFlrPlat09 [STAT:0001A831] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82E0_OC.nif)
-	Remaining: [REFR:001DE3C3] (places BldWoodPSmFlrPlat09 [STAT:0001A831] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D6A5_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC7C4] (places BldWoodPDoorStatic01 "Door" [STAT:0001E2D4] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-	Remaining: [REFR:001DE3AE] (places BldWoodPDoorStatic01 "Door" [STAT:0001E2D4] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC7B1] (places BldWlpSmWallPlugADoor01 [STAT:0001BA47] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-	Remaining: [REFR:001DE3AF] (places BldWlpSmWallPlugADoor01 [STAT:0001BA47] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_099324D9_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC792] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82CD_OC.nif)
-	Remaining: [REFR:001DE3CE] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC791] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-	Remaining: [REFR:001DE3CC] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC790] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82C4_OC.nif)
-	Remaining: [REFR:001DE3CB] (places BldWoodPSmFlrPlat01 [STAT:0001A829] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC78D] (places BldWoodPSmFlrPlat05 [STAT:0001A82D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001B82CD_OC.nif)
-	Remaining: [REFR:001DE408] (places BldWoodPSmFlrPlat05 [STAT:0001A82D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D675_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC348] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_08782594_OC.nif)
-	Remaining: [REFR:000CC349] (places VineGround02 [STAT:0004C902] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_08782594_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CC218] (places CaveMoundRocksLow02 [STAT:0004F0E1] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0F558487_OC.nif)
-	Remaining: [REFR:000CCEBD] (places CaveMoundRocksLow02 [STAT:0004F0E1] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0F558487_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB33F] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_03886143_OC.nif)
-	Remaining: [REFR:001DE3CA] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_03886143_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB33E] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_03886143_OC.nif)
-	Remaining: [REFR:001DE3C9] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_03886143_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB33D] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_105F21B7_OC.nif)
-	Remaining: [REFR:001DE3C8] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_105F21B7_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB33C] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_105F21B7_OC.nif)
-	Remaining: [REFR:001DE3C7] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_105F21B7_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB33B] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0BAE270F_OC.nif)
-	Remaining: [REFR:001DE3C6] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0BAE270F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB256] (places BldWoodPSmBrokeWallEdge02 [STAT:0001AD4F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_CBAE270F_OC.nif)
-	Remaining: [REFR:001DE341] (places BldWoodPSmBrokeWallEdge02 [STAT:0001AD4F] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D67C_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CB255] (places BldWoodPSmBrokeWallEdge01 [STAT:0001AD4E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_801DE315_OC.nif)
-	Remaining: [REFR:001DE34B] (places BldWoodPSmBrokeWallEdge01 [STAT:0001AD4E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_8019D67F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CAD52] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-	Remaining: [REFR:001DE338] (places BldWoodPSmCeilOnly01 [STAT:0001A7F8] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CAD51] (places BldWoodPSmCeilOnly03 [STAT:0001A80B] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67F_OC.nif)
-	Remaining: [REFR:001DE339] (places BldWoodPSmCeilOnly03 [STAT:0001A80B] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CAD4F] (places BldWoodPSmCeilOnly02 [STAT:0001A80A] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_001DE346_OC.nif)
-	Remaining: [REFR:001DE34A] (places BldWoodPSmCeilOnly02 [STAT:0001A80A] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67F_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CAA95] (places BldWoodPSmFlrPlatQuarter01 [STAT:0008C81D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE403] (places BldWoodPSmFlrPlatQuarter01 [STAT:0008C81D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CAA93] (places BldWoodPSmFlrPlatQuarter01 [STAT:0008C81D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE404] (places BldWoodPSmFlrPlatQuarter01 [STAT:0008C81D] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CAA8C] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-	Remaining: [REFR:001DE333] (places BldWoodPSmFlrPlatHalf01 [STAT:0008C81E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D677_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CA882] (places BldWoodPSmWall03 [STAT:0001A88C] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67C_OC.nif)
-	Remaining: [REFR:001DE348] (places BldWoodPSmWall03 [STAT:0001A88C] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_0019D67F_OC.nif)
-Found duplicates:
+Found duplicates: - Needs optimization.
 	Removing: [REFR:000CA5FE] (places BldWoodPSmBrokeWallEdge01 [STAT:0001AD4E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_801DE3F1_OC.nif)
 	Remaining: [REFR:000CCF28] (places BldWoodPSmBrokeWallEdge01 [STAT:0001AD4E] in GRUP Cell Temporary Children of MassStateHouse01 "Massachusetts State House" [CELL:000C9D24] in Precombined\000C9D24_801DE3F1_OC.nif)
-Found duplicates:
+Found duplicates: - More to punt to UF04P
 	Removing: [REFR:00203AAB] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
 	Remaining: [REFR:00203AAC] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
 Found duplicates:
@@ -1354,16 +750,7 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:00203A89] (places NPCHandRailC [FURN:000C189E] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
 	Remaining: [REFR:00203A8F] (places NPCHandRailC [FURN:000C189E] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
-Found duplicates:
-	Removing: [REFR:001BA659] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
-	Remaining: [REFR:001BA65B] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
-Found duplicates:
-	Removing: [REFR:00049594] (places IndBldShellInWallDoorHuge01 [STAT:00018C3A] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318] in Precombined\0003A318_01084833_OC.nif)
-	Remaining: [REFR:001B00D9] (places IndBldShellInWallDoorHuge01 [STAT:00018C3A] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318] in Precombined\0003A318_01084833_OC.nif)
-Found duplicates:
-	Removing: [REFR:0004948D] (places IndFreeRail1WaySide01 [STAT:00018C5F] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318] in Precombined\0003A318_00000000_OC.nif)
-	Remaining: [REFR:0004948E] (places IndFreeRail1WaySide01 [STAT:00018C5F] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318] in Precombined\0003A318_00000000_OC.nif)
-Found duplicates:
+Found duplicates: - More punts to UF04P
 	Removing: [REFR:00140F88] (places defaultLightWarm01NSNonSpec [LIGH:000FDEE8] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
 	Remaining: [REFR:0014092F] (places defaultLightWarm01NSNonSpec [LIGH:000FDEE8] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
 Found duplicates:
@@ -1372,52 +759,7 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:00140F98] (places EmergencyLightBeam01 [MSTT:0002B76A] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
 	Remaining: [REFR:00140976] (places EmergencyLightBeam01 [MSTT:0002B76A] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318])
-Found duplicates:
-	Removing: [REFR:00140FAD] (places ConstructionLight_Standing_2piece_On1 [SCOL:000C5371] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318] in Precombined\0003A318_177548BF_OC.nif)
-	Remaining: [REFR:00140A1A] (places ConstructionLight_Standing_2piece_On1 [SCOL:000C5371] in GRUP Cell Temporary Children of BeantownBrewery01 "Beantown Brewery" [CELL:0003A318] in Precombined\0003A318_177548BF_OC.nif)
-Found duplicates:
-	Removing: [REFR:001B449E] (places TrashEdge04_nochunks [STAT:001ADB1E] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B5D_OC.nif)
-	Remaining: [REFR:001B44A5] (places TrashEdge04_nochunks [STAT:001ADB1E] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B5D_OC.nif)
-Found duplicates:
-	Removing: [REFR:000FEC73] (places BldConcSmWall01 [STAT:00067AA6] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B6B_OC.nif)
-	Remaining: [REFR:000FEC78] (places BldConcSmWall01 [STAT:00067AA6] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B6B_OC.nif)
-Found duplicates:
-	Removing: [REFR:0002980B] (places BldWlpSmFlrPlat01 [STAT:0001B9C6] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B72_OC.nif)
-	Remaining: [REFR:00035B1A] (places BldWlpSmFlrPlat01 [STAT:0001B9C6] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B72_OC.nif)
-Found duplicates:
-	Removing: [REFR:000298D9] (places BldConcMdWall02 [STAT:0006799D] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B6F_OC.nif)
-	Remaining: [REFR:001ADA9D] (places BldConcMdWall02 [STAT:0006799D] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B6F_OC.nif)
-Found duplicates:
-	Removing: [REFR:0002AF06] (places BldWlpSmFlrPlat01 [STAT:0001B9C6] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B76_OC.nif)
-	Remaining: [REFR:00035C08] (places BldWlpSmFlrPlat01 [STAT:0001B9C6] in GRUP Cell Temporary Children of BADTFL01 "BADTFL Regional Office" [CELL:00026840] in Precombined\00026840_00043B76_OC.nif)
-Found duplicates:
-	Removing: [REFR:00163AEB] (places BldWlpSmFlrOnly01 [STAT:0001B9C4] in GRUP Cell Temporary Children of BeaconHillApartments "Apartments" [CELL:000A4632] in Precombined\000A4632_2B5CFFA2_OC.nif)
-	Remaining: [REFR:00163AF2] (places BldWlpSmFlrOnly01 [STAT:0001B9C4] in GRUP Cell Temporary Children of BeaconHillApartments "Apartments" [CELL:000A4632] in Precombined\000A4632_2B5CFFA2_OC.nif)
-Found duplicates:
-	Removing: [REFR:00218CB5] (places BldConcSmDmgFlrSm02 [STAT:000679F5] in GRUP Cell Temporary Children of BeaconHillApartments "Apartments" [CELL:000A4632] in Precombined\000A4632_072750BA_OC.nif)
-	Remaining: [REFR:00218CB4] (places BldConcSmDmgFlrSm02 [STAT:000679F5] in GRUP Cell Temporary Children of BeaconHillApartments "Apartments" [CELL:000A4632] in Precombined\000A4632_072750BA_OC.nif)
-Found duplicates:
-	Removing: [REFR:00218CB7] (places BldConcSmDmgFlrSm02 [STAT:000679F5] in GRUP Cell Temporary Children of BeaconHillApartments "Apartments" [CELL:000A4632] in Precombined\000A4632_072750BA_OC.nif)
-	Remaining: [REFR:00218CB6] (places BldConcSmDmgFlrSm02 [STAT:000679F5] in GRUP Cell Temporary Children of BeaconHillApartments "Apartments" [CELL:000A4632] in Precombined\000A4632_072750BA_OC.nif)
-Found duplicates:
-	Removing: [REFR:002258A9] (places TrashPileCorIn01_nochunks [STAT:001ADB21] in GRUP Cell Temporary Children of CharlestownHouse01 "Abandoned House" [CELL:0009FB32] in Precombined\0009FB32_00000000_OC.nif)
-	Remaining: [REFR:00225899] (places TrashPileCorIn01_nochunks [STAT:001ADB21] in GRUP Cell Temporary Children of CharlestownHouse01 "Abandoned House" [CELL:0009FB32] in Precombined\0009FB32_00000000_OC.nif)
-Found duplicates:
-	Removing: [REFR:000B47B4] (places SteamTBgRoomBrickWall01 [STAT:00023FC0] in GRUP Cell Temporary Children of Switchboard "The Switchboard" [CELL:000B42E4] in Precombined\000B42E4_000E6B9B_OC.nif)
-	Remaining: [REFR:000B47C4] (places SteamTBgRoomBrickWall01 [STAT:00023FC0] in GRUP Cell Temporary Children of Switchboard "The Switchboard" [CELL:000B42E4] in Precombined\000B42E4_000E6B9B_OC.nif)
-Found duplicates:
-	Removing: [REFR:00056C91] (places SteamTPipeBg1Way01 [STAT:00023A7F] in GRUP Cell Temporary Children of MaldenDrainage01 "Malden Drainage" [CELL:00056BEE] in Precombined\00056BEE_AC248532_OC.nif)
-	Remaining: [REFR:00056C98] (places SteamTPipeBg1Way01 [STAT:00023A7F] in GRUP Cell Temporary Children of MaldenDrainage01 "Malden Drainage" [CELL:00056BEE] in Precombined\00056BEE_AC248532_OC.nif)
-Found duplicates:
-	Removing: [REFR:00214561] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of [CELL:002141AC])
-	Remaining: [REFR:00214562] (places MacDetailGreeble21 [STAT:00136000] in GRUP Cell Temporary Children of [CELL:002141AC])
-Found duplicates:
-	Removing: [REFR:000CA5EB] (places VltSignNoSmoking [STAT:00001B70] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260] in Precombined\000CA260_000CA292_OC.nif)
-	Remaining: [REFR:0023D608] (places VltSignNoSmoking [STAT:00001B70] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260] in Precombined\000CA260_000CA292_OC.nif)
-Found duplicates:
-	Removing: [REFR:000CA5EA] (places VltSignNoSmoking [STAT:00001B70] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260] in Precombined\000CA260_000CA292_OC.nif)
-	Remaining: [REFR:0023D607] (places VltSignNoSmoking [STAT:00001B70] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260] in Precombined\000CA260_000CA292_OC.nif)
-Found duplicates:
+Found duplicates: - Yet more punts to UF04P
 	Removing: [REFR:000CA49E] (places LightBeamThin01Short01 [MSTT:0005526B] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260])
 	Remaining: [REFR:000CA507] (places LightBeamThin01Short01 [MSTT:0005526B] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260])
 Found duplicates:
@@ -1432,10 +774,4 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:000570BA] (places VaultCryoUnderLight01NS_Prewar [LIGH:001A9385] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260])
 	Remaining: [REFR:000CA685] (places VaultCryoUnderLight01NS_Prewar [LIGH:001A9385] in GRUP Cell Temporary Children of PrewarVault111 "Vault 111" [CELL:000CA260])
-Found duplicates:
-	Removing: [REFR:00148CD8] (places BldConcMdWallBotHole04 [STAT:000679B0] in GRUP Cell Temporary Children of CroupManor01 "Croup Manor Basement" [CELL:0003C0F0] in Precombined\0003C0F0_A29E0BAA_OC.nif)
-	Remaining: [REFR:000A074F] (places BldConcMdWallBotHole04 [STAT:000679B0] in GRUP Cell Temporary Children of CroupManor01 "Croup Manor Basement" [CELL:0003C0F0] in Precombined\0003C0F0_A29E0BAA_OC.nif)
-Found duplicates:
-	Removing: [REFR:00148CD9] (places BldConcMdWallBotHoleSealed01 [STAT:000679B8] in GRUP Cell Temporary Children of CroupManor01 "Croup Manor Basement" [CELL:0003C0F0] in Precombined\0003C0F0_9990EC0D_OC.nif)
-	Remaining: [REFR:000A0752] (places BldConcMdWallBotHoleSealed01 [STAT:000679B8] in GRUP Cell Temporary Children of CroupManor01 "Croup Manor Basement" [CELL:0003C0F0] in Precombined\0003C0F0_9990EC0D_OC.nif)
 [11:09] Done: Applying script "Remove_duplicate_references", Processed Records: 1549051, Elapsed Time: 11:09
