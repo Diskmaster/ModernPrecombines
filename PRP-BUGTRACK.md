@@ -35,10 +35,11 @@ TODO
 - New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
 - New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
+- New\ \[DLC01Lair01\] 0100BD35 and neighbors might need z-adjustment to fix a floor seam.
 
 74
 
-
+- New\ \[DLC01Lair01\] Dedup 010009AC, 01000D46, 01001F3B, 01001578, 01003722, 01003D79, 010049EF, 01004D73 [manual], 01004D7E [manual], 01002893, 01002895, 01007E95, 01007FD2, 01008D0D, 01008D0F, 010093C8, 010093C9, 010093CA, 010093CB, 0100962C, 0100962D, 0100980E, 0100A8DC, 0100AA00, 0100B7DC, 0100BD38, 0100BD39, 0100C510, 
 - New\ \[CroupManor01\] Dedup 00148CD8, 00148CD9
 - New\ \[PrewarVault111\] Dedup 000CA5EB, 000CA5EA
 - New\ \[MaldenDrainage01\] Dedup 00056C91
