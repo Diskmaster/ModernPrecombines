@@ -1,16 +1,6 @@
-
 Found duplicates:
 	Removing: [REFR:03056DD4] (places OxygenTank "Oxygen Tank" [MSTT:0004EE95] in GRUP Cell Temporary Children of DLC03POIBasementArmory "Basement Armory" [CELL:03054271])
 	Remaining: [REFR:03056DD3] (places OxygenTank "Oxygen Tank" [MSTT:0004EE95] in GRUP Cell Temporary Children of DLC03POIBasementArmory "Basement Armory" [CELL:03054271])
-Found duplicates:
-	Removing: [REFR:0303277B] (places DrdRmLgWall01a [STAT:0301A26F] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F] in Precombined\DLCCoast.esm\00003A6F_0367340A_OC.nif)
-	Remaining: [REFR:0301A270] (places DrdRmLgWall01a [STAT:0301A26F] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F] in Precombined\DLCCoast.esm\00003A6F_0367340A_OC.nif)
-Found duplicates:
-	Removing: [REFR:0303277D] (places DrdRmLgWall01a [STAT:0301A26F] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F] in Precombined\DLCCoast.esm\00003A6F_00B13691_OC.nif)
-	Remaining: [REFR:0301A27D] (places DrdRmLgWall01a [STAT:0301A26F] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F] in Precombined\DLCCoast.esm\00003A6F_00B13691_OC.nif)
-Found duplicates:
-	Removing: [REFR:0303DF99] (places BldConcSmWall12 [STAT:00067AB5] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F] in Precombined\DLCCoast.esm\00003A6F_1E8CA84F_OC.nif)
-	Remaining: [REFR:0303DF98] (places BldConcSmWall12 [STAT:00067AB5] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F] in Precombined\DLCCoast.esm\00003A6F_1E8CA84F_OC.nif)
 Found duplicates:
 	Removing: [REFR:0305046B] (places DLC03NucleusYellowLightBottlesMED_NS [LIGH:03035D4B] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F])
 	Remaining: [REFR:0305046A] (places DLC03NucleusYellowLightBottlesMED_NS [LIGH:03035D4B] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F])
@@ -39,24 +29,6 @@ Found duplicates:
 	Removing: [REFR:030504A7] (places DLC03NucleusYellowLightBottlesMED_NS [LIGH:03035D4B] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F])
 	Remaining: [REFR:030504A6] (places DLC03NucleusYellowLightBottlesMED_NS [LIGH:03035D4B] in GRUP Cell Temporary Children of DLC03Nucleus "The Nucleus" [CELL:03003A6F])
 Found duplicates:
-	Removing: [REFR:0301F778] (places BldDecoSmFlrPlat01 [STAT:000D4462] in GRUP Cell Temporary Children of DLC03AlderseaDaySpa01 "Aldersea Day Spa" [CELL:03016665] in Precombined\DLCCoast.esm\00016665_0EE5A4B2_OC.nif)
-	Remaining: [REFR:0301F777] (places BldDecoSmFlrPlat01 [STAT:000D4462] in GRUP Cell Temporary Children of DLC03AlderseaDaySpa01 "Aldersea Day Spa" [CELL:03016665] in Precombined\DLCCoast.esm\00016665_0EE5A4B2_OC.nif)
-Found duplicates:
-	Removing: [REFR:03035502] (places CinderBlockSingle01 "Cinderblock" [STAT:00001DFD] in GRUP Cell Temporary Children of DLC03AlderseaDaySpa01 "Aldersea Day Spa" [CELL:03016665] in Precombined\DLCCoast.esm\00016665_A4CC1C9E_OC.nif)
-	Remaining: [REFR:03035501] (places CinderBlockSingle01 "Cinderblock" [STAT:00001DFD] in GRUP Cell Temporary Children of DLC03AlderseaDaySpa01 "Aldersea Day Spa" [CELL:03016665] in Precombined\DLCCoast.esm\00016665_A4CC1C9E_OC.nif)
-Found duplicates:
-	Removing: [REFR:03045AA3] (places MetalBarrelStatic01 "Barrel" [STAT:00018CD4] in GRUP Cell Temporary Children of DLC03Acadia "Acadia" [CELL:03004643] in Precombined\DLCCoast.esm\00004643_1B692397_OC.nif)
-	Remaining: [REFR:03013029] (places MetalBarrelStatic01 "Barrel" [STAT:00018CD4] in GRUP Cell Temporary Children of DLC03Acadia "Acadia" [CELL:03004643] in Precombined\DLCCoast.esm\00004643_1B692397_OC.nif)
-Found duplicates:
-	Removing: [REFR:03017BDC] (places IndBldShellInMidFlrOnly01 [STAT:00024743] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33] in Precombined\DLCCoast.esm\00016E33_1B485AF2_OC.nif)
-	Remaining: [REFR:03017B2A] (places IndBldShellInMidFlrOnly01 [STAT:00024743] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33] in Precombined\DLCCoast.esm\00016E33_1B485AF2_OC.nif)
-Found duplicates:
-	Removing: [REFR:03024C5A] (places IndTinyPipe1WayLong01 [STAT:00048158] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33] in Precombined\DLCCoast.esm\00016E33_1618DF85_OC.nif)
-	Remaining: [REFR:03024C11] (places IndTinyPipe1WayLong01 [STAT:00048158] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33] in Precombined\DLCCoast.esm\00016E33_1618DF85_OC.nif)
-Found duplicates:
-	Removing: [REFR:03026EED] (places IndBldShellInMidFlrOnly01 [STAT:00024743] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33] in Precombined\DLCCoast.esm\00016E33_36873CBB_OC.nif)
-	Remaining: [REFR:0301EEF2] (places IndBldShellInMidFlrOnly01 [STAT:00024743] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33] in Precombined\DLCCoast.esm\00016E33_36873CBB_OC.nif)
-Found duplicates:
 	Removing: [REFR:0304376C] (places LightBeamThin01Short02Dim [MSTT:0009A740] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33])
 	Remaining: [REFR:0304376A] (places LightBeamThin01Short02Dim [MSTT:0009A740] in GRUP Cell Temporary Children of DLC03VimPopFactory02 "Vim! Factory" [CELL:03016E33])
 Found duplicates:
@@ -65,33 +37,6 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:0304B6FD] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of DLC03WindFarmBuilding01 "Wind Farm Maintenance" [CELL:0302E12D])
 	Remaining: [REFR:0304B6FC] (places MistLargeRoundDustyDimmer [MSTT:001C9080] in GRUP Cell Temporary Children of DLC03WindFarmBuilding01 "Wind Farm Maintenance" [CELL:0302E12D])
-Found duplicates:
-	Removing: [REFR:030416B0] (places NatSmRmMidFloor01 [STAT:0002F676] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:030416A9] (places NatSmRmMidFloor01 [STAT:0002F676] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:030416B1] (places NatSmRmMidFloor01 [STAT:0002F676] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:030416AA] (places NatSmRmMidFloor01 [STAT:0002F676] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCA5] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E32] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCA6] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E33] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCAC] (places IndTinyPipe1WayLong01 [STAT:00048158] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E3A] (places IndTinyPipe1WayLong01 [STAT:00048158] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCAD] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E3B] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCAE] (places IndTinyPipe1WayLong01 [STAT:00048158] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E3C] (places IndTinyPipe1WayLong01 [STAT:00048158] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCAF] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E3D] (places IndTinyPipe1WayLongest01 [STAT:0004814C] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304DCB0] (places IndTinyPipe1WayLonger01 [STAT:00048159] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
-	Remaining: [REFR:03041E41] (places IndTinyPipe1WayLonger01 [STAT:00048159] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16] in Precombined\DLCCoast.esm\00040F16_01040FDC_OC.nif)
 Found duplicates:
 	Removing: [REFR:030503CC] (places DLC03NucleusYellowLightBottlesMED_NS [LIGH:03035D4B] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16])
 	Remaining: [REFR:030503CB] (places DLC03NucleusYellowLightBottlesMED_NS [LIGH:03035D4B] in GRUP Cell Temporary Children of DLC03NucleusSubInterior01 "The Vessel" [CELL:03040F16])
@@ -117,71 +62,11 @@ Found duplicates:
 	Removing: [REFR:03035FB1] (places DecalFlameBurn01 [TXST:0002B95A] in GRUP Cell Persistent Children of DLC03HarborGrandHotel01 "Harbor Grand Hotel" [CELL:03001B7A])
 	Remaining: [REFR:03035FB0] (places DecalFlameBurn01 [TXST:0002B95A] in GRUP Cell Persistent Children of DLC03HarborGrandHotel01 "Harbor Grand Hotel" [CELL:03001B7A])
 Found duplicates:
-	Removing: [REFR:0300C596] (places BarnMainRoofBrokeFull01 [STAT:0300C592] in GRUP Cell Temporary Children of DLC03FringeCoveDocks01 "Quick Test Cell" [CELL:03001B79] in Precombined\DLCCoast.esm\00001B79_38AD39AC_OC.nif)
-	Remaining: [REFR:0300C58B] (places BarnMainRoofBrokeFull01 [STAT:0300C592] in GRUP Cell Temporary Children of DLC03FringeCoveDocks01 "Quick Test Cell" [CELL:03001B79] in Precombined\DLCCoast.esm\00001B79_38AD39AC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0300C597] (places BarnWingRoofBrokeL01 "Roof" [STAT:0300C539] in GRUP Cell Temporary Children of DLC03FringeCoveDocks01 "Quick Test Cell" [CELL:03001B79] in Precombined\DLCCoast.esm\00001B79_103E456C_OC.nif)
-	Remaining: [REFR:0300C57F] (places BarnWingRoofBrokeL01 "Roof" [STAT:0300C539] in GRUP Cell Temporary Children of DLC03FringeCoveDocks01 "Quick Test Cell" [CELL:03001B79] in Precombined\DLCCoast.esm\00001B79_103E456C_OC.nif)
-Found duplicates:
-	Removing: [REFR:0300C599] (places BarnWingWallSideHOLE_L02 [STAT:03005BBB] in GRUP Cell Temporary Children of DLC03FringeCoveDocks01 "Quick Test Cell" [CELL:03001B79] in Precombined\DLCCoast.esm\00001B79_2BF12C14_OC.nif)
-	Remaining: [REFR:0300C595] (places BarnWingWallSideHOLE_L02 [STAT:03005BBB] in GRUP Cell Temporary Children of DLC03FringeCoveDocks01 "Quick Test Cell" [CELL:03001B79] in Precombined\DLCCoast.esm\00001B79_2BF12C14_OC.nif)
-Found duplicates:
-	Removing: [REFR:0301C30D] (places BldDecoSmCeilOnly06 [STAT:000D4444] in GRUP Cell Temporary Children of DLC03BeaverCreekLanes01 "Beaver Creek Lanes" [CELL:030054DA] in Precombined\DLCCoast.esm\000054DA_3A03A69C_OC.nif)
-	Remaining: [REFR:0301C30C] (places BldDecoSmCeilOnly06 [STAT:000D4444] in GRUP Cell Temporary Children of DLC03BeaverCreekLanes01 "Beaver Creek Lanes" [CELL:030054DA] in Precombined\DLCCoast.esm\000054DA_3A03A69C_OC.nif)
-Found duplicates:
-	Removing: [REFR:0301C37E] (places UtilHallStairsNarrow01 [STAT:0003D0B7] in GRUP Cell Temporary Children of DLC03BeaverCreekLanes01 "Beaver Creek Lanes" [CELL:030054DA] in Precombined\DLCCoast.esm\000054DA_05306001_OC.nif)
-	Remaining: [REFR:0301C351] (places UtilHallStairsNarrow01 [STAT:0003D0B7] in GRUP Cell Temporary Children of DLC03BeaverCreekLanes01 "Beaver Creek Lanes" [CELL:030054DA] in Precombined\DLCCoast.esm\000054DA_05306001_OC.nif)
-Found duplicates:
-	Removing: [REFR:0305D3A5] (places LightBeamThin01Short01 [MSTT:0005526B] in GRUP Cell Temporary Children of DLC03BeaverCreekLanes01 "Beaver Creek Lanes" [CELL:030054DA])
-	Remaining: [REFR:0302C284] (places LightBeamThin01Short01 [MSTT:0005526B] in GRUP Cell Temporary Children of DLC03BeaverCreekLanes01 "Beaver Creek Lanes" [CELL:030054DA])
-Found duplicates:
 	Removing: [REFR:0304B5AA] (places FXDripsLots [MSTT:0002A62B] in GRUP Cell Temporary Children of DLC03KitteredgePass01 "Kitteredge Pass" [CELL:03020668])
 	Remaining: [REFR:0304B5A9] (places FXDripsLots [MSTT:0002A62B] in GRUP Cell Temporary Children of DLC03KitteredgePass01 "Kitteredge Pass" [CELL:03020668])
 Found duplicates:
 	Removing: [REFR:0304B5AF] (places GlowFillCloudySlowBright [MSTT:001C26A7] in GRUP Cell Temporary Children of DLC03KitteredgePass01 "Kitteredge Pass" [CELL:03020668])
 	Remaining: [REFR:0304B5AE] (places GlowFillCloudySlowBright [MSTT:001C26A7] in GRUP Cell Temporary Children of DLC03KitteredgePass01 "Kitteredge Pass" [CELL:03020668])
-Found duplicates:
-	Removing: [REFR:03014032] (places IndustrialCart01 [STAT:000E37D1] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6] in Precombined\DLCCoast.esm\000078B6_32022960_OC.nif)
-	Remaining: [REFR:03013FCB] (places IndustrialCart01 [STAT:000E37D1] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6] in Precombined\DLCCoast.esm\000078B6_32022960_OC.nif)
-Found duplicates:
-	Removing: [REFR:030219DB] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6])
-	Remaining: [REFR:030219DA] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6])
-Found duplicates:
-	Removing: [REFR:030219E0] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6])
-	Remaining: [REFR:030219D8] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6])
-Found duplicates:
-	Removing: [REFR:030219FF] (places Vault_Crate_01_Steel "Crate" [STAT:000BA58F] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6] in Precombined\DLCCoast.esm\000078B6_29963506_OC.nif)
-	Remaining: [REFR:030219FE] (places Vault_Crate_01_Steel "Crate" [STAT:000BA58F] in GRUP Cell Temporary Children of DLC03EagleCoveTannery01 "Eagle's Cove Tannery" [CELL:030078B6] in Precombined\DLCCoast.esm\000078B6_29963506_OC.nif)
-Found duplicates:
-	Removing: [REFR:0303DEAD] (places BldWlpSmWallScktA02 [STAT:0001CA49] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392] in Precombined\DLCCoast.esm\00003392_23EE5CF2_OC.nif)
-	Remaining: [REFR:0303DEA7] (places BldWlpSmWallScktA02 [STAT:0001CA49] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392] in Precombined\DLCCoast.esm\00003392_23EE5CF2_OC.nif)
-Found duplicates:
-	Removing: [REFR:0303DEAE] (places DecoMainC1x1WinA01Add02 [STAT:0014304C] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392] in Precombined\DLCCoast.esm\00003392_23EE5CF2_OC.nif)
-	Remaining: [REFR:0303DEAA] (places DecoMainC1x1WinA01Add02 [STAT:0014304C] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392] in Precombined\DLCCoast.esm\00003392_23EE5CF2_OC.nif)
-Found duplicates:
-	Removing: [REFR:0303DEAF] (places DecoMainC1x1WinA01Add02 [STAT:0014304C] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392] in Precombined\DLCCoast.esm\00003392_231BDC54_OC.nif)
-	Remaining: [REFR:0303DEAB] (places DecoMainC1x1WinA01Add02 [STAT:0014304C] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392] in Precombined\DLCCoast.esm\00003392_231BDC54_OC.nif)
-Found duplicates:
-	Removing: [REFR:03040BC7] (places PlayerHouse_Ruin_Dresser01 "Dresser" [CONT:000913FA] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392])
-	Remaining: [REFR:0301C7CD] (places PlayerHouse_Ruin_Dresser01 "Dresser" [CONT:000913FA] in GRUP Cell Temporary Children of DLC03FarHarborLastPlank "The Last Plank" [CELL:03003392])
-Found duplicates:
-	Removing: [REFR:030307D0] (places ShackWallFlat01 "Shack Wall" [STAT:0002A91A] in GRUP Cell Temporary Children of DLC03PineCrestCavern01 "Pine Crest Cavern" [CELL:030258DD] in Precombined\DLCCoast.esm\000258DD_ACF0FA94_OC.nif)
-	Remaining: [REFR:030307B0] (places ShackWallFlat01 "Shack Wall" [STAT:0002A91A] in GRUP Cell Temporary Children of DLC03PineCrestCavern01 "Pine Crest Cavern" [CELL:030258DD] in Precombined\DLCCoast.esm\000258DD_ACF0FA94_OC.nif)
-Found duplicates:
-	Removing: [REFR:03022A92] (places BldConcSmWallPlugBDblDoor01 [STAT:00067A94] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_0E43681B_OC.nif)
-	Remaining: [REFR:030228D3] (places BldConcSmWallPlugBDblDoor01 [STAT:00067A94] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_0E43681B_OC.nif)
-Found duplicates:
-	Removing: [REFR:03044D1E] (places OfficePaperDebris01 [STAT:0003A9F2] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_0F01FB7B_OC.nif)
-	Remaining: [REFR:03044D1D] (places OfficePaperDebris01 [STAT:0003A9F2] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_0F01FB7B_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304AFD5] (places TrashEdge04_nochunks [STAT:001ADB1E] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_05306001_OC.nif)
-	Remaining: [REFR:0304AFD4] (places TrashEdge04_nochunks [STAT:001ADB1E] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_05306001_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304D7BD] (places VltHallResWallTallTop01 [STAT:000A84DC] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_386894AC_OC.nif)
-	Remaining: [REFR:0303BAEB] (places VltHallResWallTallTop01 [STAT:000A84DC] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_386894AC_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304D7BE] (places VltHallResWallTallMid02Simple [STAT:001E3445] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_386894AC_OC.nif)
-	Remaining: [REFR:0303BAEA] (places VltHallResWallTallMid02Simple [STAT:001E3445] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9] in Precombined\DLCCoast.esm\000054D9_386894AC_OC.nif)
 Found duplicates:
 	Removing: [REFR:0305717E] (places DefaultLightWhite01NSFlicker [LIGH:00061F29] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9])
 	Remaining: [REFR:0305717D] (places DefaultLightWhite01NSFlicker [LIGH:00061F29] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9])
@@ -228,30 +113,6 @@ Found duplicates:
 	Removing: [REFR:03057696] (places DefaultLightWhite01NSFlicker [LIGH:00061F29] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9])
 	Remaining: [REFR:03057695] (places DefaultLightWhite01NSFlicker [LIGH:00061F29] in GRUP Cell Temporary Children of DLC03Vault118 "Vault 118" [CELL:030054D9])
 Found duplicates:
-	Removing: [REFR:03024F05] (places BldConcSmFlrOnly01 [STAT:00067A40] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_32334B8C_OC.nif)
-	Remaining: [REFR:03024118] (places BldConcSmFlrOnly01 [STAT:00067A40] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_32334B8C_OC.nif)
-Found duplicates:
-	Removing: [REFR:03024F07] (places BldConcSmFlrOnly01 [STAT:00067A40] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_32334B8C_OC.nif)
-	Remaining: [REFR:03024F06] (places BldConcSmFlrOnly01 [STAT:00067A40] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_32334B8C_OC.nif)
-Found duplicates:
-	Removing: [REFR:030279E1] (places BldConcBgWall01 [STAT:00067994] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_2B7EEDED_OC.nif)
-	Remaining: [REFR:030279E0] (places BldConcBgWall01 [STAT:00067994] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_2B7EEDED_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304E479] (places BldConcMdWallScktABot02 [STAT:000679CD] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_2136426E_OC.nif)
-	Remaining: [REFR:030400E3] (places BldConcMdWallScktABot02 [STAT:000679CD] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_2136426E_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304E47A] (places BldConcMdWallPlugABotDoor01 [STAT:000679C8] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_2136426E_OC.nif)
-	Remaining: [REFR:030400E4] (places BldConcMdWallPlugABotDoor01 [STAT:000679C8] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99] in Precombined\DLCCoast.esm\00003A99_2136426E_OC.nif)
-Found duplicates:
-	Removing: [REFR:0304E4D2] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99])
-	Remaining: [REFR:0304E4D1] (places BlackWireSpline01 [BNDS:0001D971] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99])
-Found duplicates:
 	Removing: [REFR:03053EE0] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99])
 	Remaining: [REFR:03050324] (places DefaultLightWhite01NS [LIGH:000517B0] in GRUP Cell Temporary Children of DLC03NucleusCommandCenter01 "Nucleus Command Center" [CELL:03003A99])
-Found duplicates:
-	Removing: [REFR:0301F588] (places BldWoodPSmWallCorner01 [STAT:0001A86C] in GRUP Cell Temporary Children of DLC03VimPopFactory01 "Vim! Corporate Headquarters" [CELL:030054D8] in Precombined\DLCCoast.esm\000054D8_01B4C951_OC.nif)
-	Remaining: [REFR:0301F586] (places BldWoodPSmWallCorner01 [STAT:0001A86C] in GRUP Cell Temporary Children of DLC03VimPopFactory01 "Vim! Corporate Headquarters" [CELL:030054D8] in Precombined\DLCCoast.esm\000054D8_01B4C951_OC.nif)
-Found duplicates:
-	Removing: [REFR:0301F5D4] (places BldWoodPSmWallCorner01 [STAT:0001A86C] in GRUP Cell Temporary Children of DLC03VimPopFactory01 "Vim! Corporate Headquarters" [CELL:030054D8] in Precombined\DLCCoast.esm\000054D8_01B4C951_OC.nif)
-	Remaining: [REFR:0301F5C7] (places BldWoodPSmWallCorner01 [STAT:0001A86C] in GRUP Cell Temporary Children of DLC03VimPopFactory01 "Vim! Corporate Headquarters" [CELL:030054D8] in Precombined\DLCCoast.esm\000054D8_01B4C951_OC.nif)
 [02:21] Done: Applying script "Remove_duplicate_references", Processed Records: 309186, Elapsed Time: 02:21
