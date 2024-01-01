@@ -6,46 +6,12 @@ Found duplicates:
 	Removing: [REFR:060324A2] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of [CELL:06007B9C] (in NukaWorld "Nuka-World" [WRLD:0600290F]) at -4,0)
 	Remaining: [REFR:060324A1] (places PatrolIdleMarker [IDLM:00002CE2] in GRUP Cell Persistent Children of [CELL:06007B9C] (in NukaWorld "Nuka-World" [WRLD:0600290F]) at -4,0)
 	Both are tied to other refs.
-
-Found duplicates:
-	Removing: [REFR:06032D10] (places DecoLobbyA1x1OpenFull01 [STAT:0003211C] in GRUP Cell Temporary Children of DLC04KiddieKingdomTheater01 "King Cola's Court" [CELL:0602B99D] in Precombined\DLCNukaWorld.esm\0002B99D_09F1AB06_OC.nif)
-	Remaining: [REFR:06032CFE] (places DecoLobbyA1x1OpenFull01 [STAT:0003211C] in GRUP Cell Temporary Children of DLC04KiddieKingdomTheater01 "King Cola's Court" [CELL:0602B99D] in Precombined\DLCNukaWorld.esm\0002B99D_09F1AB06_OC.nif)
-Found duplicates:
-	Removing: [REFR:06032D18] (places BldWlpSmFlrOnly01 [STAT:0001B9C4] in GRUP Cell Temporary Children of DLC04KiddieKingdomTheater01 "King Cola's Court" [CELL:0602B99D] in Precombined\DLCNukaWorld.esm\0002B99D_1200ADBE_OC.nif)
-	Remaining: [REFR:06032CFB] (places BldWlpSmFlrOnly01 [STAT:0001B9C4] in GRUP Cell Temporary Children of DLC04KiddieKingdomTheater01 "King Cola's Court" [CELL:0602B99D] in Precombined\DLCNukaWorld.esm\0002B99D_1200ADBE_OC.nif)
-Found duplicates:
-	Removing: [REFR:0603F38A] (places MuseumBanner02 [STAT:0001CB47] in GRUP Cell Temporary Children of DLC04KiddieKingdomTheater01 "King Cola's Court" [CELL:0602B99D] in Precombined\DLCNukaWorld.esm\0002B99D_09F1AB06_OC.nif)
-	Remaining: [REFR:0603F388] (places MuseumBanner02 [STAT:0001CB47] in GRUP Cell Temporary Children of DLC04KiddieKingdomTheater01 "King Cola's Court" [CELL:0602B99D] in Precombined\DLCNukaWorld.esm\0002B99D_09F1AB06_OC.nif)
-Found duplicates:
-	Removing: [REFR:06008E59] (places HitFloorEdgeStraight01 [STAT:00075AD4] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_107F1BEE_OC.nif)
-	Remaining: [REFR:06008E56] (places HitFloorEdgeStraight01 [STAT:00075AD4] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_107F1BEE_OC.nif)
-Found duplicates:
+Found duplicates: - Needs optimization (new matswap, maybe?)
 	Removing: [REFR:0600907B] (places HitFloorEdge02CorOutHalf01 [STAT:00080D85] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_21E4D98F_OC.nif)
 	Remaining: [REFR:06008FE7] (places HitFloorEdge02CorOutHalf01 [STAT:00080D85] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_21E4D98F_OC.nif)
 Found duplicates:
 	Removing: [REFR:0600907D] (places HitFloorEdge02CorOutHalf01 [STAT:00080D85] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3DAAAAA2_OC.nif)
 	Remaining: [REFR:0600907C] (places HitFloorEdge02CorOutHalf01 [STAT:00080D85] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3DAAAAA2_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009D35] (places BldWlpSmWallUnderhang01 [STAT:0001BA6E] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_07E6DE65_OC.nif)
-	Remaining: [REFR:06009D26] (places BldWlpSmWallUnderhang01 [STAT:0001BA6E] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_07E6DE65_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009DC3] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3A06AF94_OC.nif)
-	Remaining: [REFR:06009DBA] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3A06AF94_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009DC6] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3A06AF94_OC.nif)
-	Remaining: [REFR:06009DBB] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3A06AF94_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009DC9] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3A06AF94_OC.nif)
-	Remaining: [REFR:06009DBC] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_3A06AF94_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009DCC] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_39D0AD0F_OC.nif)
-	Remaining: [REFR:06009DBD] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_39D0AD0F_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009DCF] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_39D0AD0F_OC.nif)
-	Remaining: [REFR:06009DBE] (places BldDecoSmFlrPlatTrimEdge01 [STAT:000D44D8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_39D0AD0F_OC.nif)
-Found duplicates:
-	Removing: [REFR:06009E61] (places IndFrame512x512XShapeEdge01 [STAT:000247FC] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_38923E6F_OC.nif)
-	Remaining: [REFR:06009E47] (places IndFrame512x512XShapeEdge01 [STAT:000247FC] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_38923E6F_OC.nif)
 Found duplicates:
 	Removing: [REFR:06009F79] (places HitFloorEdge02CorOutHalf01 [STAT:00080D85] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_20A64AEF_OC.nif)
 	Remaining: [REFR:06009F30] (places HitFloorEdge02CorOutHalf01 [STAT:00080D85] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_20A64AEF_OC.nif)
@@ -55,24 +21,10 @@ Found duplicates:
 Found duplicates:
 	Removing: [REFR:06009F7B] (places HitFloorEdge02StraightHalf01 [STAT:00080D89] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_113D888E_OC.nif)
 	Remaining: [REFR:06009F32] (places HitFloorEdge02StraightHalf01 [STAT:00080D89] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_113D888E_OC.nif)
-Found duplicates:
-	Removing: [REFR:0600A0E4] (places BldConcSmCeilOnly01 [STAT:00067A2A] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_1B692397_OC.nif)
-	Remaining: [REFR:06009268] (places BldConcSmCeilOnly01 [STAT:00067A2A] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_1B692397_OC.nif)
-Found duplicates:
-	Removing: [REFR:0603E150] (places HitDebrisPileTilesSmDmg03 [STAT:001C5ACB] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_1E41E686_OC.nif)
-	Remaining: [REFR:0603E14F] (places HitDebrisPileTilesSmDmg03 [STAT:001C5ACB] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_1E41E686_OC.nif)
-Found duplicates:
-	Removing: [REFR:0603E151] (places HitDebrisPile01DmgTiles01 [STAT:001C5AC8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_334F0E10_OC.nif)
-	Remaining: [REFR:0603E14E] (places HitDebrisPile01DmgTiles01 [STAT:001C5AC8] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_334F0E10_OC.nif)
-Found duplicates:
-	Removing: [REFR:0603E23D] (places TrashEdge03 [STAT:0008B5FD] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_004ADB53_OC.nif)
-	Remaining: [REFR:0603E23C] (places TrashEdge03 [STAT:0008B5FD] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B] in Precombined\DLCNukaWorld.esm\0000805B_004ADB53_OC.nif)
-Found duplicates:
+Found duplicates: - Upstream
 	Removing: [REFR:060495F8] (places WaxCandle01 [STAT:0002FA4E] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B])
 	Remaining: [REFR:060495F7] (places WaxCandle01 [STAT:0002FA4E] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B])
-Found duplicates:
-	Removing: DLC04MQ01Gauntlet_Overlook_OverbossPlayerSceneTrigger [REFR:0600A693] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Persistent Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B])
-	Remaining: [REFR:0600A691] (places DefaultSetStageTrigger [ACTI:0003251C] in GRUP Cell Temporary Children of DLC04ColaCars01 "Cola-Cars Arena" [CELL:0600805B])
+
 Found duplicates:
 	Removing: [REFR:06020975] (places BldWlpSmWallPillar02 [STAT:0001CC38] in GRUP Cell Temporary Children of DLC04KiddieKingdomFunHouse01 "Fun House" [CELL:0601951D] in Precombined\DLCNukaWorld.esm\0001951D_0E5DAE30_OC.nif)
 	Remaining: [REFR:0602094A] (places BldWlpSmWallPillar02 [STAT:0001CC38] in GRUP Cell Temporary Children of DLC04KiddieKingdomFunHouse01 "Fun House" [CELL:0601951D] in Precombined\DLCNukaWorld.esm\0001951D_0E5DAE30_OC.nif)
