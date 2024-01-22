@@ -39,6 +39,11 @@ TODO
 
 74
 
+- New\ \[CW, -13, 13\] Ran soften vertices (landscape editing) on the corner of Drumlin Diner (the one with the umbrella) to fix the appearance of floating foundation bits.
+- Changed\ \[CW, -8, 0\] Undo the delete for the two road chunks all the way back in 65.x, landscape needs adjusted accordingly.
+- New\ \[CW, -21, -2\] Merge HagenFixes.esp (replaces the wall piece with a window piece, realigns the exterior to match the interior (shifting the interior pops terrain up through the floor, so exterior had to be moved instead), and places some road pieces under a floating portion of wall next to the northeast door as per Glitchfinder)
+- New\ \[CW, -1, 4\] Add a missing house support beam to cover up a hole, also slightly adjust some house parts to minimize some z-fighting just above it. [support beam is upstreamable]
+- New\ \[CW, -4, 2\] Fix some material swap assignments near BF89E and patch a hole. [upstreamable, also review position later]
 - New\ \[Various\] CC related improvements. (Mostly for Heavy Flamer / Neon Flats so far)
 - New\ \[DLC04BottlingPlant01\] Dedup 06024C6A, 0602752F, 06027530, 06027531, 06027532, 0603D4A9, 06045479, 0604547A, 0604547B, 0604547C, 06045518, 06045519, 0604551A, 0604551B, 0604551C, 0604551D, 0604551E, 0604551F, 06045520, 06045521, 06045522, 06045525, 06045526, 06045527, 06045528, 06045529, 0604552A, 0604552B, 0604552C, 0604552D, 0604552E, 0604552F, 06045530, 06045531, 06045532, 06045533, 06045534, 06045535, 06045536, 06045537, 06045538, 06045539, 0604553A, 0604553B, 0604553C, 0604553D, 0604553E, 0604553F, 06045540, 06045541, 06045542, 06045543, 06045545, 06045546, 06045548, 06045549, 0604554A, 0604554B, 0604554C, 0604554D, 0604554E, 0604554F, 06045550, 06045551, 06045552, 06045553, 0603D2EE, 06045554, 06045555, 06045556, 06045557, 06045560, 06045561, 06045562, 06045563, 06045564, 06045565, 06045566, 06045567, 06045568, 06045569, 0604556A, 0604556B, 0604556C, 0604556D, 0604556E, 0604556F, 06045570, 06045571, 06045572, 06045573, 06045574, 06045575, 06045576, 06045577, 06045578, 06045579, 0604557A, 0604557B, 0604557C, 0604557D, 0604557E, 0604557F, 06045580, 06045581, 06045582, 06045583, 06045584, 06045598, 06045599, 0604559A, 0604559B, 0604559C, 0604559D, 0603D322, 0603D323, 0603D325, 0603D326, 0603D328, 0603D329, 060455AD, 060455AE, 060455AF, 060455B0, 060455C2, 060455C3, 060455C4, 060455C5, 060455C6, 060455C7, 060455C8, 060455C9, 060455CA, 060455CB, 060455CC, 060455CD, 060455CE, 060455CF, 060455D7, 060455DE, 06045641, 060456C4, 06045729, 0604572B, 0604572C, 0604580B, 0604580C, 0604580D, 06045813, 06045819, 0604581A, 06045820, 06045821, 06045822, 06045829, 0604582A, 06045830, 06045831, 06045832, 06045833, 06045834, 06045836, 06045857, 06045858, 06045859, 0604585A, 0604585B, 0604585C, 0604585D, 0604585E, 0604585F, 06045860, 06045861, 06045862, 06045863, 06045864, 06045865, 06045866, 06045867, 06045868, 06045869, 0604586A, 06045871, 060458AE, 060458AF, 060458B0, 060458BE, 060458BF, 060458C0, 060458D5, 060458D6, 060458D7, 060458D8, 060458D9, 060458DA, 060458DB, 060458DC, 060458DD, 060458DE, 060458DF, 060458E0, 060458E3, 060458E4, 060458E5, 060458E6, 060458E7, 060458E8, 060458E9, 060458EA, 060458EB, 060458EC, 060458ED, 060458EE, 060458EF, 060458F5, 060458F8, 060458F9, 060458FA, 060458FB, 060458FC, 060458FD, 060458FE, 0604590B, 0604590C, 0604590D, 0604590E, 0604590F, 06045910, 06045911, 06045912, 06045914, 06045915, 06045C54, 06045C55, 06045C56, 06045C57, 06045C58, 06045C59, 06045C5A, 06045C5B, 06045C5C, 06045C5D, 06045C5E, 06045C5F, 06045C60, 06045C61, 06045C62, 06045C63, 06045C64, 06045C65, 06045C66, 06045C67, 06045C68, 06045C69, 06045C6A, 06045C6B, 06045C6C, 06045C6D, 06045C6E, 06045C6F, 06045C70, 06045C71, 06045C72, 06045C73, 0603D40B, 0603D40C, 0603D40D, 0603D40E, 0603D40F, 0603D410, 0603D411, 0603D412, 0603D413, 0603D414, 0603D415, 0603D416, 0603D417, 0603D418, 0603D419, 0603D41A, 0603D41C, 0603D41D, 0603D41E, 0603D41F, 0603D42A, 0603D42B, 06055205, Also correct z-pos for 0603D5B0, 0603D5B1, 0603D5B2, 0603D5B3, And fix x-pos for 060568DF to better fit the wall.
 - New\ \[DLC04NukaWorldPowerPlant01\] Dedup 06016787, 06016788, 06016789, 0601678A, 0601678B, 0601678C, 0601678D, 0601678E, 06030425, 060331CE, 06033299
@@ -500,9 +505,6 @@ TODO
 - 🟩 \[4, -6, CW\] Nudge 16C3CD and it's neighboring wall chunks, 16C3CB, 1767F4, 176805, and 176806 to correct obvious z-fighting of wall meeting wall.
 - 🟩 \[FortStrong01\] Delete 1E7321 that's embedded in the wall. What the fuck is that even doing there?
 - 🟩 \[DBTechHighSchool01\] Fix 1CEF1B Zpos slightly to correct z-fighting (decal vs rug)
-
-66 (Beta)
-
 - 🟨 \[Documentation\] Starting with this version, documentation style update. Older notes will be updated and fleshed out at a later date.
 - 🟩 \[-3, 3, CW\] Tune 87420 and 8741F to placate Umbra and thus fix a "see through lane" between the two buildings. On a side note, the collision on the base objects looks a bit half assed.
 - 🟩 \[NatickSubstation\] Move 1622DF to hide a floating edge in the mesh as per Glitchfinder.
@@ -659,7 +661,7 @@ TODO
 - \[U29291\] (0, 7, NW): Nudge 0601DA78 to hopefully help fix a previs break, might require a collisionmarker.
 - \[U28513\] Migrate bug contents to PPF.
 - \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there. Add 1E819A XLRT to 1C7EE0
-- \[PRP, U31719\] (-8, 0, CW): 16002F and 16002A missing side of SCOL mesh \(sidewalk\), break them and delete the relevant sidewalk pieces. One left side isn't even visible, and the two right side ones need some welding or model work to make them useable without glaring visual issues.
+- ~~\[PRP, U31719\] (-8, 0, CW): 16002F and 16002A missing side of SCOL mesh \(sidewalk\), break them and delete the relevant sidewalk pieces. One left side isn't even visible, and the two right side ones need some welding or model work to make them useable without glaring visual issues.~~
 
 59
 
