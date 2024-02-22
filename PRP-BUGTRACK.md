@@ -39,6 +39,8 @@ TODO
 
 74
 
+- New\ \[Vaults\] Fix enable state of locker references for the vault suit compatibility. They were incorrectly set due to me not paying attention.
+- New\ \[MassPikeTunnel01\] Port over new wall records from x02 CC to fix an issue for those who don't actually have the CC (dynamically disable the newly added records so that the new ones from the CC show up as expected.)
 - New\ \[CW, -13, 13\] Ran soften vertices (landscape editing) on the corner of Drumlin Diner (the one with the umbrella) to fix the appearance of floating foundation bits.
 - Changed\ \[CW, -8, 0\] Undo the delete for the two road chunks all the way back in 65.x, landscape needs adjusted accordingly.
 - New\ \[CW, -21, -2\] Merge HagenFixes.esp (replaces the wall piece with a window piece, realigns the exterior to match the interior (shifting the interior pops terrain up through the floor, so exterior had to be moved instead), and places some road pieces under a floating portion of wall next to the northeast door as per Glitchfinder)
@@ -127,9 +129,6 @@ TODO
 - New\ \[CambridgeKendallHospital01\] Dedup 0022C9BA, 002129B2, 0020E805, 002043F3, 001F9991, 001F0F1C, 001F0F1B, 001EDC4A, 001EDBFE, 001ED8FC, 001ED834
 - New\ \[WarehouseIndustrialMachines\] Dedup 0019AA4C, 0017D3E1
 - New\ \[CambridgePD01\] Dedup 0010BDAD
-
-73
-
 - New\ \[MiltonGeneral01\] Dedup 00113C2A, 00113C29, 00113C02, 00113C01, 00113C00, 00113BFF, 000E6572, 000E64AA, 000E67DB, 0002A1B0
 - New\ \[ConcordMuseum01\] Dedup 0018DEE2, 000A2797, 000A14B1, 00044175, 00044174, 00044173, 00044169, 00044167, 000440BC, 000440B7, 0005C67F, 00018069, 00017EB2, 00018938, 0001F191, 0001E9BD, 0001CBF9, 000B1A93
 - New\ \[GoodneighborOldStateHouse\] Dedup 0010B512, 0015A103
