@@ -39,6 +39,7 @@ TODO
 
 74
 
+- New\ \[Various\] Hopefully all the remaining instances of dynamic disables that need covered.
 - New\ \[Vaults\] Fix enable state of locker references for the vault suit compatibility. They were incorrectly set due to me not paying attention.
 - New\ \[MassPikeTunnel01\] Port over new wall records from x02 CC to fix an issue for those who don't actually have the CC (dynamically disable the newly added records so that the new ones from the CC show up as expected.)
 - New\ \[CW, -13, 13\] Ran soften vertices (landscape editing) on the corner of Drumlin Diner (the one with the umbrella) to fix the appearance of floating foundation bits.
