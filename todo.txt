@@ -1,0 +1,15 @@
+Todo for 74 Promote:
+
+Finish rebuilding patches. (GalacTac, NW series, maybe also Point Lookout again)
+- Galac Tac
+- NWP
+- NWR
+- VNW
+- NW Combo Standalone
+- Point Lookout Again
+Update fomod for new file structure, making sure it autodetects installed CC plugins for the two PPF plugin add-ons.
+Write out article for CR generation and make sure compat patches are stripped out of the fomod. (Rely on PJM's scripts for this.)
+Patch in the updated SCOLs from Doubleyou for the tree wind fix. (External patches won't get these updates unless specifically generated after, but those will eventually filter in as the next build cycle occurs)
+Generate one off Scrap Everything patch.
+Move generated local patches to their own mod page to reduce confusion.
+Verify translation xml files, maybe move to dictionary based translation to save me future headache.
