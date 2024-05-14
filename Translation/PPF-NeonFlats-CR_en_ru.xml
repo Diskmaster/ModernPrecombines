@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>PPF-NeonFlats-CR.esm</Addon>
+    <Source>en</Source>
+    <Dest>ru</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>Подвал</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
