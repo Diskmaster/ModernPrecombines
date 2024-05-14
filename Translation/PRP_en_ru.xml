@@ -767,7 +767,7 @@
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>Гараж</Dest>
+      <Dest>Автостоянка Лексингтона</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -1013,7 +1013,7 @@
       <EDID>zLexingtonApartments</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Apartments</Source>
-      <Dest>Жилой дом</Dest>
+      <Dest>Лексингтон апартментс</Dest>
     </String>
     <String List="0">
       <EDID>DLC04BottlingPlant02</EDID>
@@ -1211,7 +1211,7 @@
       <EDID>zLexingtonPharmacy</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Pharmacy</Source>
-      <Dest>Аптека</Dest>
+      <Dest>Аптека Лексингтона</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1403,7 +1403,7 @@
       <EDID>zLexingtonLaundromat</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Laundromat</Source>
-      <Dest>Прачечная</Dest>
+      <Dest>Лексингтонская прачечная</Dest>
     </String>
     <String List="0">
       <EDID>FensKenmoreStation</EDID>
@@ -1763,7 +1763,7 @@
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Подвал</Dest>
+      <Dest>Клуб любителей электроники</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POI40Int</EDID>

@@ -533,7 +533,7 @@
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>Гараж</Dest>
+      <Dest>Автостоянка Лексингтона</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -1217,7 +1217,7 @@
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Подвал</Dest>
+      <Dest>Клуб любителей электроники</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
