@@ -434,6 +434,12 @@
       <Dest>Подвал &quot;Вим!&quot;</Dest>
     </String>
     <String List="0">
+      <EDID>DLC04WarehouseAmbush</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Ambush Warehouse Cell</Source>
+      <Dest>Ambush Warehouse Cell</Dest>
+    </String>
+    <String List="0">
       <EDID>RevereBeachStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Revere Beach Station</Source>
@@ -498,6 +504,12 @@
       <REC>CELL:FULL</REC>
       <Source>Dartmouth Professional Building</Source>
       <Dest>Офисное здание Дармута</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedFalloutShelter02</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Shelter</Source>
+      <Dest>Укрытие</Dest>
     </String>
     <String List="0">
       <EDID>DmndChoiceChops01</EDID>
@@ -755,7 +767,13 @@
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>Лексингтонская парковка</Dest>
+      <Dest>Автостоянка Лексингтона</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedSubwayTerminalShowcase</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Terminals &amp; Holotapes, Oh My.</Source>
+      <Dest>Терминалы и голозаписи, о боже.</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
@@ -1148,6 +1166,12 @@
       <Dest>Кегельбан</Dest>
     </String>
     <String List="0">
+      <EDID>zUnusedGrenades</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Cellar</Source>
+      <Dest>Подвал</Dest>
+    </String>
+    <String List="0">
       <EDID>TheaterMassBayMedicalCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Bay Medical Center</Source>
@@ -1166,6 +1190,12 @@
       <Dest>Гриль-бар &quot;Физзтоп&quot;</Dest>
     </String>
     <String List="0">
+      <EDID>zUnusedCave</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Breakheart Banks</Source>
+      <Dest>Брейкхарт-Бэнкс</Dest>
+    </String>
+    <String List="0">
       <EDID>ShenleysOysterBar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shenley&apos;s Oyster Bar</Source>
@@ -1181,7 +1211,7 @@
       <EDID>zLexingtonPharmacy</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Pharmacy</Source>
-      <Dest>Лексингтонская аптека</Dest>
+      <Dest>Аптека Лексингтона</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1218,6 +1248,12 @@
       <REC>CELL:FULL</REC>
       <Source>Old Robotics</Source>
       <Dest>Олд-роботикс</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedFinancial23</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Atlantic Offices</Source>
+      <Dest>Офисы &quot;Атлантик&quot;</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery02</EDID>
@@ -1356,6 +1392,12 @@
       <REC>CELL:FULL</REC>
       <Source>Parsons State Insane Asylum</Source>
       <Dest>Психиатрическая больница &quot;Парсонс&quot;</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedCellar02</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Cellar</Source>
+      <Dest>Подвал</Dest>
     </String>
     <String List="0">
       <EDID>zLexingtonLaundromat</EDID>
@@ -1721,7 +1763,7 @@
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Подвал клуба любителей электроники</Dest>
+      <Dest>Клуб любителей электроники</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POI40Int</EDID>
@@ -1982,52 +2024,10 @@
       <Dest>Содружество</Dest>
     </String>
     <String List="0">
-      <EDID>DiamondCity</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Diamond City</Source>
-      <Dest>Даймонд-сити</Dest>
-    </String>
-    <String List="0">
-      <EDID>Goodneighbor</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Goodneighbor</Source>
-      <Dest>Добрососедство</Dest>
-    </String>
-    <String List="0">
-      <EDID>SanctuaryHillsWorld</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Sanctuary Hills</Source>
-      <Dest>Сэнкчуари-Хиллз</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03FarHarbor</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>The Island</Source>
-      <Dest>Остров</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VRWorldspace</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Simulation</Source>
-      <Dest>Симуляция</Dest>
-    </String>
-    <String List="0">
       <EDID>NukaWorld</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Nuka-World</Source>
       <Dest>Ядер-Мир</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldAmphitheater</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Bradberton Amphitheater</Source>
-      <Dest>Амфитеатр Брэдбертона</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldMarket</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Nuka-Town Market</Source>
-      <Dest>Рынок Ядер-Тауна</Dest>
     </String>
   </Content>
 </SSTXMLRessources>
