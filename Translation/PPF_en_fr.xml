@@ -16,11 +16,11 @@
     <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>Build Version: 74.5
+      <Source>Build Version: 74.8
 Previsibines Repair Pack ESM
 Built from 1.10.163 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
-      <Dest>Build Version: 74.5
+      <Dest>Build Version: 74.8
 Previsibines Repair Pack ESM
 Built from 1.10.163 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
@@ -65,7 +65,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04BottlingPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The World of Refreshment</Source>
-      <Dest>Le monde des rafraîchissements</Dest>
+      <Dest>Le Monde des Rafraîchissements</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMassChemical01</EDID>
@@ -491,7 +491,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ConcordMuseum01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Museum of Freedom</Source>
-      <Dest>Musée de la liberté</Dest>
+      <Dest>Musée de la Liberté</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborOldStateHouse</EDID>
@@ -785,7 +785,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RailroadHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ</Source>
-      <Dest>QG du Réseau du rail</Dest>
+      <Dest>QG du Réseau du Rail</Dest>
     </String>
     <String List="0">
       <EDID>TrinityChurch01</EDID>
@@ -1235,7 +1235,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Club des Électriciens Amateurs - Cave</Dest>
+      <Dest>Club des Électriciens Amateurs</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
@@ -1253,7 +1253,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>NahantOceanSociety02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nahant Oceanological Research Lab</Source>
-      <Dest>Laboratoire de recherches océanographiques de Nahant</Dest>
+      <Dest>Laboratoire de recherche océanographique de Nahant</Dest>
     </String>
     <String List="0">
       <EDID>AtomatoysCorporateHQ01</EDID>
@@ -1464,6 +1464,12 @@ Please see the nexus mod page or git repository for extended author credits and 
       <REC>WRLD:FULL</REC>
       <Source>Nuka-Town Market</Source>
       <Dest>Marché de Nuka-Town</Dest>
+    </String>
+    <String List="1">
+      <EDID>PRP_Dev_Notice</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I found some strawberry cheesecake!</Source>
+      <Dest>J&apos;ai trouvé du cheesecake aux fraises!</Dest>
     </String>
   </Content>
 </SSTXMLRessources>
