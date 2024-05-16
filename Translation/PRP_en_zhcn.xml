@@ -7,23 +7,11 @@
     <Version>2</Version>
   </Params>
   <Content>
-    <String List="0" Partial="2">
+    <String List="0">
       <EDID>[00000000]</EDID>
       <REC>TES4:CNAM</REC>
       <Source>BenRierimanu</Source>
       <Dest>BenRierimanu</Dest>
-    </String>
-    <String List="0" Partial="2">
-      <EDID>[00000000]</EDID>
-      <REC>TES4:SNAM</REC>
-      <Source>Build Version: 74.5
-Previsibines Repair Pack ESP
-Built from 1.10.163 and requires all DLC.
-Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
-      <Dest>Build Version: 74.5
-Previsibines Repair Pack ESP
-Built from 1.10.163 and requires all DLC.
-Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
     </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
@@ -47,7 +35,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>MaldenDrainage01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Malden Drainage</Source>
-      <Dest>摩頓排水管</Dest>
+      <Dest>摩顿下水道</Dest>
     </String>
     <String List="0">
       <EDID>DLC03NorthwoodRidgeQuarry01</EDID>
@@ -59,7 +47,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04BottlingPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The World of Refreshment</Source>
-      <Dest>清涼暢快世界</Dest>
+      <Dest>清凉畅快世界</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMassChemical01</EDID>
@@ -71,7 +59,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Switchboard</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Switchboard</Source>
-      <Dest>總控間</Dest>
+      <Dest>总控间</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VimPopFactory01</EDID>
@@ -83,7 +71,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Financial24</EDID>
       <REC>CELL:FULL</REC>
       <Source>Joe&apos;s Spuckies</Source>
-      <Dest>喬的潛艇堡店</Dest>
+      <Dest>乔的潜艇三明治餐厅</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownHouse01</EDID>
@@ -101,7 +89,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GoodneighborWarehouse02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>倉庫</Dest>
+      <Dest>仓库</Dest>
     </String>
     <String List="0">
       <EDID>GraygardenHomestead01</EDID>
@@ -113,7 +101,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndStandsKellogg01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kellogg&apos;s House</Source>
-      <Dest>克羅格家</Dest>
+      <Dest>克罗格的家</Dest>
     </String>
     <String List="0">
       <EDID>BADTFL01</EDID>
@@ -125,7 +113,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BeantownBrewery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Beantown Brewery</Source>
-      <Dest>豆子鎮釀酒廠</Dest>
+      <Dest>豆子镇酿酒厂</Dest>
     </String>
     <String List="0">
       <EDID>MassStateHouse01</EDID>
@@ -143,13 +131,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndSurgeryCellar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Surgery Cellar</Source>
-      <Dest>地下手術室</Dest>
+      <Dest>地下手术室</Dest>
     </String>
     <String List="0">
       <EDID>DmndSchoolhouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Schoolhouse</Source>
-      <Dest>學堂</Dest>
+      <Dest>校舍</Dest>
     </String>
     <String List="0">
       <EDID>ConcordSpeakeasy</EDID>
@@ -161,37 +149,37 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BostonPublicLibrary01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Copley Station</Source>
-      <Dest>寇布利車站</Dest>
+      <Dest>科普利车站</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt15A</EDID>
       <REC>CELL:FULL</REC>
       <Source>Operations</Source>
-      <Dest>操作室</Dest>
+      <Dest>作业室</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomZ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>King Cola&apos;s Castle Tower</Source>
-      <Dest>可樂王城堡塔</Dest>
+      <Dest>可乐王城堡塔</Dest>
     </String>
     <String List="0">
       <EDID>DLC04NWJunkyardUFO01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ultimate UFO</Source>
-      <Dest>終極UFO</Dest>
+      <Dest>终极UFO</Dest>
     </String>
     <String List="0">
       <EDID>ShawHighSchool01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shaw High School</Source>
-      <Dest>夏烏高中</Dest>
+      <Dest>肖氏高中</Dest>
     </String>
     <String List="0">
       <EDID>DLC03NucleusCommandCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nucleus Command Center</Source>
-      <Dest>原子核會指揮中心</Dest>
+      <Dest>原子核会指挥中心</Dest>
     </String>
     <String List="0">
       <EDID>LaytonTowers01</EDID>
@@ -203,7 +191,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ElevTransHiTechInstitute</EDID>
       <REC>CELL:FULL</REC>
       <Source>Elevator</Source>
-      <Dest>電梯</Dest>
+      <Dest>电梯</Dest>
     </String>
     <String List="0">
       <EDID>DLC01Lair01</EDID>
@@ -215,13 +203,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04Nukacade01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-Cade</Source>
-      <Dest>核子電玩遊樂場</Dest>
+      <Dest>核子电玩游乐场</Dest>
     </String>
     <String List="0">
       <EDID>MassFusion02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Fusion Main Reactor</Source>
-      <Dest>大核融合廠主反應爐</Dest>
+      <Dest>麻州核聚变厂主反应堆</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Vault118</EDID>
@@ -239,7 +227,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GoodneighborHotelRexford</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hotel Rexford</Source>
-      <Dest>瑞福大飯店</Dest>
+      <Dest>瑞福大酒店</Dest>
     </String>
     <String List="0">
       <EDID>ParsonsState01</EDID>
@@ -251,7 +239,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Financial13</EDID>
       <REC>CELL:FULL</REC>
       <Source>Weatherby Investment Trust</Source>
-      <Dest>威勒比投資信託</Dest>
+      <Dest>韦瑟比投资信托基金</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownDrugDen</EDID>
@@ -275,25 +263,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteConcourse</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Institute</Source>
-      <Dest>學院</Dest>
+      <Dest>学院</Dest>
     </String>
     <String List="0">
       <EDID>DmndValentines01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Valentine Detective Agency</Source>
-      <Dest>瓦倫坦偵探事務所</Dest>
+      <Dest>瓦伦坦侦探事务所</Dest>
     </String>
     <String List="0">
       <EDID>CollegeSquare01</EDID>
       <REC>CELL:FULL</REC>
       <Source>College Square Station</Source>
-      <Dest>大學廣場站</Dest>
+      <Dest>大学广场站</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial Taphouse</Source>
-      <Dest>殖民酒館</Dest>
+      <Dest>殖民酒馆</Dest>
     </String>
     <String List="0">
       <EDID>FensStreetSewer01</EDID>
@@ -335,7 +323,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndPublick01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Publick Occurrences</Source>
-      <Dest>公共事件報社</Dest>
+      <Dest>公共事件报社</Dest>
     </String>
     <String List="0">
       <EDID>ConcordCivicAccess01</EDID>
@@ -347,31 +335,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PickmanGallery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pickman Gallery</Source>
-      <Dest>皮克曼畫廊</Dest>
+      <Dest>皮克曼画廊</Dest>
     </String>
     <String List="0">
       <EDID>DanversHideout</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hideout</Source>
-      <Dest>藏匿處</Dest>
+      <Dest>藏身处</Dest>
     </String>
     <String List="0">
       <EDID>PrewarTVStudio</EDID>
       <REC>CELL:FULL</REC>
       <Source>Colonial&apos;s Department Store</Source>
-      <Dest>殖民地百貨公司</Dest>
+      <Dest>殖民地百货公司</Dest>
     </String>
     <String List="0">
       <EDID>SaugusIronworks01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Saugus Ironworks</Source>
-      <Dest>索格斯鐵工廠</Dest>
+      <Dest>索格斯打铁坊</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndValentiStation</EDID>
       <REC>CELL:FULL</REC>
       <Source>Subway Station</Source>
-      <Dest>地鐵站</Dest>
+      <Dest>地铁站</Dest>
     </String>
     <String List="0">
       <EDID>BostonPublicLibrary02</EDID>
@@ -407,7 +395,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ArcjetSystems01</EDID>
       <REC>CELL:FULL</REC>
       <Source>ArcJet Systems</Source>
-      <Dest>電弧噴射系統</Dest>
+      <Dest>电弧喷射系统公司</Dest>
     </String>
     <String List="0">
       <EDID>DLC03FarHarborLastPlank</EDID>
@@ -431,13 +419,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FourLeafFishpacking02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Marowski&apos;s Chem Lab</Source>
-      <Dest>馬洛斯基的藥物實驗室</Dest>
+      <Dest>马洛斯基的药物实验室</Dest>
     </String>
     <String List="0">
       <EDID>DLC03KitteredgePass01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kitteredge Pass</Source>
-      <Dest>基特里奇礦洞</Dest>
+      <Dest>基特里奇矿洞</Dest>
     </String>
     <String List="0">
       <EDID>DLC03BeaverCreekLanes01</EDID>
@@ -449,25 +437,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC03KyeBunker01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vim! Basement</Source>
-      <Dest>「活力！」地下室</Dest>
+      <Dest>“活力！”地下室</Dest>
     </String>
     <String List="0">
       <EDID>DLC04WarehouseAmbush</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ambush Warehouse Cell</Source>
-      <Dest>突襲倉庫</Dest>
+      <Dest>突袭仓库</Dest>
     </String>
     <String List="0">
       <EDID>RevereBeachStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Revere Beach Station</Source>
-      <Dest>里維爾灘車站</Dest>
+      <Dest>里维尔滩车站</Dest>
     </String>
     <String List="0">
       <EDID>Financial06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Corner Bookstore</Source>
-      <Dest>老街角書店</Dest>
+      <Dest>老街角书店</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubPackLair</EDID>
@@ -485,7 +473,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndJohnsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>John and Cathy&apos;s House</Source>
-      <Dest>約翰和凱西的家</Dest>
+      <Dest>约翰和卡西的家</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborTheThirdRail</EDID>
@@ -509,31 +497,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>SouthBoston35</EDID>
       <REC>CELL:FULL</REC>
       <Source>Factory</Source>
-      <Dest>工廠</Dest>
+      <Dest>工厂</Dest>
     </String>
     <String List="0">
       <EDID>SentinelSite01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sentinel Site Prescott</Source>
-      <Dest>普雷斯科特鐵衛站</Dest>
+      <Dest>普雷斯科特前哨站</Dest>
     </String>
     <String List="0">
       <EDID>BackBayTallOffice01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dartmouth Professional Building</Source>
-      <Dest>達特茅斯商業大廈</Dest>
+      <Dest>达特茅斯专业建筑</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedFalloutShelter02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shelter</Source>
-      <Dest>庇護處</Dest>
+      <Dest>庇护所</Dest>
     </String>
     <String List="0">
       <EDID>DmndChoiceChops01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Polly&apos;s House</Source>
-      <Dest>波莉家</Dest>
+      <Dest>波莉的家</Dest>
     </String>
     <String List="0">
       <EDID>FederalRationStockpile01</EDID>
@@ -557,7 +545,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GreenetechGenetics02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenetech Genetics</Source>
-      <Dest>葛林科技基因研究院</Dest>
+      <Dest>绿色科技基因研究院</Dest>
     </String>
     <String List="0">
       <EDID>DLC03EchoLakeLumber01</EDID>
@@ -581,7 +569,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PrydwenHull01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Main Deck</Source>
-      <Dest>普利德溫號主甲板</Dest>
+      <Dest>普利德温号主甲板</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZVaultTec01</EDID>
@@ -599,31 +587,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ElevTransVault</EDID>
       <REC>CELL:FULL</REC>
       <Source>Elevator</Source>
-      <Dest>電梯</Dest>
+      <Dest>电梯</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt14</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reactor Level</Source>
-      <Dest>反應爐等級</Dest>
+      <Dest>反应堆层</Dest>
     </String>
     <String List="0">
       <EDID>ArcjetSystems02</EDID>
       <REC>CELL:FULL</REC>
       <Source>ArcJet Engine Core</Source>
-      <Dest>電弧噴射引擎核心</Dest>
+      <Dest>电弧喷射引擎核心室</Dest>
     </String>
     <String List="0">
       <EDID>Wattz01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Wattz Electronics</Source>
-      <Dest>瓦茲電子</Dest>
+      <Dest>瓦兹电子商场</Dest>
     </String>
     <String List="0">
       <EDID>MQ203KelloggsBrain</EDID>
       <REC>CELL:FULL</REC>
       <Source>Memories</Source>
-      <Dest>記憶</Dest>
+      <Dest>记忆</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariBearCave</EDID>
@@ -647,13 +635,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Sublevel 21-D</Source>
-      <Dest>學院次層21-D</Dest>
+      <Dest>学院次层21-D</Dest>
     </String>
     <String List="0">
       <EDID>DLC04TransitCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-World Transit Center</Source>
-      <Dest>核子世界轉運站</Dest>
+      <Dest>核子世界转运站</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubCappysCafe01</EDID>
@@ -665,13 +653,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
-      <Dest>普利德溫號營房</Dest>
+      <Dest>普利德温号营房</Dest>
     </String>
     <String List="0">
       <EDID>DmndFallons01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fallon&apos;s Basement</Source>
-      <Dest>飛倫家地下室</Dest>
+      <Dest>法伦地下室</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeKendallHospital01</EDID>
@@ -683,19 +671,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RailroadHQEscapeTunnel</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ Escape Tunnel</Source>
-      <Dest>鐵路總部逃生通道</Dest>
+      <Dest>铁路总部逃生通道</Dest>
     </String>
     <String List="0">
       <EDID>BigJohnsSalvage01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shelter</Source>
-      <Dest>庇護處</Dest>
+      <Dest>庇护所</Dest>
     </String>
     <String List="0">
       <EDID>DmndDugoutInn01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dugout Inn</Source>
-      <Dest>板凳旅店</Dest>
+      <Dest>冷板凳旅店</Dest>
     </String>
     <String List="0">
       <EDID>CambridgePD01</EDID>
@@ -707,13 +695,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>MiltonGeneral01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Milton General Hospital</Source>
-      <Dest>米爾頓綜合醫院</Dest>
+      <Dest>米尔顿综合医院</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GZNukaGalaxy01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-Galaxy</Source>
-      <Dest>核子銀河冒險</Dest>
+      <Dest>核子银河冒险</Dest>
     </String>
     <String List="0">
       <EDID>ConcordMuseum01</EDID>
@@ -725,7 +713,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GoodneighborOldStateHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old State House</Source>
-      <Dest>舊州政府</Dest>
+      <Dest>旧州政府</Dest>
     </String>
     <String List="0">
       <EDID>REObject02Interior</EDID>
@@ -749,19 +737,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>HubrisComics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hubris Comics</Source>
-      <Dest>虎不理漫畫店</Dest>
+      <Dest>虎不理漫画</Dest>
     </String>
     <String List="0">
       <EDID>ElevMinUseTransUtil</EDID>
       <REC>CELL:FULL</REC>
       <Source>Elevator</Source>
-      <Dest>電梯</Dest>
+      <Dest>电梯</Dest>
     </String>
     <String List="0">
       <EDID>WaldenPond01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gift Shop Basement</Source>
-      <Dest>禮品店地下室</Dest>
+      <Dest>礼品店地下室</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonEnergy01</EDID>
@@ -773,7 +761,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PoseidonEnergy02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Energy Sublevels</Source>
-      <Dest>海神能源次層</Dest>
+      <Dest>海神能源发电站次层</Dest>
     </String>
     <String List="0">
       <EDID>AndrewStation01</EDID>
@@ -781,17 +769,17 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Source>Andrew Station</Source>
       <Dest>安德鲁车站</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>莱克星顿停车场</Dest>
+      <Dest>列克星敦停车场</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
       <REC>CELL:FULL</REC>
       <Source>Terminals &amp; Holotapes, Oh My.</Source>
-      <Dest>終端機和全像卡帶，喔我的天。</Dest>
+      <Dest>终端机和全息卡带，喔我的天。</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
@@ -821,19 +809,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GoodneighborTheMemoryDen</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Memory Den</Source>
-      <Dest>記憶保管庫</Dest>
+      <Dest>记忆保管库</Dest>
     </String>
     <String List="0">
       <EDID>HestersRobotics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hester&apos;s Consumer Robotics</Source>
-      <Dest>海斯特家用機器人</Dest>
+      <Dest>海斯特家用机器人商场</Dest>
     </String>
     <String List="0">
       <EDID>DmndOutfieldShengsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sheng Kawolski&apos;s House</Source>
-      <Dest>小昇．克沃斯基家</Dest>
+      <Dest>小升·克沃斯基的家</Dest>
     </String>
     <String List="0">
       <EDID>MedfordMemorial01</EDID>
@@ -845,13 +833,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>NorthEndMeanPastries</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mean Pastries</Source>
-      <Dest>敏恩糕點</Dest>
+      <Dest>甜品店</Dest>
     </String>
     <String List="0">
       <EDID>DmndMoeCroninsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Moe Cronin&apos;s House</Source>
-      <Dest>老莫．克勞寧家</Dest>
+      <Dest>老莫·克劳宁的家</Dest>
     </String>
     <String List="0">
       <EDID>Vault81</EDID>
@@ -863,13 +851,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GNN02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gunners Plaza Basement</Source>
-      <Dest>槍手廣場地下室</Dest>
+      <Dest>枪手广场地下室</Dest>
     </String>
     <String List="0">
       <EDID>ThicketExcavations01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Thicket Excavations</Source>
-      <Dest>灌木叢挖掘場</Dest>
+      <Dest>灌木丛挖掘场</Dest>
     </String>
     <String List="0">
       <EDID>FensParkviewApartments02</EDID>
@@ -881,13 +869,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RelayTowerInt04</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shelter</Source>
-      <Dest>庇護處</Dest>
+      <Dest>庇护所</Dest>
     </String>
     <String List="0">
       <EDID>DmndWarehouseA01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>倉庫</Dest>
+      <Dest>仓库</Dest>
     </String>
     <String List="0">
       <EDID>UFOCrashSite01</EDID>
@@ -905,7 +893,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndAbbotsHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Abbot&apos;s House</Source>
-      <Dest>阿伯特家</Dest>
+      <Dest>阿博特的家</Dest>
     </String>
     <String List="0">
       <EDID>Theater16PearwoodResidences01</EDID>
@@ -917,13 +905,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Waterfront02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warehouse</Source>
-      <Dest>倉庫</Dest>
+      <Dest>仓库</Dest>
     </String>
     <String List="0">
       <EDID>EsplanadeChurch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Holy Mission Congregation</Source>
-      <Dest>神聖使命教會</Dest>
+      <Dest>神圣使命教会</Dest>
     </String>
     <String List="0">
       <EDID>MassFusion01</EDID>
@@ -935,13 +923,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Libertalia01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Captain&apos;s Cabin</Source>
-      <Dest>船長室</Dest>
+      <Dest>船长室</Dest>
     </String>
     <String List="0">
       <EDID>InstituteAdvSystems</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Advanced Systems</Source>
-      <Dest>學院先進系統部門</Dest>
+      <Dest>学院先进系统部门</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Secret</EDID>
@@ -953,25 +941,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgePolymerLabs01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cambridge Polymer Labs</Source>
-      <Dest>劍橋聚合物研究所</Dest>
+      <Dest>剑桥聚合物研究室</Dest>
     </String>
     <String List="0">
       <EDID>Financial07</EDID>
       <REC>CELL:FULL</REC>
       <Source>Haymarket Mall</Source>
-      <Dest>乾草市場商城</Dest>
+      <Dest>秣市购物商场</Dest>
     </String>
     <String List="0">
       <EDID>InstituteReactor</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Reactor</Source>
-      <Dest>學院反應爐</Dest>
+      <Dest>学院反应堆</Dest>
     </String>
     <String List="0">
       <EDID>SaugusIronworks02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Saugus Blast Furnace</Source>
-      <Dest>索格斯高爐</Dest>
+      <Dest>索格斯高炉</Dest>
     </String>
     <String List="0">
       <EDID>EsplanadeMansion01</EDID>
@@ -989,7 +977,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BobbisNewPlace01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hawthorne Estate</Source>
-      <Dest>霍桑莊園</Dest>
+      <Dest>霍桑庄园</Dest>
     </String>
     <String List="0">
       <EDID>InstituteTunnel01</EDID>
@@ -1007,13 +995,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeDiner01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cambridge Diner</Source>
-      <Dest>劍橋食堂</Dest>
+      <Dest>剑桥餐馆</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariReptileHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reptile House</Source>
-      <Dest>爬蟲類展覽館</Dest>
+      <Dest>爬虫类展览馆</Dest>
     </String>
     <String List="0">
       <EDID>Vault11402</EDID>
@@ -1037,7 +1025,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04BottlingPlant02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secure Beverageer Lab</Source>
-      <Dest>飲料實驗室</Dest>
+      <Dest>饮料实验室</Dest>
     </String>
     <String List="0">
       <EDID>SandyCovesHome01</EDID>
@@ -1049,7 +1037,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>MahkraFishpacking01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mahkra Fishpacking</Source>
-      <Dest>瑪卡拉魚產品包裝廠</Dest>
+      <Dest>玛卡拉鱼产品加工厂</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndHoardersApartment</EDID>
@@ -1073,13 +1061,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndArturosHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Arturo&apos;s House</Source>
-      <Dest>亞圖羅家</Dest>
+      <Dest>阿图罗的家</Dest>
     </String>
     <String List="0">
       <EDID>FourLeafFishpacking01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Four Leaf Fishpacking Plant</Source>
-      <Dest>四葉魚產品包裝廠</Dest>
+      <Dest>四叶草海产加工厂</Dest>
     </String>
     <String List="0">
       <EDID>NahantOceanSociety01</EDID>
@@ -1091,13 +1079,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RailroadHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ</Source>
-      <Dest>鐵路總部</Dest>
+      <Dest>铁路总部</Dest>
     </String>
     <String List="0">
       <EDID>FensParkviewApartments01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Apartment Building</Source>
-      <Dest>公寓大樓</Dest>
+      <Dest>公寓大楼</Dest>
     </String>
     <String List="0">
       <EDID>TrinityChurch01</EDID>
@@ -1109,19 +1097,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ElevTransHiTech</EDID>
       <REC>CELL:FULL</REC>
       <Source>Elevator</Source>
-      <Dest>電梯</Dest>
+      <Dest>电梯</Dest>
     </String>
     <String List="0">
       <EDID>DmndWaterfrontSunsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Doctor Sun&apos;s House</Source>
-      <Dest>孫醫生家</Dest>
+      <Dest>孙医生的家</Dest>
     </String>
     <String List="0">
       <EDID>ElevTransUtil</EDID>
       <REC>CELL:FULL</REC>
       <Source>Elevator</Source>
-      <Dest>電梯</Dest>
+      <Dest>电梯</Dest>
     </String>
     <String List="0">
       <EDID>DmndPembrokesHouse01</EDID>
@@ -1139,31 +1127,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CustomHouseTower01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Custom House Tower</Source>
-      <Dest>自訂的海關大樓</Dest>
+      <Dest>海关大楼</Dest>
     </String>
     <String List="0">
       <EDID>InstituteSRB</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute SRB</Source>
-      <Dest>學院合成人回收部門</Dest>
+      <Dest>学院合成人回收部门</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt17</EDID>
       <REC>CELL:FULL</REC>
       <Source>Storage</Source>
-      <Dest>儲藏庫</Dest>
+      <Dest>储藏库</Dest>
     </String>
     <String List="0">
       <EDID>GlowingSeaPOIDB06Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parking Garage</Source>
-      <Dest>停車場</Dest>
+      <Dest>停车场</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeEastCITRaiderCamp01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Office Building</Source>
-      <Dest>辦公大樓</Dest>
+      <Dest>办公大楼</Dest>
     </String>
     <String List="0">
       <EDID>TheaterMassBayMedicalCenter02</EDID>
@@ -1199,7 +1187,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC03NucleusSubInterior01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Vessel</Source>
-      <Dest>船艦</Dest>
+      <Dest>潜艇</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubFizztopGrille01</EDID>
@@ -1211,25 +1199,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zUnusedCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Breakheart Banks</Source>
-      <Dest>心碎河岸</Dest>
+      <Dest>心碎河畔</Dest>
     </String>
     <String List="0">
       <EDID>ShenleysOysterBar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shenley&apos;s Oyster Bar</Source>
-      <Dest>尚力生蠔酒吧</Dest>
+      <Dest>尚力生蚝酒吧</Dest>
     </String>
     <String List="0">
       <EDID>PrydwenHull02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
-      <Dest>普利德溫號指揮區</Dest>
+      <Dest>普利德温号指挥区</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>zLexingtonPharmacy</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Pharmacy</Source>
-      <Dest>列克星敦药房</Dest>
+      <Dest>列克星敦药店</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1259,19 +1247,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04SafariPrimateHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Primate House</Source>
-      <Dest>靈長類展覽館</Dest>
+      <Dest>灵长类展览馆</Dest>
     </String>
     <String List="0">
       <EDID>InstituteOldRobotics01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Robotics</Source>
-      <Dest>老舊機器室</Dest>
+      <Dest>旧型机器人部门</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedFinancial23</EDID>
       <REC>CELL:FULL</REC>
       <Source>Atlantic Offices</Source>
-      <Dest>大西洋辦公室</Dest>
+      <Dest>大西洋办公室</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery02</EDID>
@@ -1289,13 +1277,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Financial14</EDID>
       <REC>CELL:FULL</REC>
       <Source>Commonwealth Bank</Source>
-      <Dest>聯邦銀行</Dest>
+      <Dest>联邦银行</Dest>
     </String>
     <String List="0">
       <EDID>DmndCitySurplus01New</EDID>
       <REC>CELL:FULL</REC>
       <Source>Myrna&apos;s House</Source>
-      <Dest>彌兒娜家</Dest>
+      <Dest>默娜的家</Dest>
     </String>
     <String List="0">
       <EDID>ShamrockTaphouse01</EDID>
@@ -1307,25 +1295,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FensBank01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bridgeway Trust</Source>
-      <Dest>橋路信託</Dest>
+      <Dest>桥路信托</Dest>
     </String>
     <String List="0">
       <EDID>FortHagen02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fort Hagen Command Center</Source>
-      <Dest>黑根堡指揮中心</Dest>
+      <Dest>赫根堡指挥中心</Dest>
     </String>
     <String List="0">
       <EDID>QuincyPD01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Quincy Police Lock up</Source>
-      <Dest>昆西警察查閱</Dest>
+      <Dest>昆西警方看守所</Dest>
     </String>
     <String List="0">
       <EDID>DmndWaterfrontCrockersHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Doc Crocker&apos;s House</Source>
-      <Dest>剮克醫生家</Dest>
+      <Dest>克罗克医生的家</Dest>
     </String>
     <String List="0">
       <EDID>UniversityPoint01</EDID>
@@ -1337,19 +1325,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zInstituteRotunda</EDID>
       <REC>CELL:FULL</REC>
       <Source>CIT Rotunda</Source>
-      <Dest>聯邦理工圓頂大廳</Dest>
+      <Dest>联邦理工圆顶大厅</Dest>
     </String>
     <String List="0">
       <EDID>WarrenTheater01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Warren Theater</Source>
-      <Dest>沃倫劇院</Dest>
+      <Dest>沃伦剧院</Dest>
     </String>
     <String List="0">
       <EDID>InstituteRobotics</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Robotics</Source>
-      <Dest>學院機器人部門</Dest>
+      <Dest>学院机器人部门</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Gauntlet01</EDID>
@@ -1361,13 +1349,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>SanctuaryRosaHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Rosa Residence</Source>
-      <Dest>羅莎宅邸</Dest>
+      <Dest>罗莎宅邸</Dest>
     </String>
     <String List="0">
       <EDID>InstituteFEVlab</EDID>
       <REC>CELL:FULL</REC>
       <Source>FEV Lab</Source>
-      <Dest>FEV實驗室</Dest>
+      <Dest>FEV实验室</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndSalemStreetCottage</EDID>
@@ -1385,19 +1373,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RedRocket01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mole Rat Den</Source>
-      <Dest>鼴鼠窩</Dest>
+      <Dest>鼹鼠窝</Dest>
     </String>
     <String List="0">
       <EDID>DmndArturosHouse02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Arturo&apos;s House</Source>
-      <Dest>亞圖羅家</Dest>
+      <Dest>阿图罗的家</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt12</EDID>
       <REC>CELL:FULL</REC>
       <Source>Military Bunker</Source>
-      <Dest>軍用地堡</Dest>
+      <Dest>军用地堡</Dest>
     </String>
     <String List="0">
       <EDID>JamaicaPlain01</EDID>
@@ -1427,13 +1415,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FensKenmoreStation</EDID>
       <REC>CELL:FULL</REC>
       <Source>Subway Station</Source>
-      <Dest>地鐵站</Dest>
+      <Dest>地铁站</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeParkingGarage01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Kendall Parking</Source>
-      <Dest>肯德爾停車場</Dest>
+      <Dest>肯德尔停车场</Dest>
     </String>
     <String List="0">
       <EDID>DLC03WindFarmBuilding01</EDID>
@@ -1457,19 +1445,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ListeningPostBravo01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Listening Post Bravo</Source>
-      <Dest>B監聽站</Dest>
+      <Dest>B监听站</Dest>
     </String>
     <String List="0">
       <EDID>LongneckLukowskis01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Longneck Lukowski&apos;s Cannery</Source>
-      <Dest>長脖子魯柯斯基牌的罐頭工廠</Dest>
+      <Dest>长脖子鲁柯斯基牌罐头工厂</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeScienceCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Science Center Gift Shop</Source>
-      <Dest>科學中心禮品店</Dest>
+      <Dest>科学中心礼品店</Dest>
     </String>
     <String List="0">
       <EDID>CorvegaAssemblyPlant01</EDID>
@@ -1481,19 +1469,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>NationalGuardTrainingYard03</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Armory</Source>
-      <Dest>國民警衛隊軍械庫</Dest>
+      <Dest>国民警卫队军械库</Dest>
     </String>
     <String List="0">
       <EDID>DLC03VimPopFactory02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vim! Factory</Source>
-      <Dest>「活力！」工廠</Dest>
+      <Dest>“活力！”工厂</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsCooke01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cooke Residence</Source>
-      <Dest>庫克的住所</Dest>
+      <Dest>库克的住所</Dest>
     </String>
     <String List="0">
       <EDID>BeaconHillPub</EDID>
@@ -1505,19 +1493,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>TheaterHub360</EDID>
       <REC>CELL:FULL</REC>
       <Source>Hub 360</Source>
-      <Dest>360中心</Dest>
+      <Dest>哈伯360度酒吧</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt08</EDID>
       <REC>CELL:FULL</REC>
       <Source>Train Car</Source>
-      <Dest>火車車廂</Dest>
+      <Dest>火车车厢</Dest>
     </String>
     <String List="0">
       <EDID>DmndScienceCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Science! Center</Source>
-      <Dest>「科學！」中心</Dest>
+      <Dest>“科学！”中心</Dest>
     </String>
     <String List="0">
       <EDID>IrishPrideShipyard01</EDID>
@@ -1547,25 +1535,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Theater27TickerTapeLounge</EDID>
       <REC>CELL:FULL</REC>
       <Source>Ticker Tape Lounge</Source>
-      <Dest>彩帶休息室</Dest>
+      <Dest>彩带休息室</Dest>
     </String>
     <String List="0">
       <EDID>MassFusion02Trans</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Fusion Elevator</Source>
-      <Dest>大核融合廠電梯</Dest>
+      <Dest>麻州核聚变厂电梯</Dest>
     </String>
     <String List="0">
       <EDID>InstituteBioScience</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute BioScience</Source>
-      <Dest>學院生命科學部門</Dest>
+      <Dest>学院生命科学部门</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Acadia</EDID>
       <REC>CELL:FULL</REC>
       <Source>Acadia</Source>
-      <Dest>阿卡迪亞</Dest>
+      <Dest>阿卡迪亚</Dest>
     </String>
     <String List="0">
       <EDID>GeneralAtomicsFactory01</EDID>
@@ -1589,13 +1577,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndChoiceChops02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Meat Locker</Source>
-      <Dest>肉櫃</Dest>
+      <Dest>肉柜</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomTunnels01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Employee Tunnels</Source>
-      <Dest>員工通道</Dest>
+      <Dest>员工通道</Dest>
     </String>
     <String List="0">
       <EDID>FederalSurvCenter01</EDID>
@@ -1607,13 +1595,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BostonAirportRuins01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Boston Airport Ruins</Source>
-      <Dest>波士頓機場廢墟</Dest>
+      <Dest>波士顿机场废墟</Dest>
     </String>
     <String List="0">
       <EDID>SanctuaryBasementJahani</EDID>
       <REC>CELL:FULL</REC>
       <Source>Root Cellar</Source>
-      <Dest>根莖作物地窖</Dest>
+      <Dest>地窖</Dest>
     </String>
     <String List="0">
       <EDID>zWaystation</EDID>
@@ -1631,19 +1619,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>OldGulletSinkhole01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Gullet Sinkhole</Source>
-      <Dest>舊水路排水口</Dest>
+      <Dest>旧水路排水口</Dest>
     </String>
     <String List="0">
       <EDID>MedTekResearch02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Sub-Levels</Source>
-      <Dest>邁科藥研次層</Dest>
+      <Dest>曼科药物研究所次层</Dest>
     </String>
     <String List="0">
       <EDID>ElevTransPub</EDID>
       <REC>CELL:FULL</REC>
       <Source>Elevator</Source>
-      <Dest>電梯</Dest>
+      <Dest>电梯</Dest>
     </String>
     <String List="0">
       <EDID>CovenantHQ01</EDID>
@@ -1655,13 +1643,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DunwichBorers01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dunwich Borers</Source>
-      <Dest>丹維奇鑿岩公司</Dest>
+      <Dest>敦威治钻探公司</Dest>
     </String>
     <String List="0">
       <EDID>WestEverettEstates01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Backyard Bunker</Source>
-      <Dest>後院地堡</Dest>
+      <Dest>后院地堡</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Entry</EDID>
@@ -1673,7 +1661,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeConstructionSiteWarehouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Construction Site Warehouse</Source>
-      <Dest>施工地點倉庫</Dest>
+      <Dest>工地仓库</Dest>
     </String>
     <String List="0">
       <EDID>DLC04GrandchesterMansion01</EDID>
@@ -1685,13 +1673,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Vault111Cryo</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault 111</Source>
-      <Dest>111號避難所</Dest>
+      <Dest>111号避难所</Dest>
     </String>
     <String List="0">
       <EDID>DmndEarlsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Earl Sterling&apos;s House</Source>
-      <Dest>厄爾．史特陵家</Dest>
+      <Dest>厄尔·史特陵的家</Dest>
     </String>
     <String List="0">
       <EDID>MedTekResearch01</EDID>
@@ -1721,7 +1709,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CombatZone01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Combat Zone</Source>
-      <Dest>戰區</Dest>
+      <Dest>战区</Dest>
     </String>
     <String List="0">
       <EDID>Financial30</EDID>
@@ -1739,13 +1727,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RelayTowerInt09</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fishing Boat Cabin</Source>
-      <Dest>漁船船艙</Dest>
+      <Dest>渔船船舱</Dest>
     </String>
     <String List="0">
       <EDID>DmndPlayerHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Home Plate</Source>
-      <Dest>本壘板</Dest>
+      <Dest>本垒之家</Dest>
     </String>
     <String List="0">
       <EDID>FallonsDepartmentStore01</EDID>
@@ -1763,7 +1751,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BunkerHill01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Utility Basement</Source>
-      <Dest>公用設施地下室</Dest>
+      <Dest>公用设施地下室</Dest>
     </String>
     <String List="0">
       <EDID>MassPikeTunnel01</EDID>
@@ -1775,25 +1763,25 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>NorthEndBoxingGym</EDID>
       <REC>CELL:FULL</REC>
       <Source>Boxing Gym</Source>
-      <Dest>拳擊健身房</Dest>
+      <Dest>拳击健身房</Dest>
     </String>
     <String List="0">
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>电子爱好者俱乐部地窖</Dest>
+      <Dest>电气同好俱乐部地窖</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POI40Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pump Control</Source>
-      <Dest>幫浦控制室</Dest>
+      <Dest>水泵控制</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Malden Center</Source>
-      <Dest>摩頓中央地鐵站</Dest>
+      <Dest>摩顿中央地铁站</Dest>
     </String>
     <String List="0">
       <EDID>GreenetechGenetics01</EDID>
@@ -1805,7 +1793,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>NahantOceanSociety02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nahant Oceanological Research Lab</Source>
-      <Dest>奈罕市海洋研究實驗室</Dest>
+      <Dest>奈罕市海洋研究实验室</Dest>
     </String>
     <String List="0">
       <EDID>AtomatoysCorporateHQ01</EDID>
@@ -1823,7 +1811,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>UniversityPoint02</EDID>
       <REC>CELL:FULL</REC>
       <Source>University Credit Union</Source>
-      <Dest>大學信用合作社</Dest>
+      <Dest>大学信用合作社</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomFunHouse01</EDID>
@@ -1835,7 +1823,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>WestRoxburyStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>West Roxbury Station</Source>
-      <Dest>西羅斯伯利車站</Dest>
+      <Dest>西罗斯伯利车站</Dest>
     </String>
     <String List="0">
       <EDID>OldNorthChurch01</EDID>
@@ -1847,7 +1835,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeChurchGraveyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Union&apos;s Hope Cathedral</Source>
-      <Dest>聯盟的希望大教堂</Dest>
+      <Dest>联盟的希望大教堂</Dest>
     </String>
     <String List="0">
       <EDID>Yangtze01</EDID>
@@ -1859,31 +1847,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GorskiCabin01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Root Cellar</Source>
-      <Dest>根莖作物地窖</Dest>
+      <Dest>地窖</Dest>
     </String>
     <String List="0">
       <EDID>WRVRBroadcastCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>WRVR Broadcast Center</Source>
-      <Dest>WRVR電台中心</Dest>
+      <Dest>WRVR广播中心</Dest>
     </String>
     <String List="0">
       <EDID>Financial21</EDID>
       <REC>CELL:FULL</REC>
       <Source>35 Court</Source>
-      <Dest>35號法庭</Dest>
+      <Dest>35号法庭</Dest>
     </String>
     <String List="0">
       <EDID>CharlestownLaundry</EDID>
       <REC>CELL:FULL</REC>
       <Source>Charlestown Laundry</Source>
-      <Dest>查爾斯敦洗衣店</Dest>
+      <Dest>查尔斯敦洗衣店</Dest>
     </String>
     <String List="0">
       <EDID>DBTechHighSchool02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Medical Center Station</Source>
-      <Dest>醫療中心站</Dest>
+      <Dest>医疗中心站</Dest>
     </String>
     <String List="0">
       <EDID>VaultTecOffice01</EDID>
@@ -1895,13 +1883,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ParsonsState03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parsons State Basement</Source>
-      <Dest>帕森斯州立病院地下室</Dest>
+      <Dest>帕森斯州地下室</Dest>
     </String>
     <String List="0">
       <EDID>DmndRadio01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Diamond City Radio</Source>
-      <Dest>鑽石城電台</Dest>
+      <Dest>钻石城电台</Dest>
     </String>
     <String List="0">
       <EDID>SuffolkCountyCharterSchool01</EDID>
@@ -1919,19 +1907,19 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC03AlderseaDaySpa01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Aldersea Day Spa</Source>
-      <Dest>愛德喜芳療會館</Dest>
+      <Dest>爱德喜水疗会所</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsCodman01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Codman Residence</Source>
-      <Dest>考曼邸</Dest>
+      <Dest>柯德曼公寓</Dest>
     </String>
     <String List="0">
       <EDID>CabotHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cabot House</Source>
-      <Dest>凱伯宅邸</Dest>
+      <Dest>凯伯宅邸</Dest>
     </String>
     <String List="0">
       <EDID>BarneysBunker01</EDID>
@@ -1943,31 +1931,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RelayTowerInt05</EDID>
       <REC>CELL:FULL</REC>
       <Source>Storage Compartment</Source>
-      <Dest>儲藏庫隔間</Dest>
+      <Dest>储藏库隔间</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Nucleus</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Nucleus</Source>
-      <Dest>原子核會</Dest>
+      <Dest>原子核会</Dest>
     </String>
     <String List="0">
       <EDID>DLC04ColaCars01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Cola-Cars Arena</Source>
-      <Dest>可樂車競技場</Dest>
+      <Dest>可乐车竞技场</Dest>
     </String>
     <String List="0">
       <EDID>DmndSolomonsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Solomon&apos;s House</Source>
-      <Dest>索羅門家</Dest>
+      <Dest>索罗门的家</Dest>
     </String>
     <String List="0">
       <EDID>TrinityTower01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Trinity Tower Mid Level</Source>
-      <Dest>崔尼帝塔中級</Dest>
+      <Dest>崔尼帝塔中层</Dest>
     </String>
     <String List="0">
       <EDID>FensCafeBuilding</EDID>
@@ -1979,31 +1967,31 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndGreenhouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Greenhouse</Source>
-      <Dest>溫室</Dest>
+      <Dest>温室</Dest>
     </String>
     <String List="0">
       <EDID>DmndSurgeryBasement01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mega Surgery Center</Source>
-      <Dest>富豪手術中心</Dest>
+      <Dest>富豪手术中心</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt15B</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reactor Level</Source>
-      <Dest>反應爐等級</Dest>
+      <Dest>反应堆层</Dest>
     </String>
     <String List="0">
       <EDID>SlocumsJoeHQOffice</EDID>
       <REC>CELL:FULL</REC>
       <Source>Slocum&apos;s Joe Offices</Source>
-      <Dest>思樂肯咖啡辦公室</Dest>
+      <Dest>思乐肯咖啡办公室</Dest>
     </String>
     <String List="0">
       <EDID>DLC03POIBasementArmory</EDID>
       <REC>CELL:FULL</REC>
       <Source>Basement Armory</Source>
-      <Dest>地下軍械庫</Dest>
+      <Dest>地下军械库</Dest>
     </String>
     <String List="0">
       <EDID>DLC06VaultWorkshop</EDID>
@@ -2033,7 +2021,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>MuseumOfWitchcraft01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Museum of Witchcraft</Source>
-      <Dest>巫術博物館</Dest>
+      <Dest>巫术博物馆</Dest>
     </String>
     <String List="0">
       <EDID>Commonwealth</EDID>
@@ -2042,52 +2030,10 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Dest>联邦</Dest>
     </String>
     <String List="0">
-      <EDID>DiamondCity</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Diamond City</Source>
-      <Dest>钻石城</Dest>
-    </String>
-    <String List="0">
-      <EDID>Goodneighbor</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Goodneighbor</Source>
-      <Dest>芳邻镇</Dest>
-    </String>
-    <String List="0">
-      <EDID>SanctuaryHillsWorld</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Sanctuary Hills</Source>
-      <Dest>庇护山丘</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03FarHarbor</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>The Island</Source>
-      <Dest>岛屿</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VRWorldspace</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Simulation</Source>
-      <Dest>模拟</Dest>
-    </String>
-    <String List="0">
       <EDID>NukaWorld</EDID>
       <REC>WRLD:FULL</REC>
       <Source>Nuka-World</Source>
       <Dest>核子世界</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldAmphitheater</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Bradberton Amphitheater</Source>
-      <Dest>布拉德伯顿圆形剧场</Dest>
-    </String>
-    <String List="0">
-      <EDID>NukaWorldMarket</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Nuka-Town Market</Source>
-      <Dest>美国核子城市场</Dest>
     </String>
   </Content>
 </SSTXMLRessources>
