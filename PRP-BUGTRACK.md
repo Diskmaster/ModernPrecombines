@@ -37,6 +37,17 @@ TODO
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
 - New\ \[DLC01Lair01\] 0100BD35 and neighbors might need z-adjustment to fix a floor seam.
 
+75
+
+
+- New\ \[-5, -5, CW\] Adjust 15D507 and 27099 to make the Diamond City graffiti not disappear at certain angles (x-fighting)
+- New\ \[DmndRadio01\] Adjust C6391 to plug a hole to the void.
+- New\ \[HardwareTown01\] Adjust 170B9C to fix z-fighting
+- New\ \[-2, 2, CW\] Fix 16FB00 stairs position to not clip the window.
+- New\ \[-2, 1, CW\] Adjust placement of 17241A to plug a tiny crack in the wall.
+- New\ \[USAFSatellite01\] Fix z-fighting, 75BD3
+- New\ \[DmndRadio01\] Fix floating 146F80 Console SCOL. (forwardable?)
+
 74
 
 - New\ \[Various\] Hopefully all the remaining instances of dynamic disables that need covered.
