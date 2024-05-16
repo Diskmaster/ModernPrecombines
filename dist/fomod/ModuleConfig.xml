@@ -62,7 +62,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="ZHCN - 简体中文">
-							<description>Chinese (Traditional) / ZHCN</description>
+							<description>Chinese (Simplified) / ZHCN</description>
 							<conditionFlags>
 								<flag name="SChinese">On</flag>
 							</conditionFlags>
