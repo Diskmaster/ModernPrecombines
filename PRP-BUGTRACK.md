@@ -36,10 +36,14 @@ TODO
 - New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
 - New\ \[DLC01Lair01\] 0100BD35 and neighbors might need z-adjustment to fix a floor seam.
+- New\ \[Various\] Reapply all non-occluder meshes as copied base records and apply them to fix issues previously bandaid'd to minimize issues. (Dev note: 060138D1, 30314, 72375, 89720, 89721, 89722, 89726, 89727, 90EE5, DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62)
+- New\ \[Various\] Reconcile with UFO4P 2.1.6
 
 75
 
 
+- New\ \[7, -6, CW\] **U28590** Update 1BB400 to it's non-occluder equivalent to fix a void hole when the door's open.
+- New\ \[7, -10, CW\] Update MSwap 1C33DD as per DoubleYou to fix a material file spelling error that caused the material not to be correctly referenced which fixes ref 0020D832 which is a precombined billboard in Southern Boston
 - New\ \[-5, -5, CW\] Adjust 15D507 and 27099 to make the Diamond City graffiti not disappear at certain angles (x-fighting)
 - New\ \[DmndRadio01\] Adjust C6391 to plug a hole to the void.
 - New\ \[HardwareTown01\] Adjust 170B9C to fix z-fighting
