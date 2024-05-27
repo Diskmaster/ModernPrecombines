@@ -42,6 +42,15 @@ TODO
 75
 
 
+- New\ \[-11, -17, CW\] Adjust 165E88 and 165EA0 to fix mesh seams and make it look slightly more natural.
+- New\ \[-22, 22, CW\] Update texture swap for B1303 to allow for collection identification. (Use Materials\SetDressing\Signage\BillboardSignPRP.BGSM)
+- New\ \[GoodneighborTheMemoryDen\] Adjust 236BC7 to try and resolve distant z-fighting. Needs checked.
+- New\ \[-23, -5, CW\] Fix errant placement for 1484F5 so that it's actually on the ground and not over five thousand units below the ground.
+- New\ \[1, -5, CW\] Move 1AE91C, 17C6BA to fix z-fighting, and also close a placement hole.
+- New\ \[-21, 5, CW\] Move 152AA1 through 152AA6 to stop static refs poking out of a trailer.
+- New\ \[CambridgeCollegeAdminBuilding\] Nudge 23B0D4 to fix z-fighting.
+- New\ \[-6, 0, CW\] Nudge AAF75 to fix a crack near a CIT building.
+- New\ \[-20, 21, CW\] Round 22D66 pos in an attempt to make umbra shut up.
 - New\ \[7, -6, CW\] **U28590** Update 1BB400 to it's non-occluder equivalent to fix a void hole when the door's open.
 - New\ \[7, -10, CW\] Update MSwap 1C33DD as per DoubleYou to fix a material file spelling error that caused the material not to be correctly referenced which fixes ref 0020D832 which is a precombined billboard in Southern Boston
 - New\ \[-5, -5, CW\] Adjust 15D507 and 27099 to make the Diamond City graffiti not disappear at certain angles (x-fighting)
