@@ -196,7 +196,7 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Archivos Principales + Compat Grabbag">
+		<installStep name="ES - Español">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Spanish" value="On"/>
@@ -211,6 +211,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected Spanish">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Spanish\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -221,119 +226,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected Spanish">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Parche para Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 Spanish\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 Spanish\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Parche para Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 Spanish\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 Spanish\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Parche para Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Parche para Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Parche parar Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Parche para See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Parche para Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Parche para Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Parche para Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Parche para JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 Spanish\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Archivi Principali + Compat Grabbag">
+		<installStep name="IT - Italiano">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Italian" value="On"/>
@@ -348,6 +306,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected Italian">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Italian\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -358,119 +321,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected Italian">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Patch per Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 Italian\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 Italian\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Patch per Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 Italian\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 Italian\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Patch per Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Patch per Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Patch per Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Patch per See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Patch per Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Patch per Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Patch per Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch per JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 Italian\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Arquivos principais + Pack de Compatibilidade">
+		<installStep name="PTBR - Portugues do Brasil">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Portuguese" value="On"/>
@@ -485,6 +401,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected Portuguese">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Portuguese\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -495,119 +416,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected Portuguese">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Pack de Compatibilidade" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Patch Clareza 4.2">
-							<description>Patch para o mod Clareza (Clarity 4.2) https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 Portuguese\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 Portuguese\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Patch Clareza 4.3 ">
-							<description>Patch para o mod Clareza (Clarity 4.3) https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 Portuguese\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 Portuguese\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch de Ambiente Diamond City">
-							<description>Patch para o mod Ambiente de Diamond City (Diamond City Ambience) https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch para Fogout">
-							<description>Patch para o mod Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch de Interiores Melhorados">
-							<description>Patch para o mod Interiores Melhorados (Interiors Enhanced) https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch de nomes de região">
-							<description>Patch para o mod Nomes de Região (See region names on your save files) https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch de Ilum. Exterior Ultra">
-							<description>Patch para o mod Ilum. Exterior Ultra (Ultra Exterior Lighting) https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch de Ilum. Interior Ultra">
-							<description>Patch para o mod Ilum. Interior Ultra (Ultra Interior) Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Patch de Ilum. Interior Ultra (+ Escuro)">
-							<description>Patch para o mod Ilum. Interior Ultra+ Escuro (Ultra Interior Lighting (Darker)) https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch para o mod JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 Portuguese\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Principaux fichiers + Sac à main compatible">
+		<installStep name="FR - Français">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="French" value="On"/>
@@ -622,6 +496,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected French">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 French\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -632,119 +511,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected French">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Patch pour la Clarté 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 French\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 French\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Patch pour la Clarté 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 French\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 French\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Patch pour l'ambiance Diamond City https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Patch pour Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Patch pour les intérieurs amélioré https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Patch pour voir les noms de région sur vos fichiers de sauvegarde https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Patch pour éclairage extérieur Ultra https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Patch pour éclairage intérieur Ultra https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Patch pour l'éclairage intérieur ultra - Plugin d'ambiance plus sombre https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch pour JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 French\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Main Files + Compat Grabbag (TR)">
+		<installStep name="PL - Polish (TR)">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Polish" value="On"/>
@@ -759,129 +591,87 @@
 							<conditionFlags>
 								<flag name="PPF Selected Polish">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Polish\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment. (TR)</description>
+							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment. If PRP is not able to be checkmarked, you did not download and install the Resources archive (Part 1)! Do that first before using this fomod.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Polish">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 Polish\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 Polish\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 Polish\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 Polish\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 Polish\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="主文件 + 兼容补丁">
+		<installStep name="ZHCN - 简体中文">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="SChinese" value="On"/>
@@ -896,6 +686,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected SChinese">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 SChinese\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -906,119 +701,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected SChinese">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="兼容补丁" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>补丁 - Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 SChinese\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 SChinese\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>补丁 - Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 SChinese\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 SChinese\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>补丁 - Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>补丁 - Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>补丁 - Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>补丁 - See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>补丁 - Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>补丁 - Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>补丁 - Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>补丁 - JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 SChinese\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Main Files + Compat Grabbag">
+		<installStep name="JA - Japanese">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Japanese" value="On"/>
@@ -1033,6 +781,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected Japanese">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Japanese\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -1043,119 +796,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected Japanese">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 Japanese\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 Japanese\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 Japanese\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 Japanese\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 Japanese\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Main Files + Compat Grabbag">
+		<installStep name="RU - Russian">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Russian" value="On"/>
@@ -1170,6 +876,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected Russian">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Russian\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -1180,119 +891,72 @@
 							<conditionFlags>
 								<flag name="PRP Selected Russian">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 Russian\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 Russian\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 Russian\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 Russian\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 Russian\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="Main Files + Compat Grabbag">
+		<installStep name="DE - German">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="German" value="On"/>
@@ -1307,6 +971,11 @@
 							<conditionFlags>
 								<flag name="PPF Selected German">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 German\PPF.esm" destination="PPF.esm" priority="0"/>
+								<file source="02 Universal\PPF - Main.ba2" destination="PPF - Main.ba2" priority="0"/>
+								<file source="02 Universal\PPF - Textures.ba2" destination="PPF - Textures.ba2" priority="0"/>
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -1317,112 +986,65 @@
 							<conditionFlags>
 								<flag name="PRP Selected German">On</flag>
 							</conditionFlags>
+							<files>
+								<file source="01 German\PRP.esp" destination="PRP.esp" priority="0"/>
+							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="PRP - Geometry.csg" state=""/>
+												<fileDependency file="PRP - Main.ba2" state=""/>
+												<fileDependency file="PRP.cdx" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Compat Grabbag" type="SelectAny">
+				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="PRP - Clarity 4.2 Patch">
-							<description>Patch for Clarity 4.2 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Heavy Incinerator">
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
 							<files>
-								<file source="01 German\PRP-Compat-Clarity-42.esp" destination="PRP-Compat-Clarity-42.esp" priority="0"/>
+								<file source="01 German\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccbgsfo4116-heavyflamer.esl" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PRP - Clarity 4.3 Patch">
-							<description>Patch for Clarity 4.3 https://www.nexusmods.com/fallout4/mods/31991</description>
-							<image path="Images\Clarity.jpg"/>
+						<plugin name="Neon Flats">
+							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
 							<files>
-								<file source="01 German\PRP-Compat-Clarity-43.esp" destination="PRP-Compat-Clarity-43.esp" priority="0"/>
+								<file source="01 German\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Diamond City Ambience Patch">
-							<description>Patch for Diamond City Ambience https://www.nexusmods.com/fallout4/mods/39267</description>
-							<image path="Images\Diamond City Ambience.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-DCA.esp" destination="PRP-Compat-DCA.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Fogout Patch">
-							<description>Patch for Fogout https://www.nexusmods.com/fallout4/mods/2428</description>
-							<image path="Images\Fogout.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-Fogout-Int.esp" destination="PRP-Compat-Fogout-Int.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Interiors Enhanced Patch">
-							<description>Patch for Interiors Enhanced https://www.nexusmods.com/fallout4/mods/8768</description>
-							<image path="Images\Interiors Enhanced.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-IntEnh.esp" destination="PRP-Compat-IntEnh.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Region Names Patch">
-							<description>Patch for See region names on your save files https://www.nexusmods.com/fallout4/mods/41361</description>
-							<image path="Images\Region Names.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-RegionNames.esp" destination="PRP-Compat-RegionNames.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Exterior Lighting Patch">
-							<description>Patch for Ultra Exterior Lighting https://www.nexusmods.com/fallout4/mods/41625</description>
-							<image path="Images\Ultra Exterior Lighting.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-UEL.esp" destination="PRP-Compat-UEL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch">
-							<description>Patch for Ultra Interior Lighting https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-UIL.esp" destination="PRP-Compat-UIL.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - Ultra Interior Lighting Patch (Darker)">
-							<description>Patch for Ultra Interior Lighting - Darker Ambience Plugin https://www.nexusmods.com/fallout4/mods/22101</description>
-							<image path="Images\Ultra Interior Lighting.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-UIL-Darker.esp" destination="PRP-Compat-UIL-Darker.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="PRP - JSRS Regions Patch">
-							<description>Patch for JSRS Sound Mod Regions Plugin https://www.nexusmods.com/fallout4/mods/52931</description>
-							<image path="Images\JSRS.jpg"/>
-							<files>
-								<file source="01 German\PRP-Compat-JSRS-Regions.esp" destination="PRP-Compat-JSRS-Regions.esp" priority="0"/>
-							</files>
-							<typeDescriptor>
-								<type name="Optional"/>
+								<dependencyType>
+									<defaultType name="Required"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="cctosfo4002_neonflats.esm" state=""/>
+											</dependencies>
+											<type name="Optional"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
