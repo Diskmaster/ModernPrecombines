@@ -52,8 +52,8 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="PL - Polish (TR)">
-							<description>Polish / TR</description>
+						<plugin name="PL - Polski">
+							<description>Polski / PL</description>
 							<conditionFlags>
 								<flag name="Polish">On</flag>
 							</conditionFlags>
@@ -70,8 +70,8 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="JA - Japanese">
-							<description>Japanese / JA</description>
+						<plugin name="JA - 日本語">
+							<description>日本語 / JA</description>
 							<conditionFlags>
 								<flag name="Japanese">On</flag>
 							</conditionFlags>
@@ -79,8 +79,8 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="RU - Russian">
-							<description>Russian / RU</description>
+						<plugin name="RU - Pусский">
+							<description>Pусский / Russian</description>
 							<conditionFlags>
 								<flag name="Russian">On</flag>
 							</conditionFlags>
@@ -88,8 +88,8 @@
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="DE - German">
-							<description>German / DE</description>
+						<plugin name="DE - Deutsch">
+							<description>Deutsch / German</description>
 							<conditionFlags>
 								<flag name="German">On</flag>
 							</conditionFlags>
@@ -250,7 +250,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>Plugin de resolución de marcadores Heavy Incinerator para PPF.esm, necesario si tienes instalado ese CC.</description>
 							<files>
 								<file source="01 Spanish\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -269,7 +269,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Neon Flats PPF conflict resolver plugin, necesario si lo tiene instalado.</description>
 							<files>
 								<file source="01 Spanish\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -345,7 +345,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>Il plugin Heavy Incinerator marker resolve per PPF.esm, necessario se avete installato quel CC.</description>
 							<files>
 								<file source="01 Italian\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -364,7 +364,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Plugin Neon Flats PPF conflict resolver, necessario se installato.</description>
 							<files>
 								<file source="01 Italian\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -440,7 +440,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>O plug-in de resolução de marcador Heavy Incinerator para PPF.esm, necessário se você tiver esse CC instalado.</description>
 							<files>
 								<file source="01 Portuguese\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -459,7 +459,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Plug-in de resolução de conflitos do Neon Flats PPF, necessário se você o tiver instalado.</description>
 							<files>
 								<file source="01 Portuguese\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -535,7 +535,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>Heavy Incinerator marker resolve plugin for PPF.esm, nécessaire si vous avez installé ce CC.</description>
 							<files>
 								<file source="01 French\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -554,7 +554,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Neon Flats PPF conflict resolver plugin, requis si vous l'avez installé.</description>
 							<files>
 								<file source="01 French\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -576,7 +576,7 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="PL - Polish (TR)">
+		<installStep name="PL - Polski">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Polish" value="On"/>
@@ -586,7 +586,7 @@
 				<group name="Main Files" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="PPF">
-							<description>Master Plugin that includes all the actual fixes. Required for normal operation. (TR)</description>
+							<description>Wtyczka główna zawierająca wszystkie aktualne poprawki. Wymagana do normalnego działania.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PPF Selected Polish">On</flag>
@@ -601,7 +601,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment. If PRP is not able to be checkmarked, you did not download and install the Resources archive (Part 1)! Do that first before using this fomod.</description>
+							<description>Wygenerowany pakiet Previsibines, który został zbudowany z PPF. Wymagany do normalnego działania w środowisku waniliowym. Jeśli PRP nie można zaznaczyć, oznacza to, że nie pobrano i nie zainstalowano archiwum zasobów (część 1)! Zrób to najpierw przed użyciem tego moda.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Polish">On</flag>
@@ -630,7 +630,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>Heavy Incinerator marker resolve plugin dla PPF.esm, wymagany jeśli masz zainstalowany ten CC.</description>
 							<files>
 								<file source="01 Polish\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -649,7 +649,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Wtyczka Neon Flats PPF do rozwiązywania konfliktów, wymagana, jeśli jest zainstalowana.</description>
 							<files>
 								<file source="01 Polish\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -725,7 +725,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>PPF.esm 的重型焚化炉标记解析插件，如果安装了 CC，则需要此插件。</description>
 							<files>
 								<file source="01 SChinese\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -744,7 +744,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Neon Flats PPF 冲突解决插件，如果已安装，则需要此插件。</description>
 							<files>
 								<file source="01 SChinese\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -766,7 +766,7 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="JA - Japanese">
+		<installStep name="JA - 日本語">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Japanese" value="On"/>
@@ -776,7 +776,7 @@
 				<group name="Main Files" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="PPF">
-							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+							<description>実際の修正をすべて含むマスタープラグイン。通常の操作に必要です。</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PPF Selected Japanese">On</flag>
@@ -791,7 +791,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+							<description>PPFからビルドされたPrevisibinesパッケージ。バニラ環境での通常動作に必要。</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Japanese">On</flag>
@@ -820,7 +820,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>PPF.esm用のHeavy Incineratorマーカー解決プラグイン。</description>
 							<files>
 								<file source="01 Japanese\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -839,7 +839,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Neon Flats PPFコンフリクト・リゾルバー・プラグイン。</description>
 							<files>
 								<file source="01 Japanese\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -861,7 +861,7 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="RU - Russian">
+		<installStep name="RU - Pусский">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="Russian" value="On"/>
@@ -871,7 +871,7 @@
 				<group name="Main Files" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="PPF">
-							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+							<description>Мастер-плагин, включающий все актуальные исправления. Необходим для нормальной работы.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PPF Selected Russian">On</flag>
@@ -886,7 +886,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+							<description>Генерируемый пакет Previsibines, который был собран из PPF. Необходим для нормальной работы в ванильном окружении.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Russian">On</flag>
@@ -915,7 +915,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>Плагин Heavy Incinerator разрешает маркеры для PPF.esm, необходим, если у вас установлен этот CC.</description>
 							<files>
 								<file source="01 Russian\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -934,7 +934,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Плагин Neon Flats PPF resolver conflict plugin, требуется, если он у вас установлен.</description>
 							<files>
 								<file source="01 Russian\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
@@ -956,7 +956,7 @@
 				</group>
 			</optionalFileGroups>
 		</installStep>
-		<installStep name="DE - German">
+		<installStep name="DE - Deutsch">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="German" value="On"/>
@@ -966,7 +966,7 @@
 				<group name="Main Files" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="PPF">
-							<description>Master Plugin that includes all the actual fixes. Required for normal operation.</description>
+							<description>Master-Plugin, das alle aktuellen Korrekturen enthält. Für den normalen Betrieb erforderlich.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PPF Selected German">On</flag>
@@ -981,7 +981,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment.</description>
+							<description>Generiertes Previsibines-Paket, das aus PPF erstellt wurde. Erforderlich für den normalen Betrieb in einer Vanilla-Umgebung.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected German">On</flag>
@@ -1010,7 +1010,7 @@
 				<group name="Creation Club" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Heavy Incinerator">
-							<description>Heavy Incinerator marker resolve plugin for PPF.esm, required if you have that CC installed.</description>
+							<description>Heavy Incinerator Marker Resolve Plugin für PPF.esm, erforderlich, wenn Sie diesen CC installiert haben.</description>
 							<files>
 								<file source="01 German\PPF-HeavyFlamer-CR.esm" destination="PPF-HeavyFlamer-CR.esm" priority="0"/>
 							</files>
@@ -1029,7 +1029,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Neon Flats">
-							<description>Neon Flats PPF conflict resolver plugin, required if you have it installed.</description>
+							<description>Neon Flats PPF conflict resolver plugin, erforderlich, wenn Sie es installiert haben.</description>
 							<files>
 								<file source="01 German\PPF-NeonFlats-CR.esm" destination="PPF-NeonFlats-CR.esm" priority="0"/>
 							</files>
