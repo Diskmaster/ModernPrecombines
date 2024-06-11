@@ -126,7 +126,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generated Previsibines package that was built from PPF. Required for normal operation in a vanilla environment. If PRP is not able to be checkmarked, you did not download and install the Resources archive (Part 1)! Do that first before using this fomod.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected English">On</flag>
@@ -135,19 +135,7 @@
 								<file source="01 English\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -221,7 +209,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Paquete Previsibines generado a partir de PPF. Necesario para el funcionamiento normal en un entorno normal del juego (vanilla).</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop. [TR]</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Spanish">On</flag>
@@ -230,19 +218,7 @@
 								<file source="01 Spanish\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -316,7 +292,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Pacchetto di Previsibines generate da PPF. Necessario per una normale operazione in vanilla.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Italian">On</flag>
@@ -325,19 +301,7 @@
 								<file source="01 Italian\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -411,7 +375,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Pacote de Previsibines gerado que foi construído a partir do PPF. Necessário para operação normal em um ambiente padrão.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Portuguese">On</flag>
@@ -420,19 +384,7 @@
 								<file source="01 Portuguese\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -506,7 +458,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Package Previsibines généré à partir de PPF. Requis pour un fonctionnement normal dans un environnement vanilla.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected French">On</flag>
@@ -515,19 +467,7 @@
 								<file source="01 French\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -601,7 +541,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Wygenerowany pakiet Previsibines, który został zbudowany z PPF. Wymagany do normalnego działania w środowisku waniliowym. Jeśli PRP nie można zaznaczyć, oznacza to, że nie pobrano i nie zainstalowano archiwum zasobów (część 1)! Zrób to najpierw przed użyciem tego moda.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Polish">On</flag>
@@ -610,19 +550,7 @@
 								<file source="01 Polish\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -696,7 +624,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>从PPF构建生成的Previsibines包。原版环境下正常运行所需。</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected SChinese">On</flag>
@@ -705,19 +633,7 @@
 								<file source="01 SChinese\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -791,7 +707,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>PPFからビルドされたPrevisibinesパッケージ。バニラ環境での通常動作に必要。</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Japanese">On</flag>
@@ -800,19 +716,7 @@
 								<file source="01 Japanese\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -886,7 +790,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Генерируемый пакет Previsibines, который был собран из PPF. Необходим для нормальной работы в ванильном окружении.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Russian">On</flag>
@@ -895,19 +799,7 @@
 								<file source="01 Russian\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -981,7 +873,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Generiertes Previsibines-Paket, das aus PPF erstellt wurde. Erforderlich für den normalen Betrieb in einer Vanilla-Umgebung.</description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected German">On</flag>
@@ -990,19 +882,7 @@
 								<file source="01 German\PRP.esp" destination="PRP.esp" priority="0"/>
 							</files>
 							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Required"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="PRP - Geometry.csg" state=""/>
-												<fileDependency file="PRP - Main.ba2" state=""/>
-												<fileDependency file="PRP.cdx" state=""/>
-											</dependencies>
-											<type name="Optional"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
