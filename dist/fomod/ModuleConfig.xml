@@ -707,7 +707,7 @@
 							</typeDescriptor>
 						</plugin>
 						<plugin name="PRP">
-							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.description>
+							<description>Cell header update plugin. Useless on it's own and requires the installation of the 2GB PRP Resources module from the same mod page, as without it you will crash to desktop.</description>
 							<image path="Images\PRP.jpg"/>
 							<conditionFlags>
 								<flag name="PRP Selected Japanese">On</flag>
