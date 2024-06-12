@@ -1,0 +1,397 @@
+Global_ImportFolder=E:\git\ModernPrecombines\Translation
+
+StartRule
+LangSource=en
+LangDest=fr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_fr.xml
+exportsubfolder=01 French
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=fr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_fr.xml
+exportsubfolder=01 French
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=fr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_fr.xml
+exportsubfolder=01 French
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=fr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_fr.xml
+exportsubfolder=01 French
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=de
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_de.xml
+exportsubfolder=01 German
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=de
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_de.xml
+exportsubfolder=01 German
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=de
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_de.xml
+exportsubfolder=01 German
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=de
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_de.xml
+exportsubfolder=01 German
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=it
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_it.xml
+exportsubfolder=01 Italian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=it
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_it.xml
+exportsubfolder=01 Italian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=it
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_it.xml
+exportsubfolder=01 Italian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=it
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_it.xml
+exportsubfolder=01 Italian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ja
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ja.xml
+exportsubfolder=01 Japanese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ja
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ja.xml
+exportsubfolder=01 Japanese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ja
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ja.xml
+exportsubfolder=01 Japanese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ja
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_ja.xml
+exportsubfolder=01 Japanese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=pl
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_pl.xml
+exportsubfolder=01 Polish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=pl
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_pl.xml
+exportsubfolder=01 Polish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=pl
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_pl.xml
+exportsubfolder=01 Polish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=pl
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_pl.xml
+exportsubfolder=01 Polish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ptbr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ptbr.xml
+exportsubfolder=01 Portuguese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ptbr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ptbr.xml
+exportsubfolder=01 Portuguese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ptbr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ptbr.xml
+exportsubfolder=01 Portuguese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ptbr
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_ptbr.xml
+exportsubfolder=01 Portuguese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ru
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ru.xml
+exportsubfolder=01 Russian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ru
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ru.xml
+exportsubfolder=01 Russian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ru
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_ru.xml
+exportsubfolder=01 Russian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ru
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_ru.xml
+exportsubfolder=01 Russian
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_zhcn.xml
+exportsubfolder=01 SChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_zhcn.xml
+exportsubfolder=01 SChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_zhcn.xml
+exportsubfolder=01 SChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_zhcn.xml
+exportsubfolder=01 SChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=es
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_es.xml
+exportsubfolder=01 Spanish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=es
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_es.xml
+exportsubfolder=01 Spanish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=es
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_es.xml
+exportsubfolder=01 Spanish
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=es
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_es.xml
+exportsubfolder=01 Spanish
+command=finalize
+command=CloseFile
+EndRule
