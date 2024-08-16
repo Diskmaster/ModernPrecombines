@@ -38,10 +38,15 @@ TODO
 - New\ \[DLC01Lair01\] 0100BD35 and neighbors might need z-adjustment to fix a floor seam.
 - New\ \[Various\] Reapply all non-occluder meshes as copied base records and apply them to fix issues previously bandaid'd to minimize issues. (Dev note: 060138D1, 30314, 72375, 89720, 89721, 89722, 89726, 89727, 90EE5, DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62)
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
+- New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
 75
 
 
+- New\ \[-23, -7, CW\] Lowered 85896 to hide a missing side of the sidewalk chunk. Also, lower 169089 so it doesn't float.
+- New\ \[-6, 3, CW\] Lower 86476, 8645A, 8645F, 86461, 86462, 8645E and make minor adjustments to the Landscape to get a garage from sticking out too far from it's attached house. Also fix misalignments while I'm here, including 86458
+- New\ \[-22, 1, CW\] Adjust 855C7 position to remove a small gap to it's neighbors.
+- New\ \[-9, -4, FH\] Adjusted position for the infamous floating hook 03050836 to move it to a nearby hovel so it's sticking in the wall. This is a temporary move, I want to give this some proper treatment.
 - New\ \[-11, -17, CW\] Adjust 165E88 and 165EA0 to fix mesh seams and make it look slightly more natural.
 - New\ \[-22, 22, CW\] Update texture swap for B1303 to allow for collection identification. (Use Materials\SetDressing\Signage\BillboardSignPRP.BGSM)
 - New\ \[GoodneighborTheMemoryDen\] Adjust 236BC7 to try and resolve distant z-fighting. Needs checked.
