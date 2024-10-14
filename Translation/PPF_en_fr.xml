@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SSTXMLRessources>
   <Params>
-    <Addon>PPF.esm</Addon>
+    <Addon>ppf.esm</Addon>
     <Source>en</Source>
     <Dest>fr</Dest>
     <Version>2</Version>
@@ -16,13 +16,13 @@
     <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>Build Version: 74.8
+      <Source>Build Version: 74.14 NG
 Previsibines Repair Pack ESM
-Built from 1.10.163 and requires all DLC.
+Built from 1.10.984 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
-      <Dest>Build Version: 74.8
+      <Dest>Build Version: 74.14 NG
 Previsibines Repair Pack ESM
-Built from 1.10.163 and requires all DLC.
+Built from 1.10.984 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
     </String>
     <String List="0">
@@ -65,7 +65,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04BottlingPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The World of Refreshment</Source>
-      <Dest>Le Monde des Rafraîchissements</Dest>
+      <Dest>Le monde des rafraîchissements</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeMassChemical01</EDID>
@@ -491,7 +491,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ConcordMuseum01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Museum of Freedom</Source>
-      <Dest>Musée de la Liberté</Dest>
+      <Dest>Musée de la liberté</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborOldStateHouse</EDID>
@@ -581,7 +581,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04HubFizztopMountainInterior01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fizztop Mountain</Source>
-      <Dest>Mont Pétillant</Dest>
+      <Dest>Mont pétillant</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborTheMemoryDen</EDID>
@@ -731,7 +731,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04BottlingPlant02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secure Beverageer Lab</Source>
-      <Dest>Laboratoire de docteur ès soda sécurisé</Dest>
+      <Dest>Sécurisez le laboratoire docteur ès soda.</Dest>
     </String>
     <String List="0">
       <EDID>SandyCovesHome01</EDID>
@@ -785,7 +785,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RailroadHQ01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Railroad HQ</Source>
-      <Dest>QG du Réseau du Rail</Dest>
+      <Dest>QG du Réseau du rail</Dest>
     </String>
     <String List="0">
       <EDID>TrinityChurch01</EDID>
@@ -1235,7 +1235,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Club des Électriciens Amateurs</Dest>
+      <Dest>Club des Électriciens Amateurs - Cave</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>

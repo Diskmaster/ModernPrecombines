@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SSTXMLRessources>
   <Params>
-    <Addon>PPF.esm</Addon>
+    <Addon>ppf.esm</Addon>
     <Source>en</Source>
     <Dest>ru</Dest>
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Build Version: 74.14 NG
+Previsibines Repair Pack ESM
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
+      <Dest>Build Version: 74.14 NG
+Previsibines Repair Pack ESM
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
+    </String>
     <String List="0">
       <EDID>DLC04ZooCageWallTallDoorSingle01</EDID>
       <REC>DOOR:FULL</REC>
@@ -533,7 +551,7 @@
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>Автостоянка Лексингтона</Dest>
+      <Dest>Лексингтонская парковка</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -1217,7 +1235,7 @@
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Клуб любителей электроники</Dest>
+      <Dest>Подвал клуба любителей электроники</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
@@ -1451,7 +1469,7 @@
       <EDID>PRP_Dev_Notice</EDID>
       <REC>MESG:DESC</REC>
       <Source>I found some strawberry cheesecake!</Source>
-      <Dest>Я нашёл(-ла) клубничный чизкейк!</Dest>
+      <Dest>Я нашла клубничный чизкейк!</Dest>
     </String>
   </Content>
 </SSTXMLRessources>

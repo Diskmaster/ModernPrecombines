@@ -3,7 +3,7 @@
   <Params>
     <Addon>ppf-neonflats-cr.esm</Addon>
     <Source>en</Source>
-    <Dest>fr</Dest>
+    <Dest>es</Dest>
     <Version>2</Version>
   </Params>
   <Content>
@@ -29,7 +29,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Club des Électriciens Amateurs - Cave</Dest>
+      <Dest>Sótano del Club de aficcionados a la electricidad</Dest>
     </String>
   </Content>
 </SSTXMLRessources>
