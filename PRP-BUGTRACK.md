@@ -43,6 +43,7 @@ TODO
 75
 
 
+- New\ \[-20, -35, CW\] **U34284** Futz with the landscape to address a decent sized hole in the Glowing Sea. Location needs verified.
 - New\ \[-23, -7, CW\] Lowered 85896 to hide a missing side of the sidewalk chunk. Also, lower 169089 so it doesn't float.
 - New\ \[-6, 3, CW\] Lower 86476, 8645A, 8645F, 86461, 86462, 8645E and make minor adjustments to the Landscape to get a garage from sticking out too far from it's attached house. Also fix misalignments while I'm here, including 86458
 - New\ \[-22, 1, CW\] Adjust 855C7 position to remove a small gap to it's neighbors.
