@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SSTXMLRessources>
   <Params>
-    <Addon>PRP.esp</Addon>
+    <Addon>prp.esp</Addon>
     <Source>en</Source>
     <Dest>ja</Dest>
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Build Version: 74.14 NG
+Previsibines Repair Pack ESP
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
+      <Dest>Build Version: 74.14 NG
+Previsibines Repair Pack ESP
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
+    </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
       <REC>CELL:FULL</REC>
@@ -506,6 +524,12 @@
       <Dest>ダートマス・PROビル</Dest>
     </String>
     <String List="0">
+      <EDID>zUnusedFalloutShelter02</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Shelter</Source>
+      <Dest>シェルター</Dest>
+    </String>
+    <String List="0">
       <EDID>DmndChoiceChops01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Polly&apos;s House</Source>
@@ -762,6 +786,12 @@
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
       <Dest>レキシントン駐車場</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedSubwayTerminalShowcase</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Terminals &amp; Holotapes, Oh My.</Source>
+      <Dest>ターミナル&amp;ホロテープ、おやおや</Dest>
     </String>
     <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
@@ -1154,6 +1184,12 @@
       <Dest>バック・アレイ・ボーリング</Dest>
     </String>
     <String List="0">
+      <EDID>zUnusedGrenades</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Cellar</Source>
+      <Dest>地下室</Dest>
+    </String>
+    <String List="0">
       <EDID>TheaterMassBayMedicalCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Bay Medical Center</Source>
@@ -1170,6 +1206,12 @@
       <REC>CELL:FULL</REC>
       <Source>Fizztop Grille</Source>
       <Dest>フィズトップ・グリル</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedCave</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Breakheart Banks</Source>
+      <Dest>ブレイクハート・バンクス</Dest>
     </String>
     <String List="0">
       <EDID>ShenleysOysterBar01</EDID>
@@ -1224,6 +1266,12 @@
       <REC>CELL:FULL</REC>
       <Source>Old Robotics</Source>
       <Dest>古いロボットラボ</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedFinancial23</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Atlantic Offices</Source>
+      <Dest>アトランティック・オフィス</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery02</EDID>
@@ -1362,6 +1410,12 @@
       <REC>CELL:FULL</REC>
       <Source>Parsons State Insane Asylum</Source>
       <Dest>パーソンズ州立病院</Dest>
+    </String>
+    <String List="0">
+      <EDID>zUnusedCellar02</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Cellar</Source>
+      <Dest>地下室</Dest>
     </String>
     <String List="0">
       <EDID>zLexingtonLaundromat</EDID>
