@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SSTXMLRessources>
   <Params>
-    <Addon>PRP.esp</Addon>
+    <Addon>prp.esp</Addon>
     <Source>en</Source>
     <Dest>cn</Dest>
     <Version>2</Version>
   </Params>
   <Content>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Build Version: 74.14 NG
+Previsibines Repair Pack ESP
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
+      <Dest>Build Version: 74.14 NG
+Previsibines Repair Pack ESP
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
+    </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
       <REC>CELL:FULL</REC>
@@ -180,6 +198,12 @@
       <REC>CELL:FULL</REC>
       <Source>Layton Towers</Source>
       <Dest>雷頓塔</Dest>
+    </String>
+    <String List="0">
+      <EDID>ElevTransHiTechInstitute</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Elevator</Source>
+      <Dest>電梯</Dest>
     </String>
     <String List="0">
       <EDID>DLC01Lair01</EDID>
@@ -470,6 +494,12 @@
       <Dest>第三鐵軌酒館</Dest>
     </String>
     <String List="0">
+      <EDID>SuperDuperMart01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Super-Duper Mart</Source>
+      <Dest>大無敵超市</Dest>
+    </String>
+    <String List="0">
       <EDID>NationalGuardTrainingYard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>National Guard Recruitment Office</Source>
@@ -554,12 +584,6 @@
       <Dest>普利德溫號主甲板</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedTheaterLaundromat</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Quick Test Cell</Source>
-      <Dest>快速測試囚房</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
@@ -570,6 +594,12 @@
       <REC>CELL:FULL</REC>
       <Source>The Castle Tunnels</Source>
       <Dest>城堡隧道</Dest>
+    </String>
+    <String List="0">
+      <EDID>ElevTransVault</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Elevator</Source>
+      <Dest>電梯</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt14</EDID>
@@ -620,12 +650,6 @@
       <Dest>學院次層21-D</Dest>
     </String>
     <String List="0">
-      <EDID>DLC03FringeCoveDocks01</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Quick Test Cell</Source>
-      <Dest>快速測試囚房</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC04TransitCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Nuka-World Transit Center</Source>
@@ -668,18 +692,6 @@
       <Dest>庇護處</Dest>
     </String>
     <String List="0">
-      <EDID>WarehouseIndustrialMachines</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The Incredible Machines</Source>
-      <Dest>驚奇機器</Dest>
-    </String>
-    <String List="0">
-      <EDID>ccTOSFO4001</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Noir Penthouse</Source>
-      <Dest>Noir Penthouse</Dest>
-    </String>
-    <String List="0">
       <EDID>DmndDugoutInn01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Dugout Inn</Source>
@@ -690,12 +702,6 @@
       <REC>CELL:FULL</REC>
       <Source>Cambridge Police Station</Source>
       <Dest>劍橋警察局</Dest>
-    </String>
-    <String List="0">
-      <EDID>REHoldingCell</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Quick Test Cell</Source>
-      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>MiltonGeneral01</EDID>
@@ -746,6 +752,12 @@
       <Dest>虎不理漫畫店</Dest>
     </String>
     <String List="0">
+      <EDID>ElevMinUseTransUtil</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Elevator</Source>
+      <Dest>電梯</Dest>
+    </String>
+    <String List="0">
       <EDID>WaldenPond01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gift Shop Basement</Source>
@@ -768,6 +780,12 @@
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
       <Dest>安德魯車站</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonGarage</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Parking Garage</Source>
+      <Dest>列星頓停車場</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -1088,10 +1106,22 @@
       <Dest>崔尼帝教堂</Dest>
     </String>
     <String List="0">
+      <EDID>ElevTransHiTech</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Elevator</Source>
+      <Dest>電梯</Dest>
+    </String>
+    <String List="0">
       <EDID>DmndWaterfrontSunsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Doctor Sun&apos;s House</Source>
       <Dest>孫醫生家</Dest>
+    </String>
+    <String List="0">
+      <EDID>ElevTransUtil</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Elevator</Source>
+      <Dest>電梯</Dest>
     </String>
     <String List="0">
       <EDID>DmndPembrokesHouse01</EDID>
@@ -1194,6 +1224,12 @@
       <REC>CELL:FULL</REC>
       <Source>Prydwen Command Deck</Source>
       <Dest>普利德溫號指揮區</Dest>
+    </String>
+    <String List="0">
+      <EDID>zLexingtonPharmacy</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Lexington Pharmacy</Source>
+      <Dest>列星頓藥局</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1424,12 +1460,6 @@
       <Dest>B監聽站</Dest>
     </String>
     <String List="0">
-      <EDID>QASmoke</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Tunnels</Source>
-      <Dest>通道</Dest>
-    </String>
-    <String List="0">
       <EDID>LongneckLukowskis01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Longneck Lukowski&apos;s Cannery</Source>
@@ -1508,12 +1538,6 @@
       <Dest>95號避難所</Dest>
     </String>
     <String List="0">
-      <EDID>WarehouseWorkbenches</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Workbench Bonanza</Source>
-      <Dest>工作台富源區</Dest>
-    </String>
-    <String List="0">
       <EDID>WestonWaterTreatment01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Weston Water Treatment Plant</Source>
@@ -1524,6 +1548,12 @@
       <REC>CELL:FULL</REC>
       <Source>Ticker Tape Lounge</Source>
       <Dest>彩帶休息室</Dest>
+    </String>
+    <String List="0">
+      <EDID>MassFusion02Trans</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Mass Fusion Elevator</Source>
+      <Dest>大核融合廠電梯</Dest>
     </String>
     <String List="0">
       <EDID>InstituteBioScience</EDID>
@@ -1608,6 +1638,12 @@
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Sub-Levels</Source>
       <Dest>邁科藥研次層</Dest>
+    </String>
+    <String List="0">
+      <EDID>ElevTransPub</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Elevator</Source>
+      <Dest>電梯</Dest>
     </String>
     <String List="0">
       <EDID>CovenantHQ01</EDID>
@@ -1742,6 +1778,12 @@
       <Dest>拳擊健身房</Dest>
     </String>
     <String List="0">
+      <EDID>zPOIJoel06</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
+      <Dest>電氣同好俱樂部地窖</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC03POI40Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Pump Control</Source>
@@ -1802,12 +1844,6 @@
       <Dest>老北教堂</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedTheater46A</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Quick Test Cell</Source>
-      <Dest>快速測試囚房</Dest>
-    </String>
-    <String List="0">
       <EDID>CambridgeChurchGraveyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Union&apos;s Hope Cathedral</Source>
@@ -1862,12 +1898,6 @@
       <Dest>帕森斯州立病院地下室</Dest>
     </String>
     <String List="0">
-      <EDID>Vault111Start</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Vault 111 Main Entrance</Source>
-      <Dest>111號避難所正門</Dest>
-    </String>
-    <String List="0">
       <EDID>DmndRadio01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Diamond City Radio</Source>
@@ -1884,12 +1914,6 @@
       <REC>CELL:FULL</REC>
       <Source>D.B. Technical High School</Source>
       <Dest>D.B.科技高中</Dest>
-    </String>
-    <String List="0">
-      <EDID>CombatZone02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Quick Test Cell</Source>
-      <Dest>快速測試囚房</Dest>
     </String>
     <String List="0">
       <EDID>DLC03AlderseaDaySpa01</EDID>
@@ -1950,12 +1974,6 @@
       <REC>CELL:FULL</REC>
       <Source>Apartments</Source>
       <Dest>公寓</Dest>
-    </String>
-    <String List="0">
-      <EDID>WarehouseTraps</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>The most dangerous cell</Source>
-      <Dest>最危險的囚房</Dest>
     </String>
     <String List="0">
       <EDID>DmndGreenhouse01</EDID>
