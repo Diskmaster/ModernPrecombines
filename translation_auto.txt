@@ -354,6 +354,50 @@ EndRule
 
 StartRule
 LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_zhtw.xml
+exportsubfolder=01 TChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_zhtw.xml
+exportsubfolder=01 TChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PPF_en_zhtw.xml
+exportsubfolder=01 TChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=cn
+usedatadir=0
+command=loadfile:E:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:E:\git\ModernPrecombines\Translation\PRP_en_zhtw.xml
+exportsubfolder=01 TChinese
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
 LangDest=es
 usedatadir=0
 command=loadfile:E:\git\ModernPrecombines\dist\01 English\PPF.esm
