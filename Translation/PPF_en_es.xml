@@ -16,13 +16,13 @@
     <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>Build Version: 74.14 OG
+      <Source>Build Version: 74.20 NG
 Previsibines Repair Pack ESM
-Built from 1.10.163 and requires all DLC.
+Built from 1.10.984 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
-      <Dest>Build Version: 74.14 OG
+      <Dest>Build Version: 74.20 NG
 Previsibines Repair Pack ESM
-Built from 1.10.163 and requires all DLC.
+Built from 1.10.984 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
     </String>
     <String List="0">
@@ -113,7 +113,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BeantownBrewery01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Beantown Brewery</Source>
-      <Dest>Cervecera Beantown</Dest>
+      <Dest>Beantown Brewery</Dest>
     </String>
     <String List="0">
       <EDID>MassStateHouse01</EDID>
@@ -245,7 +245,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04WWMineCart01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mad Mulligan&apos;s Mine</Source>
-      <Dest>La mina del Loco Mulligan</Dest>
+      <Dest>La mina de Loco Mulligan</Dest>
     </String>
     <String List="0">
       <EDID>ConcordCivicAccess01</EDID>
@@ -323,7 +323,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>Financial06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Old Corner Bookstore</Source>
-      <Dest>Librería Old Corner</Dest>
+      <Dest>Old Corner Bookstore</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubPackLair</EDID>
@@ -335,7 +335,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>TheBigDig01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Dig</Source>
-      <Dest>La Excavación</Dest>
+      <Dest>La excavación</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborTheThirdRail</EDID>
@@ -455,7 +455,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
-      <Dest>Cuarteles del Prydwen</Dest>
+      <Dest>Estancias del Prydwen</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeKendallHospital01</EDID>
@@ -545,13 +545,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>AndrewStation01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Andrew Station</Source>
-      <Dest>Estación de Andrew</Dest>
+      <Dest>Andrew Station</Dest>
     </String>
     <String List="0">
       <EDID>zLexingtonGarage</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Parking Garage</Source>
-      <Dest>Garage del Aparcamiento de Lexington</Dest>
+      <Dest>Aparcamiento de Lexington</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedSubwayTerminalShowcase</EDID>
@@ -563,7 +563,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04SafariWelcomeCenter</EDID>
       <REC>CELL:FULL</REC>
       <Source>Safari Adventure Welcome Center</Source>
-      <Dest>Centro de bienvenida de Aventura del Safari</Dest>
+      <Dest>Centro de bienvenida de Aventura del safari</Dest>
     </String>
     <String List="0">
       <EDID>zVitalePumphouse01</EDID>
@@ -575,7 +575,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC03HarborGrandHotel01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Harbor Grand Hotel</Source>
-      <Dest>Gran Hotel Harbor</Dest>
+      <Dest>Harbor Grand Hotel</Dest>
     </String>
     <String List="0">
       <EDID>DLC04HubFizztopMountainInterior01</EDID>
@@ -587,7 +587,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GoodneighborTheMemoryDen</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Memory Den</Source>
-      <Dest>El Memory Den</Dest>
+      <Dest>Memory Den</Dest>
     </String>
     <String List="0">
       <EDID>HestersRobotics01</EDID>
@@ -689,13 +689,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>USSConstitution01</EDID>
       <REC>CELL:FULL</REC>
       <Source>U.S.S. Constitution</Source>
-      <Dest>U.S.S. Constitution</Dest>
+      <Dest>USS Constitution</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>InstituteTunnel01</EDID>
       <REC>CELL:FULL</REC>
-      <Source>Public Works Maintenence Area</Source>
-      <Dest>Zona de mantenimiento de obras públicas</Dest>
+      <Source>Public Works Maintenance Area</Source>
+      <Dest>Área de Mantenimiento de Obras Públicas</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery01</EDID>
@@ -731,13 +731,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04BottlingPlant02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Secure Beverageer Lab</Source>
-      <Dest>Laboratorio seguro de Beverageer</Dest>
+      <Dest>Laboratorio seguro de creador de bebidas</Dest>
     </String>
     <String List="0">
       <EDID>SandyCovesHome01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Sandy Coves Convalescent Home</Source>
-      <Dest>Sanatorio Sandy Coves</Dest>
+      <Dest>Residencia Sandy Coves</Dest>
     </String>
     <String List="0">
       <EDID>MahkraFishpacking01</EDID>
@@ -773,7 +773,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FourLeafFishpacking01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Four Leaf Fishpacking Plant</Source>
-      <Dest>Conservera Four Leaf</Dest>
+      <Dest>Four Leaf</Dest>
     </String>
     <String List="0">
       <EDID>NahantOceanSociety01</EDID>
@@ -803,7 +803,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GlowingSeaPOIDB06Int</EDID>
       <REC>CELL:FULL</REC>
       <Source>Parking Garage</Source>
-      <Dest>Garage de Aparcamiento</Dest>
+      <Dest>Aparcamiento</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeEastCITRaiderCamp01</EDID>
@@ -827,7 +827,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GeneralAtomicsGalleria01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Back Alley Bowling</Source>
-      <Dest>Bolera de Back Alley</Dest>
+      <Dest>Back Alley Bowling</Dest>
     </String>
     <String List="0">
       <EDID>zUnusedGrenades</EDID>
@@ -887,7 +887,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>GwinnettBrewery02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Gwinnett Main Brewery</Source>
-      <Dest>Cervecera Gwinnett</Dest>
+      <Dest>Gwinnett Main Brewery</Dest>
     </String>
     <String List="0">
       <EDID>Financial14</EDID>
@@ -905,7 +905,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>ShamrockTaphouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Shamrock Taphouse</Source>
-      <Dest>La Taberna Shamrock</Dest>
+      <Dest>La Taberna de Shamrock</Dest>
     </String>
     <String List="0">
       <EDID>FensBank01</EDID>
@@ -929,7 +929,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zInstituteRotunda</EDID>
       <REC>CELL:FULL</REC>
       <Source>CIT Rotunda</Source>
-      <Dest>Rotonda del C.I.T.</Dest>
+      <Dest>Rotonda del CIT</Dest>
     </String>
     <String List="0">
       <EDID>WarrenTheater01</EDID>
@@ -947,7 +947,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteFEVlab</EDID>
       <REC>CELL:FULL</REC>
       <Source>FEV Lab</Source>
-      <Dest>Laboratorio del VEF</Dest>
+      <Dest>Laboratorio VEF</Dest>
     </String>
     <String List="0">
       <EDID>NorthEndSalemStreetCottage</EDID>
@@ -1019,13 +1019,13 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeCollegeAdminBuilding</EDID>
       <REC>CELL:FULL</REC>
       <Source>College Admin Building</Source>
-      <Dest>Edificio administrativo de la Universidad</Dest>
+      <Dest>Edificio administrativo de la universidad</Dest>
     </String>
     <String List="0">
       <EDID>LongneckLukowskis01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Longneck Lukowski&apos;s Cannery</Source>
-      <Dest>Conservera Longneck Lukowski</Dest>
+      <Dest>Fábrica de conservas de Longneck Lukowski</Dest>
     </String>
     <String List="0">
       <EDID>CorvegaAssemblyPlant01</EDID>
@@ -1049,7 +1049,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BeaconHillPub</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prost Bar</Source>
-      <Dest>Bar Prost</Dest>
+      <Dest>Prost Bar</Dest>
     </String>
     <String List="0">
       <EDID>TheaterHub360</EDID>
@@ -1061,7 +1061,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>IrishPrideShipyard01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Irish Pride Industries Shipyard</Source>
-      <Dest>Astillero de Industrias Irish Pride</Dest>
+      <Dest>Astillero de Irish Pride Industries</Dest>
     </String>
     <String List="0">
       <EDID>BostonMayoralShelter01</EDID>
@@ -1097,7 +1097,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeMonsignorPlaza01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Monsignor Plaza</Source>
-      <Dest>Plaza Monsignor</Dest>
+      <Dest>Monsignor Plaza</Dest>
     </String>
     <String List="0">
       <EDID>SouthBostonPoliceDepartment01</EDID>
@@ -1169,7 +1169,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>MedTekResearch01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Med-Tek Research</Source>
-      <Dest>Investigación de Med-Tek</Dest>
+      <Dest>Med-Tek Research</Dest>
     </String>
     <String List="0">
       <EDID>USAFSatellite01</EDID>
@@ -1217,7 +1217,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>BunkerHill01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Utility Basement</Source>
-      <Dest>Sótano de mantenimiento</Dest>
+      <Dest>Sótano</Dest>
     </String>
     <String List="0">
       <EDID>MassPikeTunnel01</EDID>
@@ -1235,7 +1235,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zPOIJoel06</EDID>
       <REC>CELL:FULL</REC>
       <Source>Electrical Hobbyist&apos;s Club Cellar</Source>
-      <Dest>Sótano del Club de aficcionados a la electricidad</Dest>
+      <Dest>Sótano</Dest>
     </String>
     <String List="0">
       <EDID>MaldenCenter01</EDID>
@@ -1265,7 +1265,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04GZBattlezone01</EDID>
       <REC>CELL:FULL</REC>
       <Source>RobCo Battlezone</Source>
-      <Dest>Zona de combate RobCo</Dest>
+      <Dest>Zona de combate de RobCo</Dest>
     </String>
     <String List="0">
       <EDID>DLC04KiddieKingdomFunHouse01</EDID>
@@ -1313,7 +1313,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DBTechHighSchool02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Medical Center Station</Source>
-      <Dest>Estación del Centro Médico</Dest>
+      <Dest>Estación de centro médico</Dest>
     </String>
     <String List="0">
       <EDID>VaultTecOffice01</EDID>
@@ -1343,7 +1343,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC03AlderseaDaySpa01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Aldersea Day Spa</Source>
-      <Dest>Balneario de Aldersea</Dest>
+      <Dest>Aldersea Day Spa</Dest>
     </String>
     <String List="0">
       <EDID>DmndStandsCodman01</EDID>
@@ -1465,7 +1465,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Source>Nuka-Town Market</Source>
       <Dest>Mercado de Nuka-Town</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>PRP_Dev_Notice</EDID>
       <REC>MESG:DESC</REC>
       <Source>I found some strawberry cheesecake!</Source>
