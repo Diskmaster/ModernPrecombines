@@ -16,11 +16,11 @@
     <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>Build Version: 74.16 NG
+      <Source>Build Version: 74.21 NG
 Previsibines Repair Pack ESM
 Built from 1.10.984 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
-      <Dest>Build Version: 74.16 NG
+      <Dest>Build Version: 74.21 NG
 Previsibines Repair Pack ESM
 Built from 1.10.984 and requires all DLC.
 Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
@@ -71,7 +71,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeMassChemical01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Chemical</Source>
-      <Dest>マサチューセッツ・ケミカル</Dest>
+      <Dest>大量の薬品</Dest>
     </String>
     <String List="0">
       <EDID>Switchboard</EDID>
@@ -215,7 +215,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteConcourse</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Institute</Source>
-      <Dest>インスティテュート</Dest>
+      <Dest>インスティチュート</Dest>
     </String>
     <String List="0">
       <EDID>CollegeSquare01</EDID>
@@ -401,7 +401,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vaul-Tec:アモングスターズ</Dest>
+      <Dest>Vault-Tec:アマング・ザ・スター</Dest>
     </String>
     <String List="0">
       <EDID>TheCastle01</EDID>
@@ -455,7 +455,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
-      <Dest>プリドゥエンの宿舎</Dest>
+      <Dest>プリドゥエンのコーター</Dest>
     </String>
     <String List="0">
       <EDID>CambridgeKendallHospital01</EDID>
@@ -539,7 +539,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PoseidonEnergy02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Energy Sublevels</Source>
-      <Dest>ポセイドンエネルギー地下</Dest>
+      <Dest>サブレベル</Dest>
     </String>
     <String List="0">
       <EDID>AndrewStation01</EDID>
@@ -694,7 +694,7 @@ Please see the nexus mod page or git repository for extended author credits and 
     <String List="0">
       <EDID>InstituteTunnel01</EDID>
       <REC>CELL:FULL</REC>
-      <Source>Public Works Maintenence Area</Source>
+      <Source>Public Works Maintenance Area</Source>
       <Dest>公共事業メンテナンスエリア</Dest>
     </String>
     <String List="0">
@@ -1205,7 +1205,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FallonsDepartmentStore01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fallon&apos;s Department Store</Source>
-      <Dest>ファロン・デパート</Dest>
+      <Dest>ファロンデパート</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonReservoir01</EDID>

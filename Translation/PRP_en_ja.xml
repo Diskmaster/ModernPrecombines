@@ -65,7 +65,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CambridgeMassChemical01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Chemical</Source>
-      <Dest>マサチューセッツ・ケミカル</Dest>
+      <Dest>大量の薬品</Dest>
     </String>
     <String List="0">
       <EDID>Switchboard</EDID>
@@ -275,7 +275,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteConcourse</EDID>
       <REC>CELL:FULL</REC>
       <Source>The Institute</Source>
-      <Dest>インスティテュート</Dest>
+      <Dest>インスティチュート</Dest>
     </String>
     <String List="0">
       <EDID>DmndValentines01</EDID>
@@ -431,7 +431,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FourLeafFishpacking02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Marowski&apos;s Chem Lab</Source>
-      <Dest>マロースキーの薬物ラボ</Dest>
+      <Dest>マロースキーの薬品ラボ</Dest>
     </String>
     <String List="0">
       <EDID>DLC03KitteredgePass01</EDID>
@@ -587,7 +587,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04GZVaultTec01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Vault-Tec: Among the Stars</Source>
-      <Dest>Vaul-Tec:アモングスターズ</Dest>
+      <Dest>Vault-Tec:アマング・ザ・スター</Dest>
     </String>
     <String List="0">
       <EDID>TheCastle01</EDID>
@@ -629,7 +629,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04SafariBearCave</EDID>
       <REC>CELL:FULL</REC>
       <Source>Bear Cave</Source>
-      <Dest>ベアの洞くつ</Dest>
+      <Dest>クマの洞くつ</Dest>
     </String>
     <String List="0">
       <EDID>GoodneighborBobbisPlace</EDID>
@@ -665,7 +665,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PrydwenHull03</EDID>
       <REC>CELL:FULL</REC>
       <Source>Prydwen Quarters</Source>
-      <Dest>プリドゥエンの宿舎</Dest>
+      <Dest>プリドゥエンのコーター</Dest>
     </String>
     <String List="0">
       <EDID>DmndFallons01</EDID>
@@ -773,7 +773,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>PoseidonEnergy02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Poseidon Energy Sublevels</Source>
-      <Dest>ポセイドンエネルギー地下</Dest>
+      <Dest>サブレベル</Dest>
     </String>
     <String List="0">
       <EDID>AndrewStation01</EDID>
@@ -1259,7 +1259,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DLC04SafariPrimateHouse</EDID>
       <REC>CELL:FULL</REC>
       <Source>Primate House</Source>
-      <Dest>霊長目ハウス</Dest>
+      <Dest>霊長類ハウス</Dest>
     </String>
     <String List="0">
       <EDID>InstituteOldRobotics01</EDID>
@@ -1751,7 +1751,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>FallonsDepartmentStore01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Fallon&apos;s Department Store</Source>
-      <Dest>ファロン・デパート</Dest>
+      <Dest>ファロンデパート</Dest>
     </String>
     <String List="0">
       <EDID>PoseidonReservoir01</EDID>
@@ -1991,7 +1991,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>RelayTowerInt15B</EDID>
       <REC>CELL:FULL</REC>
       <Source>Reactor Level</Source>
-      <Dest>リアクターレベル</Dest>
+      <Dest>リアクターのある階層</Dest>
     </String>
     <String List="0">
       <EDID>SlocumsJoeHQOffice</EDID>
