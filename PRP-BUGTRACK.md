@@ -42,7 +42,20 @@ TODO
 
 75
 
-
+- New\ 
+- New\ \[5, 3, CW\] Shifted 1d0a93 to close a hairline gap.
+- New\ \[5, 3, CW\] Brought A79FD forward to plug the hole 1f17cd was causing.
+- New\ \[8, -4, CW\] Adjusted 17FEB5 as per Emiral (gap removal/clipping nearby wall piece)
+- New\ \[-4, 4, NW\] Adjusted 06047d00 to stop wall clipping.
+- New\ \[-4, 3, NW\] Adjusted 06020404 so it doesn't stick out of the wall.
+- New\ \[-2, 4, NW\] Moved 06007f8A out of it's hideaway under the terrain and place it nearby. Might want to consider excluding it.
+- New\ \[-2, 4, NW\] Fixed position of 0604399A to correct z-fighting. Might be useful if the building is ever opened up by other mods.
+- New\ \[3, 3, NW\] Lowered 06038df6 and 06038df9 as they were floating.
+- New\ \[4, 3, NW\] Adjusted 0605636A's position to remove the noticeable part of the decal that was showing in it's original application.
+- New\ \[0, -5, NW\] Moved 060222B5 to stop the building from clipping into the exterior walls.
+- New\ \[-1, -5, NW\] Moved 06023516 to stop it clipping into both the nearby walls and the exterior that could be seen if one were to look on the outside.
+- New\ \[-1, -4, NW\] Recess 060235BE to close off a hole into the wall.
+- New\ \[Various\] Backported all Far Harbor changes from Gamepass ESM, this will require a new verification pass for the duplicate refs
 - New\ \[-20, -35, CW\] **U34284** Futz with the landscape to address a decent sized hole in the Glowing Sea. Location needs verified.
 - New\ \[-23, -7, CW\] Lowered 85896 to hide a missing side of the sidewalk chunk. Also, lower 169089 so it doesn't float.
 - New\ \[-6, 3, CW\] Lower 86476, 8645A, 8645F, 86461, 86462, 8645E and make minor adjustments to the Landscape to get a garage from sticking out too far from it's attached house. Also fix misalignments while I'm here, including 86458
