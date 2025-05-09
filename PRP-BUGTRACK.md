@@ -40,9 +40,18 @@ TODO
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
-75
+76
 
-- New\ 
+- New\ \[3, -4, CW\] XLRT 1E819A for 1D1641 to 1D1644 (vines around the shaw memorial and improves compatibility with the replacer)
+- New\ \[-2, -4, CW\] Adjusted landscape near 1AEBF3 to plug a small landscape hole with respect to the building.
+- New\ \[0, 3, CW\] Update landscape painting near D0867 to have the textures blend in a lot better while fixing the landscape hole.
+- New\ \[6, 1, CW\] Move 152775 over to mask a gap to the landscape below.
+- New\ \[3, -2, CW\] Feather the landscape upward a tad to close a hole near 20E920.
+- New\ \[8, -2, CW\] Move 1F8F84 to not clip into the wall.
+- New\ \[7, -3, CW\] Disable 12DA72 and update the neighboring one (134D45) to base object 100410 as that appears to be the intent based on the record dates.
+- New\ \[0, 9, NW\] Adjust landscape to fix a water leak in the landscape near 06028c46
+- New\ \[1, -4, NW\] Move 06049642, 0601477E to mitigate a landscape gap. (Review 0, -4 as well)
+- New\ Reserved for Absterge Plugin Merge
 - New\ \[5, 3, CW\] Shifted 1d0a93 to close a hairline gap.
 - New\ \[5, 3, CW\] Brought A79FD forward to plug the hole 1f17cd was causing.
 - New\ \[8, -4, CW\] Adjusted 17FEB5 as per Emiral (gap removal/clipping nearby wall piece)
