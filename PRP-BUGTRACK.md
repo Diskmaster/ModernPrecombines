@@ -42,6 +42,8 @@ TODO
 
 76
 
+- New\ \[PrewarVault111\] Update texswap assignment for CA611, CA653, CA654, and CA655 to Vault111Prewar for obvious reasons. (More such matswaps probably could be made, but this is to improve compat with 
+- New\ \[-19, 22, CW\] Exclude main Sanctuary Hills Tree from precombines.
 - New\ \[-5, 1, CW\] More landscaping to hide the hole underneath 1385A5.
 - New\ \[-7, -2, CW\] Shift 239A50 over a bit to better mesh with some landscape adjustments. Also tune the landscape to hide some gaps in the sidewalk chunks nearby.
 - New\ \[4, -5, CW\] Delete 001F45B1. (Update later with specifics.)
