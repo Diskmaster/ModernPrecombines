@@ -42,6 +42,8 @@ TODO
 
 76
 
+
+- New\ \[4, -5, CW\] Delete 001F45B1. (Update later with specifics.)
 - New\ \[3, -4, CW\] XLRT 1E819A for 1D1641 to 1D1644 (vines around the shaw memorial and improves compatibility with the replacer)
 - New\ \[-2, -4, CW\] Adjusted landscape near 1AEBF3 to plug a small landscape hole with respect to the building.
 - New\ \[0, 3, CW\] Update landscape painting near D0867 to have the textures blend in a lot better while fixing the landscape hole.
@@ -51,7 +53,232 @@ TODO
 - New\ \[7, -3, CW\] Disable 12DA72 and update the neighboring one (134D45) to base object 100410 as that appears to be the intent based on the record dates.
 - New\ \[0, 9, NW\] Adjust landscape to fix a water leak in the landscape near 06028c46
 - New\ \[1, -4, NW\] Move 06049642, 0601477E to mitigate a landscape gap. (Review 0, -4 as well)
-- New\ Reserved for Absterge Plugin Merge
+- \[Note from Starhammer: Starting from here to the marker AbstergeMerge, Absterge contributed a ton of fixes.\]
+- New\ \[FederalRationStockpile01\] Adjusted 1B3A79, 1B3A7A so that they actually connect to the wall.
+- New\ \[DNPrimeBridge03\] Adjusted 15C77D, 15C77E, 15C782, 15C783 to fix a gap in the building.
+- New\ \[MedfordMemorialExt\] Adjusted 222428 so that it's no longer floating from the wall.
+- New\ \[GeneralAtomicsGalleriaExt03\] 0EA4CB, 0EA4CC, 0EA4CD were all adjusted so that they connect to the wall.
+- New\ \[GeneralAtomicsGalleriaExt02\] Moved up 0DB359 so that it matches the rest of the interior walls.
+- New\ \[MedfordMemorialExt\] Adjusted 222428 so that it's no longer floating from the wall.
+- New\ \[BarneysBunkerExt02\] Adjusted 237D54, 237D60 so they no longer float above the roof.
+- New\ \[22, 19, CW\] Adjusted 237D45, 237D47, 237D55 so they no longer float above the roof.
+- New\ \[24, 7, CW\] Lowered 1BE0F6 so that it's no longer floating.
+- New\ \[VaultTecOfficeExt02\] Lowered 070FAA so that it's no longer floating.
+- New\ \[BostonCommonExt\] Lowered 071062, 071067 so that they no longer float above the roof.
+- New\ \[CombatZoneExt\] Lowered 061A19, 061A44 so that they no longer float above the roof.
+- New\ \[BostonCommonExt04\] Adjusted 16BDF4, 16BDF9 to prevent clipping. Adjusted 175E1D, 175E2E, 17796F, 17798D to fix a small gap and some minor clipping.
+- New\ \[BackBayCarDealershipExt\] Lowered 16BDE6 so that it no longer floats.
+- New\ \[-25, 6, CW\] Deleted 1444D2.
+- New\ \[-28, 4, CW\] Moved 0604E6D1 so that it's against the wall and not floating.
+- New\ \[FederalRationStockpileExt\] Adjusted 152AA1, 152AA2, 152AA3, 152AA5 to prevent clipping.
+- New\ \[-20, 11, CW\] Lowered 097556 so that it's no longer floating.
+- New\ \[-19, 19, CW\] Lowered 058343 so that it's no longer floating.
+- New\ \[POIJS008\] Lowered 05A02A, 05A02B so they're no longer floating.
+- New\ \[LexingtonExt02\] Adjusted 137A4F to prevent very minor clipping through a wall (0f67a5).
+- New\ \[-2, 4, CW\] Adjusted 0A94D9, 0A94DA, 0A94E2, 0A94E3 to close small gaps in the building.
+- New\ \[ProspectHillExt\] Adjusted 09F423, 153D91 so they no longer float.
+- New\ \[MS04NorthyHideout\] Adjusted 15A47C to fix a small gap in the building.
+- New\ \[-2, 2, CW\] Adjusted 15A540 to fix a small gap in the building.
+- New\ \[-4, 0, CW\] Lowered 0B4371 to fix the column clipping through the roof. Also added a new column below to make it look natural.
+- New\ \[-6, 0, CW\] Adjusted 0AAEA1 to fix a small gap in the building.
+- New\ \[LexingtonExt04\] Adjusted 0485B5 to cover up a hole in the floor. Raised 0EA971 to fix Z-Fighting.
+- New\ \[LexingtonExt06\] Adjusted 1F9222 so that it's not floating on the side of the highway. 1F9284, 1F9285 also had to be moved to accommodate the fix.
+- New\ \[-26, -3, CW\] Adjusted 08B605 so that it no longer floats.
+- New\ \[-22, -9, CW\] Adjusted 09BB3B to prevent clipping.
+- New\ \[-15, -13, CW\] Adjusted 176FC8 so that it no longer floats.
+- New\ \[-2, -4, CW\] Added (Two Objects - Renumbered Form IDs) to fix two separate gaps in buildings.
+- New\ \[DiamondCityExt03\] Added (One Object - Renumbered Form ID) to fix a large gap in a building.
+- New\ \[12, 6, FH\] Adjusted 030231C6 to prevent clipping.
+- New\ \[13, 8, FH\] Adjusted 03003C34 so that it no longer floats.
+- New\ \[4, -4, FH\] Added (One Object - Renumbered Form ID) to fix a gap in a building.
+- New\ \[10, -1, FH\] Lowered 03004915 so that it no longer floats.
+- New\ \[4, 2, NW\] Adjusted 0602C4F6 as the edge was floating slightly above the steps.
+- New\ \[BottlingPlantExt04\] Lowered 06047C7F so that it no longer floats above the roof.
+- New\ \[3, 4, NW\] Lowered 06022F0F so that it no longer floats.
+- New\ \[BottlingPlantExt03\] Lowered 06048EDB, 06048EDF so that they no longer float.
+- New\ \[KiddieKingdomExt07\] Lowered 060231A3, 060231A4 so that they no longer float.
+- New\ \[BradbertonExt04\] Lowered 06023FD3 so that it no longer floats above the roof.
+- New\ \[BradbertonExt03\] Adjusted 06007BCF to fix a small gap between itself and the building.
+- New\ \[3, 9, NW\] Adjusted the rotation of 06028B1C to fix a small gap between the house and the staircase. 06028B22 was also moved to accommodate this change.
+- New\ \[2, -11, NW\] Adjusted 0602FCDF so that it's no longer floating at the edge of the sidewalk.
+- New\ \[DLC04NukaStationExt02\] Adjusted 0603A4B9 so that it connects to the wall. Lowered 06053E6B so that it doesn't float.
+- New\ \[DLC04NukaStationExt\] Lowered 06011677 so that it's no longer floating.
+- New\ \[3, -4, NW\] Lowered 060147C0 so that it's no longer floating.
+- New\ \[DLC04POIBB13\] Lowered 0602685B so that it's no longer floating. Adjusted 06026857 to prevent clipping through the wall.
+- New\ \[2, -6, NW\] Adjusted 06016220, 06016298 to close gaps in the walls.
+- New\ \[2, -7, NW\] Lowered 06016227 so that it's no longer floating.
+- New\ \[DLC04ColaCarsExt\] Lowered 0600B96A, 06041B96 so that they are no longer floating.
+- New\ \[1, -8, NW\] Adjusted 06021278, 06021279 so they are no longer floating.
+- New\ \[NukaWorldNukaTownUSA07\] Adjusted 06055C5E, 06055C63 so they are no longer floating.
+- New\ \[NukaWorldNukaTownUSA04\] Lowered 06025BD3 so it's no longer floating.
+- New\ \[NukaWorldNukaTownUSA01\] Lowered 06041D5E so that it's no longer floating. Deleted 06055951, 06055952 since they were overlapping and causing flickering.
+- New\ \[DLC04NukaStationExt03\] Lowered 06020CB3 so it's no longer floating.
+- New\ \[NukaWorldPowerPlantExt\] Moved 0601A141 to stop it clipping through the wall.
+- New\ \[SafariAdventureGate01\] Lowered 0601BED0 so it's no longer floating.
+- New\ \[NukaWorldWildWestExt09\] Adjusted 0603E385 to connect it to the wall so that it's not floating.
+- New\ \[SafariAdventure02\] Rotated 0601695D to prevent clipping through a wall. Lowered 060248C5, 060248EC, 060248ED, 060248EF so they aren't floating.
+- New\ \[SafariAdventure09\] Lowered 0602C1E9, 0602C1EA, 0602C1EB, 0602C1EC so they aren't floating. 0602C1E8, 0602C1FE also had to be moved to accommodate this fix.
+- New\ \[DLC04GrandchesterMansionEXT\] Adjusted 0601FD44 to fix a small gap in the building.
+- New\ \[DLC04POIRJ05\] Lowered 06052209 so that it's no longer floating.
+- New\ \[-4, -9, NW\] Relocated 0601CDA0 because it was floating away from the building.
+- New\ \[HobologistCampExt\] Adjusted 06020141, 06020142, 06020143 so that they are actually attached to the ceiling.
+- New\ \[NukaWorldNukaTownUSA05\] Lowered 060281B0 so that it's no longer floating.
+- New\ \[-2, -4, NW\] Lowered 06028296 so that it's no longer floating.
+- New\ \[-2, -6, NW\] Lowered 06016304, 06016F6F so that they are no longer floating.
+- New\ \[DLC04GalacticZoneExt03\] Lowered 060442D5 so that it's no longer floating.
+- New\ \[-4, -3, NW\] Adjusted 0602809D so that it's no longer floating.
+- New\ \[DLC04GalacticZoneExt08\] Adjusted 06044159 against the wall so that it's no longer floating.
+- New\ \[DLC04GalacticZoneExt07\] Adjusted 06044243, 0604427D, 0604427E, 0604427F so that they are no longer floating.
+- New\ \[3, 4, CW\] Adjusted 129D85 to close a small gap in the wall. 181AA5 was also moved to accommodate this fix. 1CA179 was nudged against the wall so that it no longer floats.
+- New\ \[1, 4, CW\] Lowered 1E076E so that it no longer floats above the roof.
+- New\ \[USSConstitutionExt\] Nudged 1D2711 slightly to prevent Y-Fighting with a wall. Adjusted 23A9C5 to prevent the trash pile clipping into the tunnel below.
+- New\ \[5, 3, CW\] Lowered 0B308D, 0B308E, 0B308F, 0B3090, 0B3091, 0B309B, 0B309C so they're no longer floating (Containers could be forwarded to UFO4P). Also lowered 1D0A52 to prevent it clipping through the ceiling.
+- New\ \[USSConstitutionExt02\] Lowered 1D3FA0, 1D3FA1, 1D3FA2, 1D3FF1, 1D4052 so that they no longer float. Adjusted 240C3A to prevent it clipping through the roof and floating.
+- New\ \[0, 1, CW\] Adjusted 14CF45 to stop it from floating around the edges.
+- New\ \[OldNorthChurchExt\] Lowered 06B2C0 so that it's not floating above the ground.
+- New\ \[PickmanGalleryExt\] Adjusted 1C18A3 so that it's actually attached to the wall.
+- New\ \[CabotHouseExt\] Adjusted 04A9B3, 1C71B1, 1CC8BE, 1CC8BF so that they are no longer floating. Nudged 1C3944, 1C39A4 to fix some x-fighting with the wall.
+- New\ \[3, 0, CW\] Lowered 1C725F so that it no longer floats above the roof of the building.
+- New\ \[13, 22, CW\] Adjusted 1D72F6 so that the back no longer looks like it's floating. Also adjusted 1D72F9 so that it doesn't clip through the wall. Added (Renumbered FormID Here) to fix a gap around the edge of the building.
+- New\ \[ParsonsStateExt04\] Lowered 1D7490 so it no longer floats. Adjusted 1D7454 to stop the trash pile clipping through the wall.
+- New\ \[ParsonsStateExt07\] Adjusted 1D7515, 1D7518 so they no longer clip through the walls. 1D7517 was also moved to accommodate this fix.
+- New\ \[ParsonsStateExt02\] Lowered 1358FA, 2042F6 so they no longer float.
+- New\ \[10, 25, CW\] Adjusted 1F03C0 and added (Renumbered FormID here) to hide floating edges of trash piles. A better fix might be possible.
+- New\ \[DLC03CommonwealthBoatExt\] Lowered 03020917 to stop the tire stack from floating.
+- New\ \[16, 26, CW\] Lowered 00130ADF, 00130AE0, 00130D85 so that they no longer float.
+- New\ \[TheaterSE\] Lowered 0AB1D9 so that it no longer floats.
+- New\ \[1, -9, CW\] Adjusted 23B42B, 23B433, 23B439, 23B43D, 23B43E so they're no longer floating above the road.
+- New\ \[5, -10, CW\] Nudged 1D0348 so that it's connected to the wall.
+- New\ \[GwinnettBreweryExt\] Adjusted 170578 to close a gap under the wall.
+- New\ \[BigJohnsSalvageExt\] Lowered 22C77E to stop it from floating.
+- New\ \[UniversityPointExt\] Nudged 0EE20F slightly so they no longer clip through the wall.
+- New\ \[UniversityPointExt04\] Adjusted 093348, 09ACA8, 215176 so that they no longer float. Also added (Renumbered FormID here) to further cover up some of the visible gaps in the trash piles. A better fix in this spot might be possible.
+- New\ \[7, -1, CW\] Adjusted 1E86BC, 1EAB3B so that the billboards actually connect to the building. 1E874E, 1E8750 had to be moved to accommodate this fix.
+- New\ \[5, -1, CW\] Adjusted 1D9824 so the billboard isn't floating from the side of the building.
+- New\ \[BeaconHillBostonBugleExt\] Adjusted 1C92B2, 150BC4, 150BC5 so they are no longer floating. Added (3 Walls - Renumbered FormIDs Here) to patch a large gap in a building.
+- New\ \[BeaconHillApartmentsExt02\] Nudged 1C742C, 1D2846 in an attempt to fix the graffiti x-fighting from a distance. Adjusted 1C929D to close a tiny gap. Adjusted 1C913D so that it actually connects to the wall and 1CC9ED so that it no longer floats. Moved 1CAECF so that it no longer clips inside of the electricity tower. Added (Two Objects - Renumbered FormIDs here) to fix gaps in buildings.
+- New\ \[BeaconHillApartmentsExt01\] Lowered 1C9153 so that it no longer floats.
+- New\ \[1, -1, CW\] Adjusted 16F0E9, 16F0ED, 16F0EE, 16F0EF, 16F0E0, 16F0E3 to actually be visible as they were hidden under the landscape.
+- New\ \[Financial18Ext\] Adjusted 1E86BD to actually be connected to the building. The vines 1E885F, 1EAB3C, 1EAB3D were also moved to accommodate this fix.
+- New\ \[FaneuilHallExt\] Adjusted 0518F, 063BD5, 11F147 so they properly connect to the wall. A wire (22D699) was also moved to accommodate the UtilityWallMount fix. The following trash piles were also adjusted to stop them from floating: 1E7079, 1E707B, 1E707C, 1E707E, 2186CB, 2186CC, 2186CD, 2186CE, 2186CF, 2186D1, 2186D2, 2186D3, 2186D4, 2186D5, 2186D6, 2186D7, 2186D8, 2186E7, 2186EC, 2186ED, 2186EE, 2186EF, 2186F1.
+- New\ \[MassFusionExt02\] Moved 1DF775 so that it actually connects to the wall.
+- New\ \[MassFusionExt\] Increased the height of 044B07 to prevent the rubble pile from clipping through the wall. Adjusted 062B6C, 20E94F so that they are no longer floating. Added a missing corner cap (Renumbered FormID here) to the roof of a building.
+- New\ \[BeaconHillPlaygroundExt\] Added (Three - New objects - Renumbered FormIDs here) to fix some gaps in the roof of a building. Lowered 20C8EF, 20C8EE so that they no longer float.
+- New\ \[6, -3, CW\] Adjusted 13A28C so that it is no longer floating.
+- New\ \[GoodneighborExt\] Adjusted 1D7D7F, 1D7DA9 so that they connect to the buildings and are no longer floating.
+- New\ \[VaultTecOfficeExt01\] Adjusted 063B83 so that the poster is actually visible and not sunk inside of a wall. Deleted 07109F and adjusted 1470A0 - the location still looks identical you just have to render one less object. The stairs that were deleted were mostly hidden under the landscape.
+- New\ \[Financial22Ext\] Lowered 0B74C1, 1388A3 so they are no longer floating.
+- New\ \[FinancialPostalSquare\] Adjusted 125AAF, 1EEE7F, 1EEE80 so they actually connect to the wall.
+- New\ \[GoodneighborExt02\] Lowered 093AEC, 093AED, 093AFF so they no longer float above the roof (093AEC can be forwarded to UFO4P). Adjusted 11467C, 123559, 1EEE62 so they connect to the wall. Also adjusted 1EEDC7, 1EEDC8 to hide a gap on the bottom and make them flush with the roof.
+- New\ \[4, -4, CW\] Adjusted 116709 to close a gap in the side of a building. Nudged 21867B to fix the trash pile clipping through the roof.
+- New\ \[Vault114Ext\] Raised 136680, 136681 to close a gap in the building. Adjusted 23CEC9 so that it actually connects to the wall.
+- New\ \[ShamrockTaphouseExt\] Adjusted 001FF06A so it actually connects to the side of the building. Lowered the following trash piles so they no longer float: 1FF051, 1FFD05, 1FFD16, 2033A0.
+- New\ \[6, -5, CW\] Adjusted 03F59C, 141915 so they are connected to the wall.
+- New\ \[TheaterHub360Ext\] Nudged 0B10C2 so the sign is connected to the wall. Adjusted 0C7A60 to close a gap under a building.
+- New\ \[4, -5, CW\] Adjusted 0B72E3, 1B62DA, 1D7B77, 1D7B78, 205E46, 132CF6 so they are no longer floating. Nudged 132CDF, 1BD21B slightly to fix some axis-fighting. Lowered 1F4915 to close a gap. Dedup/Deleted 1F45B7. Added (4 - New objects - renumbered FormIDs here) to close various gaps in buildings.
+- New\ \[BostonCommonExt03\] Adjusted 0B72E4 so that it actually connects to the building. Increased the height of 1F4610 to close a gap in the building. Nudged down 1F4914, 1F4916 to close another gap. Added (Renumbered FormID here) as it was missing from the corner of the building.
+- New\ \[7, -6, CW\] Adjusted 1FF09F so that it connects to the building properly. Nudged 1FF152 slightly to prevent the trash pile clipping through the wall.
+- New\ \[CrossRoadsExt01\] Nudged 0C79EA forwards so that it's visible and not sunken into the wall. Also nudged 0012EA78, 0012EA7A to close hairline gaps. Adjusted 144DD1 so that it's actually connected to the building. Added (Renumbered FormID here) to cover a gap in the rubble.
+- New\ \[4, -6, CW\] Nudged 0A52D2, 1330AD, 1330DB, 13D7C7, 1D83A1, 23D6F4 to fix clipping. Adjusted 0ACC7E, 133005 so they connect to the building. Nudged 0C7A62, 0C7A65, 0C7A67, 0C7A68, 0C7A69, 132CC7, 1BD225, 1BD22D to fix Y-fighting. Adjusted 1BD21D to make it flush with the rest of the building. Added (Renumbered FormID here) to close a gap in the floor/wall.
+- New\ \[1, -6, CW\] Adjusted 17C0DB, 17C0DC, 182D58 so they are no longer floating. Added (Two objects - Renumbered FormIDs here) to close gaps in buildings.
+- New\ \[WaterfrontExtS\] Lowered 0B9681, 0B9682, 0B9683 so they no longer float. Adjusted 1FF122 so the posters are against the wall.
+- New\ \[5, -7, CW\] Nudged 0A7983 so the billboard is connected to the building. Lowered 0B96A4 so that it no longer floats.
+- New\ \[MassBayMedicalCenterExt\] Adjusted 0B0384, 0B0385 so that both billboards are connected to the building.
+- New\ \[TheaterDistrictExt02\] Adjusted 0C0222 to fix x-fighting. Also adjusted 13AC85 so that it's properly connected to the wall.
+- New\ \[BostonCommonExt04\] Lowered 0ACCDC so that it no longer floats.
+- New\ \[1, -7, CW\] Nudged 1692F7 closer to the wall.
+- New\ \[4, -8, CW\] Adjusted 0B7493, 0B7494 to make both billboards actually connect to the building.
+- New\ \[CambridgeCampKendallExt\] Raised 16F092, 16F095, 16F096 so they're visible and not sunken into the ground.
+- New\ \[0, -4, CW\] Adjusted the following to close a gap and correctly align the walls in a building: 001AED70, 001AED8D, 1AED8E, 1AED8F, 1AED90, 1AED91, 1AED92, 1AED93, 1AED94, 1AED95, 1AED96, 1AED9A, 1AED9B, 1AED9C, 1AED9D, 1AED9E, 1AED9F, 1AEDA0, 1AEDA1, 1AEDA2, 1AEDA3, 1AEDB1, 1AEDB2, 1AEDB3, 1AEDB4, 1AEDB5, 1AEDB6, 1AEDB7, 1AEDB8, 1AEDB9, 1AEDBA, 1B5179, 1B517A, 1B517B, 1B517C, 1B517D, 1B517E, 1B517F, 1B5180, 1B5181, 1B5183, 1B5185, 1B5186, 1B5187, 1B5188. There might be a better solution to this issue.
+- New\ \[TrinityPlazaExt\] Adjusted 075F08, 075F09, 075F0A, 075F0B, 17CF94 so they no longer float. Nudged 176B10 to close a gap in the building. Also adjusted 19035B so that the Utility Wall Mount is actually visible on the building. Nudged 20CA3E closer to the wall.
+- New\ \[TrinityTowerExt\] Lowered 152C22 so that it is no longer floating. Nudged 00239CEE, 00239CE9 closer to the wall of the building.
+- New\ \[8, -4, CW\] Nudged 1F2422, 1F8AEB so they actually connect to the wall.
+- New\ \[WaterfrontExtE\] Nudged 1F974A so that it is connected to the wall.
+- New\ \[9, -3, CW\] Lowered 1F8C7F so that the trash pile is no longer floating.
+- New\ \[-15, 19, CW\] Nudged 18977C, 18977E, 18977F to fix X/Y-fighting.
+- New\ \[ConcordExt03\] Nudged 04961C to fix Y-fighting.
+- New\ \[ConcordUndergroundExt\] Nudged 237D96 to fix Y-fighting.
+- New\ \[-3, 4, CW\] Nudged 15281D so that it is actually connected to the wall.
+- New\ \[CambridgeNorthExt\] Adjusted 1661A9 to fix Y/Z-fighting.
+- New\ \[-4, 3, CW\] Fixed the matswap on 1661C3 to match the rest of the building. Lowered 2385E8, 2385E9, 2385E2 so they no longer float. Added (Renumbered FormID here) to close a gap in the building.
+- New\ \[-5, 3, CW\] Lowered 0A9E76 so that it is no longer floating.
+- New\ \[-6, 3, CW\] Lowered 1B5B43, 1703A9 so they are no longer floating.
+- New\ \[CambridgeCraterExt02\] Adjusted 1BFBB9 so that it is connected to the wall.
+- New\ \[KendallHospitalExt\] Adjusted 1B5B64, 0B7DFD, 0BF88B so they are no longer floating.
+- New\ \[-5, 1, CW\] Rotated 1A64A3 to prevent x-fighting.
+- New\ \[-7, 1, CW\] Adjusted 154ED9 to prevent the rubble from clipping through the building.
+- New\ \[-9, -11, CW\] Lowered 1D0CA7 so it no longer floats.
+- New\ \[-4, -17, CW\] Lowered 1F37F5 so it no longer floats.
+- New\ \[-3, -9, CW\] Lowered 03DA49 to close a gap along the bottom of the building. Also lowered 111993 to close a gap and fix z-fighting.
+- New\ \[-1, -15, CW\] Adjusted 1F3842, 1F3841 so they both connect to the house correctly.
+- New\ \[MiltonGeneralExt\] Adjusted 0E2A2E, 0E2A2F, 0E2A30 to connect to the building correctly. Lowered 22250B so that it is no longer floating.
+- New\ \[WestRoxburyStationExt\] Raised 20E099 to prevent clipping through the floor/ceiling.
+- New\ \[-4, -15, CW\] Adjusted 000CEF9B to close a gap in the floor.
+- New\ \[ShawHighSchoolExt\] Nudged 1F383E so that it is connected to the wall.
+- New\ \[WestRoxburyStationExt02\] Nudged 02A8B6 to prevent clipping through the wall - 1DFACA was also moved to accommodate this fix (A better solution might be possible with a landscape edit). Nudged 1DFA6F, 1DFA70, 1DFA71, 1DFA7B, 1DFA7C, 1DFA7D, 1DFA7E to fix z-fighting. 
+- New\ \[FallonsDepartmentStoreExt\] Nudged 02A85F, 1935EC to stop them clipping through the wall. Lowered 1DFA61 to connect it to the roof of the building.
+- New\ \[FallonsDepartmentStoreExt02\] Adjusted 1DF98A, 1DF98B so they both connect to the building.
+- New\ \[EgretToursMarinaExt\] Raised 021CD9 slightly to make it flush with the building next to it. Adjusted 168D97, 021CE4 to fix the trash piles clipping through the walls. Lowered 2406DF to stop it from floating. Nudged 07BED7 slightly so that it connects to the wall correctly.
+- New\ \[-1, -1, CW\] Nudged 0BC26E slightly to stop the wall clipping through the other wall.
+- New\ \[-6, -1, CW\] Adjusted 239408 so the posters are flush against the wall and not floating.
+- New\ \[-1, -4, CW\] Lowered 0750B0, 0750B1, 0750B2, 0750B3, 0750B4, 0750B5 so they are no longer floating. Adjusted 20C9F0 to connect it to the wall of the building. Also adjusted 20CB48, 20D3E9 so they no longer float.
+- New\ \[-2, -5, CW\] Adjusted 111C68 to close a small gap. Lowered 111D41 to stop it from floating.
+- New\ \[-7, -5, CW\] Adjusted 1B5F6E, 2045E6 so they are connected to the wall properly.
+- New\ \[-1, -7, CW\] Nudged 19033F slightly so the mount is connected to the wall.
+- New\ \[-2, -7, CW\] Adjusted 190338, 139033E, 190340, 190341 so they actually connect to the wall.
+- New\ \[FensSquare\] Lowered 1AC911 so that it is no longer floating. Adjusted 23C072 so that it connects to the wall.
+- New\ \[-2, -8, CW\] Lowered 1B11A9 so that the stems of the hedge are all in the ground.
+- New\ \[GoodneighborOrigin\] Adjusted 001110B4, 0020563F so they both are connected to the wall.
+- New\ \[PoseidonEnergyTurbineExt\] Lowered 15C43C, 1A580C so they are no longer floating. Nudged 04307E to connect it to the wall. Raised 02BA71 slightly to match the rest of the walls.
+- New\ \[5, 6, CW\] Adjusted 042925, 166892 so they are no longer floating.
+- New\ \[7, 4, CW\] Shifted 1D24E7 so it no longer clips through the railing.
+- New\ \[CharlestownDrugDenExt\] Adjusted 119329, 1D24DF, 1D24E0, 1D24E2 to close gaps in the sidewalk. Also added (Renumbered FormID here) to close another gap.
+- New\ \[5, 4, CW\] Lowered 1945AA onto the table. (Forward to UFO4P)
+- New\ \[BunkerHillExt02\] Deleted 0D3117 as it's a trash bin underneath the ground. (Forward to UFO4P)
+- New\ \[7, 3, CW\] Adjusted 1D4526 so it no longer floats.
+- New\ \[USSConstitutionExt\] Lowered 06501B, 065028 to close a gap at the bottom of the walls. Lowered 1D25C9 so that it no longer floats. Also lowered 1D2640, 1D2641, 1D2642 to fix z-fighting.
+- New\ \[5, 3, CW\] Lowered 1F1881 to prevent clipping through the roof. Adjusted 1F1882 to put the wall stain flush against the building. Also adjusted 1F17D8, 1F17D9, 1F1815, 1F1849, 1F184A, 1F184B, 1F184C to fix a gap in the roof. Deleted 0A7A22, 0A7A23, 0A7A24, 0A7A81, 195A90.
+- New\ \[USSConstitutionExt02\] Lowered 1D40E5 to close a hairline gap.
+- New\ \[0, 3, CW\] Nudged 0A0A44 to fix x-fighting. Adjusted 0015A781, 15A780, 15A78C, 15A78B so they no longer float. Nudged 1BF822 to fix y-fighting.
+- New\ \[0, 2, CW\] Deleted 0B2C13. Nudged 15B813, 15B814, 15B815, 1BF9AA to fix x-fighting.
+- New\ \[0, 1, CW\] Adjusted 0B2C28 to fix z-fighting. Deleted 175561. Adjusted 14CD59 so that it's flush against the wall.
+- New\ \[TiconderogaStationExt\] Nudge 16A048 so that it's flush against the wall. Adjust 16A043 to fix x-fighting.
+- New\ \[0, 0, CW\] Adjusted 08B23A to stop the rubble clipping through the wall. Changed the matswap on 0A7085 to match the rest of the building. Raised 0B2C2B, 16CCB9 slightly to fix z-fighting. Adjusted 16A086, 16A087 so the vines are no longer floating. Added (2 objects - Renumbered FormIDs here) to close gaps.
+- New\ \[SlocumsJoeHQExt\] Adjusted 1F761B so it connects to the wall.
+- New\ \[WestEverettEstatesExt04\] Adjusted 1B9768, 1B976A to fix trash piles floating.
+- New\ \[WestEverettEstatesExt06\] Attempted to adjust 1E4CD0 to reduce the floating of the rubble.
+- New\ \[MassFusionExt\] Moved 09FB54 from under a rubble pile. (Forward to UFO4P)
+- New\ \[BostomCommonExt\] Lowered 17FD3E to fix x-fighting. Adjusted 23210C, 17FD3D to close a gap in their respective buildings.
+- New\ \[HalluciGenExt\] Adjusted 20C6B0, 20C6B4, 20C6B9, 20C7BA, 20C7BB, 20C804 so they are connected to the wall. 
+- New\ \[SwansPondExt\] Adjusted 23846E so that it's connected to the wall.
+- New\ \[CambridgeCampKendallExt\] Adjusted 0A708F so that it's connected to the wall.
+- New\ \[0, -3, CW\] Adjusted 15BF25, 15BF26 so that the benches are no longer floating. (Forward to UFO4P).
+- New\ \[0, -4, CW\] Adjusted 17865B to fix x-fighting. Also adjusted 0020C7A5, 0020CAFD, 0020CAFE, 0020CAFF, 0020CB00, 0020CB01, 0020CB19 so that the trash piles no longer float.
+- New\ \[-20, 11, CW\] Lowered 0974EA so that it no longer floats.
+- New\ \[-6, 3, CW\] Adjusted 170385 to close a gap.
+- New\ \[CollegeSquareExt03\] Adjusted 1997AE so it no longer floats.
+- New\ \[CambridgeCraterExt02\] Adjusted 000AFA74, 1BFBBA, 1BFBC7 to connect to the wall.
+- New\ \[-5, 2, CW\] Lowered 1656E8 so that it no longer floats.
+- New\ \[-6, 2, CW\] Adjusted 00097AD4, 00097ADF, 00097B15, 00097B1F, 00097B23, 00097B38, 00098956, 000A96C2 to close some small gaps in the building. Deleted 097B3A, 097B44, 098A6A.
+- New\ \[-2, 1, CW\] Adjusted 001724D8, 001724D9 to fix y-fighting. Adjusted 001724EA, 001724EB, 001724EC to close a gap in the building.
+- New\ \[-5, 1, CW\] Adjusted 1A6470, 13AF91 so they no longer float. 
+- New\ \[-7, 1, CW\] Lowered 0B4334 so it no longer floats.
+- New\ \[GreenetechGeneticsExt\] Nudged 13FC8D to fix z-fighting. Lowered 172658 to fix x/y-fighting.
+- New\ \[-2, 0, CW\] Adjusted 0BA726 to close a small gap.
+- New\ \[-3, 0, CW\] Deleted 1A651D and adjusted 1A651E, 1A651F to make the area look identical.
+- New\ \[FraternalPost115Ext\] Adjusted 0AAED2 to close a gap. 0AAECE, 0AAECF were also moved to accommodate this fix. Also adjusted 239957 to fix z-fighting.
+- New\ \[LexingtonExt04\] Adjusted 0EA9C7, 0EA9C8 to stop them clipping through the windows. 0EA9C9, 0EA9C1, 0EA9C6, 0EA9C5 were also moved to accommodate this fix. Lowered 0FCEEB, 0FCEEC to fix some Z-Fighting. Also adjusted 0FCED3 to hide some flickering on the wall texture.
+- New\ \[-6, -1, CW\] Lowered 2392EC, 2392F8, 2392F9 so they no longer float. Adjusted 2393EA to fix y-fighting. (Forward to UFO4P)
+- New\ \[CambridgePolymerLabsExt\] Adjusted 160954, 160955 so the benches are no longer floating. (Forward to UFO4P)
+- New\ \[-7, -2, CW\] Rotated 16C309, 239A50 so they are no longer floating.
+- New\ \[-1, -3, CW\] Adjusted 15BF24 so the bench is no longer floating. (Forward to UFO4P)
+- New\ \[-1, -4, CW\] Adjusted 15BF24 so the bench is no longer floating. (Forward to UFO4P) Adjusted 20CB25, 20CB26, 20CB27, 20CB29 so the trash no longer floats.
+- New\ \[-2, -4, CW\] Adjusted 15BF22 so the bench is no longer floating (Forward to UFO4P). Also adjusted 119A99, 001AEBEF, 0020CB16, 0020CB30, 20CB38, 20CB39 so they no longer float. Shifted 184D22 in an attempt to cover a gap.
+- New\ \[BackStreetApparelExt\] Adjusted the height of 1132C1 to cover up some clipping. Nudged 113E67 slightly to close a gap from the wall. Lowered 1B6148, 1B61CC, 1B61CD so they no longer float.
+- New\ \[MS13LatimerAmbush\] Adjusted 23A6BD so it no longer floats.
+- New\ \[-2, -5, CW\] Deleted 153D8B.
+- New\ \[BostonPublicLibraryExt\] Adjusted 17C8F9 so that it actually connects to the wall.
+- \[AbstergeMerge\]
 - New\ \[5, 3, CW\] Shifted 1d0a93 to close a hairline gap.
 - New\ \[5, 3, CW\] Brought A79FD forward to plug the hole 1f17cd was causing.
 - New\ \[8, -4, CW\] Adjusted 17FEB5 as per Emiral (gap removal/clipping nearby wall piece)
