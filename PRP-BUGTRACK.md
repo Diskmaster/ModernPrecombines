@@ -42,7 +42,8 @@ TODO
 
 76
 
-
+- New\ \[-5, 1, CW\] More landscaping to hide the hole underneath 1385A5.
+- New\ \[-7, -2, CW\] Shift 239A50 over a bit to better mesh with some landscape adjustments. Also tune the landscape to hide some gaps in the sidewalk chunks nearby.
 - New\ \[4, -5, CW\] Delete 001F45B1. (Update later with specifics.)
 - New\ \[3, -4, CW\] XLRT 1E819A for 1D1641 to 1D1644 (vines around the shaw memorial and improves compatibility with the replacer)
 - New\ \[-2, -4, CW\] Adjusted landscape near 1AEBF3 to plug a small landscape hole with respect to the building.
