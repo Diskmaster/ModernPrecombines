@@ -27,7 +27,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-TODO
+TODO (Outdated since 74)
 
 - New\ \[Various\] CC related compat updates. Work in progress.
 - New\ \[???\] I remember a mesh that had bad occlusion that I need to find and tag non-occlude.
@@ -42,7 +42,8 @@ TODO
 
 76
 
-- New\ \[PrewarVault111\] Update texswap assignment for CA611, CA653, CA654, and CA655 to Vault111Prewar for obvious reasons. (More such matswaps probably could be made, but this is to improve compat with 
+- New\ \[Fillmein\] Architecture\Unique\BostonCommons\MassCapitol\Capitol2x1BotWinA01Full01.nif patched collision mesh update from GRY, thanks! This should fix 187B42 and 187BCB unofficially.
+- New\ \[PrewarVault111\] Update texswap assignment for CA611, CA653, CA654, and CA655 to Vault111Prewar for obvious reasons. (More such matswaps probably could be made, but this is to improve compat with https://www.nexusmods.com/fallout4/mods/50135
 - New\ \[-19, 22, CW\] Exclude main Sanctuary Hills Tree from precombines.
 - New\ \[-5, 1, CW\] More landscaping to hide the hole underneath 1385A5.
 - New\ \[-7, -2, CW\] Shift 239A50 over a bit to better mesh with some landscape adjustments. Also tune the landscape to hide some gaps in the sidewalk chunks nearby.
