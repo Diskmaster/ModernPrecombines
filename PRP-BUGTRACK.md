@@ -42,6 +42,9 @@ TODO (Outdated since 74)
 
 77
 
+- New\ \[-3, -6, FH\] Revert Dedup for 030292AD, same reason as the other two below, though the duplicate actually existed in the old ESM, but doesn't anymore.
+- New\ \[2, 8, FH\] Revert Dedup for 03031A4E
+- New\ \[-6, -1, FH\] Dedup 0304AF33 (Far Harbor NG reconcile, duplicate ref is ID 0300E61A which doesn't exist in OG/Steam/GOG)
 - New\ \[4, -3, CW\] Swap 7176E from 6FF48 to 71F6B as the door can't be opened due to all the debris in the way.
 - New\ \[0, 0, CW\] Update positions for 166C3C, 166C2D, 166C2A, 166C2B, and 14C2A8 to resolve some mesh placement fighting.
 - New\ \[-3, 3, CW\] Disable 1A5D6E, looks like a development leftover attempt at maybe establishing a chimney to a roof or something?
@@ -1050,7 +1053,7 @@ TODO (Outdated since 74)
 - \[PRP\] (4, 10, FH): Dedup 03036531
 - \[PRP\] (3, 8, FH): Dedup 03010454
 - \[PRP\] (2, 14, FH): Dedup 0303F68A
-- \[PRP\] (2, 8, FH): Dedup 03031A4E
+- \[PRP\] ~~(2, 8, FH): Dedup 03031A4E~~
 - \[PRP\] (1, 15, FH): Dedup 0303F6D2, 0303F6DF
 - \[PRP\] (0, 12, FH): Dedup 0302EB64
 - \[PRP\] (3, 15, FH): Dedup 0303F5ED
@@ -1167,7 +1170,7 @@ TODO (Outdated since 74)
 - \[PRP\] (-5, -14, FH): Dedup 0304FC5A, 0304FC5B
 - \[PRP\] (-7, -15, FH): Dedup 03013F37
 - \[PRP\] (-2, -7, FH): Dedup 03011E94, 03012AD7, 0302AF24, 0302AF25
-- \[PRP\] (-3, -6, FH): Dedup 03012164, 03012165, 03012166, 030121A1, 030121C0, 030121C1, 030292AD, 030292E0
+- \[PRP\] (-3, -6, FH): Dedup 03012164, 03012165, 03012166, 030121A1, 030121C0, 030121C1, ~~030292AD~~, 030292E0
 - \[PRP\] (-1, -1, FH): Dedup 0300FB72
 - \[PRP\] (-1, -2, FH): Dedup 0303CAF5, 0303CBB7
 - \[PRP\] (-1, -7, FH): Dedup 03010E11, 0302AF55
