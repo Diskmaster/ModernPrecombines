@@ -27,7 +27,7 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-TODO (Outdated since 74)
+TODO (Outdated since Branch 74)
 
 - New\ \[Various\] CC related compat updates. Work in progress.
 - New\ \[???\] I remember a mesh that had bad occlusion that I need to find and tag non-occlude.
@@ -40,7 +40,7 @@ TODO (Outdated since 74)
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
-77
+Branch 77
 
 - New\ \[-3, -6, FH\] Revert Dedup for 030292AD, same reason as the other two below, though the duplicate actually existed in the old ESM, but doesn't anymore.
 - New\ \[2, 8, FH\] Revert Dedup for 03031A4E
@@ -329,7 +329,7 @@ TODO (Outdated since 74)
 - New\ \[USAFSatellite01\] Fix z-fighting, 75BD3
 - New\ \[DmndRadio01\] Fix floating 146F80 Console SCOL. (forwardable?)
 
-74
+Branch 74
 
 - New\ \[Various\] Hopefully all the remaining instances of dynamic disables that need covered.
 - New\ \[Vaults\] Fix enable state of locker references for the vault suit compatibility. They were incorrectly set due to me not paying attention.
@@ -601,7 +601,7 @@ TODO (Outdated since 74)
 - New\ \[6, -5, CW\] Additional object moves. D0233, 20557A, 205582, 205583, add new HitExtACapLongTop01 (Glitchfinder import)
 - New\ \[6, -6, CW\] Various object moves to fix up Shamrock Taphouse's roof. Refs 1BB389, 1BB38E, 1BB38F, 1BB390, 1BB396, 1BB397, 1BB398, 1BB399, 1BB39A, 1BB39B, 1BB39D, 1BB39E, 1BB39F, 1BB3A0, 1BB3A1, 1BB3A2, 1BB3A7, 1BB3A9, 1BB3AA, 1BB3AE, 1BB3AF, 1BB3FD. Also add missing CapLongTop01 refs as needed (Glitchfinder import)
 
-69
+Branch 69
 
 - New\ \[Import\] Updated RR floor mesh contributed by Sakamoto-San in discord as per https://discord.com/channels/830436661736243230/954847055824687215/1075829817464868907. As per their description: The mesh is not linked to the material file and the specular map is not assigned in the material too, leading to a reflective/wet floor
 - New\ \[Various in FH\] Import the removed placement fixes from UF4OP that got removed as a result of U31597 (as of 2.1.5)
@@ -845,7 +845,7 @@ TODO (Outdated since 74)
 - 🟩 \[4, -3, CW\] Dedup 001D14FA, 001D14F5, 001D14F4, 000C4ADF, 00118E7E, 00118E7F, 0002CBBB, 0002CBED, 0002CDE2, 002185B7
 - 🟩 \[5, -3, CW\] Dedup 0011485A
 
-65
+Branch 65
 
 - \[PRP\] (-19, 20, CW): Community request. XLRT NoCombo 1F970 (NorthBridge / Sanctuary bridge) to support easy mesh replacement.
 - \[PRP\] (Various): Implement separated material swaps and update records accordingly, as per the Underwater Glass Fix mod.
@@ -955,7 +955,7 @@ TODO (Outdated since 74)
 - \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there. Add 1E819A XLRT to 1C7EE0
 - ~~\[PRP, U31719\] (-8, 0, CW): 16002F and 16002A missing side of SCOL mesh \(sidewalk\), break them and delete the relevant sidewalk pieces. One left side isn't even visible, and the two right side ones need some welding or model work to make them useable without glaring visual issues.~~
 
-59
+Branch 59
 
 - ~~\[U32372\] (-24, -1, CW): Add a brand new pallet to cover up a nasty looking landscape crack at 1.5x size. PRP ID 0800002B (Please note, records were compacted, and new records listed before this point are probably wrong.)~~
 - \[PRP\] (6, 13, FH): Reported visibility break in the area, fix pending.
@@ -1424,7 +1424,7 @@ TODO (Outdated since 74)
 - ~~\[U32328\] Fix 1E7723 clipping through roof.~~
 - \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
 
-57
+Branch 57
 
 - \[PRP\] Fixed missing header forward in previous release.
 - \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
