@@ -42,6 +42,7 @@ TODO (Outdated since Branch 74)
 
 Branch 77
 
+- New\ \[FensParkviewApartments02\] Disable 1DF3BD to fix z-fighting with the nearby desk pieces. I don't see a good way to fix it in the way that it's intended with the mesh pieces available right now.
 - New\ \[-3, -6, FH\] Revert Dedup for 030292AD, same reason as the other two below, though the duplicate actually existed in the old ESM, but doesn't anymore.
 - New\ \[2, 8, FH\] Revert Dedup for 03031A4E
 - New\ \[-6, -1, FH\] Dedup 0304AF33 (Far Harbor NG reconcile, duplicate ref is ID 0300E61A which doesn't exist in OG/Steam/GOG)
