@@ -40,8 +40,15 @@ TODO (Outdated since Branch 74)
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
-Branch 77
+Branch 78
 
+
+- New\ \[4, -2, CW and neighboring blocks\] Same verse as the previous entry, but intended for the Mass Fusion building.
+- New\ \[1, -6, CW and neighboring blocks\] Trinity Tower's massive set of references needed tagged MultiRefLOD for future FOLIP work, courtesy of DoubleYou.
+- New\ \[8, -12, CW\] Swap base on 16F445 and add associated parts of the church to fix up missing collision from a mesh that's only used once here in the entire game. Thanks to DoubleYou and friends for this one. The original chruch mesh also has a missing texture that was hidden from being submerged into the ground.
+- New\ \[FensParkviewApartments02\] Add new alternate of CounterOuterCrnIn01 to resolve z-fighting for 001DF3BE and it's neighbor 001DF3BD
+- New\ \[Needs Documented\] Merged prp78mergefixes.esp
+- New\ \[Needs Documented\] Merged AbstergePRP78Fixes.esp
 - New\ \[FensParkviewApartments02\] Disable 1DF3BD to fix z-fighting with the nearby desk pieces. I don't see a good way to fix it in the way that it's intended with the mesh pieces available right now.
 - New\ \[-3, -6, FH\] Revert Dedup for 030292AD, same reason as the other two below, though the duplicate actually existed in the old ESM, but doesn't anymore.
 - New\ \[2, 8, FH\] Revert Dedup for 03031A4E
