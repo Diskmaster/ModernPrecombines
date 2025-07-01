@@ -42,7 +42,9 @@ TODO (Outdated since Branch 74)
 
 Branch 78
 
-
+- New\ \[Various\] Correct various incorrect linkref deletions that were intended to be multireflod marked instead. (WIP)
+- New\ \[Various\] Merge MultiRefLOD tagging for BackBay_Block017Building (as described by DoubleYou, the falling down skyscraper)
+- New\ \[SouthBoston25\] Adjusted 1C7BB3, 1C7BB4, 23ECDD closer to the walls so they are no longer floating. Swapped out 09B4F3, 09B4F4, 09B4F5, 09B4F6, 09B4F7, 09B4F8 for their static version as they are unreachable by the player and can now be precombined. Nudged 1C7BE3, 1C7BF3 so the glass is no longer covering up the details of the windows. Disabled 09B497, 1C7B1F, 1C7B24, 1C7B29, 1C7B2E, 1C7B33, 1C7B38, 1C7B3D, 1C7B3E, 1C7B3F, 1C7B40, 1C7B41, 1C7B42, 1C7B4B, 001C7B50, 1C7B58 due to them being outside of the playable area and never seen by the player. (As contributed by Absterge)
 - New\ \[4, -2, CW and neighboring blocks\] Same verse as the previous entry, but intended for the Mass Fusion building.
 - New\ \[1, -6, CW and neighboring blocks\] Trinity Tower's massive set of references needed tagged MultiRefLOD for future FOLIP work, courtesy of DoubleYou.
 - New\ \[8, -12, CW\] Swap base on 16F445 and add associated parts of the church to fix up missing collision from a mesh that's only used once here in the entire game. Thanks to DoubleYou and friends for this one. The original chruch mesh also has a missing texture that was hidden from being submerged into the ground.
