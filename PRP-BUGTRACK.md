@@ -42,6 +42,9 @@ TODO (Outdated since Branch 74)
 
 Branch 78
 
+- New\ \[-1, -7, CW\] (also -1, -8), Merge another of DoubleYou's MultirefLOD related plugins. This time, it's the Prudential Building.
+- New\ \[0, -5, NW\] AFK 35169 - Move 0602AD0F to fix a gap in the floor from bad reference placement. I'm surprised Absterge didn't hit this one with the recent contributions since they originally filed the bug.
+- New\ \[-9, 19, CW\] AFK 35637 - Lower 19E396 to make the debris mesh's hole much less obvious and mesh better with the nearby debris.
 - New\ \[Various\] Correct various incorrect linkref deletions that were intended to be multireflod marked instead. (WIP)
 - New\ \[Various\] Merge MultiRefLOD tagging for BackBay_Block017Building (as described by DoubleYou, the falling down skyscraper)
 - New\ \[SouthBoston25\] Adjusted 1C7BB3, 1C7BB4, 23ECDD closer to the walls so they are no longer floating. Swapped out 09B4F3, 09B4F4, 09B4F5, 09B4F6, 09B4F7, 09B4F8 for their static version as they are unreachable by the player and can now be precombined. Nudged 1C7BE3, 1C7BF3 so the glass is no longer covering up the details of the windows. Disabled 09B497, 1C7B1F, 1C7B24, 1C7B29, 1C7B2E, 1C7B33, 1C7B38, 1C7B3D, 1C7B3E, 1C7B3F, 1C7B40, 1C7B41, 1C7B42, 1C7B4B, 001C7B50, 1C7B58 due to them being outside of the playable area and never seen by the player. (As contributed by Absterge)
