@@ -42,6 +42,13 @@ TODO (Outdated since Branch 74)
 
 Branch 78
 
+- New\ \[
+- New\ \[-18, 20, CW\] Adjust position of tree 31FEE to make it not float.
+- New\ \[7, 0, CW\] Raised landscape to mask floating trash piles like 1ABAE3
+- New\ \[-1, -5, CW\] Bring 17C444 in line with it's nearby pieces. I have no clue what happened here, and I'm not sure I want to know. (TODO: Fix placement)
+- New\ \[-1, -5, CW\] Buried a bit of a nearby roof chunk that was used in the nearby underground parking station structure (ref B8F8A) through some landscape editing.
+- New\ \[-1, -4, CW\] Adjusted the landscape under the Skybridge to mask floating support structure of the bridge. This impacts 16B885, 16B86C, 16B855 and 19D638
+- New\ \[-6, 0, CW\] Upscale AAF73 to fill small holes in the building's exterior, could use some tuning. The holes from the underside need some mesh work to make it useable.
 - New\ \[-1, -7, CW\] (also -1, -8), Merge another of DoubleYou's MultirefLOD related plugins. This time, it's the Prudential Building.
 - New\ \[0, -5, NW\] AFK 35169 - Move 0602AD0F to fix a gap in the floor from bad reference placement. I'm surprised Absterge didn't hit this one with the recent contributions since they originally filed the bug.
 - New\ \[-9, 19, CW\] AFK 35637 - Lower 19E396 to make the debris mesh's hole much less obvious and mesh better with the nearby debris.
