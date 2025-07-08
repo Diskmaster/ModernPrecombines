@@ -42,7 +42,12 @@ TODO (Outdated since Branch 74)
 
 Branch 78
 
-- New\ \[
+- New\ \[todo\] Update 22236C to not use the Glowing Sea variant of it's mesh.
+- New\ \[-27, 13, CW\] Another reference hole masked by landscape shifting. This one might not be seen much as it's in the borderlands.
+- New\ \[-26, 19, CW\] More landscape adjustments to mask a hole in a rock reference.
+- New\ \[-26, 21, CW\] Adjust landscape a bit to cover up a hole that the reference 2222BC had exposed.
+- New\ \[-19, 19, CW\] (also -20, 19) Paint a landscape texture chunk to better blend in with it's neighboring cells.
+- New\ \[-18, 21, CW\] (and three related cells) Fixed a landscape texture seam with repainting, this was not fun to do.
 - New\ \[-18, 20, CW\] Adjust position of tree 31FEE to make it not float.
 - New\ \[7, 0, CW\] Raised landscape to mask floating trash piles like 1ABAE3
 - New\ \[-1, -5, CW\] Bring 17C444 in line with it's nearby pieces. I have no clue what happened here, and I'm not sure I want to know. (TODO: Fix placement)
