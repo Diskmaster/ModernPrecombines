@@ -42,6 +42,15 @@ TODO (Outdated since Branch 74)
 
 Branch 78
 
+- New\ \[13, 20, CW\] Add a new DecoBaseA1x1Cor03 and DecoBaseA1x1Wall01 to adjust for some shoddy craftsmanship at the Parsons State Building near it's neighbors.
+- New\ \[13, 7, CW\] Slightly adjust 171350, 1712F3, 1712EF, 171362, 171339, 17133C, and 171347 to minimize z-fighting.
+- New\ \[0, 3, CW\] Disable several references hidden away behind the building nearest 16D940 and associated building blocks, apparently unused content?
+- New\ \[Various\] Architecture\Unique\Cabins\Cabin01.nif needed reverted, it was a fixed mesh from two years ago that was intended to fix a different mesh than the ruined version.
+- New\ \[-21, 15, CW\] Blended a landscape texture seam nearest 2158C7.
+- New\ \[-21, 5, CW\] Slightly adjust the ground near FF830's entrance (Wicked Shipping, middle trailer) to make the debris less awkward looking and more natural
+- New\ \[-22, 9, CW\] Lower the ground for that one corner of the warehouse building at the Co-Op so it doesn't clip through the building. (D4AF8 and it's associated group of refs)
+- New\ \[-20, 11, CW\] Shift 97551 slightly so it doesn't float.
+- New\ \[-25, 10, CW\] Move 144419 so it doesn't float.
 - New\ \[todo\] Update 22236C to not use the Glowing Sea variant of it's mesh.
 - New\ \[-27, 13, CW\] Another reference hole masked by landscape shifting. This one might not be seen much as it's in the borderlands.
 - New\ \[-26, 19, CW\] More landscape adjustments to mask a hole in a rock reference.
