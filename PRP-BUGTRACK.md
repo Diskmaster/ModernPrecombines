@@ -33,15 +33,15 @@ TODO (Outdated since Branch 74)
 - New\ \[???\] I remember a mesh that had bad occlusion that I need to find and tag non-occlude.
 - New\ \[CorvegaAssemblyPlantExt01\] Seen a road chunk that has a bad occlusion set in the railing that needs looked at during a stream.
 - New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
-- New\ \[Various\] Fix 00163A1C placements (Eight MacDetailGreeble21 entries are in the wrong rotation, among other issues, held pending figuring out how to properly service the SCOL definition
 - New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
 - New\ \[DLC01Lair01\] 0100BD35 and neighbors might need z-adjustment to fix a floor seam.
 - New\ \[Various\] Reapply all non-occluder meshes as copied base records and apply them to fix issues previously bandaid'd to minimize issues. (Dev note: 060138D1, 30314, 72375, 89720, 89721, 89722, 89726, 89727, 90EE5, DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62)
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
-Branch 78
+Branch 79
 
+- New\ \[Various\] Update the IndustrialMachine07 (163A1C) SCOL definition to flip around eight screws that were otherwise hidden. Special thanks to Pesky_Fox to figuring how to do this in a clean manner, as my previous attempts didn't work that well.
 - New\ \[0, 2, CW\] Delete a pair of wall refs and a plywood door leftover near 1bc02f that the player can't see
 - New\ \[0, 3, CW\] Delete 15A827 (Errant trash decal leftover) TODO: Reset position
 - New\ \[0, 3, CW\] Bring 1BF9D1 and 1BF9D2 to close up a gap by their neighboring reference chunks.
