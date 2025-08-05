@@ -41,7 +41,16 @@ TODO (Outdated since Branch 74)
 
 Branch 79
 
-
+- New\ \[-4, -10, CW\] More landscape adjustments to fix a mesh gap next to 15AD7B.
+- New\ \[4, -1, CW\] Adjust rotation of 143283 and slightly sink the landscape near it to make it fit better where it's positioned
+- New\ \[4, -1, CW\] More landscape adjustments to cover up an obvious mesh gap bordering 14327D
+- New\ \[-27, -26, CW\] Fix landscape to cover up small mesh holes next to 115ED8
+- New\ \[-17, 10, CW\] **AFK35719** Also adjust the landscape here to cover up mesh gaps and the landscape for 88792.
+- New\ \[-19, 19, CW\] **AFK35711** Adjust the landscape slightly near 1890BC to hide a small gap.
+- New\ \[6, -2, CW\] Fix some landscaping to make the landscape not clip through the elevator attached to 71F61.
+- New\ \[-19, 15, CW\] Lowered 5A09F as it was mostly floating. Not happy with the positioning, I'll need to come back to this one.
+- New\ \[-10, 10, CW\] **AFK35154** Duplicate F3A49 and adjust it to cover the gap nearby.
+- New\ \[CorvegaAssemblyPlant01\] Slightly adjust 20760E to deal with minor z-fighting.
 - New\ \[???\] Fix up the Trinity Church exterior as per Glitchfinder, ref C8FE4 and neighboring meshes, two meshes were updated to resolve UV errors.
 - New\ \[???\] Update CapitolDome01.nif with a corrected material that resolves the incorrect cubemap and blending error the dirty texture was trying to be applied to.
 - New\ \[Various\] Update the IndustrialMachine07 (163A1C) SCOL definition to flip around eight screws that were otherwise hidden. Special thanks to Pesky_Fox to figuring how to do this in a clean manner, as my previous attempts didn't work that well.
