@@ -41,6 +41,9 @@ TODO (Outdated since Branch 74)
 
 Branch 79
 
+
+- New\ \[???\] Fix up the Trinity Church exterior as per Glitchfinder, ref C8FE4 and neighboring meshes, two meshes were updated to resolve UV errors.
+- New\ \[???\] Update CapitolDome01.nif with a corrected material that resolves the incorrect cubemap and blending error the dirty texture was trying to be applied to.
 - New\ \[Various\] Update the IndustrialMachine07 (163A1C) SCOL definition to flip around eight screws that were otherwise hidden. Special thanks to Pesky_Fox to figuring how to do this in a clean manner, as my previous attempts didn't work that well.
 - New\ \[0, 2, CW\] Delete a pair of wall refs and a plywood door leftover near 1bc02f that the player can't see
 - New\ \[0, 3, CW\] Delete 15A827 (Errant trash decal leftover) TODO: Reset position
