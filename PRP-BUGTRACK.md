@@ -41,6 +41,8 @@ TODO (Outdated since Branch 74)
 
 Branch 79
 
+
+- New\ \[2, 3, CW\] Make adjustments to the walkway near 1be99d to cover up a decent sized gap below the buildings, also adjust landscape nearby. (needs navmesh fix)
 - New\ \[-4, -10, CW\] More landscape adjustments to fix a mesh gap next to 15AD7B.
 - New\ \[4, -1, CW\] Adjust rotation of 143283 and slightly sink the landscape near it to make it fit better where it's positioned
 - New\ \[4, -1, CW\] More landscape adjustments to cover up an obvious mesh gap bordering 14327D
@@ -938,8 +940,7 @@ Branch 65
 - \[FCF\] (FederalRationStockpile01): Close wall seams with 39102, 39103, 39119
 - \[FCF\] (FaneuilHall01): Fix previs issues with doorways. 10D70F and 10D710
 - \[FCF\] (Theater16PearwoodResidences01): Correct another previs door issue. 1CC452, 1CC453
-- \[FCF\] (7, -2, CW): Move 1EAADB (rubble) to prevent players getting stuck.
-- \[FCF\] (-3, 24, CW): Apparently moved a roof chunk, 249A1
+- \[FCF\] (7, -2, CW): Move 1EAADB (rubble) to prevent players getting stuck.- \[FCF\] ~~(-3, 24, CW): Apparently moved a roof chunk, 249A1~~ Not sure what was going on here, but the chunk move had introduced clipping with the nearby workbench and lockers. Reverted in 79+
 - \[FCF\] (6, -1, CW): Add a missing ceiling panel.
 - \[FCF\] (-6, -7, CW): Add a missing metal wall part.
 - \[FCF\] (1, -2, NW): Add missing ceiling pieces nearest the NW gate.
