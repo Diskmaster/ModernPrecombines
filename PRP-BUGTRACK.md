@@ -42,6 +42,13 @@ TODO (Outdated since Branch 74)
 Branch 79
 
 
+- New\ \[-17, -6, CW\] Enable Parent 2306E5 and 23E35E like the other parts next to them so the reference is removed on quest cleanup.
+- New\ \[-14, 19, CW\] Adjusted position and rotation for 35E41 so it doesn't look nearly as detached to the building next to it.
+- New\ \[4, 2, CW\] Scaled down and repositioned 117CB6 to 60% to address the roof tile sticking out of the nearby buildings, this results in breaking the texture tiling, but I doubt anyone will notice or care.
+- New\ \[5, 2, CW\] Nudge 118F86, 118F85, 117C54, 117C53 and 1CA23F to close off yet another gap in the building.
+- New\ \[4, 2, CW\] Add a pair of DecoMainC1x1Cor01 to mask a decent sized gap in the wall.
+- New\ \[3, 2, CW\] Nudge 117B1B, 117B1C, and 117B1D to fix another sizeable gap. Also remove the hidden 117B2A roof piece that's unused.
+- New\ \[4, 0, CW\] Nudge several references including 1C719A to fix a harline gap along the wall. (TODO: Fill in IDs, file PRP-CabotHouse-fixup.esp, merge it)
 - New\ \[2, 3, CW\] Make adjustments to the walkway near 1be99d to cover up a decent sized gap below the buildings, also adjust landscape nearby. (needs navmesh fix)
 - New\ \[-4, -10, CW\] More landscape adjustments to fix a mesh gap next to 15AD7B.
 - New\ \[4, -1, CW\] Adjust rotation of 143283 and slightly sink the landscape near it to make it fit better where it's positioned
