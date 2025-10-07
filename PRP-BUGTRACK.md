@@ -41,7 +41,8 @@ TODO (Outdated since Branch 74)
 
 Branch 79
 
-
+- New\ \[-7, -7, CW\] Also reposition (move up) the buried 7E53C bush reference.
+- New\ \[-7, -7, CW\] Disable the rocks 7E507 and 7E508 as they are under the landscape and thus unused. Also, disable 55ef7 (wood log chunk) that was inside an actual house mesh.
 - New\ \[-17, -6, CW\] Enable Parent 2306E5 and 23E35E like the other parts next to them so the reference is removed on quest cleanup.
 - New\ \[-14, 19, CW\] Adjusted position and rotation for 35E41 so it doesn't look nearly as detached to the building next to it.
 - New\ \[4, 2, CW\] Scaled down and repositioned 117CB6 to 60% to address the roof tile sticking out of the nearby buildings, this results in breaking the texture tiling, but I doubt anyone will notice or care.
