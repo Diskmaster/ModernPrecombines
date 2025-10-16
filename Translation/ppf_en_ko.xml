@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>ppf.esm</Addon>
+    <Source>en</Source>
+    <Dest>ko</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:CNAM</REC>
+      <Source>BenRierimanu</Source>
+      <Dest>BenRierimanu</Dest>
+    </String>
+    <String List="0" Partial="2">
+      <EDID>[00000000]</EDID>
+      <REC>TES4:SNAM</REC>
+      <Source>Build Version: 74.21 NG
+Previsibines Repair Pack ESM
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
+      <Dest>Build Version: 74.21 NG
+Previsibines Repair Pack ESM
+Built from 1.10.984 and requires all DLC.
+Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
+    </String>
+    <String List="0">
+      <EDID>Vault81Entry</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Vault 81</Source>
+      <Dest>Vault 81</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
