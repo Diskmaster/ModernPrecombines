@@ -2900,17 +2900,22 @@ Model may need a BSLightingShaderProperty material: 	AcousticPanel01 [STAT:000F0
 - Implemented
 Model may need a BSLightingShaderProperty material: 	AirportRoomSupport02 [STAT:0022BC85]	meshes\architecture\airport\interior\airportroomsupport02.nif	L1_Damage:23
 Model may need a BSLightingShaderProperty material: 	AirportRoomSupport02 [STAT:0022BC85]	meshes\architecture\airport\interior\airportroomsupport02.nif	L1_Damage:24
-- Implemented, Rimlight may need looked at.
+- Implemented
 Model may need a BSLightingShaderProperty material: 	AirportTerminalDestroyed01 [STAT:001BCECB]	meshes\architecture\airport\airportterminaldestroyed01.nif	L1_Damage:23
 Model may need a BSLightingShaderProperty material: 	AirportTerminalDestroyed01 [STAT:001BCECB]	meshes\architecture\airport\airportterminaldestroyed01.nif	L1_Damage:24
-
+- Implemented
 Model may need a BSLightingShaderProperty material: 	AirportTerminalWallD01 [STAT:0012FBED]	meshes\architecture\airport\airportterminalwalld01.nif	L1_Damage:23
 Model may need a BSLightingShaderProperty material: 	AirportTerminalWallD01 [STAT:0012FBED]	meshes\architecture\airport\airportterminalwalld01.nif	L1_Damage:24
+- Implemented
 Model may need a BSLightingShaderProperty material: 	AirportTower01 [STAT:0010F78F]	meshes\architecture\airport\airporttower01.nif	L1_Damage:23
 Model may need a BSLightingShaderProperty material: 	AirportTower01 [STAT:0010F78F]	meshes\architecture\airport\airporttower01.nif	L1_Damage:24
+- Implemented
 Model may need a BSLightingShaderProperty material: 	Armor03PowerArmor07T60 [STAT:0020F44A]	meshes\loadscreenart\armor03powerarmor7t60.nif	
+- TODO MiniGun and MiniGunAmmo material?
 Model may need a BSLightingShaderProperty material: 	beachedwhale02 [STAT:000D1FA7]	meshes\setdressing\whale\whalebeached02.nif	
+- Implemented
 Model may need a BSLightingShaderProperty material: 	BillboardBldgLGCornerD01 [STAT:00044F38]	meshes\setdressing\signage\billboardbldglgcornerd01.nif	
+
 Model may need a BSLightingShaderProperty material: 	BillboardBldgLGCornerD02 [STAT:00044F39]	meshes\setdressing\signage\billboardbldglgcornerd02.nif	
 Model may need a BSLightingShaderProperty material: 	BillboardBldgSmCornerB01 [STAT:00044F3F]	meshes\setdressing\signage\billboardbldgsmcornerb01.nif	
 Model may need a BSLightingShaderProperty material: 	BillboardBldgSmCornerB02 [STAT:00044F43]	meshes\setdressing\signage\billboardbldgsmcornerb02.nif	
