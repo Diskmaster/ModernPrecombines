@@ -439,3 +439,47 @@ exportsubfolder=01 Spanish
 command=finalize
 command=CloseFile
 EndRule
+
+StartRule
+LangSource=en
+LangDest=ko
+usedatadir=0
+command=loadfile:F:\git\ModernPrecombines\dist\01 English\PPF.esm
+command=importxml:0:1:F:\git\ModernPrecombines\Translation\PPF_en_ko.xml
+exportsubfolder=01 Korean
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ko
+usedatadir=0
+command=loadfile:F:\git\ModernPrecombines\dist\01 English\PPF-HeavyFlamer-CR.esm
+command=importxml:0:1:F:\git\ModernPrecombines\Translation\PPF_en_ko.xml
+exportsubfolder=01 Korean
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ko
+usedatadir=0
+command=loadfile:F:\git\ModernPrecombines\dist\01 English\PPF-NeonFlats-CR.esm
+command=importxml:0:1:F:\git\ModernPrecombines\Translation\PPF_en_ko.xml
+exportsubfolder=01 Korean
+command=finalize
+command=CloseFile
+EndRule
+
+StartRule
+LangSource=en
+LangDest=ko
+usedatadir=0
+command=loadfile:F:\git\ModernPrecombines\dist\01 English\PRP.esp
+command=importxml:0:1:F:\git\ModernPrecombines\Translation\PRP_en_ko.xml
+exportsubfolder=01 Korean
+command=finalize
+command=CloseFile
+EndRule
