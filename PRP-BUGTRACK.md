@@ -41,6 +41,16 @@ TODO (Outdated since Branch 74)
 
 Branch 79
 
+- New\ \[5, 3, CW\] Fix the landscape that's been broken for a long time that was the result of too many landscape textures nearest 11923f.
+- New\ \[-6, -5, CW\] Address the landscape texture seam near 1B4293
+- New\ \[3, 7, NW\] Remove 06027085, it's a duplicate of the neighbor, and move both 0604E9EC and 0604E9EB backwards to fix the gap the extra panel was covering up. Also fix water plane positions nearby. 06047C4C and 06047C58
+- New\ \[8, -3, CW\] Adjust 1F96FB and the nearby landscape to better mask the hole that was just below it and the ramp. Move 1F9077 and 1F9078 so they aren't clipping the vehicle and instead put them in the back.
+- New\ \[8, -4, CW\] Move 1FABBF and 1FABC0 to fix a hole in the building from bad placement. Also 179DF3 backward to mask gaps in the building and duplicate 179DFC on the other side of the door.
+- New\ \[8, -2, CW\] Disable 1F23EA (table under landscape), 1F23E7 (the cooler on top) will remain where it is, UFO4P can tackle that. I'll come back to this one pending what they do with it.
+- New\ \[-1, 3, CW\] Disable D08F3, can't find a good place to put it, it was previously under the landscape. (TODO: Revert position move)
+- New\ \[1, -5, FH\] Address a nasty looking water seam (neighboring cell has different water setting) with some landscape shifting and movement of 03014BAE towards the beach, also shift 03030E12 to match.
+- New\ \[-21, 15, CW\] Update XCWT to 12E2C1 (ExtLakeForestWater) to correct a water seam as per DoubleYou.
+- New\ \[3, -6, CW\] Move 1881A9 and 1881AA and scale them down a bit to fit in the nearby sign. Also disable 1881A6 for now, it probably needs put somewhere, but the where needs figured out yet.
 - New\ \[-7, -7, CW\] Also reposition (move up) the buried 7E53C bush reference.
 - New\ \[-7, -7, CW\] Disable the rocks 7E507 and 7E508 as they are under the landscape and thus unused. Also, disable 55ef7 (wood log chunk) that was inside an actual house mesh.
 - New\ \[-17, -6, CW\] Enable Parent 2306E5 and 23E35E like the other parts next to them so the reference is removed on quest cleanup.
