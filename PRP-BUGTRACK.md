@@ -41,6 +41,15 @@ TODO (Outdated since Branch 74)
 
 Branch 79
 
+- New\ \[-1, 9, NW\] Disable the 060168F1 and related lift structure that I think was a dev leftover that never got cleaned out.
+- New\ \[3, -6, CW\] Moved the unused decal 1881A6 over to a nearby building that points to a staircase near the Combat Zone.
+- New\ \[3, 2, NW\] Lower 06038DA4 to match the table that UFO4P moved (06038CB2). (The move has been replicated here, but it'll be synced up with 2.1.9. Ref AFK 35969
+- New\ \[-21, -1, CW\] Improved the landscape painting below E4097
+- New\ \[6, -6, CW\] Slightly move 1FEFE1 to hide a water plane that was peeking out next to 17BC03
+- New\ \[-2, 24, CW\] Adjusted 23F452 scale and position to deal with hard edges on the lake the water plane is attached to.
+- New\ \[1, 24, CW\] Adjusted another painting blemish right next to A7C50
+- New\ \[3, -6, CW\] Duplicate B72C4 and place the duplicated reference next to the corner piece to cap off the railing.
+- New\ \[4, 14, CW\] Fixed a small landscape painting error below 1A69B4
 - New\ \[5, 3, CW\] Fix the landscape that's been broken for a long time that was the result of too many landscape textures nearest 11923f.
 - New\ \[-6, -5, CW\] Address the landscape texture seam near 1B4293
 - New\ \[3, 7, NW\] Remove 06027085, it's a duplicate of the neighbor, and move both 0604E9EC and 0604E9EB backwards to fix the gap the extra panel was covering up. Also fix water plane positions nearby. 06047C4C and 06047C58
