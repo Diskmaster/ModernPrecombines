@@ -40,7 +40,632 @@ TODO (Outdated since Branch 74)
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
 Branch 79
+Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
+- New\ \[POIMilitaryMC05\] Lowered 1F9E4F, 1F9E5A, 1F9E5B so the trash piles are no longer floating.
 
+- New\ \[-10, 3, CW\] Lowered 1F9F1C, 1FA009 so they are no longer floating.
+
+- New\ \[-2, 1, CW\] Disabled 1723FD, 1723FC, 17242C, 172497 as they were hidden inside other walls and never seen. Fixed Z-fighting for 13FBFF. Moved over 17AB18 as it was clipping through the wall. Also nudged 1723CA to cover up an exposed wall that was clipping through. Swapped out 172449 to a DecoMainA1x1Wall01Full01 as the original didn't work with the exterior of the building and added (New FormID here) to complete the look of the building and cover up a small gap. Adjusted 13FC21 so that it no longer clips through the wall. Also swapped out 16FA3A, 16FA63, 16FA64, 16FA65, 16FA68, 16FA67, 16FA66, 16FA69, 16FA6A, 16FA6B, 16FA6C, 172424, 172425, 172426, 172427, 172428, 172429, 17242A, 17242B, 1723A4, 1723A5, 1723A6, 1723B8, 1723B9 for their non-full versions to reduce draw calls.
+
+- New\ \[-2, 2, CW\] Nudged 16fb00 a tiny bit to fix some axis-fighting with the window. Adjusted 16A0E5, 147AE6 to stop the trash piles from clipping through the wall and ceiling. Moved up 1484A3, 1483FF, 1483DF, 147A9B, 147A97, C069D, 147A02 as they were underneath the surface for some reason. Adjusted 1483B3, 1483B2, 1484B0 in an attempt to make them less floaty on the sidewalk. Placed (2 new Form IDs here) corner walls to fill a gap in a building. Disabled 1BCF50, 1BCF4E, 1BCF4F as they are hidden behind other walls. Raised up B1EA1, 17E4F2, 15A56E, B1EAE from below the surface so they are visible. Moved 15A542, 15A543, 15A544 closer to the building to close a small gap. Disabled 1539E3, 1539E2, 1483C2 as part of a clean-up effort. Swapped out 15A5A7 for the correct window piece - disabled 153DB3 and adjusted 15A5A6, 15A5A8 because of this fix. Also swapped out 15A595, 15A596, 15A597, 15A598, 15A5D1, 15A5D2, 15A5D3, 15A5D4, 15A5D5, 15A5D6, 16FAC8, 16FAC6, 16FAC5, 16FAC7, 16FAC4, 16FAC3, 16FA9F, 16FB04, 15A661, 15A662, 15A663, 15A664 for their non-full versions to save some draw calls.
+
+- New\ \[-3, 2, CW\] Moved 14852D, 148531, 148530 out of the building so the chunks of sidewalk are actually visible. Disabled 152938, 15292F, 1BCEF1, 1BCEF0, 1BCF24 as they were placed inside of an unenterable building and impossible to see. Adjusted 1BCF34 to fix some y-fighting. Also disabled 1BCF29, 1BCF28 as they were hidden behind walls and couldn't be seen. Placed (New Form ID here) to cover a large gap in the roof. Swapped out 16C74E for its non-full version to save a draw call.
+
+- New\ \[GreenetechGeneticsExt\] Disabled 1BEE8, 1B5182, 1B8F9C, 1B8F9B due to them being hidden underground. Fixed the matswaps on 172591, 8AD22 to match the building. Disabled 17255D, 172500, 172586, 172606, 172506 as they were placed inside of a building and couldn't be seen. Cleaned up the parking garage by disabling B8E53, B8D28, B8D29. Raised up 8B12F so that it's actually visible on the side of the wall. Swapped out 175F79, 1750FB, 175F52, 175F51 for their non-full versions to reduce draw calls. Rotated 16D7DF to close a gap and match the rest of the building. Moved forward 8AD2E, 8AD2F, 8AD30 to close a gap in the building.
+
+- New\ \[-2, 0, CW\] Disabled 1C1B7 due to it being hidden underground. Moved up 8AD11 so that 8AD12 could be disabled.
+
+- New\ \[CambridgeCraterExt\] Disabled C3C2C, 16A6E4 as part of the clean up of the parking garage in GreentechGeneticsExt. Swapped out BA637, BA636 for their non-full versions to reduce draw calls.
+
+- New\ \[0, 0, CW\] Nudged 1BC0C7 slightly to fix some x-fighting. Swapped out 16CC89 for its non-full version to save a draw call.
+
+- New\ \[-3, 1, CW\] Disabled 9C4D4, 9C48A as they are never seen by the player. Swapped out 9F45C, 9F460, 9F461, 9F462, 9F46A, 9F46B, 9F441, 9F443, 9F444, 9F445, 9F44F, 9F450, A979C, A979D, A9792 for their non-full versions to reduce draw calls.
+
+- New\ \[BackBayCarDealershipExt\] Disabled 116AEB, 116AEC, 116AED, 116AEE, 1CFD1A as part of a clean-up effort. Adjusted 1683DC slightly in an attempt to make it less floaty. Rotated 168359, 168358 so the windows actually face the outside of the building.
+
+- New\ \[AtomatoysCorporateHQExt\] Nudged 168417 to fix some x-fighting with other posters. Swapped out 17EC5E, 17EC60, 17EC6A, A1EF2, A1EF3, 17EC34, 17EC36, 17EC37, 17EC38, 17EC39, 17EC3A, 17EC47, 17EC91, 17EC92, 17EC93, 17EC94 for their non-full versions to reduce draw calls.
+
+- New\ \[BostonCommonExt04\] Moved 172904, 16BDED so they are no longer clipping through the wall. Disabled 17EBDA, 165574, 657C5, 657C6, 657E5, 657E6 as part of a clean-up effort. Swapped out 17796D, 1779D9 for a roof piece to reduce draw calls. Also swapped out 175CBA, 175CB1 for their non-full versions to save more draw calls.
+
+- New\ \[EastBostonPrepSchoolExt03\] Moved 1465A5, 1465A3, 1507F3 flat against the wall so they no longer float. Swapped out 130F1C for its non-full version to save some draw calls. Disabled DF1CB, DF1B8, DF1A0, DF178, DF179, DF146 as part of a clean-up effort.
+
+- New\ \[EastCityDownsExt03\] Moved 14B776, 14B777 flat against the wall so they no longer float. Swapped out 123730, 123731, 123732, 123733, 123734, 123735, 123736, 123737, 123738, 123739, 12373A, 12373B, 12373C, 12373D, EF9B5 for their non-full versions to reduce draw calls.
+
+- New\ \[MS04NorthyHideout\] Raised 15A56F, 17E4EA from under the landscape to make it actually visible. Adjusted 17A2B9, 17A1BC to fix some instances of minor clipping. Swapped 179FA1 to TrashClump03 as the original was clipping through the roof. Disabled 15A4BF, 15A4BE as part of a clean-up effort. Swapped out 15A4D4, 15A4D5, 15A4D6, 15A4D7, 15A4EA, 15A45F, 15A460, 15A461, 15A462, 15A463, 15A464 for their non-full versions to reduce draw calls.
+
+- New\ \[CambridgeCraterExt02\] Fixed the matswap on 1BFAFA to match the rest of the building. Disabled 1BFB70, 1BFB6F, 1BFB5E, 1BFB5F, 1BFB29, 1BFB28, 1BFB1D, 1BFB1E, 1BFA87, 1BFA9D, 1BFA9C, 1BFA86, 1BFAC6, 1BFAC9, 1BFAC8, 1BFACC, 1BFAD1, 1BFAD0, 1BFA35, 1BFA92, 1BFA91, 1BFA95, 1BFA94, 1BFA9A, 1BFA33, 1BFA32, 1BFA21, 1BFA25, 1BFA24, 1BFA20, 1BFAF3, 1BFAF2, 1BFAF5, 1BFAF7, 1BFAF8, 1BFAF4 as part of a clean-up effort. Nudged 1BFBA1, 1BFB65, 1BFA74, 1BFA3F to prevent some x-fighting with the roof.
+
+- New\ \[0, 3, CW\] Lowered 17E5B3, D08FC, 1BF9AF a tiny bit so they no longer float. Disabled 16D932, A07B4, A07AE, A07C4, A07C5 as part of a clean-up effort. Nudged A07D0, A07E4 a tiny bit to prevent some x-fighting with the roof.
+
+- New\ \[ProspectHillExt\] Moved D08C0, D08C1 from under the surface so they can be seen. Swapped out 1E0A62, 1E0AC7 for their non-full versions to reduce draw calls.
+
+- New\ \[ProspectParkExt02\] Nudged A945F a tiny bit to prevent some x-fighting with the roof. Swapped 16A27D for the post-war version of the rug instead of the pre-war one. Disabled A9468 as part of a clean-up effort. Swapped out 16D8D9, 16D8DF, 16D8E0, 16D8E6 for their non-full versions to reduce draw calls. Also nudged 16A29C to prevent some z-fighting between the trash and the rug.
+
+- New\ \[-3, 3, CW\] Adjusted 17A591 to stop it clipping through the walls. Moved B1E89 up from the surface so that it is visible. Adjusted 13541F so the greeb is actually connected to the wall.
+
+- New\ \[-3, 4, CW\] Moved 13541A up from the surface so that it is visible.
+
+- New\ \[KendallHospitalExt\] Disabled 50AA4, 35D21, 360BC, 3168E as part of a clean-up effort. Raised up B789A from inside the building to the surface so that it is actually visible. Nudged 30BE4 slightly to fix some x-fighting.
+
+- New\ \[-4, 1, CW\] Disabled 31808 as part of a clean-up effort.
+
+- New\ \[-4, 3, CW\] Disabled AA0CE, 16619D, 16619E, 16619F, 166195, 166196, 166197, 166198, 166199, 16619A, 2385D5, 2385D6 as part of a clean-up effort. Adjusted 2212B9 slightly to properly cover up the clipping floor piece from the building.
+
+- New\ \[-3, 5, CW\] Disabled 10CC0F as the wall was placed inside of another wall. Nudged 145C42 a tiny bit to fix some z-fighting with the roof. Lowered 1A88B0, 1A88AF to close a small gap. Also disabled 10CBFC as it was under the surface.
+
+- New\ \[WattzExt01\] Swapped 1A8876 with the non full version of the same object to match the rest of the building. Disabled 10CBF5, 10CBF6, 10CBF4, 10CBF3 as part of a clean-up effort.
+
+- New\ \[-2, 6, CW\] Fixed the matswap on 1A88DB to match the rest of the building. Disabled 10CBF9, B1160 as part of a clean-up effort. Adjusted 1E5300 to stop it from floating and 1E5303 also had to be adjusted to accommodate this fix.
+
+- New\ \[-3, 8, CW\] Lowered 1F1359 so it no longer floats.
+
+- New\ \[GeneralAtomicsGalleriaExt\] Nudged 1E319C slightly to fix some x-fighting with the wall. Swapped out FD58B, FD58A, FD58D, FD58C, FD58F, FD591, FD592, FD593, FD594 for their non-full versions to reduce draw calls.
+
+- New\ \[GeneralAtomicsGalleriaExt02\] Swapped out FD586, FD587, FD589 for their non-full versions to reduce draw calls.
+
+- New\ \[MassFusionContainmentShed\] Disabled F9DA5 as it was hidden inside of a wall and unnecessary. Adjusted 1419C0, 145D88 so the shrubs are no longer floating. Disabled 842CD, 842B4 as part of a clean-up effort.
+
+- New\ \[-4, -5, CW\] Lowered 1B372F so it no longer floats - 1B3730, 1B3734 1B3735, 1B3736, 1B3737, 1B3738 were also lowered due to this fix to maintain consistency. Swapped out 1130F4, 1130F5, 1130EF, 1130F0, 1B3618 for a roof piece to save on some draw calls. Disabled 1130AD, 1130F9, 1130F8, 1130B2 as part of a clean-up effort.
+
+- New\ \[FensBankExt\] Disabled 1B5DC, 111CD0, 111CA8, 111D19, 111D16, 111D15, 111CB8, 111CB9, 111CBB, 111CBE, 111CC0, 111CC2, 111CEC as part of a clean-up effort. Swapped out 111D06 for a roof piece to save a few draw calls.
+
+- New\ \[-8, 1, CW\] Nudged 193751 closer to the building to prevent it from floating. 
+
+- New\ \[CambridgePDExt02\] Nudged 23C089, 23C0A1, 23C0A2 closer to the wall to prevent floating. Rotated 6EA3F a tiny bit to prevent some clipping in a wall. Disabled 532EC, 532ED, 532EE, 532EF, 3D4B0, 3D4AA, 3D4A7, 3D53B, 190BB9, 19AFE6 as part of a clean-up effort. Nudged 190BC3, 108F90, 3D0BE to fix some flickering caused by xy-fighting. Rotated 190BFC, 190BFD so that the windows are actually visible on the building. Raised up 51475 so that it doesn't clip through the canopy below. Swapped out 55B15, 55B14, 55B13, 55B12 for their non-full versions to reduce draw calls.
+
+- New\ \[CambridgePDExt\] Moved 154B61 from under the landscape to actually be visible. Swapped out 154B68, 154B69, 154B6A, 154B6B, 154B3A, 154F0B, 154F0D for their non-full version to reduce draw calls. Disabled 154B2E as part of a clean-up effort.
+
+- New\ \[-7, 1, CW\] Adjusted 1729F5 due to it clipping through the wall. Replaced 154CB9, 154CBE, 154CBF, 154CC0 with its full version so you can't see through the underside of the roof. Disabled 1BA153, 1BA155, 1BA154 as part of a clean-up effort. Swapped out 154BE4, 154BE5, 154BE6 for their non-full versions to reduce draw calls.
+
+- New\ \[-6, 1, CW\] Adjusted 1729C9 due to it clipping through the wall. Replaced 154CC4 with its full version so you can't see through the underside of the roof. Swapped out 154CFA, 154CFB, 154DCE, 154DCF, 154DD0 for their non-full versions to reduce some draw calls.
+
+- New\ \[CollegeSquareExt03\] Disabled 168863, 168862, 19978F, 1E7122 as part of a clean-up effort. Swapped out 1E7126, 1E712A, 1E712B, 1E712D, 1E712F, 1E7130, 55B5A, 55B59, 55B58, 55B57, 55B56, 55B55 for their non-full version to reduce draw calls. Also swapped out 55BBF, 1997B0 for a regular roof for further draw call savings.
+
+- New\ \[USSConstitutionExt02\] Disabled 12E114 as it was placed inside of a wall and covered up by a billboard. Nudged 1D3F88, 1D3F89 closer to the wall so they don't float. Adjusted 12E17A, 12E15E, 12E15D to close a gap in the building. Disabled 12E16A, 12E169, 12E168, 18210A as part of a clean-up effort. Swapped out 11371B for its non-full version to reduce draw calls.
+
+- New\ \[USSConstitutionExt\] Nudged 239739 to be flat against the wall. Swapped out 64FBF, 64FC0 for their non-full versions to reduce draw calls. Disabled 195A96 as part of a clean-up effort.
+
+- New\ \[2, 2, CW\] Adjusted 1E06AC slightly to be aligned with the rest of the corner wall pieces. Disabled 167F12, 167F09, 167F0A, 167F10, 167F13, 152442, 152441, 167ED4, 167F23, 167F22, 167F24, 167F14, 167F05, 167F06, 167F07, 167F08, 175A11 as part of a clean-up effort. Swapped out 167F11, 175A05, 175A04, 175A03, 175A02, 175A01 for their non-full versions to reduce draw calls. Nudged 17598A so the wall is aligned with the others.
+
+- New\ \[3, 2, CW\] Adjusted BF112, D0968 to be flat against the wall. Nudged 12DEBD, 240BDF, 240BE0 to close a small gap in the building. Swapped out 12E2BA for the correct window piece.
+
+- New\ \[BunkerHillExt\] Disabled 5E7D0, 5E7CE, 5E7CC as part of a clean-up effort.
+
+- New\ \[BADTFLExt\] Lowered 1C8AC5, 1C8AC4, 1C8AC6, 1C8AC9, 1C8AC8, 1C8AC7 so they no longer float. Swapped out 17B596, 17B599 for their non-full versions to reduce draw calls. Disabled 32E69, 32D8C, 32D8B as part of a clean-up effort. Added a window cap piece to close a large gap in the building.
+
+- New\ \[3, -10, CW\] Rotated D713E to stop it from floating above the landscape slightly. Nudged 134DA4 so the vines aren't flickering in the wall.
+
+- New\ \[TheaterDistrictS\] Lowered 13FB01, 13FB02, 23B44B so they no longer float.
+
+- New\ \[4, -8, CW\] Fixed the rotation on 1B6318 so that it doesn't look like it's defying gravity. Nudged AC8BC so the sign is flush with the wall. Disabled D3D74, 16C1C9, 16C1CA, 16C1CB as part of a clean-up effort. Swapped 187FCF, 187FD0, 187FD1, 187FD2, 187FD4, 187FD5, 187FD6, 187FDC, 187FDD, 187FDE, 187FDB for their non-full versions to reduce draw calls.
+
+- New\ \[5, -10, CW\] Moved 1D16F9 closer to the wall so that it is not floating. Disabled 171CFB, 171CFA as part of a clean-up effort. Nudged 1CC7DD to prevent some z-fighting. Swapped out 174E84, 174EB8, 174EB9, 174EBA, 174EBF, 174EC0, 174EC1, 1CC7DC, 177E99, 177E9A, 177E9B, 177E9C for their non-full versions to reduce draw calls. Adjusted 174EE0, 174EDF, 174EDE to close a small gap in the house.
+
+- New\ \[SouthBostonExtN\] Nudged 171CDC to prevent some y-fighting. Disabled 171CB1, 171CB2, 171CF7, 171CF8 as part of a clean-up effort. Also nudged 171CF0 to fix some z-fighting with the window. Moved 171D0F out of the wall so that it is visible again - I assume this was a dev placement error. Rotated 171D51 so that it is now flush with the roof.
+
+- New\ \[SouthBostonPDExt\] Disabled 1D4BCA, 1D4BCB, 1D4BC9 as part of a clean-up effort. Nudged 1D4BF9, D096A closer to the wall so that it isn't floating. Swapped out 171D76, 1D4C00, 1D4C01 for their non-full versions to reduce draw calls.
+
+- New\ \[SouthBostonExtW\] Nudged 175407 to prevent some x-fighting with the wall. Disabled 171EDD, 171EDE, 171EDF, 176A2A, 176A29, 176A2B as part of a clean-up effort. Fixed the matswap for 1753D4, 1753E2, 1753E0 to match the rest of the building. Adjusted 1D17CD so the grass is no longer floating. Also nudged 1D2B41 to stop the vines from flickering. Swapped out 16CB2F, 1753DB, 1753DA, 1753D9, 1753D8, 1753D7, 1753D6 for their non-full versions to reduce draw calls. Nudged 175450 slightly to stop the wall from z-fighting with the wall below.
+
+- New\ \[6, -13, CW\] Disabled 1D34C1, 1D34D0, 1D34C2, 1D34CF, 1D1E56, 1D1E43, 1D1E44, 1D1E57 as part of a clean-up effort.
+
+- New\ \[BobbisNewPlaceExt\] Disabled 177F7A, 177F79, 177F7B, 177F78, 177F74, 177F75, 177F77, 177F7D, 177F76, 177F7C as part of a clean-up effort. Swapped out 177F17 for its non-full version to save a draw call.
+
+- New\ \[UniversityPointExt03\] Moved down 9ADFD so the table is touching the floor - 9ADFE was also moved down due to this fix. Adjusted 9AD42 slightly to prevent some minor clipping.
+
+- New\ \[CabotHouseExt\] Adjusted 1C728F, 1C71D4 to hide a gap and stop it from floating. Nudged 1C72ED, 1C7278 closer to the wall to stop them from floating. Lowered 1C3943 to close a gap underneath the house. Moved 1C714A, 1C7149, 1C7148, 1C7147 to close a gap in a house. Disabled 1C70AE, 1C70AF, 13CC5A, 13CC5B, 1C7173, 1C7172, 1C6F7F, 13CB08, 7C65E, 1C6F7E, 1C7163, 1C7164, 4A8AC, 894AD, 894A8, 4A8A8, 1C708F, 1C3A4E, 1C6FE4, 1C6FE3 as part of a clean-up effort. Nudged 1C718C slightly to fix some y-fighting with the wall.
+
+- New\ \[5, 1, CW\] Disabled 923C3, 923E9, 923CB as part of a clean-up effort.
+
+- New\ \[PickmanGalleryExt\] Disabled C3727, 86554, 86553, 8654D, 130C71, 1AD90B, 1AD909, 13216D, 1AD90A, 132163, 12F255, A6000, A6001, 13209C, 145D41, 145D3C, 8CBA3 as part of a clean-up effort. Nudged 1430F2, 1430F1, 1C1874 to be flush against the wall. Swapped out 1C2CA4, 6B311, 138462, 1C189E, 1C18A0 for a roof piece to save on some draw calls. Nudged 8CB79 up a tiny bit to cover a gap. Also swapped 12F253, 1847A6, 18475C, 1ACC2E, 1ACC2F, 1ACC30, 8CBA2, 1430CC, 1430CD, 1430CE, 1430CF, 1430D9, 1430DA, 8CB99, 8CB97, 8CBD2, 8CBD1 for their non-full versions to save some more draw calls.
+
+- New\ \[NorthEndGraveyardEXT\] Disabled 130D09, 130CCE, 130CCF, 130CCB, 130CCA, 130CB6, 130CB5, 130CCC, 130CCD, 1849B4, 1320F5, 1320E7, 1320C6, 1320E6, 1320AE, 131F65, 131F64, 131F68, 131F84, 131F83, 131F82, 13206A, 132069 as part of a clean-up effort. Swapped 130CD9, 130CDA for their non-full versions to be consistent with the rest of the building. Also swapped 1C1305 for a regular roof piece to save some draw calls. Nudged 131F6F to fix some x-fighting the paint had with the wall. Adjusted 1C18A9 so the lamp is actually connected to the wall.
+
+- New\ \[LexingtonExt03\] Nudged down 1ad09f to fix some z-fighting with the wall. Disabled 1AD09E, FE7BE, E51AE, E79C8, E79C9, F6C7F, F6C7E as part of a clean-up effort. Nudged F6CD9 closer to the wall so it no longer floats. Swapped out F6C2C, 48844, E5199, E519E for their non-full versions to try and save some draw calls. Adjusted EAA48, EAA47, EAA49 to close a small gap on the corner of the building. Lowered 4988C to stop the rubble pile from floating. Also swapped E5187 for its full version to close a gap in the wall from above.
+
+- New\ \[LexingtonExt02\] Moved FFF11 closer to the wall so that it doesn't float. Fixed the matswap for E51DF to match the building. Added a new ceiling piece to close a large hole in the ceiling of a building. Swapped out E51D8 for its non-full version to reduce draw calls.
+
+- New\ \[SuperDuperMartExt\] Disabled FE7BD as part of a clean-up effort. Moved EA59F closer to the wall so it no longer floats. Nudged EA8CC, EA8CD, EE69F, EA8C9 slightly to fix some tiny gaps between each of them.
+
+- New\ \[LexingtonExt04\] Lowered 100542 so they are no longer floating. Swapped out EA92C, EA918, F9F09, EAB48 for their non-full version to save some draw calls. Nudged EA97F to prevent the wall from flickering.
+
+- New\ \[LexingtonExt06\] Disabled F9FD3, F9FD4, F9FB1, F9FB4, F9FBF, F9FCE, 1F7F50 as part of a clean-up effort. Lowered 1C2BC9 so the bramble no longer floats.
+
+- New\ \[FortHagenExt\] Nudged 20EF4D closer to the wall so it no longer floats. Disabled BB110 as part of a clean-up effort. Swapped out BAB11, BAB0F, BAB01, BAB13, BAB0E for their non-full versions to reduce draw calls.
+
+- New\ \[-23, -1, CW\] Disabled 13465D as part of a clean-up effort. Adjusted 1BF46E, 13464D, 134656, 134645, 134651, 134646, 134652, 134661 so they no longer float.
+
+- New\ \[-23, -2, CW\] Lowered 13461F, 134613 so they are no longer floating.
+
+- New\ \[-23, 0, CW\] Raised up 132AF6 from under the landscape due to a likely dev placement error.
+
+- New\ \[-24, 1, CW\] Raised up A0474 from under the landscape due to a likely dev placement error.
+
+- New\ \[-25, 1, CW\] Raised up A19A2 from under the landscape due to a likely dev placement error.
+
+- New\ \[-25, 0, CW\] Raised up 14926B, 1329A1 from under the landscape due to a likely dev placement error. Lowered 132988 slightly as one of the trees had a gap visible at the bottom.
+
+- New\ \[GreaterMassBloodClinicExt\] Nudged EB4FD closer to the wall so it no longer floats. Adjusted 94250 slightly to fix some z-fighting. Swapped out 93A0F, 93A90, 93A8F, 93A8E, 93A9B, 93A98, 93A97, 93A93, 93A92, 93A91 for their non-full versions to reduce draw calls. Also moved 239F8B, 239F8A, 239F8D, 239F8C to be connected to the wall. Disabled E40EA, E40E9, E40E8, E40ED, E40EC, E40E5 as part of a clean-up effort.
+
+- New\ \[GreaterMassBloodClinicExt02\] Adjusted 94CA4 slightly to fix some z-fighting. Nudged 22FFB0 so the rubble isn't clipping through the interior wall. Swapped out 93A01, 939FA, 939F7, 93A29, 93A28, 93A27, 93A9E, 93A9F, 93A8D, 93A8C, 93A0A, 93A09, 93A08 for their non-full versions to reduce draw calls.
+
+- New\ \[-19, -2, CW\] Adjusted 14D960, 1BE3BC so they no longer float.
+
+- New\ \[-18, -2, CW\] Adjusted 14D957 so that it no longer floats.
+
+- New\ \[-18, -1, CW\] Adjusted the rotation on 2117F3 so that it no longer floats. Lowered 1FB2D5 so it also doesn't float.
+
+- New\ \[FiddlersGreenExt\] Nudged 1158C2, 1158E0 slightly to fix some z-fighting with the trash.
+
+- New\ \[-17, 0, CW\] Adjusted 1FB282, 1FB284, 1FB2D6, 1FB2D7, 1FB254, 1FB2EB, 1FB2EC, 1FB24A, 1FB2EE, 1FB2ED, 1FB2E5 so they no longer float.
+
+- New\ \[-17, -1, CW\] Lowered 1FB283, 1FB2D3, 1FB2D2, 1FB2D4 so they are no longer floating.
+
+- New\ \[-6, 3, CW\] Moved 86458 closer to the house to hide a gap. Disabled 1687C2, 1687CD as part of a clean-up effort. Swapped out 168793, 168792, 168797, 168796 for their non-full versions to reduce draw calls.
+
+- New\ \[BeaconHillApartmentsExt02\] Adjusted 1CF99C slightly so the trash is no longer floating. Lowered 1CF996, 1D1398, 1C92B9 so they are no longer floating. Also adjusted 1CAEA5, 1CAEA4, 1CAEA3 so the billboards are attached to the wall. Disabled 14A1BD, 13D3A8, 1C380B, 1C3850, 1C384F, 1C7355, 1C384E, 1C384D, 1C7362, 13D371, 1C3845, 1C7363, 1C381C, 1C73B0, 13D380, 14A1A3, 13D37F as part of a clean-up effort. Nudged 13D368, 13D369 to close a small gap in the floor. Swapped out 13D368, 13D369, 13D36A, 13D36B for their non-full versions to reduce draw calls. Fixed the matswap on 1C735A, 1C735C, 1C735B so they now match the rest of the building. Moved 1C91B1, 1C91B0, 1C91AF out of the wall so the windows are actually visible.
+
+- New\ \[5, -1, CW\] Disabled 2211A1 and moved 179425 over to fill the small gap. Nudged 14517F slightly to be flush against the wall. Swapped out 11EE03, 11EE02 for their non-full versions to reduce draw calls.
+
+- New\ \[-4, -6, CW\] Nudged 22F623 closer to the wall so it is no longer floating.
+
+- New\ \[-5, -6, CW\] Nudged 22F613 closer to the wall so it is no longer floating.
+
+- New\ \[DiamondCityExt01\] Disabled 182C90 as part of a clean-up effort. Also disabled 1B4B90 and moved 10DC64 over to fill the gap. Added a new wall piece to fill a gap in a building.
+
+- New\ \[-5, -9, CW\] Nudged C0794, C0793 a tiny bit to fix some x-fighting with the walls. Disabled 1AE6C0 as part of a clean-up effort. Nudged 1AE71C, 1AE71B to be flush against the wall. Lowered 3DC5F so it no longer floats. Swapped out 3E0E3, 3E0E4, 3E0E5 for flat roof pieces to save on some draw calls. Fixed the matswap on 1ADEF2 to match the rest of the buildings. Also swapped out 3DB42 for a BldgBrick4Story1x1BlockA and 1ADE89, 1ADE8A for their non-full walls to save some more draw calls. Adjusted 1ADE5C slightly to fix some flickering. Swapped out 10DE02, 10DE02, 10DE00, 10DDFF for their non-full versions to reduce draw calls.
+
+- New\ \[FensEvansWayCuldeSac\] Disabled 10DDD8, 10DDD6, 119A0F, 119A10 as part of a clean-up effort. Fixed the matswap on 1ADEF5 to match the rest of the buildings. Swapped out 1119BC, 1119BF, 1119BE for flat roof pieces to save on some draw calls. Scaled down and adjusted 1BBF00 to prevent the trash from clipping out of the building. Also swapped out 1ADEC7, 1ADEC8 for regular walls and 3DB43 for a BldgBrick4Story1x1BlockA to save some more draw calls. Swapped out 119926, 119927, 119928, 119929, 11992A, 11992B, 11992F, 119931, 119932, 119A05, 119A06, 119A07, 119A08 for their non-full versions to reduce draw calls.
+
+- New\ \[BostonPoliceRationingSiteExt\] Adjusted 1AE705 to be closer to the wall.
+
+- New\ \[HardwareTownExt02\] Disabled 111848 and moved 205950 to cover the gap. Swapped out 1AE844, 1AE845, 1AE846 for flat roof pieces to save on some draw calls. Disabled 11185C as part of a clean-up effort.
+
+- New\ \[FensSquare\] Nudged 1AC90B down a tiny bit to reduce some z-fighting. Disabled 1163A3, 3DFBD as part of a clean-up effort.
+
+- New\ \[FensStreetSewerExt\] Added a new roof piece to fill a large gap in a building.
+
+- New\ \[DiamondCityExt\] Adjusted 10E712 slightly to fix some clipping with the building. Added a new wall to fill a gap in a building. Swapped 3DE9D, 3DE9E, 3DE9F, 3DEA0 for DecoRoof1x1Str01 and adjusted them to close some gaps in the building. Also adjusted 10E7F6 as part of this fix. Nudged 23076A, 23076B to be flush against the wall. Lowered 18B18 so the greeb is no longer floating. Also swapped out 119A04, 119A03, 1199F5 for their non-full versions to reduce draw calls.
+
+- New\ \[DiamondCityExt03\] Adjusted 10E7F5 to close some gaps in the building roof. Swapped out 111A54 for its non-full version to save a draw call.
+
+- New\ \[-3, -9, CW\] Swapped out 1119A2, 1119A0, 10E85B, 10E85D for flat roof pieces to save on some draw calls.
+
+- New\ \[-1, -7, CW\] Changed the matswap on 17C332, 17C333 to match the rest of the buildings. Adjusted 4C0E3 to close a weird looking gap and to prevent it from clipping into the enterable building next to it. Swapped out 17C339, 17C337, 17C33D, 17C334, 17C335, 17C33B, 17C33A, 17C338, 17C33E, 17C336 for regular roof pieces to reduce some draw calls. Disabled 17C272, 190705, 190706, 190767, 17C29A as part of a clean-up effort. Changed the matswap on 19075F to match the building. Swapped out 17C1EE, 17C20A, 17C20B, 17C20C, 17C20D, 17C20E, 17C20F, 17C210, 17C211, 17C212, 17C213 for non-full versions to save some draw calls. Added three new walls to fill huge holes in the interior of the building.
+
+- New\ \[USSConstitutionPostExt\] Swapped out 1C35E0, 1C2DAA for a roof piece to save on some draw calls. Adjusted 1C2CDF, 1C2CDE to close a gap in a house. Disabled 9348E as part of a clean-up effort.
+
+- New\ \[OldNorthChurchExt\] Adjusted 134BD1, 134BD2 to close a gap in the building and added a missing roof trim piece above. Swapped out 19DD2E, 1849C0, 19DD04, 19DD01, 1849BB, 1849BC, 95AB8, 95AB9, 95ABF for their non-full versions to reduce draw calls. Disabled 134A3C, 13477E as part of a clean-up effort.
+
+- New\ \[POIMilitaryMC02\] Adjusted 8E941 to close a gap between the building.
+
+- New\ \[FaneuilHallExt\] Disabled 11F330, 11F33F, 11F33E, 123CCA, 23CE41, 23CE42, 23CE43, 23CE44, 23CE45, 23CE46, 23CE47, 23CE48, 23CE49, 23CE4A, 23CE4B, 23CE4C, 23CE4D as part of a clean-up effort. Swapped out 11F2C9, 55009, 11F28F, 94063, 120E09 for their non-full versions to reduce draw calls. Nudged 11F20B, 11F20D to fix some x-fighting with the wall below. Raised up 492BC so the column isn't z-fighting with the trim below.
+
+- New\ \[GoodneighborExt03\] Disabled 122F3B, 122F3A, 1148BC as part of a clean-up effort. Swapped out 1BD1E5, 122F3C, 12EACC, 12EACD, 12EACE for a roof piece to save on some draw calls. Also swapped out 99036, 99035 for their non-full versions to save a couple more draw calls.
+
+- New\ \[GoodneighborExt02\] Disabled 22626, 11AA89, 44285, 44286, 44283, 44292, 44293 as part of a clean-up effort. Swapped 11A9DF for its full version to prevent a gap. Also adjusted the wall as well as 11AB1D so only one object needed swapping. Also swapped 13621D, 71FA6, 11A9D0, 11AB00, 11AB01, 71FA8, 11A9CE, 11A9CF, 11A9D1, 11A9D2, 11AA4C, 11A9D9, 11AA69, 1D13C4, 442B8, 1361F1, 1361F3, 11AAF1, 99034, 99033, 6B192, 6B18D for their non-full versions to save some draw calls. Adjusted 93AD7 to prevent some z-fighting with the wall.
+
+- New\ \[GoodneighborExt\] Disabled 1144DC, 4D290, 1D468A, 1D468B, 1D468F, 1D4690, 1D4689, 1D468C, 1D468E, 1D4691, 1D4667, 1D466D, 1CCB1B, 1CCB16, 12D898, 12D897, 1CCB1A, 1CCB15, 1D156A as part of a clean-up effort. Nudged 11656C, 1E0573 so they are flush against their wall. Also nudged 95EA1 so the trash isn't z-fighting with the floor.
+
+- New\ \[BeaconHillPlaygroundExt\] Disabled 1D133A, 1D1339, 1CCA26, 1CCA09, 1CCA0A, 1CCA27, 1CCA28, 1CC9FD as part of a clean-up effort. Nudged 1D13AF a tiny bit so that the balcony is centered with the window.
+
+- New\ \[-6, -6, CW\] Added two new corner walls to cover a large gap in a building. Swapped out 1095D0, 1095CF, 10D83F, 10D83E, 119721, 119722, 119723, 119724, 119726, 119727, 119729, 119759, 114040, 114043, 1160C6 for their non-full versions to save a few draw calls. Added a new top cap into a wall to hide a gap (there might be a better solution). Adjusted 1095C5 to close another gap in the wall. Swapped out 1095AA, 1095AC for a roof piece to save on more draw calls. Disabled 10D890 as part of a clean-up effort.
+
+- New\ \[FensBrookelineBuildingExt\] Disabled 10955C, 10955E, 10955F as part of a clean-up effort. Swapped out 113FBE, 113FBF for a roof piece to save on some draw calls. Also swapped out 11403F, 113FF6, 113FF0 for their non-full versions for further draw call savings.
+
+- New\ \[ChestnutHillockReservoirExt03\] Disabled 336CB, 336CA, 1A7E17, 1A7E19 as part of a clean-up effort. Nudged 1B5FC3 to prevent some z-fighting. Adjusted 1E243A, 1E2439, 1E2438 to close a gap in the building. Also moved 1B5FE6 so the billboard is actually connected to the wall.
+
+- New\ \[-7, -5, CW\] Disabled 203202, 148834 as part of a clean-up effort.
+
+- New\ \[-6, -4, CW\] Swapped out 108D7B for its non-full version to save a draw call. Adjusted 1B4276, 1B4277 to be the correct rotation and no longer float.
+
+- New\ \[FensRaiderCampExt02\] Swapped out 2CDF8, 113265, 113261, 1130EE, 1130F3, 1130F6 for a roof piece to save a few draw calls. Added a new roof piece to cover a large hole in the roof. Disabled 108D07, 108D08, 108C77, 108C78 as part of a clean-up effort. Also swapped out 108C7C, 108C7D, 108C7E, 108C83, 108C84, 108C85 for their non-full versions to reduce draw calls. Adjusted 1B42DB, 1B42DC to close small gaps in the building.
+
+- New\ \[-2, -5, CW\] Swapped out 111C6A, 111C6B, 113EBE with their non-full versions to reduce draw calls.
+
+- New\ \[BackStreetApparelExt\] Adjusted 1B36B6 so that it's not overhanging the roof. Swapped out 113E9E for its non-full version to save a draw call.
+
+- New\ \[-2, -7, CW\] Nudged 1B1369 so it's actually mounted to the wall (Spline will need moving). Disabled 111A69, 111A6A as part of a clean-up effort.
+
+- New\ \[-2, -8, CW\] Nudged 1B1240 a tiny bit to fix some y-fighting. Added a window cap piece to cover up a small gap in a wall. Disabled 111AF7, 111AF5, 111ACC, 111ACD, 111ACE, 111AA8, 111ACF, 111AFD, 111AFE as part of a clean-up effort. Adjusted 1B11D1, 1B11D2, 1B11D0, 1B1264 to close a small gap between the walls.
+
+- New\ \[BackBayFence01\] Disabled 153E27 and nudged over 153E26 to fill the tiny gap. Swapped out 153E25 to RoofChunk02 to save a few draw calls. Disabled 6F82D as part of a clean-up effort. Also swapped out F406F, F406E, 338C9 for HitFloorSolidFull01 to save on some draw calls.
+
+- New\ \[LaytonTowersExt\] Swapped out 17BF11, 17C140, 17C141, 17C142, 17C143, A21DE, A21DF, 17C156, 1881BE, 17BF33, 17BF34, 17C197 for their non-full versions to reduce some draw calls. Disabled 1945ED, 1945EE, 1945EF, 1945D9, 1945DB, 1945DC, 17BFD7, 18820A, 18820C, 18820D, 188214 as part of a clean-up effort. Adjusted 188131, 188135, 1881A7, 1881B1 to fix a small gap and some z-fighting.
+
+- New\ \[1, -7, CW\] Disabled 17EA2A, 17D919, 17D917, 17D916, 17D918, 17E8DE, 17EA84, 17EA85, 677FE as part of a clean-up effort. Nudged 17ECC0 slightly to prevent some x-fighting with the wall. Swapped out 178D87, 178D88 for regular walls instead of the windows to save a couple of draw calls. Also swapped out 17EAE2, 17EAE3, 17EAE4, 17E907, 17E954, 17E953, 17E92C for their non-full versions to save some draw calls. More swapping was done to 17EAA6, 17EAA7, 17EAA8, 17EAA9, 17EAAA, 338C7, 338C5 into roof pieces for further draw call savings.
+
+- New\ \[BostonCommonExt02\] Disabled 17C0E7, ACC94, 133582, 133583, 13D74D, 657CA, 657C9, 657EA, 657E9, 65790, 65756, 657C8 as part of a clean-up effort. Swapped 19D1D2, 19D1D3, 13359B for their non-full versions to save a couple draw calls. Also swapped ACD4B, 135A40, 1D0099, 1D0097, 19D1CC, 19D1CD for a roof piece to save further draw calls. Adjusted 17E9FE, 17E9FF, 17EA00, 17EA01 to close multiple gaps in the building.
+
+- New\ \[CombatZoneExt\] Swapped out 13359A, 133599, 13359C, 13359A, 1335CD, 1335CE, 1335CF, 13318A, 133189, 13316C, 13316B, 133188, C46D4, C8038, C46CE, C46D1, 14102F, B723C, B7246, 83B0B, B729D, B729F, B72A0, B72A1, B72A3, 83AAF, 83AFF, 1D00C0, B723F for their non-full versions to reduce draw calls. Disabled 133597, 65775, 65776, 657D1, 657D4, 657F7, 657CC, 657CD, 657D0, 657D3, 178D3E, 178D3C, 178C34, 178C35, 9544A, 9544B, 176D20, 83AA5, 83AA4, 83AA3, 133286, 1332EA, 1332E9, 1332E8, 1332E7, 1332E4, 1332E2, 1332DB, 17906C, 179076, 179068, 179069, 178CD3, B723B, B723D, B723E, B72C7, 1D00B4 as part of a clean-up effort. Swapped C46CC for a full sized wall allowing me to disable C803B. Lowered C7B07 so the vent is no longer floating. Nudged 1F4922, 1F491C, 1F491D slightly in an attempt to close a small gap. Adjusted 1881BF, 85729, 1881BD, 85728, 1881BB, 1881BC to be actually attached to the wall.
+
+- New\ \[TheaterDistrictExt02\] Swapped out 133300, 133301, 133303 for a roof piece to reduce draw calls. Disabled 133423, 133424, 133427, 133429, 13764C, 13764A, 137648, 13763F, 1375BE, 13765F, 13765E, 13765C, 13765B as part of a clean-up effort. Rotated 13342A slightly to close a small gap. Moved C0211 out of the wall so the posters are actually visible. Also swapped out ACD30 for its non-full version to reduce more draw calls. Nudged 87466 closer to the wall so it is no longer floating. Nudged B0345 to stop it from flickering.
+
+- New\ \[MassBayMedicalCenterExt\] Swapped out 133302 for a roof piece to reduce draw calls. Disabled 12E852, 12E52A, 172114, 188861, 188862 as part of a clean-up effort. Also swapped out 17F389, 1721B1, 17F388, 12E7B3 for their non-full versions for further draw call savings. Adjusted 12E59D, 12E820, 12E81E, 12E81F to close various small gaps. Nudged 12E4C5, 12E87B slightly to fix some flickering.
+
+- New\ \[4, -6, CW\] Swapped out 13316A, 13301F, A52B9, BF749, BF74B, BF74C, BF74D, BF7A3, BF7A4, B7112, B7113, 16C2BE, 16C1D7, 17673B, 17673C, 17673F, 176740, 176741, 176743, 176744, 1767BE, 1767EB, 1767EC, A7B11, A7B13, 16C2C2, 16C2C1, 17673E, 176755, 1767B1, 1790CD for their non-full version in an attempt to reduce draw calls. Disabled 178CDC, 178CDB, 178CB3, 178CB2, C7A72, C7A73, 132E4D, 132E50, 132E51, 132E52, 132E53, 132E54, 132E55, 132E59, 132E5A, 17676F, 176808, 176742, 176745, B70FF, B7114, 132E70, 132E71, 132E78, 132E79, 132E7D, 132E86, 132E87, 132F97, B711F, B7120, B75C8, 1331B9 as part of a clean-up effort. Swapped A52A9 with a half-sized version to prevent some clipping and x-fighting. Nudged 248009, A52BA to prevent some flickering and close a small gap in the wall.
+
+- New\ \[BostonCommonExt03\] Swapped out 1D00CF, B722E, B7230, B7236 for their non-full versions in an attempt to reduce draw calls. Disabled C7AA3, B7218, B7275, 1D00D7, 1D00D5, B722B, B722C, 1D00D6, B722D, 1A6BF5, 1D0000, 1CFFF2, B71ED, B71C5, 1F460E, 1F460F, 1F460D, 1F460C, 1C87AB, 9D031, 1C61B2 as part of a clean-up effort.
+
+- New\ \[1, -6, CW\] Swapped out 16F982, 17EAE5, 17EAE7, 17EAE8, 17EAE9, 17EAE6, 17EA86, 17EA89, 17EA8B, 17E938, A1EB0, A1EB1, A1EB2, A1EB5, A1EB6 for their non-full versions to save some draw calls. Also swapped 17E9F8 for a full wall and placed a wall cap to close two gaps in a building. Disabled 17EA8C, 17E918, 1B40B, 50863, 19D374, 19D373, 19D372, 19D371 as part of a clean-up effort. Also adjusted 17EA8B to close a small gap in the roof. Added a corner cap to a building to close another gap. More swapping was done to 17EAAC, 17EAAD, 17C75D, 17C75E into roof pieces for further draw call savings. Added another cap to close a gap between a wall and the roof piece. Moved 14C2C4 out of the wall so the windows are actually visible.
+
+- New\ \[TrinityPlazaExt\] Disabled B9029, 16D830, B9044, 176AFA, 176AF9, 175412, 175425, 176B03, 176B02, 176B01, 176B00, 176AFF, B8FC4 as part of a clean-up effort. Swapped out B8FC5 for their non-full version to try and save some draw calls. Swapped B8F4F for a regular wall to save a draw call.
+
+- New\ \[HubrisComicsExt\] Disabled 17C5B7, 17C5E4, 14A018, 14A017, 14C1CE, 18B1CE, 18A442, 18AB8B, 18ABA0, 18ABA1, 18ABC8, 18ABD0, 18ABCF, 18AB9F, 18ABC7, 175206 as part of a clean-up effort. Swapped out 17C678, 17C67B, 17C67C, 17C568, 17C569, 17C600, 17C66F, 17C5A9, 17C65E, 175211, 17C675, 17C676 for their non-full versions to try and reduce draw calls. Adjusted 16F3F5 so that it no longer flickers.
+
+- New\ \[4, -5, CW\] Disabled B71BD, B70F3, B70F5, B70F7, B70F8, B715D, 1F4608, 1F4609, 1F4607, 1F4606, 1F48C0, 1F48BF, 1F45EF, 1F45EE, BFE9D, 132D6B, 1F448F, 138669, 138674, 1D79D2, 1D79D3, 1D79AE, 1D79B3, 1D7A5F, 13791A, 13791B as part of a clean-up effort. Swapped out B716E, B716F, B7172, B7174, B7176, B719C, B719D, B75A7, 9D602, 9D5EC, 9D58F, 9D58E, 172241, 172242, 172243, 172244, 172245 for their non-full versions to reduce draw calls. Lowered 9734F slightly so the trash pile is no longer floating.
+
+- New\ \[TheaterHub360Ext\] Disabled A3C12, A3C11, 123BD7, 123BD8 as part of a clean-up effort. Swapped out 137943, 137944, 17223D, 17223E, 17223F, 172240, 9D5EE, 9D5ED, 9D5F6 for their non-full versions to reduce draw calls. Adjusted A3C1D to close a small gap.
+
+- New\ \[CrossRoadsExt01\] Disabled 12C790, 12C794, 12C797, 12C791, 12C795, B753C, 178DD8, 178DD9 as part of a clean-up effort. Swapped out B7539, B755A for their non-full versions to reduce draw calls. Adjusted C7A2F, C7A30 so the pipe is actually attached to the wall. Rotated C79E3 so the bush is no longer floating on one side. Adjusted B7594 so the light matches the one on the opposite side of the doorway.
+
+- New\ \[10, 1, CW\] Swapped out 13B33C for a roof piece to save some draw calls. Also swapped out 14298B, 1429A1, 13581D for their non-full version to save more draw calls. Disabled 135816, 135817, 135818 as part of a clean-up effort.
+
+- New\ \[10, 2, CW\] Swapped out 13B33F for a roof piece to save some draw calls. Lowered D01A2 so it is no longer floating. Tried to nudge D0212, C064A, C064B, C064C, C05F6, C0601 closer to the wall so there is less of a gap between the wall and the windows. Nudged 13582A to be attached to the wall and adjusted the spline marker to its new position. Disabled C7268, C726C, C726E, C7293, C7294, C7295, C7262, C7264, C7265, C7267, C726A, C726B as part of a clean-up effort. Moved C05E5 out of the wall and rotated them to be visible. Swapped out C05CC, C05FD, C061A, C061B for their non-full versions to reduce draw calls. Also nudged C05C4 so the wall fits the building better.
+
+- New\ \[EastCityDownsExt\] Disabled 7638B as part of a clean-up effort.
+
+- New\ \[DNPrimeBridge02\] Disabled 9F708, 9F6E1, 9F71F as part of a clean-up effort. Swapped 9F702 for its non-full version to save a draw call. Nudged A58FA to be flush with the wall.
+
+- New\ \[FensRaiderCampExt\] Adjusted 115703, 1B4307 to fix some flickering due to axis fighting. Disabled 108D06, 1B4306 as part of a clean-up effort. Swapped out 222D38 for its non-full version to reduce draw calls. Nudged 108DC5 to close a gap between the walls.
+
+- New\ \[MassPikeTunnelEastExt\] Disabled 1CAFE2, 1CAFE3 as part of a clean-up effort. Swapped out 1CAFE5 for the non-full version in an attempt to save a draw call.
+
+- New\ \[6, -5, CW\] Disabled A528E as part of a clean-up effort.
+
+- New\ \[FinancialPostalSquare\] Disabled A55F6, A52C3, 489FB as part of a clean-up effort. Nudged 1D9820 over a bit so the edge isn't floating from the wall. Raised up 12568D from under the surface so that it's actually visible.
+
+- New\ \[SwansPondExt\] Disabled 19D201, 180032, 180033, 18002C, 17FFE7, 17FFE6, 17FE9B, 17FE9A, 17FE98, 18002F, 17FFEE, 23B6FF, 18002D, 1CB176, 18002E, 1D006A, 1D0064, 17FE95, 1CB177, 17FE6A as part of a clean-up effort. Swapped out 180027, 1D0068, 17FDAB, 17FDA0 for their non-full versions to save on draw calls.
+
+- New\ \[BostonCommonExt\] Swapped out 20CA3C, 187BED, 187BEC for their non-full versions to save a draw call. Disabled 23B6FE as part of a clean-up effort. Also swapped out 2320E1 for a roof piece to save a draw call.
+
+- New\ \[5, -7, CW\] Moved up 1357A2 as it looks to have been an error placement by a dev. Disabled 13F6B2, B96A3 as part of a clean-up effort. Swapped 1FF107, 1FF106, 1FF0B8 with their non-full version to reduce draw calls.
+
+- New\ \[6, -7, CW\] Disabled 17BC25 as part of a clean-up effort.
+
+- New\ \[WaterfrontExtS\] Disabled 179A4C, 179A4D, 179A40, 179A6A, 179AAF, 179998 as part of a clean-up effort. Lowered 1C23DE a tiny bit so the forklift is no longer floating.
+
+- New\ \[6, -6, CW\] Disabled 17BCD3, 17BCD2 as part of a clean-up effort. Swapped out 17BC65, 17BC63, 17BC5D, 17BC5C for their non-full versions to reduce draw calls.
+
+- New\ \[6, -8, CW\] Swapped 1FF17A with its non-full version to reduce draw calls.
+
+- New\ \[HestersRoboticsExt\] Disabled 1FF184 as part of a clean-up effort.
+
+- New\ \[DBTechHighschoolExt\] Swapped 187F9C, 87472, 18800C, 18800A for their non-full versions to save some draw calls. Lowered BEC88 so it no longer floats. Disabled 5AAAA, BFDF7, B8845, B8864, 1881DA, 1881DB as part of a clean-up effort. Nudged B9708 a tiny bit to stop it from flickering. Adjusted ADFEB, 8756D and fixed the matswap on the former.
+
+- New\ \[4, -4, CW\] Disabled 1D4683, 1D4688, 1D468D, 1D469B, 1D46AE, 13790F, 1378EC, 1378ED, 13792C, 13792D, 13792E, 136194, 136193, 1BD1DB, 1BD1D7, 1BD1DA, 137929, 137928, 1378E5, 1378E7, 1378E6, 1378F7, 1378F8, 137927, 1378F9 as part of a clean-up effort. Rotated 1D46AD so that it now faces the correct position. Lowered 136195, 136196 to close a small gap in the roof of the staircase. Swapped out 218637 for its non-full version to save a draw call.
+
+- New\ \[Vault114Ext\] Swapped out 135D63, 136674, 19D176, 19D178, 19D179, 19D17B, 19D17C, 19D17E, 19D1B4, 19D1B6 with their non-full versions to reduce draw calls. Disabled 19D185, 19D186, 19D189, 19D18A, 19D192, 19D171, 19D172 as part of a clean-up effort. Lowered 1234F3, 1C61B7, 1D32FD to stop them from floating.
+
+- New\ \[BeaconHillApartmentsExt03\] Moved 1D284E closer to the wall so that it is no longer floating.
+
+- New\ \[HydeParkExt04\] Moved 21F644 closer to the wall so that it is actually attached. Adjusted 21F5B5 so the posters are flush against the wall. Lowered 21F56F to prevent the billboard from floating.
+
+- New\ \[HydeParkExt03\] Adjusted 230D03 slightly so the vine looks like it's actually growing against the wall.
+
+- New\ \[HydeParkExt\] Nudged 23142B, 23142A a tiny bit since the trash was clipping through the wall. Moved 21414B so the billboard isn't floating from the wall. Also adjusted 230D43 due to the stain clipping through the wall next to it. Swapped out 8E27F and the rest of the floors in this group for their non-full versions to reduce draw calls. Also swapped out 10E08E for its non-full version to further reduce draw calls.
+
+- New\ \[HydeParkExt02\] Attempted to adjust 91CD8 so the windows aren't floating from the face of the building as much. Swapped out 10E05B, 10E05C, 10E05D, 10E05E, 10E05F, 10E060 for their non-full versions to reduce draw calls.
+
+- New\ \[SuffolkCountyCharterSchoolExt\] Disabled 197E99 as part of a clean-up effort. Nudged 20ED02 closer to the wall so that the bell is no longer floating. Swapped out 197EC7, 197EC8, 197ECF, 197ED0, 197ED1, 197ED2, 197ED3, 197ED4 for their non-full version to reduce draw calls.
+
+- New\ \[QuincyRuinsExt04\] Nudged 1A67F9 closer to the wall so the poster is no longer floating from the wall.
+
+- New\ \[QuincyRuinsExt05\] Nudged 11D299 slightly to prevent the trash pile from clipping through the wall.
+
+- New\ \[QuincyRuinsExt03\] Adjusted 1DFE29 as the bush was floating in the air.
+
+- New\ \[QuincyRuinsExt\] Adjusted 1D86DC, 1D86BE a tiny bit to reduce the floating of both objects.
+
+- New\ \[JamaicaPlainExt09\] Rotated 11A21A slightly to stop the bush from floating.
+
+- New\ \[CoastGuardPierExt02\] Lowered 1FE0C2 to prevent the box from floating. Swapped out 8ED58, 8ED5D, 8ED61, 8ED62, 8ED63, 8ED64, 8ED65, 8ED66 for their non-full versions to reduce draw calls.
+
+- New\ \[BeantownBreweryExt02\] Swapped out 11851D for its non-full version to save a draw call.
+
+- New\ \[-12, 1, CW\] Lowered 19BB9B so the barrel is no longer floating.
+
+- New\ \[-7, 7, CW\] Nudged 246201 closer to the wall so it's no longer floating.
+
+- New\ \[CorvegaAssemblyPlantExt02\] Swapped out F9F6D for its non-full version to reduce draw calls.
+
+- New\ \[SomervillePlace01\] Nudged 1E1BF4, 1E1BF5 to prevent some x-fighting with the wall. Disabled BF4E5, 167568, 167569, 167552, 167550, 166134, 166135, 166136 as part of a clean-up effort. Adjusted 1661AA, 1661AB, 1661AC, 1661AD to close a small gap between themselves and the wall. Also moved AA15A, AA159 to close another gap.
+
+- New\ \[-5, 3, CW\] Disabled 1675EC, 1675EB as part of a clean-up effort.
+
+- New\ \[-3, 0, CW\] Disabled 9C5D8, 9C5D9, 9C5DA, 9C5D6, 9C642, A1234 as part of a clean-up effort.
+
+- New\ \[-3, -1, CW\] Disabled 172932, 178DB3, 178DB2, 1729E2, A6DB3, 1729E5 as part of a clean-up effort. Swapped out A6D89, A6DA8, 2459E1, 2459E6, 2459E8, 2459EA, 2459EB, C3B71, C3B72, C3B74, C3B7C, C3B7D, C3B7E, C3B7F for their non-full versions to save some draw calls.
+
+- New\ \[-2, -1, CW\] Disabled 17296C, 17296D, 172A25 as part of a clean-up effort. Swapped out 1E47F2, 1E4806, 172A23 for their non-full versions to save some draw calls.
+
+- New\ \[-7, 4, CW\] Swapped out 1E7144, 1E7145, 1E7146, 1E712C for their non-full versions to save some draw calls. Nudged 1E7148 a tiny bit to fix some flickering with the other trim pieces.
+
+- New\ \[CollegeSquareExt\] Swapped out 55B89, 55B88, 55B87, 55B86, 55B84 for their non-full versions to reduce draw calls.
+
+- New\ \[CollegeSquareExt02\] Swapped out 55B11, 55B10, 55B0F, 55B0E, 55B0D, 55B0C, 55B0B, 55B0A for their non-full versions to reduce draw calls.
+
+- New\ \[-6, 2, CW\] Swapped out 169345, 1692FF, 97A92, 98935, 98936, 1696C7 for their non-full versions to reduce draw calls. Lowered 19D38E so the rubble is no longer floating. Disabled 16972A, 169729, BB06E, 173561, 97AF1, 97AF4, 97AF7, 97AF8, 97AFD, 97B27, A9ED7, A9ED9, A9ED8, A9ED4, A9ED6, A9ED3, A9ED5, A9EDA, A9EDE, A9EDD, A9EDC, A9EDB, B9762, 1696DA, 1696D5, 1696D6, 1696D7, 1696D8, 1696D9, 1696D1, 1696DC, 1696DB as part of a clean-up effort.
+
+- New\ \[-4, 0, CW\] Adjusted C096F, C0971 to prevent the posters from clipping with each other.
+
+- New\ \[-1, -1, CW\] Disabled 172A24, 172A26, A6D5E, 172A0D, 172A0E, 172A0F, 172A16 as part of a clean-up effort. Swapped out A6D35, 175F4F, 175F50, BC223, A97C7, A97C8 for their non-full versions to reduce draw calls. Lowered 175F61 so the rubble is no longer floating.
+
+- New\ \[0, 1, CW\] Disabled AAB51 as part of a clean-up effort.
+
+- New\ \[TiconderogaStationExt\] Disabled 10B865 as part of a clean-up effort. Swapped out 17654D, 176556, 176555, 176554, 176557, 176558, 176559, 17655A, 17655B, 17655C, 17655D, 17655E for their non-full versions to reduce draw calls.
+
+- New\ \[2, 0, CW\] Disabled 239C7C, 239C82 as part of a clean-up effort.
+
+- New\ \[3, 3, CW\] Disabled 1C69C2, 1C69C1, 1C69CA, 1C69C9, 129C31, 129C32, 1C6AE5, 1C6AE4, 1C6AE3, 1C6AE2, 1C6ADB, 1C6ADA as part of a clean-up effort. Swapped out 1C6B11 for its non-full version to save a draw call.
+
+- New\ \[3, 4, CW\] Swapped out 18E533 for its non-full version to save a draw call. Disabled 9FC8D as part of a clean-up effort.
+
+- New\ \[BunkerHillExt02\] Swapped out 119427, 119428, 18E541, 18E540 for their non-full versions to reduce draw calls. Nudged 1C8B8B, 1C8B8A slightly to reduce z-fighting.
+
+- New\ \[CharlestownDrugDenExt\] Disabled 11928A, 119289 as part of a clean-up effort. Swapped out 18C687, 1192D2, A4649, A464A, A464B, 18D263, 18D228, 18C5F9, 18C5FA, 18C64D for their non-full versions to reduce draw calls. Lowered 18C458 so the post isn't z-fighting with the roof above.
+
+- New\ \[5, 3, CW\] Disabled 1D2671, 1190D1, 1190D4, 1190D9, 1190CD, 1190CE, 1190D8 as part of a clean-up effort. Moved B305E, B304A, B305F so the paintings are no longer hidden in the wall. Swapped out 1190EE, 1190CF, 1190CB, 1191B6, 1191B8 for their non-full versions to save some draw calls. Also nudged 1190CF slightly to fix some y-fighting. Swapped out 119136 for a regular wall since the windows can't actually be seen so it was a waste of some draw calls.
+
+- New\ \[BunkerHillExt03\] Swapped out 117BFE, 117BDF, 117BE0, 117BE1, 117BE2, 117C4A, 117CA5, 117BB2, 117BB8, 117BBB, 117BBC, 117A8D, 117A8E, 1A07CB, 1A07CD, F435D, F435E, F435F, F4360, F4361, 115A18 for their non-full versions to reduce draw calls. Disabled 83F07, 83F0A, 117BDA, 117BDB as part of a clean-up effort.
+
+- New\ \[7, 3, CW\] Swapped out 113764 for its non-full version to save a draw call.
+
+- New\ \[USSConstitutionExt03\] Swapped out 117C4C, 117CA3 for their non-full versions to reduce draw calls.
+
+- New\ \[CambridgeConstructionSiteExt\] Disabled 1C6B88, 1C6B8A as part of a clean-up effort. Adjusted 1C6B9B, 1C6B9C to close a gap in the wall of the house - disabled 12ECB4, 12ECB5 as part of this fix since they were made redundant. Swapped out 181B5F, 181B60, 181B61, 181B72, 181B87, 18E0D4 for their non-full versions to reduce draw calls.
+
+- New\ \[1, 4, CW\] Swapped out 17B567, 17B565, 9FD5F, 9FD5E, 9FD5D, 17B5D1, 17B5A2, 17B5A3, 17B5A4, 17B5A5, 17B597, 17B598 for their non-full versions to reduce draw calls.
+
+- New\ \[-2, 4, CW\] Adjusted A94E0, A94E1 to be consistent with the rest of the building and close a large gap at the top.
+
+- New\ \[CambridgeMonsignorPlazaExt\] Swapped out AAA29 for its non-full version to save a draw call. Disabled 172725, 172897, 172759, 17275A, 172758, AAA50, AAA51, 17270F, 172710, 172711, 172712, 15243E, 15243C, 15243D, 15243F, 152440 as part of a clean-up effort. Also swapped AFA2C for its non-full version as it was covering up part of the ceiling below.
+
+- New\ \[DNPrimeBridge03\] Disabled 172718, 172715, 17275B, AAA4F, 172713, 172714 as part of a clean-up effort. Swapped out 15C743, 15C744, 15C745, 15C746, 15C747, 15C748, 15C75B, 15C75C for their non-full version to reduce draw calls. Lowered AF9ED to close a gap at the bottom of the wall.
+
+- New\ \[Financial22Ext\] Nudged 63BE5, 63BE3 slightly to prevent some flickering with the wall. Swapped out 17B7E1, 9F35D, 9F35F, 9F364, 9F365 for their non-full versions to reduce draw calls.
+
+- New\ \[NorthEndPOI02Ext\] Adjusted 1F8B66 to be out of the wall and no longer floating.
+
+- New\ \[WaterfrontExtN\] Disabled 1F240B, 1F2408, 1F2409, 1F240A as part of a clean-up effort.
+
+- New\ \[8, -4, CW\] Disabled 17F222, 17F261, 17F25C, 17F259, 1EEECC, 1EEECD, 17F21B, 17F217, 1EEEF6, 1EEEF7, 1EEEF8, 1EEEF9, 17FF9D, 17FF9E, 17B89F, 17FF98, 1EEEBC as part of a clean-up effort. Swapped out 9F35B, 9F35C, 179F0B, 179F0C, 1EEF3A, 1C22D4, 1C22D5, 1C22D6 for their non-full versions to reduce draw calls. Also swapped 1EEEBD for a different static that has no windows to save a draw call since the windows couldn't be seen anyways.
+
+- New\ \[9, -4, CW\] Lowered 20E907 so the cabinet is no longer floating - also had to lower the clutter on top of the cabinet as part of this fix.
+
+- New\ \[CustomHouseTowerExt\] Lowered 179D97 to prevent some z-fighting with the other wall pieces. Disabled 179DD1, 17FFC4, 1F247E, 1E6F1B, 1E6F1A, 1E6F18, 1E6F1D, 1E6E80, 1E6F20, 1E6E7D, 1E6E82, 1E6FD8 as part of a clean-up effort. Adjusted 12303D, 12303E, 1F8EBE so they are actually connected to the wall.
+
+- New\ \[9, -3, CW\] Disabled 186341 as part of a clean-up effort.
+
+- New\ \[6, -3, CW\] Disabled 93FA0, 93F9F as part of a clean-up effort. Adjusted 1E8713 so the posters are no longer floating.
+
+- New\ \[MassFusionExt02\] Swapped out 12B0CB, 12B0CA, 12B0C9, 12B0C8, 120E04, 120E05, 11EDC1 for their non-full versions to reduce draw calls. Disabled 12B10E, B9169, 1211DE, 1211DD, 12B10E as part of a clean-up effort.
+
+- New\ \[MassFusionExt\] Swapped out 11ECB6, 11ECB9, 11ECB1, 11ECB2, 11ECB3 for their non-full versions to reduce draw calls. Disabled 11ED3B, 11ED36, 162C18, 162C19 as part of a clean-up effort. Lowered 1CAECD so the chimney is no longer floating.
+
+- New\ \[BeaconHillBostonBugleExt\] Disabled 11ED97, 11ED9C, 11ED9D, 11EDAE, 11EFF4, 14A1AD, 1C7390 as part of a clean-up effort. Swapped out 13D35E for its non-full version to reduce draw calls.
+
+- New\ \[VaultTecOfficeExt02\] Disabled 1CF976, 1CF2D0, 1CF2C8, 1CF2D6, 1CF307, 1CF308, 1CF309, 1CF2C9, 1CF2D5, 1CF2CA, 1CF30A, 1CCB11, 1CCB10 as part of a clean-up effort. Adjusted 1CF31E, 1CF328, 1CF329 to close a small gap in the roof. Nudged 18B55C down to prevent z-fighting with the wall above.
+
+- New\ \[HalluciGenExt\] Disabled 20C741, AA709, F369E, E1EA9, 85ECD, F24BA, 49618, F38A7, F38C7, F38C4, 20C8AE, 20C8AF, F3692, F38B3, 174C36, 174C82, 174C20, 174C6F, 174C1F, 184C64, 184C7A, 1AEE09 as part of a clean-up effort. Lowered 20C725 due to one corner of the trash floating above the ground. Swapped out 176D8E, 176D8D for their non-full versions to reduce draw calls. Adjusted FE0B8 to close a small gap between the trash pile and the wall.
+
+- New\ \[0, -4, CW\] Disabled AA702 as part of a clean-up effort. Lowered 20C8E4, 20C8E3 so the trash piles are no longer floating. Swapped out 184CF1, 184CF0, 184CEF, 184CEE for their non-full versions to reduce draw calls.
+
+- New\ \[CharlesViewAmphitheaterExt\] Disabled AA5ED as part of a clean-up effort.
+
+- New\ \[TrinityTowerExt\] Adjusted 340DA so that it is facing the correct way.
+
+- New\ \[8, 0, CW\] Swapped out 1ABA8A, 1ABA8C, 1ABAAB, 1ABAAC, 13497B, 19DED5, 19DEB7, 19DF3C, 19DF8E, 19DEB4, 1849C0 for their non-full versions to reduce draw calls. Disabled 1ABAB0, 1349B2, 13497A, 1ABA8B, 1ABA8D, 134968, 19DEB9, 19DEB8, 134A56 as part of a clean-up effort.
+
+- New\ \[11, 1, CW\] Adjusted 17D1A4 so the fire escape is attached to the wall.
+
+- New\ \[EastBostonPrepSchoolExt\] Nudged C0432, B3773, B3774 to prevent the vines from flickering. Also nudged 9F633 to prevent the roof from z-fighting. Swapped out 9F638, 9F639, 9F630 for their non-full version to save some draw calls. Disabled 9F778 as part of a clean-up effort.
+
+- New\ \[FortStrongExt07\] Disabled 1DE94B as part of a clean-up effort.
+
+- New\ \[FortStrongExt03\] Adjusted 1D6E53 to no longer be floating from the wall.
+
+- New\ \[FortStrongExt06\] Fixed the matswap for 14BE39 to match the rest of the building. Lowered CB169 to stop it from floating. Swapped out 14BD86, 14BD8E, 14BD8F for their non-full versions to reduce draw calls. Nudged 1D7104 closer to the wall.
+
+- New\ \[FortStrongExt05\] Swapped out 14BE8D, 14BE8E, 14BE8F, 14BE98, 14BE9B, 14BE9F, 14BEA0, 14BEA2 for their non-full version to reduce draw calls.
+
+- New\ \[9, 1, CW\] Swapped out D4080, D407D, D407F, 142979, 14298F, 142990, 14297F, 1429C6, 142983, 14298E, 1429AE, 1429B6, 1429C2, 1429CC, 1429D6, 1429DB, 1429E5, 1429E9, 1429E0 for their non-full versions to reduce draw calls.
+
+- New\ \[DLC01LairExt\] Swapped out 13F9CD, 13F9CE, 13F9C4, 13F9C5, 13F9C6, 13F9C7, 13F9CB, 13F9CC, 13F985, 13F983, 13F9A4, 01007F03 for their non-full versions to reduce draw calls. Disabled 142955, 142956 as part of a clean-up effort.
+
+- New\ \[11, 4, CW\] Nudged A58DA to stop some z-fighting with the roof.
+
+- New\ \[-1, -5, CW\] Swapped out A1E77 for its non-full version to reduce draw calls.
+
+- New\ \[TheaterSE\] Swapped out B0AAC, B0AAF, 187E6E, 187E6D, 187E6C, 187E6B, 187E6A, 187E69, 187E99, 187E98, 187E97, 187E96, 187E65, 187E64, 187E63, 187E62, 187E61, 187E59 for their non-full versions to reduce draw calls. Lowered B7440, B7479, B7464, B7465, B7463 so they are no longer floating.
+
+- New\ \[AndrewStationExt\] Swapped out 174E2E, 174E70, 174E6F, 174E6D, 174E6A for their non-full versions to reduce draw calls. Nudged 1C9EE9, 1C9EE4 to prevent some z-fighting.
+
+- New\ \[GwinnettBreweryExt\] Swapped out 17536F, 176A7A, 176A7B, 176A7C, 176A7D, 176A7E, 17053A for their non-full versions to reduce draw calls. Disabled 17536A, 17536B, 1D648F, 1D6490, 1D6493, 1D64B7, 1D64B8, 1D64B9, 1D6491, 1D6492, 176A77, 176A79, 176A54, 176A55 as part of a clean-up effort. Added a new wall to close a large gap in the side of the building. Nudged 1704A2, 1704A1 to prevent the walls from flickering.
+
+- New\ \[8, -11, CW\] Swapped out 16F7B5, 16F7B6, 170608, 170609 for their non-full versions to reduce draw calls. Disabled 4C87A, 4C879, D9406, D9407, D9409, 16F762 as part of a clean-up effort.
+
+- New\ \[SouthBostonExtE\] Swapped out 1707E5 for their non-full version to reduce draw calls.
+
+- New\ \[8, -12, CW\] Swapped out 170625, 170624, 1E38F9, 1E38FB, 171A35, 16F428, 16F426, 16F41D, 16F41C, 16F407, 16F3E9, 16F393, 16F392, 16F391, 16F390, 16F38F, 16F38E, 16F38D, 16F38C, 16F38B, 1705F2, 1705F3, 1705F4, 1705F5 for their non-full versions to reduce draw calls. Disabled 1705EE, 1E38F8, 170607, 170606, 16F454, 16F446, 16F415, 4C871 as part of a clean-up effort. Also swapped out 170619, 170618 for regular walls which provided further draw call savings. Nudged 1E2F60, 1E2F61, 1E2F5F, 1E2F62, 1E2F96, 1E2F97 closer to the wall so they are no longer floating. Increased the height of 11EB84 to match the height of the trim opposite.
+
+- New\ \[9, -12, CW\] Swapped out 16F489, 16F488, 16F487, 16F485, 16F491, 171A4C, 171A64 for their non-full versions to reduce draw calls.
+
+- New\ \[SouthBostonExtS\] Swapped out 171A6E, 171ACC, 18513C for their non-full version to save on draw calls. Disabled 171AAB, 171AAA, 171A96, 171AB5, 171AB4, 171AB2 as part of a clean-up effort.
+
+- New\ \[UniversityPointExt06\] Swapped out EB8DB, EB8DC, EB8DD, EBAAC, EBAAD, EBAAE for their non-full versions to reduce draw calls. Disabled 216296, 21629D, 2162A8, 2162A9 as part of a clean-up effort.
+
+- New\ \[UniversityPointExt04\] Disabled EC7CB, EC7CC, EC7CD as part of a clean-up effort. Swapped out EBCF7, EBCFA for their non-full versions to reduce draw calls. Nudged EBCD8 slightly so the awning isn't clipping through the wall.
+
+- New\ \[UniversityPointExt02\] Swapped out EE358, EE357, EE355, EE354, EE352, EE351, EE350, EE34E, EE34C, EE34A, EE349, EE347 for their non-full versions to reduce draw calls.
+
+- New\ \[UniversityPointExt03\] Swapped out 58252, 58264, 5826F, 58270, 58271, 58272, 582EE, 58255, 582A6 for their non-full versions to reduce draw calls. Adjusted 1DFF78, 1DFF7A, 1DFF79 in an attempt to stop them from floating. Lowered 9229F, 9AD32 to stop them from floating. Nudged 58323 to stop the staircase from x-fighting with the wall.
+
+- New\ \[MiltonGeneralExt\] Nudged 22253D to be flush against the wall.
+
+- New\ \[FallonsDepartmentStoreExt\] Disabled CF053, CF052, CF051, CF04D, B324F, B324C, CEEA3, CEEA4, CEE51, 142E28 as part of a clean-up effort. Swapped out B30EA, 12D06C, 12D06D for their non-full versions to reduce draw calls.
+
+- New\ \[WestRoxburyStationExt02\] Disabled B3251, B3250, B324E, B324D as part of a clean-up effort.
+
+- New\ \[-4, -15, CW\] Swapped out CEC3F for its non-full version to save a draw call. Disabled 142D64, 142D63, 142D62 as part of a clean-up effort.
+
+- New\ \[FallonsDepartmentStoreExt02\] Disabled 142D68, 142D69, 142D6A, 142D6E, 142D6F, 142D70, CEFC2, CEFC1, CEFC0 as part of a clean-up effort.
+
+- New\ \[WestRoxburyStationExt\] Nudged 1D3A57, 1D3A54, 1D3A55 in an attempt to prevent the vines from flickering.
+
+- New\ \[NahantOceanSocietyExt\] Swapped out 19E5E8, 19E5E9, 19E5EB, 19E60A, 19E60D, 19E62D, 19E62E, 19E62F, 19E630, 19E5D0, 19E5D1, 19E5D9, 19E5DD, 19E5F5, 19E5F6 for their non-full versions to reduce draw calls.
+
+- New\ \[NahantOceanSocietyExt02\] Swapped out 19E60B, 19E605, 19E5ED, 19E609 for their non-full versions to reduce draw calls.
+
+- New\ \[BigJohnsSalvageExt\] Swapped out 192879, 192883, 192884, 192885, 19288F, 192897, 192898, 192899 for their non-full versions to reduce draw calls.
+
+- New\ \[NationalParkHQExt\] Swapped out 0301036B, 03010369 for their non-full versions to reduce draw calls.
+
+- New\ \[EsplanadeChurch01\] Swapped out all instances of BldgShellFloorWood01Full with the non-full version to reduce draw calls.
+
+- New\ \[ParsonsStateExt02\] Swapped out 1D2950, 1D295C, 1D294D for their non-full versions to reduce draw calls. Disabled 1358F4, 1358F3, 1358FD, 1358F7, 1358F8, 10D0A0, 10CE48, 10CE91, 10CE90, 10CE8F, 10CE8E, 10CE8D, 10CE8C, 10CE8A, 10CE89 as part of a clean-up effort. Also disabled 10CE4A and adjusted 10CE49 over to fill the gap.
+
+- New\ \[ParsonsStateExt06\] Swapped out 1D29DB for its non-full versions to save a draw call.
+
+- New\ \[ParsonsStateExt07\] Disabled 10CD16, 10CD12, E4C21, 13595D, 135963, 10CD5B as part of a clean-up effort. Swapped out 10CCEF for its non-full version to save a draw call.
+
+- New\ \[ParsonsStateExt04\] Disabled 10CD57, 10CD7B, 10CD5F as part of a clean-up effort.
+
+- New\ \[DLC04GrandchesterMansionEXT\] Swapped out 0601EAAF for a regular wall to save a draw call since you can't see any of the windows anyways. Also swapped out 0601F7F1, 0601F7E8, 0601F7E7, 0601F7E6, 06042CEA, 06042CE9, 06042CE8, 06042CE7 with their non-full versions to reduce draw calls. Disabled 0601F731, 0601EB38, 0601EB37, 0601F6DF, 0601F6DE as part of a clean-up effort. Fixed the matswap on 0601F3EF to match the rest of the walls.
+
+- New\ \[NatickBanksExt\] Swapped out 18365E, 183662, 183663, 1836AE, 1836AF, 1836B0 for their non-full versions to reduce draw calls.
+
+- New\ \[1, -1, CW\] Swapped out 176552, 176551, 17654F, 17654E, 17654C, 17654B, 176553, 176550 for their non-full versions to reduce draw calls.
+
+- New\ \[DLC04KiddieKingdomTheater01\] Swapped out 06032C9E, 06032C9D, 06032B2D, 06032B2C, 06032B2E, 06032B2A, 06032CE1, 06032CE0, 06036983, 06036980, 06032B01, 06032AFC, 06032AFB, 06032AF6, 06032AF0, 06032AEE, 06032AED, 06032AEA, 06032AE7 for their non-full version to reduce draw calls. Disabled 0603144E, 06031448, 06032C72, 06032C3A as part of a clean-up effort.
+
+- New\ \[4, 3, NW\] Swapped out 06031F78, 06031F77 for their non-full versions to reduce draw calls. Moved a stain 0602990B that was placed inside of a wall to be visible again. Disabled 0602A67E, 0602A758, 0602A6A1, 0601D319, 0601D318 as part of a clean-up effort.
+
+- New\ \[KiddieKingdomExt09\] Swapped out 06031F7E, 06031F7D, 06031F7A, 06031F79, 0602A6B3, 0602A6B2, 0602A6B1, 0602A6B0, 0602A6AF, 0602A6AE, 0602A6AD, 0602A6AC, 0604C6FE, 0604C6FD, 0604C6FC, 0604C6FB for their non-full versions to reduce draw calls. Disabled 0602A6A7, 0602A546, 0602A545, 0602BA11, 0602A723, 0602A722 as part of a clean-up effort. Nudged 0602BA10 to prevent some z-fighting as well as fixed the matswap to match the other walls. Rotated 06038E08 to hide a small gap next to the trash pile.
+
+- New\ \[KiddieKingdomExt06\] Swapped out 0602A625, 0602A624, 0602A61F, 0602A619, 0602A676, 0602A61A, 0601D4F3, 0601D4F2, 0602A421, 0602A41F, 0602A40F, 0602A40E, 0602A40B, 0602A40A, 0602A407, 0602A406, 0602A4CC for their non-full versions to reduce draw calls. Disabled 0601D442, 0601D441, 0601D440, 0601D43F, 0601D211, 0601D20E, 0601A41D, 0602A3CA, 0602A3C7, 0602A3C6 as part of a clean-up effort.
+
+- New\ \[KiddieKingdomExt\] Disabled 060206AA, 060206A9, 060206A8, 060206A7, 060206A6, 060206A5, 060206A4, 060206A3, 060206A2, 0602069D, 0602069C, 0602069B, 06020699, 06020697, 060206A0, 0602069F, 0602069A, 06020698, 06033AEA, 06033AE9 as part of a clean-up effort. Swapped out 060316CC, 060316CB, 060316CA, 0604C705, 0604C704, 0604C703, 0604C702, 0604C701, 0604C700, 0604C6FF, 060316E0, 060316DF, 060316DE, 060316DD, 060316DC, 060316DB, 060316DA, 060316D9, 0601D848, 0601D847, 0601D845, 0601D844, 0601D843, 0601D842, 0601D83D, 0601D83A, 0601D837, 0601D836, 0601D834, 0601D833, 0601D831, 0601D82F, 0601D82E, 0601D82C, 0601D82B, 0601D829, 0601D828, 0601D826, 0601581D, 0601581C, 0601581B, 0601581A, 06015818, 06015801, 060157A7, 0601579E, 06028674, 06028673, 0602866E, 0602866D, 0602866C, 0602866B, 0602866A, 06028669, 06028668 for their non-full versions to reduce draw calls. Nudged 06037407 closer to the wall so it no longer floats.
+
+- New\ \[KiddieKingdomExt02\] Swapped out 0603152E, 0603152B, 0603152A, 0603150E, 0603150D, 06031483, 06031482, 06031480, 0603147F, 0603147C, 0603147A, 06049817, 06049816, 06049815, 06049814, 06049813, 06049812, 06049811 for their non-full versions to reduce draw calls. Disabled 06033ADA, 06033ADB as part of a clean-up effort.
+
+- New\ \[KiddieKingdomExt04\] Swapped out 0603151F, 0603151B, 06031517, 06031507, 060314F0, 0601D752, 0601D750, 0601D74F, 0601D74D, 0601D746, 0601D73F, 06031626, 06031625, 06031624, 06031623, 06031622, 06031621 for their non-full versions to reduce draw calls. Disabled 060314E6 as part of a clean-up effort.
+
+- New\ \[KiddieKingdomCenter\] Swapped out 0601D745, 0601D740, 06015819, 06015817, 06015802, 0601579D, 060206C9, 060206C8, 060206C7, 060206C6, 060206C5, 060206C4, 060206C3, 060206C2, 060206C1, 060206C0, 060206BF, 060206BE for their non-full versions to reduce draw calls.
+
+- New\ \[KiddieKingdomExt07\] Swapped out 0601D941, 0601D940, 0601D93F, 0601D93E, 0601D93D, 0601D93C, 0601D93B, 0601D93A, 0601D6A2, 0601D6A1, 0601D6A0, 0601D68A, 0601D689 for their non-full versions to reduce draw calls.
+
+- New\ \[KiddieKingdomExt08\] Swapped out 0601D6AB, 0601D6A5, 0601D6A4, 0601D6A3, 0601D692, 0601D691 for their non-full versions to reduce draw calls.
+
+- New\ \[KiddieKingdomExt03\] Swapped out 06034537, 06034536, 0601D5E6, 0601D5E5, 0601D5E3, 0601D5E2, 0601D541, 0601D527, 0601D526, 0601D525, 0601D4F1, 0601D4F0, 06034539, 06034538, 06034535, 06034534, 0601D4E8 for their non-full versions to reduce draw calls. Disabled 0601D516, 0601D515, 0601D51A, 0601D519, 0601D518, 0601D517 as part of a clean-up effort.
+
+- New\ \[4, 2, NW\] Adjusted 06036B78 to close a gap in the roof of the tunnel. Disabled 0602A792 as part of a clean-up effort. Lowered 0602A791 so the wall is no longer flickering. Tweaked the rotation of 06036B77 to stop it from clipping through the wall.
+
+- New\ \[5, 4, CW\] Swapped out 194593, 194595 for their non-full versions to reduce draw calls.
+
+- New\ \[IrishPrideShipyardExt\] Disabled 16453A, 164537 as part of a clean-up effort. Swapped out 42A9A, 42A9B, 42A9C, 42A9D, 42A9E, 42A9F, 42AA0, 42AA1, 42AA2, 42AA3, 42AA4, 42AA5, 42AA9, 42AAA, 1C4086, 1C4087 for their non-full versions to reduce draw calls.
+
+- New\ \[POIJoel06\] Swapped out 16812D, 16812C, 16812B, 16812E, 168130, 168131, 168132, 168133, 168134, 168135, 16813C, 1680F4 for their non-full versions to reduce draw calls.
+
+- New\ \[-15, -13, CW\] Swapped out 168129, 16813B, 1680F5 for their non-full versions to reduce draw calls. Disabled 16812A as part of a clean-up effort.
+
+- New\ \[POIJoel08\] Disabled 1FB944, 1FB945, 1FB946 as part of a clean-up effort.
+
+- New\ \[MysticPinesExt\] Swapped out 720BF, 720C2, 720C3, 720BA for their non-full versions to reduce draw calls.
+
+- New\ \[-7, 11, CW\] Swapped out 720A4, 720A9, 720CB, 720CC, 720CA, 720C9, 72B33, 72B34, 720AA for their non-full versions to reduce draw calls.
+
+- New\ \[SlocumsJoeHQExt\] Disabled F657E, F6583, F6579, F657A, BCD68, BCD65, BCC8C, BCC8B, 87C1D, 87C1B, 87C1A, 87C19, 87C18, 87C16, 87C15, 87C01, 87BFD, 87BFC, 87BFB, 8B1A7, FA3D5 as part of a clean-up effort. Swapped out 1A6A40, 1A6A41, 1A6A49, BCD76, BCD73, BCD6E, BCD6D, 87BFA, 87BF9, 8B18A, 8B18F, 8B18E, 87C4E, 87C0B, 87C0A, 87C09, 87C05, 87C04, 1C9537, 1EDF8A, 1EDF86, 1EDF85, 87C37, 87C35, 87C34, 87C32, 87C31, 87C30, 87C2F, 87C2E, 87C2C, 87C2A, 87C29, 87C26, 87C25, 87C24, 22D222 for their non-full versions to reduce draw calls. Nudged 1EE04A to prevent it from clipping through the building wall.
+
+- New\ \[-22, -1, CW\] Swapped out BAB14 for its non-full version to save some draw calls.
+
+- New\ \[ForestGroveMarshExt05\] Disabled 261A2 as part of a clean-up effort.
+
+- New\ \[6, 1, CW\] Swapped out 134C6C for its non-full version to reduce draw calls. Had to nudge down 134C8D to prevent it the floor above from z-fighting.
+
+- New\ \[Vault75Ext\] Disabled 1A6A0A, 1A6A09 as part of a clean-up effort.
+
+- New\ \[Vault75Ext02\] Disabled 1A8C14, BCD5F, BCD62 as part of a clean-up effort. Swapped out 1A6A3D, 1A6A4A for their non-full versions to reduce draw calls.
+
+- New\ \[3, 15, CW\] Swapped out 1F3D20, 1F3D22, 1EE130, 1EE131, 1EE132, 1EE133, 1EE134, 1EE135 for their non-full versions to reduce draw calls. Disabled 1E54F1 as part of a clean-up effort.
+
+- New\ \[4, 13, CW\] Adjusted FA3D8, 8B1B7 to properly cover up the windows and prevent the player from seeing the back of the walls that are invisible. Disabled FA3D6 as part of a clean-up effort. Also adjusted 1F7757 so the trash pile is no longer floating on one side. Lowered 1E5500 slightly to prevent it from floating.
+
+- New\ \[BoSBattleSiteExt\] Lowered 1F762B so the fountain is no longer floating. Also adjusted 1F766F, 1F7670 to make the trash piles look less floaty.
+
+- New\ \[MedTekResearchExt\] Disabled 1F7689, 1F7688, FEFB4 as part of a clean-up effort.
+
+- New\ \[CroupManorExt02\] Swapped out 130461, 130462, 1303DA, 1303DB, 1303DC, 1303DD, 1303DF, 1303E0, 1303E1, 1303EA, 1303EB, 1303EC, 1303ED for their non-full versions to reduce draw calls. Disabled A06A2 as part of a clean-up effort.
+
+- New\ \[BarneysBunkerExt\] Disabled 120337, 120338, 51070, 1A5AA9, 1A5AAA, 51071, 1A5A16, 12033F, 120348, 12033C, 12033D, 12033E, 12034A, 12034B, 12034C, 120341, 12034F, 120350, 12030B, 120339, 120346, 120345 as part of a clean-up effort. Swapped out 120347, 120353, 51BCE, 12035F, 120360, 120363, 51060, 1202ED, 120301, 120302, 120303, 120304, 120305, 120306, 120307, 120308, 120309, 12030A, 120388 for their non-full versions to reduce draw calls.
+
+- New\ \[BarneysBunkerExt02\] Nudged C3DC4 to match the other trim piece and not be clipping through the wall causing flickering. Swapped out 123660, 123661, 123662, 123663, 49A46, 49A44 for their non-full versions to reduce draw calls.
+
+- New\ \[23, 19, CW\] Adjusted 22F573, 22F574 so the trash piles are no longer floating. Disabled C1C8D as part of a clean-up effort. Nudged 4CE68 to stop it from z-fighting with the rug.
+
+- New\ \[22, 19, CW\] Adjusted 1AE14F slightly so that it no longer clips through the church wall. Also tweaked 49AE9 to better align with the walls and added three new corner pieces of the same type above to cover a gap in the building as well as match the opposite side. Nudged 49A9F to cover a small gap underneath the house.
+
+- New\ \[22, 20, CW\] Disabled 49ACA as part of a clean-up effort.
+
+- New\ \[5, -12, CW\] Disabled 171E3A as part of a clean-up effort.
+
+- New\ \[JamaicaPlainExt06\] Swapped out 11557C, 11557B, 11557A, 115579, F18D7, F18D6, F18D5, F18CE, F18CD, F18CC, 14E417, 14E38F, F18D1, F18D0, F18CF, F18D2 with their non-full versions to reduce draw calls.
+
+- New\ \[BottlingPlantExt\] Swapped out 0601EF63, 0601EF62, 06019704, 060196E8, 06019705, 060196E7 for their non-full versions to save some draw calls.
+
+- New\ \[BottlingPlantExt02\] Disabled 0601F140, 0601F026, 0601D40C, 0601D380 as part of a clean-up effort. Swapped out 0601F019, 0601F018, 0601F017, 0601F016, 0601F015, 0601F12B for their non-full versions to reduce draw calls.
+
+- New\ \[BottlingPlantExt04\] Disabled 0601F13F, 0601F122 as part of a clean-up effort. Swapped out 0601F12C, 0601F12A for their non-full versions to reduce draw calls. Nudged 0603455F closer to the wall so it is no longer floating.
+
+- New\ \[BottlingPlantExt03\] Disabled 0601F092 as part of a clean-up effort.
+
+- New\ \[1, 5, NW\] Swapped out 0601EF4C, 0601EF4B, 0601EF4A, 0601EF49 for their non-full versions to reduce draw calls.
+
+- New\ \[1, 6, NW\] Disabled 060164F1, 060164EE, 060164ED, 060164E7 as part of a clean-up effort.
+
+- New\ \[SafariAdventure02\] Disabled 0600EC3A, 0600CD82, 0600CD81, 0600CD80, 0600CD7F, 0600EC39, 0600CD79, 0600CD78, 0600CD77, 0600CD76, 0600CD91, 0600CDDC, 0600CDDB, 0600CD92, 0600CE08 as part of a clean-up effort. Swapped out 0600CDC6, 0600EC47, 0600EC46, 0600EC44, 0600EC43, 0600EC41, 0600EC40, 0600EC3F, 0600EC3E for their non-full versions to reduce draw calls. Raised up 060254A6 out of the ground so it is fully visible. Nudged 060247D4, 060247D3, 060247D1 so the signs are no longer floating.
+
+- New\ \[SafariAdventure03\] Swapped out 06017D45, 06017D3F, 06017D3C, 06017D38, 06017D36, 06017D33, 06017D32, 06016874, 0601684C for their non-full versions to reduce draw calls. Disabled 0600F00C, 0600F00B, 0600F00A, 0600EB9C, 0600EB4F, 0600EB3C, 0600EB34, 0600EB4E, 0600EB33, 0600EB86, 0600EB85, 0600EB84, 0600EB83, 06016858, 0600EB94, 0600EB93, 0600EB92, 0600EB91, 0600EB90, 0600EB8F, 0600EB89, 0600EB88, 0600EB87, 0600EB82, 06017D4E, 06017D4D, 06017D4B, 06017D48 as part of a clean-up effort.
+
+- New\ \[SafariAdventure05\] Lowered 0601DA4D so the tree is no longer floating.
+
+- New\ \[DLC04POIRJ02\] Swapped out 0600EC1A, 0600EC16, 0600EC14 for their non-full versions to reduce draw calls.
+
+- New\ \[SafariAdventure04\] Swapped out 0600EEB1, 0600EEAD, 0600EEA5, 0600EEA0, 0600EE9D, 0600ED19 for their non-full versions to reduce draw calls.
+
+- New\ \[0, 7, NW\] Nudged 0602541E closer to the wall so the sign is no longer floating. Swapped out 0600EADE, 0600EADD, 0600EAD9, 0600EAD1 for their non-full versions to reduce draw calls.
+
+- New\ \[3, 20, CW\] Tweaked the rotation of A8769 to stop some of the shrubs from floating.
+
+- New\ \[-2, 25, CW\] Lowered 658AD because one of the trees was floating above the landscape.
+
+- New\ \[POIRJ06\] Lowered 1D28E1 to prevent the lamp from floating.
+
+- New\ \[-6, 23, CW\] Tweaked the rotation of 18BF08 to hide the floating parts of the shrub.
+
+- New\ \[-5, 17, CW\] Lowered 1E024E, 1E024C so the boxes no longer float above the trailer floor.
+
+- New\ \[-7, 10, CW\] Swapped out 4860D, 4860C, 4860B, FCF33 for their non-full versions to reduce draw calls.
+
+- New\ \[LexingtonExt05\] Lowered FCF07, FCF08 slightly to close a small gap underneath the walls and prevent some z-fighting with the roof above.
+
+- New\ \[-14, 3, CW\] Disabled 15A310, 15A30F, 15A30C, 15A30D, 15A30E, 15A2FD, 15A2FB, 974A8 as part of a clean-up effort. Swapped out 15A32B, 15A323, 15A322, 15A2FA, 15A2F7, 15A2F5, 15A2F8 for their non-full versions to reduce draw calls.
+
+- New\ \[-14, 4, CW\] Swapped out 15A2F9, 15A2FC for their non-full versions to reduce draw calls. Lowered 15FF32, 15FF31 so the bushes are no longer floating.
+
+- New\ \[-21, 0, CW\] Swapped out E42B3, E42BF, E42C0, E42C3, E42A6, E4269, E42AE, E42A1, E429D, E426E, E4264, E4291, E428C, E425F, E427F, E4272, E4295, E4277, E4283 for their non-full versions to reduce draw calls. Disabled E42A9 as part of a clean-up effort.
+
+- New\ \[-22, 0, CW\] Swapped out E406A, E4086, E4064, E407E, E40BA, E40A3, E40A4, E40B8, E40B9 for their non-full versions to reduce draw calls. Disabled E4089 as part of a clean-up effort.
+
+- New\ \[FederalRationStockpileChurchExt\] Adjusted EC396 to be aligned with the other floors and close a gap in the floor. Swapped out EC396, EC397, EC3A6 for their non-full versions to reduce draw calls.
+
+- New\ \[SpectacleIslandExt\] Lowered CF5EA slightly to stop a section of the grass from floating.
+
+- New\ \[ShamrockTaphouseExt\] Disabled 1FAC10, 17F157, 17BE55 as part of a clean-up effort. Added a new corner wall piece to close a large gap in the building.
+
+- New\ \[7, -6, CW\] Disabled 17BDBE, 1825DA as part of a clean-up effort. Swapped out 17BD24 for its non-full version to save a draw call. Lowered 1F1C91 so the greeb is no longer floating in the air.
+
+- New\ \[SafariAdventureGate01\] Changed the matswap on 0604705C, 0604705B, 0604705A to match the rest of the stairs in this area.
 - New\ \[-1, 9, NW\] Disable the 060168F1 and related lift structure that I think was a dev leftover that never got cleaned out.
 - New\ \[3, -6, CW\] Moved the unused decal 1881A6 over to a nearby building that points to a staircase near the Combat Zone.
 - New\ \[3, 2, NW\] Lower 06038DA4 to match the table that UFO4P moved (06038CB2). (The move has been replicated here, but it'll be synced up with 2.1.9. Ref AFK 35969
