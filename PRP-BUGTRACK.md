@@ -39,7 +39,7 @@ TODO (Outdated since Branch 74)
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
-Branch 79
+Branch 80
 Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
 - New\ \[POIMilitaryMC05\] Lowered 1F9E4F, 1F9E5A, 1F9E5B so the trash piles are no longer floating.
 
@@ -748,7 +748,7 @@ Dev note: Below text block with extra spacing is from absterge's recent merge, I
 - New\ \[SouthBoston25\] Adjusted 1C7BB3, 1C7BB4, 23ECDD closer to the walls so they are no longer floating. Swapped out 09B4F3, 09B4F4, 09B4F5, 09B4F6, 09B4F7, 09B4F8 for their static version as they are unreachable by the player and can now be precombined. Nudged 1C7BE3, 1C7BF3 so the glass is no longer covering up the details of the windows. Disabled 09B497, 1C7B1F, 1C7B24, 1C7B29, 1C7B2E, 1C7B33, 1C7B38, 1C7B3D, 1C7B3E, 1C7B3F, 1C7B40, 1C7B41, 1C7B42, 1C7B4B, 001C7B50, 1C7B58 due to them being outside of the playable area and never seen by the player. (As contributed by Absterge)
 - New\ \[4, -2, CW and neighboring blocks\] Same verse as the previous entry, but intended for the Mass Fusion building.
 - New\ \[1, -6, CW and neighboring blocks\] Trinity Tower's massive set of references needed tagged MultiRefLOD for future FOLIP work, courtesy of DoubleYou.
-- New\ \[8, -12, CW\] Swap base on 16F445 and add associated parts of the church to fix up missing collision from a mesh that's only used once here in the entire game. Thanks to DoubleYou and friends for this one. The original chruch mesh also has a missing texture that was hidden from being submerged into the ground.
+- New\ \[8, -12, CW\] Swap base on 16F445 and add associated parts of the church to fix up missing collision from a mesh that's only used once here in the entire game. Thanks to DoubleYou and friends for this one. The original chruch mesh also has a missing texture that was hidden from being submerged into the ground. Also disable the collision box from AFK35576 that I requested for consoles.
 - New\ \[FensParkviewApartments02\] Add new alternate of CounterOuterCrnIn01 to resolve z-fighting for 001DF3BE and it's neighbor 001DF3BD
 - New\ \[Needs Documented\] Merged prp78mergefixes.esp
 - New\ \[Needs Documented\] Merged AbstergePRP78Fixes.esp
@@ -971,12 +971,11 @@ Dev note: Below text block with extra spacing is from absterge's recent merge, I
 - New\ \[SlocumsJoeHQExt\] Adjusted 1F761B so it connects to the wall.
 - New\ \[WestEverettEstatesExt04\] Adjusted 1B9768, 1B976A to fix trash piles floating.
 - New\ \[WestEverettEstatesExt06\] Attempted to adjust 1E4CD0 to reduce the floating of the rubble.
-- New\ \[MassFusionExt\] Moved 09FB54 from under a rubble pile. (Forward to UFO4P)
 - New\ \[BostomCommonExt\] Lowered 17FD3E to fix x-fighting. Adjusted 23210C, 17FD3D to close a gap in their respective buildings.
 - New\ \[HalluciGenExt\] Adjusted 20C6B0, 20C6B4, 20C6B9, 20C7BA, 20C7BB, 20C804 so they are connected to the wall. 
 - New\ \[SwansPondExt\] Adjusted 23846E so that it's connected to the wall.
 - New\ \[CambridgeCampKendallExt\] Adjusted 0A708F so that it's connected to the wall.
-- New\ \[0, -3, CW\] Adjusted 15BF25, 15BF26 so that the benches are no longer floating. (Forward to UFO4P).
+- New\ \[0, -3, CW\] Adjusted 15BF25 so that the benches are no longer floating. (Forward to UFO4P).
 - New\ \[0, -4, CW\] Adjusted 17865B to fix x-fighting. Also adjusted 0020C7A5, 0020CAFD, 0020CAFE, 0020CAFF, 0020CB00, 0020CB01, 0020CB19 so that the trash piles no longer float.
 - New\ \[-20, 11, CW\] Lowered 0974EA so that it no longer floats.
 - New\ \[-6, 3, CW\] Adjusted 170385 to close a gap.
@@ -992,7 +991,7 @@ Dev note: Below text block with extra spacing is from absterge's recent merge, I
 - New\ \[-3, 0, CW\] Deleted 1A651D and adjusted 1A651E, 1A651F to make the area look identical.
 - New\ \[FraternalPost115Ext\] Adjusted 0AAED2 to close a gap. 0AAECE, 0AAECF were also moved to accommodate this fix. Also adjusted 239957 to fix z-fighting.
 - New\ \[LexingtonExt04\] Adjusted 0EA9C7, 0EA9C8 to stop them clipping through the windows. 0EA9C9, 0EA9C1, 0EA9C6, 0EA9C5 were also moved to accommodate this fix. Lowered 0FCEEB, 0FCEEC to fix some Z-Fighting. Also adjusted 0FCED3 to hide some flickering on the wall texture.
-- New\ \[-6, -1, CW\] Lowered 2392EC, 2392F8, 2392F9 so they no longer float. Adjusted 2393EA to fix y-fighting. (Forward to UFO4P)
+- New\ \[-6, -1, CW\] Adjusted 2393EA to fix y-fighting.
 - New\ \[CambridgePolymerLabsExt\] Adjusted 160954, 160955 so the benches are no longer floating. (Forward to UFO4P)
 - New\ \[-7, -2, CW\] Rotated 16C309, 239A50 so they are no longer floating.
 - New\ \[-1, -3, CW\] Adjusted 15BF24 so the bench is no longer floating. (Forward to UFO4P)
