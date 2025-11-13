@@ -41,6 +41,9 @@ TODO (Outdated since Branch 74)
 
 Branch 80
 Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
+
+- New\ \[Switchboard\] Lowered 1924EF to rest above it's neighboring crate.
+- New\ \[-2, 14, CW\] Repositioned 1E98DF above ground.
 - New\ \[POIMilitaryMC05\] Lowered 1F9E4F, 1F9E5A, 1F9E5B so the trash piles are no longer floating.
 
 - New\ \[-10, 3, CW\] Lowered 1F9F1C, 1FA009 so they are no longer floating.
