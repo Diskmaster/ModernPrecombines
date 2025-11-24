@@ -39,9 +39,24 @@ TODO (Outdated since Branch 74)
 - New\ \[Various\] Reconcile with UFO4P 2.1.6
 - New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
 
-Branch 80
+Branch 81
 Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
 
+- New\ \[Varies\] Merged PRPWireFixes.prp, Absterge had updated a bunch of spline locations in response to reference moves previously made.
+- New\ \[E0B6\] Reposition 132D92 so it's actually attached to the wall.
+- New\ \[E4EC\] Move 1AC9D8 slightly to stop y-fighting.
+- New\ \[03000DA9\] Lower 0303FB5B so it properly looks connected to the roof.
+- New\ \[03000D98\] Lower 0302D98D, 0302D96E and 0302D996 to have the debris and trash not float above the road chunk.
+- New\ \[03000D99\] Lower 030569F9 to the flooring.
+- New\ \[03000C0E\] Flipped around and repositioned 0301B770 and 0301B772 to mask a small hole that one can see just at the side nearest the walls in front of it.
+- New\ \[03000C0F\] Tune position of 0304DBF9 and 0304D8C9 so they are actually against the wall they are supposed to be attached to instead of floating.
+- New\ \[03000C3E\] Remove 0302DB02 as it appears to be a duplicate wall reference on top of 0302CD0A (TODO: Compare records, this should have been picked up by the duplicates script)
+- New\ \[03000C64\] Move 03018B29 to resolve reference z-fighting with it's neighbor.
+- New\ \[03000C77\] Disabled some leftover references that was probably from an attempt to design an interior with the building attached to 03006A1A, refs 030069E3, 030069F3, 03006A0D, 03006A26, 0302DB02
+- New\ \[03000C65\] Raised a small chunk of the landscape to make it look a bit more natural and not have a gaping hole in the water that looks like someone slammed a 1d4 in the ground near 03018CC4
+~~- New\ \[03000C74\] Repositioned 03044299 with respect to the home it's attached to and also adjust the leaf pile nearby (0304BA1C) to better coverup the porch as intended.~~ Held, navmesh seems to suggest this is intended
+- New\ \[E52B\] Updated position and rotation of 1B042C so that both sets of wheels actually are on the ground.
+- New\ \[DEFB\] Updated landscape texture painting to better match up with a neighboring quad to clean up a merge error.
 - New\ \[Switchboard\] Lowered 1924EF to rest above it's neighboring crate.
 - New\ \[-2, 14, CW\] Repositioned 1E98DF above ground.
 - New\ \[POIMilitaryMC05\] Lowered 1F9E4F, 1F9E5A, 1F9E5B so the trash piles are no longer floating.
