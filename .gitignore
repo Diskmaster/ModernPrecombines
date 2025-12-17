@@ -4,7 +4,6 @@
 *.ba2
 *.csg
 *.cdx
-02 Universal
 01 English
 01 Italian
 01 Spanish
@@ -16,6 +15,18 @@
 01 TChinese
 01 German
 01 Russian
-fomod
-images
 01 Korean
+02 English
+02 Italian
+02 Spanish
+02 French
+02 Japanese
+02 Portuguese
+02 Polish
+02 SChinese
+02 TChinese
+02 German
+02 Russian
+02 Korean
+images
+
