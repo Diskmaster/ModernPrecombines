@@ -1,47 +1,24 @@
-Deduplication tracker remaining:
-
-- Fallout4.esm \[ 259 (61 Persistent Exterior) of 3300 \] (First pass completed!)
-- Side note: MassFusion01 had a lot of false positives that need reviewed later.
-- DLC01Robot \[ 24 Interior of 358 \] (Main pass completed, remaining entries are for upstream)
-- DLC02Workshop01 \[ N/A \]
-- DLC03Coast \[ 39 Interior of 459 \] (Main pass completed, remaining entries are for upstream)
-- DLC04Workshop02 \[ N/A \]
-- DLC05Workshop03 \[ Completed \]
-- DLC06NukaWorld \[ 89 Interior of 977 \] (Main pass completed, see above)
-
-Current planned changes:
-
-- More commonwealth deduplication (exteriors)
-- A shrubbery.
-
-\(UF4OP bug numbers shown as Uxxxxx anything crossed out is implemented upstream, FCF is Frost Cell Fixes, krrptd's version of PRP\)
-CW - Commonwealth, FH - Far Harbor, NW - Nuka World, SHW - Sanctuary Hills World (Intro), GN - Goodneighbor, DC - Diamond City, NWM - Nuka World Market, NWA - Nuka World Amphitheater, FHVR - Far Harbor VR Simulation
-
-Models marked non-occlude (bandaid fix): 60138D1 (DLC04ZooCageWallTallDoorSingle01), DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62, 90EE5
-
-Models in the Meshes/ folder have been contributed from everyone listed on the mod description page and their associated mods, if you have contributed and it's not on there, let me know so I can fix it.
-
-Known issues that can't be fixed by me at this time (mesh related):
+Yes, I'm aware this changelog is ugly as sin. Hopefully at some point I can finally fix this.
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicated object reference at the same exact position in the associated plugin master file:
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-TODO (Outdated since Branch 74)
+Branch **81**
 
-- New\ \[Various\] CC related compat updates. Work in progress.
-- New\ \[???\] I remember a mesh that had bad occlusion that I need to find and tag non-occlude.
-- New\ \[CorvegaAssemblyPlantExt01\] Seen a road chunk that has a bad occlusion set in the railing that needs looked at during a stream.
-- New\ \[Waterfront12\] Elevator group might need adjustment due to the mesh being one sided. TBD
-- New\ \[Various\] Went through and updated a **lot** of existing meshes in base game and UF4OP/PRP to not have absolute paths anymore. This won't fix missing texture and material paths, but unlocks texture swaps that did not work correctly until this point. This affects mostly home meshes and buildings in areas like Concord and such. If there's outliers as a result of this fix that looks rather awful, file a bug. The updated filename and SCOL meshes will NOT be on the git repo due to filesize. (Updated, was in Build 71, skipping for 72, local testing did not have much improvement, this will be done again at a later date)
-- New\ \[DLC01Lair01\] 0100BD35 and neighbors might need z-adjustment to fix a floor seam.
-- New\ \[Various\] Reapply all non-occluder meshes as copied base records and apply them to fix issues previously bandaid'd to minimize issues. (Dev note: 060138D1, 30314, 72375, 89720, 89721, 89722, 89726, 89727, 90EE5, DF8E9, 15C6B4, 19AEFF, 2039F7, 144F62)
-- New\ \[Various\] Reconcile with UFO4P 2.1.6
-- New\ \[-22, 1, CW\] Adjust the navmesh (ugh) and also figure out what to do about 855D2 (WrhsPlatStairsDown01Terrain01 missing collision)
-
-Branch 81
 Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
 
+- New\ \[
+- New\ \[03000BDB\] Patched up a landscape texture seam near 03005DE3
+- New\ \[E59A\] More landscape texture patching. Nearest 20A091
+- New\ \[DEC7\] Subtle adjustments to the landscape to better hide a small gap between the landscape and the debris near 893DB
+- New\ \[WaldenPondExt04\] More landscape texture work near 199CBE
+- New\ \[DEAA\] Patched up a landscape texture seam near 95C90
+- New\ \[DE8D\] Patched up a landscape texture seam near 96B60
+- New\ \[E4D8\] Disabled 1BE2F8 (BlastedForestLeafPile01) as it was floating considerably at one side against the road it was placed on. **fix pos**
+- New\ \[VaultTecOfficeExt01\] Brought 70F5F forward to properly display it's advertisement on the wall. Texture has a minor clip issue that can be seen on the top which is probably why it was hidden.
+- New\ \[BeaconHillPlaygroundExt\] Disabled 1D1363, the decal was inside the wall and would have covered up the nearby fake windows if in it's intended position. **fix pos**
+- New\ \[BostonCommonExt\] Moved 2320D2, 2320D3 and 2320D4 (A pair of billboards and supporting building parts) so they aren't floating against the nearby wall.
 - New\ \[Varies\] Merged PRPWireFixes.prp, Absterge had updated a bunch of spline locations in response to reference moves previously made.
 - New\ \[E0B6\] Reposition 132D92 so it's actually attached to the wall.
 - New\ \[E4EC\] Move 1AC9D8 slightly to stop y-fighting.
