@@ -8,16 +8,24 @@ Branch **81**
 
 Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
 
-- New\ \[
+- New\ \[E69C\] Update landscape as well related to the below line and also fix the water assignment to the correct texture set. ExtOceanWater -> ExtRiverCharlesUpper
+- New\ \[E67B\] Fixed up a quad of texture seams nearest 168F37, also near 822A9
+- New\ \[E67D\] Raised parts of the landscape to hide parts of 163F1D that were sticking out of the shore nearby.
+- New\ \[E5D1\] Shored up the landscape near 151796, and also adjusted navmesh in the area to compensate. My navmesh skills are not that great, so I may have to go back and fix this.
+- New\ \[E59D\] Patched up some errant landscape painting near 14F87A.
+- New\ \[DEE6\] Lowered 17A40C to make one of the trees stop floating and fixed yet another landscape texture seam.
+- New\ \[E419\] More landscape patchwork, nearest 149281 this time, though it also touches neighboring cell blocks as well.
+- New\ \[DEF9\] More landscape patchwork, nearest A8E80 this time.
+- New\ \[DLC03NucleusCommandCenter01\] Swap 03024044 BASE to 73EBA
 - New\ \[03000BDB\] Patched up a landscape texture seam near 03005DE3
 - New\ \[E59A\] More landscape texture patching. Nearest 20A091
 - New\ \[DEC7\] Subtle adjustments to the landscape to better hide a small gap between the landscape and the debris near 893DB
 - New\ \[WaldenPondExt04\] More landscape texture work near 199CBE
 - New\ \[DEAA\] Patched up a landscape texture seam near 95C90
 - New\ \[DE8D\] Patched up a landscape texture seam near 96B60
-- New\ \[E4D8\] Disabled 1BE2F8 (BlastedForestLeafPile01) as it was floating considerably at one side against the road it was placed on. **fix pos**
+- New\ \[E4D8\] Disabled 1BE2F8 (BlastedForestLeafPile01) as it was floating considerably at one side against the road it was placed on.
 - New\ \[VaultTecOfficeExt01\] Brought 70F5F forward to properly display it's advertisement on the wall. Texture has a minor clip issue that can be seen on the top which is probably why it was hidden.
-- New\ \[BeaconHillPlaygroundExt\] Disabled 1D1363, the decal was inside the wall and would have covered up the nearby fake windows if in it's intended position. **fix pos**
+- New\ \[BeaconHillPlaygroundExt\] Disabled 1D1363, the decal was inside the wall and would have covered up the nearby fake windows if in it's intended position.
 - New\ \[BostonCommonExt\] Moved 2320D2, 2320D3 and 2320D4 (A pair of billboards and supporting building parts) so they aren't floating against the nearby wall.
 - New\ \[Varies\] Merged PRPWireFixes.prp, Absterge had updated a bunch of spline locations in response to reference moves previously made.
 - New\ \[E0B6\] Reposition 132D92 so it's actually attached to the wall.
