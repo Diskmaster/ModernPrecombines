@@ -4,9 +4,9 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 🟥: Removed, 🟩: Added, 🟨: Changed
 
-Branch **81**
+There are lines below with extra spacing, from Absterge documentation merges that I still need to clean up.
 
-Dev note: Below text block with extra spacing is from absterge's recent merge, I'll clean it up later.
+-- **81**
 
 - New\ \[E69C\] Update landscape as well related to the below line and also fix the water assignment to the correct texture set. ExtOceanWater -> ExtRiverCharlesUpper
 - New\ \[E67B\] Fixed up a quad of texture seams nearest 168F37, also near 822A9
@@ -39,9 +39,13 @@ Dev note: Below text block with extra spacing is from absterge's recent merge, I
 - New\ \[03000C64\] Move 03018B29 to resolve reference z-fighting with it's neighbor.
 - New\ \[03000C77\] Disabled some leftover references that was probably from an attempt to design an interior with the building attached to 03006A1A, refs 030069E3, 030069F3, 03006A0D, 03006A26, 0302DB02
 - New\ \[03000C65\] Raised a small chunk of the landscape to make it look a bit more natural and not have a gaping hole in the water that looks like someone slammed a 1d4 in the ground near 03018CC4
+
 ~~- New\ \[03000C74\] Repositioned 03044299 with respect to the home it's attached to and also adjust the leaf pile nearby (0304BA1C) to better coverup the porch as intended.~~ Held, navmesh seems to suggest this is intended
 - New\ \[E52B\] Updated position and rotation of 1B042C so that both sets of wheels actually are on the ground.
 - New\ \[DEFB\] Updated landscape texture painting to better match up with a neighboring quad to clean up a merge error.
+
+-- 80
+
 - New\ \[Switchboard\] Lowered 1924EF to rest above it's neighboring crate.
 - New\ \[-2, 14, CW\] Repositioned 1E98DF above ground.
 - New\ \[POIMilitaryMC05\] Lowered 1F9E4F, 1F9E5A, 1F9E5B so the trash piles are no longer floating.
