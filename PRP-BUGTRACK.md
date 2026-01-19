@@ -8,6 +8,7 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 
 -- **81**
 
+- New\ \[D9BD\] Added a new dynamic disable for the CSEP Buzzard's Bounties VC at the request of Pig. (58626)
 - New\ \[E69C\] Update landscape as well related to the below line and also fix the water assignment to the correct texture set. ExtOceanWater -> ExtRiverCharlesUpper
 - New\ \[E67B\] Fixed up a quad of texture seams nearest 168F37, also near 822A9
 - New\ \[E67D\] Raised parts of the landscape to hide parts of 163F1D that were sticking out of the shore nearby.
