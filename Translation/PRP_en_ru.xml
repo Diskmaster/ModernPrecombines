@@ -16,14 +16,8 @@
     <String List="0" Partial="2">
       <EDID>[00000000]</EDID>
       <REC>TES4:SNAM</REC>
-      <Source>Build Version: 74.14 NG
-Previsibines Repair Pack ESP
-Built from 1.10.984 and requires all DLC.
-Please see the nexus mod page or git repository for extended author credits and community contributions.</Source>
-      <Dest>Build Version: 74.14 NG
-Previsibines Repair Pack ESP
-Built from 1.10.984 and requires all DLC.
-Please see the nexus mod page or git repository for extended author credits and community contributions.</Dest>
+      <Source>Build Version: 81.00 Branch: AE Module: PRP</Source>
+      <Dest>Build Version: 81.00 Branch: AE Module: PRP</Dest>
     </String>
     <String List="0">
       <EDID>CroupManor01</EDID>
@@ -524,12 +518,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Dest>Офисное здание Дармута</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedFalloutShelter02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Shelter</Source>
-      <Dest>Укрытие</Dest>
-    </String>
-    <String List="0">
       <EDID>DmndChoiceChops01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Polly&apos;s House</Source>
@@ -788,12 +776,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Dest>Лексингтонская парковка</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedSubwayTerminalShowcase</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Terminals &amp; Holotapes, Oh My.</Source>
-      <Dest>Терминалы и голозаписи, о боже.</Dest>
-    </String>
-    <String List="0">
       <EDID>DLC04SafariWelcomeCenter</EDID>
       <REC>CELL:FULL</REC>
       <Source>Safari Adventure Welcome Center</Source>
@@ -941,7 +923,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteAdvSystems</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Advanced Systems</Source>
-      <Dest>Институт - отдел высших систем</Dest>
+      <Dest>Институт — отдел высших систем</Dest>
     </String>
     <String List="0">
       <EDID>Vault81Secret</EDID>
@@ -977,7 +959,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>EsplanadeMansion01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Marlborough House</Source>
-      <Dest>Дом Марльборо</Dest>
+      <Dest>Дом Мальборо</Dest>
     </String>
     <String List="0">
       <EDID>USSConstitution01</EDID>
@@ -994,7 +976,7 @@ Please see the nexus mod page or git repository for extended author credits and 
     <String List="0">
       <EDID>InstituteTunnel01</EDID>
       <REC>CELL:FULL</REC>
-      <Source>Public Works Maintenence Area</Source>
+      <Source>Public Works Maintenance Area</Source>
       <Dest>Техническая зона</Dest>
     </String>
     <String List="0">
@@ -1115,7 +1097,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndWaterfrontSunsHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Doctor Sun&apos;s House</Source>
-      <Dest>Дом доктора Суна</Dest>
+      <Dest>Дом доктора Суня</Dest>
     </String>
     <String List="0">
       <EDID>ElevTransUtil</EDID>
@@ -1145,7 +1127,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteSRB</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute SRB</Source>
-      <Dest>Институт - бюро робоконтроля</Dest>
+      <Dest>Институт — бюро робоконтроля</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt17</EDID>
@@ -1184,12 +1166,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Dest>Кегельбан</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedGrenades</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cellar</Source>
-      <Dest>Подвал</Dest>
-    </String>
-    <String List="0">
       <EDID>TheaterMassBayMedicalCenter01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Mass Bay Medical Center</Source>
@@ -1208,12 +1184,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Dest>Гриль-бар &quot;Физзтоп&quot;</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedCave</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Breakheart Banks</Source>
-      <Dest>Брейкхарт-Бэнкс</Dest>
-    </String>
-    <String List="0">
       <EDID>ShenleysOysterBar01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shenley&apos;s Oyster Bar</Source>
@@ -1229,7 +1199,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>zLexingtonPharmacy</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Pharmacy</Source>
-      <Dest>Лексингтонская аптека</Dest>
+      <Dest>Аптека Лексингтона</Dest>
     </String>
     <String List="0">
       <EDID>RelayTowerInt03</EDID>
@@ -1266,12 +1236,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <REC>CELL:FULL</REC>
       <Source>Old Robotics</Source>
       <Dest>Олд-роботикс</Dest>
-    </String>
-    <String List="0">
-      <EDID>zUnusedFinancial23</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Atlantic Offices</Source>
-      <Dest>Офисы &quot;Атлантик&quot;</Dest>
     </String>
     <String List="0">
       <EDID>GwinnettBrewery02</EDID>
@@ -1349,7 +1313,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteRobotics</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute Robotics</Source>
-      <Dest>Институт - отдел роботехники</Dest>
+      <Dest>Институт — отдел роботехники</Dest>
     </String>
     <String List="0">
       <EDID>DLC04Gauntlet01</EDID>
@@ -1412,12 +1376,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <Dest>Психиатрическая больница &quot;Парсонс&quot;</Dest>
     </String>
     <String List="0">
-      <EDID>zUnusedCellar02</EDID>
-      <REC>CELL:FULL</REC>
-      <Source>Cellar</Source>
-      <Dest>Подвал</Dest>
-    </String>
-    <String List="0">
       <EDID>zLexingtonLaundromat</EDID>
       <REC>CELL:FULL</REC>
       <Source>Lexington Laundromat</Source>
@@ -1475,7 +1433,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>CorvegaAssemblyPlant01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Corvega Assembly Plant</Source>
-      <Dest>Цех сборки машин &quot;Корвега&quot;</Dest>
+      <Dest>Сборочный завод &quot;Корвега&quot;</Dest>
     </String>
     <String List="0">
       <EDID>NationalGuardTrainingYard03</EDID>
@@ -1559,7 +1517,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>InstituteBioScience</EDID>
       <REC>CELL:FULL</REC>
       <Source>Institute BioScience</Source>
-      <Dest>Институт - отдел бионаук</Dest>
+      <Dest>Институт — отдел бионаук</Dest>
     </String>
     <String List="0">
       <EDID>DLC03Acadia</EDID>
@@ -1745,7 +1703,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>DmndPlayerHouse01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Home Plate</Source>
-      <Dest>Основная база</Dest>
+      <Dest>Домашняя база</Dest>
     </String>
     <String List="0">
       <EDID>FallonsDepartmentStore01</EDID>
@@ -1967,7 +1925,7 @@ Please see the nexus mod page or git repository for extended author credits and 
       <EDID>TrinityTower01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Trinity Tower Mid Level</Source>
-      <Dest>Тринити-тауэр - средний уровень</Dest>
+      <Dest>Тринити-тауэр — средний уровень</Dest>
     </String>
     <String List="0">
       <EDID>FensCafeBuilding</EDID>
@@ -2064,12 +2022,6 @@ Please see the nexus mod page or git repository for extended author credits and 
       <REC>WRLD:FULL</REC>
       <Source>The Island</Source>
       <Dest>Остров</Dest>
-    </String>
-    <String List="0">
-      <EDID>DLC03VRWorldspace</EDID>
-      <REC>WRLD:FULL</REC>
-      <Source>Simulation</Source>
-      <Dest>Симуляция</Dest>
     </String>
     <String List="0">
       <EDID>NukaWorld</EDID>
