@@ -1,12 +1,16 @@
-Yes, I'm aware this changelog is ugly as sin. Hopefully at some point I can finally fix this.
+Yes, I'm aware this changelog is ugly as sin. Hopefully at some point I can finally fix this. Help wanted for CSS and cleanup.
 
 Current fixed issues list, anything marked 'Dedup' means Deduplication as in the record is at least one exact duplicated object reference at the same exact position in the associated plugin master file:
 
-🟥: Removed, 🟩: Added, 🟨: Changed
+🟥: Removed, 🟩: Added (Any line with New\ just needs a find and replace with that), 🟨: Changed
 
 There are lines below with extra spacing, from Absterge documentation merges that I still need to clean up.
 
--- **81**
+-- **82**
+
+- New\ \[Pending\] 
+
+-- 81
 
 - New\ \[D9BD\] Added a new dynamic disable for the CSEP Buzzard's Bounties VC at the request of Pig. (58626)
 - New\ \[E69C\] Update landscape as well related to the below line and also fix the water assignment to the correct texture set. ExtOceanWater -> ExtRiverCharlesUpper
@@ -44,9 +48,6 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 ~~- New\ \[03000C74\] Repositioned 03044299 with respect to the home it's attached to and also adjust the leaf pile nearby (0304BA1C) to better coverup the porch as intended.~~ Held, navmesh seems to suggest this is intended
 - New\ \[E52B\] Updated position and rotation of 1B042C so that both sets of wheels actually are on the ground.
 - New\ \[DEFB\] Updated landscape texture painting to better match up with a neighboring quad to clean up a merge error.
-
--- 80
-
 - New\ \[Switchboard\] Lowered 1924EF to rest above it's neighboring crate.
 - New\ \[-2, 14, CW\] Repositioned 1E98DF above ground.
 - New\ \[POIMilitaryMC05\] Lowered 1F9E4F, 1F9E5A, 1F9E5B so the trash piles are no longer floating.
@@ -1023,7 +1024,7 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 - New\ \[USAFSatellite01\] Fix z-fighting, 75BD3
 - New\ \[DmndRadio01\] Fix floating 146F80 Console SCOL. (forwardable?)
 
-Branch 74
+-- 74
 
 - New\ \[Various\] Hopefully all the remaining instances of dynamic disables that need covered.
 - New\ \[Vaults\] Fix enable state of locker references for the vault suit compatibility. They were incorrectly set due to me not paying attention.
@@ -1295,7 +1296,7 @@ Branch 74
 - New\ \[6, -5, CW\] Additional object moves. D0233, 20557A, 205582, 205583, add new HitExtACapLongTop01 (Glitchfinder import)
 - New\ \[6, -6, CW\] Various object moves to fix up Shamrock Taphouse's roof. Refs 1BB389, 1BB38E, 1BB38F, 1BB390, 1BB396, 1BB397, 1BB398, 1BB399, 1BB39A, 1BB39B, 1BB39D, 1BB39E, 1BB39F, 1BB3A0, 1BB3A1, 1BB3A2, 1BB3A7, 1BB3A9, 1BB3AA, 1BB3AE, 1BB3AF, 1BB3FD. Also add missing CapLongTop01 refs as needed (Glitchfinder import)
 
-Branch 69
+-- 69
 
 - New\ \[Import\] Updated RR floor mesh contributed by Sakamoto-San in discord as per https://discord.com/channels/830436661736243230/954847055824687215/1075829817464868907. As per their description: The mesh is not linked to the material file and the specular map is not assigned in the material too, leading to a reflective/wet floor
 - New\ \[Various in FH\] Import the removed placement fixes from UF4OP that got removed as a result of U31597 (as of 2.1.5)
@@ -1539,7 +1540,7 @@ Branch 69
 - 🟩 \[4, -3, CW\] Dedup 001D14FA, 001D14F5, 001D14F4, 000C4ADF, 00118E7E, 00118E7F, 0002CBBB, 0002CBED, 0002CDE2, 002185B7
 - 🟩 \[5, -3, CW\] Dedup 0011485A
 
-Branch 65
+-- 65
 
 - \[PRP\] (-19, 20, CW): Community request. XLRT NoCombo 1F970 (NorthBridge / Sanctuary bridge) to support easy mesh replacement.
 - \[PRP\] (Various): Implement separated material swaps and update records accordingly, as per the Underwater Glass Fix mod.
@@ -1648,7 +1649,7 @@ Branch 65
 - \[PRP, U28904\] (CambridgeMassChemical01): Shift position of C983C to fix bad placement. Create new material swap and apply to C980B and C98E6 to fix blue bricks that should not be there. Add 1E819A XLRT to 1C7EE0
 - ~~\[PRP, U31719\] (-8, 0, CW): 16002F and 16002A missing side of SCOL mesh \(sidewalk\), break them and delete the relevant sidewalk pieces. One left side isn't even visible, and the two right side ones need some welding or model work to make them useable without glaring visual issues.~~
 
-Branch 59
+-- 59
 
 - ~~\[U32372\] (-24, -1, CW): Add a brand new pallet to cover up a nasty looking landscape crack at 1.5x size. PRP ID 0800002B (Please note, records were compacted, and new records listed before this point are probably wrong.)~~
 - \[PRP\] (6, 13, FH): Reported visibility break in the area, fix pending.
@@ -2116,9 +2117,6 @@ Branch 59
 - \[PRP\] Fix positioning of 68A78 to stop z-fighting. I doubt anyone's going to notice the extra block from where it currently sits.
 - ~~\[U32328\] Fix 1E7723 clipping through roof.~~
 - \[PRP\] Import remaining Flicker Fixer model set from 5.7 release. (HouseKit/, meshes already in git)
-
-Branch 57
-
 - \[PRP\] Fixed missing header forward in previous release.
 - \[PRP\] Added Meshes (NOT textures, we don't do those) from the Airport Transparency Fix.
 - \[PRP\] Generated MDHT for Nuka World.
