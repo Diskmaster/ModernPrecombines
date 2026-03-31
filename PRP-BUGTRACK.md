@@ -9,6 +9,12 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 -- **82**
 
 
+- New\ \[DEC8\] More landscape touch ups, this one near 199CF9
+- New\ \[DF29\] More landscape touch ups, this time near 17A172
+- New\ \[SuffolkCountyChaterSchool01\] Round coords for 1939C3, 1939C2 and 29DA8 in an attempt to resolve Umbra brain damage. I suspect I'll be coming back to this one.
+- New\ \[3000C61\] Same as the previous line, near 0302CEF4 and 0300FE06
+- New\ \[3000C73\] Yet another landscape touch up near 0302CFCD.
+- New\ \[DE85\] More painting, near 198001
 - New\ \[E0D3\] Disable 17BD2F and put a new decomainc1x1wall01 in it's place, to fix the original ref sticking out of it's neighbor. (todo: new matswap to fix the color, none of the built in ones are suitable)
 - New\ \[E03A\] Sealed a landscape crack near 1C1330 and lowered the bramble reference while touching up the landscape painting in the nearby area to look a bit more natural where possible (the roadchunks aren't paintable)
 - New\ \[DAF5\] Disabled A06B4 (DriedGrass version) in favor of the alternate A06BA that is in the same exact place.
@@ -35,13 +41,13 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 - New\ \[Vault75\] Move 1AB061 so that the debris isn't floating partially.
 - New\ \[D92C\] Address the floating plank (1EC6EA) that was previously reported but skipped in previous dev work runs, it actually is on the ground proper now.
 - New\ \[DEA9\] Touch up landscape textures near 26B0A.
-- New\ \[DE88\] Fix up a texture seam in the landscape next to 94D21 [the referenced mesh also seems to have a bounding box problem it appears, clear record move for it]
+- New\ \[DE88\] Fix up a texture seam in the landscape next to 94D21
 - New\ \[DF47\] Fix a minor texture seam in the landscape near D87D3 (the fence)
 - New\ \[E400\] Disable a few leftover references that I think might have been accidentally moved to the reference graveyard, I suspect this might have been a workaround for their tools back in the day with respect to previs. 03032CCA, [billboard], 2481D0 There's also considerable landscape painting issues here but it's not visible, so I'm not going to bother.
 - New\ \[E135\] Fix up the landscape painting behind 1683D3
 - New\ \[E4A7\] Raise and smooth out the landscape to make the sidewalk chunks less of an eyesore with respect to it's missing faces below the light pole 1B61DF. [Navmesh]
-- New\ \[E0F7\] Adjust and smooth out landscape near the wall chunk 1755A9, needs some navmesh movement to compensate. [TODO, start over on navmesh]
-- New\ \[E18E\] Smooth out the landscape to fill a hole just above 1752C6, also swap 17529B for it's Half01 version to save a draw call. [TODO]
+- New\ \[E0F7\] Adjust and smooth out landscape near the wall chunk 1755A9, needs some navmesh movement to compensate. [navmesh]
+- New\ \[E18E\] Smooth out the landscape to fill a hole just above 1752C6, also swap 17529B for it's Half01 version to save a draw call.
 - New\ \[E18F\] Adjust rotation and properly ground 1D1745 so that the plant clump isn't floating so much on one side.
 - New\ \[E1AD\] Raised part of the landscape to mask some placement jank next to 1D34BC, as an aside the navmesh for this block is badly placed.
 
