@@ -9,6 +9,38 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 -- **82**
 
 
+- New\ \[DFCC\] Improved placement for 18355C, but it's not the best.
+- New\ \[E40E\] Adjusted a pyramid landscape near 1BD0E7
+- New\ \[E494\] Adjust 221129 so that the windows aren't floating against the wall.
+- New\ \[E4B5\] Lowered 1A76D5 and 2882B so they aren't floating.
+- New\ \[DBA2\] Lowered EC722 so it's not floating.
+- New\ \[E2E4\] Moved 1D9561 to have that plant less shoved into the nearby corpse.
+- New\ \[E2C5\] Moved up 11963E as it was partially submerged.
+- New\ \[E285\] Move 1D86CC so it's not in the middle of the nearby wall for ... reasons?
+- New\ \[06003107\] Also 0602fdae
+- New\ \[060030C8\] Patched up a small landscape texture seam near 060345a6
+- New\ \[0600310A\] Cleaned up exposed landscape poking through 0601ef3c
+- New\ \[E6C2\] Also 12A394
+- New\ \[E683\] Also 159E55
+- New\ \[E61F\] Also 177274
+- New\ \[E61E\] Also 17725F and 17718E
+- New\ \[E61D\] Touch up the landscape near 1CF08F and 1CF0E6
+- New\ \[E604\] Disable 177482, another case of reintroducing it would require navmesh work.
+- New\ \[E61F\] 17B4BA, will it blend?
+- New\ \[E6C2\] 12A3A0, will it blend?
+- New\ \[E6A1\] Yet more blending patches. Near 159CF0 this time.
+- New\ \[E5B8\] Fixed floating bushes position for ref 15CAF6.
+- New\ \[DFC0\] Restored 9F3AF to it's rightful position. Navmesh in this block sucks rocks, though.
+- New\ \[zPOIJoel06\] Move 16FDDD and 16FDDE so they aren't floating (needs review, related to Neon Flats compat, need to check what UFO4P did to compat)
+- New\ \[DEDF\] Reposition FCEAC, FCEAE, 49C41, and 49C42 so that the left end isn't sticking out of the nearby wall.
+- New\ \[DEFA\] Another one. A90E6
+- New\ \[DAC8\] Landscape texture merge error near 98241 needed repainted. I swear, there's like a thousand of these.
+- New\ \[D937\] Make the landscape texturing look more natural near AB509
+- New\ \[DA9D\] Fix the floating magical car corpse C33FB so it's grounded.
+- New\ \[DA7F\] Disable C35E5 (under the landscape), as bringing it up would require unwanted navmesh work right now
+- New\ \[DA1B\] Touch up some underwater texturing near 1B0643
+- New\ \[DECB\] Adjust Z of 2736B for better integration with neighboring references (body should be leaning against burnt out tree stump)
+- New\ \[DEAA\] Yet more landscape touch ups, near 26B5B
 - New\ \[DEC8\] More landscape touch ups, this one near 199CF9
 - New\ \[DF29\] More landscape touch ups, this time near 17A172
 - New\ \[SuffolkCountyChaterSchool01\] Round coords for 1939C3, 1939C2 and 29DA8 in an attempt to resolve Umbra brain damage. I suspect I'll be coming back to this one.
@@ -47,7 +79,7 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 - New\ \[E135\] Fix up the landscape painting behind 1683D3
 - New\ \[E4A7\] Raise and smooth out the landscape to make the sidewalk chunks less of an eyesore with respect to it's missing faces below the light pole 1B61DF. [Navmesh]
 - New\ \[E0F7\] Adjust and smooth out landscape near the wall chunk 1755A9, needs some navmesh movement to compensate. [navmesh]
-- New\ \[E18E\] Smooth out the landscape to fill a hole just above 1752C6, also swap 17529B for it's Half01 version to save a draw call.
+- New\ \[E18E\] Smooth out the landscape to fill a hole just above 1752C6, also swap 17529B for it's Half01 version to save a draw call. [position needs double checked]
 - New\ \[E18F\] Adjust rotation and properly ground 1D1745 so that the plant clump isn't floating so much on one side.
 - New\ \[E1AD\] Raised part of the landscape to mask some placement jank next to 1D34BC, as an aside the navmesh for this block is badly placed.
 
