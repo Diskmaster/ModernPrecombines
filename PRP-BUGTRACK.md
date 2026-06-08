@@ -9,6 +9,25 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 -- **82**
 
 
+- New\ \[E01C\] Sealed the landscape crack just by 67370.
+- New\ \[E08C\] Tuned position of 3FAF1 to fix a tiny gap with it's neighbor. Needs checked.
+- New\ \[E458\] Adjust the landscape to better mask a hole below BB096
+- New\ \[DBC1\] Disable BF109 [dev: reset pos/rot] and adjust the landscape slightly nearby to make the ground less alien.
+- New\ \[DLC04GZNukaGalaxy01\] Removed linkref for 06042FD6, linked to 06042FD7
+- New\ \[DLC04WWMineCart01\] Slap a pair of plywood floorboards to block out a pair of void holes in the mines that 0604CC52 was providing.
+- New\ \[DLC04NukaWorldPowerPlant01\] Removed linkref for 06031090, as it was apparently linkref'd to 06031091 for some reason. (For those reading at home, linked references don't get precombined)
+- New\ \[E0F4\] Fixed decal placements for C7E88, and also disable C7E94 [dev: reset pos/rot on cleanup] as it's just not a good fit for the area in question (flat debris with a small ravine which has the debris objects float as a result)
+- New\ \[E53B\] Apparently you can fall down through the landscape near 209CF4. Tried recalculating the normals in the cell in an attempt to correct the landscape in this chunk. Needs reviewed.
+- New\ \[E434\] Dramatically improved the landscape painting a bit of a distance away from 14D96B as there was a considerable merge error in the area. (View it with grass disabled without PPF loaded to see how bad it was originally.)
+- New\ \[E07B\] Restored placement of 70FF2 so it's visible again, plastering over a nuka cola advertising painting.
+- New\ \[E039\] Attempted to fix up the landscape painting near 1C3669. Not happy with the result.
+- New\ \[E038\] More landscape painting adjustments below 1E869A. Tried to get the debris texture to overlap the otherside, but sadly was on the cell border and doing so hit the limit on how many ground textures are in use, so it'll do.
+- New\ \[E019\] Patched a landscape texture seam right below 1347DE.
+- New\ \[DAF9\] Lowered grass reference 1B54C9 to the gravel below it so it's not floating.
+- New\ \[DB15\] Disabled a pair of branch piles that were under the landscape. Development leftovers? C8C95 and C8C97
+- New\ \[DB54\] Corrected placement and angle for 1CADBD and 1CADBE so they aren't floating against the walls nearby.
+- New\ \[DB55\] Lowered C5437, C5438, 1CAC2C, and 1CAC2B so that the attached poles weren't floating.
+- New\ \[DB54\] Lowered 1CAD64 to the floor so it doesn't float, also the crate while I'm here, ref 1CAC18.
 - New\ \[DFCC\] Improved placement for 18355C, but it's not the best.
 - New\ \[E40E\] Adjusted a pyramid landscape near 1BD0E7
 - New\ \[E494\] Adjust 221129 so that the windows aren't floating against the wall.
@@ -1709,7 +1728,7 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 - \[PRP\] (-3, -13, CW): UDR 15AD6E and kill NULL XLKR in 15AD6D
 - \[PRP\] (-5, -7, CW): 22DA61 clear null LOD XLKR ref
 - \[PRP\] (1, 15, FH): 303F748 and 303F747, UDR and NULL XLKR song and dance
-- \[PRP\] (0, 0, DC): Remove EnableParent on 1347.
+~~- \[PRP\] (0, 0, DC): Remove EnableParent on 1347.~~ Revert this due to occlusion issues.
 - \[PRP\] (0, 2, CW): 1BF97E and 1BF97D needs pulled forward to fix a building hole.
 - \[PRP\] (-16, 10, CW): 893D3 got moved to the plateau nearby to stop the branches from outright floating.
 - ~~\[U32472\] (0, 4, CW): A9416 and A9411 has a rather visible seam.~~
