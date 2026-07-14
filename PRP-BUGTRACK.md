@@ -8,7 +8,7 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 
 -- **82**
 
-
+- New\ \[Any\] Update Meshes\Architecture\Buildings\SmallTown\Bld02FrontBrickACom01R.nif with correct collision conversion and fixed z-fighting, thanks absterge.
 - New\ \[E01C\] Sealed the landscape crack just by 67370.
 - New\ \[E08C\] Tuned position of 3FAF1 to fix a tiny gap with it's neighbor. Needs checked.
 - New\ \[E458\] Adjust the landscape to better mask a hole below BB096
