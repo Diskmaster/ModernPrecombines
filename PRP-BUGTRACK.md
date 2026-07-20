@@ -8,6 +8,14 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 
 -- **82**
 
+- New\ \[
+- New\ \[DCFE\] Fix an inverted landscape pyramid near 91db3 that looks unnatural
+- New\ \[03014ABD\] Landscape adjustments to cover a hard to see hole with the cliff piece near a building. 03014ABD
+- New\ \[E16D\] Landscape painting adjustments below and in the nearby building near 1E38F0
+- New\ \[E18C\] Slight landscape shift to close a hole below 1705DA
+- New\ \[DB79\] Improve the landscape painting near 1F1491 slightly to mask a merge error
+- New\ \[03000B0F\] Adjust the landscape slightly to cover a gap from reference 0300c4d7's placement.
+- New\ \[E030\] Cleanup the landscaping for the coastline near D194E so it doesn't look so angular.
 - New\ \[Any\] Update Meshes\Architecture\Buildings\SmallTown\Bld02FrontBrickACom01R.nif with correct collision conversion and fixed z-fighting, thanks absterge.
 - New\ \[E01C\] Sealed the landscape crack just by 67370.
 - New\ \[E08C\] Tuned position of 3FAF1 to fix a tiny gap with it's neighbor. Needs checked.
