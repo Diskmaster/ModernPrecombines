@@ -9,6 +9,10 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 -- **82**
 
 - New\ \[
+- New\ \[D9D3\] Disable 1e3a7a, as I can't figure out a good placement to fix the floating debris on the road.
+- New\ \[DFB0\] Some light landscape shifts to smooth it out a bit near 14b91a
+- New\ \[DEE5\] Straighten out some landscape chunks near 74424 (four inverted pyramids near each other?)
+- New\ \[DEC5\] Lower a landscape pyramid near 89410
 - New\ \[DCFE\] Fix an inverted landscape pyramid near 91db3 that looks unnatural
 - New\ \[03014ABD\] Landscape adjustments to cover a hard to see hole with the cliff piece near a building. 03014ABD
 - New\ \[E16D\] Landscape painting adjustments below and in the nearby building near 1E38F0
