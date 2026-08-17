@@ -6,10 +6,12 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 
 There are lines below with extra spacing, from Absterge documentation merges that I still need to clean up.
 
--- **82**
-TODO: Cleanup Absterge's documentation as pasted below. The associated plugins are in the process of being merged.
+-- **83**
 
-- New\ \[
+- Not started yet.
+
+-- 82 (Snapshot)
+
 - New\ \[6, -3, CW\] Moved 1EAB58 and its associated spline to be attached to the wall correctly. Disabled 4722E, 4722F, 1240CA, 13857A, A561C as part of a clean-up effort. Swapped 1763E1 for its static version so it can now be precombined. Adjusted 1EB8AB so the billboard is no longer floating.
 - New\ \[Financial22Ext\] Moved 1F1C7A, 1F1C72, 1F1C6D and their associated splines to be attached to the wall correctly. Disabled A527D, 1EEF66, 1825E6, 1825E3, 1EEF65, 17F1F0, 693C4, A5540 as part of a clean-up effort. Nudged 46DC5 so the billboard is connected to the wall.
 - New\ \[8, -4, CW\] Moved 1FADC3, 1DADD2 and their associated splines to be attached to the wall correctly. Disabled 1EEF72, 1EEF83, 1EEF64, 179E1E, 55000, 3F92C as part of a clean-up effort. Nudged 1F8AEB slightly as the posters were pushed too far against the wall in a previous build causing some flickering. Added (3 new Form IDs here) to close a large gap at the bottom of the building. Raised 17FFB0 as it was placed inside a floor and not visible. Adjusted a lot of the walls around 179E1B as the building itself needed a lot of cleaning up. Also added (New Form ID here) to close a gap in the corner of a building. Nudged 1F8AEA, 1F2423 so the posters are flat against the wall. Adjusted 1EEED2, 1EEED3 to close a gap underneath the building.
