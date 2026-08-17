@@ -397,7 +397,7 @@ TODO: Cleanup Absterge's documentation as pasted below. The associated plugins a
 - New\ \[3, -7, FH\] Disabled 03006A26, 030069EF, 030069F3, 030069E3, 03006A0D as part of a clean-up effort.
 - New\ \[12, 0, FH\] Disabled 030253C3, 0300706D, 0300704D as part of a clean-up effort.
 - New\ \[DLC03POI36\] Disabled 030253C2 as part of a clean-up effort.
-- New\ \[BeaverCreekLanesExt\] Swapped 0301CC3A for its non-full version to reduce draw calls. Disabled 03003DEE, 030081DB, 030081DC, 0301CC4C as part of a clean-up effort.
+- New\ \[BeaverCreekLanesExt\] Swapped 0301CC3A for its non-full version to reduce draw calls. Disabled 03003DEE, ~~030081DB, 030081DC, 0301CC4C~~ as part of a clean-up effort. (Crossed out refs are already removed from the AE Far Harbor ESM)
 - New\ \[CliffsEdgeHotelExt\] Disabled 0301D301 as part of a clean-up effort.
 - New\ \[8, 9, FH\] Disabled 03021140 as part of a clean-up effort.
 - New\ \[NationalParkVisitorsCenterExt\] Disabled 030060AF, 03008BB0 as part of a clean-up effort.
