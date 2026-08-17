@@ -7,8 +7,620 @@ Current fixed issues list, anything marked 'Dedup' means Deduplication as in the
 There are lines below with extra spacing, from Absterge documentation merges that I still need to clean up.
 
 -- **82**
+TODO: Cleanup Absterge's documentation as pasted below. The associated plugins are in the process of being merged.
 
 - New\ \[
+New\ \[6, -3, CW\] Moved 1EAB58 and its associated spline to be attached to the wall correctly. Disabled 4722E, 4722F, 1240CA, 13857A, A561C as part of a clean-up effort. Swapped 1763E1 for its static version so it can now be precombined. Adjusted 1EB8AB so the billboard is no longer floating.
+New\ \[Financial22Ext\] Moved 1F1C7A, 1F1C72, 1F1C6D and their associated splines to be attached to the wall correctly. Disabled A527D, 1EEF66, 1825E6, 1825E3, 1EEF65, 17F1F0, 693C4, A5540 as part of a clean-up effort. Nudged 46DC5 so the billboard is connected to the wall.
+New\ \[8, -4, CW\] Moved 1FADC3, 1DADD2 and their associated splines to be attached to the wall correctly. Disabled 1EEF72, 1EEF83, 1EEF64, 179E1E, 55000, 3F92C as part of a clean-up effort. Nudged 1F8AEB slightly as the posters were pushed too far against the wall in a previous build causing some flickering. Added (3 new Form IDs here) to close a large gap at the bottom of the building. Raised 17FFB0 as it was placed inside a floor and not visible. Adjusted a lot of the walls around 179E1B as the building itself needed a lot of cleaning up. Also added (New Form ID here) to close a gap in the corner of a building. Nudged 1F8AEA, 1F2423 so the posters are flat against the wall. Adjusted 1EEED2, 1EEED3 to close a gap underneath the building.
+New\ \[DBTechHighschoolExt\] Nudged ACCEE, B9657 so the signs are actually attached to their wall. Adjusted B9605 so the utility mount is no longer floating and also moved the wires attached to it as part of this fix.
+New\ \[BostonCommonExt04\] Adjusted ACD08 and the rest of the fire escape pieces to actually be connected to the wall. Disabled 1B3B3 as part of a clean-up effort. Moved 16BABB and the splines connected to the utility wall mount so it is now attached to the building. Nudged 1777A4 so the sign is properly attached to the wall.
+New\ \[TheaterDistrictExt02\] Adjusted ACD07 and the rest of the fire escape pieces to actually be connected to the wall. Lowered C031D, C025F slightly to stop them from floating. Swapped out 13761E for its non-full version to reduce a draw call. Added (New FormID here) to close a gap in the wall. Disabled 1715D8, 17685D, 176861, 137726 as part of a clean-up effort.
+New\ \[AtomatoysCorporateHQExt\] Nudged 16066A closer to the wall so the pipe is actually attached. Disabled ED275, ED276 as part of a clean-up effort.
+New\ \[LaytonTowersExt\] Adjusted 16CCE7, 153442 so they are no longer floating. Also nudged 1882C0 slightly to prevent some axis-fighting with the other wall. Disabled 188236, 188238, 18823A, 18823E, 18823F, B7311, 1534FF, 153500, 153501, 153502, 17C031 as part of a clean-up effort. Fixed the rotation on 1687C6 to match the sidewalk below. Nudged 23D52D, 23D529 a tiny bit to fix some flickering at distance. Swapped 17BFC9, 17BFCA, 17BFCB, 17BFCC, 17BFE7, A21C9, 1534FE, 17C02E, 17BFB5 for their non-full versions to reduce draw calls. Also swapped 17BF1B for a regular wall instead of a window to reduce a draw call as the window was hidden. Swapped A21C5 to DecoMainA1x1Win01 so it matched the rest of the building. Raised 187FEE to close a gap underneath the building.
+New\ \[BostonPublicLibraryExt\] Disabled 3F150 as part of a clean-up effort.
+New\ \[MassFusionExt\] Disabled 11EE82, 11EE83, 11EE84, 1CC986, 1CC989, 66671, 95DC3, F4D61, F4D66, F4D65 as part of a clean-up effort. Nudged 1D46E8 so the posters are not floating from the wall.
+New\ \[4, -4, CW\] Moved 1D97DB and its associated spline to be attached to the wall correctly. Swapped out C0168 for a regular wall to reduce a draw call. Disabled 13792B, 1378EA, 1378F5, 13877D, 1378FA, 13617D, 13617C, 1361A1, 1386E7, 136198, 136659 as part of a clean-up effort. Nudged 1F9058 to be attached to the wall instead of floating.
+New\ \[VaultTecOfficeExt01\] Nudged 70FF8 so the poster is flush against the wall. Disabled 14706B as part of a clean-up effort. Adjusted 1CF96B to stop the trash pile from floating. Tweaked the rotation on 8F0E4 in an attempt to stop the van from floating. Moved 63B9B, 63B9C to be properly attached to the wall. Had to move the splines that were attached to the utility wall mounts too.
+New\ \[BackBayFence01\] Nudged 16CCA4 so the poster is flush against the wall. Disabled 188882 as part of a clean-up effort. Adjusted 16D0A7 so the utility mount is properly attached to the wall. Also had to move the wires as part of the previous fix. Moved the billboard 16CDB8 to make sure it was attached to the wall.
+New\ \[-9, -4, CW\] Lowered 1E633F so it's no longer floating.
+New\ \[-14, -4, CW\] Disabled 4B7EF as part of a clean-up effort. Lowered 2210CF, 2210D0 so the stains aren't floating above the walls.
+New\ \[ForestGroveMarshExt02\] Attempted to align 222F6F with the wall properly so it is less floaty. Also nudged 222FA2 closer to the wall so the posters aren't floating.
+New\ \[ForestGroveMarshExt05\] Lowered 222F63 so the shrub is not floating above the landscape. Disabled 1A76D8, 2653C as part of a clean-up effort. Adjusted 2651F, 1A76D9 to close a gap in a wall.
+New\ \[ForestGroveMarshExt\] Adjusted 143781 in an attempt to fix the floating group of shrubs.
+New\ \[-25, 21, CW\] Lowered 4DA75 to hide a small gap at the bottom of the tree.
+New\ \[-26, 14, CW\] Disabled 14647B, 13647C as part of a clean-up effort.
+New\ \[-19, 3, CW\] Adjusted 1BB31D to stop the leaf pile from floating.
+New\ \[ArcJetSystemsExt02\] Disabled 8082F, 8082E, 8082D, 8082C as part of a clean-up effort.
+New\ \[-16, 6, CW\] Moved up 15597C from under the landscape so that it can actually be seen again.
+New\ \[-17, 0, CW\] Rotated 1FB2E6 slightly to be flush with the road below. Fixed a landscape texture seam underneath part of 14D9DF.
+New\ \[1, 4, CW\] Attempted to make BEFF7 more flush against the wall the poster is on. Adjusted 1B5B93 to stop the back of the pick up truck from floating. Nudged 23C6CA so the fireplace is attached to the wall.
+New\ \[BunkerHillExt02\] Adjusted BF30F slightly to be attached to the wall.
+New\ \[2, 2, CW\] Lowered 1E06B6, 1E06B7 so they are no longer floating. Disabled 8503A, 175969, 169FF8, 169FFB, 169FFA, 169FFD, 169FF7, 169FF9, 169FFC, 169FFE, 16A001 as part of a clean-up effort. Adjusted 1E070F slightly to hide a gap on one side of the mesh.
+New\ \[3, 3, CW\] Disabled 1C6A45, 181C14, 181BF7, 181C0F, 181C10, 181C11, 181C13, 181BFB, 181BCE, 1C6AD5, 1C6AE1, 1C6AE0, 1C6ADF, 1C6ADE, 1C6ADD, 1C6ADC, 181C16, 129B6E, BF10C, BF10D as part of a clean-up effort. Swapped out 1C4DB4, 1C4DB5, 181BC2, 181BC3, 181BFC, 1A7303, 181BFD, 181BF6, 1A72C0, 1A72C1, 181BDC, 181BDE, 181BE4 for their non-full versions to reduce draw calls. Also swapped 181BD8, 181BD9 for a different wall that is identical but reduces draw calls. Adjusted BF102 so the stairs are better aligned with the nearby floor. Also moved BF111 to stop the barricade from floating.
+New\ \[3, 4, CW\] Tweaked 1CA175 to prevent the rubble from z-fighting with the path below.
+New\ \[BADTFLExt\] Disabled 19884F, BF376 as part of a clean-up effort. Swapped out 1C6B43 for its non-full version to reduce draw calls. Adjusted 1C8B5F, 1C8B5B, 1C8B5C, 1C8B5D, 1C8B61, 1C8B80, 1C8B7C so the trash and rubble piles are no longer floating.
+New\ \[BADTFLExt02\] Adjusted 1C8B53, 1C8B4B, 1C8B4A, 1C8B56, 1C8B4D, 1C8B6D, 1C8B72 so the trash piles are no longer floating.
+New\ \[CambridgeMonsignorPlazaExt\] Disabled 172732, AABB8, AAC55, AAC56 as part of a clean-up effort. Nudged AAC53, AAC54 so the signs are attached to the wall.
+New\ \[AndrewStationExt\] Disabled 3CFA6, 185AAD, 185AAE, 185AAF, 185AB0, 185AB1, 185AB2, 185AB3, 185AB4, 185AB6 as part of a clean-up effort.
+New\ \[CollegeSquareExt02\] Swapped out 107882, 107883, 107884, 107885, 107886, 107887 for their non-full version to reduce draw calls. Disabled 199723 as part of a clean-up effort.
+New\ \[CollegeSquareExt03\] Swapped out 1070FA, 1070FC, 1E7133, 1E7134, 1E7135 for their non-full version to reduce draw calls. Disabled 55BCC, 55BCB as part of a clean-up effort. Nudged 6241D, 625A1 a tiny bit in an attempt to stop some z-fighting at distance.
+New\ \[-6, 3, CW\] Swapped out 1688EC for its non-full version to reduce draw calls. Disabled 1675BA, 1675B9, 1675BB as part of a clean-up effort. Added (Form ID here) to close a gap in the corner of the building. Adjusted 8649D slightly to fix part of the shrub that was floating. Moved 134E85 slightly as most of the rubble was hidden under the landscape so I made it more visible.
+New\ \[-6, 2, CW\] Swapped out 1696E3, 1696E4, 1696E6, A96C4 for their non-full version to reduce draw calls. Disabled 1692D7 as part of a clean-up effort.
+New\ \[7, 3, CW\] Swapped out 11379C, 11379D, 11379E, 113797, 113798, 113799 for their non-full version to reduce draw calls.
+New\ \[USSConstitutionExt\] Swapped out 11379B, 11379F, 1137A0, 113796, 11379A for their non-full version to reduce draw calls. Disabled 1137DC, 12E257, 12E258 as part of a clean-up effort.
+New\ \[USSConstitutionExt02\] Disabled 12E179, 12E162, 12E161, 12E15C as part of a clean-up effort. Swapped out A8166, A816C for different versions of walls to reduce draw calls. Nudged 2397BA so the paint is properly attached to the wall.
+New\ \[USSConstitutionExt03\] Disabled 1BF9D, 1BF9E as part of a clean-up effort.
+New\ \[-3, 4, CW\] Swapped out 175679 for its non-full version to reduce draw calls. Adjusted 13541E to be attached to the wall. Disabled 1BABD7, 1BABD8, 1BABE6 as part of a clean-up effort. Swapped out 1755C2, 1755CF, 1BABEA for their full versions as the originals had the backside of the mesh invisible. Nudged 1BABD9, 1BABDA, 175737, 175736 to be attached to the wall.
+New\ \[BedfordStationExt\] Lowered down 8EAF5 so the barrel no longer floats.
+New\ \[FarHarborExt02\] Disabled 0302b239 as part of a clean-up effort. Rotated 03023282, 03023283 to make the banners be connected to the wall.
+New\ \[KasumiBoatLocation\] Disabled 03001ABF, 03001ABE, 03001ABD, 03001ABC as part of a clean-up effort. Swapped 03001A47 for its non-full version to reduce draw calls.
+New\ \[HarborGrandHotelExt03\] Swapped out 030030CE, 030030CC for their non-full version to reduce draw calls.
+New\ \[HarborGrandHotelExt02\] Changed the matswap on 030030AF to match the rest of the hotel roof. Swapped out 030030B1, 0300315A for their non-full versions to reduce draw calls. Disabled 03002E19 as part of a clean-up effort.
+New\ \[HarborGrandHotelExt\] Swapped out 03003193, 0300303C for their non-full versions to reduce draw calls.
+New\ \[DLC03POI46\] Lowered 030396DA so the lamp post no longer floats and moved 030396DC as part of this change. Also lowered 030394B3 so the papers are no longer floating.
+New\ \[2, -13, FH\] The spline 030396EC was moved to align with the new lamp post position mentioned above.
+New\ \[DLC03POI45\] Lowered 0304A3A7 to prevent the box from floating above the floor.
+New\ \[1, -15, FH\] Lowered 03016862, 03016864, 030168C0 so they are no longer floating.
+New\ \[EaglesCoveTanneryExt\] Disabled 03007977, 03007980, 03007974, 03007972, 03007A22, 03007A14, 030079DE, 030079DA as part of a clean-up effort. Adjusted 03007AE2, 03007AE1, 03007AE4 so the silos are no longer floating. Nudged 0302BDFD so the poster is against the wall.
+New\ \[DLC03AlderseaDaySpa01\] Disabled 0301F746, 0301F745, 0301F744, 0301F7CB, 0301F7C6, 0301F6A5, 030166FE, 0303549D as part of a clean-up effort. Tweaked 030353A3 slightly so the light fixture is attached to the wall.
+New\ \[CambridgeCampKendallExt\] Disabled 17505B, 175058, 176591, 19828A as part of a clean-up effort. Swapped out BC192, BC18F, A6FED, A6FF9, A6FF6 for their non-full version to reduce draw calls.
+New\ \[-1, -1, CW\] Disabled 15C807, 15C806, 82AD0, 1643E4, 16D439 as part of a clean-up effort. Swapped out B457F for its non-full version to reduce draw calls. Nudged 1E521D to prevent the wall from clipping through the exterior of the building.
+New\ \[0, 2, CW\] Disabled 16FA07, 16FA08, 16FA09, 16FA0A as part of a clean-up effort. Rotated 1BFC89 slightly to prevent the trash pile from clipping through the wall.
+New\ \[CambridgeConstructionSiteExt02\] Changed the matswap on 16C153, AD422 to match the walls next to them. Disabled 16C0FE as part of a clean-up effort. Nudged AD426 to close a small gap between the roof. Adjusted A0ECB so that it was closer to the wall.
+New\ \[CambridgeConstructionSiteExt\] Disabled 169E77, 169E76, D07A4, 8503D, 8503E, 85041, 85040, 169EC5, 169EC6 as part of a clean-up effort. Swapped out 181B7E for the regular wall version to reduce draw calls. Adjusted D0795, D078F to be connected to the base of the building. Nudged D0760, D0763 so the posters are attached to the wall. Lowered D07AC so the bramble is no longer floating.
+New\ \[0, 4, CW\] Adjusted D094B, D094C to make the posters flat against the wall.
+New\ \[MS04NorthyHideout\] Swapped out 15A4A6, 15A4A7 for normal walls to reduce draw calls. Adjusted B1EA7, B1EA6, B1EA3 to a more appropriate position outside of the house. Disabled A9534, A9535 as part of a clean-up effort. Raised 17E4EC from under the landscape so the hedge is visible.
+New\ \[-2, 4, CW\] Disabled 8918C as part of a clean-up effort.
+New\ \[-4, 1, CW\] Disabled 98A56, 1388E6, 98A58, 1386C8, 1BB14 as part of a clean-up effort. Swapped out 98A45, 1E1C8D, 172396, 1388E7, 1E1CAC, 1B9F23, 1B9F22, 1B9F21, 1B9F20, 98A62, 1E1C89, 1E1C8A, 1E1CA9, 1E1CAA, 1E1CAB, 17237D, 1E1CA0 for their non-full versions to reduce draw calls. Nudged 1A65AD to fix some z-fighting at distance.
+New\ \[PoseidonEnergyTurbineExt\] Disabled 2D13F, 15C41B, 15C41D as part of a clean-up effort. Lowered 15C36F, 15C36E so the shelves are no longer floating; also had to lower 15C3BA, 15C3B9, 15C3B7, 15C3B8, 185CC7, 2475A1, 2475A2, 2475A3, 2475A4, 2475A5 as part of this change.
+New\ \[PoseidonEnergyTurbineExt02\] Disabled 1661EF as part of a clean-up effort.
+New\ \[-1, 10, CW\] Moved down 14026F, 14026B, 14026C, 140272, A9129, 140267, 140234, A924E, A924F, AA05C so the bushes are no longer floating.
+New\ \[11, 13, CW\] Lowered 1EB6AE to stop it from floating. Also moved the BNDS attached to this pole to match its new position.
+New\ \[ListeningPostBravoExt\] Lowered 64A61 so the bush is no longer floating.
+New\ \[FortHagenExt\] Nudged 90BF0 to be attached to the wall. Disabled 20DC1A, 20DC1B, BABEF, BAC36, BAC0E as part of a clean-up effort. Swapped BB08F, BB08B for their non-full version to reduce draw calls. Moved 152BA5, 152BA6 to a different part of the parking garage so they could actually be seen. Adjusted BB096, 1A527D so they align properly with the other walls.
+New\ \[VFTFarBeaconExt\] Adjusted 135CA8 so the shrub is actually in the ground.
+New\ \[-26, 2, CW\] Lowered 149116 so the shrub is no longer floating.
+New\ \[-24, 1, CW\] Raised up A04E7, A046A, A04DA from under the landscape so they are actually visible.
+New\ \[-4, 8, CW\] Lowered 1F7F19 so the wooden pallet is no longer floating.
+New\ \[CorvegaAssemblyPlantExt06\] Disabled 1B0DB as part of a clean-up effort.
+New\ \[CorvegaAssemblyPlantExt\] Adjusted 19F9D8 to a better position on the pipe. Swapped out FD199, FD12F for their non-full version to reduce a draw call. Disabled FD18E as part of a clean-up effort. Nudged 5163F slightly to stop it flickering with the wall.
+New\ \[LexingtonExt02\] Disabled E17D0, 2F8C7 as part of a clean-up effort.
+New\ \[LexingtonExt04\] Lowered 176417 so the bus stop is no longer floating. Swapped out E0A09 for a regular wall to reduce draw calls. Disabled 319D9, 319DA, EB489 as part of a clean-up effort. Adjusted 107E49, 107E48 so the diner signs are no longer floating from the wall. Swapped out F9F4C for its 'Full' version to hide gaps at the top of the building.
+New\ \[POIMilitaryBB09\] Disabled 8BAEF, 7466A as part of a clean-up effort. Lowered 152FC9, 152FC8 so the crates are no longer floating.
+New\ \[-12, 8, CW\] Lowered 199E0C so the shrub is no longer floating.
+New\ \[-11, 4, CW\] Raised up 15A9FA from underneath the ground so that it is actually visible.
+New\ \[-9, -1, CW\] Adjusted 13B48C due to part of the shrub floating above the landscape.
+New\ \[MassPikeInterchangeExt\] Lowered 1C5DFF so the debris is no longer floating.
+New\ \[MassPikeInterchangeExt02\] Raised up 1FB5B2 from underground so that it is visible.
+New\ \[MassPikeInterchangeExt06\] Lowered 14F8D0 as one of the trees in the cluster was floating.
+New\ \[MassPikeInterchangeExt04\] Lowered 14F82C so the branch is no longer floating.
+New\ \[LakeCochituateExt05\] Disabled 1D59ED, 1D59EC, 1D59C9, 1D59BB, 1D59CA as part of a clean-up effort. Swapped out 1D5A01, 1D5A02, 1D59D8, 1D5A06, 1D5A08, 1D5A09, 1D5A0A, 1D5A0B, 1D5A0C for their non-full versions to reduce draw calls.
+New\ \[LakeCochituateExt04\] Disabled 1D59BA, 1D59BC as part of a clean-up effort. Swapped out 1D5A05, 1D5A0D for their non-full version to reduce draw calls.
+New\ \[-17, -12, CW\] Disabled 1FFFFA as part of a clean-up effort.
+New\ \[LakeCochituateExt06\] Raised up 1FFF78 from underground so that the tree is visible.
+New\ \[-14, -14, CW\] Raised up 176F65, 176F62, 176F63 from under the ground so they are all visible.
+New\ \[-13, -14, CW\] Raised up 157CEA from under the landscape so the shrub is visible.
+New\ \[RoboticsPioneerParkExt03\] Disabled 1D1A96, 1D1A9B, 1D1A97, 1D1A98, 1D1A99, 1D1A9A as part of a clean-up effort.
+New\ \[ScrapPalaceExt\] Disabled 18B59 as part of a clean-up effort.
+New\ \[ScrapPalaceExt02\] Disabled 18ADE as part of a clean-up effort.
+New\ \[ScrapPalaceExt04\] Disabled 4C520 as part of a clean-up effort.
+New\ \[-14, -17, CW\] Tweaked 17719C slightly to fix some parts of the shrub group that were floating.
+New\ \[-3, -13, CW\] Adjusted CEBDB so the garden hose is mounted to the wall instead of floating. Lowered CEBD6 to fix the shrub that was floating. Moved CEB78 to make the path be on the ground.
+New\ \[FairlineHillEstatesExt\] Raised up CEB33 from underground so that it is actually visible.
+New\ \[-5, -21, CW\] Lowered 1F4AE0 so the lamp is no longer floating. Disabled 8ABE2 as part of a clean-up effort. Fixed a minor landscape texture seam near 119FA7.
+New\ \[GNNExt02\] Disabled A8A1C, 13C347 as part of a clean-up effort. Moved 1212D4 above the landscape to make it visible to the player. Swapped out 1A850F, AE935, 223EBE for their non-full versions to reduce draw calls.
+New\ \[GNNExt03\] Disabled AE1F8, A8A27, A8A32, A8A33, 13C36E as part of a clean-up effort. Swapped out AE8DE, AB5E1, AB5DB for their non-full versions to reduce draw calls. Adjusted 224104 to prevent the trash from clipping through the wall. Also swapped AE193 for its full version to close a gap underneath the stairs.
+New\ \[GNNExt\] Swapped out AE270 for a full wall to match the opposite staircase and hide a hole in the original mesh. Also nudged 232815 slightly to be visible again. Disabled 13C33E, 13C370, 13C36C, 13C36B, 11FEAC as part of a clean-up effort. Adjusted A8917 to close a gap in the trim of the wall.
+New\ \[GNNExt04\] Disabled 13C36F, 13C36D, A89F3 as part of a clean-up effort. Swapped out 223EBD, 223EBC for their non-full version to reduce draw calls.
+New\ \[GNN01\] Lowered 1FA9B7, 1FA9BA so the boxes are no longer floating.
+New\ \[DLC01Lair01\] Disabled 010011AB, 010011AA, 010011A9, 010011A8, 01000CCA, 010075FF, 010076B1, 010076AD, 010076AA, 010076AF, 010076B0, 010076B3, 010076B2, 010076C7, 010076C6, 010076C5, 010076C1, 010076C0, 010076BF, 010076BB, 010076BA, 01008CAB, 01008CAA, 0100325F, 0100325E, 01003280, 01008CA9, 0100325C, 01008CA6, 01003281, 01003220, 01008CA1, 010075D3, 01007574, 010075DF, 010075DD, 01007616, 01007664, 01007661, 01007660, 0100765F, 01007662, 0100765E, 01007663, 0100765D, 010075A5, 010076AE, 010011E3, 010011E2, 010011E7, 010011DF, 010011DE, 010011DB, 010011DA, 010011D4, 010011D3, 010011E6, 010011DD, 010011DC, 010011F2, 010011F1, 010011F0, 010011EF, 010011EE, 010011ED, 010011D2, 01009804, 01009803, 01009802, 01009801, 01009811, 01009800, 0100980D, 0100980C, 0100980B, 01009808, 01009807, 01001E1C, 01006DE2, 01006DDE, 01006DDD, 01007123, 01007122, 01006DCD, 01006DD5, 0100CD51, 010112A6, 0100CD57, 0100CD4E, 01009815, 010093F2, 01009445, 01009440, 0100943D, 01009457, 01009456, 0100943B, 010092F6, 010092F1, 010092F4, 010092F3, 010092F2, 010092F5, 010092F0, 010092EF, 010092EE, 0100940C, 01009406, 01009449, 01001E71, 01001E81, 01004B72, 01001839, 01001B74, 01001B72, 01004B8F, 0100B9D8, 01004B8E, 0100B9D9, 01004B99, 01004B98, 0100B9DA, 0100B9E4, 01004B8D, 01004B8C, 0100B9A3, 01009436, 01009435, 0100942F, 0100E328, 01000E41, 01000E40, 01000E3C, 01000E3B, 01000E3A, 01000E39, 01009A03, 010077C7, 0100D67A, 010076C8, 0100BB5C, 0100BB60, 0100BB5F, 0100BB85, 0100BB84, 0100BB5D, 0100BB5E, 0100BB6E, 0100BB67, 0100BB66, 0100BB80, 0100BB81, 0100BB79, 0100BB78, 0100BB86, 0100BB73, 0100BB89, 0100BB72, 0100BB88, 01000949, 01002974, 010029E8, 010029E9, 010029E1, 01001ABD, 01001C08, 01001781, 0100D3F5, 0100D3F9, 0100D3F8, 0100D3FC, 0100D3FB, 0100D3FA, 0100D3F7, 0100D3F6, 01000C1F, 01000C1E, 01008807, 01000C1B, 01000C1A, 01001C7E, 01001C7D, 01001C75, 01001C74, 01001C5B, 01001C5A, 01001C59, 01001C58, 01004A20, 01004A1F, 0100176D, 01001ABC, 01001ABB, 01001ABA, 01000A30, 01000A2F, 0100960D, 0100960C, 0100960F, 0100960E as part of a clean-up effort. Fixed the matswap on 0100327E, 01008CA7, 01003224, 0100321D, 01008CA5, 01008CA2, 01008CA3 to match the other floors. Adjusted 010093FD, 010093FB to cover some holes in the wall. Nudged 0100C542 slightly so the box is no longer clipping through the lockers. Swapped out 01004B8B, 01002520, 010029EA, 01002975, 010029E0, 01001647, 010015E1, 01008910, 010088FC for their non-full versions to reduce draw calls. Also swapped 01008CAC for a different floor to match the others in that room.
+New\ \[JamaicaPlainExt02\] Disabled F1D00 as part of a clean-up effort.
+New\ \[JamaicaPlainExt05\] Nudged 97D73 to make sure the tree is not floating. Disabled F1C7D as part of a clean-up effort.
+New\ \[JamaicaPlainExt08\] Disabled 5A1AF as part of a clean-up effort.
+New\ \[BobbisNewPlaceExt\] Disabled 1D5DA0, 1D5DA1, 1D5DA2, 1D5DA3 as part of a clean-up effort.
+New\ \[SouthBostonExtS\] Swapped out 1789E9 for its non-full version to reduce draw calls.
+New\ \[5, -12, CW\] Disabled 9229E, 9229D as part of a clean-up effort.
+New\ \[SouthBostonExtW\] Nudged 1D1780, 1D1781, 1D1782, 1D1783 closer to the wall so the posters are not floating. Swapped out 1D4BF1, 1D1E62, 1D1E6E for their non-full version to reduce draw calls. Also adjusted 1D4BD6 to prevent the wall from z-fighting with the other wall. Disabled 1753C0, 1753BF as part of a clean-up effort.
+New\ \[GeneralAtomicsFactoryExt\] Disabled 97E7C, 97E7D, 97E81, 97E68, 97DCB, 97DDE, 97DE3, 97DE4, 97F6D, 97F6F as part of a clean-up effort.
+New\ \[FourLeafFishpackingExt04\] Fixed the rotation on 97DC3, 97E59 to match the other roof pieces. Swapped out 1E02A2 for its non-full version to reduce draw calls. Also swapped ADF94 for its full version to hide a gap in the building.
+New\ \[FourLeafFishpackingExt02\] Disabled 171C3F, 171C40, 6043A as part of a clean-up effort.
+New\ \[6, -9, CW\] Disabled 176076, 176075, 17520B as part of a clean-up effort.
+New\ \[GwinnettBreweryExt02\] Nudged 1D6424, 1D6423 so the poster is actually attached to the wall.
+New\ \[SouthBostonPDExt\] Disabled 916A2 as part of a clean-up effort.
+New\ \[DLC01FortHagenSatelliteArray01\] Disabled 0100EC67, 0100EC66, 0100EC6A, 0100EC6B, 0100EC72, 0100EC73, 01002110, 01004501, 01004547, 01004543, 0100210F, 0100EE93, 0100EE91, 0100EE92, 01004900, 0100451D, 0100451C, 0100EF3C, 0100EF3B, 0100EF34, 0100EF3A, 0100EF41, 0100EF42, 0100EF45, 0100EF3F as part of a clean-up effort. Adjusted 01002404 to match the height of the other ceiling piece next to it. Nudged 01008331 down so the roof vent is no longer floating. Moved 010023F7 to close a small gap in the ceiling. Lowered 01008DAE so the trash is no longer floating. Nudged 01008DEF closer to the wall so the greeb is properly attached. Swapped out 010045DE, 010045DC to IndBldShellInMid01 to match the rest of the pieces around them. Adjusted 0100A480, 0100A482, 0100A47E, 0100A47F, 0100A47C, 0100A47D, 0100A483, 0100A481, 0100A489, 0100A486, 0100A487 as they were all floating from the wall.
+New\ \[WestRoxburyStationExt02\] Disabled E079D, DF8AB, DFA74, DFA75, DFA76, E07B3, E07B2 as part of a clean-up effort. Nudged DF9A0, DF9A1 to no longer be floating from the wall.
+New\ \[ShawHighSchoolExt\] Disabled DFA84, DFA7F, DFA81, DFA83, E07B5, E07B4, DFA82, E0016, E0019, DFA85, E001B, E001A as part of a clean-up effort.
+New\ \[MiltonGeneralExt\] Disabled E28FB, E28FD, E28DB, E28DA, E28D9, E28DC, E28DD, E289A, E2816, E2817, E280A, E28C4 as part of a clean-up effort.
+New\ \[-2, -14, CW\] Disabled E2874, E2869, E286C, E287D, E286F, E2866 as part of a clean-up effort. Moved up 151571 above the landscape so that it is actually visible.
+New\ \[-3, -14, CW\] Disabled E281B, E280B, E29C8, E2881, E2961, E2882, E285E, E2861, E2860, E285F, E2863, E2862 as part of a clean-up effort. Changed the matswap on CEBCD to match the rest of the garage.
+New\ \[FallonsDepartmentStoreExt\] Swapped out B318E, B318D, 12D06E, 12D06F for their non-full versions to reduce draw calls.
+New\ \[HardwareTownExt\] Disabled 1118E4, 1118E5 as part of a clean-up effort. Swapped out 1118D8, 1118DC for a regular roof to reduce draw calls.
+New\ \[HardwareTownExt02\] Fixed the rotation on 20C2E1 to close a small gap between the ground and the trash.
+New\ \[FensSquare\] Disabled 1160DC, 116143, 116144, 1161F8, 1162B4, 1161DC as part of a clean-up effort. Lowered 1AC905 so the greeb is no longer floating.
+New\ \[BostonCommonExt\] Nudged 2320D4 so the billboard is attached to the bracket and not floating. Disabled 18B4BE, 18B4BF, 176C02, 176C01, 176C00, 176BE9, 176BF3, 176BF1, 176C9C, 176C95, 176C94, 176C9F, 18B424, AD907 as part of a clean-up effort. Swapped 2320D6, 2320D7, 2320D8 for a BldgShellBrickWall01Flat to reduce draw calls.
+New\ \[GoodneighborExt\] Disabled 114558, C00D0, C0078, 1234ED, 2185AF, 7560D, 7560C, 1D1516, 13A0EA, 1234B0 as part of a clean-up effort. Adjusted 1DF702 to be attached to the wall of the building and moved the wire connected to it.
+New\ \[GoodneighborExt02\] Disabled 11AA27, 1234F7, 11AA5E, A3AE3 as part of a clean-up effort. Swapped out 218622 for a different roof piece to reduce draw calls. Lowered 1EEE68 so the greeb is no longer floating.
+New\ \[BostonCommonExt02\] Disabled 23A569, 23A568 as part of a clean-up effort. Nudged 186EE4 so the billboard bracket was actually attached to the wall.
+New\ \[BostonCommonExt03\] Disabled 1C87A2 as part of a clean-up effort.
+New\ \[FinancialPostalSquare\] Disabled 141A67, D0ED6, 465D7, 125A0D, 125A0C, 125A08 as part of a clean-up effort. Adjusted 1DFDD6 so the grass is no longer floating. Nudged 23E9C5 to be attached to the wall. Swapped 125A07 to HitExtAFloorCornerA02 to match the nearby floors.
+New\ \[4, -5, CW\] Disabled 137922, 137902, 137904, 137906, 1D7A64, B8EAE, 1378AD as part of a clean-up effort. Swapped out 1361B6 for its full wall version to close a small gap at the side of the wall.
+New\ \[VaultTecOfficeExt02\] Disabled 13673F, 1CF2C2, 1CF2C3, 1CF2C1 as part of a clean-up effort. Swapped out 187BFB, 187BFA, 187BCD, 187BCE for their non-full version to reduce draw calls. Also swapped 1CF2DB for a regular wall to further reduce draw calls. Adjusted 23B4D4 slightly due to part of the trash pile floating.
+New\ \[Vault114Ext\] Swapped out 136733 for a regular roof piece to reduce draw calls. Also swapped out C0084, 1CC030 for a regular wall piece to reduce more draw calls. Disabled 1CC054, 1CC055, C0022, C0021, C0020, C001F, C001E, 1CC035, C001D, 1CC031, C006D, 1CBFF8, AD9CC as part of a clean-up effort. Changed the matswap on 187C45 to match the rest of the walls.
+New\ \[1, -7, CW\] Duplicated 17C66E three times and placed them below it to fill a large gap in the building. Lowered 17D90F, 17D90E to cover various gaps in the building. Disabled 14C21B as part of a clean-up effort.
+New\ \[-1, -7, CW\] Disabled 17289A, 17C1E2 as part of a clean-up effort. Swapped out 240B54 for a different wall to better suit the building. Moved 16D1C3 to a more suitable position on the building as well as the wires that were connected to the mount. Also swapped 190760 for DecoMainA1x1Cor02 as the current ref did not fit the building due to the matswap not applying.
+New\ \[1, -6, CW\] Disabled 194626, 33898, 182D6E, 182D63, 182D56, 182D59, 14C21D, 14C21F, 186F3A as part of a clean-up effort. Swapped out 182D6C, 182D6A, 182D68, 182D65 for their non-full version to reduce draw calls.
+New\ \[TrinityTowerExt\] Disabled 194627, 33891, 33892, 677AB, 677AF, 33F0F, 677AC, 677B0, F9283 as part of a clean-up effort.
+New\ \[HubrisComicsExt\] Disabled 4EE76, 4EE82, 18AD7B, 16F703, 1AE92C, 18BB77, 668CF, 18B157, 18B158, 100EFF, 668AD, 100F00, 668AE, 668E7, 18BB6D as part of a clean-up effort. Swapped out 18B162 for its non-full version to reduce draw calls. Added (Form ID here) to close a small gap underneath the store front.
+New\ \[-1, -4, CW\] Disabled 750D4, 1786E5, 17870C, 1AEBCF as part of a clean-up effort. Swapped out 1E3290, 1E328F for normal walls to reduce draw calls.
+New\ \[-2, -4, CW\] Swapped out 184D30 for its full version to close a gap on top of the wall. Also swapped out 184D61, 184D62, 184D63, 184D3F, 184D40 for their non-full versions to reduce draw calls. Disabled 1786CB, 184D38, 184D37, 17880C, 17880B, 178813, 1AEB19, 1AEC08, 1AEB1A as part of a clean-up effort. Added a new roof piece to close a hole in the roof next to 184D3F. Adjusted 1AEB02 to close a small gap between the landscape and the wall. Raised 221703 as it was hidden in the floor.
+New\ \[-3, -7, CW\] Disabled 15D830, 15D7C1, 15D7C0, 15D7BF, 15D7BE, 15D79B, 15D772 as part of a clean-up effort.
+New\ \[-4, -7, CW\] Disabled 15D7EF, 12F2A5, 12F2AE, 12F2AF, 12F2A3, 12F2A2, 12F2A9, 12F821, 12F820, 12F81F, 12F81E as part of a clean-up effort.
+New\ \[FensStreetSewerExt\] Disabled 12F29F as part of a clean-up effort.
+New\ \[DiamondCityExt\] Disabled 12F29C, 12F29D, 12F29E, 12F2A0, 12F2A6, 12F2A7, 12F2A8, 12F2B1, 12F81C, 12F81D, 12F290, 12F2A1, 12F2A4, 12F2B0, 10E722, 12F816 as part of a clean-up effort.
+New\ \[DiamondCityExt01\] Disabled 10DC9B as part of a clean-up effort.
+New\ \[-1, -8, CW\] Disabled 726DA, 153F5A, 153F55, 153F56, 153F57, 153F58, 153F59 as part of a clean-up effort.
+New\ \[-2, -8, CW\] Disabled 153F5B, 153F5C, 153F5D, 153F5E, 49FB8 as part of a clean-up effort. Swapped out 1B1242 for its non-full version to reduce draw calls. Adjusted 111AE0 to be attached to the wall.
+New\ \[-7, -8, CW\] Adjusted the height of 7D994 to align with the rest of the tunnel. Disabled 7D996 as part of a clean-up effort. Added (New FormID here) to close a small gap below 1B6418.
+New\ \[MassPikeTunnelWestExt\] Swapped out 1B6262, 23133E, 23133D for their non-full versions to reduce draw calls. Disabled 7D999 as part of a clean-up effort. Adjusted 1B643D slightly so the pipe is properly attached to the wall.
+New\ \[-12, -1, CW\] Disabled 1C67DD as part of a clean-up effort. Raised 138229, 13822B from under the landscape so the brambles are visible.
+New\ \[SomervillePlace01\] Disabled 167551, 167553, 167557, 167558, 167562, BF526 as part of a clean-up effort. Swapped out 167604, 16760F, 167610 for regular walls to reduce draw calls.
+New\ \[-5, 3, CW\] Disabled 167574, 167573, 1675E3, 1675E4, 1675AE, 1675AC, 17B3C3, 1675A4, 167622, 167623, 167624, 164A04, 1649D7 as part of a clean-up effort. Swapped out 1675D6 for a regular wall to reduce draw calls.
+New\ \[-5, 2, CW\] Disabled 164A05, 1649DA as part of a clean-up effort. Added two DecoMainA1x1WinB01BotCap01 (Two new Form IDs here) to close two gaps above doorways.
+New\ \[SomervillePlace02\] Lowered BF489, BF48B so they are no longer floating. Disabled 86705 as part of a clean-up effort.
+New\ \[-7, 5, CW\] Adjusted 17E332, 17E2E9 so they are no longer floating.
+New\ \[LexingtonExt06\] Disabled FD0B2, FD0B3 as part of a clean-up effort. Swapped out FD096 for a different roof piece to reduce draw calls. Nudged FD068 to stop the wall from x-fighting with the other wall.
+New\ \[LexingtonExt05\] Lowered 1C2B61, 1C2B62 to close small gaps between the landscape below them. Swapped out FA1D4, FA1D3, FA1C6, FA1BE, FA1BD, FA1BC for their non-full version to reduce draw calls. Also lowered FAB61 so the trash pile is no longer floating. Disabled FA1D2 as part of a clean-up effort. Adjusted 107E4A so the cabinet is attached to the wall. Swapped out F9F4F, F9F4E, F9F4D for their 'Full' version to hide gaps at the top of the building.
+New\ \[CorvegaAssemblyPlantExt02\] Disabled F9F88, EBD8D as part of a clean-up effort.
+New\ \[SwitchboardExt\] Disabled 1895C5 as part of a clean-up effort.
+New\ \[-9, 11, CW\] Adjusted the rotation for E1871 to match the other walls and close a small gap.
+New\ \[CambridgeNorthExt\] Tweaked 17E458 to finally fix the floating bushes.
+New\ \[-3, 3, CW\] Moved up 17563D to align with the surrounding walls. Disabled 17563B, 1BABE4 as part of a clean-up effort. Added a new wall to close a large gap in the building next to ref 175637. Swapped out 17564F, 175650, 175649, 17564C, 17564D, 17564E for their non-full version to reduce draw calls. Adjusted 17E463 to make the bushes visible from under the landscape. Nudged 1BABE2 to be closer to the wall to properly cover the window. Also adjusted 17567C to align with the nearby walls. Tweaked 17563D to prevent the staircase from axis fighting with the exterior wall.
+New\ \[-4, 3, CW\] Swapped out AA097 for its non-full version to reduce draw calls. Nudged C08FF to fix some z-fighting with the wall. Adjusted A95D8 and the associated spline so the wall mount is attached to the wall.
+New\ \[KendallHospitalExt\] Swapped out AA098 for its non-full version to reduce draw calls. Also swapped AA0BB, AA0C6 for their full versions to close two small gaps in the building. Changed the matswap on BF8A8, 30AC2 to match the other surrounding objects.
+New\ \[CambridgeCraterExt\] Disabled 17E4FF, 8ADF4, 8ADF3, 14756A, 147597 as part of a clean-up effort. Raised B3188 to be aligned with the rest of the windows.
+New\ \[0, 1, CW\] Nudged 166BEF, 166BEE, 166B37, 166B36 to close a tiny gap in the wall. Also swapped out 166B37, 166B36 for their non-full version to reduce draw calls.
+New\ \[CambridgeCraterExt02\] Disabled 17E502, 153A13, 153A14, 153A15, 153A17, 153A16 as part of a clean-up effort.
+New\ \[-2, 2, CW\] Swapped 1E23C3 for its full version and adjusted it to close a small gap in the building. Disabled 1E23C3 and nudged 1E23C4 as part of the previous fix.
+New\ \[FraternalPost115Ext\] Disabled 20A2C4, CC113, CC114, CC117, CC116, CC118, CC115, CC165 as part of a clean-up effort.
+New\ \[CambridgePDExt02\] Adjusted 559BB, 19AECF, 218959, 559B5 slightly to clean up the planter and close some gaps in the building.
+New\ \[JalbertBrothersDisposalExt\] Disabled D8822, D87F5 as part of a clean-up effort.
+New\ \[-18, 13, CW\] Disabled 18F0C8, 27CF1 as part of a clean-up effort.
+New\ \[-17, 14, CW\] Disabled 18FE74 as part of a clean-up effort.
+New\ \[GorskiCabinExt\] Moved up 18FE8C from under the landscape so the bush is actually visible.
+New\ \[POIJS023\] Moved up 199B36 from under the landscape so the vines are actually visible on the tree.
+New\ \[-22, 7, CW\] Tweaked the rotation on 9D077 to make sure the bush was no longer floating.
+New\ \[POIJS021\] Disabled A061C as part of a clean-up effort. Moved up A0618 from under the landscape so the bushes are actually visible.
+New\ \[-17, 12, CW\] Disabled 64713 as part of a clean-up effort.
+New\ \[10, 1, CW\] Adjusted 13B372 so that the AC vent is no longer floating. Swapped out 135825 for a different building ref to reduce draw calls. Also swapped 135826, 135822, 13B33D for regular roof pieces to reduce draw calls.
+New\ \[10, 2, CW\] Swapped 13B33E for a regular roof piece to reduce draw calls. Disabled C0641 as part of a clean-up effort.
+New\ \[EastBostonPrepSchoolExt\] Disabled ACBF7, A57C5, A57CC, A57CB, A57C8, A57C6, A57C9, A57C7, 9F782, 9F781, 9F780, 39A17 as part of a clean-up effort. Swapped ACBF3 for a regular roof piece to reduce draw calls. Moved A57D7 out of the building into the nearby doorway. Nudged 9F7B0, 9F7B1, C0429 so they are attached to the wall and not floating.
+New\ \[EastBostonPrepSchoolExt02\] Swapped DF0AE for its full version to close a gap underneath the door above. Nudged B8EC3 a tiny bit to prevent some z-fighting with the building.
+New\ \[DNPrimeBridge01\] Swapped E4710, ACBF4, E4712 for regular roof pieces to reduce draw calls.
+New\ \[EastBostonPDExt\] Swapped out 1867CF, 1867D0, 1867D4 for their non-full versions to reduce draw calls.
+New\ \[8, 3, CW\] Adjusted the rotation for 169832 to close a small gap at the bottom of the rock pile.
+New\ \[DNPrimeBridge02\] Disabled 9F790, 9F79B, 9F798, 9F7CC as part of a clean-up effort. Lowered 9F689, A55B2, A55B1, A55B0 so the cart and boxes are no longer floating.
+New\ \[11, 4, CW\] Lowered ACB38, E0CCD so they are no longer floating. Disabled C90F3 as part of a clean-up effort.
+New\ \[8, 9, CW\] Disabled 66129 as part of a clean-up effort.
+New\ \[RevereBeachStationExt\] Tweaked 19F41E slightly so the rubble is no longer floating. Swapped out 17131D, 17131E, 171320, 171321, 171322, 171323, 17134A, 17134C, 19E5BA for their non-full version to reduce draw calls. Raised 1EE61F to the highway above as it was floating in the middle of the air. Adjusted 1FE7F2 to close a small gap in the wall. Nudged 19F40D a tiny bit so it's closer to the wall.
+New\ \[RevereBeachStationExt03\] Nudged 1F3FC5 so the billboard isn't fighting with the wall. Raised 2040DA from under the landscape so it can be visible and close a gap under the doorway.
+New\ \[RevereBeachStationExt04\] Added (New Form ID here) to close a small gap under the doorway. Disabled 1713C2, 171465 as part of a clean-up effort. Swapped 1713C0 for its non-full version to reduce a draw call.
+New\ \[16, 12, CW\] Lowered C35A0 so the grass is no longer floating. Disabled BB8D1, BB8D0, BB8CF, BB8CC, 1B5592, 1B5593, 1B5591 as part of a clean-up effort. Adjusted 1B54FE to align with the other garage walls. Also lowered 1B54F9 to close a small gap in the road.
+New\ \[17, 13, CW\] Raised up C3339 from under the landscape to make the mattress visible.
+New\ \[17, 12, CW\] Disabled C2C76, C334D, C2C77, C2C7D as part of a clean-up effort.
+New\ \[18, 12, CW\] Disabled C2C84 as part of a clean-up effort. Moved 1B54BE so the light is attached to the wall.
+New\ \[NahantPDExt\] Raised up C9E18 from under the landscape so the bramble is visible. Adjusted 1EC9A0, 1CABE9 slightly to prevent them from floating. Disabled C8710 as part of a clean-up effort.
+New\ \[20, 7, CW\] Disabled C9D91, C9D87 as part of a clean-up effort.
+New\ \[CroupManorExt\] Tweaked the rotation for C8CB2 slightly to fix part of the bushes that were floating. Disabled C9E1E, 23D7BE, 23D7B5 as part of a clean-up effort. Raised up C9DFF from under the landscape so the bramble is visible.
+New\ \[22, 7, CW\] Raised up C8C8C, C8C8D from under the landscape so the bark is visible. Moved C9E09 out of the house so the bush is visible.
+New\ \[23, 7, CW\] Disabled CAEC4, CAF26 as part of a clean-up effort.
+New\ \[NahantOceanSocietyExt\] Disabled CA215, CA218, CA219, CA216, 19E5FC, 19CDA0, 19CD9F, 19CDA1 as part of a clean-up effort. Moved CA217 from inside the pier wall so that it can be visible. Raised C9F7C from under the landscape so the tree is visible.
+New\ \[NahantOceanSocietyExt02\] Disabled 19CD9A as part of a clean-up effort.
+New\ \[NahantOceanSocietyExt03\] Moved 1008DB to actually be visible on the exterior wall.
+New\ \[CroupManorExt03\] Disabled C8C93 as part of a clean-up effort. Adjusted 1BB52F in an attempt to stop the leaf pile from floating.
+New\ \[21, 7, CW\] Raised up C9E1D from under the landscape so the bramble is visible.
+New\ \[NahantChapelExt\] Lowered 1CAADC so the Pew is no longer floating above the floor.
+New\ \[19, 6, CW\] Lowered 1CAD6A, 1CAD69, 1CAD66, 1CAD65, 1CAD67, 1CAD68 so the crates are no longer floating.
+New\ \[17, 11, CW\] Disabled C2C74 as part of a clean-up effort.
+New\ \[POIRJ21\] Disabled BB9A2, C9D20 as part of a clean-up effort.
+New\ \[15, 15, CW\] Adjusted the rotation on E77D5 to make the bramble not float above the landscape. Disabled BBA11 as part of a clean-up effort.
+New\ \[15, 20, CW\] Disabled E4BDD as part of a clean-up effort.
+New\ \[ParsonsPOIExt02\] Nudged 23949D to stop the basketball hoop from floating. Disabled EB133, EB102, EB0FD, EB0FC, EB0FB, EB101, EB0FE, EB103, E4AAA, E4AA7, E4B2C, E4B2D, F753 as part of a clean-up effort.
+New\ \[ParsonsPOIExt\] Adjusted E4C65 slightly to stop parts of the bramble from floating.
+New\ \[ParsonsStateExt03\] Disabled 1D576D, 1D5775, 1D5776, 1D5777, 10D02D, 10CE46, 10CE45, 10CE44, 10CE43, 10CE42, 10CE41, 10CE00, 10CDEE, 10CDED, 10CDEC, 10CDEB, 10CDEA, 1358CD, 10CF93, 10CF8E, 10CF89, 10CF80, 10CF7F, 10D086, 10D080, 10D07F, 10D07C, 10D07B, 10D085, 10D07A, 10D079, 10D076, 10CE09, 10CE08, 10CE04 as part of a clean-up effort. Adjusted 1D749F so the grass mound is no longer clipping through the wall. Swapped out 10CFCE, 10CFCB, 10CFCA, 10CFC9, 10CFC8, 10CFC3, 10CFC0, 10CFBD, 10CFBA, 10CF9F for their non-full versions to match the rest of the roof.
+New\ \[ParsonsStateExt02\] Raised up 1847D4, FE8E6 from under the landscape so the shrub is visible. Swapped out 135BA6, 135BA5, 135BA3, 135B8D for DecoMainAPillar02Mid01 because you couldn't see the bottom of the pillars so it was a waste of extra draw calls. Also swapped out 1D7547, 1D7548 for their non-full version to reduce more draw calls.
+New\ \[ParsonsStateExt04\] Disabled 1D7360, 1D7367, 1D7363, 1D7365, 1D7368, 1D7361, 1D7362, 1D7369, E4A55, 13588F, 10CDBE, 10CDBC, 10CDB9, 10CDBD, 10D062, 10CE47, 10CDC4, 10CDC3, 10CF9D, 10CF98 as part of a clean-up effort.
+New\ \[ParsonsStateExt07\] Disabled 10D066 as part of a clean-up effort.
+New\ \[ParsonsStateExt\] Adjusted 1847F6, 1847F7 to make the shrubs visible again from under the landscape.
+New\ \[ParsonsStateExt06\] Tweaked FE8F3 slightly to make the shrub no longer float. Touched up the landscape a bit to close a gap underneath this wall ref 1D758A. Raised up FE8D6 from under the landscape so it is visible. Disabled E775A, E7759, FE8FE as part of a clean-up effort.
+New\ \[ParsonsStateExt05\] Disabled FE8DB, E73A7, E73A6 as part of a clean-up effort. Raised up E7758, FE8DD, E4C29, E4C2A, FE8D7, FE8D8, FE873, E4C28 from under the landscape so they are visible.
+New\ \[13, 22, CW\] Disabled 1D72D4, 1D72D5, 1D72D6, 1D72D7 as part of a clean-up effort. Nudged 1D72CF slightly to prevent some z-fighting with the other stairs.
+New\ \[SalemExt03\] Raised up C8E9B a tiny bit from under the landscape to make it actually visible. Adjusted 1AB106 so the trash pile isn't floating on the outside of the house.
+New\ \[SandyCovesHomeExt\] Disabled C1C7B, C1C7A, BD4F2, C1CA0 as part of a clean-up effort. Adjusted BD4F7 to actually be visible under the boat.
+New\ \[22, 19, CW\] Disabled BD4CC, BD4CB, 23AC32 as part of a clean-up effort. Swapped 58632 for a normal trash pile as the original static looked out of place. Adjusted 49A7C, 49A7D, 49A80 to close gaps on either side of the walls in the building. Lowered 50F51 so the crate is no longer floating.
+New\ \[22, 18, CW\] Disabled BD4D0 as part of a clean-up effort.
+New\ \[BarneysBunkerExt02\] Adjusted 12365C to align with the other walls in the house. Also adjusted 49B0C, 19C541, 49B0B slightly to stop the plants from floating.
+New\ \[BarneysBunkerExt04\] Lowered 18E9AB so the bramble is not floating.
+New\ \[BarneysBunkerExt\] Nudged 1A5CD6 so the poster is not floating from the wall.
+New\ \[MassFusionContainmentShed\] Disabled 1419F8, 1419DD, 1419DE, 1419DF, 1419CF, F9D7E, 8430D, 1419CE as part of a clean-up effort. Adjusted 1E6C9A a tiny bit to stop the rubble from floating.
+New\ \[5, 19, CW\] Disabled 8430F, 8430C as part of a clean-up effort.
+New\ \[4, 18, CW\] Lowered 1419B2 so the plants are no longer floating. Disabled 8430A, 8430B, 843F7 as part of a clean-up effort.
+New\ \[WestEverettEstatesExt\] Lowered 1B9794 a tiny bit to stop the meat bag from floating.
+New\ \[MedfordMemorialExt\] Disabled 102301, 10235C, 10235E, 102304, 102310, 102373, 10230E, 1023B8, 102360, 102361, 1022FE, 102358, 10236C, 102362, 102439, 10235D, 102379, 102562 as part of a clean-up effort. Added (Form ID here) to cover a large gap in the roof of the hospital. Swapped 10235B for its full version to close another gap in the roof. Adjusted 1E4B4E, 1E4B4B slightly to fix some floaty bits. Disabled 222478 as it was causing occlusion issues with the wall behind it that wouldn't go away through placement adjustments.
+New\ \[3, 15, CW\] Swapped out 1EE1E6 for a regular wall version to reduce draw calls. Disabled 1EE1E7, 1E68E7, 1EE166 as part of a clean-up effort.
+New\ \[SlocumsJoeHQExt\] Disabled 1EE03A as part of a clean-up effort. Adjusted 1C9417 to no longer be clipping through the wall.
+New\ \[WildwoodCemeteryExt05\] Lowered 1E0241 so the rubble is no longer floating.
+New\ \[-5, 15, CW\] Tweaked 1E0170 to try and prevent the rubble from floating in places.
+New\ \[-15, -13, CW\] Disabled 16816D, 16816E, 168170 as part of a clean-up effort. Lowered 176FCD to stop the tree from floating.
+New\ \[5, 3, CW\] Disabled 1F17CF, 1F17D3 as part of a clean-up effort.
+New\ \[-5, 1, CW\] Removed the enable parent from 185792, 185797 to allow them to be precombined. Disabled 13AF1B, 13AF1C, 1A64BB, 16BDAE, 16BDAF as part of a clean-up effort.
+New\ \[-6, 1, CW\] Disabled 154E83 as part of a clean-up effort. Nudged 17299A, 172996, 17297D, 172995 in an attempt to fix some z-fighting trash decals. Removed the matswap on 154CE3 so the stairs match the ones next to this ref. Adjusted BB13A so the chalk board is not floating from the wall.
+New\ \[InstituteExt\] Disabled 5CB16, 5CB18, 5CB19, 5CB1A, 1D911D, 1D9143 as part of a clean-up effort.
+New\ \[-3, -1, CW\] Swapped out A6E5D for its full version to close a small gap above the wall. Nudged A3352 a tiny bit to fix the z-fighting with the other trim piece. Disabled 17293C, 17293D, A33F2 as part of a clean-up effort. Swapped out 2459E4, 2459EE, 2459F0 for their non-full versions to reduce draw calls. Removed the Enable Parent from 84B84, 84B72, 84B71, 84B85, 84B70, 84B83, 84B6C, 84B6F, 84B61, 84B8E as it was preventing the refs from being precombined.
+New\ \[-3, 0, CW\] Disabled 1A6511 as part of a clean-up effort.
+New\ \[-4, 0, CW\] Nudged C0970 so the posters are not floating from the wall. Also adjusted 1A65BD slightly to try and fix some z-fighting at distance.
+New\ \[FensBrookelineBuildingExt\] Lowered 22F604, 22F605 to not be floating above the floor. Disabled 113FCF as part of a clean-up effort.
+New\ \[-1, -5, CW\] Disabled 17C43F, 17C492, 17C43B, 1B599, 1B59A, 17C400 as part of a clean-up effort. Nudged 190347 to be attached to the wall and moved the splines 190353, 190354 to match the utility mount new position. Swapped out 17C470, 17C474, 17C550, 17C551, 17C411 for their non-full versions to reduce draw calls. Swapped out 17C444 for a different wall as the doorway just didn't look right from the outside. Also disabled 22127F as part of this change.
+New\ \[TrinityPlazaExt\] Adjusted 20C936, 20C937, 182F5F so they are no longer floating above the ground.
+New\ \[-22, 15, CW\] Disabled 297EF as part of a clean-up effort.
+New\ \[-22, 16, CW\] Adjusted the rotation on 1986A5 so that part of the shrub is no longer floating.
+New\ \[SanctuaryExt\] Disabled 23C08 as part of a clean-up effort.
+New\ \[SanctuaryExt09\] Disabled 2181E, 2181F, 2181D as part of a clean-up effort.
+New\ \[SanctuaryExt07\] Disabled 2774E as part of a clean-up effort.
+New\ \[POIJoel07\] Adjusted 82510 so the car is not floating above the ground.
+New\ \[ConcordMuseumExt02\] Adjusted the rotation on 2B4B3 so the shrub is no longer floating.
+New\ \[Vault75\] Disabled 19ED17, 19ED69, 19ED0D, 1E3430, C0581, FCBA7 as part of a clean-up effort. Nudged 1D9CD9 a tiny bit to prevent some z-fighting with another floor piece.
+New\ \[Vault75Ext02\] Lowered 1F5739, 1F573A, 1F573C so the trash is no longer floating.
+New\ \[-7, 0, FH\] Disabled 0300D2EE, 0300D2EC as part of a clean-up effort.
+New\ \[EchoLakeLumberExt03\] Raised up 0303762D from under the landscape so that the bush is visible.
+New\ \[FarHarborExt\] Disabled 03016140, 0301613F, 0301613C, 0301613B, 0301613A, 03016136, 03016135, 03016139, 03016138, 03016137 as part of a clean-up effort.
+New\ \[12, 7, FH\] Swapped out 03029BB9, 03029BB8, 03029BB7, 03029BB6, 030023DA, 030023D8 for their non-full version to reduce draw calls.
+New\ \[GoodneighborOldStateHouse\] Swapped out CB76C, CB75C, CB75D, CB75E, CB75F, CB760, CB761, CB762, CB763, CB764, CB765, CB766, CB767, CB768, CB769, CB76A, CB76B, CB77B, CB781, CB782, CB783, CBA1A, CBA1B, CBA1C, CBA1D, CBA1E, CBA1F, CBA20, CBA21, CBA2E, CBA2F, CBA30, CBA31, CBA32, CBA33, CBA34, CBA35, CBA36, CBA37, CBA38, CBA39, CBA3A, CBA3B, CBA3C, CBA3D for their non-full versions to reduce draw calls.
+New\ \[DLC04WWMineCart01\] Disabled 0604C59A, 0604C598, 0604B8CF, 0604BC1F, 0604BC06, 0604BBA7 as part of a clean-up effort. Swapped out 0604BA18, 0604BA13, 0604BA12, 0604BA0D, 0604B9EB, 0604B9E7, 0604B7CF, 0604B7CE, 0604B798, 0604B791, 0604B77A, 0604B778, 0604B776, 0604B774, 0604B772, 0604B771, 0604B76F, 0604B76C for their non-full versions to reduce draw calls. Adjusted 0604ED92, 0604ED8F so the paintings are no longer floating. Raised 0604EDB7 from out of the floor below so the debris is visible.
+New\ \[GoodneighborWarehouse03\] Nudged 10AB0D so the sign is attached to the wall instead of floating. Disabled CB3C4, CB412 as part of a clean-up effort. Swapped out CB3F0, CB3F1, CB3F2, CB3F3, CB3F4, CB3F5 for their non-full version to reduce draw calls.
+New\ \[DLC03HarborGrandHotel01\] Swapped out 03034CBD, 03034CBC, 03034CB2, 03034CB1, 0301BAB3, 0301BAB2, 0301BA8D, 0301BA8C, 0301BA8B, 0301BA56, 0301BA55, 0301BA54, 0301BA50, 0301BA4C, 0301BA49, 0301BA43, 0301BA34, 0301BA31, 0301BA30, 0301BAFA, 0301BAF9, 0301BABD, 0301BAB9, 0301BAB7, 0301BA4D, 0301B8AC, 0301B8AB, 0301B8AA, 0301B8A9, 0301B89F, 0301B89E, 0301B89D, 0301B89C, 0301BB48, 0301BB46, 0301BB41, 0301BB3D, 0301B8FA for their non-full versions to reduce draw calls. Disabled 0301BC39, 0301BBCB, 0301BBCA as part of a clean-up effort.
+New\ \[DLC04HubOperatorLair01\] Swapped out 0604E28C, 0604E28B, 0604E28A, 0604E289, 0602C2CE, 0602C2CD, 0602C2CC, 0602C2CB, 0602C2CA, 0602C2C9, 0602C2C8, 0602C2C7, 0602C2D5, 0602C2D4, 0602C2D3, 0602C4BC, 0602C4BB, 0602C32F, 0602C32E, 0602C329, 0602C328, 0601CECD, 0601CECC, 0601CECB for their non-full version to reduce draw calls. Disabled 0602C2B5, 0602C2B4, 0602C2B2, 0602C2B1, 0602C2B0, 0602C2AF, 0602C2AE, 0602C2AD, 0601874A, 06018EF3, 06018EF2, 06018EF1 as part of a clean-up effort. Nudged 0603FF4C, 0603FF4B so the posters are flush against the wall.
+New\ \[OldNorthChurch01\] Disabled 6A88A, 6A88E as part of a clean-up effort.
+New\ \[CambridgeChurchGraveyard01\] Disabled 1BAE7D, 1BAE7E, 1BAEEE, 1BAEEF, 1BAE0C, 1BAE11, 1BAE52, 1BAE50, 1BAE51, 1BAE81, 1BAE82, 1BAE0D, 1BAE0E, 1BAE44, 1BAE45, 1BAE46 as part of a clean-up effort.
+New\ \[TrinityChurch01\] Swapped out E7E95, E7E96, E7D1C, E7D1D, E7D1E, E7D3F, E7D40, E53B2, E53B3, E53B4, E7E92, E7E93, E7EC5, E55D4, E55D2, E55D3 for their non-full version to reduce draw calls. Disabled E7E9D, E54A4, E6094, E7F08, E54BC, E54C0, E54C1, E55DA, E7E9F, E5638, E5637, E5639 as part of a clean-up effort. Adjusted E5376 slightly to align with the opposite roof piece.
+New\ \[CambridgeKendallHospital01\] Swapped out 20A5A2, 20A5A3, 20A5B0, 20A5B1, 20A5B2, 1ED880, 1ED881, 1ED882, 1ED883, 20A5D5, 20A5D6, 1F0F71, 1F0F76, 1ED9B1, 1ED9B2, 1EDA23, 1EDA24, 1EDA25, 1EDA26, 20E7E3, 1F0F3A, 1F0F3B, 1F0F3C, 1F0F3D, 1F0F3E, 1F0F3F, 1F0F40, 1F0F44, 1E9637, 1ED829, 1ED82A, 1ED849 for their non-full version to reduce draw calls. Disabled 1F3F16, 1ED813, 1ED814, 1ED815, 1ED818, 1ED819, 1ED81A, 1F3DE8, 1F3DE4, 1EDC6F, 1EDD06, 1EDA06, 1F1E30, 1ED9E3, 1EDCCE, 1EDCCF, 1EDCD0, 1EDCCB, 1EDCCC, 1EDCCD, 1EDC0C, 1EDC0D, 1EDC03, 1F0F42, 1F0F43, 1EDB3F, 1EDB40, 1EDB41, 1EDB42, 1E95CE, 1E960A, 1F3F05, 1EDD74, 1EDD72, 1EDD70, 1EDD6F, 1EDD6D, 1E95C8, 1E95C9, 1EDD66, 20E6E1 as part of a clean-up effort. Adjusted 22CA36 slightly to prevent the trash pile from clipping through the floor.
+New\ \[FaneuilHall01\] Swapped out 1958CB, 61ABD, 61369, 6136A, 6136B, 61AC6 for their non-full version to reduce draw calls.
+New\ \[LaytonTowers01\] Swapped out 15DB83, 160DAA, 160FF1, 160FF2, 16109A, 1613F2, 16155E, 161568, 161569, 16156A, 1615AC, 1619BD, 161AD9, 161ADA, 161ADB, 161ADC, 161ADD, 161ADE, 2280E6, 21A16D, 21A16C for their non-full versions to reduce draw calls.
+New\ \[EastBostonPrep01\] Swapped out 8376D, 8376F, 83772, 83774, 83777 for their non-full versions to reduce draw calls. Disabled 37B53, 37B54, 37B55, 37DA5 as part of a clean-up effort. Adjusted D0580, 140CA2 so the trash is not clipping through the floor or wall. Nudged C0AFD to actually be attached to the wall. Lowered 8391C, 1B08E9 so they are no longer floating.
+New\ \[CovenantHQ01\] Disabled 4E2C5, 4E2C6, 4E2C7, 4E2C2, 4E2C3, 4E2C4, 4E1E4, 4E22E as part of a clean-up effort.
+New\ \[CorvegaAssemblyPlant01\] Disabled 207DD4, 207DD5, 207DD6, 207DD7, 20789F, 2078D7, 207C0B, 207C0A, 207C03, 207C04, 207FB9, 207FBA, 207C0D, 207C0C, 207FA8, 207FA9, 207FAA, 207FAB, 207FA7, 207FAE, 207FAF, 207FB0, 207FAD, 78B32, 207827, 207E5B, 2079B5, 208339, 208335, 208336 as part of a clean-up effort. Lowered 207A5A, 207E4B so the debris is no longer floating. Adjusted 78B3C, 78B3E, 785F3, 785EF, 208EFD, 208F36, 208EFA, 208EFC, 208EFB,  so they are also no longer floating. Swapped out D41FE, E722D, E722E for a different floor static to reduce draw calls.
+New\ \[0, -4, CW\] Fixed the matswap for 1AEA13, 1785F5 to match the rest of the buildings they're part of. Disabled 1786B5, 1785CF, 1785D8, 1785D9, 1785DA, 17854A, 17857D, 17857E, 17858D, 17858F, 178590, 17854B, 17858E, 184CB1 as part of a clean-up effort. Rotated 1785BE to be aligned with the other windows on the building. Swapped out 1B518E for a different brick wall as the windows couldn't be seen so it was wasting draw calls. Adjusted 1B5184 to be aligned with the rest of the building walls.
+New\ \[HalluciGenExt\] Disabled 85D39, 1AEE02, 1AEE01, 184C80, A1773, A1774, A177E, A177F, 4961B as part of a clean-up effort. Swapped 174C76, 249867 for a different wall that matches the rest of the building.
+New\ \[BeaconHillApartmentsExt03\] Disabled 14524C, 616EE, 616F2 as part of a clean-up effort. Adjusted 211D85, 1CF987, 211D86, 
+New\ \[BeaconHillPlaygroundExt\] Lowered 1C929C, 1C92BB slightly to stop the brambles from floating. Disabled 1CF39C, 147024 as part of a clean-up effort. Swapped out 147036, 147035 for their non-full version to reduce draw calls. Moved 1CF387, 1CF388 to close a small gap in the roof. Adjusted 1CF8EB so the greeble is connected to the wall.
+New\ \[BeaconHillApartmentsExt02\] Swapped out 13D372, 1C916D, 1C736C, 1C916C for a different wall to reduce draw calls. Disabled 672C0, 1794A7 as part of a clean-up effort. Nudged 1C743A over slightly to close a gap between the wall and the planter.
+New\ \[CabotHouseExt\] Swapped out 1C710C for its non-full version to reduce draw calls. Disabled 14A205, 1C3ADB, 1C3ADA, 1C723C as part of a clean-up effort. Lowered C467C to stop the railing post from floating. Nudged 1C703B, 1C7081, 1C7080, 21A17F closer to their wall so they are no longer floating. Also moved 16D428 over a tiny bit to close a small gap between the buildings. Adjusted 1D138D to close a gap in the sidewalk. Also adjusted 1C39DE, 1C39DD as they were hanging over the edge of the roof and creating a gap at the bottom.
+New\ \[4, 1, CW\] Disabled 1697A0 as part of a clean-up effort.
+New\ \[5, 1, CW\] Moved 1697C9 from under the landscape so that it is visible.
+New\ \[FensRaiderCampExt02\] Disabled 19138, 2E07E, 2E07F as part of a clean-up effort.
+New\ \[POIDeathclawDen01b\] Disabled D24DD, CAC09, C8D6C, CAC08, C8D65 as part of a clean-up effort. Adjusted C945D, C945E slightly so the brambles are no longer floating.
+New\ \[NationalGuardTrainingYardExt\] Swapped out 660D0 for its non-full version to reduce draw calls. Disabled 66092, E31DC, B10B6, B1043, 66083 as part of a clean-up effort. Aligned 6619C, 6619D with the rest of the walls in the building which closed a small gap.
+New\ \[9, 8, CW\] Disabled E32BD, 66094, 66096 as part of a clean-up effort. Nudged 759CC a tiny bit as it was clipping through the roof. Raised 1B8335 due to the debris z-fighting with the road below.
+New\ \[VitalePumphouseExt\] Adjusted 66C12 a tiny bit to fix a small gap in the road. Disabled 66C03, 66BE1, 66BE3, 66BE5, 66BE6, 66BF9, 66BFA, 66BFB, 66BFC, 66BFD, 66BFE, 66BFF, 66C00 as part of a clean-up effort.
+New\ \[LongneckLukowskisExt02\] Disabled 242D0, 3D82F, 3D82E, 3D82C, 3D82D, 3D7F1, 3D7E6 as part of a clean-up effort. Swapped out FF2AE for its non-full version to reduce draw calls. Adjusted BE869, BE840, BAF1B, 1B5393 so the plants are no longer floating. Moved BE845 from under the landscape so that it is visible. Lowered ADCBF so the crate is no longer floating.
+New\ \[20, 13, CW\] Disabled 159517, 159510, 159514 as part of a clean-up effort. Adjusted 15950A, 15950F to be no longer hidden under the landscape.
+New\ \[21, 13, CW\] Adjusted 159697, 159533, 1B56CF so they are no longer floating.
+New\ \[KingsportLighthouseExt02\] Disabled B9791, BACD6, B9779, B977B, B977C, B977E, B9793, CF45A, B979A, B979B, B9799 as part of a clean-up effort.
+New\ \[KingsportLighthouseExt04\] Disabled 140F0F as part of a clean-up effort.
+New\ \[KingsportLighthouseExt03\] Moved up B976C, ADEB0, B9782 from under the landscape so they are actually visible. Disabled B976D as part of a clean-up effort.
+New\ \[KingsportLighthouseExt\] Lowered 1B05F2 so the shrub is no longer floating. Adjusted CA0A9 so the grass is no longer floating.
+New\ \[CraterHouseExt02\] Disabled C9B82 as part of a clean-up effort.
+New\ \[LongneckLukowskisExt\] Disabled BB986, BB985, BB987, BBB3E as part of a clean-up effort.
+New\ \[6, 15, CW\] Adjusted 10204D, 10204C so the brambles are no longer floating.
+New\ \[6, 14, CW\] Adjusted 102091 to stop the shrub group from floating.
+New\ \[OldGulletSinkholeExt\] Disabled 109847, 109848, 109853, 109852, 109857, 10984D, 10984E, 109817, 109819, 109813, 109827, 10981F, 10984A, 10984F, 10982A, 109845, 109855, 109828, 10984B, 109851, 109850, 10984C, 109856, 109822, 109814, 109846, 109854, 3A8A5 as part of a clean-up effort. Nudged up 3A8A4 to close a small gap leftover from disabling 3A8A5.
+New\ \[5, 6, CW\] Disabled 42CE9, 42CEA as part of a clean-up effort. Adjusted 42902 to actually be attached to the wall and not floating.
+New\ \[CharlesViewAmpitheaterExt02\] Disabled 23286D as part of a clean-up effort. Lowered 1D1D75, 1D1D74, 1D1D73 so the boxes are no longer floating. Swapped out 171875 for its non-full version to reduce draw calls.
+New\ \[GreenetechGeneticsExt\] Adjusted A6F82 to be aligned with the other corner walls.
+New\ \[Riverext01\] Swapped out 2459DF for its non-full version to reduce draw calls. Removed the Enable Parent from 84AC0, 84B35 as it was preventing the refs from being precombined. Raised 16439B, 16439A from under the landscape so they are visible.
+New\ \[-8, -1, CW\] Adjusted 160111 slightly to stop part of the shrub from floating.
+New\ \[JamaicaPlainExt09\] Disabled 5A205, 5A209 as part of a clean-up effort.
+New\ \[5, -7, CW\] Moved C7E9C to a flatter part of the road as it was originally floating. Disabled 137840, 13783C, 179AFE, B4199 as part of a clean-up effort.
+New\ \[-2, 1, CW\] Disabled 8805F, 88060, 172469, 17246A, 17246B, 17246C, 17246D, 17246E as part of a clean-up effort. Adjusted 89038 in an attempt to make less parts of the shrub group float.
+New\ \[-2, -11, CW\] Lowered 15ADED as one of the trees in the cluster was floating.
+New\ \[-3, -9, CW\] Raised 183C2D from under the ground so the shrub is actually visible. Adjusted 1B031C, 1B031A to match the nearby floors and walls.
+New\ \[-2, -7, CW\] Adjusted 111AE1, 1B12FE to be attached to their respective walls. Raised B2180 to be flush with the roof next to it and hide a small gap underneath the machine above.
+New\ \[-2, -5, CW\] Swapped out 17C410 for its non-full version to reduce draw calls. Disabled 17C377 as part of a clean-up effort.
+New\ \[CombatZoneExt\] Disabled 1335B3, 1335B4, 1335DB, 1359B2, 1335D5, BF6C0, 17906B as part of a clean-up effort. Adjusted 141880 so it's not submerged in the landscape. Placed (New FormID here) to close a large gap in the building. Swapped BF6C1 for a different corner trim piece to close a gap in the building. Nudged C7E0D, C7AE9 and their connected splines so the utility wall mounts are actually attached to the wall. Also swapped BF6A2 for a DecoBaseA1x1Cor01 and adjusted it to close a gap at the bottom of the wall above.
+New\ \[4, -6, CW\] Disabled 133098, BFC60, ADFC9 as part of a clean-up effort. Nudged BF7CB, A017F so the signs are attached to the wall.
+New\ \[3, -9, CW\] Lowered 2471A5 a tiny bit so the lawn mower isn't floating. Disabled 23C05F, 23C032, 23C034, 23C036, 23C03A as part of a clean-up effort.
+New\ \[TheaterSE\] Disabled 187EA3, 188042 as part of a clean-up effort.
+New\ \[ShamrockTaphouseExt\] Disabled A527E, 179ADC, 179AD9 as part of a clean-up effort.
+New\ \[Financial21Ext\] Disabled 180F42, A3FD9, B8370, 1A8351, 1A82F3, 1A82F5, 1A831E, 1A8317, 1252BE, 1252BD, 1252BC, 134D37, A4042, 180F47, 180F43, 1A8342, 1A8343 as part of a clean-up effort.
+New\ \[18, 14, CW\] Lowered 1BBBC2 so the leaf pile is no longer floating.
+New\ \[DunwichBorersExt05\] Nudged 75588 so the tool rack is attached to the wall. Disabled 4B15B, 4B15D as part of a clean-up effort.
+New\ \[TheSlogExt02\] Disabled 135E43 as part of a clean-up effort. Adjusted FE967, 5A766, 5A767 so the bushes are no longer floating.
+New\ \[TheSlogExt03\] Disabled 135E61, 135E60 as part of a clean-up effort.
+New\ \[5, -1, CW\] Lowered 1CC8B5 so the trash pile is no longer floating. Disabled 179421, 179422, 179423, 179435, 179444 as part of a clean-up effort. Nudged 1C4121, 1C4119, 1C411A, 1C411C, 1C411B closer to the wall so the windows are not floating as much.
+New\ \[BeaconHillBostonBugleExt\] Disabled 1C737A, 68486, 68488, 11EFF0, 11EFF1, 11F018, 11F019, 11F002, 11F004 as part of a clean-up effort. Raised 17949E a tiny bit to fix some z-fighting with the roof.
+New\ \[MassFusionExt02\] Disabled 1210E3, 1210E2, 1210E1, 1210E0, 1210DF, 1210DE, 1210DD, 121203 as part of a clean-up effort.
+New\ \[3, 2, CW\] Swapped 129AFF for its non-full version to reduce a draw call. Nudged 1CBCE9 so the posters are not floating from the wall. Disabled 117B15, 117B14, 117B12, 117B32, 117B89, 117B88, 117B87, 117B86, 117B79, 117B78 as part of a clean-up effort.
+New\ \[BunkerHillExt03\] Added (3 new form ids here) corner wall pieces to close a large gap in a building. Adjusted EC74C, EC74A, EC74B to close another gap in a building.
+New\ \[ReebMarinaExt02\] Lowered 1E80DA, 1E80DC so they are no longer floating.
+New\ \[ReebMarinaExt\] Tweaked 1E81F4 slightly to make the pallet no longer floating above the floor.
+New\ \[14, 3, CW\] Raised 765F0 from under the landscape so it can be visible.
+New\ \[-15, 12, CW\] Disabled 88A3C as part of a clean-up effort.
+New\ \[-9, -5, CW\] Adjusted 204B4A, 204B49 to stop the leaf piles from floating.
+New\ \[8, -20, CW\] Lowered 11CFB8 because one of the trees was floating.
+New\ \[SaugusIronworksExt02\] Lowered 1E6647 so the dumpster is no longer floating. Adjusted 769A5, 2A3A6, 2A3A7 as the metal frames were floating above the ground. Added (2 new form ids here) to connect the frames and be consistent with the surrounding frames. Also lowered 775B9 and the items on the shelf due to the shelf floating above the ground.
+New\ \[SaugusIronworksExt\] Disabled 475A6, 76999 as part of a clean-up effort. Lowered 774E5, 769AA, 2A3B8, 2A3B2 as the metal frames were floating above the ground. Disabled 76914, 76967, 76961 as part of a clean-up effort.
+New\ \[6, 10, CW\] Tweaked 1B4736 so the shrub is no longer floating.
+New\ \[7, 9, CW\] Adjusted the rotation of 1E4E9A to fix a part of the leaf pile that was floating.
+New\ \[MedTekResearchExt\] Adjusted 195E55, to close gaps in the roof of the building. Disabled 1B3187, 195E54, 1B3186 as part of a clean-up effort.
+New\ \[SaugusIronworks01\] Lowered 12F066, 12F069, 12F06A, 12F067, 12F068 so they are no longer floating. Nudged 13100A so the track light is attached to the steel frame.
+New\ \[10, 5, CW\] Lowered 1700A3 so the car is no longer floating in the air.
+New\ \[-23, -5, CW\] Disabled 22DB63 as part of a clean-up effort. Raised 1484F0, 1484EF, 1484F5 from under the landscape so the brambles are visible to the player. Adjusted 1BF5F0, 1BF64B so they are not floating as much.
+New\ \[POIMilitaryMC07\] Disabled 156384, 148631, 156385 as part of a clean-up effort. Raised 148634 from under the landscape so the shrub is visible.
+New\ \[-23, -7, CW\] Adjusted 148539, 14853C, 148538 so the bramble and shrubs are no longer hidden under the landscape. Disabled 14852C, 14852B, 169086, 169083 as part of a clean-up effort.
+New\ \[GreaterMassBloodClinicExt02\] Adjusted 17CE60 to no longer be floating from the wall, also had to move 17CE5F because of this change.
+New\ \[NatickBanksExt02\] Adjusted 231F15, 231F17, 231F16, 231F11, 231F10 so they are no longer floating. Swapped the matswap on 6643B to match the rest of the building. Disabled 82864, 82863, 82860, 8285F, 8282E, 82829 as part of a clean-up effort.
+New\ \[-24, -13, CW\] Disabled DB890 as part of a clean-up effort.
+New\ \[-23, -12, CW\] Raised 764CE from under the landscape to be visible to the player.
+New\ \[RoadsidePinesMotelExt02\] Swapped out C76E2 for a non-full wall to reduce draw calls.
+New\ \[RoadsidePinesMotelExt\] Adjusted 1FA390 to no longer be floating from the wall.
+New\ \[-23, -3, CW\] Tweaked 1BF43B slightly to reduce the floating of the leaf pile.
+New\ \[-23, -1, CW\] Lowered 20DB1E so it is no longer floating.
+New\ \[-23, -2, CW\] Adjusted 1BF45C, 1BF457 to make the debris be on the ground.
+New\ \[WestonWaterTreatmentExt02\] Disabled 7B4EE, 7B4EF, 71E4D as part of a clean-up effort.
+New\ \[PoseidonReservoirExt\] Disabled 9BA43, 9BAEA as part of a clean-up effort. Raised 9BBC9 to close a small gap. Adjusted 91189 so it is no longer floating.
+New\ \[DLC04NukaStationExt02\] Raised 06053C14 from inside the road so it can be visible. Nudged 06053F6C, 0603A4B8 to be closer to the wall so they are not floating.
+New\ \[NatickBanksExt\] Disabled 828DA, 828DB, 828EF, 8292E, 8292D, 8292A, 8292B, 8292C, 8282C, 82828, 8282D, 82929, 82928, 82927, 828ED, 82930, 82933, 82932, 82931, 8292F, 828EE as part of a clean-up effort. Lowered 75F75 so the sink is no longer floating.
+New\ \[MahkraFishpackingExt05\] Adjusted 19B84C, 1075E2 so they are no longer floating.
+New\ \[MahkraFishpackingExt02\] Nudged 107621 closer to the wall.
+New\ \[MahkraFishpacking01\] Adjusted 1C4463, 1C4462, and the junk items on top as the shelves were floating from the wall.
+New\ \[-16, 12, CW\] Lowered 197FDE so the shrub is no longer floating.
+New\ \[Financial06\] Swapped out 1B189B for BldGlassTransExt01OpaqueOnesided to match the rest of the windows and fix an issue where you can see into the void of the cell. This issue has been submitted to UFO4P too but incorporated here too just in case they don't want to fix.
+New\ \[NorthEndGraveyardEXT\] Moved 1C130F so the posters are attached to the wall. Disabled 131F97 as part of a clean-up effort.
+New\ \[USSConstitutionPostExt\] Disabled 120D87, 120D88, C375B, C3753, 47206, 132136, 132124, 132125, 112C9B as part of a clean-up effort. Swapped C3752 for a regular wall to reduce a draw call. Lowered 1C2D36 in an attempt to close a gap at the bottom of this ref.
+New\ \[FaneuilHallExt\] Swapped out 120DA1, 93501 for their non-full versions to reduce draw calls. Adjusted the rotation for 1DF7C1 in an attempt to get the grass to stop floating. Disabled 12C2A6, A3B4A, 11F2C0 as part of a clean-up effort.
+New\ \[9, -3, CW\] Lowered 1B9EA3, 1F8F46 so they are no longer floating.
+New\ \[10, -2, CW\] Raised 161EC7, 161EC5 from under the landscape so they are visible.
+New\ \[WaterfrontExtE\] Tweaked the rotation on 1FACA5 as the mattress was floating.
+New\ \[WaterfrontExtS\] Nudged 203392 closer to the wall so it is no longer floating.
+New\ \[HestersRoboticsExt\] Moved 17FB62 closer to the wall to close a small gap.
+New\ \[BackBayCarDealershipExt\] Disabled 9BF14 as part of a clean-up effort.
+New\ \[BackStreetApparelExt\] Raised 221705 as it was hidden in the floor.
+New\ \[NukaWorldNukaTownUSA01\] Swapped out 06022190, 0602218F for a different wall to reduce draw calls. Disabled 0602ACB1, 0600C4DF as part of a clean-up effort. Added the DLC04NTPowerOff enable marker to 0602A04A as it was missing. Swapped 0602AC9A for its non-full version to reduce a draw call.
+New\ \[NukaWorldNukaTownUSA03\] Disabled 06022199, 06022198, 0602219A, 060221A1, 0602219C, 0602219B, 06022197, 06022196, 0603F1EE, 0605072D as part of a clean-up effort. Lowered 0603F194 so it matches the rest of the roof. Adjusted 060320AE, 060320AD to close a small gap in the roof.
+New\ \[NukaWorldNukaTownUSA02\] Swapped out 0600C40C, 0600C402 for their non-full version to reduce draw calls. Disabled 0600C405, 0600C404, 060220E9, 0600C3AB, 0600C3AA, 0600C3C4, 0600C3B9, 0600C3A0, 0600C384, 06055C20, 06055C1F, 0602352D, 0602352C, 0600C394 as part of a clean-up effort. Nudged 0600C3FC, 0600C3FB so they are properly attached to the wall.
+New\ \[NukaWorldNukaTownUSAGate01\] Disabled 06022127, 06022257, 06022256 as part of a clean-up effort. Swapped 060220F3 for its non-full version to reduce a draw call.
+New\ \[NukaWorldNukaTownUSA04\] Added (New Form ID here) to fill a large gap in a building. Disabled 06024690, 06055C26, 06055C25, 06055C24, 060558E9, 060558E8, 060558E7, 060558E6, 060558E5, 06055C29, 06055C28, 06055C27, 060558E4, 060558E3, 060558E2, 0602466C as part of a clean-up effort. Changed the matswap on 06032001 to match the rest of the trim. Nudged 06031FC4, 06031FC5 to better align them with the tower roof pieces.
+New\ \[NukaWorldNukaTownUSA05\] Disabled 0602469B, 06024633, 06024631, 06024630, 0602462A, 06031FAD as part of a clean-up effort. Nudged 060246D2 slightly to close a gap in the wall.
+New\ \[1, -2, NW\] Added (New Form ID here) to close a large gap in the tower above the gate. Changed the matswap on 060285AB, 060285A9, 060285AA to match the other tower walls.
+New\ \[TiconderogaStation01\] Swapped out 10B9D0, D2DD6, D2DD5, D2DD4, D2DD3, D2DD2, D2DD1, D2DCF, D2DCE, D2DCC, D2DCB, D2DC9, D2DC8, D2DC6, D2DC5, D2DC4, D2DC3, D2DC2, D2DBF, D2DBE, D2DBD, D2DBB, D2DB9, 1B8643, 205E85 for their non-full version to reduce draw calls.
+New\ \[DLC03POI02\] Disabled 03014DF1, 03014DF0, 03014DEF, 030069D6, 03006A6D as part of a clean-up effort. Swapped out 03026C5D for a regular wall to reduce draw calls.
+New\ \[3, -7, FH\] Disabled 03006A26, 030069EF, 030069F3, 030069E3, 03006A0D as part of a clean-up effort.
+New\ \[12, 0, FH\] Disabled 030253C3, 0300706D, 0300704D as part of a clean-up effort.
+New\ \[DLC03POI36\] Disabled 030253C2 as part of a clean-up effort.
+New\ \[BeaverCreekLanesExt\] Swapped 0301CC3A for its non-full version to reduce draw calls. Disabled 03003DEE, 030081DB, 030081DC, 0301CC4C as part of a clean-up effort.
+New\ \[CliffsEdgeHotelExt\] Disabled 0301D301 as part of a clean-up effort.
+New\ \[8, 9, FH\] Disabled 03021140 as part of a clean-up effort.
+New\ \[NationalParkVisitorsCenterExt\] Disabled 030060AF, 03008BB0 as part of a clean-up effort.
+New\ \[NukaWorldNukaTownUSA07\] Disabled 0603202C, 060414A1, 060414A3, 060414A2, 060414A4, 06035AE8, 06025B9C as part of a clean-up effort. Lowered 06035B5B so the crate is no longer floating. Nudged 060377B1 to make sure the painting is attached to the wall.
+New\ \[NukaWorldNukaTownUSA08\] Tweaked the rotation on 06035E45 to hide the invisible underside of the mesh. 
+New\ \[KiddieKingdomExt\] Swapped 0601D82A for its non-full version to reduce a draw call. Lowered 06031466 to match the rest of the walls and close a gap. Adjusted 06037564, 06037563 to no longer be floating on the shelf.
+New\ \[KiddieKingdomExt07\] Disabled 06033AF5, 06033AF4, 06033AFC, 06033AFB as part of a clean-up effort. Moved up 060497AE from under the landscape to close a gap in the corner of the tower.
+New\ \[KiddieKingdomExt02\] Adjusted 060314C2 to stop it from clipping through the wall.
+New\ \[KiddieKingdomExt08\] Disabled 0601D120 as part of a clean-up effort.
+New\ \[-1, 0, NW\] Adjusted 060322B7 slightly to try and fix the debris floating on one side.
+New\ \[DLC04GalacticZoneExt04\] Lowered 060440EA so the crate is no longer floating.
+New\ \[DLC04GalacticZoneExt09\] Disabled 06012A13, 0600DE51, 06012732 as part of a clean-up effort.
+New\ \[-5, 1, NW\] Disabled 06012A0F, 06012A0E, 06012A0D as part of a clean-up effort.
+New\ \[DLC04GalacticZoneExt08\] Disabled 0600DCA8, 0600DCA7 as part of a clean-up effort.
+New\ \[DLC04GalacticZoneExt07\] Disabled 06012489, 0602CB58 as part of a clean-up effort.
+New\ \[DLC04GalacticZoneExt03\] Disabled 0601244B, 0602CB3E as part of a clean-up effort.
+New\ \[-2, -2, NW\] Disabled 0602805D as part of a clean-up effort.
+New\ \[-13, 11, CW\] Adjusted 199B70 to fix part of the shrub that was floating. Tweaked 1BCC9E to also fix some floating trash.
+New\ \[23, 19, CW\] Lowered 1AE14C, 1AE14B and the vases 1AE13F, 1AE140 on top of them so they are no longer floating.
+New\ \[21, 18, CW\] Raised 12F0D0 from under the landscape so it can be visible.
+New\ \[16, 13, CW\] Nudged 1E674A to the wall so the painting is not floating.
+New\ \[HubCityAutoWreckersExt02\] Adjusted 1242CA from under the landscape so it can be visible.
+New\ \[POISC08\] Disabled 1425CE as part of a clean-up effort.
+New\ \[-7, 24, CW\] Moved up 9F8F9 from underneath the landscape so it can be visible.
+New\ \[BostonPoliceRationingSiteExt02\] Disabled 43D39 as part of a clean-up effort.
+New\ \[RevereBeachStation01\] Nudged 35A49 so the sign is against the wall. Lowered 19E252, 1936D2 as the benches were floating.
+New\ \[-2, -8, NW\] Disabled 06020D3F as part of a clean-up effort. Added the DLC04NIPowerOff Enable Parent to 06016261 as it was missing and causing z-fighting with the powered on street lamp.
+New\ \[InstituteExt03\] Removed the enable parent from 185794 to allow it to be precombined. Disabled 1E744B as part of a clean-up effort.
+New\ \[-6, 0, CW\] Added the CITPreBoom enable parent and layer to 16A1F6, 0800109A, 0800109B so they are hidden when they should be. Disabled AAE86, AAEA6, 1D9253, 1D925E, 1D925B as part of a clean-up effort.
+New\ \[-19, 20, CW\] Moved up 2C767 from inside the terrain shelf so that it can be visible.
+New\ \[-1, 24, CW\] Lowered 6592A so the shrub is no longer floating.
+New\ \[DLC01LairExt\] Lowered 142F65 to stop the crane from floating. Disabled 163451 as part of a clean-up effort.
+New\ \[-14, 2, CW\] Nudged 1B64ED a tiny bit to fix the trash z-fighting with the road.
+New\ \[POIJoel06\] Lowered 20CEAF so the wooden crate is no longer floating.
+New\ \[-4, -2, CW\] Removed the Enable Parent from 84B57 as it was preventing the ref from being precombined.
+New\ \[CambridgePDExt\] Disabled 1739A6, 55BCA, 6373E, 6373F as part of a clean-up effort. Nudged 1A8485, 1B9F66, 1B9F64, 1B9F65 very slightly to close a small gap between the walls and the roof above.
+New\ \[USSRiptideExt02\] Raised 1D9214 from under the landscape so that it is now visible. Disabled 16940A, 169409 as part of a clean-up effort.
+New\ \[-7, -2, CW\] Raised 16AD84 from under the landscape so the seaweed is visible.
+New\ \[QuincyRuinsExt02\] Disabled 1D9657, 1D9658, 1D9659 as part of a clean-up effort. Swapped 8B50D for its non-full version to reduce draw calls.
+New\ \[QuincyRuinsExt05\] Swapped 11D141, 11D142, 11D169, 11D26C, 11D278, 11D277, 11D279 for their non-full versions to reduce draw calls. Disabled 11D2E0, 11D2DF, 11D2DB, 11D2E2 as part of a clean-up effort.
+New\ \[QuincyRuinsExt03\] Swapped 11D143, 11D144, 11D162, 11D163, 11D164, 11D165, 11D166, 11D167, 11D168 for their non-full version to reduce draw calls.
+New\ \[FortStrongExt07\] Disabled CAFD2 as part of a clean-up effort. Swapped 1DF1DF for a more appropriate wall piece and changed the matswap to match the rest of the building.
+New\ \[FortStrong01\] Nudged 1EBC91 so the poster is flat against the wall. Disabled 3FCFA, 3FCFB, 3FCFC, 3FDA0, 3FDA2, 3FDA6, 3FE19 as part of a clean-up effort. Swapped 3FD37, 3FD3A, 3FD3C for their non-full version to reduce draw calls.
+New\ \[BostonAirportExt01\] Lowered 1D4E3F, 215CC2, 1D4E43, 1D4E42, 1D4E44 so they are no longer floating above the ground.
+New\ \[12, 6, CW\] Lowered 169805 to try and make the car not float as much.
+New\ \[BostonAirportRuins01\] Nudged 20BC35 so the sign is attached to the wall and not floating.
+New\ \[0, 0, CW\] Swapped A715C, A7085 with their non-full versions to reduce draw calls. Fixed the matswap on 16CCB6 and A7194 to match the other blue painted walls. Disabled A7168 as part of a clean-up effort.
+New\ \[-7, -5, CW\] Nudged 1B608A, 20468B so they are no longer floating from their respective walls. Adjusted 1B6028 slightly to fix some z-fighting between two floor pieces. Moved 209767 to prevent some z-fighting with the other trash.
+New\ \[-9, -3, CW\] Adjusted 2030D5 to try and stop the leaf pile from floating.
+New\ \[-12, 0, CW\] Disabled 13B611 as part of a clean-up effort. Raised 13B5DF from under the landscape so it is visible and fixed the rotation slightly.
+New\ \[-15, -3, CW\] Lowered 2210C9, 2210D2, 2210D1, 2210C4, 2210D3, 2210CB, 2210CC so all of the stains aren't floating just above the walls.
+New\ \[ForestGroveMarshExt03\] Lowered 2210C5, 2210C7, 2210C6, 2210C8 so all of the stains aren't floating just above the walls.
+New\ \[-14, -3, CW\] Lowered 2210CD, 2210CE so all of the stains aren't floating just above the walls.
+New\ \[ForestGroveMarshExt06\] Adjusted 22112A so the greeb is attached to the building properly.
+New\ \[MQ106TrackingSite04\] Raised 14263A, 142638 from under the landscape so they can be visible.
+New\ \[-18, -6, CW\] Raised 13B22B, 13B221 from under the landscape so they can be visible.
+New\ \[-12, -20, CW\] Adjusted 1CFEEC slightly in an attempt to hide some of the floating parts of the leaf pile.
+New\ \[-14, -19, CW\] Tweaked 1FFA17, 1FFA64, 1FFA63, 1FFA61, 1FFA60, 1FFA44, 1FFA45, 1FFA4C, 1FFA4D, 1FFA49, 1FFA46, 1FFA47, 1FFA4B, 1FFA4A, 1FFA6A so the trash piles and pallet are not floating. Raised 1FFA3B slightly to stop the wheel from clipping through the highway underneath.
+New\ \[-18, -13, CW\] Lowered 1774DC, 17760E so the plants are no longer floating.
+New\ \[-17, -15, CW\] Adjusted 17764A to hide that a large part of the shrub was floating.
+New\ \[-16, -17, CW\] Lowered 1771A7, 1770F4, 1773D1 so the shrubs are no longer floating.
+New\ \[-15, -16, CW\] Tweaked 1CF217 to prevent the leaf pile from floating.
+New\ \[-17, -16, CW\] Lowered 1771CF as one of the trees in the SCOL was floating. Adjusted the rotation on 1771DB so part of the shrub is no longer floating.
+New\ \[BottlingPlantExt02\] Swapped 0601F00D, 0601F011, 0601F012, 0601F01A for their non-full version to reduce draw calls. Disabled 06021403 as part of a clean-up effort. Also swapped 0601D3AC for IndBldShellOutWall04 so it matches the rest of the building.
+New\ \[DLC04BottlingPlant01\] Nudged 06034500 to close a small gap in the roof. Disabled 06044866, 06044865, 06044864, 06044863, 06044862, 06044861, 06044860, 06024CF6, 06024D11, 06024D10, 06024D0F, 06024D0E, 06024D0D, 06024CF9, 06024CF8, 06024CF4, 06024CF3, 06024C94, 06024C93, 06025FFD, 06025F9E, 06025FFE, 06025F9D, 06025FFF, 06025FA5, 06025FA2, 06025F9C, 06025F9B, 06038324, 0603D3B6, 0603D342, 0603D33F, 0603D344, 0603D347, 0604570E, 0604570D, 0604570C, 0604570B, 0604570A, 06045709, 060456EE, 060456ED, 060456EC, 060456EB, 060456EA, 060456E9, 060456F0, 060456EF, 06045710, 0604570F, 0601F16F as part of a clean-up effort. Swapped out 06024C9B, 06024C98, 06024C65, 06024C64, 06024C1B for their non-full versions to reduce draw calls. Fixed the matswap on 060252FF, 06024D76 to match the nearby walls. Also swapped 06027012 for a regular floor to reduce a draw call.
+New\ \[BottlingPlantExt04\] Swapped 0601D3BD for IndBldShellOutWall04 so it matches the rest of the building.
+New\ \[BottlingPlantExt05\] Adjusted 0602B2D1 to fix part of the trash pile that was floating.
+New\ \[SafariAdventure07\] Adjusted 0601BFB4 to close a gap in the wall.
+New\ \[-8, 7, NW\] Lowered 06021634 a tiny bit to fix some z-fighting with the floor.
+New\ \[NukaWorldWildWestExt03\] Nudged 06043B4B to close a small gap in the ground. Disabled 06008033, 06007F8D, 0603D882, 0603D881, 060395AA, 0603D864, 0603D86D as part of a clean-up effort. Lowered 06044B63, 06047CC7 so the vents are no longer floating. Swapped out 0603D899, 0603D88E for their non-full version to reduce draw calls.
+New\ \[NukaWorldWildWestExt02\] Nudged 06043B4C to close a small gap in the ground. Disabled 0600802C, 06008032, 0600803A, 0600803D, 0600803F, 06008038 as part of a clean-up effort.
+New\ \[NukaWorldWildWestExt01\] Adjusted 06043B4D to prevent the gravel from clipping through the wall nearby.
+New\ \[NukaWorldWWSaloon\] Disabled 06007F8B as part of a clean-up effort. Lowered 06047756 so the barrel is no longer floating.
+New\ \[NukaWorldWildWestExt05\] Disabled 06040BD9, 06040BD8 as part of a clean-up effort. Swapped out 06040B9B for a regular wall to reduce draw calls as the doorway is never seen. Adjusted 06047D1C to make the wood crate look more natural and not floating.
+New\ \[NukaWorldWWMineCartExt01\] Disabled 06007FDC, 06024766, 060233E2, 0602599C as part of a clean-up effort.
+New\ \[SafariAdventureGate01\] Swapped 0602590C, 0602590B for a DecoBaseA1x1Wall01 to reduce draw calls and match the other nearby walls.
+New\ \[NukaWorldWWMineCartExt02\] Adjusted 06047743 slightly in an attempt to stop the trash pile from floating.
+New\ \[DLC03VimPopFactory01\] Nudged 0304A1D3, 0304A1D4 so the poster and frame are attached to the wall. Disabled 0301F5A2, 0301768A as part of a clean-up effort.
+New\ \[FensIntersection01\] Swapped 1B3537, 1B3538, 1B353B, 1B3541, 1BBE76, 1BBE77, 1BBE78 for DecoRoof1x1Str01 to reduce draw calls. Lowered 1B3545, 1B3540, 1B3544, 1B3543, 1B3542 to try and prevent z-fighting with the roof above.
+New\ \[DLC03Vault118\] Disabled 03022B43, 03022B89, 03022B88, 03022B7D, 03022B7C, 03022B7E, 03022B7B, 030229ED, 0303D0EF, 0303D227, 0303D226, 0303D228, 0305D75F, 03022948, 03022944, 03022941, 0303D28B, 0303D28A, 0303D289, 0303D288, 0303D287, 0303D286, 0303D285, 0303D284, 03005960, 0300595F, 0300595E, 0300595D, 03022B98, 03022B97, 0303D111, 0303D110, 0303D114, 0303D113, 0303D112, 0303D252, 0303D253 as part of a clean-up effort. Nudged 0304BF58 to stop the debris decal from z-fighting with the elevator. Lowered 0304E713 so the terminal is no longer floating.
+New\ \[DLC04GZVaultTec01\] Disabled 0604DD16, 06010985, 06010984 as part of a clean-up effort.
+New\ \[4, -8, CW\] Raised D3D73, 1880CE to close a small gap at the bottom of the walls above. Disabled D0DC4, D0A48, D0A47, BEC23, D0DBE, D0DC1, B96CC, D0A43 as part of a clean-up effort. Adjusted 21F55D, 21F55C, D0DF9, D0DFA, B96CD, B96CF, D0DF8 so they are properly attached to the wall. Also moved 13F6B4, 13F6B5, B96B7, B96B8 due to them floating on the rooftop of the building.
+New\ \[GoodneighborOrigin\] Adjusted 67247, 67246, 1110AE, 2056C8, 672B7, 6A551, 2056D4, 13A148, 2487A5, 248793, 237C69, 237C6A, 237C6D, 237C6C, 1B026F, 248795, 237C34, 248DC5, 2173D7, 2173D8, 237C32, 115CAE, 67403, 2173DA, 672D4, 672E7, 232754, 237C66, 6737E, 6737D, 2487A9, 2056AF, 205644, 205642, 237C6F, 67239 so they are no longer floating. Nudged 2327A2 to be closer to the surface of the wall. Moved 110FA4 outside of the wall it was placed in so the sign is actually visible. Also raised 67196 from under the landscape so it can also be visible. Disabled 237C2A, 1140FD, 1140FF, 114101, 6719B, 2327D6, 1110A1 as part of a clean-up effort. Swapped 11580F, 115810, 678A1 for their non-full versions to reduce draw calls. Lowered 107C84 to fix some z-fighting with the floor above. Tweaked 110FCB, 110FF7 to better center the lamp posts with the pillars.
+New\ \[GoodneighborAlleys\] Adjusted 1110AF, 67237, 23276A, 23276B so they are no longer floating.
+New\ \[5, -2, GN\] Disabled 6722F, 6736B as part of a clean-up effort. Adjusted 23273E, 67230, 23273C in an attempt to make them not float as much from the ground.
+New\ \[DiamondCityOrigin\] Adjusted 18F8F, 181E9, 181E8, 1811E7 so they are no longer floating.
+New\ \[DiamondCityWall\] Raised 17CFB, 17CFC, 17CFD from under the landscape so they are properly visible. Disabled 1435, 1436 as part of a clean-up effort.
+New\ \[1, 1, DC\] Adjusted 22F10C in an attempt to stop a lot of the shrubs from floating. Disabled 1520, 154B, 17CF1, 17CF2, 17CF3, 17CF4 as part of a clean-up effort.
+New\ \[1, 0, DC\] Adjusted B15BC, 18FA3 to stop them from floating.
+New\ \[GoodneighborTheMemoryDen\] Nudged 23B6E9 as close as possible to the wall without one of the bricks clipping through. Adjusted 115C13, 115C14, 10AF40 so they are no longer floating.
+New\ \[Various\] Marked Supermutant-Clutter06 as non-occluder to fix a previs issue where this SCOL is used.
+New\ \[18, 13, CW\] Disabled BAF38 as part of a clean-up effort.
+New\ \[OldNorthChurchExt\] Lowered 134833 so the lamp post is no longer floating.
+New\ \[7, -1, CW\] Disabled 134809 as part of a clean-up effort. Lowered 1C68E6 as the tree was floating.
+New\ \[PickmanGalleryExt\] Swapped out 18475B for its non-full version to reduce a draw call. Lowered 130C79 to fix the floating roof vent. Disabled 130C68, 130C67 as part of a clean-up effort.
+New\ \[Financial18Ext\] Disabled A1F70, 1E8514, 1A795B, 1A7964, 1A7934 as part of a clean-up effort. Adjusted 1E887A, 1E8876 and their splines so they are no longer floating. Also moved 1A09FE, 1A79C0, 1A09FD so they are properly attached to the building. Nudged 1E872E and the associated splines so the mount is attached to the wall and not floating.
+New\ \[MassBayMedicalCenterExt\] Disabled 172125 as part of a clean-up effort.
+New\ \[DLC04ColaCarsExt\] Swapped 0602AF2D for its non-full version to reduce a draw call. Adjusted 0602AF2B to close a gap at the bottom of the building. Lowered 0602B00D so the greeb is no longer floating.
+New\ \[DLC04GauntletExt\] Disabled 0600C848, 0602AF4C as part of a clean-up effort. Added (New Form ID here) to close a gap at the bottom of the building.
+New\ \[BADTFL01\] Adjusted 1B44A1, 1ADAC0, 1AD245, 148CF1 and 148C9B so they are no longer floating.
+New\ \[SouthBoston35\] Adjusted B2B5B so the power box is not floating from the wall.
+New\ \[CharlestownDrugDen\] Nudged 2258FD to prevent it from flickering.
+New\ \[NationalGuardTrainingYard02\] Adjusted E346B, 1C99B2, E343F, 1C99D2 so they are no longer floating. Nudged 1CB7DB to fix some z-fighting with the rug. Moved 53667, 53668, 53669, 5366A, 53519 to close various gaps in the ceilings. Disabled 53518 as part of a clean-up effort.
+New\ \[6, -5, CW\] Changed the matswap on D0DED to match the other nearby walls. Disabled D0DCC, D0DCD, D0DCE, D0DD7, D0DDA as part of a clean-up effort.
+New\ \[MedfordMemorial01\] Adjusted 20B572, A844F, 17A728, 100929, 20B78D so they are no longer floating. Swapped 4B006, 7DDE7, 4B003, 4B007, A83B8 for their non-full version to reduce draw calls. Disabled 7DA98, 7DA9D, 7DAA5, 7DA9E, 7DBDA, 7DBC9, 7DB2C, 7DB2D, A7BB6, 7DA83, 7DA85, 7DA87, 7DA88, 7DA4D, 7DA4E, 7DA4F, 7DA50, 7DA51, 7DB58, 7DB15, 7DB31, A7B5B, A7B55, A7B5A, 7DC64 as part of a clean-up effort.
+New\ \[FortStrongExt05\] Disabled CAF1D, CAF1E, CADB7, CADB6, CADB8 as part of a clean-up effort.
+New\ \[FortStrongExt04\] Lowered DCC03 so the gravestone is no longer floating. Disabled 1D3256, 1D3264, 1D322D, 1D322C, CAD68, 1D327B, 1D327D, 1D3248, 1D324A, 1D3249, 1D31A2, 1D6EE5 as part of a clean-up effort. Moved 1D324C, 1D324B, 1D322E, CAF1A, CAF1B from under the landscape so they are actually visible.
+New\ \[FortStrongExt06\] Moved CAD83, CB156, CB151 from under the landscape so they are visible. Disabled CAD9A, 1D7057, 1D7165, 1D714D, 1D7154, 1D7150, 1D7059, 1D714E, 1D7164, 1D7058 as part of a clean-up effort. Fixed the matswap on 14BE40, 14BE41, 14BE3B so they match the rest of the building.
+New\ \[13, 4, CW\] Nudged 1F1F0A to be attached to the wall instead of floating.
+New\ \[BeaconHillBostonBugle\] Adjusted 22C374 so it no longer clips through the wall.
+New\ \[BeaconHillPub\] Disabled 219C8E, 16C4CB, 16C538, 16C6A1 as part of a clean-up effort. Nudged 22F11B so the sign is attached to the wall.
+New\ \[BostonPublicLibrary02\] Adjusted 1010A5, 1010A6 to close a gap in the wall.
+New\ \[19, -4, CW\] Swapped CAD14, CAD19 for the SCOL version that has a floor and disabled CAD15, CAD1A as part of this change.
+New\ \[23, 6, CW\] Swapped D15BD for the SCOL version that has a floor and disabled 1BB7D3 as part of this change. Also tried to adjust 1BB7D2 and D15BD to fix tiny gaps in the walls.
+New\ \[SuperDuperMart01\] Nudged 1CA886, 1CA885 forwards slightly to stop some texture fighting.
+New\ \[FortStrongExt03\] Lowered 1D70EC so the hedge is no longer floating.
+New\ \[PrydwenHull01\] Lowered 6E161, 18B93D, 18B93E so they are no longer floating.
+New\ \[RevereBeachStationExt06\] Adjusted 19F457 so the box is no longer floating.
+New\ \[RevereBeachStationExt05\] Moved 24617F, 24617E, 246180, 24617D so the paintings are now attached to the wall.
+New\ \[13, 5, CW\] Raised C8A19, C8A1B from under the landscape to make the grass visible to the player.
+New\ \[SouthBostonExtE\] Disabled 9130B, 912EC as part of a clean-up effort. Swapped out 17084B, 17084D for their non-full version to reduce draw calls.
+New\ \[9, -12, CW\] Moved 1E788D so the billboard sign is attached to the wall.
+New\ \[6, -13, CW\] Swapped out 1D1E61, 1D1E60 for their non-full version to reduce draw calls. Also swapped 1D1E48, 1D1E47 from a window wall to a regular wall to further reduce draw calls.
+New\ \[SouthWestHarborExt\] Swapped 0302F5F9, 0302F5E9 for their non-full version to reduce draw calls. Disabled 03018CDA, 03006C96, 03006C95 as part of a clean-up effort. Adjusted 030069D7 to prevent the stairs from z-fighting with the other stairs next to them.
+New\ \[4, -7, FH\] Swapped 03007804 for its non-full version to reduce draw calls. Disabled 03018CE0, 03018CDF, 03018CDE as part of a clean-up effort.
+New\ \[4, -4, FH\] Nudged 030442CA so the sign is properly attached to the wall. Moved 03015064, 03015042 from inside an inaccessible building so they are actually visible. Adjusted 03015040 to make the ferns properly aligned with the landscape and prevent a lot of them from floating. Disabled 03044296, 0304426B, 03044297 as part of a clean-up effort. Changed the matswap on 0304421B, 0304421C to match the other walls.
+New\ \[DLC03POI58\] Adjusted 03014F4E to prevent some z-fighting with the other sidewalk pieces.
+New\ \[5, -5, FH\] Nudged 0302CCA8 so the clock is properly attached to the wall. Disabled 03014F12 as part of a clean-up effort.
+New\ \[3, -5, FH\] Disabled 03007716, 030282C8 as part of a clean-up effort. Swapped out 03028267, 03028266, 03028265, 03028264, 03028263, 03028262 for their non-full version to reduce draw calls.
+New\ \[6, -6, FH\] Lowered 0302CFE4 so the trash is no longer floating. Nudged 0300B345 so the tool rack is attached to the wall.
+New\ \[8, -6, FH\] Adjusted 030345CA so the posters are properly attached to the board behind.
+New\ \[DLC03POI51\] Moved 0300D077 so the sign is attached to the wall.
+New\ \[FensRaiderCampExt\] Swapped out 1B4303 for its non-full version to reduce draw calls. Also swapped 1B4301 for DecoRoof1x1Cor01Full01 as the original was creating a large gap due to the mesh having no sides. Adjusted 1B608F to be closer to the wall without causing flickering.
+New\ \[FortHagen02\] Disabled A01EC as part of a clean-up effort. Changed the matswap on 9904D, 9904E to match the nearby refs.
+New\ \[BeantownBrewery01\] Disabled 19BBCC, 19BBCB as part of a clean-up effort.
+New\ \[NukaWorldNukaTownUSAMainGate\] Disabled 060221F7 as part of a clean-up effort.
+New\ \[POIRJ04\] Lowered 57E59 so the tree stump is no longer floating.
+New\ \[-25, 12, CW\] Disabled 18285 as part of a clean-up effort. Lowered 1463F6, 1463F7 so the shrubs are no longer floating.
+New\ \[-25, 11, CW\] Adjusted 187ED slightly so the shrub is no longer floating.
+New\ \[-24, 12, CW\] Lowered 96B4F to fix the floating bramble.
+New\ \[RR102RickyPOIStart\] Lowered 199F60 so the shrub no longer floats.
+New\ \[-17, 3, CW\] Raised 155BF4 from under the landscape to make the bramble visible.
+New\ \[3, 6, CW\] Lowered 42D2F, 42D2E so the crates no longer float.
+New\ \[4, 13, CW\] Moved over 1E687D to properly attach the sign to the wall.
+New\ \[EgretToursMarinaExt\] Disabled 108493 as part of a clean-up effort.
+New\ \[-18, 12, CW\] Rotated 197F35 slightly to hide a visible gap at the bottom of the mesh. Painted over a landscape texture seam near 197F92.
+New\ \[-2, -19, CW\] Lowered 1D7788 to prevent the shrub from floating.
+New\ \[POISC03\] Lowered 12B9A3 so the shrub is no longer floating. Disabled 12BCAB as part of a clean-up effort.
+New\ \[POISC07\] Raised 120130 from under the landscape so the cinder block is visible.
+New\ \[13, -23, CW\] Raised 12012F from under the landscape so the cinder block is visible.
+New\ \[WreckoftheFMSNorthernStarExt01\] Adjusted 1CB47C to make the seaweed have a more natural position on the ground.
+New\ \[WreckofTheFMSNorthernStarExt\] Adjusted 209423, 209424, 1FB0D8, 209420 so the grass is no longer floating.
+New\ \[-23, 16, CW\] Fixed a landscape texture seam near 194CFC.
+New\ \[-24, 14, CW\] Fixed another landscape texture seam near 194E78.
+New\ \[-23, 14, CW\] Fixed various landscape texture seams around this ref 194F80.
+New\ \[-25, 14, CW\] Another landscape texture seam fixed near 194F00.
+New\ \[-25, 13, CW\] Very minor landscape texture seam fixed next to 1986B0.
+New\ \[-24, 11, CW\] Fixed a tiny landscape texture seam near 96B75.
+New\ \[-22, 11, CW\] Fixed quite an obvious landscape texture seam underneath 267F5.
+New\ \[-17, 2, CW\] Various landscape texture seams fixed near 14BA6C.
+New\ \[-21, 23, CW\] Did some landscape painting to cover up a texture seam underneath 665B5. Reached the texture limit for a cell so had to make do with what I could.
+New\ \[-22, 24, CW\] Fixed a landscape texture seam near 19C00D.
+New\ \[-22, 25, CW\] Painted over a landscape texture seam underneath 4CB3C.
+New\ \[-21, 25, CW\] Fixed a landscape texture seam nearby 915A3.
+New\ \[-20, 25, CW\] Fixed a landscape texture seam nearby 52C53.
+New\ \[-15, 25, CW\] More landscape texture seams fixed next to 52DC9 and 52DC2.
+New\ \[POIAN01\] Fixed two landscape texture seams near 37DCE and 37DCA.
+New\ \[-12, 25, CW\] Another landscape texture seam painted over next to 31C97.
+New\ \[GeneralAtomicsGalleriaExt03\] Painted over a landscape texture seam next to DF3ED.
+New\ \[LakeQuannapowittExt02\] Fixed a landscape texture seam next to 65A0B. Would have preferred to use the existing riverbed texture but limits in the other cell made that difficult so this will have to do. Another landscape texture seam was also fixed near A7C98 this one was pretty big.
+New\ \[-4, 12, CW\] Large landscape texture seam painted over near 1933C8.
+New\ \[-9, 12, CW\] Fixed a landscape texture seam next to 3C5F1. More texture limit issues with this fix but I did the best I could. Also fixed another landscape texture seam a little bit away from 191BD8.
+New\ \[-11, 11, CW\] Fixed a landscape texture seam close to 8B0C6 and another one a little bit away from 191B82.
+New\ \[WaldenPondExt03\] Fixed a landscape texture seam near 6476B.
+New\ \[POIJS031\] Another landscape texture seam fixed next to 2C254.
+New\ \[POIJS028\] Fixed an egregious landscape texture seam near 199D7F and various other refs it's that big. Not the best patch job but it looks a lot more natural than previously. Also painted over another landscape texture seam next to 199DB5.
+New\ \[-18, 2, CW\] Fixed a landscape texture seam next to 14BB29.
+New\ \[FiddlersGreenExt\] Fixed a small landscape texture seam next to 1BE459.
+New\ \[-24, -3, CW\] Fixed a really minor landscape texture seam close to 94D25.
+New\ \[-23, 0, CW\] Attempted to fix various landscape texture seams around 62A99 but struggled with the landscape texture limit. Might need a proper look at this one and try to improve the look of the painting.
+New\ \[RelayTower04Ext\] Attempted to fix another landscape texture seam that has issues with the ground texture limit. May also need reviewing.
+New\ \[-22, 20, CW\] Fixed two really minor landscape seams near 56531.
+New\ \[POISC16\] Rotated 1F983F slightly to fix a floating box. More landscape texture seam fixes, this time next to 1D8020.
+New\ \[-1, -22, CW\] Fixed some small landscape texture seams around 122464.
+New\ \[POIJS038\] Another landscape texture seam fixed near 122556.
+New\ \[-5, -23, CW\] Fixed a landscape texture seam in the water at the shoreline next to 119F2D.
+New\ \[SwansPondExt\] Disabled 1C873F as part of a clean-up effort. Nudged 18AC37 as part of the fix done to 186EE4. Rotated 1D32E3 slightly to stop the trash from floating.
+New\ \[0, 3, CW\] Disabled 15A407, 1BF7D2, 15A69F as part of a clean-up effort.
+New\ \[POIBoS101\] Rotated 1C6759 as part of the trash was floating. Disabled 15A8F2, 138217 as part of a clean-up effort.
+New\ \[POIJS018\] Disabled 1E9843 as part of a clean-up effort.
+New\ \[KiddieKingdomExt04\] Lowered 06035C73 so the trash is no longer floating.
+New\ \[NukaWorldWildWestGateA02\] Disabled 0602599E as part of a clean-up effort.
+New\ \[DLC04GalacticZoneExt10\] Disabled 0602CAD9 as part of a clean-up effort.
+New\ \[-3, 2, NW\] Lowered 060358A0 so the trash is no longer floating.
+New\ \[-5, -10, NW\] Raised 0600FC16, 0600FC17 from under the landscape so the brambles are actually visible.
+New\ \[-4, -12, NW\] Lowered 0601316C, 0601316D so the barricades are no longer floating.
+New\ \[-2, -4, NW\] Adjusted 06028281 so the road chunk is no longer floating.
+New\ \[PickmanGallery01\] Nudged 20F502 so the picture frame is properly attached to the wall.
+New\ \[CambridgePolymerLabs01\] Nudged B862F so the sign is actually attached to the wall.
+New\ \[-16, -12, CW\] Adjusted 14F9C8 to stop one of the trees from floating.
+New\ \[-16, -15, CW\] Lowered 1775C9, 1775DB so the trees are no longer floating.
+New\ \[SuffolkCountyCharterSchool01\] Nudged 1CEE06 so the poster is properly attached to the wall. Lowered 29DEC to close a small gap at the bottom of the wall. Changed the matswap on 2C378 to match the nearby floors.
+New\ \[RailroadHQ01\] Lowered 95D33 and all of the junk on top of this desk so the desk is no longer floating. Also lowered 1A8AD3, all of the panels, and the skull on top of the console due to it floating. Disabled 95E4C as part of a clean-up effort. Nudged C078F slightly so the painting is actually attached to the wall.
+New\ \[PoseidonEnergy01\] Disabled 50650, 5054F, 126360 as part of a clean-up effort.
+New\ \[FensParkviewApartmentsExt\] Adjusted 20AEA7, 111863 so the trash pieces are no longer floating.
+New\ \[-21, -8, CW\] Rotated 1486E1 a tiny bit to fix a small gap between the landscape and the rock pile.
+New\ \[-15, 9, CW\] Increased the height of 1B9E52 to fix some z-fighting with the highway.
+New\ \[POIJS011\] Lowered 1F202E so the car is no longer floating.
+New\ \[-11, -5, CW\] Disabled 2095DE as it appears to be an accidental placement during development. These BlackPlane refs are always found inside interior cells.
+New\ \[-5, -19, CW\] Adjusted 1F40FF, 1F4101, 1F4102, 1F4100, 1F4103 so none of the crates are floating anymore.
+New\ \[CutlerBendExt07\] Adjusted 822BD to make the car no longer float.
+New\ \[DLC04TransitCenterExt03\] Swapped out 0600AB89 for the non-full version to reduce draw calls.
+New\ \[DLC04TransitCenterExt02\] Disabled 0604A41B as part of a clean-up effort.
+New\ \[-29, 5, CW\] Disabled 0600B070, 0600B06F, 0600B06D, 0600B067 as part of a clean-up effort.
+New\ \[-29, 4, CW\] Disabled 0600B123, 0600B068 as part of a clean-up effort.
+New\ \[BradbertonExt\] Adjusted 0602FB79 so the painting is properly attached to the wall.
+New\ \[BradbertonExt03\] Nudged 06017E1D so the windows are flush against the wall.
+New\ \[SafariAdventure05\] Swapped out 06014909, 06014901, 060148FD, 060148FC for their non-full version to reduce draw calls. Disabled 06014904, 06014900, 060148FB, 060148FA as part of a clean-up effort. Adjusted 0601DA3B to connect the pillar with both fences.
+New\ \[SafariAdventure02\] Swapped out 0600CDB1, 0600CDAD for their non-full version to reduce draw calls.
+New\ \[DLC04NukaWorldPowerPlant01\] Adjusted 060332C8, 060332C7, 060331EB, 060331DD, 0604A345, 06030316 so they are all attached to the wall. Disabled 06008C9A, 06008C54, 06008C4B, 06008C48, 06008C55, 06008C4A, 06008C49, 06008C42, 06008C43, 06008C3D, 06045B0E, 06045B0D as part of a clean-up effort. Rotated 0602D004 a tiny bit to fix some z-fighting with the wall the stain is placed against.
+New\ \[DBTechHighschool01\] Nudged 1F864A so the painting is attached to the wall.
+New\ \[GreenetechGenetics01\] Swapped out 14CEE3, 14CEF3 for their non-full version to reduce draw calls. Disabled 1F226, 1F268, 1F269, 1F26C, 1F2C1 as part of a clean-up effort.
+New\ \[Vault95\] Disabled DFF5F, DFD84 as part of a clean-up effort.
 - New\ \[D9D3\] Disable 1e3a7a, as I can't figure out a good placement to fix the floating debris on the road.
 - New\ \[DFB0\] Some light landscape shifts to smooth it out a bit near 14b91a
 - New\ \[DEE5\] Straighten out some landscape chunks near 74424 (four inverted pyramids near each other?)
