@@ -8,7 +8,17 @@ There are lines below with extra spacing, from Absterge documentation merges tha
 
 -- **83**
 
-- tbd
+- New\ \[
+- New\ \[D9E7\] Adjusted the hard edge of the dirty landscape to blend better near BED46
+- New\ \[DA06\] Moved FE9C4 and FE96A so they are no longer under the landscape around The Slog. Both plants are within the workshop border so they may be removeable in game.
+- New\ \[E2FC\] Address a landscape texture seam near 120156
+- New\ \[E675\] Also raised landscape on the left side of 1d60bf to mask a reference hole.
+- New\ \[E675\] Disabled 11df9c, was below ground, don't see a good position to move it above ground without navmesh adjustments [ugh, another block that looks like it needs work]
+- New\ \[DEC7\] Moved root 64809 up above ground, while disabling neighbor 6480A as I couldn't find a decent spot to put it.
+- New\ \[DEA7\] Raised the landscape and repositioned 202eb to not be below the ground. [navmesh needs worked on here as well, ugh]
+- New\ \[DEC8\] Fix up placement of 65ab7 so it's not below the ground. [ugh, the navmesh is fucked here]
+- New\ \[DEE7\] (Pending) Change base of 1b9e87 to TrashPileWall03_Gravel instead of it's current Marsh equivalent, neighboring gravel pile needs some placement work so it doesn't look so awkward while it partially covers the road chunk hole nearby.
+- New\ \[DD0B\] Clean up a few landscape pyramids to make the landscape look a bit more natural near 6593f [navmesh needs fixed to match, might require more work]
 - New\ \[Various\] An absolutely massive amount of mesh and material updates from DoubleYou that I will not even try to fill in here, a spreadsheet was included that covers the exact changes and it can be found in the repository.
 - New\ \[Various\] Backported all remaining reference changes from the newer Far Harbor ESM where required to maintain consistency.
 - New\ \[tbd\] Included a patched billboard model (1D0CD3 is an example) from DoubleYou that addresses some distant z-fighting with it's decal texture.
